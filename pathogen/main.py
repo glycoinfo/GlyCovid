@@ -29,7 +29,7 @@ def patient():
         df = df[['patient', 'age', 'hospitalized']].drop_duplicates()
         age = df['age'].tolist()[0]
         hospitalized = str(df['hospitalized'].tolist()[0]).lower()
-        text += f'glycovid:PAT{ _ } rdf:type owl:NamedIndividual ,\n\t\t\tsio:SIO_000393 ,\n\t\t\tsio:SIO_001214 ,\n\t\t\tsio:SIO_010048 ;\n\t\tglycovidOntology:isHospitalized "{ hospitalized }"xsd:boolean ;\n\t\tsio:SIO_000300 "{ age }"^^SIO_001013 .\n\n\n'
+        text += f'glycovid:PAT{ _ } rdf:type owl:NamedIndividual ,\n\t\t\tsio:SIO_000393 ,\n\t\t\tsio:SIO_001214 ,\n\t\t\tsio:SIO_010048 ;\n\t\tglycovidOntology:isHospitalized "{ hospitalized }"xsd:boolean ;\n\t\tsio:SIO_000300 "{ age }"^^sio:SIO_001013 .\n\n\n'
     file.write(text)
     file.close()
 

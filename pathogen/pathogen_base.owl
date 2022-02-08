@@ -85,4 +85,4 @@
 ###  http://rdf.glycoinfo.org/GlyCovid/Id/PUB33917609
 <http://rdf.glycoinfo.org/GlyCovid/Id/PUB33917609> rdf:type owl:NamedIndividual ,
                                                             <http://purl.obolibrary.org/obo/NCIT_C42881> ;
-                                            bibo:pmid "33917609"^^xsd:string .
+                                            bibo:pmid "33917609" .
