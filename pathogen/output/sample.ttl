@@ -19,210 +19,210 @@
 #######################################################
 
 glycovid:SAM1_6_A rdf:type owl:NamedIndividual ,
-			sio:SIO_00105 ;
+			sio:SIO_001050 ;
 		glycovidOntology:sampledFrom glycovid:PAT1 ;
 		glycovidOntology:afterOnset "6"^^sio:SIO_000430 ;
 		bao:BAO_0095007 "A"^^sio:SIO_010043 .
 
 
 glycovid:SAM1_10_A rdf:type owl:NamedIndividual ,
-			sio:SIO_00105 ;
+			sio:SIO_001050 ;
 		glycovidOntology:sampledFrom glycovid:PAT1 ;
 		glycovidOntology:afterOnset "10"^^sio:SIO_000430 ;
 		bao:BAO_0095007 "A"^^sio:SIO_010043 .
 
 
 glycovid:SAM1_22_A rdf:type owl:NamedIndividual ,
-			sio:SIO_00105 ;
+			sio:SIO_001050 ;
 		glycovidOntology:sampledFrom glycovid:PAT1 ;
 		glycovidOntology:afterOnset "22"^^sio:SIO_000430 ;
 		bao:BAO_0095007 "A"^^sio:SIO_010043 .
 
 
 glycovid:SAM2_3_A rdf:type owl:NamedIndividual ,
-			sio:SIO_00105 ;
+			sio:SIO_001050 ;
 		glycovidOntology:sampledFrom glycovid:PAT2 ;
 		glycovidOntology:afterOnset "3"^^sio:SIO_000430 ;
 		bao:BAO_0095007 "A"^^sio:SIO_010043 .
 
 
 glycovid:SAM2_15_A rdf:type owl:NamedIndividual ,
-			sio:SIO_00105 ;
+			sio:SIO_001050 ;
 		glycovidOntology:sampledFrom glycovid:PAT2 ;
 		glycovidOntology:afterOnset "15"^^sio:SIO_000430 ;
 		bao:BAO_0095007 "A"^^sio:SIO_010043 .
 
 
 glycovid:SAM2_24_A rdf:type owl:NamedIndividual ,
-			sio:SIO_00105 ;
+			sio:SIO_001050 ;
 		glycovidOntology:sampledFrom glycovid:PAT2 ;
 		glycovidOntology:afterOnset "24"^^sio:SIO_000430 ;
 		bao:BAO_0095007 "A"^^sio:SIO_010043 .
 
 
 glycovid:SAM3_-180_A rdf:type owl:NamedIndividual ,
-			sio:SIO_00105 ;
+			sio:SIO_001050 ;
 		glycovidOntology:sampledFrom glycovid:PAT3 ;
 		glycovidOntology:afterOnset "-180"^^sio:SIO_000430 ;
 		bao:BAO_0095007 "A"^^sio:SIO_010043 .
 
 
 glycovid:SAM3_4_A rdf:type owl:NamedIndividual ,
-			sio:SIO_00105 ;
+			sio:SIO_001050 ;
 		glycovidOntology:sampledFrom glycovid:PAT3 ;
 		glycovidOntology:afterOnset "4"^^sio:SIO_000430 ;
 		bao:BAO_0095007 "A"^^sio:SIO_010043 .
 
 
 glycovid:SAM3_11_A rdf:type owl:NamedIndividual ,
-			sio:SIO_00105 ;
+			sio:SIO_001050 ;
 		glycovidOntology:sampledFrom glycovid:PAT3 ;
 		glycovidOntology:afterOnset "11"^^sio:SIO_000430 ;
 		bao:BAO_0095007 "A"^^sio:SIO_010043 .
 
 
 glycovid:SAM4_12_A rdf:type owl:NamedIndividual ,
-			sio:SIO_00105 ;
+			sio:SIO_001050 ;
 		glycovidOntology:sampledFrom glycovid:PAT4 ;
 		glycovidOntology:afterOnset "12"^^sio:SIO_000430 ;
 		bao:BAO_0095007 "A"^^sio:SIO_010043 .
 
 
 glycovid:SAM1_6_G rdf:type owl:NamedIndividual ,
-			sio:SIO_00105 ;
+			sio:SIO_001050 ;
 		glycovidOntology:sampledFrom glycovid:PAT1 ;
 		glycovidOntology:afterOnset "6"^^sio:SIO_000430 ;
 		bao:BAO_0095007 "G"^^sio:SIO_010043 .
 
 
 glycovid:SAM1_10_G rdf:type owl:NamedIndividual ,
-			sio:SIO_00105 ;
+			sio:SIO_001050 ;
 		glycovidOntology:sampledFrom glycovid:PAT1 ;
 		glycovidOntology:afterOnset "10"^^sio:SIO_000430 ;
 		bao:BAO_0095007 "G"^^sio:SIO_010043 .
 
 
 glycovid:SAM1_22_G rdf:type owl:NamedIndividual ,
-			sio:SIO_00105 ;
+			sio:SIO_001050 ;
 		glycovidOntology:sampledFrom glycovid:PAT1 ;
 		glycovidOntology:afterOnset "22"^^sio:SIO_000430 ;
 		bao:BAO_0095007 "G"^^sio:SIO_010043 .
 
 
 glycovid:SAM2_3_G rdf:type owl:NamedIndividual ,
-			sio:SIO_00105 ;
+			sio:SIO_001050 ;
 		glycovidOntology:sampledFrom glycovid:PAT2 ;
 		glycovidOntology:afterOnset "3"^^sio:SIO_000430 ;
 		bao:BAO_0095007 "G"^^sio:SIO_010043 .
 
 
 glycovid:SAM2_15_G rdf:type owl:NamedIndividual ,
-			sio:SIO_00105 ;
+			sio:SIO_001050 ;
 		glycovidOntology:sampledFrom glycovid:PAT2 ;
 		glycovidOntology:afterOnset "15"^^sio:SIO_000430 ;
 		bao:BAO_0095007 "G"^^sio:SIO_010043 .
 
 
 glycovid:SAM2_24_G rdf:type owl:NamedIndividual ,
-			sio:SIO_00105 ;
+			sio:SIO_001050 ;
 		glycovidOntology:sampledFrom glycovid:PAT2 ;
 		glycovidOntology:afterOnset "24"^^sio:SIO_000430 ;
 		bao:BAO_0095007 "G"^^sio:SIO_010043 .
 
 
 glycovid:SAM3_-180_G rdf:type owl:NamedIndividual ,
-			sio:SIO_00105 ;
+			sio:SIO_001050 ;
 		glycovidOntology:sampledFrom glycovid:PAT3 ;
 		glycovidOntology:afterOnset "-180"^^sio:SIO_000430 ;
 		bao:BAO_0095007 "G"^^sio:SIO_010043 .
 
 
 glycovid:SAM3_4_G rdf:type owl:NamedIndividual ,
-			sio:SIO_00105 ;
+			sio:SIO_001050 ;
 		glycovidOntology:sampledFrom glycovid:PAT3 ;
 		glycovidOntology:afterOnset "4"^^sio:SIO_000430 ;
 		bao:BAO_0095007 "G"^^sio:SIO_010043 .
 
 
 glycovid:SAM3_11_G rdf:type owl:NamedIndividual ,
-			sio:SIO_00105 ;
+			sio:SIO_001050 ;
 		glycovidOntology:sampledFrom glycovid:PAT3 ;
 		glycovidOntology:afterOnset "11"^^sio:SIO_000430 ;
 		bao:BAO_0095007 "G"^^sio:SIO_010043 .
 
 
 glycovid:SAM4_12_G rdf:type owl:NamedIndividual ,
-			sio:SIO_00105 ;
+			sio:SIO_001050 ;
 		glycovidOntology:sampledFrom glycovid:PAT4 ;
 		glycovidOntology:afterOnset "12"^^sio:SIO_000430 ;
 		bao:BAO_0095007 "G"^^sio:SIO_010043 .
 
 
 glycovid:SAM1_6_M rdf:type owl:NamedIndividual ,
-			sio:SIO_00105 ;
+			sio:SIO_001050 ;
 		glycovidOntology:sampledFrom glycovid:PAT1 ;
 		glycovidOntology:afterOnset "6"^^sio:SIO_000430 ;
 		bao:BAO_0095007 "M"^^sio:SIO_010043 .
 
 
 glycovid:SAM1_10_M rdf:type owl:NamedIndividual ,
-			sio:SIO_00105 ;
+			sio:SIO_001050 ;
 		glycovidOntology:sampledFrom glycovid:PAT1 ;
 		glycovidOntology:afterOnset "10"^^sio:SIO_000430 ;
 		bao:BAO_0095007 "M"^^sio:SIO_010043 .
 
 
 glycovid:SAM1_22_M rdf:type owl:NamedIndividual ,
-			sio:SIO_00105 ;
+			sio:SIO_001050 ;
 		glycovidOntology:sampledFrom glycovid:PAT1 ;
 		glycovidOntology:afterOnset "22"^^sio:SIO_000430 ;
 		bao:BAO_0095007 "M"^^sio:SIO_010043 .
 
 
 glycovid:SAM2_3_M rdf:type owl:NamedIndividual ,
-			sio:SIO_00105 ;
+			sio:SIO_001050 ;
 		glycovidOntology:sampledFrom glycovid:PAT2 ;
 		glycovidOntology:afterOnset "3"^^sio:SIO_000430 ;
 		bao:BAO_0095007 "M"^^sio:SIO_010043 .
 
 
 glycovid:SAM2_15_M rdf:type owl:NamedIndividual ,
-			sio:SIO_00105 ;
+			sio:SIO_001050 ;
 		glycovidOntology:sampledFrom glycovid:PAT2 ;
 		glycovidOntology:afterOnset "15"^^sio:SIO_000430 ;
 		bao:BAO_0095007 "M"^^sio:SIO_010043 .
 
 
 glycovid:SAM2_24_M rdf:type owl:NamedIndividual ,
-			sio:SIO_00105 ;
+			sio:SIO_001050 ;
 		glycovidOntology:sampledFrom glycovid:PAT2 ;
 		glycovidOntology:afterOnset "24"^^sio:SIO_000430 ;
 		bao:BAO_0095007 "M"^^sio:SIO_010043 .
 
 
 glycovid:SAM3_-180_M rdf:type owl:NamedIndividual ,
-			sio:SIO_00105 ;
+			sio:SIO_001050 ;
 		glycovidOntology:sampledFrom glycovid:PAT3 ;
 		glycovidOntology:afterOnset "-180"^^sio:SIO_000430 ;
 		bao:BAO_0095007 "M"^^sio:SIO_010043 .
 
 
 glycovid:SAM3_4_M rdf:type owl:NamedIndividual ,
-			sio:SIO_00105 ;
+			sio:SIO_001050 ;
 		glycovidOntology:sampledFrom glycovid:PAT3 ;
 		glycovidOntology:afterOnset "4"^^sio:SIO_000430 ;
 		bao:BAO_0095007 "M"^^sio:SIO_010043 .
 
 
 glycovid:SAM3_11_M rdf:type owl:NamedIndividual ,
-			sio:SIO_00105 ;
+			sio:SIO_001050 ;
 		glycovidOntology:sampledFrom glycovid:PAT3 ;
 		glycovidOntology:afterOnset "11"^^sio:SIO_000430 ;
 		bao:BAO_0095007 "M"^^sio:SIO_010043 .
 
 
 glycovid:SAM4_12_M rdf:type owl:NamedIndividual ,
-			sio:SIO_00105 ;
+			sio:SIO_001050 ;
 		glycovidOntology:sampledFrom glycovid:PAT4 ;
 		glycovidOntology:afterOnset "12"^^sio:SIO_000430 ;
 		bao:BAO_0095007 "M"^^sio:SIO_010043 .

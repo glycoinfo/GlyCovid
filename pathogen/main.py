@@ -56,7 +56,7 @@ def sample():
     text = ''
     for _ in ['A', 'G', 'M']:
         for index, row in df_base.iterrows():
-            text += f'glycovid:SAM{row["patient"]}_{ row["onset"] }_{ _ } rdf:type owl:NamedIndividual ,\n\t\t\tsio:SIO_00105 ;\n\t\tglycovidOntology:sampledFrom glycovid:PAT{ row["patient"] } ;\n\t\tglycovidOntology:afterOnset "{row["onset"]}"^^sio:SIO_000430 ;\n\t\tbao:BAO_0095007 "{ _ }"^^sio:SIO_010043 .\n\n\n'
+            text += f'glycovid:SAM{row["patient"]}_{ row["onset"] }_{ _ } rdf:type owl:NamedIndividual ,\n\t\t\tsio:SIO_001050 ;\n\t\tglycovidOntology:sampledFrom glycovid:PAT{ row["patient"] } ;\n\t\tglycovidOntology:afterOnset "{row["onset"]}"^^sio:SIO_000430 ;\n\t\tbao:BAO_0095007 "{ _ }"^^sio:SIO_010043 .\n\n\n'
     file.write(text)
     file.close()
 
@@ -76,7 +76,7 @@ def sample_glycan():
             col = f'{row["patient"] }d{row["onset"]}{_}'
             for glid, score in zip(df_array['Glycan'], df_array[col]):
                 gtcid = df_glycan.at[glid, 'Linkage defined structure']
-                text += f'glycovid:SAM{ row["patient"] }_{ _.upper() }_{ gtcid } rdf:type owl:NamedIndividual ;\n\t\tglycovidOntology:hasGlycan glycoinfo:{ gtcid } ;\n\t\tglycovidOntology:hasSample glycovid:SAM{ row["patient"] }_{ _.upper() } ;\n\t\tglycovidOntology:has_interactor_A glycovid:SAM{ row["patient"] }_{ row["onset"] }_{ _.upper() } ;\n\t\tglycovidOntology:has_interactor_B glycoinfo:{ gtcid } ;\n\t\tbao:BAO_0002875 sio:SIO_001076 ; \n\t\tsio:000300 "{score}"^^sio:SIO001212 ;\n\t\tobo:IAO_0000119 glycovid:PUB33917609 ;\n\t\tdcterms:references glycovid:PUB33917609 .\n\n\n'
+                text += f'glycovid:SAM{ row["patient"] }_{ _.upper() }_{ row["onset"] }_{ gtcid } rdf:type owl:NamedIndividual ;\n\t\tglycovidOntology:hasGlycan glycoinfo:{ gtcid } ;\n\t\tglycovidOntology:hasSample glycovid:SAM{ row["patient"] }_{ row["onset"] }_{ _.upper() } ;\n\t\tglycovidOntology:has_interactor_A glycovid:SAM{ row["patient"] }_{ row["onset"] }_{ _.upper() } ;\n\t\tglycovidOntology:has_interactor_B glycoinfo:{ gtcid } ;\n\t\tbao:BAO_0002875 sio:SIO_001076 ; \n\t\tsio:SIO_000300 "{score}"^^sio:SIO001212 ;\n\t\tobo:IAO_0000119 glycovid:PUB33917609 ;\n\t\tdcterms:references glycovid:PUB33917609 .\n\n\n'
     file.write(text)
     file.close()
 
