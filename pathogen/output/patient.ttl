@@ -22,7 +22,7 @@ glycovid:PAT1 rdf:type owl:NamedIndividual ,
 			sio:SIO_000393 ,
 			sio:SIO_001214 ,
 			sio:SIO_010048 ;
-		glycovidOntology:isHospitalized "true"xsd:boolean ;
+		glycovidOntology:isHospitalized "true"^^xsd:boolean ;
 		sio:SIO_000300 "64"^^sio:SIO_001013 .
 
 
@@ -30,7 +30,7 @@ glycovid:PAT2 rdf:type owl:NamedIndividual ,
 			sio:SIO_000393 ,
 			sio:SIO_001214 ,
 			sio:SIO_010048 ;
-		glycovidOntology:isHospitalized "false"xsd:boolean ;
+		glycovidOntology:isHospitalized "false"^^xsd:boolean ;
 		sio:SIO_000300 "62"^^sio:SIO_001013 .
 
 
@@ -38,7 +38,7 @@ glycovid:PAT3 rdf:type owl:NamedIndividual ,
 			sio:SIO_000393 ,
 			sio:SIO_001214 ,
 			sio:SIO_010048 ;
-		glycovidOntology:isHospitalized "false"xsd:boolean ;
+		glycovidOntology:isHospitalized "false"^^xsd:boolean ;
 		sio:SIO_000300 "37"^^sio:SIO_001013 .
 
 
@@ -46,7 +46,7 @@ glycovid:PAT4 rdf:type owl:NamedIndividual ,
 			sio:SIO_000393 ,
 			sio:SIO_001214 ,
 			sio:SIO_010048 ;
-		glycovidOntology:isHospitalized "false"xsd:boolean ;
+		glycovidOntology:isHospitalized "false"^^xsd:boolean ;
 		sio:SIO_000300 "23"^^sio:SIO_001013 .
 
 
