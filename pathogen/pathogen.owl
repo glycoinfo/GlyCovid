@@ -1,0 +1,130 @@
+@prefix : <http://rdf.glycoinfo.org/GlyCovid/yvk#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix glycovid: <http://rdf.glycoinfo.org/GlyCovid/Id/> .
+@prefix glycovidOntology: <http://rdf.glycoinfo.org/GlyCovidRDF/Ontology#> .
+@prefix sio: <http://semanticscience.org/resource/> .
+@prefix glycoinfo: <http://rdf.glycoinfo.org/glycan/> .
+@prefix bao: <http://www.bioassayontology.org/bao#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix obo: <http://purl.obolibrary.org/obo/> .
+
+@base <http://rdf.glycoinfo.org/GlyCovid/yvk> .
+
+<http://rdf.glycoinfo.org/GlyCovid/yvk> rdf:type owl:Ontology ;
+                owl:imports <http://purl.jp/bio/12/glyco/glycan> ,
+                <http://purl.obolibrary.org/obo/iao/2020-12-09/iao.owl> ,
+                <http://purl.obolibrary.org/obo/ncit/releases/2021-08-20/ncit.owl> ,
+                <http://semanticscience.org/ontology/sio/v1.54/sio-release.owl> ,
+                <http://www.bioassayontology.org/bao/bao_complete.owl> .
+
+#################################################################
+#    Annotation properties
+#################################################################
+
+###  http://www.bioassayontology.org/bao#BAO_0002875
+<http://www.bioassayontology.org/bao#BAO_0002875> rdf:type owl:AnnotationProperty .
+
+
+###  http://www.bioassayontology.org/bao#BAO_0095007
+<http://www.bioassayontology.org/bao#BAO_0095007> rdf:type owl:AnnotationProperty .
+
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://rdf.glycoinfo.org/GlyCovidRDF/Ontology#afterOnset
+<http://rdf.glycoinfo.org/GlyCovidRDF/Ontology#afterOnset> rdf:type owl:ObjectProperty .
+
+
+###  http://rdf.glycoinfo.org/GlyCovidRDF/Ontology#hasGlycan
+<http://rdf.glycoinfo.org/GlyCovidRDF/Ontology#hasGlycan> rdf:type owl:ObjectProperty .
+
+
+###  http://rdf.glycoinfo.org/GlyCovidRDF/Ontology#hasSample
+<http://rdf.glycoinfo.org/GlyCovidRDF/Ontology#hasSample> rdf:type owl:ObjectProperty .
+
+
+###  http://rdf.glycoinfo.org/GlyCovidRDF/Ontology#has_interactor_A
+<http://rdf.glycoinfo.org/GlyCovidRDF/Ontology#has_interactor_A> rdf:type owl:ObjectProperty .
+
+
+###  http://rdf.glycoinfo.org/GlyCovidRDF/Ontology#has_interactor_B
+<http://rdf.glycoinfo.org/GlyCovidRDF/Ontology#has_interactor_B> rdf:type owl:ObjectProperty .
+
+
+###  http://rdf.glycoinfo.org/GlyCovidRDF/Ontology#isHospitalized
+<http://rdf.glycoinfo.org/GlyCovidRDF/Ontology#isHospitalized> rdf:type owl:ObjectProperty .
+
+
+###  http://rdf.glycoinfo.org/GlyCovidRDF/Ontology#sampledFrom
+<http://rdf.glycoinfo.org/GlyCovidRDF/Ontology#sampledFrom> rdf:type owl:ObjectProperty .
+
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  http://rdf.glycoinfo.org/GlyCovidRDF/Ontology#afterOnset
+<http://rdf.glycoinfo.org/GlyCovidRDF/Ontology#afterOnset> rdf:type owl:DatatypeProperty .
+
+
+###  http://rdf.glycoinfo.org/GlyCovidRDF/Ontology#isHospitalized
+<http://rdf.glycoinfo.org/GlyCovidRDF/Ontology#isHospitalized> rdf:type owl:DatatypeProperty .
+
+
+#################################################################
+#    Individuals
+#################################################################
+
+###  http://rdf.glycoinfo.org/GlyCovid/Id/PAT1
+<http://rdf.glycoinfo.org/GlyCovid/Id/PAT1> rdf:type owl:NamedIndividual ,
+                                                     <http://semanticscience.org/resource/SIO_000393> ,
+                                                     <http://semanticscience.org/resource/SIO_001214> ,
+                                                     <http://semanticscience.org/resource/SIO_010048> ;
+                                            <http://rdf.glycoinfo.org/GlyCovidRDF/Ontology#isHospitalized> "true"^^xsd:boolean ;
+                                            <http://semanticscience.org/resource/SIO_000300> "64^^<http://semanticscience.org/resource/SIO_001013>" .
+
+
+###  http://rdf.glycoinfo.org/GlyCovid/Id/PUB33917609
+<http://rdf.glycoinfo.org/GlyCovid/Id/PUB33917609> rdf:type owl:NamedIndividual ,
+                                                            <http://purl.obolibrary.org/obo/NCIT_C42881> ;
+                                            dcterms:references <http://www.ncbi.nlm.nih.gov/pubmed/33917609> ;
+                                            bibo:pmid "33917609"^^xsd:string .
+
+
+###  http://rdf.glycoinfo.org/GlyCovid/Id/SAM1_A
+<http://rdf.glycoinfo.org/GlyCovid/Id/SAM1_A> rdf:type owl:NamedIndividual ,
+                                                       <http://semanticscience.org/resource/SIO_001050> ;
+                                              <http://rdf.glycoinfo.org/GlyCovidRDF/Ontology#sampledFrom> <http://rdf.glycoinfo.org/GlyCovid/Id/PAT1> ;
+                                              <http://rdf.glycoinfo.org/GlyCovidRDF/Ontology#afterOnset> "6^^<http://semanticscience.org/resource/SIO_000430>" ;
+                                              <http://www.bioassayontology.org/bao#BAO_0095007> "IgA^^<http://semanticscience.org/resource/SIO_010043>" .
+
+
+###  http://rdf.glycoinfo.org/GlyCovid/Id/SAM1_A_G78255UI
+<http://rdf.glycoinfo.org/GlyCovid/Id/SAM1_A_G78255UI> rdf:type owl:NamedIndividual ;
+                                                       <http://rdf.glycoinfo.org/GlyCovidRDF/Ontology#hasGlycan> <http://rdf.glycoinfo.org/glycan/G78255UI> ;
+                                                       <http://rdf.glycoinfo.org/GlyCovidRDF/Ontology#hasSample> <http://rdf.glycoinfo.org/GlyCovid/Id/SAM1_A> ;
+                                                       <http://rdf.glycoinfo.org/GlyCovidRDF/Ontology#has_interactor_A> <http://rdf.glycoinfo.org/GlyCovid/Id/SAM1_A> ;
+                                                       <http://rdf.glycoinfo.org/GlyCovidRDF/Ontology#has_interactor_B> <http://rdf.glycoinfo.org/glycan/G78255UI> ;
+                                                       <http://www.bioassayontology.org/bao#BAO_0002875> <http://semanticscience.org/resource/SIO_001076> ;
+                                                       <http://semanticscience.org/resource/SIO_000300> "446.25^^<https://semanticscience.org/resource/SIO_001212>" ;
+                                                       <http://purl.obolibrary.org/obo/IAO_0000119> <http://rdf.glycoinfo.org/GlyCovid/Id/PUB33917609> .
+
+
+###  http://rdf.glycoinfo.org/glycan/G78255UI
+<http://rdf.glycoinfo.org/glycan/G78255UI> rdf:type owl:NamedIndividual ,
+                                                    <http://www.bioassayontology.org/bao#BAO_0002015> ;
+                                           <http://rdf.glycoinfo.org/GlyCovidRDF/Ontology#has_interactor_B> <http://rdf.glycoinfo.org/glycan/G78255UI> .
+
+
+###  http://semanticscience.org/resource/SIO_001076
+<http://semanticscience.org/resource/SIO_001076> rdf:type owl:NamedIndividual .
+
+
+###  Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi

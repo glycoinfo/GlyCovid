@@ -1,0 +1,11 @@
+sample,patient,gender,age,symptom,hospitalized,onset
+1,1,male,64,moderate,true,6
+2,1,male,64,moderate,true,10
+3,1,male,64,moderate,true,22
+4,2,female,62,mild,false,3
+5,2,female,62,mild,false,15
+6,2,female,62,mild,false,24
+7,3,male,37,mild,false,-180
+8,3,male,37,mild,false,4
+9,3,male,37,mild,false,11
+10,4,female,23,mild,false,12
