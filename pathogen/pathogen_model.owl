@@ -1,3 +1,6 @@
+### This owl file is prepared for updating ontology. Those who load owl base, please reffer "pathogen_base.owl" in the same directory.
+### This file is named as 'model' in terms of that this stores the individuals of each class(l84~)
+
 @prefix : <http://rdf.glycoinfo.org/GlyCovid/yvk#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
