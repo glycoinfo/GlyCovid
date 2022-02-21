@@ -502,22 +502,22 @@ glycovid:SAM1_A_6_G54064FW rdf:type owl:NamedIndividual ;
 		dcterms:references glycovid:PUB33917609 .
 
 
-glycovid:SAM1_A_6_G55143WF rdf:type owl:NamedIndividual ;
-		glycovidOntology:hasGlycan glycoinfo:G55143WF ;
+glycovid:SAM1_A_6_G51872EK rdf:type owl:NamedIndividual ;
+		glycovidOntology:hasGlycan glycoinfo:G51872EK ;
 		glycovidOntology:hasSample glycovid:SAM1_6_A ;
 		glycovidOntology:has_interactor_A glycovid:SAM1_6_A ;
-		glycovidOntology:has_interactor_B glycoinfo:G55143WF ;
+		glycovidOntology:has_interactor_B glycoinfo:G51872EK ;
 		bao:BAO_0002875 sio:SIO_001076 ; 
 		sio:SIO_000300 "311.0"^^sio:SIO001212 ;
 		obo:IAO_0000119 glycovid:PUB33917609 ;
 		dcterms:references glycovid:PUB33917609 .
 
 
-glycovid:SAM1_A_6_G51872EK rdf:type owl:NamedIndividual ;
-		glycovidOntology:hasGlycan glycoinfo:G51872EK ;
+glycovid:SAM1_A_6_G49916XD rdf:type owl:NamedIndividual ;
+		glycovidOntology:hasGlycan glycoinfo:G49916XD ;
 		glycovidOntology:hasSample glycovid:SAM1_6_A ;
 		glycovidOntology:has_interactor_A glycovid:SAM1_6_A ;
-		glycovidOntology:has_interactor_B glycoinfo:G51872EK ;
+		glycovidOntology:has_interactor_B glycoinfo:G49916XD ;
 		bao:BAO_0002875 sio:SIO_001076 ; 
 		sio:SIO_000300 "395.0"^^sio:SIO001212 ;
 		obo:IAO_0000119 glycovid:PUB33917609 ;
@@ -656,11 +656,11 @@ glycovid:SAM1_A_6_G43534QA rdf:type owl:NamedIndividual ;
 		dcterms:references glycovid:PUB33917609 .
 
 
-glycovid:SAM1_A_6_G82168GG rdf:type owl:NamedIndividual ;
-		glycovidOntology:hasGlycan glycoinfo:G82168GG ;
+glycovid:SAM1_A_6_G36191CD rdf:type owl:NamedIndividual ;
+		glycovidOntology:hasGlycan glycoinfo:G36191CD ;
 		glycovidOntology:hasSample glycovid:SAM1_6_A ;
 		glycovidOntology:has_interactor_A glycovid:SAM1_6_A ;
-		glycovidOntology:has_interactor_B glycoinfo:G82168GG ;
+		glycovidOntology:has_interactor_B glycoinfo:G36191CD ;
 		bao:BAO_0002875 sio:SIO_001076 ; 
 		sio:SIO_000300 "278.0"^^sio:SIO001212 ;
 		obo:IAO_0000119 glycovid:PUB33917609 ;
@@ -733,11 +733,11 @@ glycovid:SAM1_A_6_G82942ZJ rdf:type owl:NamedIndividual ;
 		dcterms:references glycovid:PUB33917609 .
 
 
-glycovid:SAM1_A_6_G21146IK rdf:type owl:NamedIndividual ;
-		glycovidOntology:hasGlycan glycoinfo:G21146IK ;
+glycovid:SAM1_A_6_G14844CX rdf:type owl:NamedIndividual ;
+		glycovidOntology:hasGlycan glycoinfo:G14844CX ;
 		glycovidOntology:hasSample glycovid:SAM1_6_A ;
 		glycovidOntology:has_interactor_A glycovid:SAM1_6_A ;
-		glycovidOntology:has_interactor_B glycoinfo:G21146IK ;
+		glycovidOntology:has_interactor_B glycoinfo:G14844CX ;
 		bao:BAO_0002875 sio:SIO_001076 ; 
 		sio:SIO_000300 "303.75"^^sio:SIO001212 ;
 		obo:IAO_0000119 glycovid:PUB33917609 ;
@@ -1437,22 +1437,22 @@ glycovid:SAM1_A_6_G19868AX rdf:type owl:NamedIndividual ;
 		dcterms:references glycovid:PUB33917609 .
 
 
-glycovid:SAM1_A_6_G37476QB rdf:type owl:NamedIndividual ;
-		glycovidOntology:hasGlycan glycoinfo:G37476QB ;
+glycovid:SAM1_A_6_G63074CQ rdf:type owl:NamedIndividual ;
+		glycovidOntology:hasGlycan glycoinfo:G63074CQ ;
 		glycovidOntology:hasSample glycovid:SAM1_6_A ;
 		glycovidOntology:has_interactor_A glycovid:SAM1_6_A ;
-		glycovidOntology:has_interactor_B glycoinfo:G37476QB ;
+		glycovidOntology:has_interactor_B glycoinfo:G63074CQ ;
 		bao:BAO_0002875 sio:SIO_001076 ; 
 		sio:SIO_000300 "321.5"^^sio:SIO001212 ;
 		obo:IAO_0000119 glycovid:PUB33917609 ;
 		dcterms:references glycovid:PUB33917609 .
 
 
-glycovid:SAM1_A_6_G37476QB rdf:type owl:NamedIndividual ;
-		glycovidOntology:hasGlycan glycoinfo:G37476QB ;
+glycovid:SAM1_A_6_G25473LQ rdf:type owl:NamedIndividual ;
+		glycovidOntology:hasGlycan glycoinfo:G25473LQ ;
 		glycovidOntology:hasSample glycovid:SAM1_6_A ;
 		glycovidOntology:has_interactor_A glycovid:SAM1_6_A ;
-		glycovidOntology:has_interactor_B glycoinfo:G37476QB ;
+		glycovidOntology:has_interactor_B glycoinfo:G25473LQ ;
 		bao:BAO_0002875 sio:SIO_001076 ; 
 		sio:SIO_000300 "332.0"^^sio:SIO001212 ;
 		obo:IAO_0000119 glycovid:PUB33917609 ;
@@ -1481,11 +1481,11 @@ glycovid:SAM1_A_6_G02670IJ rdf:type owl:NamedIndividual ;
 		dcterms:references glycovid:PUB33917609 .
 
 
-glycovid:SAM1_A_6_G99858XP rdf:type owl:NamedIndividual ;
-		glycovidOntology:hasGlycan glycoinfo:G99858XP ;
+glycovid:SAM1_A_6_G51175PR rdf:type owl:NamedIndividual ;
+		glycovidOntology:hasGlycan glycoinfo:G51175PR ;
 		glycovidOntology:hasSample glycovid:SAM1_6_A ;
 		glycovidOntology:has_interactor_A glycovid:SAM1_6_A ;
-		glycovidOntology:has_interactor_B glycoinfo:G99858XP ;
+		glycovidOntology:has_interactor_B glycoinfo:G51175PR ;
 		bao:BAO_0002875 sio:SIO_001076 ; 
 		sio:SIO_000300 "311.75"^^sio:SIO001212 ;
 		obo:IAO_0000119 glycovid:PUB33917609 ;
@@ -1987,22 +1987,22 @@ glycovid:SAM1_A_10_G54064FW rdf:type owl:NamedIndividual ;
 		dcterms:references glycovid:PUB33917609 .
 
 
-glycovid:SAM1_A_10_G55143WF rdf:type owl:NamedIndividual ;
-		glycovidOntology:hasGlycan glycoinfo:G55143WF ;
+glycovid:SAM1_A_10_G51872EK rdf:type owl:NamedIndividual ;
+		glycovidOntology:hasGlycan glycoinfo:G51872EK ;
 		glycovidOntology:hasSample glycovid:SAM1_10_A ;
 		glycovidOntology:has_interactor_A glycovid:SAM1_10_A ;
-		glycovidOntology:has_interactor_B glycoinfo:G55143WF ;
+		glycovidOntology:has_interactor_B glycoinfo:G51872EK ;
 		bao:BAO_0002875 sio:SIO_001076 ; 
 		sio:SIO_000300 "403.5"^^sio:SIO001212 ;
 		obo:IAO_0000119 glycovid:PUB33917609 ;
 		dcterms:references glycovid:PUB33917609 .
 
 
-glycovid:SAM1_A_10_G51872EK rdf:type owl:NamedIndividual ;
-		glycovidOntology:hasGlycan glycoinfo:G51872EK ;
+glycovid:SAM1_A_10_G49916XD rdf:type owl:NamedIndividual ;
+		glycovidOntology:hasGlycan glycoinfo:G49916XD ;
 		glycovidOntology:hasSample glycovid:SAM1_10_A ;
 		glycovidOntology:has_interactor_A glycovid:SAM1_10_A ;
-		glycovidOntology:has_interactor_B glycoinfo:G51872EK ;
+		glycovidOntology:has_interactor_B glycoinfo:G49916XD ;
 		bao:BAO_0002875 sio:SIO_001076 ; 
 		sio:SIO_000300 "415.0"^^sio:SIO001212 ;
 		obo:IAO_0000119 glycovid:PUB33917609 ;
@@ -2141,11 +2141,11 @@ glycovid:SAM1_A_10_G43534QA rdf:type owl:NamedIndividual ;
 		dcterms:references glycovid:PUB33917609 .
 
 
-glycovid:SAM1_A_10_G82168GG rdf:type owl:NamedIndividual ;
-		glycovidOntology:hasGlycan glycoinfo:G82168GG ;
+glycovid:SAM1_A_10_G36191CD rdf:type owl:NamedIndividual ;
+		glycovidOntology:hasGlycan glycoinfo:G36191CD ;
 		glycovidOntology:hasSample glycovid:SAM1_10_A ;
 		glycovidOntology:has_interactor_A glycovid:SAM1_10_A ;
-		glycovidOntology:has_interactor_B glycoinfo:G82168GG ;
+		glycovidOntology:has_interactor_B glycoinfo:G36191CD ;
 		bao:BAO_0002875 sio:SIO_001076 ; 
 		sio:SIO_000300 "253.75"^^sio:SIO001212 ;
 		obo:IAO_0000119 glycovid:PUB33917609 ;
@@ -2218,11 +2218,11 @@ glycovid:SAM1_A_10_G82942ZJ rdf:type owl:NamedIndividual ;
 		dcterms:references glycovid:PUB33917609 .
 
 
-glycovid:SAM1_A_10_G21146IK rdf:type owl:NamedIndividual ;
-		glycovidOntology:hasGlycan glycoinfo:G21146IK ;
+glycovid:SAM1_A_10_G14844CX rdf:type owl:NamedIndividual ;
+		glycovidOntology:hasGlycan glycoinfo:G14844CX ;
 		glycovidOntology:hasSample glycovid:SAM1_10_A ;
 		glycovidOntology:has_interactor_A glycovid:SAM1_10_A ;
-		glycovidOntology:has_interactor_B glycoinfo:G21146IK ;
+		glycovidOntology:has_interactor_B glycoinfo:G14844CX ;
 		bao:BAO_0002875 sio:SIO_001076 ; 
 		sio:SIO_000300 "414.75"^^sio:SIO001212 ;
 		obo:IAO_0000119 glycovid:PUB33917609 ;
@@ -2922,22 +2922,22 @@ glycovid:SAM1_A_10_G19868AX rdf:type owl:NamedIndividual ;
 		dcterms:references glycovid:PUB33917609 .
 
 
-glycovid:SAM1_A_10_G37476QB rdf:type owl:NamedIndividual ;
-		glycovidOntology:hasGlycan glycoinfo:G37476QB ;
+glycovid:SAM1_A_10_G63074CQ rdf:type owl:NamedIndividual ;
+		glycovidOntology:hasGlycan glycoinfo:G63074CQ ;
 		glycovidOntology:hasSample glycovid:SAM1_10_A ;
 		glycovidOntology:has_interactor_A glycovid:SAM1_10_A ;
-		glycovidOntology:has_interactor_B glycoinfo:G37476QB ;
+		glycovidOntology:has_interactor_B glycoinfo:G63074CQ ;
 		bao:BAO_0002875 sio:SIO_001076 ; 
 		sio:SIO_000300 "391.75"^^sio:SIO001212 ;
 		obo:IAO_0000119 glycovid:PUB33917609 ;
 		dcterms:references glycovid:PUB33917609 .
 
 
-glycovid:SAM1_A_10_G37476QB rdf:type owl:NamedIndividual ;
-		glycovidOntology:hasGlycan glycoinfo:G37476QB ;
+glycovid:SAM1_A_10_G25473LQ rdf:type owl:NamedIndividual ;
+		glycovidOntology:hasGlycan glycoinfo:G25473LQ ;
 		glycovidOntology:hasSample glycovid:SAM1_10_A ;
 		glycovidOntology:has_interactor_A glycovid:SAM1_10_A ;
-		glycovidOntology:has_interactor_B glycoinfo:G37476QB ;
+		glycovidOntology:has_interactor_B glycoinfo:G25473LQ ;
 		bao:BAO_0002875 sio:SIO_001076 ; 
 		sio:SIO_000300 "415.0"^^sio:SIO001212 ;
 		obo:IAO_0000119 glycovid:PUB33917609 ;
@@ -2966,11 +2966,11 @@ glycovid:SAM1_A_10_G02670IJ rdf:type owl:NamedIndividual ;
 		dcterms:references glycovid:PUB33917609 .
 
 
-glycovid:SAM1_A_10_G99858XP rdf:type owl:NamedIndividual ;
-		glycovidOntology:hasGlycan glycoinfo:G99858XP ;
+glycovid:SAM1_A_10_G51175PR rdf:type owl:NamedIndividual ;
+		glycovidOntology:hasGlycan glycoinfo:G51175PR ;
 		glycovidOntology:hasSample glycovid:SAM1_10_A ;
 		glycovidOntology:has_interactor_A glycovid:SAM1_10_A ;
-		glycovidOntology:has_interactor_B glycoinfo:G99858XP ;
+		glycovidOntology:has_interactor_B glycoinfo:G51175PR ;
 		bao:BAO_0002875 sio:SIO_001076 ; 
 		sio:SIO_000300 "304.75"^^sio:SIO001212 ;
 		obo:IAO_0000119 glycovid:PUB33917609 ;
@@ -3472,22 +3472,22 @@ glycovid:SAM1_A_22_G54064FW rdf:type owl:NamedIndividual ;
 		dcterms:references glycovid:PUB33917609 .
 
 
-glycovid:SAM1_A_22_G55143WF rdf:type owl:NamedIndividual ;
-		glycovidOntology:hasGlycan glycoinfo:G55143WF ;
+glycovid:SAM1_A_22_G51872EK rdf:type owl:NamedIndividual ;
+		glycovidOntology:hasGlycan glycoinfo:G51872EK ;
 		glycovidOntology:hasSample glycovid:SAM1_22_A ;
 		glycovidOntology:has_interactor_A glycovid:SAM1_22_A ;
-		glycovidOntology:has_interactor_B glycoinfo:G55143WF ;
+		glycovidOntology:has_interactor_B glycoinfo:G51872EK ;
 		bao:BAO_0002875 sio:SIO_001076 ; 
 		sio:SIO_000300 "374.5"^^sio:SIO001212 ;
 		obo:IAO_0000119 glycovid:PUB33917609 ;
 		dcterms:references glycovid:PUB33917609 .
 
 
-glycovid:SAM1_A_22_G51872EK rdf:type owl:NamedIndividual ;
-		glycovidOntology:hasGlycan glycoinfo:G51872EK ;
+glycovid:SAM1_A_22_G49916XD rdf:type owl:NamedIndividual ;
+		glycovidOntology:hasGlycan glycoinfo:G49916XD ;
 		glycovidOntology:hasSample glycovid:SAM1_22_A ;
 		glycovidOntology:has_interactor_A glycovid:SAM1_22_A ;
-		glycovidOntology:has_interactor_B glycoinfo:G51872EK ;
+		glycovidOntology:has_interactor_B glycoinfo:G49916XD ;
 		bao:BAO_0002875 sio:SIO_001076 ; 
 		sio:SIO_000300 "400.5"^^sio:SIO001212 ;
 		obo:IAO_0000119 glycovid:PUB33917609 ;
@@ -3626,11 +3626,11 @@ glycovid:SAM1_A_22_G43534QA rdf:type owl:NamedIndividual ;
 		dcterms:references glycovid:PUB33917609 .
 
 
-glycovid:SAM1_A_22_G82168GG rdf:type owl:NamedIndividual ;
-		glycovidOntology:hasGlycan glycoinfo:G82168GG ;
+glycovid:SAM1_A_22_G36191CD rdf:type owl:NamedIndividual ;
+		glycovidOntology:hasGlycan glycoinfo:G36191CD ;
 		glycovidOntology:hasSample glycovid:SAM1_22_A ;
 		glycovidOntology:has_interactor_A glycovid:SAM1_22_A ;
-		glycovidOntology:has_interactor_B glycoinfo:G82168GG ;
+		glycovidOntology:has_interactor_B glycoinfo:G36191CD ;
 		bao:BAO_0002875 sio:SIO_001076 ; 
 		sio:SIO_000300 "269.75"^^sio:SIO001212 ;
 		obo:IAO_0000119 glycovid:PUB33917609 ;
@@ -3703,11 +3703,11 @@ glycovid:SAM1_A_22_G82942ZJ rdf:type owl:NamedIndividual ;
 		dcterms:references glycovid:PUB33917609 .
 
 
-glycovid:SAM1_A_22_G21146IK rdf:type owl:NamedIndividual ;
-		glycovidOntology:hasGlycan glycoinfo:G21146IK ;
+glycovid:SAM1_A_22_G14844CX rdf:type owl:NamedIndividual ;
+		glycovidOntology:hasGlycan glycoinfo:G14844CX ;
 		glycovidOntology:hasSample glycovid:SAM1_22_A ;
 		glycovidOntology:has_interactor_A glycovid:SAM1_22_A ;
-		glycovidOntology:has_interactor_B glycoinfo:G21146IK ;
+		glycovidOntology:has_interactor_B glycoinfo:G14844CX ;
 		bao:BAO_0002875 sio:SIO_001076 ; 
 		sio:SIO_000300 "389.0"^^sio:SIO001212 ;
 		obo:IAO_0000119 glycovid:PUB33917609 ;
@@ -4407,22 +4407,22 @@ glycovid:SAM1_A_22_G19868AX rdf:type owl:NamedIndividual ;
 		dcterms:references glycovid:PUB33917609 .
 
 
-glycovid:SAM1_A_22_G37476QB rdf:type owl:NamedIndividual ;
-		glycovidOntology:hasGlycan glycoinfo:G37476QB ;
+glycovid:SAM1_A_22_G63074CQ rdf:type owl:NamedIndividual ;
+		glycovidOntology:hasGlycan glycoinfo:G63074CQ ;
 		glycovidOntology:hasSample glycovid:SAM1_22_A ;
 		glycovidOntology:has_interactor_A glycovid:SAM1_22_A ;
-		glycovidOntology:has_interactor_B glycoinfo:G37476QB ;
+		glycovidOntology:has_interactor_B glycoinfo:G63074CQ ;
 		bao:BAO_0002875 sio:SIO_001076 ; 
 		sio:SIO_000300 "353.25"^^sio:SIO001212 ;
 		obo:IAO_0000119 glycovid:PUB33917609 ;
 		dcterms:references glycovid:PUB33917609 .
 
 
-glycovid:SAM1_A_22_G37476QB rdf:type owl:NamedIndividual ;
-		glycovidOntology:hasGlycan glycoinfo:G37476QB ;
+glycovid:SAM1_A_22_G25473LQ rdf:type owl:NamedIndividual ;
+		glycovidOntology:hasGlycan glycoinfo:G25473LQ ;
 		glycovidOntology:hasSample glycovid:SAM1_22_A ;
 		glycovidOntology:has_interactor_A glycovid:SAM1_22_A ;
-		glycovidOntology:has_interactor_B glycoinfo:G37476QB ;
+		glycovidOntology:has_interactor_B glycoinfo:G25473LQ ;
 		bao:BAO_0002875 sio:SIO_001076 ; 
 		sio:SIO_000300 "382.5"^^sio:SIO001212 ;
 		obo:IAO_0000119 glycovid:PUB33917609 ;
@@ -4451,11 +4451,11 @@ glycovid:SAM1_A_22_G02670IJ rdf:type owl:NamedIndividual ;
 		dcterms:references glycovid:PUB33917609 .
 
 
-glycovid:SAM1_A_22_G99858XP rdf:type owl:NamedIndividual ;
-		glycovidOntology:hasGlycan glycoinfo:G99858XP ;
+glycovid:SAM1_A_22_G51175PR rdf:type owl:NamedIndividual ;
+		glycovidOntology:hasGlycan glycoinfo:G51175PR ;
 		glycovidOntology:hasSample glycovid:SAM1_22_A ;
 		glycovidOntology:has_interactor_A glycovid:SAM1_22_A ;
-		glycovidOntology:has_interactor_B glycoinfo:G99858XP ;
+		glycovidOntology:has_interactor_B glycoinfo:G51175PR ;
 		bao:BAO_0002875 sio:SIO_001076 ; 
 		sio:SIO_000300 "334.5"^^sio:SIO001212 ;
 		obo:IAO_0000119 glycovid:PUB33917609 ;
@@ -4957,22 +4957,22 @@ glycovid:SAM2_A_3_G54064FW rdf:type owl:NamedIndividual ;
 		dcterms:references glycovid:PUB33917609 .
 
 
-glycovid:SAM2_A_3_G55143WF rdf:type owl:NamedIndividual ;
-		glycovidOntology:hasGlycan glycoinfo:G55143WF ;
+glycovid:SAM2_A_3_G51872EK rdf:type owl:NamedIndividual ;
+		glycovidOntology:hasGlycan glycoinfo:G51872EK ;
 		glycovidOntology:hasSample glycovid:SAM2_3_A ;
 		glycovidOntology:has_interactor_A glycovid:SAM2_3_A ;
-		glycovidOntology:has_interactor_B glycoinfo:G55143WF ;
+		glycovidOntology:has_interactor_B glycoinfo:G51872EK ;
 		bao:BAO_0002875 sio:SIO_001076 ; 
 		sio:SIO_000300 "734.0"^^sio:SIO001212 ;
 		obo:IAO_0000119 glycovid:PUB33917609 ;
 		dcterms:references glycovid:PUB33917609 .
 
 
-glycovid:SAM2_A_3_G51872EK rdf:type owl:NamedIndividual ;
-		glycovidOntology:hasGlycan glycoinfo:G51872EK ;
+glycovid:SAM2_A_3_G49916XD rdf:type owl:NamedIndividual ;
+		glycovidOntology:hasGlycan glycoinfo:G49916XD ;
 		glycovidOntology:hasSample glycovid:SAM2_3_A ;
 		glycovidOntology:has_interactor_A glycovid:SAM2_3_A ;
-		glycovidOntology:has_interactor_B glycoinfo:G51872EK ;
+		glycovidOntology:has_interactor_B glycoinfo:G49916XD ;
 		bao:BAO_0002875 sio:SIO_001076 ; 
 		sio:SIO_000300 "305.0"^^sio:SIO001212 ;
 		obo:IAO_0000119 glycovid:PUB33917609 ;
@@ -5111,11 +5111,11 @@ glycovid:SAM2_A_3_G43534QA rdf:type owl:NamedIndividual ;
 		dcterms:references glycovid:PUB33917609 .
 
 
-glycovid:SAM2_A_3_G82168GG rdf:type owl:NamedIndividual ;
-		glycovidOntology:hasGlycan glycoinfo:G82168GG ;
+glycovid:SAM2_A_3_G36191CD rdf:type owl:NamedIndividual ;
+		glycovidOntology:hasGlycan glycoinfo:G36191CD ;
 		glycovidOntology:hasSample glycovid:SAM2_3_A ;
 		glycovidOntology:has_interactor_A glycovid:SAM2_3_A ;
-		glycovidOntology:has_interactor_B glycoinfo:G82168GG ;
+		glycovidOntology:has_interactor_B glycoinfo:G36191CD ;
 		bao:BAO_0002875 sio:SIO_001076 ; 
 		sio:SIO_000300 "530.0"^^sio:SIO001212 ;
 		obo:IAO_0000119 glycovid:PUB33917609 ;
@@ -5188,11 +5188,11 @@ glycovid:SAM2_A_3_G82942ZJ rdf:type owl:NamedIndividual ;
 		dcterms:references glycovid:PUB33917609 .
 
 
-glycovid:SAM2_A_3_G21146IK rdf:type owl:NamedIndividual ;
-		glycovidOntology:hasGlycan glycoinfo:G21146IK ;
+glycovid:SAM2_A_3_G14844CX rdf:type owl:NamedIndividual ;
+		glycovidOntology:hasGlycan glycoinfo:G14844CX ;
 		glycovidOntology:hasSample glycovid:SAM2_3_A ;
 		glycovidOntology:has_interactor_A glycovid:SAM2_3_A ;
-		glycovidOntology:has_interactor_B glycoinfo:G21146IK ;
+		glycovidOntology:has_interactor_B glycoinfo:G14844CX ;
 		bao:BAO_0002875 sio:SIO_001076 ; 
 		sio:SIO_000300 "354.5"^^sio:SIO001212 ;
 		obo:IAO_0000119 glycovid:PUB33917609 ;
@@ -5892,22 +5892,22 @@ glycovid:SAM2_A_3_G19868AX rdf:type owl:NamedIndividual ;
 		dcterms:references glycovid:PUB33917609 .
 
 
-glycovid:SAM2_A_3_G37476QB rdf:type owl:NamedIndividual ;
-		glycovidOntology:hasGlycan glycoinfo:G37476QB ;
+glycovid:SAM2_A_3_G63074CQ rdf:type owl:NamedIndividual ;
+		glycovidOntology:hasGlycan glycoinfo:G63074CQ ;
 		glycovidOntology:hasSample glycovid:SAM2_3_A ;
 		glycovidOntology:has_interactor_A glycovid:SAM2_3_A ;
-		glycovidOntology:has_interactor_B glycoinfo:G37476QB ;
+		glycovidOntology:has_interactor_B glycoinfo:G63074CQ ;
 		bao:BAO_0002875 sio:SIO_001076 ; 
 		sio:SIO_000300 "453.75"^^sio:SIO001212 ;
 		obo:IAO_0000119 glycovid:PUB33917609 ;
 		dcterms:references glycovid:PUB33917609 .
 
 
-glycovid:SAM2_A_3_G37476QB rdf:type owl:NamedIndividual ;
-		glycovidOntology:hasGlycan glycoinfo:G37476QB ;
+glycovid:SAM2_A_3_G25473LQ rdf:type owl:NamedIndividual ;
+		glycovidOntology:hasGlycan glycoinfo:G25473LQ ;
 		glycovidOntology:hasSample glycovid:SAM2_3_A ;
 		glycovidOntology:has_interactor_A glycovid:SAM2_3_A ;
-		glycovidOntology:has_interactor_B glycoinfo:G37476QB ;
+		glycovidOntology:has_interactor_B glycoinfo:G25473LQ ;
 		bao:BAO_0002875 sio:SIO_001076 ; 
 		sio:SIO_000300 "469.75"^^sio:SIO001212 ;
 		obo:IAO_0000119 glycovid:PUB33917609 ;
@@ -5936,11 +5936,11 @@ glycovid:SAM2_A_3_G02670IJ rdf:type owl:NamedIndividual ;
 		dcterms:references glycovid:PUB33917609 .
 
 
-glycovid:SAM2_A_3_G99858XP rdf:type owl:NamedIndividual ;
-		glycovidOntology:hasGlycan glycoinfo:G99858XP ;
+glycovid:SAM2_A_3_G51175PR rdf:type owl:NamedIndividual ;
+		glycovidOntology:hasGlycan glycoinfo:G51175PR ;
 		glycovidOntology:hasSample glycovid:SAM2_3_A ;
 		glycovidOntology:has_interactor_A glycovid:SAM2_3_A ;
-		glycovidOntology:has_interactor_B glycoinfo:G99858XP ;
+		glycovidOntology:has_interactor_B glycoinfo:G51175PR ;
 		bao:BAO_0002875 sio:SIO_001076 ; 
 		sio:SIO_000300 "465.0"^^sio:SIO001212 ;
 		obo:IAO_0000119 glycovid:PUB33917609 ;
@@ -6442,22 +6442,22 @@ glycovid:SAM2_A_15_G54064FW rdf:type owl:NamedIndividual ;
 		dcterms:references glycovid:PUB33917609 .
 
 
-glycovid:SAM2_A_15_G55143WF rdf:type owl:NamedIndividual ;
-		glycovidOntology:hasGlycan glycoinfo:G55143WF ;
+glycovid:SAM2_A_15_G51872EK rdf:type owl:NamedIndividual ;
+		glycovidOntology:hasGlycan glycoinfo:G51872EK ;
 		glycovidOntology:hasSample glycovid:SAM2_15_A ;
 		glycovidOntology:has_interactor_A glycovid:SAM2_15_A ;
-		glycovidOntology:has_interactor_B glycoinfo:G55143WF ;
+		glycovidOntology:has_interactor_B glycoinfo:G51872EK ;
 		bao:BAO_0002875 sio:SIO_001076 ; 
 		sio:SIO_000300 "778.75"^^sio:SIO001212 ;
 		obo:IAO_0000119 glycovid:PUB33917609 ;
 		dcterms:references glycovid:PUB33917609 .
 
 
-glycovid:SAM2_A_15_G51872EK rdf:type owl:NamedIndividual ;
-		glycovidOntology:hasGlycan glycoinfo:G51872EK ;
+glycovid:SAM2_A_15_G49916XD rdf:type owl:NamedIndividual ;
+		glycovidOntology:hasGlycan glycoinfo:G49916XD ;
 		glycovidOntology:hasSample glycovid:SAM2_15_A ;
 		glycovidOntology:has_interactor_A glycovid:SAM2_15_A ;
-		glycovidOntology:has_interactor_B glycoinfo:G51872EK ;
+		glycovidOntology:has_interactor_B glycoinfo:G49916XD ;
 		bao:BAO_0002875 sio:SIO_001076 ; 
 		sio:SIO_000300 "298.5"^^sio:SIO001212 ;
 		obo:IAO_0000119 glycovid:PUB33917609 ;
@@ -6596,11 +6596,11 @@ glycovid:SAM2_A_15_G43534QA rdf:type owl:NamedIndividual ;
 		dcterms:references glycovid:PUB33917609 .
 
 
-glycovid:SAM2_A_15_G82168GG rdf:type owl:NamedIndividual ;
-		glycovidOntology:hasGlycan glycoinfo:G82168GG ;
+glycovid:SAM2_A_15_G36191CD rdf:type owl:NamedIndividual ;
+		glycovidOntology:hasGlycan glycoinfo:G36191CD ;
 		glycovidOntology:hasSample glycovid:SAM2_15_A ;
 		glycovidOntology:has_interactor_A glycovid:SAM2_15_A ;
-		glycovidOntology:has_interactor_B glycoinfo:G82168GG ;
+		glycovidOntology:has_interactor_B glycoinfo:G36191CD ;
 		bao:BAO_0002875 sio:SIO_001076 ; 
 		sio:SIO_000300 "386.75"^^sio:SIO001212 ;
 		obo:IAO_0000119 glycovid:PUB33917609 ;
@@ -6673,11 +6673,11 @@ glycovid:SAM2_A_15_G82942ZJ rdf:type owl:NamedIndividual ;
 		dcterms:references glycovid:PUB33917609 .
 
 
-glycovid:SAM2_A_15_G21146IK rdf:type owl:NamedIndividual ;
-		glycovidOntology:hasGlycan glycoinfo:G21146IK ;
+glycovid:SAM2_A_15_G14844CX rdf:type owl:NamedIndividual ;
+		glycovidOntology:hasGlycan glycoinfo:G14844CX ;
 		glycovidOntology:hasSample glycovid:SAM2_15_A ;
 		glycovidOntology:has_interactor_A glycovid:SAM2_15_A ;
-		glycovidOntology:has_interactor_B glycoinfo:G21146IK ;
+		glycovidOntology:has_interactor_B glycoinfo:G14844CX ;
 		bao:BAO_0002875 sio:SIO_001076 ; 
 		sio:SIO_000300 "327.75"^^sio:SIO001212 ;
 		obo:IAO_0000119 glycovid:PUB33917609 ;
@@ -7377,22 +7377,22 @@ glycovid:SAM2_A_15_G19868AX rdf:type owl:NamedIndividual ;
 		dcterms:references glycovid:PUB33917609 .
 
 
-glycovid:SAM2_A_15_G37476QB rdf:type owl:NamedIndividual ;
-		glycovidOntology:hasGlycan glycoinfo:G37476QB ;
+glycovid:SAM2_A_15_G63074CQ rdf:type owl:NamedIndividual ;
+		glycovidOntology:hasGlycan glycoinfo:G63074CQ ;
 		glycovidOntology:hasSample glycovid:SAM2_15_A ;
 		glycovidOntology:has_interactor_A glycovid:SAM2_15_A ;
-		glycovidOntology:has_interactor_B glycoinfo:G37476QB ;
+		glycovidOntology:has_interactor_B glycoinfo:G63074CQ ;
 		bao:BAO_0002875 sio:SIO_001076 ; 
 		sio:SIO_000300 "397.0"^^sio:SIO001212 ;
 		obo:IAO_0000119 glycovid:PUB33917609 ;
 		dcterms:references glycovid:PUB33917609 .
 
 
-glycovid:SAM2_A_15_G37476QB rdf:type owl:NamedIndividual ;
-		glycovidOntology:hasGlycan glycoinfo:G37476QB ;
+glycovid:SAM2_A_15_G25473LQ rdf:type owl:NamedIndividual ;
+		glycovidOntology:hasGlycan glycoinfo:G25473LQ ;
 		glycovidOntology:hasSample glycovid:SAM2_15_A ;
 		glycovidOntology:has_interactor_A glycovid:SAM2_15_A ;
-		glycovidOntology:has_interactor_B glycoinfo:G37476QB ;
+		glycovidOntology:has_interactor_B glycoinfo:G25473LQ ;
 		bao:BAO_0002875 sio:SIO_001076 ; 
 		sio:SIO_000300 "400.0"^^sio:SIO001212 ;
 		obo:IAO_0000119 glycovid:PUB33917609 ;
@@ -7421,11 +7421,11 @@ glycovid:SAM2_A_15_G02670IJ rdf:type owl:NamedIndividual ;
 		dcterms:references glycovid:PUB33917609 .
 
 
-glycovid:SAM2_A_15_G99858XP rdf:type owl:NamedIndividual ;
-		glycovidOntology:hasGlycan glycoinfo:G99858XP ;
+glycovid:SAM2_A_15_G51175PR rdf:type owl:NamedIndividual ;
+		glycovidOntology:hasGlycan glycoinfo:G51175PR ;
 		glycovidOntology:hasSample glycovid:SAM2_15_A ;
 		glycovidOntology:has_interactor_A glycovid:SAM2_15_A ;
-		glycovidOntology:has_interactor_B glycoinfo:G99858XP ;
+		glycovidOntology:has_interactor_B glycoinfo:G51175PR ;
 		bao:BAO_0002875 sio:SIO_001076 ; 
 		sio:SIO_000300 "533.0"^^sio:SIO001212 ;
 		obo:IAO_0000119 glycovid:PUB33917609 ;
@@ -7927,22 +7927,22 @@ glycovid:SAM2_A_24_G54064FW rdf:type owl:NamedIndividual ;
 		dcterms:references glycovid:PUB33917609 .
 
 
-glycovid:SAM2_A_24_G55143WF rdf:type owl:NamedIndividual ;
-		glycovidOntology:hasGlycan glycoinfo:G55143WF ;
+glycovid:SAM2_A_24_G51872EK rdf:type owl:NamedIndividual ;
+		glycovidOntology:hasGlycan glycoinfo:G51872EK ;
 		glycovidOntology:hasSample glycovid:SAM2_24_A ;
 		glycovidOntology:has_interactor_A glycovid:SAM2_24_A ;
-		glycovidOntology:has_interactor_B glycoinfo:G55143WF ;
+		glycovidOntology:has_interactor_B glycoinfo:G51872EK ;
 		bao:BAO_0002875 sio:SIO_001076 ; 
 		sio:SIO_000300 "759.5"^^sio:SIO001212 ;
 		obo:IAO_0000119 glycovid:PUB33917609 ;
 		dcterms:references glycovid:PUB33917609 .
 
 
-glycovid:SAM2_A_24_G51872EK rdf:type owl:NamedIndividual ;
-		glycovidOntology:hasGlycan glycoinfo:G51872EK ;
+glycovid:SAM2_A_24_G49916XD rdf:type owl:NamedIndividual ;
+		glycovidOntology:hasGlycan glycoinfo:G49916XD ;
 		glycovidOntology:hasSample glycovid:SAM2_24_A ;
 		glycovidOntology:has_interactor_A glycovid:SAM2_24_A ;
-		glycovidOntology:has_interactor_B glycoinfo:G51872EK ;
+		glycovidOntology:has_interactor_B glycoinfo:G49916XD ;
 		bao:BAO_0002875 sio:SIO_001076 ; 
 		sio:SIO_000300 "338.75"^^sio:SIO001212 ;
 		obo:IAO_0000119 glycovid:PUB33917609 ;
@@ -8081,11 +8081,11 @@ glycovid:SAM2_A_24_G43534QA rdf:type owl:NamedIndividual ;
 		dcterms:references glycovid:PUB33917609 .
 
 
-glycovid:SAM2_A_24_G82168GG rdf:type owl:NamedIndividual ;
-		glycovidOntology:hasGlycan glycoinfo:G82168GG ;
+glycovid:SAM2_A_24_G36191CD rdf:type owl:NamedIndividual ;
+		glycovidOntology:hasGlycan glycoinfo:G36191CD ;
 		glycovidOntology:hasSample glycovid:SAM2_24_A ;
 		glycovidOntology:has_interactor_A glycovid:SAM2_24_A ;
-		glycovidOntology:has_interactor_B glycoinfo:G82168GG ;
+		glycovidOntology:has_interactor_B glycoinfo:G36191CD ;
 		bao:BAO_0002875 sio:SIO_001076 ; 
 		sio:SIO_000300 "444.75"^^sio:SIO001212 ;
 		obo:IAO_0000119 glycovid:PUB33917609 ;
@@ -8158,11 +8158,11 @@ glycovid:SAM2_A_24_G82942ZJ rdf:type owl:NamedIndividual ;
 		dcterms:references glycovid:PUB33917609 .
 
 
-glycovid:SAM2_A_24_G21146IK rdf:type owl:NamedIndividual ;
-		glycovidOntology:hasGlycan glycoinfo:G21146IK ;
+glycovid:SAM2_A_24_G14844CX rdf:type owl:NamedIndividual ;
+		glycovidOntology:hasGlycan glycoinfo:G14844CX ;
 		glycovidOntology:hasSample glycovid:SAM2_24_A ;
 		glycovidOntology:has_interactor_A glycovid:SAM2_24_A ;
-		glycovidOntology:has_interactor_B glycoinfo:G21146IK ;
+		glycovidOntology:has_interactor_B glycoinfo:G14844CX ;
 		bao:BAO_0002875 sio:SIO_001076 ; 
 		sio:SIO_000300 "368.75"^^sio:SIO001212 ;
 		obo:IAO_0000119 glycovid:PUB33917609 ;
@@ -8862,22 +8862,22 @@ glycovid:SAM2_A_24_G19868AX rdf:type owl:NamedIndividual ;
 		dcterms:references glycovid:PUB33917609 .
 
 
-glycovid:SAM2_A_24_G37476QB rdf:type owl:NamedIndividual ;
-		glycovidOntology:hasGlycan glycoinfo:G37476QB ;
+glycovid:SAM2_A_24_G63074CQ rdf:type owl:NamedIndividual ;
+		glycovidOntology:hasGlycan glycoinfo:G63074CQ ;
 		glycovidOntology:hasSample glycovid:SAM2_24_A ;
 		glycovidOntology:has_interactor_A glycovid:SAM2_24_A ;
-		glycovidOntology:has_interactor_B glycoinfo:G37476QB ;
+		glycovidOntology:has_interactor_B glycoinfo:G63074CQ ;
 		bao:BAO_0002875 sio:SIO_001076 ; 
 		sio:SIO_000300 "514.75"^^sio:SIO001212 ;
 		obo:IAO_0000119 glycovid:PUB33917609 ;
 		dcterms:references glycovid:PUB33917609 .
 
 
-glycovid:SAM2_A_24_G37476QB rdf:type owl:NamedIndividual ;
-		glycovidOntology:hasGlycan glycoinfo:G37476QB ;
+glycovid:SAM2_A_24_G25473LQ rdf:type owl:NamedIndividual ;
+		glycovidOntology:hasGlycan glycoinfo:G25473LQ ;
 		glycovidOntology:hasSample glycovid:SAM2_24_A ;
 		glycovidOntology:has_interactor_A glycovid:SAM2_24_A ;
-		glycovidOntology:has_interactor_B glycoinfo:G37476QB ;
+		glycovidOntology:has_interactor_B glycoinfo:G25473LQ ;
 		bao:BAO_0002875 sio:SIO_001076 ; 
 		sio:SIO_000300 "507.75"^^sio:SIO001212 ;
 		obo:IAO_0000119 glycovid:PUB33917609 ;
@@ -8906,11 +8906,11 @@ glycovid:SAM2_A_24_G02670IJ rdf:type owl:NamedIndividual ;
 		dcterms:references glycovid:PUB33917609 .
 
 
-glycovid:SAM2_A_24_G99858XP rdf:type owl:NamedIndividual ;
-		glycovidOntology:hasGlycan glycoinfo:G99858XP ;
+glycovid:SAM2_A_24_G51175PR rdf:type owl:NamedIndividual ;
+		glycovidOntology:hasGlycan glycoinfo:G51175PR ;
 		glycovidOntology:hasSample glycovid:SAM2_24_A ;
 		glycovidOntology:has_interactor_A glycovid:SAM2_24_A ;
-		glycovidOntology:has_interactor_B glycoinfo:G99858XP ;
+		glycovidOntology:has_interactor_B glycoinfo:G51175PR ;
 		bao:BAO_0002875 sio:SIO_001076 ; 
 		sio:SIO_000300 "665.25"^^sio:SIO001212 ;
 		obo:IAO_0000119 glycovid:PUB33917609 ;
@@ -9412,22 +9412,22 @@ glycovid:SAM3_A_-180_G54064FW rdf:type owl:NamedIndividual ;
 		dcterms:references glycovid:PUB33917609 .
 
 
-glycovid:SAM3_A_-180_G55143WF rdf:type owl:NamedIndividual ;
-		glycovidOntology:hasGlycan glycoinfo:G55143WF ;
+glycovid:SAM3_A_-180_G51872EK rdf:type owl:NamedIndividual ;
+		glycovidOntology:hasGlycan glycoinfo:G51872EK ;
 		glycovidOntology:hasSample glycovid:SAM3_-180_A ;
 		glycovidOntology:has_interactor_A glycovid:SAM3_-180_A ;
-		glycovidOntology:has_interactor_B glycoinfo:G55143WF ;
+		glycovidOntology:has_interactor_B glycoinfo:G51872EK ;
 		bao:BAO_0002875 sio:SIO_001076 ; 
 		sio:SIO_000300 "282.0"^^sio:SIO001212 ;
 		obo:IAO_0000119 glycovid:PUB33917609 ;
 		dcterms:references glycovid:PUB33917609 .
 
 
-glycovid:SAM3_A_-180_G51872EK rdf:type owl:NamedIndividual ;
-		glycovidOntology:hasGlycan glycoinfo:G51872EK ;
+glycovid:SAM3_A_-180_G49916XD rdf:type owl:NamedIndividual ;
+		glycovidOntology:hasGlycan glycoinfo:G49916XD ;
 		glycovidOntology:hasSample glycovid:SAM3_-180_A ;
 		glycovidOntology:has_interactor_A glycovid:SAM3_-180_A ;
-		glycovidOntology:has_interactor_B glycoinfo:G51872EK ;
+		glycovidOntology:has_interactor_B glycoinfo:G49916XD ;
 		bao:BAO_0002875 sio:SIO_001076 ; 
 		sio:SIO_000300 "373.5"^^sio:SIO001212 ;
 		obo:IAO_0000119 glycovid:PUB33917609 ;
@@ -9566,11 +9566,11 @@ glycovid:SAM3_A_-180_G43534QA rdf:type owl:NamedIndividual ;
 		dcterms:references glycovid:PUB33917609 .
 
 
-glycovid:SAM3_A_-180_G82168GG rdf:type owl:NamedIndividual ;
-		glycovidOntology:hasGlycan glycoinfo:G82168GG ;
+glycovid:SAM3_A_-180_G36191CD rdf:type owl:NamedIndividual ;
+		glycovidOntology:hasGlycan glycoinfo:G36191CD ;
 		glycovidOntology:hasSample glycovid:SAM3_-180_A ;
 		glycovidOntology:has_interactor_A glycovid:SAM3_-180_A ;
-		glycovidOntology:has_interactor_B glycoinfo:G82168GG ;
+		glycovidOntology:has_interactor_B glycoinfo:G36191CD ;
 		bao:BAO_0002875 sio:SIO_001076 ; 
 		sio:SIO_000300 "289.75"^^sio:SIO001212 ;
 		obo:IAO_0000119 glycovid:PUB33917609 ;
@@ -9643,11 +9643,11 @@ glycovid:SAM3_A_-180_G82942ZJ rdf:type owl:NamedIndividual ;
 		dcterms:references glycovid:PUB33917609 .
 
 
-glycovid:SAM3_A_-180_G21146IK rdf:type owl:NamedIndividual ;
-		glycovidOntology:hasGlycan glycoinfo:G21146IK ;
+glycovid:SAM3_A_-180_G14844CX rdf:type owl:NamedIndividual ;
+		glycovidOntology:hasGlycan glycoinfo:G14844CX ;
 		glycovidOntology:hasSample glycovid:SAM3_-180_A ;
 		glycovidOntology:has_interactor_A glycovid:SAM3_-180_A ;
-		glycovidOntology:has_interactor_B glycoinfo:G21146IK ;
+		glycovidOntology:has_interactor_B glycoinfo:G14844CX ;
 		bao:BAO_0002875 sio:SIO_001076 ; 
 		sio:SIO_000300 "265.75"^^sio:SIO001212 ;
 		obo:IAO_0000119 glycovid:PUB33917609 ;
@@ -10347,22 +10347,22 @@ glycovid:SAM3_A_-180_G19868AX rdf:type owl:NamedIndividual ;
 		dcterms:references glycovid:PUB33917609 .
 
 
-glycovid:SAM3_A_-180_G37476QB rdf:type owl:NamedIndividual ;
-		glycovidOntology:hasGlycan glycoinfo:G37476QB ;
+glycovid:SAM3_A_-180_G63074CQ rdf:type owl:NamedIndividual ;
+		glycovidOntology:hasGlycan glycoinfo:G63074CQ ;
 		glycovidOntology:hasSample glycovid:SAM3_-180_A ;
 		glycovidOntology:has_interactor_A glycovid:SAM3_-180_A ;
-		glycovidOntology:has_interactor_B glycoinfo:G37476QB ;
+		glycovidOntology:has_interactor_B glycoinfo:G63074CQ ;
 		bao:BAO_0002875 sio:SIO_001076 ; 
 		sio:SIO_000300 "269.25"^^sio:SIO001212 ;
 		obo:IAO_0000119 glycovid:PUB33917609 ;
 		dcterms:references glycovid:PUB33917609 .
 
 
-glycovid:SAM3_A_-180_G37476QB rdf:type owl:NamedIndividual ;
-		glycovidOntology:hasGlycan glycoinfo:G37476QB ;
+glycovid:SAM3_A_-180_G25473LQ rdf:type owl:NamedIndividual ;
+		glycovidOntology:hasGlycan glycoinfo:G25473LQ ;
 		glycovidOntology:hasSample glycovid:SAM3_-180_A ;
 		glycovidOntology:has_interactor_A glycovid:SAM3_-180_A ;
-		glycovidOntology:has_interactor_B glycoinfo:G37476QB ;
+		glycovidOntology:has_interactor_B glycoinfo:G25473LQ ;
 		bao:BAO_0002875 sio:SIO_001076 ; 
 		sio:SIO_000300 "275.25"^^sio:SIO001212 ;
 		obo:IAO_0000119 glycovid:PUB33917609 ;
@@ -10391,11 +10391,11 @@ glycovid:SAM3_A_-180_G02670IJ rdf:type owl:NamedIndividual ;
 		dcterms:references glycovid:PUB33917609 .
 
 
-glycovid:SAM3_A_-180_G99858XP rdf:type owl:NamedIndividual ;
-		glycovidOntology:hasGlycan glycoinfo:G99858XP ;
+glycovid:SAM3_A_-180_G51175PR rdf:type owl:NamedIndividual ;
+		glycovidOntology:hasGlycan glycoinfo:G51175PR ;
 		glycovidOntology:hasSample glycovid:SAM3_-180_A ;
 		glycovidOntology:has_interactor_A glycovid:SAM3_-180_A ;
-		glycovidOntology:has_interactor_B glycoinfo:G99858XP ;
+		glycovidOntology:has_interactor_B glycoinfo:G51175PR ;
 		bao:BAO_0002875 sio:SIO_001076 ; 
 		sio:SIO_000300 "1389.0"^^sio:SIO001212 ;
 		obo:IAO_0000119 glycovid:PUB33917609 ;
@@ -10897,22 +10897,22 @@ glycovid:SAM3_A_4_G54064FW rdf:type owl:NamedIndividual ;
 		dcterms:references glycovid:PUB33917609 .
 
 
-glycovid:SAM3_A_4_G55143WF rdf:type owl:NamedIndividual ;
-		glycovidOntology:hasGlycan glycoinfo:G55143WF ;
+glycovid:SAM3_A_4_G51872EK rdf:type owl:NamedIndividual ;
+		glycovidOntology:hasGlycan glycoinfo:G51872EK ;
 		glycovidOntology:hasSample glycovid:SAM3_4_A ;
 		glycovidOntology:has_interactor_A glycovid:SAM3_4_A ;
-		glycovidOntology:has_interactor_B glycoinfo:G55143WF ;
+		glycovidOntology:has_interactor_B glycoinfo:G51872EK ;
 		bao:BAO_0002875 sio:SIO_001076 ; 
 		sio:SIO_000300 "467.0"^^sio:SIO001212 ;
 		obo:IAO_0000119 glycovid:PUB33917609 ;
 		dcterms:references glycovid:PUB33917609 .
 
 
-glycovid:SAM3_A_4_G51872EK rdf:type owl:NamedIndividual ;
-		glycovidOntology:hasGlycan glycoinfo:G51872EK ;
+glycovid:SAM3_A_4_G49916XD rdf:type owl:NamedIndividual ;
+		glycovidOntology:hasGlycan glycoinfo:G49916XD ;
 		glycovidOntology:hasSample glycovid:SAM3_4_A ;
 		glycovidOntology:has_interactor_A glycovid:SAM3_4_A ;
-		glycovidOntology:has_interactor_B glycoinfo:G51872EK ;
+		glycovidOntology:has_interactor_B glycoinfo:G49916XD ;
 		bao:BAO_0002875 sio:SIO_001076 ; 
 		sio:SIO_000300 "680.75"^^sio:SIO001212 ;
 		obo:IAO_0000119 glycovid:PUB33917609 ;
@@ -11051,11 +11051,11 @@ glycovid:SAM3_A_4_G43534QA rdf:type owl:NamedIndividual ;
 		dcterms:references glycovid:PUB33917609 .
 
 
-glycovid:SAM3_A_4_G82168GG rdf:type owl:NamedIndividual ;
-		glycovidOntology:hasGlycan glycoinfo:G82168GG ;
+glycovid:SAM3_A_4_G36191CD rdf:type owl:NamedIndividual ;
+		glycovidOntology:hasGlycan glycoinfo:G36191CD ;
 		glycovidOntology:hasSample glycovid:SAM3_4_A ;
 		glycovidOntology:has_interactor_A glycovid:SAM3_4_A ;
-		glycovidOntology:has_interactor_B glycoinfo:G82168GG ;
+		glycovidOntology:has_interactor_B glycoinfo:G36191CD ;
 		bao:BAO_0002875 sio:SIO_001076 ; 
 		sio:SIO_000300 "350.0"^^sio:SIO001212 ;
 		obo:IAO_0000119 glycovid:PUB33917609 ;
@@ -11128,11 +11128,11 @@ glycovid:SAM3_A_4_G82942ZJ rdf:type owl:NamedIndividual ;
 		dcterms:references glycovid:PUB33917609 .
 
 
-glycovid:SAM3_A_4_G21146IK rdf:type owl:NamedIndividual ;
-		glycovidOntology:hasGlycan glycoinfo:G21146IK ;
+glycovid:SAM3_A_4_G14844CX rdf:type owl:NamedIndividual ;
+		glycovidOntology:hasGlycan glycoinfo:G14844CX ;
 		glycovidOntology:hasSample glycovid:SAM3_4_A ;
 		glycovidOntology:has_interactor_A glycovid:SAM3_4_A ;
-		glycovidOntology:has_interactor_B glycoinfo:G21146IK ;
+		glycovidOntology:has_interactor_B glycoinfo:G14844CX ;
 		bao:BAO_0002875 sio:SIO_001076 ; 
 		sio:SIO_000300 "374.75"^^sio:SIO001212 ;
 		obo:IAO_0000119 glycovid:PUB33917609 ;
@@ -11832,22 +11832,22 @@ glycovid:SAM3_A_4_G19868AX rdf:type owl:NamedIndividual ;
 		dcterms:references glycovid:PUB33917609 .
 
 
-glycovid:SAM3_A_4_G37476QB rdf:type owl:NamedIndividual ;
-		glycovidOntology:hasGlycan glycoinfo:G37476QB ;
+glycovid:SAM3_A_4_G63074CQ rdf:type owl:NamedIndividual ;
+		glycovidOntology:hasGlycan glycoinfo:G63074CQ ;
 		glycovidOntology:hasSample glycovid:SAM3_4_A ;
 		glycovidOntology:has_interactor_A glycovid:SAM3_4_A ;
-		glycovidOntology:has_interactor_B glycoinfo:G37476QB ;
+		glycovidOntology:has_interactor_B glycoinfo:G63074CQ ;
 		bao:BAO_0002875 sio:SIO_001076 ; 
 		sio:SIO_000300 "363.75"^^sio:SIO001212 ;
 		obo:IAO_0000119 glycovid:PUB33917609 ;
 		dcterms:references glycovid:PUB33917609 .
 
 
-glycovid:SAM3_A_4_G37476QB rdf:type owl:NamedIndividual ;
-		glycovidOntology:hasGlycan glycoinfo:G37476QB ;
+glycovid:SAM3_A_4_G25473LQ rdf:type owl:NamedIndividual ;
+		glycovidOntology:hasGlycan glycoinfo:G25473LQ ;
 		glycovidOntology:hasSample glycovid:SAM3_4_A ;
 		glycovidOntology:has_interactor_A glycovid:SAM3_4_A ;
-		glycovidOntology:has_interactor_B glycoinfo:G37476QB ;
+		glycovidOntology:has_interactor_B glycoinfo:G25473LQ ;
 		bao:BAO_0002875 sio:SIO_001076 ; 
 		sio:SIO_000300 "416.75"^^sio:SIO001212 ;
 		obo:IAO_0000119 glycovid:PUB33917609 ;
@@ -11876,11 +11876,11 @@ glycovid:SAM3_A_4_G02670IJ rdf:type owl:NamedIndividual ;
 		dcterms:references glycovid:PUB33917609 .
 
 
-glycovid:SAM3_A_4_G99858XP rdf:type owl:NamedIndividual ;
-		glycovidOntology:hasGlycan glycoinfo:G99858XP ;
+glycovid:SAM3_A_4_G51175PR rdf:type owl:NamedIndividual ;
+		glycovidOntology:hasGlycan glycoinfo:G51175PR ;
 		glycovidOntology:hasSample glycovid:SAM3_4_A ;
 		glycovidOntology:has_interactor_A glycovid:SAM3_4_A ;
-		glycovidOntology:has_interactor_B glycoinfo:G99858XP ;
+		glycovidOntology:has_interactor_B glycoinfo:G51175PR ;
 		bao:BAO_0002875 sio:SIO_001076 ; 
 		sio:SIO_000300 "1834.25"^^sio:SIO001212 ;
 		obo:IAO_0000119 glycovid:PUB33917609 ;
@@ -12382,22 +12382,22 @@ glycovid:SAM3_A_11_G54064FW rdf:type owl:NamedIndividual ;
 		dcterms:references glycovid:PUB33917609 .
 
 
-glycovid:SAM3_A_11_G55143WF rdf:type owl:NamedIndividual ;
-		glycovidOntology:hasGlycan glycoinfo:G55143WF ;
+glycovid:SAM3_A_11_G51872EK rdf:type owl:NamedIndividual ;
+		glycovidOntology:hasGlycan glycoinfo:G51872EK ;
 		glycovidOntology:hasSample glycovid:SAM3_11_A ;
 		glycovidOntology:has_interactor_A glycovid:SAM3_11_A ;
-		glycovidOntology:has_interactor_B glycoinfo:G55143WF ;
+		glycovidOntology:has_interactor_B glycoinfo:G51872EK ;
 		bao:BAO_0002875 sio:SIO_001076 ; 
 		sio:SIO_000300 "443.25"^^sio:SIO001212 ;
 		obo:IAO_0000119 glycovid:PUB33917609 ;
 		dcterms:references glycovid:PUB33917609 .
 
 
-glycovid:SAM3_A_11_G51872EK rdf:type owl:NamedIndividual ;
-		glycovidOntology:hasGlycan glycoinfo:G51872EK ;
+glycovid:SAM3_A_11_G49916XD rdf:type owl:NamedIndividual ;
+		glycovidOntology:hasGlycan glycoinfo:G49916XD ;
 		glycovidOntology:hasSample glycovid:SAM3_11_A ;
 		glycovidOntology:has_interactor_A glycovid:SAM3_11_A ;
-		glycovidOntology:has_interactor_B glycoinfo:G51872EK ;
+		glycovidOntology:has_interactor_B glycoinfo:G49916XD ;
 		bao:BAO_0002875 sio:SIO_001076 ; 
 		sio:SIO_000300 "642.0"^^sio:SIO001212 ;
 		obo:IAO_0000119 glycovid:PUB33917609 ;
@@ -12536,11 +12536,11 @@ glycovid:SAM3_A_11_G43534QA rdf:type owl:NamedIndividual ;
 		dcterms:references glycovid:PUB33917609 .
 
 
-glycovid:SAM3_A_11_G82168GG rdf:type owl:NamedIndividual ;
-		glycovidOntology:hasGlycan glycoinfo:G82168GG ;
+glycovid:SAM3_A_11_G36191CD rdf:type owl:NamedIndividual ;
+		glycovidOntology:hasGlycan glycoinfo:G36191CD ;
 		glycovidOntology:hasSample glycovid:SAM3_11_A ;
 		glycovidOntology:has_interactor_A glycovid:SAM3_11_A ;
-		glycovidOntology:has_interactor_B glycoinfo:G82168GG ;
+		glycovidOntology:has_interactor_B glycoinfo:G36191CD ;
 		bao:BAO_0002875 sio:SIO_001076 ; 
 		sio:SIO_000300 "346.25"^^sio:SIO001212 ;
 		obo:IAO_0000119 glycovid:PUB33917609 ;
@@ -12613,11 +12613,11 @@ glycovid:SAM3_A_11_G82942ZJ rdf:type owl:NamedIndividual ;
 		dcterms:references glycovid:PUB33917609 .
 
 
-glycovid:SAM3_A_11_G21146IK rdf:type owl:NamedIndividual ;
-		glycovidOntology:hasGlycan glycoinfo:G21146IK ;
+glycovid:SAM3_A_11_G14844CX rdf:type owl:NamedIndividual ;
+		glycovidOntology:hasGlycan glycoinfo:G14844CX ;
 		glycovidOntology:hasSample glycovid:SAM3_11_A ;
 		glycovidOntology:has_interactor_A glycovid:SAM3_11_A ;
-		glycovidOntology:has_interactor_B glycoinfo:G21146IK ;
+		glycovidOntology:has_interactor_B glycoinfo:G14844CX ;
 		bao:BAO_0002875 sio:SIO_001076 ; 
 		sio:SIO_000300 "362.25"^^sio:SIO001212 ;
 		obo:IAO_0000119 glycovid:PUB33917609 ;
@@ -13317,22 +13317,22 @@ glycovid:SAM3_A_11_G19868AX rdf:type owl:NamedIndividual ;
 		dcterms:references glycovid:PUB33917609 .
 
 
-glycovid:SAM3_A_11_G37476QB rdf:type owl:NamedIndividual ;
-		glycovidOntology:hasGlycan glycoinfo:G37476QB ;
+glycovid:SAM3_A_11_G63074CQ rdf:type owl:NamedIndividual ;
+		glycovidOntology:hasGlycan glycoinfo:G63074CQ ;
 		glycovidOntology:hasSample glycovid:SAM3_11_A ;
 		glycovidOntology:has_interactor_A glycovid:SAM3_11_A ;
-		glycovidOntology:has_interactor_B glycoinfo:G37476QB ;
+		glycovidOntology:has_interactor_B glycoinfo:G63074CQ ;
 		bao:BAO_0002875 sio:SIO_001076 ; 
 		sio:SIO_000300 "391.0"^^sio:SIO001212 ;
 		obo:IAO_0000119 glycovid:PUB33917609 ;
 		dcterms:references glycovid:PUB33917609 .
 
 
-glycovid:SAM3_A_11_G37476QB rdf:type owl:NamedIndividual ;
-		glycovidOntology:hasGlycan glycoinfo:G37476QB ;
+glycovid:SAM3_A_11_G25473LQ rdf:type owl:NamedIndividual ;
+		glycovidOntology:hasGlycan glycoinfo:G25473LQ ;
 		glycovidOntology:hasSample glycovid:SAM3_11_A ;
 		glycovidOntology:has_interactor_A glycovid:SAM3_11_A ;
-		glycovidOntology:has_interactor_B glycoinfo:G37476QB ;
+		glycovidOntology:has_interactor_B glycoinfo:G25473LQ ;
 		bao:BAO_0002875 sio:SIO_001076 ; 
 		sio:SIO_000300 "400.5"^^sio:SIO001212 ;
 		obo:IAO_0000119 glycovid:PUB33917609 ;
@@ -13361,11 +13361,11 @@ glycovid:SAM3_A_11_G02670IJ rdf:type owl:NamedIndividual ;
 		dcterms:references glycovid:PUB33917609 .
 
 
-glycovid:SAM3_A_11_G99858XP rdf:type owl:NamedIndividual ;
-		glycovidOntology:hasGlycan glycoinfo:G99858XP ;
+glycovid:SAM3_A_11_G51175PR rdf:type owl:NamedIndividual ;
+		glycovidOntology:hasGlycan glycoinfo:G51175PR ;
 		glycovidOntology:hasSample glycovid:SAM3_11_A ;
 		glycovidOntology:has_interactor_A glycovid:SAM3_11_A ;
-		glycovidOntology:has_interactor_B glycoinfo:G99858XP ;
+		glycovidOntology:has_interactor_B glycoinfo:G51175PR ;
 		bao:BAO_0002875 sio:SIO_001076 ; 
 		sio:SIO_000300 "1499.25"^^sio:SIO001212 ;
 		obo:IAO_0000119 glycovid:PUB33917609 ;
@@ -13867,22 +13867,22 @@ glycovid:SAM4_A_12_G54064FW rdf:type owl:NamedIndividual ;
 		dcterms:references glycovid:PUB33917609 .
 
 
-glycovid:SAM4_A_12_G55143WF rdf:type owl:NamedIndividual ;
-		glycovidOntology:hasGlycan glycoinfo:G55143WF ;
+glycovid:SAM4_A_12_G51872EK rdf:type owl:NamedIndividual ;
+		glycovidOntology:hasGlycan glycoinfo:G51872EK ;
 		glycovidOntology:hasSample glycovid:SAM4_12_A ;
 		glycovidOntology:has_interactor_A glycovid:SAM4_12_A ;
-		glycovidOntology:has_interactor_B glycoinfo:G55143WF ;
+		glycovidOntology:has_interactor_B glycoinfo:G51872EK ;
 		bao:BAO_0002875 sio:SIO_001076 ; 
 		sio:SIO_000300 "616.25"^^sio:SIO001212 ;
 		obo:IAO_0000119 glycovid:PUB33917609 ;
 		dcterms:references glycovid:PUB33917609 .
 
 
-glycovid:SAM4_A_12_G51872EK rdf:type owl:NamedIndividual ;
-		glycovidOntology:hasGlycan glycoinfo:G51872EK ;
+glycovid:SAM4_A_12_G49916XD rdf:type owl:NamedIndividual ;
+		glycovidOntology:hasGlycan glycoinfo:G49916XD ;
 		glycovidOntology:hasSample glycovid:SAM4_12_A ;
 		glycovidOntology:has_interactor_A glycovid:SAM4_12_A ;
-		glycovidOntology:has_interactor_B glycoinfo:G51872EK ;
+		glycovidOntology:has_interactor_B glycoinfo:G49916XD ;
 		bao:BAO_0002875 sio:SIO_001076 ; 
 		sio:SIO_000300 "555.75"^^sio:SIO001212 ;
 		obo:IAO_0000119 glycovid:PUB33917609 ;
@@ -14021,11 +14021,11 @@ glycovid:SAM4_A_12_G43534QA rdf:type owl:NamedIndividual ;
 		dcterms:references glycovid:PUB33917609 .
 
 
-glycovid:SAM4_A_12_G82168GG rdf:type owl:NamedIndividual ;
-		glycovidOntology:hasGlycan glycoinfo:G82168GG ;
+glycovid:SAM4_A_12_G36191CD rdf:type owl:NamedIndividual ;
+		glycovidOntology:hasGlycan glycoinfo:G36191CD ;
 		glycovidOntology:hasSample glycovid:SAM4_12_A ;
 		glycovidOntology:has_interactor_A glycovid:SAM4_12_A ;
-		glycovidOntology:has_interactor_B glycoinfo:G82168GG ;
+		glycovidOntology:has_interactor_B glycoinfo:G36191CD ;
 		bao:BAO_0002875 sio:SIO_001076 ; 
 		sio:SIO_000300 "330.5"^^sio:SIO001212 ;
 		obo:IAO_0000119 glycovid:PUB33917609 ;
@@ -14098,11 +14098,11 @@ glycovid:SAM4_A_12_G82942ZJ rdf:type owl:NamedIndividual ;
 		dcterms:references glycovid:PUB33917609 .
 
 
-glycovid:SAM4_A_12_G21146IK rdf:type owl:NamedIndividual ;
-		glycovidOntology:hasGlycan glycoinfo:G21146IK ;
+glycovid:SAM4_A_12_G14844CX rdf:type owl:NamedIndividual ;
+		glycovidOntology:hasGlycan glycoinfo:G14844CX ;
 		glycovidOntology:hasSample glycovid:SAM4_12_A ;
 		glycovidOntology:has_interactor_A glycovid:SAM4_12_A ;
-		glycovidOntology:has_interactor_B glycoinfo:G21146IK ;
+		glycovidOntology:has_interactor_B glycoinfo:G14844CX ;
 		bao:BAO_0002875 sio:SIO_001076 ; 
 		sio:SIO_000300 "1193.0"^^sio:SIO001212 ;
 		obo:IAO_0000119 glycovid:PUB33917609 ;
@@ -14802,22 +14802,22 @@ glycovid:SAM4_A_12_G19868AX rdf:type owl:NamedIndividual ;
 		dcterms:references glycovid:PUB33917609 .
 
 
-glycovid:SAM4_A_12_G37476QB rdf:type owl:NamedIndividual ;
-		glycovidOntology:hasGlycan glycoinfo:G37476QB ;
+glycovid:SAM4_A_12_G63074CQ rdf:type owl:NamedIndividual ;
+		glycovidOntology:hasGlycan glycoinfo:G63074CQ ;
 		glycovidOntology:hasSample glycovid:SAM4_12_A ;
 		glycovidOntology:has_interactor_A glycovid:SAM4_12_A ;
-		glycovidOntology:has_interactor_B glycoinfo:G37476QB ;
+		glycovidOntology:has_interactor_B glycoinfo:G63074CQ ;
 		bao:BAO_0002875 sio:SIO_001076 ; 
 		sio:SIO_000300 "343.75"^^sio:SIO001212 ;
 		obo:IAO_0000119 glycovid:PUB33917609 ;
 		dcterms:references glycovid:PUB33917609 .
 
 
-glycovid:SAM4_A_12_G37476QB rdf:type owl:NamedIndividual ;
-		glycovidOntology:hasGlycan glycoinfo:G37476QB ;
+glycovid:SAM4_A_12_G25473LQ rdf:type owl:NamedIndividual ;
+		glycovidOntology:hasGlycan glycoinfo:G25473LQ ;
 		glycovidOntology:hasSample glycovid:SAM4_12_A ;
 		glycovidOntology:has_interactor_A glycovid:SAM4_12_A ;
-		glycovidOntology:has_interactor_B glycoinfo:G37476QB ;
+		glycovidOntology:has_interactor_B glycoinfo:G25473LQ ;
 		bao:BAO_0002875 sio:SIO_001076 ; 
 		sio:SIO_000300 "332.75"^^sio:SIO001212 ;
 		obo:IAO_0000119 glycovid:PUB33917609 ;
@@ -14846,11 +14846,11 @@ glycovid:SAM4_A_12_G02670IJ rdf:type owl:NamedIndividual ;
 		dcterms:references glycovid:PUB33917609 .
 
 
-glycovid:SAM4_A_12_G99858XP rdf:type owl:NamedIndividual ;
-		glycovidOntology:hasGlycan glycoinfo:G99858XP ;
+glycovid:SAM4_A_12_G51175PR rdf:type owl:NamedIndividual ;
+		glycovidOntology:hasGlycan glycoinfo:G51175PR ;
 		glycovidOntology:hasSample glycovid:SAM4_12_A ;
 		glycovidOntology:has_interactor_A glycovid:SAM4_12_A ;
-		glycovidOntology:has_interactor_B glycoinfo:G99858XP ;
+		glycovidOntology:has_interactor_B glycoinfo:G51175PR ;
 		bao:BAO_0002875 sio:SIO_001076 ; 
 		sio:SIO_000300 "416.0"^^sio:SIO001212 ;
 		obo:IAO_0000119 glycovid:PUB33917609 ;
@@ -15352,22 +15352,22 @@ glycovid:SAM1_G_6_G54064FW rdf:type owl:NamedIndividual ;
 		dcterms:references glycovid:PUB33917609 .
 
 
-glycovid:SAM1_G_6_G55143WF rdf:type owl:NamedIndividual ;
-		glycovidOntology:hasGlycan glycoinfo:G55143WF ;
+glycovid:SAM1_G_6_G51872EK rdf:type owl:NamedIndividual ;
+		glycovidOntology:hasGlycan glycoinfo:G51872EK ;
 		glycovidOntology:hasSample glycovid:SAM1_6_G ;
 		glycovidOntology:has_interactor_A glycovid:SAM1_6_G ;
-		glycovidOntology:has_interactor_B glycoinfo:G55143WF ;
+		glycovidOntology:has_interactor_B glycoinfo:G51872EK ;
 		bao:BAO_0002875 sio:SIO_001076 ; 
 		sio:SIO_000300 "25.75"^^sio:SIO001212 ;
 		obo:IAO_0000119 glycovid:PUB33917609 ;
 		dcterms:references glycovid:PUB33917609 .
 
 
-glycovid:SAM1_G_6_G51872EK rdf:type owl:NamedIndividual ;
-		glycovidOntology:hasGlycan glycoinfo:G51872EK ;
+glycovid:SAM1_G_6_G49916XD rdf:type owl:NamedIndividual ;
+		glycovidOntology:hasGlycan glycoinfo:G49916XD ;
 		glycovidOntology:hasSample glycovid:SAM1_6_G ;
 		glycovidOntology:has_interactor_A glycovid:SAM1_6_G ;
-		glycovidOntology:has_interactor_B glycoinfo:G51872EK ;
+		glycovidOntology:has_interactor_B glycoinfo:G49916XD ;
 		bao:BAO_0002875 sio:SIO_001076 ; 
 		sio:SIO_000300 "25.75"^^sio:SIO001212 ;
 		obo:IAO_0000119 glycovid:PUB33917609 ;
@@ -15506,11 +15506,11 @@ glycovid:SAM1_G_6_G43534QA rdf:type owl:NamedIndividual ;
 		dcterms:references glycovid:PUB33917609 .
 
 
-glycovid:SAM1_G_6_G82168GG rdf:type owl:NamedIndividual ;
-		glycovidOntology:hasGlycan glycoinfo:G82168GG ;
+glycovid:SAM1_G_6_G36191CD rdf:type owl:NamedIndividual ;
+		glycovidOntology:hasGlycan glycoinfo:G36191CD ;
 		glycovidOntology:hasSample glycovid:SAM1_6_G ;
 		glycovidOntology:has_interactor_A glycovid:SAM1_6_G ;
-		glycovidOntology:has_interactor_B glycoinfo:G82168GG ;
+		glycovidOntology:has_interactor_B glycoinfo:G36191CD ;
 		bao:BAO_0002875 sio:SIO_001076 ; 
 		sio:SIO_000300 "26.0"^^sio:SIO001212 ;
 		obo:IAO_0000119 glycovid:PUB33917609 ;
@@ -15583,11 +15583,11 @@ glycovid:SAM1_G_6_G82942ZJ rdf:type owl:NamedIndividual ;
 		dcterms:references glycovid:PUB33917609 .
 
 
-glycovid:SAM1_G_6_G21146IK rdf:type owl:NamedIndividual ;
-		glycovidOntology:hasGlycan glycoinfo:G21146IK ;
+glycovid:SAM1_G_6_G14844CX rdf:type owl:NamedIndividual ;
+		glycovidOntology:hasGlycan glycoinfo:G14844CX ;
 		glycovidOntology:hasSample glycovid:SAM1_6_G ;
 		glycovidOntology:has_interactor_A glycovid:SAM1_6_G ;
-		glycovidOntology:has_interactor_B glycoinfo:G21146IK ;
+		glycovidOntology:has_interactor_B glycoinfo:G14844CX ;
 		bao:BAO_0002875 sio:SIO_001076 ; 
 		sio:SIO_000300 "24.5"^^sio:SIO001212 ;
 		obo:IAO_0000119 glycovid:PUB33917609 ;
@@ -16287,22 +16287,22 @@ glycovid:SAM1_G_6_G19868AX rdf:type owl:NamedIndividual ;
 		dcterms:references glycovid:PUB33917609 .
 
 
-glycovid:SAM1_G_6_G37476QB rdf:type owl:NamedIndividual ;
-		glycovidOntology:hasGlycan glycoinfo:G37476QB ;
+glycovid:SAM1_G_6_G63074CQ rdf:type owl:NamedIndividual ;
+		glycovidOntology:hasGlycan glycoinfo:G63074CQ ;
 		glycovidOntology:hasSample glycovid:SAM1_6_G ;
 		glycovidOntology:has_interactor_A glycovid:SAM1_6_G ;
-		glycovidOntology:has_interactor_B glycoinfo:G37476QB ;
+		glycovidOntology:has_interactor_B glycoinfo:G63074CQ ;
 		bao:BAO_0002875 sio:SIO_001076 ; 
 		sio:SIO_000300 "26.0"^^sio:SIO001212 ;
 		obo:IAO_0000119 glycovid:PUB33917609 ;
 		dcterms:references glycovid:PUB33917609 .
 
 
-glycovid:SAM1_G_6_G37476QB rdf:type owl:NamedIndividual ;
-		glycovidOntology:hasGlycan glycoinfo:G37476QB ;
+glycovid:SAM1_G_6_G25473LQ rdf:type owl:NamedIndividual ;
+		glycovidOntology:hasGlycan glycoinfo:G25473LQ ;
 		glycovidOntology:hasSample glycovid:SAM1_6_G ;
 		glycovidOntology:has_interactor_A glycovid:SAM1_6_G ;
-		glycovidOntology:has_interactor_B glycoinfo:G37476QB ;
+		glycovidOntology:has_interactor_B glycoinfo:G25473LQ ;
 		bao:BAO_0002875 sio:SIO_001076 ; 
 		sio:SIO_000300 "25.5"^^sio:SIO001212 ;
 		obo:IAO_0000119 glycovid:PUB33917609 ;
@@ -16331,11 +16331,11 @@ glycovid:SAM1_G_6_G02670IJ rdf:type owl:NamedIndividual ;
 		dcterms:references glycovid:PUB33917609 .
 
 
-glycovid:SAM1_G_6_G99858XP rdf:type owl:NamedIndividual ;
-		glycovidOntology:hasGlycan glycoinfo:G99858XP ;
+glycovid:SAM1_G_6_G51175PR rdf:type owl:NamedIndividual ;
+		glycovidOntology:hasGlycan glycoinfo:G51175PR ;
 		glycovidOntology:hasSample glycovid:SAM1_6_G ;
 		glycovidOntology:has_interactor_A glycovid:SAM1_6_G ;
-		glycovidOntology:has_interactor_B glycoinfo:G99858XP ;
+		glycovidOntology:has_interactor_B glycoinfo:G51175PR ;
 		bao:BAO_0002875 sio:SIO_001076 ; 
 		sio:SIO_000300 "28.25"^^sio:SIO001212 ;
 		obo:IAO_0000119 glycovid:PUB33917609 ;
@@ -16837,22 +16837,22 @@ glycovid:SAM1_G_10_G54064FW rdf:type owl:NamedIndividual ;
 		dcterms:references glycovid:PUB33917609 .
 
 
-glycovid:SAM1_G_10_G55143WF rdf:type owl:NamedIndividual ;
-		glycovidOntology:hasGlycan glycoinfo:G55143WF ;
+glycovid:SAM1_G_10_G51872EK rdf:type owl:NamedIndividual ;
+		glycovidOntology:hasGlycan glycoinfo:G51872EK ;
 		glycovidOntology:hasSample glycovid:SAM1_10_G ;
 		glycovidOntology:has_interactor_A glycovid:SAM1_10_G ;
-		glycovidOntology:has_interactor_B glycoinfo:G55143WF ;
+		glycovidOntology:has_interactor_B glycoinfo:G51872EK ;
 		bao:BAO_0002875 sio:SIO_001076 ; 
 		sio:SIO_000300 "25.0"^^sio:SIO001212 ;
 		obo:IAO_0000119 glycovid:PUB33917609 ;
 		dcterms:references glycovid:PUB33917609 .
 
 
-glycovid:SAM1_G_10_G51872EK rdf:type owl:NamedIndividual ;
-		glycovidOntology:hasGlycan glycoinfo:G51872EK ;
+glycovid:SAM1_G_10_G49916XD rdf:type owl:NamedIndividual ;
+		glycovidOntology:hasGlycan glycoinfo:G49916XD ;
 		glycovidOntology:hasSample glycovid:SAM1_10_G ;
 		glycovidOntology:has_interactor_A glycovid:SAM1_10_G ;
-		glycovidOntology:has_interactor_B glycoinfo:G51872EK ;
+		glycovidOntology:has_interactor_B glycoinfo:G49916XD ;
 		bao:BAO_0002875 sio:SIO_001076 ; 
 		sio:SIO_000300 "27.75"^^sio:SIO001212 ;
 		obo:IAO_0000119 glycovid:PUB33917609 ;
@@ -16991,11 +16991,11 @@ glycovid:SAM1_G_10_G43534QA rdf:type owl:NamedIndividual ;
 		dcterms:references glycovid:PUB33917609 .
 
 
-glycovid:SAM1_G_10_G82168GG rdf:type owl:NamedIndividual ;
-		glycovidOntology:hasGlycan glycoinfo:G82168GG ;
+glycovid:SAM1_G_10_G36191CD rdf:type owl:NamedIndividual ;
+		glycovidOntology:hasGlycan glycoinfo:G36191CD ;
 		glycovidOntology:hasSample glycovid:SAM1_10_G ;
 		glycovidOntology:has_interactor_A glycovid:SAM1_10_G ;
-		glycovidOntology:has_interactor_B glycoinfo:G82168GG ;
+		glycovidOntology:has_interactor_B glycoinfo:G36191CD ;
 		bao:BAO_0002875 sio:SIO_001076 ; 
 		sio:SIO_000300 "24.25"^^sio:SIO001212 ;
 		obo:IAO_0000119 glycovid:PUB33917609 ;
@@ -17068,11 +17068,11 @@ glycovid:SAM1_G_10_G82942ZJ rdf:type owl:NamedIndividual ;
 		dcterms:references glycovid:PUB33917609 .
 
 
-glycovid:SAM1_G_10_G21146IK rdf:type owl:NamedIndividual ;
-		glycovidOntology:hasGlycan glycoinfo:G21146IK ;
+glycovid:SAM1_G_10_G14844CX rdf:type owl:NamedIndividual ;
+		glycovidOntology:hasGlycan glycoinfo:G14844CX ;
 		glycovidOntology:hasSample glycovid:SAM1_10_G ;
 		glycovidOntology:has_interactor_A glycovid:SAM1_10_G ;
-		glycovidOntology:has_interactor_B glycoinfo:G21146IK ;
+		glycovidOntology:has_interactor_B glycoinfo:G14844CX ;
 		bao:BAO_0002875 sio:SIO_001076 ; 
 		sio:SIO_000300 "27.0"^^sio:SIO001212 ;
 		obo:IAO_0000119 glycovid:PUB33917609 ;
@@ -17772,22 +17772,22 @@ glycovid:SAM1_G_10_G19868AX rdf:type owl:NamedIndividual ;
 		dcterms:references glycovid:PUB33917609 .
 
 
-glycovid:SAM1_G_10_G37476QB rdf:type owl:NamedIndividual ;
-		glycovidOntology:hasGlycan glycoinfo:G37476QB ;
+glycovid:SAM1_G_10_G63074CQ rdf:type owl:NamedIndividual ;
+		glycovidOntology:hasGlycan glycoinfo:G63074CQ ;
 		glycovidOntology:hasSample glycovid:SAM1_10_G ;
 		glycovidOntology:has_interactor_A glycovid:SAM1_10_G ;
-		glycovidOntology:has_interactor_B glycoinfo:G37476QB ;
+		glycovidOntology:has_interactor_B glycoinfo:G63074CQ ;
 		bao:BAO_0002875 sio:SIO_001076 ; 
 		sio:SIO_000300 "24.0"^^sio:SIO001212 ;
 		obo:IAO_0000119 glycovid:PUB33917609 ;
 		dcterms:references glycovid:PUB33917609 .
 
 
-glycovid:SAM1_G_10_G37476QB rdf:type owl:NamedIndividual ;
-		glycovidOntology:hasGlycan glycoinfo:G37476QB ;
+glycovid:SAM1_G_10_G25473LQ rdf:type owl:NamedIndividual ;
+		glycovidOntology:hasGlycan glycoinfo:G25473LQ ;
 		glycovidOntology:hasSample glycovid:SAM1_10_G ;
 		glycovidOntology:has_interactor_A glycovid:SAM1_10_G ;
-		glycovidOntology:has_interactor_B glycoinfo:G37476QB ;
+		glycovidOntology:has_interactor_B glycoinfo:G25473LQ ;
 		bao:BAO_0002875 sio:SIO_001076 ; 
 		sio:SIO_000300 "26.0"^^sio:SIO001212 ;
 		obo:IAO_0000119 glycovid:PUB33917609 ;
@@ -17816,11 +17816,11 @@ glycovid:SAM1_G_10_G02670IJ rdf:type owl:NamedIndividual ;
 		dcterms:references glycovid:PUB33917609 .
 
 
-glycovid:SAM1_G_10_G99858XP rdf:type owl:NamedIndividual ;
-		glycovidOntology:hasGlycan glycoinfo:G99858XP ;
+glycovid:SAM1_G_10_G51175PR rdf:type owl:NamedIndividual ;
+		glycovidOntology:hasGlycan glycoinfo:G51175PR ;
 		glycovidOntology:hasSample glycovid:SAM1_10_G ;
 		glycovidOntology:has_interactor_A glycovid:SAM1_10_G ;
-		glycovidOntology:has_interactor_B glycoinfo:G99858XP ;
+		glycovidOntology:has_interactor_B glycoinfo:G51175PR ;
 		bao:BAO_0002875 sio:SIO_001076 ; 
 		sio:SIO_000300 "26.0"^^sio:SIO001212 ;
 		obo:IAO_0000119 glycovid:PUB33917609 ;
@@ -18322,22 +18322,22 @@ glycovid:SAM1_G_22_G54064FW rdf:type owl:NamedIndividual ;
 		dcterms:references glycovid:PUB33917609 .
 
 
-glycovid:SAM1_G_22_G55143WF rdf:type owl:NamedIndividual ;
-		glycovidOntology:hasGlycan glycoinfo:G55143WF ;
+glycovid:SAM1_G_22_G51872EK rdf:type owl:NamedIndividual ;
+		glycovidOntology:hasGlycan glycoinfo:G51872EK ;
 		glycovidOntology:hasSample glycovid:SAM1_22_G ;
 		glycovidOntology:has_interactor_A glycovid:SAM1_22_G ;
-		glycovidOntology:has_interactor_B glycoinfo:G55143WF ;
+		glycovidOntology:has_interactor_B glycoinfo:G51872EK ;
 		bao:BAO_0002875 sio:SIO_001076 ; 
 		sio:SIO_000300 "34.0"^^sio:SIO001212 ;
 		obo:IAO_0000119 glycovid:PUB33917609 ;
 		dcterms:references glycovid:PUB33917609 .
 
 
-glycovid:SAM1_G_22_G51872EK rdf:type owl:NamedIndividual ;
-		glycovidOntology:hasGlycan glycoinfo:G51872EK ;
+glycovid:SAM1_G_22_G49916XD rdf:type owl:NamedIndividual ;
+		glycovidOntology:hasGlycan glycoinfo:G49916XD ;
 		glycovidOntology:hasSample glycovid:SAM1_22_G ;
 		glycovidOntology:has_interactor_A glycovid:SAM1_22_G ;
-		glycovidOntology:has_interactor_B glycoinfo:G51872EK ;
+		glycovidOntology:has_interactor_B glycoinfo:G49916XD ;
 		bao:BAO_0002875 sio:SIO_001076 ; 
 		sio:SIO_000300 "44.0"^^sio:SIO001212 ;
 		obo:IAO_0000119 glycovid:PUB33917609 ;
@@ -18476,11 +18476,11 @@ glycovid:SAM1_G_22_G43534QA rdf:type owl:NamedIndividual ;
 		dcterms:references glycovid:PUB33917609 .
 
 
-glycovid:SAM1_G_22_G82168GG rdf:type owl:NamedIndividual ;
-		glycovidOntology:hasGlycan glycoinfo:G82168GG ;
+glycovid:SAM1_G_22_G36191CD rdf:type owl:NamedIndividual ;
+		glycovidOntology:hasGlycan glycoinfo:G36191CD ;
 		glycovidOntology:hasSample glycovid:SAM1_22_G ;
 		glycovidOntology:has_interactor_A glycovid:SAM1_22_G ;
-		glycovidOntology:has_interactor_B glycoinfo:G82168GG ;
+		glycovidOntology:has_interactor_B glycoinfo:G36191CD ;
 		bao:BAO_0002875 sio:SIO_001076 ; 
 		sio:SIO_000300 "31.0"^^sio:SIO001212 ;
 		obo:IAO_0000119 glycovid:PUB33917609 ;
@@ -18553,11 +18553,11 @@ glycovid:SAM1_G_22_G82942ZJ rdf:type owl:NamedIndividual ;
 		dcterms:references glycovid:PUB33917609 .
 
 
-glycovid:SAM1_G_22_G21146IK rdf:type owl:NamedIndividual ;
-		glycovidOntology:hasGlycan glycoinfo:G21146IK ;
+glycovid:SAM1_G_22_G14844CX rdf:type owl:NamedIndividual ;
+		glycovidOntology:hasGlycan glycoinfo:G14844CX ;
 		glycovidOntology:hasSample glycovid:SAM1_22_G ;
 		glycovidOntology:has_interactor_A glycovid:SAM1_22_G ;
-		glycovidOntology:has_interactor_B glycoinfo:G21146IK ;
+		glycovidOntology:has_interactor_B glycoinfo:G14844CX ;
 		bao:BAO_0002875 sio:SIO_001076 ; 
 		sio:SIO_000300 "35.5"^^sio:SIO001212 ;
 		obo:IAO_0000119 glycovid:PUB33917609 ;
@@ -19257,22 +19257,22 @@ glycovid:SAM1_G_22_G19868AX rdf:type owl:NamedIndividual ;
 		dcterms:references glycovid:PUB33917609 .
 
 
-glycovid:SAM1_G_22_G37476QB rdf:type owl:NamedIndividual ;
-		glycovidOntology:hasGlycan glycoinfo:G37476QB ;
+glycovid:SAM1_G_22_G63074CQ rdf:type owl:NamedIndividual ;
+		glycovidOntology:hasGlycan glycoinfo:G63074CQ ;
 		glycovidOntology:hasSample glycovid:SAM1_22_G ;
 		glycovidOntology:has_interactor_A glycovid:SAM1_22_G ;
-		glycovidOntology:has_interactor_B glycoinfo:G37476QB ;
+		glycovidOntology:has_interactor_B glycoinfo:G63074CQ ;
 		bao:BAO_0002875 sio:SIO_001076 ; 
 		sio:SIO_000300 "24.75"^^sio:SIO001212 ;
 		obo:IAO_0000119 glycovid:PUB33917609 ;
 		dcterms:references glycovid:PUB33917609 .
 
 
-glycovid:SAM1_G_22_G37476QB rdf:type owl:NamedIndividual ;
-		glycovidOntology:hasGlycan glycoinfo:G37476QB ;
+glycovid:SAM1_G_22_G25473LQ rdf:type owl:NamedIndividual ;
+		glycovidOntology:hasGlycan glycoinfo:G25473LQ ;
 		glycovidOntology:hasSample glycovid:SAM1_22_G ;
 		glycovidOntology:has_interactor_A glycovid:SAM1_22_G ;
-		glycovidOntology:has_interactor_B glycoinfo:G37476QB ;
+		glycovidOntology:has_interactor_B glycoinfo:G25473LQ ;
 		bao:BAO_0002875 sio:SIO_001076 ; 
 		sio:SIO_000300 "26.75"^^sio:SIO001212 ;
 		obo:IAO_0000119 glycovid:PUB33917609 ;
@@ -19301,11 +19301,11 @@ glycovid:SAM1_G_22_G02670IJ rdf:type owl:NamedIndividual ;
 		dcterms:references glycovid:PUB33917609 .
 
 
-glycovid:SAM1_G_22_G99858XP rdf:type owl:NamedIndividual ;
-		glycovidOntology:hasGlycan glycoinfo:G99858XP ;
+glycovid:SAM1_G_22_G51175PR rdf:type owl:NamedIndividual ;
+		glycovidOntology:hasGlycan glycoinfo:G51175PR ;
 		glycovidOntology:hasSample glycovid:SAM1_22_G ;
 		glycovidOntology:has_interactor_A glycovid:SAM1_22_G ;
-		glycovidOntology:has_interactor_B glycoinfo:G99858XP ;
+		glycovidOntology:has_interactor_B glycoinfo:G51175PR ;
 		bao:BAO_0002875 sio:SIO_001076 ; 
 		sio:SIO_000300 "30.0"^^sio:SIO001212 ;
 		obo:IAO_0000119 glycovid:PUB33917609 ;
@@ -19807,22 +19807,22 @@ glycovid:SAM2_G_3_G54064FW rdf:type owl:NamedIndividual ;
 		dcterms:references glycovid:PUB33917609 .
 
 
-glycovid:SAM2_G_3_G55143WF rdf:type owl:NamedIndividual ;
-		glycovidOntology:hasGlycan glycoinfo:G55143WF ;
+glycovid:SAM2_G_3_G51872EK rdf:type owl:NamedIndividual ;
+		glycovidOntology:hasGlycan glycoinfo:G51872EK ;
 		glycovidOntology:hasSample glycovid:SAM2_3_G ;
 		glycovidOntology:has_interactor_A glycovid:SAM2_3_G ;
-		glycovidOntology:has_interactor_B glycoinfo:G55143WF ;
+		glycovidOntology:has_interactor_B glycoinfo:G51872EK ;
 		bao:BAO_0002875 sio:SIO_001076 ; 
 		sio:SIO_000300 "72.0"^^sio:SIO001212 ;
 		obo:IAO_0000119 glycovid:PUB33917609 ;
 		dcterms:references glycovid:PUB33917609 .
 
 
-glycovid:SAM2_G_3_G51872EK rdf:type owl:NamedIndividual ;
-		glycovidOntology:hasGlycan glycoinfo:G51872EK ;
+glycovid:SAM2_G_3_G49916XD rdf:type owl:NamedIndividual ;
+		glycovidOntology:hasGlycan glycoinfo:G49916XD ;
 		glycovidOntology:hasSample glycovid:SAM2_3_G ;
 		glycovidOntology:has_interactor_A glycovid:SAM2_3_G ;
-		glycovidOntology:has_interactor_B glycoinfo:G51872EK ;
+		glycovidOntology:has_interactor_B glycoinfo:G49916XD ;
 		bao:BAO_0002875 sio:SIO_001076 ; 
 		sio:SIO_000300 "31.5"^^sio:SIO001212 ;
 		obo:IAO_0000119 glycovid:PUB33917609 ;
@@ -19961,11 +19961,11 @@ glycovid:SAM2_G_3_G43534QA rdf:type owl:NamedIndividual ;
 		dcterms:references glycovid:PUB33917609 .
 
 
-glycovid:SAM2_G_3_G82168GG rdf:type owl:NamedIndividual ;
-		glycovidOntology:hasGlycan glycoinfo:G82168GG ;
+glycovid:SAM2_G_3_G36191CD rdf:type owl:NamedIndividual ;
+		glycovidOntology:hasGlycan glycoinfo:G36191CD ;
 		glycovidOntology:hasSample glycovid:SAM2_3_G ;
 		glycovidOntology:has_interactor_A glycovid:SAM2_3_G ;
-		glycovidOntology:has_interactor_B glycoinfo:G82168GG ;
+		glycovidOntology:has_interactor_B glycoinfo:G36191CD ;
 		bao:BAO_0002875 sio:SIO_001076 ; 
 		sio:SIO_000300 "80.5"^^sio:SIO001212 ;
 		obo:IAO_0000119 glycovid:PUB33917609 ;
@@ -20038,11 +20038,11 @@ glycovid:SAM2_G_3_G82942ZJ rdf:type owl:NamedIndividual ;
 		dcterms:references glycovid:PUB33917609 .
 
 
-glycovid:SAM2_G_3_G21146IK rdf:type owl:NamedIndividual ;
-		glycovidOntology:hasGlycan glycoinfo:G21146IK ;
+glycovid:SAM2_G_3_G14844CX rdf:type owl:NamedIndividual ;
+		glycovidOntology:hasGlycan glycoinfo:G14844CX ;
 		glycovidOntology:hasSample glycovid:SAM2_3_G ;
 		glycovidOntology:has_interactor_A glycovid:SAM2_3_G ;
-		glycovidOntology:has_interactor_B glycoinfo:G21146IK ;
+		glycovidOntology:has_interactor_B glycoinfo:G14844CX ;
 		bao:BAO_0002875 sio:SIO_001076 ; 
 		sio:SIO_000300 "46.25"^^sio:SIO001212 ;
 		obo:IAO_0000119 glycovid:PUB33917609 ;
@@ -20742,22 +20742,22 @@ glycovid:SAM2_G_3_G19868AX rdf:type owl:NamedIndividual ;
 		dcterms:references glycovid:PUB33917609 .
 
 
-glycovid:SAM2_G_3_G37476QB rdf:type owl:NamedIndividual ;
-		glycovidOntology:hasGlycan glycoinfo:G37476QB ;
+glycovid:SAM2_G_3_G63074CQ rdf:type owl:NamedIndividual ;
+		glycovidOntology:hasGlycan glycoinfo:G63074CQ ;
 		glycovidOntology:hasSample glycovid:SAM2_3_G ;
 		glycovidOntology:has_interactor_A glycovid:SAM2_3_G ;
-		glycovidOntology:has_interactor_B glycoinfo:G37476QB ;
+		glycovidOntology:has_interactor_B glycoinfo:G63074CQ ;
 		bao:BAO_0002875 sio:SIO_001076 ; 
 		sio:SIO_000300 "42.0"^^sio:SIO001212 ;
 		obo:IAO_0000119 glycovid:PUB33917609 ;
 		dcterms:references glycovid:PUB33917609 .
 
 
-glycovid:SAM2_G_3_G37476QB rdf:type owl:NamedIndividual ;
-		glycovidOntology:hasGlycan glycoinfo:G37476QB ;
+glycovid:SAM2_G_3_G25473LQ rdf:type owl:NamedIndividual ;
+		glycovidOntology:hasGlycan glycoinfo:G25473LQ ;
 		glycovidOntology:hasSample glycovid:SAM2_3_G ;
 		glycovidOntology:has_interactor_A glycovid:SAM2_3_G ;
-		glycovidOntology:has_interactor_B glycoinfo:G37476QB ;
+		glycovidOntology:has_interactor_B glycoinfo:G25473LQ ;
 		bao:BAO_0002875 sio:SIO_001076 ; 
 		sio:SIO_000300 "43.75"^^sio:SIO001212 ;
 		obo:IAO_0000119 glycovid:PUB33917609 ;
@@ -20786,11 +20786,11 @@ glycovid:SAM2_G_3_G02670IJ rdf:type owl:NamedIndividual ;
 		dcterms:references glycovid:PUB33917609 .
 
 
-glycovid:SAM2_G_3_G99858XP rdf:type owl:NamedIndividual ;
-		glycovidOntology:hasGlycan glycoinfo:G99858XP ;
+glycovid:SAM2_G_3_G51175PR rdf:type owl:NamedIndividual ;
+		glycovidOntology:hasGlycan glycoinfo:G51175PR ;
 		glycovidOntology:hasSample glycovid:SAM2_3_G ;
 		glycovidOntology:has_interactor_A glycovid:SAM2_3_G ;
-		glycovidOntology:has_interactor_B glycoinfo:G99858XP ;
+		glycovidOntology:has_interactor_B glycoinfo:G51175PR ;
 		bao:BAO_0002875 sio:SIO_001076 ; 
 		sio:SIO_000300 "84.75"^^sio:SIO001212 ;
 		obo:IAO_0000119 glycovid:PUB33917609 ;
@@ -21292,22 +21292,22 @@ glycovid:SAM2_G_15_G54064FW rdf:type owl:NamedIndividual ;
 		dcterms:references glycovid:PUB33917609 .
 
 
-glycovid:SAM2_G_15_G55143WF rdf:type owl:NamedIndividual ;
-		glycovidOntology:hasGlycan glycoinfo:G55143WF ;
+glycovid:SAM2_G_15_G51872EK rdf:type owl:NamedIndividual ;
+		glycovidOntology:hasGlycan glycoinfo:G51872EK ;
 		glycovidOntology:hasSample glycovid:SAM2_15_G ;
 		glycovidOntology:has_interactor_A glycovid:SAM2_15_G ;
-		glycovidOntology:has_interactor_B glycoinfo:G55143WF ;
+		glycovidOntology:has_interactor_B glycoinfo:G51872EK ;
 		bao:BAO_0002875 sio:SIO_001076 ; 
 		sio:SIO_000300 "99.5"^^sio:SIO001212 ;
 		obo:IAO_0000119 glycovid:PUB33917609 ;
 		dcterms:references glycovid:PUB33917609 .
 
 
-glycovid:SAM2_G_15_G51872EK rdf:type owl:NamedIndividual ;
-		glycovidOntology:hasGlycan glycoinfo:G51872EK ;
+glycovid:SAM2_G_15_G49916XD rdf:type owl:NamedIndividual ;
+		glycovidOntology:hasGlycan glycoinfo:G49916XD ;
 		glycovidOntology:hasSample glycovid:SAM2_15_G ;
 		glycovidOntology:has_interactor_A glycovid:SAM2_15_G ;
-		glycovidOntology:has_interactor_B glycoinfo:G51872EK ;
+		glycovidOntology:has_interactor_B glycoinfo:G49916XD ;
 		bao:BAO_0002875 sio:SIO_001076 ; 
 		sio:SIO_000300 "31.0"^^sio:SIO001212 ;
 		obo:IAO_0000119 glycovid:PUB33917609 ;
@@ -21446,11 +21446,11 @@ glycovid:SAM2_G_15_G43534QA rdf:type owl:NamedIndividual ;
 		dcterms:references glycovid:PUB33917609 .
 
 
-glycovid:SAM2_G_15_G82168GG rdf:type owl:NamedIndividual ;
-		glycovidOntology:hasGlycan glycoinfo:G82168GG ;
+glycovid:SAM2_G_15_G36191CD rdf:type owl:NamedIndividual ;
+		glycovidOntology:hasGlycan glycoinfo:G36191CD ;
 		glycovidOntology:hasSample glycovid:SAM2_15_G ;
 		glycovidOntology:has_interactor_A glycovid:SAM2_15_G ;
-		glycovidOntology:has_interactor_B glycoinfo:G82168GG ;
+		glycovidOntology:has_interactor_B glycoinfo:G36191CD ;
 		bao:BAO_0002875 sio:SIO_001076 ; 
 		sio:SIO_000300 "47.5"^^sio:SIO001212 ;
 		obo:IAO_0000119 glycovid:PUB33917609 ;
@@ -21523,11 +21523,11 @@ glycovid:SAM2_G_15_G82942ZJ rdf:type owl:NamedIndividual ;
 		dcterms:references glycovid:PUB33917609 .
 
 
-glycovid:SAM2_G_15_G21146IK rdf:type owl:NamedIndividual ;
-		glycovidOntology:hasGlycan glycoinfo:G21146IK ;
+glycovid:SAM2_G_15_G14844CX rdf:type owl:NamedIndividual ;
+		glycovidOntology:hasGlycan glycoinfo:G14844CX ;
 		glycovidOntology:hasSample glycovid:SAM2_15_G ;
 		glycovidOntology:has_interactor_A glycovid:SAM2_15_G ;
-		glycovidOntology:has_interactor_B glycoinfo:G21146IK ;
+		glycovidOntology:has_interactor_B glycoinfo:G14844CX ;
 		bao:BAO_0002875 sio:SIO_001076 ; 
 		sio:SIO_000300 "31.0"^^sio:SIO001212 ;
 		obo:IAO_0000119 glycovid:PUB33917609 ;
@@ -22227,22 +22227,22 @@ glycovid:SAM2_G_15_G19868AX rdf:type owl:NamedIndividual ;
 		dcterms:references glycovid:PUB33917609 .
 
 
-glycovid:SAM2_G_15_G37476QB rdf:type owl:NamedIndividual ;
-		glycovidOntology:hasGlycan glycoinfo:G37476QB ;
+glycovid:SAM2_G_15_G63074CQ rdf:type owl:NamedIndividual ;
+		glycovidOntology:hasGlycan glycoinfo:G63074CQ ;
 		glycovidOntology:hasSample glycovid:SAM2_15_G ;
 		glycovidOntology:has_interactor_A glycovid:SAM2_15_G ;
-		glycovidOntology:has_interactor_B glycoinfo:G37476QB ;
+		glycovidOntology:has_interactor_B glycoinfo:G63074CQ ;
 		bao:BAO_0002875 sio:SIO_001076 ; 
 		sio:SIO_000300 "39.0"^^sio:SIO001212 ;
 		obo:IAO_0000119 glycovid:PUB33917609 ;
 		dcterms:references glycovid:PUB33917609 .
 
 
-glycovid:SAM2_G_15_G37476QB rdf:type owl:NamedIndividual ;
-		glycovidOntology:hasGlycan glycoinfo:G37476QB ;
+glycovid:SAM2_G_15_G25473LQ rdf:type owl:NamedIndividual ;
+		glycovidOntology:hasGlycan glycoinfo:G25473LQ ;
 		glycovidOntology:hasSample glycovid:SAM2_15_G ;
 		glycovidOntology:has_interactor_A glycovid:SAM2_15_G ;
-		glycovidOntology:has_interactor_B glycoinfo:G37476QB ;
+		glycovidOntology:has_interactor_B glycoinfo:G25473LQ ;
 		bao:BAO_0002875 sio:SIO_001076 ; 
 		sio:SIO_000300 "39.0"^^sio:SIO001212 ;
 		obo:IAO_0000119 glycovid:PUB33917609 ;
@@ -22271,11 +22271,11 @@ glycovid:SAM2_G_15_G02670IJ rdf:type owl:NamedIndividual ;
 		dcterms:references glycovid:PUB33917609 .
 
 
-glycovid:SAM2_G_15_G99858XP rdf:type owl:NamedIndividual ;
-		glycovidOntology:hasGlycan glycoinfo:G99858XP ;
+glycovid:SAM2_G_15_G51175PR rdf:type owl:NamedIndividual ;
+		glycovidOntology:hasGlycan glycoinfo:G51175PR ;
 		glycovidOntology:hasSample glycovid:SAM2_15_G ;
 		glycovidOntology:has_interactor_A glycovid:SAM2_15_G ;
-		glycovidOntology:has_interactor_B glycoinfo:G99858XP ;
+		glycovidOntology:has_interactor_B glycoinfo:G51175PR ;
 		bao:BAO_0002875 sio:SIO_001076 ; 
 		sio:SIO_000300 "106.75"^^sio:SIO001212 ;
 		obo:IAO_0000119 glycovid:PUB33917609 ;
@@ -22777,22 +22777,22 @@ glycovid:SAM2_G_24_G54064FW rdf:type owl:NamedIndividual ;
 		dcterms:references glycovid:PUB33917609 .
 
 
-glycovid:SAM2_G_24_G55143WF rdf:type owl:NamedIndividual ;
-		glycovidOntology:hasGlycan glycoinfo:G55143WF ;
+glycovid:SAM2_G_24_G51872EK rdf:type owl:NamedIndividual ;
+		glycovidOntology:hasGlycan glycoinfo:G51872EK ;
 		glycovidOntology:hasSample glycovid:SAM2_24_G ;
 		glycovidOntology:has_interactor_A glycovid:SAM2_24_G ;
-		glycovidOntology:has_interactor_B glycoinfo:G55143WF ;
+		glycovidOntology:has_interactor_B glycoinfo:G51872EK ;
 		bao:BAO_0002875 sio:SIO_001076 ; 
 		sio:SIO_000300 "79.5"^^sio:SIO001212 ;
 		obo:IAO_0000119 glycovid:PUB33917609 ;
 		dcterms:references glycovid:PUB33917609 .
 
 
-glycovid:SAM2_G_24_G51872EK rdf:type owl:NamedIndividual ;
-		glycovidOntology:hasGlycan glycoinfo:G51872EK ;
+glycovid:SAM2_G_24_G49916XD rdf:type owl:NamedIndividual ;
+		glycovidOntology:hasGlycan glycoinfo:G49916XD ;
 		glycovidOntology:hasSample glycovid:SAM2_24_G ;
 		glycovidOntology:has_interactor_A glycovid:SAM2_24_G ;
-		glycovidOntology:has_interactor_B glycoinfo:G51872EK ;
+		glycovidOntology:has_interactor_B glycoinfo:G49916XD ;
 		bao:BAO_0002875 sio:SIO_001076 ; 
 		sio:SIO_000300 "31.5"^^sio:SIO001212 ;
 		obo:IAO_0000119 glycovid:PUB33917609 ;
@@ -22931,11 +22931,11 @@ glycovid:SAM2_G_24_G43534QA rdf:type owl:NamedIndividual ;
 		dcterms:references glycovid:PUB33917609 .
 
 
-glycovid:SAM2_G_24_G82168GG rdf:type owl:NamedIndividual ;
-		glycovidOntology:hasGlycan glycoinfo:G82168GG ;
+glycovid:SAM2_G_24_G36191CD rdf:type owl:NamedIndividual ;
+		glycovidOntology:hasGlycan glycoinfo:G36191CD ;
 		glycovidOntology:hasSample glycovid:SAM2_24_G ;
 		glycovidOntology:has_interactor_A glycovid:SAM2_24_G ;
-		glycovidOntology:has_interactor_B glycoinfo:G82168GG ;
+		glycovidOntology:has_interactor_B glycoinfo:G36191CD ;
 		bao:BAO_0002875 sio:SIO_001076 ; 
 		sio:SIO_000300 "56.25"^^sio:SIO001212 ;
 		obo:IAO_0000119 glycovid:PUB33917609 ;
@@ -23008,11 +23008,11 @@ glycovid:SAM2_G_24_G82942ZJ rdf:type owl:NamedIndividual ;
 		dcterms:references glycovid:PUB33917609 .
 
 
-glycovid:SAM2_G_24_G21146IK rdf:type owl:NamedIndividual ;
-		glycovidOntology:hasGlycan glycoinfo:G21146IK ;
+glycovid:SAM2_G_24_G14844CX rdf:type owl:NamedIndividual ;
+		glycovidOntology:hasGlycan glycoinfo:G14844CX ;
 		glycovidOntology:hasSample glycovid:SAM2_24_G ;
 		glycovidOntology:has_interactor_A glycovid:SAM2_24_G ;
-		glycovidOntology:has_interactor_B glycoinfo:G21146IK ;
+		glycovidOntology:has_interactor_B glycoinfo:G14844CX ;
 		bao:BAO_0002875 sio:SIO_001076 ; 
 		sio:SIO_000300 "37.0"^^sio:SIO001212 ;
 		obo:IAO_0000119 glycovid:PUB33917609 ;
@@ -23712,22 +23712,22 @@ glycovid:SAM2_G_24_G19868AX rdf:type owl:NamedIndividual ;
 		dcterms:references glycovid:PUB33917609 .
 
 
-glycovid:SAM2_G_24_G37476QB rdf:type owl:NamedIndividual ;
-		glycovidOntology:hasGlycan glycoinfo:G37476QB ;
+glycovid:SAM2_G_24_G63074CQ rdf:type owl:NamedIndividual ;
+		glycovidOntology:hasGlycan glycoinfo:G63074CQ ;
 		glycovidOntology:hasSample glycovid:SAM2_24_G ;
 		glycovidOntology:has_interactor_A glycovid:SAM2_24_G ;
-		glycovidOntology:has_interactor_B glycoinfo:G37476QB ;
+		glycovidOntology:has_interactor_B glycoinfo:G63074CQ ;
 		bao:BAO_0002875 sio:SIO_001076 ; 
 		sio:SIO_000300 "46.25"^^sio:SIO001212 ;
 		obo:IAO_0000119 glycovid:PUB33917609 ;
 		dcterms:references glycovid:PUB33917609 .
 
 
-glycovid:SAM2_G_24_G37476QB rdf:type owl:NamedIndividual ;
-		glycovidOntology:hasGlycan glycoinfo:G37476QB ;
+glycovid:SAM2_G_24_G25473LQ rdf:type owl:NamedIndividual ;
+		glycovidOntology:hasGlycan glycoinfo:G25473LQ ;
 		glycovidOntology:hasSample glycovid:SAM2_24_G ;
 		glycovidOntology:has_interactor_A glycovid:SAM2_24_G ;
-		glycovidOntology:has_interactor_B glycoinfo:G37476QB ;
+		glycovidOntology:has_interactor_B glycoinfo:G25473LQ ;
 		bao:BAO_0002875 sio:SIO_001076 ; 
 		sio:SIO_000300 "41.75"^^sio:SIO001212 ;
 		obo:IAO_0000119 glycovid:PUB33917609 ;
@@ -23756,11 +23756,11 @@ glycovid:SAM2_G_24_G02670IJ rdf:type owl:NamedIndividual ;
 		dcterms:references glycovid:PUB33917609 .
 
 
-glycovid:SAM2_G_24_G99858XP rdf:type owl:NamedIndividual ;
-		glycovidOntology:hasGlycan glycoinfo:G99858XP ;
+glycovid:SAM2_G_24_G51175PR rdf:type owl:NamedIndividual ;
+		glycovidOntology:hasGlycan glycoinfo:G51175PR ;
 		glycovidOntology:hasSample glycovid:SAM2_24_G ;
 		glycovidOntology:has_interactor_A glycovid:SAM2_24_G ;
-		glycovidOntology:has_interactor_B glycoinfo:G99858XP ;
+		glycovidOntology:has_interactor_B glycoinfo:G51175PR ;
 		bao:BAO_0002875 sio:SIO_001076 ; 
 		sio:SIO_000300 "120.25"^^sio:SIO001212 ;
 		obo:IAO_0000119 glycovid:PUB33917609 ;
@@ -24262,22 +24262,22 @@ glycovid:SAM3_G_-180_G54064FW rdf:type owl:NamedIndividual ;
 		dcterms:references glycovid:PUB33917609 .
 
 
-glycovid:SAM3_G_-180_G55143WF rdf:type owl:NamedIndividual ;
-		glycovidOntology:hasGlycan glycoinfo:G55143WF ;
+glycovid:SAM3_G_-180_G51872EK rdf:type owl:NamedIndividual ;
+		glycovidOntology:hasGlycan glycoinfo:G51872EK ;
 		glycovidOntology:hasSample glycovid:SAM3_-180_G ;
 		glycovidOntology:has_interactor_A glycovid:SAM3_-180_G ;
-		glycovidOntology:has_interactor_B glycoinfo:G55143WF ;
+		glycovidOntology:has_interactor_B glycoinfo:G51872EK ;
 		bao:BAO_0002875 sio:SIO_001076 ; 
 		sio:SIO_000300 "72.75"^^sio:SIO001212 ;
 		obo:IAO_0000119 glycovid:PUB33917609 ;
 		dcterms:references glycovid:PUB33917609 .
 
 
-glycovid:SAM3_G_-180_G51872EK rdf:type owl:NamedIndividual ;
-		glycovidOntology:hasGlycan glycoinfo:G51872EK ;
+glycovid:SAM3_G_-180_G49916XD rdf:type owl:NamedIndividual ;
+		glycovidOntology:hasGlycan glycoinfo:G49916XD ;
 		glycovidOntology:hasSample glycovid:SAM3_-180_G ;
 		glycovidOntology:has_interactor_A glycovid:SAM3_-180_G ;
-		glycovidOntology:has_interactor_B glycoinfo:G51872EK ;
+		glycovidOntology:has_interactor_B glycoinfo:G49916XD ;
 		bao:BAO_0002875 sio:SIO_001076 ; 
 		sio:SIO_000300 "72.25"^^sio:SIO001212 ;
 		obo:IAO_0000119 glycovid:PUB33917609 ;
@@ -24416,11 +24416,11 @@ glycovid:SAM3_G_-180_G43534QA rdf:type owl:NamedIndividual ;
 		dcterms:references glycovid:PUB33917609 .
 
 
-glycovid:SAM3_G_-180_G82168GG rdf:type owl:NamedIndividual ;
-		glycovidOntology:hasGlycan glycoinfo:G82168GG ;
+glycovid:SAM3_G_-180_G36191CD rdf:type owl:NamedIndividual ;
+		glycovidOntology:hasGlycan glycoinfo:G36191CD ;
 		glycovidOntology:hasSample glycovid:SAM3_-180_G ;
 		glycovidOntology:has_interactor_A glycovid:SAM3_-180_G ;
-		glycovidOntology:has_interactor_B glycoinfo:G82168GG ;
+		glycovidOntology:has_interactor_B glycoinfo:G36191CD ;
 		bao:BAO_0002875 sio:SIO_001076 ; 
 		sio:SIO_000300 "67.25"^^sio:SIO001212 ;
 		obo:IAO_0000119 glycovid:PUB33917609 ;
@@ -24493,11 +24493,11 @@ glycovid:SAM3_G_-180_G82942ZJ rdf:type owl:NamedIndividual ;
 		dcterms:references glycovid:PUB33917609 .
 
 
-glycovid:SAM3_G_-180_G21146IK rdf:type owl:NamedIndividual ;
-		glycovidOntology:hasGlycan glycoinfo:G21146IK ;
+glycovid:SAM3_G_-180_G14844CX rdf:type owl:NamedIndividual ;
+		glycovidOntology:hasGlycan glycoinfo:G14844CX ;
 		glycovidOntology:hasSample glycovid:SAM3_-180_G ;
 		glycovidOntology:has_interactor_A glycovid:SAM3_-180_G ;
-		glycovidOntology:has_interactor_B glycoinfo:G21146IK ;
+		glycovidOntology:has_interactor_B glycoinfo:G14844CX ;
 		bao:BAO_0002875 sio:SIO_001076 ; 
 		sio:SIO_000300 "53.0"^^sio:SIO001212 ;
 		obo:IAO_0000119 glycovid:PUB33917609 ;
@@ -25197,22 +25197,22 @@ glycovid:SAM3_G_-180_G19868AX rdf:type owl:NamedIndividual ;
 		dcterms:references glycovid:PUB33917609 .
 
 
-glycovid:SAM3_G_-180_G37476QB rdf:type owl:NamedIndividual ;
-		glycovidOntology:hasGlycan glycoinfo:G37476QB ;
+glycovid:SAM3_G_-180_G63074CQ rdf:type owl:NamedIndividual ;
+		glycovidOntology:hasGlycan glycoinfo:G63074CQ ;
 		glycovidOntology:hasSample glycovid:SAM3_-180_G ;
 		glycovidOntology:has_interactor_A glycovid:SAM3_-180_G ;
-		glycovidOntology:has_interactor_B glycoinfo:G37476QB ;
+		glycovidOntology:has_interactor_B glycoinfo:G63074CQ ;
 		bao:BAO_0002875 sio:SIO_001076 ; 
 		sio:SIO_000300 "35.25"^^sio:SIO001212 ;
 		obo:IAO_0000119 glycovid:PUB33917609 ;
 		dcterms:references glycovid:PUB33917609 .
 
 
-glycovid:SAM3_G_-180_G37476QB rdf:type owl:NamedIndividual ;
-		glycovidOntology:hasGlycan glycoinfo:G37476QB ;
+glycovid:SAM3_G_-180_G25473LQ rdf:type owl:NamedIndividual ;
+		glycovidOntology:hasGlycan glycoinfo:G25473LQ ;
 		glycovidOntology:hasSample glycovid:SAM3_-180_G ;
 		glycovidOntology:has_interactor_A glycovid:SAM3_-180_G ;
-		glycovidOntology:has_interactor_B glycoinfo:G37476QB ;
+		glycovidOntology:has_interactor_B glycoinfo:G25473LQ ;
 		bao:BAO_0002875 sio:SIO_001076 ; 
 		sio:SIO_000300 "37.25"^^sio:SIO001212 ;
 		obo:IAO_0000119 glycovid:PUB33917609 ;
@@ -25241,11 +25241,11 @@ glycovid:SAM3_G_-180_G02670IJ rdf:type owl:NamedIndividual ;
 		dcterms:references glycovid:PUB33917609 .
 
 
-glycovid:SAM3_G_-180_G99858XP rdf:type owl:NamedIndividual ;
-		glycovidOntology:hasGlycan glycoinfo:G99858XP ;
+glycovid:SAM3_G_-180_G51175PR rdf:type owl:NamedIndividual ;
+		glycovidOntology:hasGlycan glycoinfo:G51175PR ;
 		glycovidOntology:hasSample glycovid:SAM3_-180_G ;
 		glycovidOntology:has_interactor_A glycovid:SAM3_-180_G ;
-		glycovidOntology:has_interactor_B glycoinfo:G99858XP ;
+		glycovidOntology:has_interactor_B glycoinfo:G51175PR ;
 		bao:BAO_0002875 sio:SIO_001076 ; 
 		sio:SIO_000300 "442.25"^^sio:SIO001212 ;
 		obo:IAO_0000119 glycovid:PUB33917609 ;
@@ -25747,22 +25747,22 @@ glycovid:SAM3_G_4_G54064FW rdf:type owl:NamedIndividual ;
 		dcterms:references glycovid:PUB33917609 .
 
 
-glycovid:SAM3_G_4_G55143WF rdf:type owl:NamedIndividual ;
-		glycovidOntology:hasGlycan glycoinfo:G55143WF ;
+glycovid:SAM3_G_4_G51872EK rdf:type owl:NamedIndividual ;
+		glycovidOntology:hasGlycan glycoinfo:G51872EK ;
 		glycovidOntology:hasSample glycovid:SAM3_4_G ;
 		glycovidOntology:has_interactor_A glycovid:SAM3_4_G ;
-		glycovidOntology:has_interactor_B glycoinfo:G55143WF ;
+		glycovidOntology:has_interactor_B glycoinfo:G51872EK ;
 		bao:BAO_0002875 sio:SIO_001076 ; 
 		sio:SIO_000300 "61.5"^^sio:SIO001212 ;
 		obo:IAO_0000119 glycovid:PUB33917609 ;
 		dcterms:references glycovid:PUB33917609 .
 
 
-glycovid:SAM3_G_4_G51872EK rdf:type owl:NamedIndividual ;
-		glycovidOntology:hasGlycan glycoinfo:G51872EK ;
+glycovid:SAM3_G_4_G49916XD rdf:type owl:NamedIndividual ;
+		glycovidOntology:hasGlycan glycoinfo:G49916XD ;
 		glycovidOntology:hasSample glycovid:SAM3_4_G ;
 		glycovidOntology:has_interactor_A glycovid:SAM3_4_G ;
-		glycovidOntology:has_interactor_B glycoinfo:G51872EK ;
+		glycovidOntology:has_interactor_B glycoinfo:G49916XD ;
 		bao:BAO_0002875 sio:SIO_001076 ; 
 		sio:SIO_000300 "127.0"^^sio:SIO001212 ;
 		obo:IAO_0000119 glycovid:PUB33917609 ;
@@ -25901,11 +25901,11 @@ glycovid:SAM3_G_4_G43534QA rdf:type owl:NamedIndividual ;
 		dcterms:references glycovid:PUB33917609 .
 
 
-glycovid:SAM3_G_4_G82168GG rdf:type owl:NamedIndividual ;
-		glycovidOntology:hasGlycan glycoinfo:G82168GG ;
+glycovid:SAM3_G_4_G36191CD rdf:type owl:NamedIndividual ;
+		glycovidOntology:hasGlycan glycoinfo:G36191CD ;
 		glycovidOntology:hasSample glycovid:SAM3_4_G ;
 		glycovidOntology:has_interactor_A glycovid:SAM3_4_G ;
-		glycovidOntology:has_interactor_B glycoinfo:G82168GG ;
+		glycovidOntology:has_interactor_B glycoinfo:G36191CD ;
 		bao:BAO_0002875 sio:SIO_001076 ; 
 		sio:SIO_000300 "57.5"^^sio:SIO001212 ;
 		obo:IAO_0000119 glycovid:PUB33917609 ;
@@ -25978,11 +25978,11 @@ glycovid:SAM3_G_4_G82942ZJ rdf:type owl:NamedIndividual ;
 		dcterms:references glycovid:PUB33917609 .
 
 
-glycovid:SAM3_G_4_G21146IK rdf:type owl:NamedIndividual ;
-		glycovidOntology:hasGlycan glycoinfo:G21146IK ;
+glycovid:SAM3_G_4_G14844CX rdf:type owl:NamedIndividual ;
+		glycovidOntology:hasGlycan glycoinfo:G14844CX ;
 		glycovidOntology:hasSample glycovid:SAM3_4_G ;
 		glycovidOntology:has_interactor_A glycovid:SAM3_4_G ;
-		glycovidOntology:has_interactor_B glycoinfo:G21146IK ;
+		glycovidOntology:has_interactor_B glycoinfo:G14844CX ;
 		bao:BAO_0002875 sio:SIO_001076 ; 
 		sio:SIO_000300 "42.75"^^sio:SIO001212 ;
 		obo:IAO_0000119 glycovid:PUB33917609 ;
@@ -26682,22 +26682,22 @@ glycovid:SAM3_G_4_G19868AX rdf:type owl:NamedIndividual ;
 		dcterms:references glycovid:PUB33917609 .
 
 
-glycovid:SAM3_G_4_G37476QB rdf:type owl:NamedIndividual ;
-		glycovidOntology:hasGlycan glycoinfo:G37476QB ;
+glycovid:SAM3_G_4_G63074CQ rdf:type owl:NamedIndividual ;
+		glycovidOntology:hasGlycan glycoinfo:G63074CQ ;
 		glycovidOntology:hasSample glycovid:SAM3_4_G ;
 		glycovidOntology:has_interactor_A glycovid:SAM3_4_G ;
-		glycovidOntology:has_interactor_B glycoinfo:G37476QB ;
+		glycovidOntology:has_interactor_B glycoinfo:G63074CQ ;
 		bao:BAO_0002875 sio:SIO_001076 ; 
 		sio:SIO_000300 "37.75"^^sio:SIO001212 ;
 		obo:IAO_0000119 glycovid:PUB33917609 ;
 		dcterms:references glycovid:PUB33917609 .
 
 
-glycovid:SAM3_G_4_G37476QB rdf:type owl:NamedIndividual ;
-		glycovidOntology:hasGlycan glycoinfo:G37476QB ;
+glycovid:SAM3_G_4_G25473LQ rdf:type owl:NamedIndividual ;
+		glycovidOntology:hasGlycan glycoinfo:G25473LQ ;
 		glycovidOntology:hasSample glycovid:SAM3_4_G ;
 		glycovidOntology:has_interactor_A glycovid:SAM3_4_G ;
-		glycovidOntology:has_interactor_B glycoinfo:G37476QB ;
+		glycovidOntology:has_interactor_B glycoinfo:G25473LQ ;
 		bao:BAO_0002875 sio:SIO_001076 ; 
 		sio:SIO_000300 "44.25"^^sio:SIO001212 ;
 		obo:IAO_0000119 glycovid:PUB33917609 ;
@@ -26726,11 +26726,11 @@ glycovid:SAM3_G_4_G02670IJ rdf:type owl:NamedIndividual ;
 		dcterms:references glycovid:PUB33917609 .
 
 
-glycovid:SAM3_G_4_G99858XP rdf:type owl:NamedIndividual ;
-		glycovidOntology:hasGlycan glycoinfo:G99858XP ;
+glycovid:SAM3_G_4_G51175PR rdf:type owl:NamedIndividual ;
+		glycovidOntology:hasGlycan glycoinfo:G51175PR ;
 		glycovidOntology:hasSample glycovid:SAM3_4_G ;
 		glycovidOntology:has_interactor_A glycovid:SAM3_4_G ;
-		glycovidOntology:has_interactor_B glycoinfo:G99858XP ;
+		glycovidOntology:has_interactor_B glycoinfo:G51175PR ;
 		bao:BAO_0002875 sio:SIO_001076 ; 
 		sio:SIO_000300 "572.75"^^sio:SIO001212 ;
 		obo:IAO_0000119 glycovid:PUB33917609 ;
@@ -27232,22 +27232,22 @@ glycovid:SAM3_G_11_G54064FW rdf:type owl:NamedIndividual ;
 		dcterms:references glycovid:PUB33917609 .
 
 
-glycovid:SAM3_G_11_G55143WF rdf:type owl:NamedIndividual ;
-		glycovidOntology:hasGlycan glycoinfo:G55143WF ;
+glycovid:SAM3_G_11_G51872EK rdf:type owl:NamedIndividual ;
+		glycovidOntology:hasGlycan glycoinfo:G51872EK ;
 		glycovidOntology:hasSample glycovid:SAM3_11_G ;
 		glycovidOntology:has_interactor_A glycovid:SAM3_11_G ;
-		glycovidOntology:has_interactor_B glycoinfo:G55143WF ;
+		glycovidOntology:has_interactor_B glycoinfo:G51872EK ;
 		bao:BAO_0002875 sio:SIO_001076 ; 
 		sio:SIO_000300 "63.0"^^sio:SIO001212 ;
 		obo:IAO_0000119 glycovid:PUB33917609 ;
 		dcterms:references glycovid:PUB33917609 .
 
 
-glycovid:SAM3_G_11_G51872EK rdf:type owl:NamedIndividual ;
-		glycovidOntology:hasGlycan glycoinfo:G51872EK ;
+glycovid:SAM3_G_11_G49916XD rdf:type owl:NamedIndividual ;
+		glycovidOntology:hasGlycan glycoinfo:G49916XD ;
 		glycovidOntology:hasSample glycovid:SAM3_11_G ;
 		glycovidOntology:has_interactor_A glycovid:SAM3_11_G ;
-		glycovidOntology:has_interactor_B glycoinfo:G51872EK ;
+		glycovidOntology:has_interactor_B glycoinfo:G49916XD ;
 		bao:BAO_0002875 sio:SIO_001076 ; 
 		sio:SIO_000300 "133.75"^^sio:SIO001212 ;
 		obo:IAO_0000119 glycovid:PUB33917609 ;
@@ -27386,11 +27386,11 @@ glycovid:SAM3_G_11_G43534QA rdf:type owl:NamedIndividual ;
 		dcterms:references glycovid:PUB33917609 .
 
 
-glycovid:SAM3_G_11_G82168GG rdf:type owl:NamedIndividual ;
-		glycovidOntology:hasGlycan glycoinfo:G82168GG ;
+glycovid:SAM3_G_11_G36191CD rdf:type owl:NamedIndividual ;
+		glycovidOntology:hasGlycan glycoinfo:G36191CD ;
 		glycovidOntology:hasSample glycovid:SAM3_11_G ;
 		glycovidOntology:has_interactor_A glycovid:SAM3_11_G ;
-		glycovidOntology:has_interactor_B glycoinfo:G82168GG ;
+		glycovidOntology:has_interactor_B glycoinfo:G36191CD ;
 		bao:BAO_0002875 sio:SIO_001076 ; 
 		sio:SIO_000300 "65.75"^^sio:SIO001212 ;
 		obo:IAO_0000119 glycovid:PUB33917609 ;
@@ -27463,11 +27463,11 @@ glycovid:SAM3_G_11_G82942ZJ rdf:type owl:NamedIndividual ;
 		dcterms:references glycovid:PUB33917609 .
 
 
-glycovid:SAM3_G_11_G21146IK rdf:type owl:NamedIndividual ;
-		glycovidOntology:hasGlycan glycoinfo:G21146IK ;
+glycovid:SAM3_G_11_G14844CX rdf:type owl:NamedIndividual ;
+		glycovidOntology:hasGlycan glycoinfo:G14844CX ;
 		glycovidOntology:hasSample glycovid:SAM3_11_G ;
 		glycovidOntology:has_interactor_A glycovid:SAM3_11_G ;
-		glycovidOntology:has_interactor_B glycoinfo:G21146IK ;
+		glycovidOntology:has_interactor_B glycoinfo:G14844CX ;
 		bao:BAO_0002875 sio:SIO_001076 ; 
 		sio:SIO_000300 "45.5"^^sio:SIO001212 ;
 		obo:IAO_0000119 glycovid:PUB33917609 ;
@@ -28167,22 +28167,22 @@ glycovid:SAM3_G_11_G19868AX rdf:type owl:NamedIndividual ;
 		dcterms:references glycovid:PUB33917609 .
 
 
-glycovid:SAM3_G_11_G37476QB rdf:type owl:NamedIndividual ;
-		glycovidOntology:hasGlycan glycoinfo:G37476QB ;
+glycovid:SAM3_G_11_G63074CQ rdf:type owl:NamedIndividual ;
+		glycovidOntology:hasGlycan glycoinfo:G63074CQ ;
 		glycovidOntology:hasSample glycovid:SAM3_11_G ;
 		glycovidOntology:has_interactor_A glycovid:SAM3_11_G ;
-		glycovidOntology:has_interactor_B glycoinfo:G37476QB ;
+		glycovidOntology:has_interactor_B glycoinfo:G63074CQ ;
 		bao:BAO_0002875 sio:SIO_001076 ; 
 		sio:SIO_000300 "42.5"^^sio:SIO001212 ;
 		obo:IAO_0000119 glycovid:PUB33917609 ;
 		dcterms:references glycovid:PUB33917609 .
 
 
-glycovid:SAM3_G_11_G37476QB rdf:type owl:NamedIndividual ;
-		glycovidOntology:hasGlycan glycoinfo:G37476QB ;
+glycovid:SAM3_G_11_G25473LQ rdf:type owl:NamedIndividual ;
+		glycovidOntology:hasGlycan glycoinfo:G25473LQ ;
 		glycovidOntology:hasSample glycovid:SAM3_11_G ;
 		glycovidOntology:has_interactor_A glycovid:SAM3_11_G ;
-		glycovidOntology:has_interactor_B glycoinfo:G37476QB ;
+		glycovidOntology:has_interactor_B glycoinfo:G25473LQ ;
 		bao:BAO_0002875 sio:SIO_001076 ; 
 		sio:SIO_000300 "48.75"^^sio:SIO001212 ;
 		obo:IAO_0000119 glycovid:PUB33917609 ;
@@ -28211,11 +28211,11 @@ glycovid:SAM3_G_11_G02670IJ rdf:type owl:NamedIndividual ;
 		dcterms:references glycovid:PUB33917609 .
 
 
-glycovid:SAM3_G_11_G99858XP rdf:type owl:NamedIndividual ;
-		glycovidOntology:hasGlycan glycoinfo:G99858XP ;
+glycovid:SAM3_G_11_G51175PR rdf:type owl:NamedIndividual ;
+		glycovidOntology:hasGlycan glycoinfo:G51175PR ;
 		glycovidOntology:hasSample glycovid:SAM3_11_G ;
 		glycovidOntology:has_interactor_A glycovid:SAM3_11_G ;
-		glycovidOntology:has_interactor_B glycoinfo:G99858XP ;
+		glycovidOntology:has_interactor_B glycoinfo:G51175PR ;
 		bao:BAO_0002875 sio:SIO_001076 ; 
 		sio:SIO_000300 "508.75"^^sio:SIO001212 ;
 		obo:IAO_0000119 glycovid:PUB33917609 ;
@@ -28717,22 +28717,22 @@ glycovid:SAM4_G_12_G54064FW rdf:type owl:NamedIndividual ;
 		dcterms:references glycovid:PUB33917609 .
 
 
-glycovid:SAM4_G_12_G55143WF rdf:type owl:NamedIndividual ;
-		glycovidOntology:hasGlycan glycoinfo:G55143WF ;
+glycovid:SAM4_G_12_G51872EK rdf:type owl:NamedIndividual ;
+		glycovidOntology:hasGlycan glycoinfo:G51872EK ;
 		glycovidOntology:hasSample glycovid:SAM4_12_G ;
 		glycovidOntology:has_interactor_A glycovid:SAM4_12_G ;
-		glycovidOntology:has_interactor_B glycoinfo:G55143WF ;
+		glycovidOntology:has_interactor_B glycoinfo:G51872EK ;
 		bao:BAO_0002875 sio:SIO_001076 ; 
 		sio:SIO_000300 "59.5"^^sio:SIO001212 ;
 		obo:IAO_0000119 glycovid:PUB33917609 ;
 		dcterms:references glycovid:PUB33917609 .
 
 
-glycovid:SAM4_G_12_G51872EK rdf:type owl:NamedIndividual ;
-		glycovidOntology:hasGlycan glycoinfo:G51872EK ;
+glycovid:SAM4_G_12_G49916XD rdf:type owl:NamedIndividual ;
+		glycovidOntology:hasGlycan glycoinfo:G49916XD ;
 		glycovidOntology:hasSample glycovid:SAM4_12_G ;
 		glycovidOntology:has_interactor_A glycovid:SAM4_12_G ;
-		glycovidOntology:has_interactor_B glycoinfo:G51872EK ;
+		glycovidOntology:has_interactor_B glycoinfo:G49916XD ;
 		bao:BAO_0002875 sio:SIO_001076 ; 
 		sio:SIO_000300 "107.75"^^sio:SIO001212 ;
 		obo:IAO_0000119 glycovid:PUB33917609 ;
@@ -28871,11 +28871,11 @@ glycovid:SAM4_G_12_G43534QA rdf:type owl:NamedIndividual ;
 		dcterms:references glycovid:PUB33917609 .
 
 
-glycovid:SAM4_G_12_G82168GG rdf:type owl:NamedIndividual ;
-		glycovidOntology:hasGlycan glycoinfo:G82168GG ;
+glycovid:SAM4_G_12_G36191CD rdf:type owl:NamedIndividual ;
+		glycovidOntology:hasGlycan glycoinfo:G36191CD ;
 		glycovidOntology:hasSample glycovid:SAM4_12_G ;
 		glycovidOntology:has_interactor_A glycovid:SAM4_12_G ;
-		glycovidOntology:has_interactor_B glycoinfo:G82168GG ;
+		glycovidOntology:has_interactor_B glycoinfo:G36191CD ;
 		bao:BAO_0002875 sio:SIO_001076 ; 
 		sio:SIO_000300 "173.5"^^sio:SIO001212 ;
 		obo:IAO_0000119 glycovid:PUB33917609 ;
@@ -28948,11 +28948,11 @@ glycovid:SAM4_G_12_G82942ZJ rdf:type owl:NamedIndividual ;
 		dcterms:references glycovid:PUB33917609 .
 
 
-glycovid:SAM4_G_12_G21146IK rdf:type owl:NamedIndividual ;
-		glycovidOntology:hasGlycan glycoinfo:G21146IK ;
+glycovid:SAM4_G_12_G14844CX rdf:type owl:NamedIndividual ;
+		glycovidOntology:hasGlycan glycoinfo:G14844CX ;
 		glycovidOntology:hasSample glycovid:SAM4_12_G ;
 		glycovidOntology:has_interactor_A glycovid:SAM4_12_G ;
-		glycovidOntology:has_interactor_B glycoinfo:G21146IK ;
+		glycovidOntology:has_interactor_B glycoinfo:G14844CX ;
 		bao:BAO_0002875 sio:SIO_001076 ; 
 		sio:SIO_000300 "295.75"^^sio:SIO001212 ;
 		obo:IAO_0000119 glycovid:PUB33917609 ;
@@ -29652,22 +29652,22 @@ glycovid:SAM4_G_12_G19868AX rdf:type owl:NamedIndividual ;
 		dcterms:references glycovid:PUB33917609 .
 
 
-glycovid:SAM4_G_12_G37476QB rdf:type owl:NamedIndividual ;
-		glycovidOntology:hasGlycan glycoinfo:G37476QB ;
+glycovid:SAM4_G_12_G63074CQ rdf:type owl:NamedIndividual ;
+		glycovidOntology:hasGlycan glycoinfo:G63074CQ ;
 		glycovidOntology:hasSample glycovid:SAM4_12_G ;
 		glycovidOntology:has_interactor_A glycovid:SAM4_12_G ;
-		glycovidOntology:has_interactor_B glycoinfo:G37476QB ;
+		glycovidOntology:has_interactor_B glycoinfo:G63074CQ ;
 		bao:BAO_0002875 sio:SIO_001076 ; 
 		sio:SIO_000300 "86.25"^^sio:SIO001212 ;
 		obo:IAO_0000119 glycovid:PUB33917609 ;
 		dcterms:references glycovid:PUB33917609 .
 
 
-glycovid:SAM4_G_12_G37476QB rdf:type owl:NamedIndividual ;
-		glycovidOntology:hasGlycan glycoinfo:G37476QB ;
+glycovid:SAM4_G_12_G25473LQ rdf:type owl:NamedIndividual ;
+		glycovidOntology:hasGlycan glycoinfo:G25473LQ ;
 		glycovidOntology:hasSample glycovid:SAM4_12_G ;
 		glycovidOntology:has_interactor_A glycovid:SAM4_12_G ;
-		glycovidOntology:has_interactor_B glycoinfo:G37476QB ;
+		glycovidOntology:has_interactor_B glycoinfo:G25473LQ ;
 		bao:BAO_0002875 sio:SIO_001076 ; 
 		sio:SIO_000300 "107.0"^^sio:SIO001212 ;
 		obo:IAO_0000119 glycovid:PUB33917609 ;
@@ -29696,11 +29696,11 @@ glycovid:SAM4_G_12_G02670IJ rdf:type owl:NamedIndividual ;
 		dcterms:references glycovid:PUB33917609 .
 
 
-glycovid:SAM4_G_12_G99858XP rdf:type owl:NamedIndividual ;
-		glycovidOntology:hasGlycan glycoinfo:G99858XP ;
+glycovid:SAM4_G_12_G51175PR rdf:type owl:NamedIndividual ;
+		glycovidOntology:hasGlycan glycoinfo:G51175PR ;
 		glycovidOntology:hasSample glycovid:SAM4_12_G ;
 		glycovidOntology:has_interactor_A glycovid:SAM4_12_G ;
-		glycovidOntology:has_interactor_B glycoinfo:G99858XP ;
+		glycovidOntology:has_interactor_B glycoinfo:G51175PR ;
 		bao:BAO_0002875 sio:SIO_001076 ; 
 		sio:SIO_000300 "101.75"^^sio:SIO001212 ;
 		obo:IAO_0000119 glycovid:PUB33917609 ;
@@ -30202,22 +30202,22 @@ glycovid:SAM1_M_6_G54064FW rdf:type owl:NamedIndividual ;
 		dcterms:references glycovid:PUB33917609 .
 
 
-glycovid:SAM1_M_6_G55143WF rdf:type owl:NamedIndividual ;
-		glycovidOntology:hasGlycan glycoinfo:G55143WF ;
+glycovid:SAM1_M_6_G51872EK rdf:type owl:NamedIndividual ;
+		glycovidOntology:hasGlycan glycoinfo:G51872EK ;
 		glycovidOntology:hasSample glycovid:SAM1_6_M ;
 		glycovidOntology:has_interactor_A glycovid:SAM1_6_M ;
-		glycovidOntology:has_interactor_B glycoinfo:G55143WF ;
+		glycovidOntology:has_interactor_B glycoinfo:G51872EK ;
 		bao:BAO_0002875 sio:SIO_001076 ; 
 		sio:SIO_000300 "46.75"^^sio:SIO001212 ;
 		obo:IAO_0000119 glycovid:PUB33917609 ;
 		dcterms:references glycovid:PUB33917609 .
 
 
-glycovid:SAM1_M_6_G51872EK rdf:type owl:NamedIndividual ;
-		glycovidOntology:hasGlycan glycoinfo:G51872EK ;
+glycovid:SAM1_M_6_G49916XD rdf:type owl:NamedIndividual ;
+		glycovidOntology:hasGlycan glycoinfo:G49916XD ;
 		glycovidOntology:hasSample glycovid:SAM1_6_M ;
 		glycovidOntology:has_interactor_A glycovid:SAM1_6_M ;
-		glycovidOntology:has_interactor_B glycoinfo:G51872EK ;
+		glycovidOntology:has_interactor_B glycoinfo:G49916XD ;
 		bao:BAO_0002875 sio:SIO_001076 ; 
 		sio:SIO_000300 "51.75"^^sio:SIO001212 ;
 		obo:IAO_0000119 glycovid:PUB33917609 ;
@@ -30356,11 +30356,11 @@ glycovid:SAM1_M_6_G43534QA rdf:type owl:NamedIndividual ;
 		dcterms:references glycovid:PUB33917609 .
 
 
-glycovid:SAM1_M_6_G82168GG rdf:type owl:NamedIndividual ;
-		glycovidOntology:hasGlycan glycoinfo:G82168GG ;
+glycovid:SAM1_M_6_G36191CD rdf:type owl:NamedIndividual ;
+		glycovidOntology:hasGlycan glycoinfo:G36191CD ;
 		glycovidOntology:hasSample glycovid:SAM1_6_M ;
 		glycovidOntology:has_interactor_A glycovid:SAM1_6_M ;
-		glycovidOntology:has_interactor_B glycoinfo:G82168GG ;
+		glycovidOntology:has_interactor_B glycoinfo:G36191CD ;
 		bao:BAO_0002875 sio:SIO_001076 ; 
 		sio:SIO_000300 "35.0"^^sio:SIO001212 ;
 		obo:IAO_0000119 glycovid:PUB33917609 ;
@@ -30433,11 +30433,11 @@ glycovid:SAM1_M_6_G82942ZJ rdf:type owl:NamedIndividual ;
 		dcterms:references glycovid:PUB33917609 .
 
 
-glycovid:SAM1_M_6_G21146IK rdf:type owl:NamedIndividual ;
-		glycovidOntology:hasGlycan glycoinfo:G21146IK ;
+glycovid:SAM1_M_6_G14844CX rdf:type owl:NamedIndividual ;
+		glycovidOntology:hasGlycan glycoinfo:G14844CX ;
 		glycovidOntology:hasSample glycovid:SAM1_6_M ;
 		glycovidOntology:has_interactor_A glycovid:SAM1_6_M ;
-		glycovidOntology:has_interactor_B glycoinfo:G21146IK ;
+		glycovidOntology:has_interactor_B glycoinfo:G14844CX ;
 		bao:BAO_0002875 sio:SIO_001076 ; 
 		sio:SIO_000300 "38.75"^^sio:SIO001212 ;
 		obo:IAO_0000119 glycovid:PUB33917609 ;
@@ -31137,22 +31137,22 @@ glycovid:SAM1_M_6_G19868AX rdf:type owl:NamedIndividual ;
 		dcterms:references glycovid:PUB33917609 .
 
 
-glycovid:SAM1_M_6_G37476QB rdf:type owl:NamedIndividual ;
-		glycovidOntology:hasGlycan glycoinfo:G37476QB ;
+glycovid:SAM1_M_6_G63074CQ rdf:type owl:NamedIndividual ;
+		glycovidOntology:hasGlycan glycoinfo:G63074CQ ;
 		glycovidOntology:hasSample glycovid:SAM1_6_M ;
 		glycovidOntology:has_interactor_A glycovid:SAM1_6_M ;
-		glycovidOntology:has_interactor_B glycoinfo:G37476QB ;
+		glycovidOntology:has_interactor_B glycoinfo:G63074CQ ;
 		bao:BAO_0002875 sio:SIO_001076 ; 
 		sio:SIO_000300 "41.0"^^sio:SIO001212 ;
 		obo:IAO_0000119 glycovid:PUB33917609 ;
 		dcterms:references glycovid:PUB33917609 .
 
 
-glycovid:SAM1_M_6_G37476QB rdf:type owl:NamedIndividual ;
-		glycovidOntology:hasGlycan glycoinfo:G37476QB ;
+glycovid:SAM1_M_6_G25473LQ rdf:type owl:NamedIndividual ;
+		glycovidOntology:hasGlycan glycoinfo:G25473LQ ;
 		glycovidOntology:hasSample glycovid:SAM1_6_M ;
 		glycovidOntology:has_interactor_A glycovid:SAM1_6_M ;
-		glycovidOntology:has_interactor_B glycoinfo:G37476QB ;
+		glycovidOntology:has_interactor_B glycoinfo:G25473LQ ;
 		bao:BAO_0002875 sio:SIO_001076 ; 
 		sio:SIO_000300 "36.5"^^sio:SIO001212 ;
 		obo:IAO_0000119 glycovid:PUB33917609 ;
@@ -31181,11 +31181,11 @@ glycovid:SAM1_M_6_G02670IJ rdf:type owl:NamedIndividual ;
 		dcterms:references glycovid:PUB33917609 .
 
 
-glycovid:SAM1_M_6_G99858XP rdf:type owl:NamedIndividual ;
-		glycovidOntology:hasGlycan glycoinfo:G99858XP ;
+glycovid:SAM1_M_6_G51175PR rdf:type owl:NamedIndividual ;
+		glycovidOntology:hasGlycan glycoinfo:G51175PR ;
 		glycovidOntology:hasSample glycovid:SAM1_6_M ;
 		glycovidOntology:has_interactor_A glycovid:SAM1_6_M ;
-		glycovidOntology:has_interactor_B glycoinfo:G99858XP ;
+		glycovidOntology:has_interactor_B glycoinfo:G51175PR ;
 		bao:BAO_0002875 sio:SIO_001076 ; 
 		sio:SIO_000300 "49.25"^^sio:SIO001212 ;
 		obo:IAO_0000119 glycovid:PUB33917609 ;
@@ -31687,22 +31687,22 @@ glycovid:SAM1_M_10_G54064FW rdf:type owl:NamedIndividual ;
 		dcterms:references glycovid:PUB33917609 .
 
 
-glycovid:SAM1_M_10_G55143WF rdf:type owl:NamedIndividual ;
-		glycovidOntology:hasGlycan glycoinfo:G55143WF ;
+glycovid:SAM1_M_10_G51872EK rdf:type owl:NamedIndividual ;
+		glycovidOntology:hasGlycan glycoinfo:G51872EK ;
 		glycovidOntology:hasSample glycovid:SAM1_10_M ;
 		glycovidOntology:has_interactor_A glycovid:SAM1_10_M ;
-		glycovidOntology:has_interactor_B glycoinfo:G55143WF ;
+		glycovidOntology:has_interactor_B glycoinfo:G51872EK ;
 		bao:BAO_0002875 sio:SIO_001076 ; 
 		sio:SIO_000300 "44.0"^^sio:SIO001212 ;
 		obo:IAO_0000119 glycovid:PUB33917609 ;
 		dcterms:references glycovid:PUB33917609 .
 
 
-glycovid:SAM1_M_10_G51872EK rdf:type owl:NamedIndividual ;
-		glycovidOntology:hasGlycan glycoinfo:G51872EK ;
+glycovid:SAM1_M_10_G49916XD rdf:type owl:NamedIndividual ;
+		glycovidOntology:hasGlycan glycoinfo:G49916XD ;
 		glycovidOntology:hasSample glycovid:SAM1_10_M ;
 		glycovidOntology:has_interactor_A glycovid:SAM1_10_M ;
-		glycovidOntology:has_interactor_B glycoinfo:G51872EK ;
+		glycovidOntology:has_interactor_B glycoinfo:G49916XD ;
 		bao:BAO_0002875 sio:SIO_001076 ; 
 		sio:SIO_000300 "65.75"^^sio:SIO001212 ;
 		obo:IAO_0000119 glycovid:PUB33917609 ;
@@ -31841,11 +31841,11 @@ glycovid:SAM1_M_10_G43534QA rdf:type owl:NamedIndividual ;
 		dcterms:references glycovid:PUB33917609 .
 
 
-glycovid:SAM1_M_10_G82168GG rdf:type owl:NamedIndividual ;
-		glycovidOntology:hasGlycan glycoinfo:G82168GG ;
+glycovid:SAM1_M_10_G36191CD rdf:type owl:NamedIndividual ;
+		glycovidOntology:hasGlycan glycoinfo:G36191CD ;
 		glycovidOntology:hasSample glycovid:SAM1_10_M ;
 		glycovidOntology:has_interactor_A glycovid:SAM1_10_M ;
-		glycovidOntology:has_interactor_B glycoinfo:G82168GG ;
+		glycovidOntology:has_interactor_B glycoinfo:G36191CD ;
 		bao:BAO_0002875 sio:SIO_001076 ; 
 		sio:SIO_000300 "35.75"^^sio:SIO001212 ;
 		obo:IAO_0000119 glycovid:PUB33917609 ;
@@ -31918,11 +31918,11 @@ glycovid:SAM1_M_10_G82942ZJ rdf:type owl:NamedIndividual ;
 		dcterms:references glycovid:PUB33917609 .
 
 
-glycovid:SAM1_M_10_G21146IK rdf:type owl:NamedIndividual ;
-		glycovidOntology:hasGlycan glycoinfo:G21146IK ;
+glycovid:SAM1_M_10_G14844CX rdf:type owl:NamedIndividual ;
+		glycovidOntology:hasGlycan glycoinfo:G14844CX ;
 		glycovidOntology:hasSample glycovid:SAM1_10_M ;
 		glycovidOntology:has_interactor_A glycovid:SAM1_10_M ;
-		glycovidOntology:has_interactor_B glycoinfo:G21146IK ;
+		glycovidOntology:has_interactor_B glycoinfo:G14844CX ;
 		bao:BAO_0002875 sio:SIO_001076 ; 
 		sio:SIO_000300 "57.75"^^sio:SIO001212 ;
 		obo:IAO_0000119 glycovid:PUB33917609 ;
@@ -32622,22 +32622,22 @@ glycovid:SAM1_M_10_G19868AX rdf:type owl:NamedIndividual ;
 		dcterms:references glycovid:PUB33917609 .
 
 
-glycovid:SAM1_M_10_G37476QB rdf:type owl:NamedIndividual ;
-		glycovidOntology:hasGlycan glycoinfo:G37476QB ;
+glycovid:SAM1_M_10_G63074CQ rdf:type owl:NamedIndividual ;
+		glycovidOntology:hasGlycan glycoinfo:G63074CQ ;
 		glycovidOntology:hasSample glycovid:SAM1_10_M ;
 		glycovidOntology:has_interactor_A glycovid:SAM1_10_M ;
-		glycovidOntology:has_interactor_B glycoinfo:G37476QB ;
+		glycovidOntology:has_interactor_B glycoinfo:G63074CQ ;
 		bao:BAO_0002875 sio:SIO_001076 ; 
 		sio:SIO_000300 "38.0"^^sio:SIO001212 ;
 		obo:IAO_0000119 glycovid:PUB33917609 ;
 		dcterms:references glycovid:PUB33917609 .
 
 
-glycovid:SAM1_M_10_G37476QB rdf:type owl:NamedIndividual ;
-		glycovidOntology:hasGlycan glycoinfo:G37476QB ;
+glycovid:SAM1_M_10_G25473LQ rdf:type owl:NamedIndividual ;
+		glycovidOntology:hasGlycan glycoinfo:G25473LQ ;
 		glycovidOntology:hasSample glycovid:SAM1_10_M ;
 		glycovidOntology:has_interactor_A glycovid:SAM1_10_M ;
-		glycovidOntology:has_interactor_B glycoinfo:G37476QB ;
+		glycovidOntology:has_interactor_B glycoinfo:G25473LQ ;
 		bao:BAO_0002875 sio:SIO_001076 ; 
 		sio:SIO_000300 "44.0"^^sio:SIO001212 ;
 		obo:IAO_0000119 glycovid:PUB33917609 ;
@@ -32666,11 +32666,11 @@ glycovid:SAM1_M_10_G02670IJ rdf:type owl:NamedIndividual ;
 		dcterms:references glycovid:PUB33917609 .
 
 
-glycovid:SAM1_M_10_G99858XP rdf:type owl:NamedIndividual ;
-		glycovidOntology:hasGlycan glycoinfo:G99858XP ;
+glycovid:SAM1_M_10_G51175PR rdf:type owl:NamedIndividual ;
+		glycovidOntology:hasGlycan glycoinfo:G51175PR ;
 		glycovidOntology:hasSample glycovid:SAM1_10_M ;
 		glycovidOntology:has_interactor_A glycovid:SAM1_10_M ;
-		glycovidOntology:has_interactor_B glycoinfo:G99858XP ;
+		glycovidOntology:has_interactor_B glycoinfo:G51175PR ;
 		bao:BAO_0002875 sio:SIO_001076 ; 
 		sio:SIO_000300 "49.75"^^sio:SIO001212 ;
 		obo:IAO_0000119 glycovid:PUB33917609 ;
@@ -33172,22 +33172,22 @@ glycovid:SAM1_M_22_G54064FW rdf:type owl:NamedIndividual ;
 		dcterms:references glycovid:PUB33917609 .
 
 
-glycovid:SAM1_M_22_G55143WF rdf:type owl:NamedIndividual ;
-		glycovidOntology:hasGlycan glycoinfo:G55143WF ;
+glycovid:SAM1_M_22_G51872EK rdf:type owl:NamedIndividual ;
+		glycovidOntology:hasGlycan glycoinfo:G51872EK ;
 		glycovidOntology:hasSample glycovid:SAM1_22_M ;
 		glycovidOntology:has_interactor_A glycovid:SAM1_22_M ;
-		glycovidOntology:has_interactor_B glycoinfo:G55143WF ;
+		glycovidOntology:has_interactor_B glycoinfo:G51872EK ;
 		bao:BAO_0002875 sio:SIO_001076 ; 
 		sio:SIO_000300 "170.25"^^sio:SIO001212 ;
 		obo:IAO_0000119 glycovid:PUB33917609 ;
 		dcterms:references glycovid:PUB33917609 .
 
 
-glycovid:SAM1_M_22_G51872EK rdf:type owl:NamedIndividual ;
-		glycovidOntology:hasGlycan glycoinfo:G51872EK ;
+glycovid:SAM1_M_22_G49916XD rdf:type owl:NamedIndividual ;
+		glycovidOntology:hasGlycan glycoinfo:G49916XD ;
 		glycovidOntology:hasSample glycovid:SAM1_22_M ;
 		glycovidOntology:has_interactor_A glycovid:SAM1_22_M ;
-		glycovidOntology:has_interactor_B glycoinfo:G51872EK ;
+		glycovidOntology:has_interactor_B glycoinfo:G49916XD ;
 		bao:BAO_0002875 sio:SIO_001076 ; 
 		sio:SIO_000300 "291.0"^^sio:SIO001212 ;
 		obo:IAO_0000119 glycovid:PUB33917609 ;
@@ -33326,11 +33326,11 @@ glycovid:SAM1_M_22_G43534QA rdf:type owl:NamedIndividual ;
 		dcterms:references glycovid:PUB33917609 .
 
 
-glycovid:SAM1_M_22_G82168GG rdf:type owl:NamedIndividual ;
-		glycovidOntology:hasGlycan glycoinfo:G82168GG ;
+glycovid:SAM1_M_22_G36191CD rdf:type owl:NamedIndividual ;
+		glycovidOntology:hasGlycan glycoinfo:G36191CD ;
 		glycovidOntology:hasSample glycovid:SAM1_22_M ;
 		glycovidOntology:has_interactor_A glycovid:SAM1_22_M ;
-		glycovidOntology:has_interactor_B glycoinfo:G82168GG ;
+		glycovidOntology:has_interactor_B glycoinfo:G36191CD ;
 		bao:BAO_0002875 sio:SIO_001076 ; 
 		sio:SIO_000300 "89.75"^^sio:SIO001212 ;
 		obo:IAO_0000119 glycovid:PUB33917609 ;
@@ -33403,11 +33403,11 @@ glycovid:SAM1_M_22_G82942ZJ rdf:type owl:NamedIndividual ;
 		dcterms:references glycovid:PUB33917609 .
 
 
-glycovid:SAM1_M_22_G21146IK rdf:type owl:NamedIndividual ;
-		glycovidOntology:hasGlycan glycoinfo:G21146IK ;
+glycovid:SAM1_M_22_G14844CX rdf:type owl:NamedIndividual ;
+		glycovidOntology:hasGlycan glycoinfo:G14844CX ;
 		glycovidOntology:hasSample glycovid:SAM1_22_M ;
 		glycovidOntology:has_interactor_A glycovid:SAM1_22_M ;
-		glycovidOntology:has_interactor_B glycoinfo:G21146IK ;
+		glycovidOntology:has_interactor_B glycoinfo:G14844CX ;
 		bao:BAO_0002875 sio:SIO_001076 ; 
 		sio:SIO_000300 "174.75"^^sio:SIO001212 ;
 		obo:IAO_0000119 glycovid:PUB33917609 ;
@@ -34107,22 +34107,22 @@ glycovid:SAM1_M_22_G19868AX rdf:type owl:NamedIndividual ;
 		dcterms:references glycovid:PUB33917609 .
 
 
-glycovid:SAM1_M_22_G37476QB rdf:type owl:NamedIndividual ;
-		glycovidOntology:hasGlycan glycoinfo:G37476QB ;
+glycovid:SAM1_M_22_G63074CQ rdf:type owl:NamedIndividual ;
+		glycovidOntology:hasGlycan glycoinfo:G63074CQ ;
 		glycovidOntology:hasSample glycovid:SAM1_22_M ;
 		glycovidOntology:has_interactor_A glycovid:SAM1_22_M ;
-		glycovidOntology:has_interactor_B glycoinfo:G37476QB ;
+		glycovidOntology:has_interactor_B glycoinfo:G63074CQ ;
 		bao:BAO_0002875 sio:SIO_001076 ; 
 		sio:SIO_000300 "56.0"^^sio:SIO001212 ;
 		obo:IAO_0000119 glycovid:PUB33917609 ;
 		dcterms:references glycovid:PUB33917609 .
 
 
-glycovid:SAM1_M_22_G37476QB rdf:type owl:NamedIndividual ;
-		glycovidOntology:hasGlycan glycoinfo:G37476QB ;
+glycovid:SAM1_M_22_G25473LQ rdf:type owl:NamedIndividual ;
+		glycovidOntology:hasGlycan glycoinfo:G25473LQ ;
 		glycovidOntology:hasSample glycovid:SAM1_22_M ;
 		glycovidOntology:has_interactor_A glycovid:SAM1_22_M ;
-		glycovidOntology:has_interactor_B glycoinfo:G37476QB ;
+		glycovidOntology:has_interactor_B glycoinfo:G25473LQ ;
 		bao:BAO_0002875 sio:SIO_001076 ; 
 		sio:SIO_000300 "65.25"^^sio:SIO001212 ;
 		obo:IAO_0000119 glycovid:PUB33917609 ;
@@ -34151,11 +34151,11 @@ glycovid:SAM1_M_22_G02670IJ rdf:type owl:NamedIndividual ;
 		dcterms:references glycovid:PUB33917609 .
 
 
-glycovid:SAM1_M_22_G99858XP rdf:type owl:NamedIndividual ;
-		glycovidOntology:hasGlycan glycoinfo:G99858XP ;
+glycovid:SAM1_M_22_G51175PR rdf:type owl:NamedIndividual ;
+		glycovidOntology:hasGlycan glycoinfo:G51175PR ;
 		glycovidOntology:hasSample glycovid:SAM1_22_M ;
 		glycovidOntology:has_interactor_A glycovid:SAM1_22_M ;
-		glycovidOntology:has_interactor_B glycoinfo:G99858XP ;
+		glycovidOntology:has_interactor_B glycoinfo:G51175PR ;
 		bao:BAO_0002875 sio:SIO_001076 ; 
 		sio:SIO_000300 "96.25"^^sio:SIO001212 ;
 		obo:IAO_0000119 glycovid:PUB33917609 ;
@@ -34657,22 +34657,22 @@ glycovid:SAM2_M_3_G54064FW rdf:type owl:NamedIndividual ;
 		dcterms:references glycovid:PUB33917609 .
 
 
-glycovid:SAM2_M_3_G55143WF rdf:type owl:NamedIndividual ;
-		glycovidOntology:hasGlycan glycoinfo:G55143WF ;
+glycovid:SAM2_M_3_G51872EK rdf:type owl:NamedIndividual ;
+		glycovidOntology:hasGlycan glycoinfo:G51872EK ;
 		glycovidOntology:hasSample glycovid:SAM2_3_M ;
 		glycovidOntology:has_interactor_A glycovid:SAM2_3_M ;
-		glycovidOntology:has_interactor_B glycoinfo:G55143WF ;
+		glycovidOntology:has_interactor_B glycoinfo:G51872EK ;
 		bao:BAO_0002875 sio:SIO_001076 ; 
 		sio:SIO_000300 "338.0"^^sio:SIO001212 ;
 		obo:IAO_0000119 glycovid:PUB33917609 ;
 		dcterms:references glycovid:PUB33917609 .
 
 
-glycovid:SAM2_M_3_G51872EK rdf:type owl:NamedIndividual ;
-		glycovidOntology:hasGlycan glycoinfo:G51872EK ;
+glycovid:SAM2_M_3_G49916XD rdf:type owl:NamedIndividual ;
+		glycovidOntology:hasGlycan glycoinfo:G49916XD ;
 		glycovidOntology:hasSample glycovid:SAM2_3_M ;
 		glycovidOntology:has_interactor_A glycovid:SAM2_3_M ;
-		glycovidOntology:has_interactor_B glycoinfo:G51872EK ;
+		glycovidOntology:has_interactor_B glycoinfo:G49916XD ;
 		bao:BAO_0002875 sio:SIO_001076 ; 
 		sio:SIO_000300 "120.25"^^sio:SIO001212 ;
 		obo:IAO_0000119 glycovid:PUB33917609 ;
@@ -34811,11 +34811,11 @@ glycovid:SAM2_M_3_G43534QA rdf:type owl:NamedIndividual ;
 		dcterms:references glycovid:PUB33917609 .
 
 
-glycovid:SAM2_M_3_G82168GG rdf:type owl:NamedIndividual ;
-		glycovidOntology:hasGlycan glycoinfo:G82168GG ;
+glycovid:SAM2_M_3_G36191CD rdf:type owl:NamedIndividual ;
+		glycovidOntology:hasGlycan glycoinfo:G36191CD ;
 		glycovidOntology:hasSample glycovid:SAM2_3_M ;
 		glycovidOntology:has_interactor_A glycovid:SAM2_3_M ;
-		glycovidOntology:has_interactor_B glycoinfo:G82168GG ;
+		glycovidOntology:has_interactor_B glycoinfo:G36191CD ;
 		bao:BAO_0002875 sio:SIO_001076 ; 
 		sio:SIO_000300 "389.5"^^sio:SIO001212 ;
 		obo:IAO_0000119 glycovid:PUB33917609 ;
@@ -34888,11 +34888,11 @@ glycovid:SAM2_M_3_G82942ZJ rdf:type owl:NamedIndividual ;
 		dcterms:references glycovid:PUB33917609 .
 
 
-glycovid:SAM2_M_3_G21146IK rdf:type owl:NamedIndividual ;
-		glycovidOntology:hasGlycan glycoinfo:G21146IK ;
+glycovid:SAM2_M_3_G14844CX rdf:type owl:NamedIndividual ;
+		glycovidOntology:hasGlycan glycoinfo:G14844CX ;
 		glycovidOntology:hasSample glycovid:SAM2_3_M ;
 		glycovidOntology:has_interactor_A glycovid:SAM2_3_M ;
-		glycovidOntology:has_interactor_B glycoinfo:G21146IK ;
+		glycovidOntology:has_interactor_B glycoinfo:G14844CX ;
 		bao:BAO_0002875 sio:SIO_001076 ; 
 		sio:SIO_000300 "169.0"^^sio:SIO001212 ;
 		obo:IAO_0000119 glycovid:PUB33917609 ;
@@ -35592,22 +35592,22 @@ glycovid:SAM2_M_3_G19868AX rdf:type owl:NamedIndividual ;
 		dcterms:references glycovid:PUB33917609 .
 
 
-glycovid:SAM2_M_3_G37476QB rdf:type owl:NamedIndividual ;
-		glycovidOntology:hasGlycan glycoinfo:G37476QB ;
+glycovid:SAM2_M_3_G63074CQ rdf:type owl:NamedIndividual ;
+		glycovidOntology:hasGlycan glycoinfo:G63074CQ ;
 		glycovidOntology:hasSample glycovid:SAM2_3_M ;
 		glycovidOntology:has_interactor_A glycovid:SAM2_3_M ;
-		glycovidOntology:has_interactor_B glycoinfo:G37476QB ;
+		glycovidOntology:has_interactor_B glycoinfo:G63074CQ ;
 		bao:BAO_0002875 sio:SIO_001076 ; 
 		sio:SIO_000300 "221.0"^^sio:SIO001212 ;
 		obo:IAO_0000119 glycovid:PUB33917609 ;
 		dcterms:references glycovid:PUB33917609 .
 
 
-glycovid:SAM2_M_3_G37476QB rdf:type owl:NamedIndividual ;
-		glycovidOntology:hasGlycan glycoinfo:G37476QB ;
+glycovid:SAM2_M_3_G25473LQ rdf:type owl:NamedIndividual ;
+		glycovidOntology:hasGlycan glycoinfo:G25473LQ ;
 		glycovidOntology:hasSample glycovid:SAM2_3_M ;
 		glycovidOntology:has_interactor_A glycovid:SAM2_3_M ;
-		glycovidOntology:has_interactor_B glycoinfo:G37476QB ;
+		glycovidOntology:has_interactor_B glycoinfo:G25473LQ ;
 		bao:BAO_0002875 sio:SIO_001076 ; 
 		sio:SIO_000300 "247.75"^^sio:SIO001212 ;
 		obo:IAO_0000119 glycovid:PUB33917609 ;
@@ -35636,11 +35636,11 @@ glycovid:SAM2_M_3_G02670IJ rdf:type owl:NamedIndividual ;
 		dcterms:references glycovid:PUB33917609 .
 
 
-glycovid:SAM2_M_3_G99858XP rdf:type owl:NamedIndividual ;
-		glycovidOntology:hasGlycan glycoinfo:G99858XP ;
+glycovid:SAM2_M_3_G51175PR rdf:type owl:NamedIndividual ;
+		glycovidOntology:hasGlycan glycoinfo:G51175PR ;
 		glycovidOntology:hasSample glycovid:SAM2_3_M ;
 		glycovidOntology:has_interactor_A glycovid:SAM2_3_M ;
-		glycovidOntology:has_interactor_B glycoinfo:G99858XP ;
+		glycovidOntology:has_interactor_B glycoinfo:G51175PR ;
 		bao:BAO_0002875 sio:SIO_001076 ; 
 		sio:SIO_000300 "213.0"^^sio:SIO001212 ;
 		obo:IAO_0000119 glycovid:PUB33917609 ;
@@ -36142,22 +36142,22 @@ glycovid:SAM2_M_15_G54064FW rdf:type owl:NamedIndividual ;
 		dcterms:references glycovid:PUB33917609 .
 
 
-glycovid:SAM2_M_15_G55143WF rdf:type owl:NamedIndividual ;
-		glycovidOntology:hasGlycan glycoinfo:G55143WF ;
+glycovid:SAM2_M_15_G51872EK rdf:type owl:NamedIndividual ;
+		glycovidOntology:hasGlycan glycoinfo:G51872EK ;
 		glycovidOntology:hasSample glycovid:SAM2_15_M ;
 		glycovidOntology:has_interactor_A glycovid:SAM2_15_M ;
-		glycovidOntology:has_interactor_B glycoinfo:G55143WF ;
+		glycovidOntology:has_interactor_B glycoinfo:G51872EK ;
 		bao:BAO_0002875 sio:SIO_001076 ; 
 		sio:SIO_000300 "765.0"^^sio:SIO001212 ;
 		obo:IAO_0000119 glycovid:PUB33917609 ;
 		dcterms:references glycovid:PUB33917609 .
 
 
-glycovid:SAM2_M_15_G51872EK rdf:type owl:NamedIndividual ;
-		glycovidOntology:hasGlycan glycoinfo:G51872EK ;
+glycovid:SAM2_M_15_G49916XD rdf:type owl:NamedIndividual ;
+		glycovidOntology:hasGlycan glycoinfo:G49916XD ;
 		glycovidOntology:hasSample glycovid:SAM2_15_M ;
 		glycovidOntology:has_interactor_A glycovid:SAM2_15_M ;
-		glycovidOntology:has_interactor_B glycoinfo:G51872EK ;
+		glycovidOntology:has_interactor_B glycoinfo:G49916XD ;
 		bao:BAO_0002875 sio:SIO_001076 ; 
 		sio:SIO_000300 "99.75"^^sio:SIO001212 ;
 		obo:IAO_0000119 glycovid:PUB33917609 ;
@@ -36296,11 +36296,11 @@ glycovid:SAM2_M_15_G43534QA rdf:type owl:NamedIndividual ;
 		dcterms:references glycovid:PUB33917609 .
 
 
-glycovid:SAM2_M_15_G82168GG rdf:type owl:NamedIndividual ;
-		glycovidOntology:hasGlycan glycoinfo:G82168GG ;
+glycovid:SAM2_M_15_G36191CD rdf:type owl:NamedIndividual ;
+		glycovidOntology:hasGlycan glycoinfo:G36191CD ;
 		glycovidOntology:hasSample glycovid:SAM2_15_M ;
 		glycovidOntology:has_interactor_A glycovid:SAM2_15_M ;
-		glycovidOntology:has_interactor_B glycoinfo:G82168GG ;
+		glycovidOntology:has_interactor_B glycoinfo:G36191CD ;
 		bao:BAO_0002875 sio:SIO_001076 ; 
 		sio:SIO_000300 "208.5"^^sio:SIO001212 ;
 		obo:IAO_0000119 glycovid:PUB33917609 ;
@@ -36373,11 +36373,11 @@ glycovid:SAM2_M_15_G82942ZJ rdf:type owl:NamedIndividual ;
 		dcterms:references glycovid:PUB33917609 .
 
 
-glycovid:SAM2_M_15_G21146IK rdf:type owl:NamedIndividual ;
-		glycovidOntology:hasGlycan glycoinfo:G21146IK ;
+glycovid:SAM2_M_15_G14844CX rdf:type owl:NamedIndividual ;
+		glycovidOntology:hasGlycan glycoinfo:G14844CX ;
 		glycovidOntology:hasSample glycovid:SAM2_15_M ;
 		glycovidOntology:has_interactor_A glycovid:SAM2_15_M ;
-		glycovidOntology:has_interactor_B glycoinfo:G21146IK ;
+		glycovidOntology:has_interactor_B glycoinfo:G14844CX ;
 		bao:BAO_0002875 sio:SIO_001076 ; 
 		sio:SIO_000300 "98.5"^^sio:SIO001212 ;
 		obo:IAO_0000119 glycovid:PUB33917609 ;
@@ -37077,22 +37077,22 @@ glycovid:SAM2_M_15_G19868AX rdf:type owl:NamedIndividual ;
 		dcterms:references glycovid:PUB33917609 .
 
 
-glycovid:SAM2_M_15_G37476QB rdf:type owl:NamedIndividual ;
-		glycovidOntology:hasGlycan glycoinfo:G37476QB ;
+glycovid:SAM2_M_15_G63074CQ rdf:type owl:NamedIndividual ;
+		glycovidOntology:hasGlycan glycoinfo:G63074CQ ;
 		glycovidOntology:hasSample glycovid:SAM2_15_M ;
 		glycovidOntology:has_interactor_A glycovid:SAM2_15_M ;
-		glycovidOntology:has_interactor_B glycoinfo:G37476QB ;
+		glycovidOntology:has_interactor_B glycoinfo:G63074CQ ;
 		bao:BAO_0002875 sio:SIO_001076 ; 
 		sio:SIO_000300 "162.5"^^sio:SIO001212 ;
 		obo:IAO_0000119 glycovid:PUB33917609 ;
 		dcterms:references glycovid:PUB33917609 .
 
 
-glycovid:SAM2_M_15_G37476QB rdf:type owl:NamedIndividual ;
-		glycovidOntology:hasGlycan glycoinfo:G37476QB ;
+glycovid:SAM2_M_15_G25473LQ rdf:type owl:NamedIndividual ;
+		glycovidOntology:hasGlycan glycoinfo:G25473LQ ;
 		glycovidOntology:hasSample glycovid:SAM2_15_M ;
 		glycovidOntology:has_interactor_A glycovid:SAM2_15_M ;
-		glycovidOntology:has_interactor_B glycoinfo:G37476QB ;
+		glycovidOntology:has_interactor_B glycoinfo:G25473LQ ;
 		bao:BAO_0002875 sio:SIO_001076 ; 
 		sio:SIO_000300 "170.75"^^sio:SIO001212 ;
 		obo:IAO_0000119 glycovid:PUB33917609 ;
@@ -37121,11 +37121,11 @@ glycovid:SAM2_M_15_G02670IJ rdf:type owl:NamedIndividual ;
 		dcterms:references glycovid:PUB33917609 .
 
 
-glycovid:SAM2_M_15_G99858XP rdf:type owl:NamedIndividual ;
-		glycovidOntology:hasGlycan glycoinfo:G99858XP ;
+glycovid:SAM2_M_15_G51175PR rdf:type owl:NamedIndividual ;
+		glycovidOntology:hasGlycan glycoinfo:G51175PR ;
 		glycovidOntology:hasSample glycovid:SAM2_15_M ;
 		glycovidOntology:has_interactor_A glycovid:SAM2_15_M ;
-		glycovidOntology:has_interactor_B glycoinfo:G99858XP ;
+		glycovidOntology:has_interactor_B glycoinfo:G51175PR ;
 		bao:BAO_0002875 sio:SIO_001076 ; 
 		sio:SIO_000300 "561.25"^^sio:SIO001212 ;
 		obo:IAO_0000119 glycovid:PUB33917609 ;
@@ -37627,22 +37627,22 @@ glycovid:SAM2_M_24_G54064FW rdf:type owl:NamedIndividual ;
 		dcterms:references glycovid:PUB33917609 .
 
 
-glycovid:SAM2_M_24_G55143WF rdf:type owl:NamedIndividual ;
-		glycovidOntology:hasGlycan glycoinfo:G55143WF ;
+glycovid:SAM2_M_24_G51872EK rdf:type owl:NamedIndividual ;
+		glycovidOntology:hasGlycan glycoinfo:G51872EK ;
 		glycovidOntology:hasSample glycovid:SAM2_24_M ;
 		glycovidOntology:has_interactor_A glycovid:SAM2_24_M ;
-		glycovidOntology:has_interactor_B glycoinfo:G55143WF ;
+		glycovidOntology:has_interactor_B glycoinfo:G51872EK ;
 		bao:BAO_0002875 sio:SIO_001076 ; 
 		sio:SIO_000300 "403.5"^^sio:SIO001212 ;
 		obo:IAO_0000119 glycovid:PUB33917609 ;
 		dcterms:references glycovid:PUB33917609 .
 
 
-glycovid:SAM2_M_24_G51872EK rdf:type owl:NamedIndividual ;
-		glycovidOntology:hasGlycan glycoinfo:G51872EK ;
+glycovid:SAM2_M_24_G49916XD rdf:type owl:NamedIndividual ;
+		glycovidOntology:hasGlycan glycoinfo:G49916XD ;
 		glycovidOntology:hasSample glycovid:SAM2_24_M ;
 		glycovidOntology:has_interactor_A glycovid:SAM2_24_M ;
-		glycovidOntology:has_interactor_B glycoinfo:G51872EK ;
+		glycovidOntology:has_interactor_B glycoinfo:G49916XD ;
 		bao:BAO_0002875 sio:SIO_001076 ; 
 		sio:SIO_000300 "106.25"^^sio:SIO001212 ;
 		obo:IAO_0000119 glycovid:PUB33917609 ;
@@ -37781,11 +37781,11 @@ glycovid:SAM2_M_24_G43534QA rdf:type owl:NamedIndividual ;
 		dcterms:references glycovid:PUB33917609 .
 
 
-glycovid:SAM2_M_24_G82168GG rdf:type owl:NamedIndividual ;
-		glycovidOntology:hasGlycan glycoinfo:G82168GG ;
+glycovid:SAM2_M_24_G36191CD rdf:type owl:NamedIndividual ;
+		glycovidOntology:hasGlycan glycoinfo:G36191CD ;
 		glycovidOntology:hasSample glycovid:SAM2_24_M ;
 		glycovidOntology:has_interactor_A glycovid:SAM2_24_M ;
-		glycovidOntology:has_interactor_B glycoinfo:G82168GG ;
+		glycovidOntology:has_interactor_B glycoinfo:G36191CD ;
 		bao:BAO_0002875 sio:SIO_001076 ; 
 		sio:SIO_000300 "241.75"^^sio:SIO001212 ;
 		obo:IAO_0000119 glycovid:PUB33917609 ;
@@ -37858,11 +37858,11 @@ glycovid:SAM2_M_24_G82942ZJ rdf:type owl:NamedIndividual ;
 		dcterms:references glycovid:PUB33917609 .
 
 
-glycovid:SAM2_M_24_G21146IK rdf:type owl:NamedIndividual ;
-		glycovidOntology:hasGlycan glycoinfo:G21146IK ;
+glycovid:SAM2_M_24_G14844CX rdf:type owl:NamedIndividual ;
+		glycovidOntology:hasGlycan glycoinfo:G14844CX ;
 		glycovidOntology:hasSample glycovid:SAM2_24_M ;
 		glycovidOntology:has_interactor_A glycovid:SAM2_24_M ;
-		glycovidOntology:has_interactor_B glycoinfo:G21146IK ;
+		glycovidOntology:has_interactor_B glycoinfo:G14844CX ;
 		bao:BAO_0002875 sio:SIO_001076 ; 
 		sio:SIO_000300 "131.0"^^sio:SIO001212 ;
 		obo:IAO_0000119 glycovid:PUB33917609 ;
@@ -38562,22 +38562,22 @@ glycovid:SAM2_M_24_G19868AX rdf:type owl:NamedIndividual ;
 		dcterms:references glycovid:PUB33917609 .
 
 
-glycovid:SAM2_M_24_G37476QB rdf:type owl:NamedIndividual ;
-		glycovidOntology:hasGlycan glycoinfo:G37476QB ;
+glycovid:SAM2_M_24_G63074CQ rdf:type owl:NamedIndividual ;
+		glycovidOntology:hasGlycan glycoinfo:G63074CQ ;
 		glycovidOntology:hasSample glycovid:SAM2_24_M ;
 		glycovidOntology:has_interactor_A glycovid:SAM2_24_M ;
-		glycovidOntology:has_interactor_B glycoinfo:G37476QB ;
+		glycovidOntology:has_interactor_B glycoinfo:G63074CQ ;
 		bao:BAO_0002875 sio:SIO_001076 ; 
 		sio:SIO_000300 "266.25"^^sio:SIO001212 ;
 		obo:IAO_0000119 glycovid:PUB33917609 ;
 		dcterms:references glycovid:PUB33917609 .
 
 
-glycovid:SAM2_M_24_G37476QB rdf:type owl:NamedIndividual ;
-		glycovidOntology:hasGlycan glycoinfo:G37476QB ;
+glycovid:SAM2_M_24_G25473LQ rdf:type owl:NamedIndividual ;
+		glycovidOntology:hasGlycan glycoinfo:G25473LQ ;
 		glycovidOntology:hasSample glycovid:SAM2_24_M ;
 		glycovidOntology:has_interactor_A glycovid:SAM2_24_M ;
-		glycovidOntology:has_interactor_B glycoinfo:G37476QB ;
+		glycovidOntology:has_interactor_B glycoinfo:G25473LQ ;
 		bao:BAO_0002875 sio:SIO_001076 ; 
 		sio:SIO_000300 "231.75"^^sio:SIO001212 ;
 		obo:IAO_0000119 glycovid:PUB33917609 ;
@@ -38606,11 +38606,11 @@ glycovid:SAM2_M_24_G02670IJ rdf:type owl:NamedIndividual ;
 		dcterms:references glycovid:PUB33917609 .
 
 
-glycovid:SAM2_M_24_G99858XP rdf:type owl:NamedIndividual ;
-		glycovidOntology:hasGlycan glycoinfo:G99858XP ;
+glycovid:SAM2_M_24_G51175PR rdf:type owl:NamedIndividual ;
+		glycovidOntology:hasGlycan glycoinfo:G51175PR ;
 		glycovidOntology:hasSample glycovid:SAM2_24_M ;
 		glycovidOntology:has_interactor_A glycovid:SAM2_24_M ;
-		glycovidOntology:has_interactor_B glycoinfo:G99858XP ;
+		glycovidOntology:has_interactor_B glycoinfo:G51175PR ;
 		bao:BAO_0002875 sio:SIO_001076 ; 
 		sio:SIO_000300 "763.25"^^sio:SIO001212 ;
 		obo:IAO_0000119 glycovid:PUB33917609 ;
@@ -39112,22 +39112,22 @@ glycovid:SAM3_M_-180_G54064FW rdf:type owl:NamedIndividual ;
 		dcterms:references glycovid:PUB33917609 .
 
 
-glycovid:SAM3_M_-180_G55143WF rdf:type owl:NamedIndividual ;
-		glycovidOntology:hasGlycan glycoinfo:G55143WF ;
+glycovid:SAM3_M_-180_G51872EK rdf:type owl:NamedIndividual ;
+		glycovidOntology:hasGlycan glycoinfo:G51872EK ;
 		glycovidOntology:hasSample glycovid:SAM3_-180_M ;
 		glycovidOntology:has_interactor_A glycovid:SAM3_-180_M ;
-		glycovidOntology:has_interactor_B glycoinfo:G55143WF ;
+		glycovidOntology:has_interactor_B glycoinfo:G51872EK ;
 		bao:BAO_0002875 sio:SIO_001076 ; 
 		sio:SIO_000300 "122.5"^^sio:SIO001212 ;
 		obo:IAO_0000119 glycovid:PUB33917609 ;
 		dcterms:references glycovid:PUB33917609 .
 
 
-glycovid:SAM3_M_-180_G51872EK rdf:type owl:NamedIndividual ;
-		glycovidOntology:hasGlycan glycoinfo:G51872EK ;
+glycovid:SAM3_M_-180_G49916XD rdf:type owl:NamedIndividual ;
+		glycovidOntology:hasGlycan glycoinfo:G49916XD ;
 		glycovidOntology:hasSample glycovid:SAM3_-180_M ;
 		glycovidOntology:has_interactor_A glycovid:SAM3_-180_M ;
-		glycovidOntology:has_interactor_B glycoinfo:G51872EK ;
+		glycovidOntology:has_interactor_B glycoinfo:G49916XD ;
 		bao:BAO_0002875 sio:SIO_001076 ; 
 		sio:SIO_000300 "391.5"^^sio:SIO001212 ;
 		obo:IAO_0000119 glycovid:PUB33917609 ;
@@ -39266,11 +39266,11 @@ glycovid:SAM3_M_-180_G43534QA rdf:type owl:NamedIndividual ;
 		dcterms:references glycovid:PUB33917609 .
 
 
-glycovid:SAM3_M_-180_G82168GG rdf:type owl:NamedIndividual ;
-		glycovidOntology:hasGlycan glycoinfo:G82168GG ;
+glycovid:SAM3_M_-180_G36191CD rdf:type owl:NamedIndividual ;
+		glycovidOntology:hasGlycan glycoinfo:G36191CD ;
 		glycovidOntology:hasSample glycovid:SAM3_-180_M ;
 		glycovidOntology:has_interactor_A glycovid:SAM3_-180_M ;
-		glycovidOntology:has_interactor_B glycoinfo:G82168GG ;
+		glycovidOntology:has_interactor_B glycoinfo:G36191CD ;
 		bao:BAO_0002875 sio:SIO_001076 ; 
 		sio:SIO_000300 "146.0"^^sio:SIO001212 ;
 		obo:IAO_0000119 glycovid:PUB33917609 ;
@@ -39343,11 +39343,11 @@ glycovid:SAM3_M_-180_G82942ZJ rdf:type owl:NamedIndividual ;
 		dcterms:references glycovid:PUB33917609 .
 
 
-glycovid:SAM3_M_-180_G21146IK rdf:type owl:NamedIndividual ;
-		glycovidOntology:hasGlycan glycoinfo:G21146IK ;
+glycovid:SAM3_M_-180_G14844CX rdf:type owl:NamedIndividual ;
+		glycovidOntology:hasGlycan glycoinfo:G14844CX ;
 		glycovidOntology:hasSample glycovid:SAM3_-180_M ;
 		glycovidOntology:has_interactor_A glycovid:SAM3_-180_M ;
-		glycovidOntology:has_interactor_B glycoinfo:G21146IK ;
+		glycovidOntology:has_interactor_B glycoinfo:G14844CX ;
 		bao:BAO_0002875 sio:SIO_001076 ; 
 		sio:SIO_000300 "91.5"^^sio:SIO001212 ;
 		obo:IAO_0000119 glycovid:PUB33917609 ;
@@ -40047,22 +40047,22 @@ glycovid:SAM3_M_-180_G19868AX rdf:type owl:NamedIndividual ;
 		dcterms:references glycovid:PUB33917609 .
 
 
-glycovid:SAM3_M_-180_G37476QB rdf:type owl:NamedIndividual ;
-		glycovidOntology:hasGlycan glycoinfo:G37476QB ;
+glycovid:SAM3_M_-180_G63074CQ rdf:type owl:NamedIndividual ;
+		glycovidOntology:hasGlycan glycoinfo:G63074CQ ;
 		glycovidOntology:hasSample glycovid:SAM3_-180_M ;
 		glycovidOntology:has_interactor_A glycovid:SAM3_-180_M ;
-		glycovidOntology:has_interactor_B glycoinfo:G37476QB ;
+		glycovidOntology:has_interactor_B glycoinfo:G63074CQ ;
 		bao:BAO_0002875 sio:SIO_001076 ; 
 		sio:SIO_000300 "64.0"^^sio:SIO001212 ;
 		obo:IAO_0000119 glycovid:PUB33917609 ;
 		dcterms:references glycovid:PUB33917609 .
 
 
-glycovid:SAM3_M_-180_G37476QB rdf:type owl:NamedIndividual ;
-		glycovidOntology:hasGlycan glycoinfo:G37476QB ;
+glycovid:SAM3_M_-180_G25473LQ rdf:type owl:NamedIndividual ;
+		glycovidOntology:hasGlycan glycoinfo:G25473LQ ;
 		glycovidOntology:hasSample glycovid:SAM3_-180_M ;
 		glycovidOntology:has_interactor_A glycovid:SAM3_-180_M ;
-		glycovidOntology:has_interactor_B glycoinfo:G37476QB ;
+		glycovidOntology:has_interactor_B glycoinfo:G25473LQ ;
 		bao:BAO_0002875 sio:SIO_001076 ; 
 		sio:SIO_000300 "72.0"^^sio:SIO001212 ;
 		obo:IAO_0000119 glycovid:PUB33917609 ;
@@ -40091,11 +40091,11 @@ glycovid:SAM3_M_-180_G02670IJ rdf:type owl:NamedIndividual ;
 		dcterms:references glycovid:PUB33917609 .
 
 
-glycovid:SAM3_M_-180_G99858XP rdf:type owl:NamedIndividual ;
-		glycovidOntology:hasGlycan glycoinfo:G99858XP ;
+glycovid:SAM3_M_-180_G51175PR rdf:type owl:NamedIndividual ;
+		glycovidOntology:hasGlycan glycoinfo:G51175PR ;
 		glycovidOntology:hasSample glycovid:SAM3_-180_M ;
 		glycovidOntology:has_interactor_A glycovid:SAM3_-180_M ;
-		glycovidOntology:has_interactor_B glycoinfo:G99858XP ;
+		glycovidOntology:has_interactor_B glycoinfo:G51175PR ;
 		bao:BAO_0002875 sio:SIO_001076 ; 
 		sio:SIO_000300 "3754.0"^^sio:SIO001212 ;
 		obo:IAO_0000119 glycovid:PUB33917609 ;
@@ -40597,22 +40597,22 @@ glycovid:SAM3_M_4_G54064FW rdf:type owl:NamedIndividual ;
 		dcterms:references glycovid:PUB33917609 .
 
 
-glycovid:SAM3_M_4_G55143WF rdf:type owl:NamedIndividual ;
-		glycovidOntology:hasGlycan glycoinfo:G55143WF ;
+glycovid:SAM3_M_4_G51872EK rdf:type owl:NamedIndividual ;
+		glycovidOntology:hasGlycan glycoinfo:G51872EK ;
 		glycovidOntology:hasSample glycovid:SAM3_4_M ;
 		glycovidOntology:has_interactor_A glycovid:SAM3_4_M ;
-		glycovidOntology:has_interactor_B glycoinfo:G55143WF ;
+		glycovidOntology:has_interactor_B glycoinfo:G51872EK ;
 		bao:BAO_0002875 sio:SIO_001076 ; 
 		sio:SIO_000300 "115.5"^^sio:SIO001212 ;
 		obo:IAO_0000119 glycovid:PUB33917609 ;
 		dcterms:references glycovid:PUB33917609 .
 
 
-glycovid:SAM3_M_4_G51872EK rdf:type owl:NamedIndividual ;
-		glycovidOntology:hasGlycan glycoinfo:G51872EK ;
+glycovid:SAM3_M_4_G49916XD rdf:type owl:NamedIndividual ;
+		glycovidOntology:hasGlycan glycoinfo:G49916XD ;
 		glycovidOntology:hasSample glycovid:SAM3_4_M ;
 		glycovidOntology:has_interactor_A glycovid:SAM3_4_M ;
-		glycovidOntology:has_interactor_B glycoinfo:G51872EK ;
+		glycovidOntology:has_interactor_B glycoinfo:G49916XD ;
 		bao:BAO_0002875 sio:SIO_001076 ; 
 		sio:SIO_000300 "1024.0"^^sio:SIO001212 ;
 		obo:IAO_0000119 glycovid:PUB33917609 ;
@@ -40751,11 +40751,11 @@ glycovid:SAM3_M_4_G43534QA rdf:type owl:NamedIndividual ;
 		dcterms:references glycovid:PUB33917609 .
 
 
-glycovid:SAM3_M_4_G82168GG rdf:type owl:NamedIndividual ;
-		glycovidOntology:hasGlycan glycoinfo:G82168GG ;
+glycovid:SAM3_M_4_G36191CD rdf:type owl:NamedIndividual ;
+		glycovidOntology:hasGlycan glycoinfo:G36191CD ;
 		glycovidOntology:hasSample glycovid:SAM3_4_M ;
 		glycovidOntology:has_interactor_A glycovid:SAM3_4_M ;
-		glycovidOntology:has_interactor_B glycoinfo:G82168GG ;
+		glycovidOntology:has_interactor_B glycoinfo:G36191CD ;
 		bao:BAO_0002875 sio:SIO_001076 ; 
 		sio:SIO_000300 "141.75"^^sio:SIO001212 ;
 		obo:IAO_0000119 glycovid:PUB33917609 ;
@@ -40828,11 +40828,11 @@ glycovid:SAM3_M_4_G82942ZJ rdf:type owl:NamedIndividual ;
 		dcterms:references glycovid:PUB33917609 .
 
 
-glycovid:SAM3_M_4_G21146IK rdf:type owl:NamedIndividual ;
-		glycovidOntology:hasGlycan glycoinfo:G21146IK ;
+glycovid:SAM3_M_4_G14844CX rdf:type owl:NamedIndividual ;
+		glycovidOntology:hasGlycan glycoinfo:G14844CX ;
 		glycovidOntology:hasSample glycovid:SAM3_4_M ;
 		glycovidOntology:has_interactor_A glycovid:SAM3_4_M ;
-		glycovidOntology:has_interactor_B glycoinfo:G21146IK ;
+		glycovidOntology:has_interactor_B glycoinfo:G14844CX ;
 		bao:BAO_0002875 sio:SIO_001076 ; 
 		sio:SIO_000300 "94.0"^^sio:SIO001212 ;
 		obo:IAO_0000119 glycovid:PUB33917609 ;
@@ -41532,22 +41532,22 @@ glycovid:SAM3_M_4_G19868AX rdf:type owl:NamedIndividual ;
 		dcterms:references glycovid:PUB33917609 .
 
 
-glycovid:SAM3_M_4_G37476QB rdf:type owl:NamedIndividual ;
-		glycovidOntology:hasGlycan glycoinfo:G37476QB ;
+glycovid:SAM3_M_4_G63074CQ rdf:type owl:NamedIndividual ;
+		glycovidOntology:hasGlycan glycoinfo:G63074CQ ;
 		glycovidOntology:hasSample glycovid:SAM3_4_M ;
 		glycovidOntology:has_interactor_A glycovid:SAM3_4_M ;
-		glycovidOntology:has_interactor_B glycoinfo:G37476QB ;
+		glycovidOntology:has_interactor_B glycoinfo:G63074CQ ;
 		bao:BAO_0002875 sio:SIO_001076 ; 
 		sio:SIO_000300 "131.75"^^sio:SIO001212 ;
 		obo:IAO_0000119 glycovid:PUB33917609 ;
 		dcterms:references glycovid:PUB33917609 .
 
 
-glycovid:SAM3_M_4_G37476QB rdf:type owl:NamedIndividual ;
-		glycovidOntology:hasGlycan glycoinfo:G37476QB ;
+glycovid:SAM3_M_4_G25473LQ rdf:type owl:NamedIndividual ;
+		glycovidOntology:hasGlycan glycoinfo:G25473LQ ;
 		glycovidOntology:hasSample glycovid:SAM3_4_M ;
 		glycovidOntology:has_interactor_A glycovid:SAM3_4_M ;
-		glycovidOntology:has_interactor_B glycoinfo:G37476QB ;
+		glycovidOntology:has_interactor_B glycoinfo:G25473LQ ;
 		bao:BAO_0002875 sio:SIO_001076 ; 
 		sio:SIO_000300 "144.75"^^sio:SIO001212 ;
 		obo:IAO_0000119 glycovid:PUB33917609 ;
@@ -41576,11 +41576,11 @@ glycovid:SAM3_M_4_G02670IJ rdf:type owl:NamedIndividual ;
 		dcterms:references glycovid:PUB33917609 .
 
 
-glycovid:SAM3_M_4_G99858XP rdf:type owl:NamedIndividual ;
-		glycovidOntology:hasGlycan glycoinfo:G99858XP ;
+glycovid:SAM3_M_4_G51175PR rdf:type owl:NamedIndividual ;
+		glycovidOntology:hasGlycan glycoinfo:G51175PR ;
 		glycovidOntology:hasSample glycovid:SAM3_4_M ;
 		glycovidOntology:has_interactor_A glycovid:SAM3_4_M ;
-		glycovidOntology:has_interactor_B glycoinfo:G99858XP ;
+		glycovidOntology:has_interactor_B glycoinfo:G51175PR ;
 		bao:BAO_0002875 sio:SIO_001076 ; 
 		sio:SIO_000300 "5287.75"^^sio:SIO001212 ;
 		obo:IAO_0000119 glycovid:PUB33917609 ;
@@ -42082,22 +42082,22 @@ glycovid:SAM3_M_11_G54064FW rdf:type owl:NamedIndividual ;
 		dcterms:references glycovid:PUB33917609 .
 
 
-glycovid:SAM3_M_11_G55143WF rdf:type owl:NamedIndividual ;
-		glycovidOntology:hasGlycan glycoinfo:G55143WF ;
+glycovid:SAM3_M_11_G51872EK rdf:type owl:NamedIndividual ;
+		glycovidOntology:hasGlycan glycoinfo:G51872EK ;
 		glycovidOntology:hasSample glycovid:SAM3_11_M ;
 		glycovidOntology:has_interactor_A glycovid:SAM3_11_M ;
-		glycovidOntology:has_interactor_B glycoinfo:G55143WF ;
+		glycovidOntology:has_interactor_B glycoinfo:G51872EK ;
 		bao:BAO_0002875 sio:SIO_001076 ; 
 		sio:SIO_000300 "104.75"^^sio:SIO001212 ;
 		obo:IAO_0000119 glycovid:PUB33917609 ;
 		dcterms:references glycovid:PUB33917609 .
 
 
-glycovid:SAM3_M_11_G51872EK rdf:type owl:NamedIndividual ;
-		glycovidOntology:hasGlycan glycoinfo:G51872EK ;
+glycovid:SAM3_M_11_G49916XD rdf:type owl:NamedIndividual ;
+		glycovidOntology:hasGlycan glycoinfo:G49916XD ;
 		glycovidOntology:hasSample glycovid:SAM3_11_M ;
 		glycovidOntology:has_interactor_A glycovid:SAM3_11_M ;
-		glycovidOntology:has_interactor_B glycoinfo:G51872EK ;
+		glycovidOntology:has_interactor_B glycoinfo:G49916XD ;
 		bao:BAO_0002875 sio:SIO_001076 ; 
 		sio:SIO_000300 "1022.75"^^sio:SIO001212 ;
 		obo:IAO_0000119 glycovid:PUB33917609 ;
@@ -42236,11 +42236,11 @@ glycovid:SAM3_M_11_G43534QA rdf:type owl:NamedIndividual ;
 		dcterms:references glycovid:PUB33917609 .
 
 
-glycovid:SAM3_M_11_G82168GG rdf:type owl:NamedIndividual ;
-		glycovidOntology:hasGlycan glycoinfo:G82168GG ;
+glycovid:SAM3_M_11_G36191CD rdf:type owl:NamedIndividual ;
+		glycovidOntology:hasGlycan glycoinfo:G36191CD ;
 		glycovidOntology:hasSample glycovid:SAM3_11_M ;
 		glycovidOntology:has_interactor_A glycovid:SAM3_11_M ;
-		glycovidOntology:has_interactor_B glycoinfo:G82168GG ;
+		glycovidOntology:has_interactor_B glycoinfo:G36191CD ;
 		bao:BAO_0002875 sio:SIO_001076 ; 
 		sio:SIO_000300 "158.5"^^sio:SIO001212 ;
 		obo:IAO_0000119 glycovid:PUB33917609 ;
@@ -42313,11 +42313,11 @@ glycovid:SAM3_M_11_G82942ZJ rdf:type owl:NamedIndividual ;
 		dcterms:references glycovid:PUB33917609 .
 
 
-glycovid:SAM3_M_11_G21146IK rdf:type owl:NamedIndividual ;
-		glycovidOntology:hasGlycan glycoinfo:G21146IK ;
+glycovid:SAM3_M_11_G14844CX rdf:type owl:NamedIndividual ;
+		glycovidOntology:hasGlycan glycoinfo:G14844CX ;
 		glycovidOntology:hasSample glycovid:SAM3_11_M ;
 		glycovidOntology:has_interactor_A glycovid:SAM3_11_M ;
-		glycovidOntology:has_interactor_B glycoinfo:G21146IK ;
+		glycovidOntology:has_interactor_B glycoinfo:G14844CX ;
 		bao:BAO_0002875 sio:SIO_001076 ; 
 		sio:SIO_000300 "104.5"^^sio:SIO001212 ;
 		obo:IAO_0000119 glycovid:PUB33917609 ;
@@ -43017,22 +43017,22 @@ glycovid:SAM3_M_11_G19868AX rdf:type owl:NamedIndividual ;
 		dcterms:references glycovid:PUB33917609 .
 
 
-glycovid:SAM3_M_11_G37476QB rdf:type owl:NamedIndividual ;
-		glycovidOntology:hasGlycan glycoinfo:G37476QB ;
+glycovid:SAM3_M_11_G63074CQ rdf:type owl:NamedIndividual ;
+		glycovidOntology:hasGlycan glycoinfo:G63074CQ ;
 		glycovidOntology:hasSample glycovid:SAM3_11_M ;
 		glycovidOntology:has_interactor_A glycovid:SAM3_11_M ;
-		glycovidOntology:has_interactor_B glycoinfo:G37476QB ;
+		glycovidOntology:has_interactor_B glycoinfo:G63074CQ ;
 		bao:BAO_0002875 sio:SIO_001076 ; 
 		sio:SIO_000300 "126.0"^^sio:SIO001212 ;
 		obo:IAO_0000119 glycovid:PUB33917609 ;
 		dcterms:references glycovid:PUB33917609 .
 
 
-glycovid:SAM3_M_11_G37476QB rdf:type owl:NamedIndividual ;
-		glycovidOntology:hasGlycan glycoinfo:G37476QB ;
+glycovid:SAM3_M_11_G25473LQ rdf:type owl:NamedIndividual ;
+		glycovidOntology:hasGlycan glycoinfo:G25473LQ ;
 		glycovidOntology:hasSample glycovid:SAM3_11_M ;
 		glycovidOntology:has_interactor_A glycovid:SAM3_11_M ;
-		glycovidOntology:has_interactor_B glycoinfo:G37476QB ;
+		glycovidOntology:has_interactor_B glycoinfo:G25473LQ ;
 		bao:BAO_0002875 sio:SIO_001076 ; 
 		sio:SIO_000300 "133.5"^^sio:SIO001212 ;
 		obo:IAO_0000119 glycovid:PUB33917609 ;
@@ -43061,11 +43061,11 @@ glycovid:SAM3_M_11_G02670IJ rdf:type owl:NamedIndividual ;
 		dcterms:references glycovid:PUB33917609 .
 
 
-glycovid:SAM3_M_11_G99858XP rdf:type owl:NamedIndividual ;
-		glycovidOntology:hasGlycan glycoinfo:G99858XP ;
+glycovid:SAM3_M_11_G51175PR rdf:type owl:NamedIndividual ;
+		glycovidOntology:hasGlycan glycoinfo:G51175PR ;
 		glycovidOntology:hasSample glycovid:SAM3_11_M ;
 		glycovidOntology:has_interactor_A glycovid:SAM3_11_M ;
-		glycovidOntology:has_interactor_B glycoinfo:G99858XP ;
+		glycovidOntology:has_interactor_B glycoinfo:G51175PR ;
 		bao:BAO_0002875 sio:SIO_001076 ; 
 		sio:SIO_000300 "4475.75"^^sio:SIO001212 ;
 		obo:IAO_0000119 glycovid:PUB33917609 ;
@@ -43567,22 +43567,22 @@ glycovid:SAM4_M_12_G54064FW rdf:type owl:NamedIndividual ;
 		dcterms:references glycovid:PUB33917609 .
 
 
-glycovid:SAM4_M_12_G55143WF rdf:type owl:NamedIndividual ;
-		glycovidOntology:hasGlycan glycoinfo:G55143WF ;
+glycovid:SAM4_M_12_G51872EK rdf:type owl:NamedIndividual ;
+		glycovidOntology:hasGlycan glycoinfo:G51872EK ;
 		glycovidOntology:hasSample glycovid:SAM4_12_M ;
 		glycovidOntology:has_interactor_A glycovid:SAM4_12_M ;
-		glycovidOntology:has_interactor_B glycoinfo:G55143WF ;
+		glycovidOntology:has_interactor_B glycoinfo:G51872EK ;
 		bao:BAO_0002875 sio:SIO_001076 ; 
 		sio:SIO_000300 "169.0"^^sio:SIO001212 ;
 		obo:IAO_0000119 glycovid:PUB33917609 ;
 		dcterms:references glycovid:PUB33917609 .
 
 
-glycovid:SAM4_M_12_G51872EK rdf:type owl:NamedIndividual ;
-		glycovidOntology:hasGlycan glycoinfo:G51872EK ;
+glycovid:SAM4_M_12_G49916XD rdf:type owl:NamedIndividual ;
+		glycovidOntology:hasGlycan glycoinfo:G49916XD ;
 		glycovidOntology:hasSample glycovid:SAM4_12_M ;
 		glycovidOntology:has_interactor_A glycovid:SAM4_12_M ;
-		glycovidOntology:has_interactor_B glycoinfo:G51872EK ;
+		glycovidOntology:has_interactor_B glycoinfo:G49916XD ;
 		bao:BAO_0002875 sio:SIO_001076 ; 
 		sio:SIO_000300 "828.75"^^sio:SIO001212 ;
 		obo:IAO_0000119 glycovid:PUB33917609 ;
@@ -43721,11 +43721,11 @@ glycovid:SAM4_M_12_G43534QA rdf:type owl:NamedIndividual ;
 		dcterms:references glycovid:PUB33917609 .
 
 
-glycovid:SAM4_M_12_G82168GG rdf:type owl:NamedIndividual ;
-		glycovidOntology:hasGlycan glycoinfo:G82168GG ;
+glycovid:SAM4_M_12_G36191CD rdf:type owl:NamedIndividual ;
+		glycovidOntology:hasGlycan glycoinfo:G36191CD ;
 		glycovidOntology:hasSample glycovid:SAM4_12_M ;
 		glycovidOntology:has_interactor_A glycovid:SAM4_12_M ;
-		glycovidOntology:has_interactor_B glycoinfo:G82168GG ;
+		glycovidOntology:has_interactor_B glycoinfo:G36191CD ;
 		bao:BAO_0002875 sio:SIO_001076 ; 
 		sio:SIO_000300 "273.25"^^sio:SIO001212 ;
 		obo:IAO_0000119 glycovid:PUB33917609 ;
@@ -43798,11 +43798,11 @@ glycovid:SAM4_M_12_G82942ZJ rdf:type owl:NamedIndividual ;
 		dcterms:references glycovid:PUB33917609 .
 
 
-glycovid:SAM4_M_12_G21146IK rdf:type owl:NamedIndividual ;
-		glycovidOntology:hasGlycan glycoinfo:G21146IK ;
+glycovid:SAM4_M_12_G14844CX rdf:type owl:NamedIndividual ;
+		glycovidOntology:hasGlycan glycoinfo:G14844CX ;
 		glycovidOntology:hasSample glycovid:SAM4_12_M ;
 		glycovidOntology:has_interactor_A glycovid:SAM4_12_M ;
-		glycovidOntology:has_interactor_B glycoinfo:G21146IK ;
+		glycovidOntology:has_interactor_B glycoinfo:G14844CX ;
 		bao:BAO_0002875 sio:SIO_001076 ; 
 		sio:SIO_000300 "2240.5"^^sio:SIO001212 ;
 		obo:IAO_0000119 glycovid:PUB33917609 ;
@@ -44502,22 +44502,22 @@ glycovid:SAM4_M_12_G19868AX rdf:type owl:NamedIndividual ;
 		dcterms:references glycovid:PUB33917609 .
 
 
-glycovid:SAM4_M_12_G37476QB rdf:type owl:NamedIndividual ;
-		glycovidOntology:hasGlycan glycoinfo:G37476QB ;
+glycovid:SAM4_M_12_G63074CQ rdf:type owl:NamedIndividual ;
+		glycovidOntology:hasGlycan glycoinfo:G63074CQ ;
 		glycovidOntology:hasSample glycovid:SAM4_12_M ;
 		glycovidOntology:has_interactor_A glycovid:SAM4_12_M ;
-		glycovidOntology:has_interactor_B glycoinfo:G37476QB ;
+		glycovidOntology:has_interactor_B glycoinfo:G63074CQ ;
 		bao:BAO_0002875 sio:SIO_001076 ; 
 		sio:SIO_000300 "175.5"^^sio:SIO001212 ;
 		obo:IAO_0000119 glycovid:PUB33917609 ;
 		dcterms:references glycovid:PUB33917609 .
 
 
-glycovid:SAM4_M_12_G37476QB rdf:type owl:NamedIndividual ;
-		glycovidOntology:hasGlycan glycoinfo:G37476QB ;
+glycovid:SAM4_M_12_G25473LQ rdf:type owl:NamedIndividual ;
+		glycovidOntology:hasGlycan glycoinfo:G25473LQ ;
 		glycovidOntology:hasSample glycovid:SAM4_12_M ;
 		glycovidOntology:has_interactor_A glycovid:SAM4_12_M ;
-		glycovidOntology:has_interactor_B glycoinfo:G37476QB ;
+		glycovidOntology:has_interactor_B glycoinfo:G25473LQ ;
 		bao:BAO_0002875 sio:SIO_001076 ; 
 		sio:SIO_000300 "201.0"^^sio:SIO001212 ;
 		obo:IAO_0000119 glycovid:PUB33917609 ;
@@ -44546,11 +44546,11 @@ glycovid:SAM4_M_12_G02670IJ rdf:type owl:NamedIndividual ;
 		dcterms:references glycovid:PUB33917609 .
 
 
-glycovid:SAM4_M_12_G99858XP rdf:type owl:NamedIndividual ;
-		glycovidOntology:hasGlycan glycoinfo:G99858XP ;
+glycovid:SAM4_M_12_G51175PR rdf:type owl:NamedIndividual ;
+		glycovidOntology:hasGlycan glycoinfo:G51175PR ;
 		glycovidOntology:hasSample glycovid:SAM4_12_M ;
 		glycovidOntology:has_interactor_A glycovid:SAM4_12_M ;
-		glycovidOntology:has_interactor_B glycoinfo:G99858XP ;
+		glycovidOntology:has_interactor_B glycoinfo:G51175PR ;
 		bao:BAO_0002875 sio:SIO_001076 ; 
 		sio:SIO_000300 "173.25"^^sio:SIO001212 ;
 		obo:IAO_0000119 glycovid:PUB33917609 ;

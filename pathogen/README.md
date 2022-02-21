@@ -5,19 +5,26 @@ In this project the glycan code translated into [GlyTouCan](https://glytoucan.or
 
 ## Original ontology
 For the purpose of referring binding strength obtained in the experiment on the web, newly structured ontology was created as you can see in this [file](./pathogen_base.owl)
+'pathogen_model.owl' includes some example individuales.
 
 ### PREFIXes used in the ontology
-- PREFIX glycovid: <http://rdf.glycoinfo.org/GlyCovid/Id/>
-- PREFIX glycovidOntology: <http://rdf.glycoinfo.org/GlyCovidRDF/Ontology#>
+- PREFIX : <http://rdf.glycoinfo.org/GlyCovid/pathogen#>
 - PREFIX owl: <http://www.w3.org/2002/07/owl#>
 - PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 - PREFIX xml: <http://www.w3.org/XML/1998/namespace>
 - PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 - PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
-- PREFIX foaf: <http://xmlns.com/foaf/0.1/>
 - PREFIX bibo: <http://purl.org/ontology/bibo/>
-- PREFIX glycoinfo: <http://rdf.glycoinfo.org/glycan/>
+- PREFIX glycovid: <http://rdf.glycoinfo.org/GlyCovid/Id/>
+- PREFIX glycovidOntology: <http://rdf.glycoinfo.org/GlyCovidRDF/Ontology#>
 - PREFIX sio: <http://semanticscience.org/resource/>
+- PREFIX glycoinfo: <http://rdf.glycoinfo.org/glycan/>
+- PREFIX bao: <http://www.bioassayontology.org/bao#>
+- PREFIX dcterms: <http://purl.org/dc/terms/>
+- PREFIX obo: <http://purl.obolibrary.org/obo/>
+- PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+- PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+
 
 
 ## Turtle format files

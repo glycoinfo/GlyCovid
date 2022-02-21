@@ -198,11 +198,11 @@ glycoinfo:G54064FW rdf:type owl:NamedIndividual ,
 			bao:BAO_0002015 .
 
 
-glycoinfo:G55143WF rdf:type owl:NamedIndividual ,
+glycoinfo:G51872EK rdf:type owl:NamedIndividual ,
 			bao:BAO_0002015 .
 
 
-glycoinfo:G51872EK rdf:type owl:NamedIndividual ,
+glycoinfo:G49916XD rdf:type owl:NamedIndividual ,
 			bao:BAO_0002015 .
 
 
@@ -254,7 +254,7 @@ glycoinfo:G43534QA rdf:type owl:NamedIndividual ,
 			bao:BAO_0002015 .
 
 
-glycoinfo:G82168GG rdf:type owl:NamedIndividual ,
+glycoinfo:G36191CD rdf:type owl:NamedIndividual ,
 			bao:BAO_0002015 .
 
 
@@ -282,7 +282,7 @@ glycoinfo:G82942ZJ rdf:type owl:NamedIndividual ,
 			bao:BAO_0002015 .
 
 
-glycoinfo:G21146IK rdf:type owl:NamedIndividual ,
+glycoinfo:G14844CX rdf:type owl:NamedIndividual ,
 			bao:BAO_0002015 .
 
 
@@ -538,11 +538,11 @@ glycoinfo:G19868AX rdf:type owl:NamedIndividual ,
 			bao:BAO_0002015 .
 
 
-glycoinfo:G37476QB rdf:type owl:NamedIndividual ,
+glycoinfo:G63074CQ rdf:type owl:NamedIndividual ,
 			bao:BAO_0002015 .
 
 
-glycoinfo:G37476QB rdf:type owl:NamedIndividual ,
+glycoinfo:G25473LQ rdf:type owl:NamedIndividual ,
 			bao:BAO_0002015 .
 
 
@@ -554,7 +554,7 @@ glycoinfo:G02670IJ rdf:type owl:NamedIndividual ,
 			bao:BAO_0002015 .
 
 
-glycoinfo:G99858XP rdf:type owl:NamedIndividual ,
+glycoinfo:G51175PR rdf:type owl:NamedIndividual ,
 			bao:BAO_0002015 .
 
 
