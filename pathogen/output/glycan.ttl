@@ -19,546 +19,546 @@
 #######################################################
 
 glycoinfo:nan rdf:type owl:NamedIndividual ,
-			bao:BAO_0002015 .
+			sio:SIO_001395 .
 
 
 glycoinfo:G78255UI rdf:type owl:NamedIndividual ,
-			bao:BAO_0002015 .
+			sio:SIO_001395 .
 
 
 glycoinfo:G71469XA rdf:type owl:NamedIndividual ,
-			bao:BAO_0002015 .
+			sio:SIO_001395 .
 
 
 glycoinfo:G86156UJ rdf:type owl:NamedIndividual ,
-			bao:BAO_0002015 .
+			sio:SIO_001395 .
 
 
 glycoinfo:G10789DJ rdf:type owl:NamedIndividual ,
-			bao:BAO_0002015 .
+			sio:SIO_001395 .
 
 
 glycoinfo:G32473MI rdf:type owl:NamedIndividual ,
-			bao:BAO_0002015 .
+			sio:SIO_001395 .
 
 
 glycoinfo:G93351GM rdf:type owl:NamedIndividual ,
-			bao:BAO_0002015 .
+			sio:SIO_001395 .
 
 
 glycoinfo:G57449OF rdf:type owl:NamedIndividual ,
-			bao:BAO_0002015 .
+			sio:SIO_001395 .
 
 
 glycoinfo:G68461PT rdf:type owl:NamedIndividual ,
-			bao:BAO_0002015 .
+			sio:SIO_001395 .
 
 
 glycoinfo:G26295XE rdf:type owl:NamedIndividual ,
-			bao:BAO_0002015 .
+			sio:SIO_001395 .
 
 
 glycoinfo:G37036SF rdf:type owl:NamedIndividual ,
-			bao:BAO_0002015 .
+			sio:SIO_001395 .
 
 
 glycoinfo:G26125KY rdf:type owl:NamedIndividual ,
-			bao:BAO_0002015 .
+			sio:SIO_001395 .
 
 
 glycoinfo:G08340FW rdf:type owl:NamedIndividual ,
-			bao:BAO_0002015 .
+			sio:SIO_001395 .
 
 
 glycoinfo:G99603GB rdf:type owl:NamedIndividual ,
-			bao:BAO_0002015 .
+			sio:SIO_001395 .
 
 
 glycoinfo:G96557TJ rdf:type owl:NamedIndividual ,
-			bao:BAO_0002015 .
+			sio:SIO_001395 .
 
 
 glycoinfo:G94576MN rdf:type owl:NamedIndividual ,
-			bao:BAO_0002015 .
+			sio:SIO_001395 .
 
 
 glycoinfo:G47566FL rdf:type owl:NamedIndividual ,
-			bao:BAO_0002015 .
+			sio:SIO_001395 .
 
 
 glycoinfo:G62826CL rdf:type owl:NamedIndividual ,
-			bao:BAO_0002015 .
+			sio:SIO_001395 .
 
 
 glycoinfo:G12200GB rdf:type owl:NamedIndividual ,
-			bao:BAO_0002015 .
+			sio:SIO_001395 .
 
 
 glycoinfo:G14569AR rdf:type owl:NamedIndividual ,
-			bao:BAO_0002015 .
+			sio:SIO_001395 .
 
 
 glycoinfo:G68703KI rdf:type owl:NamedIndividual ,
-			bao:BAO_0002015 .
+			sio:SIO_001395 .
 
 
 glycoinfo:G19118WX rdf:type owl:NamedIndividual ,
-			bao:BAO_0002015 .
+			sio:SIO_001395 .
 
 
 glycoinfo:G27689OB rdf:type owl:NamedIndividual ,
-			bao:BAO_0002015 .
+			sio:SIO_001395 .
 
 
 glycoinfo:G15209MJ rdf:type owl:NamedIndividual ,
-			bao:BAO_0002015 .
+			sio:SIO_001395 .
 
 
 glycoinfo:G72739GY rdf:type owl:NamedIndividual ,
-			bao:BAO_0002015 .
+			sio:SIO_001395 .
 
 
 glycoinfo:G21460SG rdf:type owl:NamedIndividual ,
-			bao:BAO_0002015 .
+			sio:SIO_001395 .
 
 
 glycoinfo:G91537AT rdf:type owl:NamedIndividual ,
-			bao:BAO_0002015 .
+			sio:SIO_001395 .
 
 
 glycoinfo:G30839DN rdf:type owl:NamedIndividual ,
-			bao:BAO_0002015 .
+			sio:SIO_001395 .
 
 
 glycoinfo:G98240FC rdf:type owl:NamedIndividual ,
-			bao:BAO_0002015 .
+			sio:SIO_001395 .
 
 
 glycoinfo:G14988WV rdf:type owl:NamedIndividual ,
-			bao:BAO_0002015 .
+			sio:SIO_001395 .
 
 
 glycoinfo:G60761LT rdf:type owl:NamedIndividual ,
-			bao:BAO_0002015 .
+			sio:SIO_001395 .
 
 
 glycoinfo:G41200QS rdf:type owl:NamedIndividual ,
-			bao:BAO_0002015 .
+			sio:SIO_001395 .
 
 
 glycoinfo:G38488WF rdf:type owl:NamedIndividual ,
-			bao:BAO_0002015 .
+			sio:SIO_001395 .
 
 
 glycoinfo:G31265MS rdf:type owl:NamedIndividual ,
-			bao:BAO_0002015 .
+			sio:SIO_001395 .
 
 
 glycoinfo:G86541PE rdf:type owl:NamedIndividual ,
-			bao:BAO_0002015 .
+			sio:SIO_001395 .
 
 
 glycoinfo:G21320TF rdf:type owl:NamedIndividual ,
-			bao:BAO_0002015 .
+			sio:SIO_001395 .
 
 
 glycoinfo:G18057VI rdf:type owl:NamedIndividual ,
-			bao:BAO_0002015 .
+			sio:SIO_001395 .
 
 
 glycoinfo:G36374CE rdf:type owl:NamedIndividual ,
-			bao:BAO_0002015 .
+			sio:SIO_001395 .
 
 
 glycoinfo:G62222PE rdf:type owl:NamedIndividual ,
-			bao:BAO_0002015 .
+			sio:SIO_001395 .
 
 
 glycoinfo:G15407YE rdf:type owl:NamedIndividual ,
-			bao:BAO_0002015 .
+			sio:SIO_001395 .
 
 
 glycoinfo:G81315DD rdf:type owl:NamedIndividual ,
-			bao:BAO_0002015 .
+			sio:SIO_001395 .
 
 
 glycoinfo:G22768VO rdf:type owl:NamedIndividual ,
-			bao:BAO_0002015 .
+			sio:SIO_001395 .
 
 
 glycoinfo:G36544AC rdf:type owl:NamedIndividual ,
-			bao:BAO_0002015 .
+			sio:SIO_001395 .
 
 
 glycoinfo:G09609EN rdf:type owl:NamedIndividual ,
-			bao:BAO_0002015 .
+			sio:SIO_001395 .
 
 
 glycoinfo:G54064FW rdf:type owl:NamedIndividual ,
-			bao:BAO_0002015 .
+			sio:SIO_001395 .
 
 
 glycoinfo:G51872EK rdf:type owl:NamedIndividual ,
-			bao:BAO_0002015 .
+			sio:SIO_001395 .
 
 
 glycoinfo:G49916XD rdf:type owl:NamedIndividual ,
-			bao:BAO_0002015 .
+			sio:SIO_001395 .
 
 
 glycoinfo:G92022ML rdf:type owl:NamedIndividual ,
-			bao:BAO_0002015 .
+			sio:SIO_001395 .
 
 
 glycoinfo:G39213VZ rdf:type owl:NamedIndividual ,
-			bao:BAO_0002015 .
+			sio:SIO_001395 .
 
 
 glycoinfo:G10133VD rdf:type owl:NamedIndividual ,
-			bao:BAO_0002015 .
+			sio:SIO_001395 .
 
 
 glycoinfo:G32611KT rdf:type owl:NamedIndividual ,
-			bao:BAO_0002015 .
+			sio:SIO_001395 .
 
 
 glycoinfo:G29011JC rdf:type owl:NamedIndividual ,
-			bao:BAO_0002015 .
+			sio:SIO_001395 .
 
 
 glycoinfo:G90223GH rdf:type owl:NamedIndividual ,
-			bao:BAO_0002015 .
+			sio:SIO_001395 .
 
 
 glycoinfo:G77974XY rdf:type owl:NamedIndividual ,
-			bao:BAO_0002015 .
+			sio:SIO_001395 .
 
 
 glycoinfo:G08520NM rdf:type owl:NamedIndividual ,
-			bao:BAO_0002015 .
+			sio:SIO_001395 .
 
 
 glycoinfo:G61751GZ rdf:type owl:NamedIndividual ,
-			bao:BAO_0002015 .
+			sio:SIO_001395 .
 
 
 glycoinfo:G53168IY rdf:type owl:NamedIndividual ,
-			bao:BAO_0002015 .
+			sio:SIO_001395 .
 
 
 glycoinfo:G75896PD rdf:type owl:NamedIndividual ,
-			bao:BAO_0002015 .
+			sio:SIO_001395 .
 
 
 glycoinfo:G43534QA rdf:type owl:NamedIndividual ,
-			bao:BAO_0002015 .
+			sio:SIO_001395 .
 
 
 glycoinfo:G36191CD rdf:type owl:NamedIndividual ,
-			bao:BAO_0002015 .
+			sio:SIO_001395 .
 
 
 glycoinfo:G82779CI rdf:type owl:NamedIndividual ,
-			bao:BAO_0002015 .
+			sio:SIO_001395 .
 
 
 glycoinfo:G29857RC rdf:type owl:NamedIndividual ,
-			bao:BAO_0002015 .
+			sio:SIO_001395 .
 
 
 glycoinfo:G58547FH rdf:type owl:NamedIndividual ,
-			bao:BAO_0002015 .
+			sio:SIO_001395 .
 
 
 glycoinfo:G09482NW rdf:type owl:NamedIndividual ,
-			bao:BAO_0002015 .
+			sio:SIO_001395 .
 
 
 glycoinfo:G73271MD rdf:type owl:NamedIndividual ,
-			bao:BAO_0002015 .
+			sio:SIO_001395 .
 
 
 glycoinfo:G82942ZJ rdf:type owl:NamedIndividual ,
-			bao:BAO_0002015 .
+			sio:SIO_001395 .
 
 
 glycoinfo:G14844CX rdf:type owl:NamedIndividual ,
-			bao:BAO_0002015 .
+			sio:SIO_001395 .
 
 
 glycoinfo:G07483YN rdf:type owl:NamedIndividual ,
-			bao:BAO_0002015 .
+			sio:SIO_001395 .
 
 
 glycoinfo:G17140UR rdf:type owl:NamedIndividual ,
-			bao:BAO_0002015 .
+			sio:SIO_001395 .
 
 
 glycoinfo:G58969RU rdf:type owl:NamedIndividual ,
-			bao:BAO_0002015 .
+			sio:SIO_001395 .
 
 
 glycoinfo:G82348BZ rdf:type owl:NamedIndividual ,
-			bao:BAO_0002015 .
+			sio:SIO_001395 .
 
 
 glycoinfo:G72424VO rdf:type owl:NamedIndividual ,
-			bao:BAO_0002015 .
+			sio:SIO_001395 .
 
 
 glycoinfo:G43648DB rdf:type owl:NamedIndividual ,
-			bao:BAO_0002015 .
+			sio:SIO_001395 .
 
 
 glycoinfo:G76615YG rdf:type owl:NamedIndividual ,
-			bao:BAO_0002015 .
+			sio:SIO_001395 .
 
 
 glycoinfo:G82204SH rdf:type owl:NamedIndividual ,
-			bao:BAO_0002015 .
+			sio:SIO_001395 .
 
 
 glycoinfo:G11460AB rdf:type owl:NamedIndividual ,
-			bao:BAO_0002015 .
+			sio:SIO_001395 .
 
 
 glycoinfo:G42346AP rdf:type owl:NamedIndividual ,
-			bao:BAO_0002015 .
+			sio:SIO_001395 .
 
 
 glycoinfo:G98068PA rdf:type owl:NamedIndividual ,
-			bao:BAO_0002015 .
+			sio:SIO_001395 .
 
 
 glycoinfo:G24617OK rdf:type owl:NamedIndividual ,
-			bao:BAO_0002015 .
+			sio:SIO_001395 .
 
 
 glycoinfo:G69912LP rdf:type owl:NamedIndividual ,
-			bao:BAO_0002015 .
+			sio:SIO_001395 .
 
 
 glycoinfo:G37383BH rdf:type owl:NamedIndividual ,
-			bao:BAO_0002015 .
+			sio:SIO_001395 .
 
 
 glycoinfo:G42666HT rdf:type owl:NamedIndividual ,
-			bao:BAO_0002015 .
+			sio:SIO_001395 .
 
 
 glycoinfo:G52880ZN rdf:type owl:NamedIndividual ,
-			bao:BAO_0002015 .
+			sio:SIO_001395 .
 
 
 glycoinfo:G17390SF rdf:type owl:NamedIndividual ,
-			bao:BAO_0002015 .
+			sio:SIO_001395 .
 
 
 glycoinfo:G17266GE rdf:type owl:NamedIndividual ,
-			bao:BAO_0002015 .
+			sio:SIO_001395 .
 
 
 glycoinfo:G21675ZL rdf:type owl:NamedIndividual ,
-			bao:BAO_0002015 .
+			sio:SIO_001395 .
 
 
 glycoinfo:G82096UQ rdf:type owl:NamedIndividual ,
-			bao:BAO_0002015 .
+			sio:SIO_001395 .
 
 
 glycoinfo:G92823JK rdf:type owl:NamedIndividual ,
-			bao:BAO_0002015 .
+			sio:SIO_001395 .
 
 
 glycoinfo:G02557XE rdf:type owl:NamedIndividual ,
-			bao:BAO_0002015 .
+			sio:SIO_001395 .
 
 
 glycoinfo:G00054MO rdf:type owl:NamedIndividual ,
-			bao:BAO_0002015 .
+			sio:SIO_001395 .
 
 
 glycoinfo:G17689EW rdf:type owl:NamedIndividual ,
-			bao:BAO_0002015 .
+			sio:SIO_001395 .
 
 
 glycoinfo:G00051MO rdf:type owl:NamedIndividual ,
-			bao:BAO_0002015 .
+			sio:SIO_001395 .
 
 
 glycoinfo:G25407RZ rdf:type owl:NamedIndividual ,
-			bao:BAO_0002015 .
+			sio:SIO_001395 .
 
 
 glycoinfo:G00057MO rdf:type owl:NamedIndividual ,
-			bao:BAO_0002015 .
+			sio:SIO_001395 .
 
 
 glycoinfo:G96865DJ rdf:type owl:NamedIndividual ,
-			bao:BAO_0002015 .
+			sio:SIO_001395 .
 
 
 glycoinfo:G49108TO rdf:type owl:NamedIndividual ,
-			bao:BAO_0002015 .
+			sio:SIO_001395 .
 
 
 glycoinfo:G47362BJ rdf:type owl:NamedIndividual ,
-			bao:BAO_0002015 .
+			sio:SIO_001395 .
 
 
 glycoinfo:G90562PB rdf:type owl:NamedIndividual ,
-			bao:BAO_0002015 .
+			sio:SIO_001395 .
 
 
 glycoinfo:G84224TW rdf:type owl:NamedIndividual ,
-			bao:BAO_0002015 .
+			sio:SIO_001395 .
 
 
 glycoinfo:G25559RS rdf:type owl:NamedIndividual ,
-			bao:BAO_0002015 .
+			sio:SIO_001395 .
 
 
 glycoinfo:G16579HJ rdf:type owl:NamedIndividual ,
-			bao:BAO_0002015 .
+			sio:SIO_001395 .
 
 
 glycoinfo:G71142DF rdf:type owl:NamedIndividual ,
-			bao:BAO_0002015 .
+			sio:SIO_001395 .
 
 
 glycoinfo:G65889KE rdf:type owl:NamedIndividual ,
-			bao:BAO_0002015 .
+			sio:SIO_001395 .
 
 
 glycoinfo:G96881BQ rdf:type owl:NamedIndividual ,
-			bao:BAO_0002015 .
+			sio:SIO_001395 .
 
 
 glycoinfo:G76355TG rdf:type owl:NamedIndividual ,
-			bao:BAO_0002015 .
+			sio:SIO_001395 .
 
 
 glycoinfo:G48898TH rdf:type owl:NamedIndividual ,
-			bao:BAO_0002015 .
+			sio:SIO_001395 .
 
 
 glycoinfo:G24432YB rdf:type owl:NamedIndividual ,
-			bao:BAO_0002015 .
+			sio:SIO_001395 .
 
 
 glycoinfo:G00068MO rdf:type owl:NamedIndividual ,
-			bao:BAO_0002015 .
+			sio:SIO_001395 .
 
 
 glycoinfo:G80587NA rdf:type owl:NamedIndividual ,
-			bao:BAO_0002015 .
+			sio:SIO_001395 .
 
 
 glycoinfo:G35446HX rdf:type owl:NamedIndividual ,
-			bao:BAO_0002015 .
+			sio:SIO_001395 .
 
 
 glycoinfo:G78074HX rdf:type owl:NamedIndividual ,
-			bao:BAO_0002015 .
+			sio:SIO_001395 .
 
 
 glycoinfo:G03499BP rdf:type owl:NamedIndividual ,
-			bao:BAO_0002015 .
+			sio:SIO_001395 .
 
 
 glycoinfo:G40696TO rdf:type owl:NamedIndividual ,
-			bao:BAO_0002015 .
+			sio:SIO_001395 .
 
 
 glycoinfo:G94435QH rdf:type owl:NamedIndividual ,
-			bao:BAO_0002015 .
+			sio:SIO_001395 .
 
 
 glycoinfo:G61399NC rdf:type owl:NamedIndividual ,
-			bao:BAO_0002015 .
+			sio:SIO_001395 .
 
 
 glycoinfo:G39023AU rdf:type owl:NamedIndividual ,
-			bao:BAO_0002015 .
+			sio:SIO_001395 .
 
 
 glycoinfo:G00066MO rdf:type owl:NamedIndividual ,
-			bao:BAO_0002015 .
+			sio:SIO_001395 .
 
 
 glycoinfo:G47548GA rdf:type owl:NamedIndividual ,
-			bao:BAO_0002015 .
+			sio:SIO_001395 .
 
 
 glycoinfo:G91237TK rdf:type owl:NamedIndividual ,
-			bao:BAO_0002015 .
+			sio:SIO_001395 .
 
 
 glycoinfo:G00065MO rdf:type owl:NamedIndividual ,
-			bao:BAO_0002015 .
+			sio:SIO_001395 .
 
 
 glycoinfo:G28868ZC rdf:type owl:NamedIndividual ,
-			bao:BAO_0002015 .
+			sio:SIO_001395 .
 
 
 glycoinfo:G00048MO rdf:type owl:NamedIndividual ,
-			bao:BAO_0002015 .
+			sio:SIO_001395 .
 
 
 glycoinfo:G00052MO rdf:type owl:NamedIndividual ,
-			bao:BAO_0002015 .
+			sio:SIO_001395 .
 
 
 glycoinfo:G00053MO rdf:type owl:NamedIndividual ,
-			bao:BAO_0002015 .
+			sio:SIO_001395 .
 
 
 glycoinfo:G21290RB rdf:type owl:NamedIndividual ,
-			bao:BAO_0002015 .
+			sio:SIO_001395 .
 
 
 glycoinfo:G86566MF rdf:type owl:NamedIndividual ,
-			bao:BAO_0002015 .
+			sio:SIO_001395 .
 
 
 glycoinfo:G66937TJ rdf:type owl:NamedIndividual ,
-			bao:BAO_0002015 .
+			sio:SIO_001395 .
 
 
 glycoinfo:G89993FE rdf:type owl:NamedIndividual ,
-			bao:BAO_0002015 .
+			sio:SIO_001395 .
 
 
 glycoinfo:G67045LB rdf:type owl:NamedIndividual ,
-			bao:BAO_0002015 .
+			sio:SIO_001395 .
 
 
 glycoinfo:G19868AX rdf:type owl:NamedIndividual ,
-			bao:BAO_0002015 .
+			sio:SIO_001395 .
 
 
 glycoinfo:G63074CQ rdf:type owl:NamedIndividual ,
-			bao:BAO_0002015 .
+			sio:SIO_001395 .
 
 
 glycoinfo:G25473LQ rdf:type owl:NamedIndividual ,
-			bao:BAO_0002015 .
+			sio:SIO_001395 .
 
 
 glycoinfo:G32699RJ rdf:type owl:NamedIndividual ,
-			bao:BAO_0002015 .
+			sio:SIO_001395 .
 
 
 glycoinfo:G02670IJ rdf:type owl:NamedIndividual ,
-			bao:BAO_0002015 .
+			sio:SIO_001395 .
 
 
 glycoinfo:G51175PR rdf:type owl:NamedIndividual ,
-			bao:BAO_0002015 .
+			sio:SIO_001395 .
 
 
 glycoinfo:G64669AQ rdf:type owl:NamedIndividual ,
-			bao:BAO_0002015 .
+			sio:SIO_001395 .
 
 

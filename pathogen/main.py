@@ -26,10 +26,12 @@ def patient():
     text = ''
     for _ in range(1, 5):
         df = df_base.loc[df_base['patient'] == _]
-        df = df[['patient', 'age', 'hospitalized']].drop_duplicates()
+        df = df[['patient', 'age', 'hospitalized', 'symptom']].drop_duplicates()
         age = df['age'].tolist()[0]
         hospitalized = str(df['hospitalized'].tolist()[0]).lower()
-        text += f'glycovid:PAT{ _ } rdf:type owl:NamedIndividual ,\n\t\t\tsio:SIO_000393 ,\n\t\t\tsio:SIO_001214 ,\n\t\t\tsio:SIO_010048 ;\n\t\tglycovidOntology:isHospitalized "{ hospitalized }"^^xsd:boolean ;\n\t\tsio:SIO_000300 "{ age }"^^sio:SIO_001013 .\n\n\n'
+        symptom = str(df['symptom'].tolist()[0])
+        symptom = 'sio:SIO_001213' if symptom == 'mild' else 'sio:SIO_001214'
+        text += f'glycovid:PAT{ _ } rdf:type owl:NamedIndividual ,\n\t\t\tsio:SIO_000393 ,\n\t\t\t{ symptom } ,\n\t\t\tsio:SIO_010048 ;\n\t\tglycovidOntology:isHospitalized "{ hospitalized }"^^xsd:boolean ;\n\t\tsio:SIO_000300 "{ age }"^^sio:SIO_001013 .\n\n\n'
     file.write(text)
     file.close()
 
@@ -42,7 +44,7 @@ def glycan():
     text = ''
     df_base = pd.read_csv('./pathogens_glycans.csv')
     for gtcid in df_base['Linkage defined structure']:
-        text += f'glycoinfo:{ gtcid } rdf:type owl:NamedIndividual ,\n\t\t\tbao:BAO_0002015 .\n\n\n'
+        text += f'glycoinfo:{ gtcid } rdf:type owl:NamedIndividual ,\n\t\t\tsio:SIO_001395 .\n\n\n'
     file.write(text)
     file.close()
 
