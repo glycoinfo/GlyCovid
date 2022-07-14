@@ -6,9 +6,9 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix glycovid: <http://rdf.glycoinfo.org/GlyCovid/Id/> .
 @prefix glycoinfo: <http://rdf.glycoinfo.org/glycan/> .
 @prefix interaction: <http://rdf.glycoinfo.org/SugarBind/Id/> .
-@prefix glycovid: <http://rdf.glycoinfo.org/GlyCovid/Id/> .
 @prefix glycovidOntology: <http://rdf.glycoinfo.org/GlyCovidRDF/Ontology#> .
 @base <http://purl.jp/bio/12/glyco/diseases#> .
 
@@ -313,10 +313,6 @@ dcterms:publisher rdf:type owl:AnnotationProperty ;
                   rdfs:subPropertyOf <http://purl.org/dc/elements/1.1/publisher> .
 
 
-###  http://purl.org/dc/terms/refereces
-dcterms:refereces rdf:type owl:AnnotationProperty .
-
-
 ###  http://purl.org/dc/terms/references
 dcterms:references rdf:type owl:AnnotationProperty ;
                    rdfs:subPropertyOf <http://purl.org/dc/elements/1.1/relation> ,
@@ -460,9 +456,9 @@ xsd:date rdf:type rdfs:Datatype .
 #################################################################
 
 ###  http://rdf.glycoinfo.org/GlyCovidRDF/Ontology#binds_to
-<http://rdf.glycoinfo.org/GlyCovidRDF/Ontology#binds_to> rdf:type owl:ObjectProperty ;
-                                                         rdfs:domain :ReferencedInteraction ;
-                                                         rdfs:range obo:NCIT_C16785 .
+glycovidOntology:binds_to rdf:type owl:ObjectProperty ;
+                          rdfs:domain :ReferencedInteraction ;
+                          rdfs:range :Lectin .
 
 
 ###  http://rdf.glycoinfo.org/SugarBind/Ontology#caused_at
@@ -530,6 +526,12 @@ xsd:date rdf:type rdfs:Datatype .
               rdfs:domain :Area .
 
 
+###  http://rdf.glycoinfo.org/SugarBind/Ontology#lineage_up
+:lineage_up rdf:type owl:ObjectProperty ;
+            rdfs:domain :Agent ;
+            rdfs:range :Agent .
+
+
 #################################################################
 #    Data properties
 #################################################################
@@ -587,6 +589,10 @@ dcterms:modified rdf:type owl:DatatypeProperty ;
                  rdfs:subPropertyOf dcterms:date .
 
 
+###  http://purl.org/dc/terms/references
+dcterms:references rdf:type owl:DatatypeProperty .
+
+
 ###  http://purl.org/dc/terms/title
 dcterms:title rdf:type owl:DatatypeProperty .
 
@@ -596,23 +602,12 @@ dcterms:valid rdf:type owl:DatatypeProperty ;
               rdfs:subPropertyOf dcterms:date .
 
 
-###  http://rdf.glycoinfo.org/SugarBind/Ontology#agentId
-:agentId rdf:type owl:DatatypeProperty ;
-         rdfs:domain :Agent .
-
-
-###  http://rdf.glycoinfo.org/SugarBind/Ontology#areaId
-:areaId rdf:type owl:DatatypeProperty ;
-        rdfs:domain :Area .
+###  http://rdf.glycoinfo.org/GlyCovidRDF/Ontology#binding_strength
+glycovidOntology:binding_strength rdf:type owl:DatatypeProperty .
 
 
 ###  http://rdf.glycoinfo.org/SugarBind/Ontology#areaTypeId
 :areaTypeId rdf:type owl:DatatypeProperty .
-
-
-###  http://rdf.glycoinfo.org/SugarBind/Ontology#diseaseId
-:diseaseId rdf:type owl:DatatypeProperty ;
-           rdfs:domain :Disease .
 
 
 ###  http://rdf.glycoinfo.org/SugarBind/Ontology#glytoucanId
@@ -621,19 +616,14 @@ dcterms:valid rdf:type owl:DatatypeProperty ;
              rdfs:domain :Structure .
 
 
-###  http://rdf.glycoinfo.org/SugarBind/Ontology#lectinId
-:lectinId rdf:type owl:DatatypeProperty ;
-          rdfs:domain :Lectin .
+###  http://rdf.glycoinfo.org/SugarBind/Ontology#gold
+:gold rdf:type owl:DatatypeProperty ;
+      rdfs:domain :Agent .
 
 
-###  http://rdf.glycoinfo.org/SugarBind/Ontology#ligandId
-:ligandId rdf:type owl:DatatypeProperty ;
-          rdfs:domain :Ligand .
-
-
-###  http://rdf.glycoinfo.org/SugarBind/Ontology#pubmedId
-:pubmedId rdf:type owl:DatatypeProperty ;
-          rdfs:domain :Pubmed .
+###  http://rdf.glycoinfo.org/SugarBind/Ontology#hamap
+:hamap rdf:type owl:DatatypeProperty ;
+       rdfs:domain :Agent .
 
 
 ###  http://rdf.glycoinfo.org/SugarBind/Ontology#structureId
@@ -641,18 +631,46 @@ dcterms:valid rdf:type owl:DatatypeProperty ;
              rdfs:domain :Structure .
 
 
+###  http://rdf.glycoinfo.org/SugarBind/Ontology#taxonomyId
+:taxonomyId rdf:type owl:DatatypeProperty ;
+            rdfs:domain :Agent .
+
+
+###  http://rdf.glycoinfo.org/SugarBind/Ontology#taxonomyLevel
+:taxonomyLevel rdf:type owl:DatatypeProperty ;
+               rdfs:domain :Agent .
+
+
 ###  http://rdf.glycoinfo.org/SugarBind/Ontology#uniprotId
 :uniprotId rdf:type owl:DatatypeProperty ;
            rdfs:domain :Lectin .
 
 
-###  http://rdf.glycoinfo.org/YVK/Ontology#binding_strength
-<http://rdf.glycoinfo.org/GlyCovidRDF/Ontology#binding_strength> rdf:type owl:DatatypeProperty .
+###  http://rdf.glycoinfo.org/SugarBind/Ontology#viralzone
+:viralzone rdf:type owl:DatatypeProperty ;
+           rdfs:domain :Agent .
+
+
+###  http://rdf.glycoinfo.org/SugarBind/Ontology#viralzoneLabel
+:viralzoneLabel rdf:type owl:DatatypeProperty ;
+                rdfs:domain :Agent .
 
 
 #################################################################
 #    Classes
 #################################################################
+
+###  http://purl.obolibrary.org/obo/NCIT_C16785
+obo:NCIT_C16785 rdf:type owl:Class .
+
+
+###  http://purl.obolibrary.org/obo/NCIT_C2991
+obo:NCIT_C2991 rdf:type owl:Class .
+
+
+###  http://purl.obolibrary.org/obo/NCIT_C71462
+obo:NCIT_C71462 rdf:type owl:Class .
+
 
 ###  http://purl.org/dc/dcam/VocabularyEncodingScheme
 <http://purl.org/dc/dcam/VocabularyEncodingScheme> rdf:type owl:Class .
@@ -832,7 +850,10 @@ rdfs:Class rdf:type owl:Class .
 #################################################################
 
 ###  http://purl.org/dc/terms/
-dcterms: rdf:type owl:NamedIndividual .
+dcterms: rdf:type owl:NamedIndividual ;
+         dcterms:modified "2012-06-14"^^xsd:date ;
+         dcterms:publisher <http://purl.org/dc/aboutdcmi#DCMI> ;
+         dcterms:title "DCMI Metadata Terms - other"@en .
 
 
 ###  http://purl.org/dc/terms/Agent
@@ -1299,109 +1320,125 @@ dcterms:type rdf:type owl:NamedIndividual .
 dcterms:valid rdf:type owl:NamedIndividual .
 
 
-###  http://rdf.glycoinfo.org/GlyCovid/Id/2020.05.13.092478
-<http://rdf.glycoinfo.org/GlyCovid/Id/10.1101/2020.05.13.092478> rdf:type owl:NamedIndividual ,
-                                                                  obo:NCIT_C71462 ;
-                                                         rdf:label "Novel ACE2-Independent Carbohydrate-Binding of SARS-CoV-2 Spike Protein to Host Lectins and Lung Microbiota" ;
-                                                         rdfs:seeAlso "https://doi.org/10.1101/2020.05.13.092478"^^xsd:anyURI .
+###  http://rdf.glycoinfo.org/GlyCovid/Id/AGE1
+glycovid:AGE1 rdf:type owl:NamedIndividual ,
+                       :Agent ;
+              obo:NCIT_P331 "2697049"^^xsd:string ;
+              rdf:label "SARS-CoV-2"^^xsd:string .
 
 
-###  http://rdf.glycoinfo.org/YVK/Agent/SARS-CoV-2_spike_protein
-<http://rdf.glycoinfo.org/YVK/Agent/SARS-CoV-2_spike_protein> rdf:type owl:NamedIndividual ,
-                                                                       :Agent ;
-                                                              :causes <http://rdf.glycoinfo.org/YVK/Disease/COVID_19> ;
-                                                              rdf:label "SARS-CoV-2 spike protein"^^xsd:string .
+###  http://rdf.glycoinfo.org/GlyCovid/Id/DIS1
+glycovid:DIS1 rdf:type owl:NamedIndividual ,
+                       obo:DOID_0080600 ,
+                       obo:NCIT_C2991 ,
+                       :Disease ;
+              rdf:label "COVID-19"^^xsd:string .
 
 
-###  http://rdf.glycoinfo.org/YVK/Disease/COVID_19
-<http://rdf.glycoinfo.org/YVK/Disease/COVID_19> rdf:type owl:NamedIndividual ,
-                                                         :Disease ;
-                                                :caused_by <http://rdf.glycoinfo.org/YVK/Agent/SARS-CoV-2_spike_protein> ;
-                                                rdf:label "COVID 19"^^xsd:string .
+###  http://rdf.glycoinfo.org/GlyCovid/Id/LEC1
+glycovid:LEC1 rdf:type owl:NamedIndividual ,
+                       obo:NCIT_C16785 ,
+                       :Lectin ;
+              :uniprotId "http://purl.uniprot.org/uniprot/Q9NNX6"^^dcterms:URI ;
+              rdf:label "DC-SIGN"^^xsd:string ;
+              rdfs:seeAlso "<http://purl.uniprot.org/uniprot/Q9NNX6>"^^dcterms:URI ,
+                           "https://glycosmos.org/glycoproteins/show/uniprot/Q9NNX6"^^dcterms:URI .
 
 
-###  http://rdf.glycoinfo.org/YVK/Id/DC-SIGN_SCV2Ref_SARS-CoV-2
-<http://rdf.glycoinfo.org/YVK/Id/DC-SIGN_SCV2Ref_SARS-CoV-2> rdf:type owl:NamedIndividual ,
-                                                                      :ReferencedInteraction ;
-                                                             <http://rdf.glycoinfo.org/GlyCovidRDF/Ontology#binds_to> <http://rdf.glycoinfo.org/YVK/Lectin/DC-SIGN> ;
-                                                             :has_agent <http://rdf.glycoinfo.org/YVK/Agent/SARS-CoV-2_spike_protein> ;
-                                                             :has_pubmed <http://rdf.glycoinfo.org/GlyCovid/Id/10.1101/2020.05.13.092478> ;
-                                                             <http://rdf.glycoinfo.org/GlyCovidRDF/Ontology#binding_strength> "1.996"^^xsd:float ;
-                                                             dcterms:refereces <http://rdf.glycoinfo.org/GlyCovid/Id/10.1101/2020.05.13.092478> ;
-                                                             rdf:label "DC-SIGN_SCV2Ref_SARS-CoV-2"^^xsd:string .
+###  http://rdf.glycoinfo.org/GlyCovid/Id/LEC2
+glycovid:LEC2 rdf:type owl:NamedIndividual ,
+                       obo:NCIT_C16785 ,
+                       :Lectin ;
+              :uniprotId "http://purl.uniprot.org/uniprot/P49300"^^dcterms:URI ;
+              rdf:label "MGL"^^xsd:string ;
+              rdfs:seeAlso "http://purl.uniprot.org/uniprot/P49300"^^dcterms:URI ,
+                           "https://glycosmos.org/glycoproteins/show/uniprot/P49300"^^dcterms:URI .
 
 
-###  http://rdf.glycoinfo.org/YVK/Id/MGL_SCV2Ref_SARS-CoV-2
-<http://rdf.glycoinfo.org/YVK/Id/MGL_SCV2Ref_SARS-CoV-2> rdf:type owl:NamedIndividual ,
-                                                                  :ReferencedInteraction ;
-                                                         <http://rdf.glycoinfo.org/GlyCovidRDF/Ontology#binds_to> <http://rdf.glycoinfo.org/YVK/Lectin/MGL> ;
-                                                         :has_agent <http://rdf.glycoinfo.org/YVK/Agent/SARS-CoV-2_spike_protein> ;
-                                                         :has_pubmed <http://rdf.glycoinfo.org/GlyCovid/Id/10.1101/2020.05.13.092478> ;
-                                                         <http://rdf.glycoinfo.org/GlyCovidRDF/Ontology#binding_strength> "1.475"^^xsd:float ;
-                                                         dcterms:refereces <http://rdf.glycoinfo.org/GlyCovid/Id/10.1101/2020.05.13.092478> ;
-                                                         rdfs:seeAlso "MGL_SCV2Ref_SARS-CoV-2"^^xsd:string .
+###  http://rdf.glycoinfo.org/GlyCovid/Id/LEC3
+glycovid:LEC3 rdf:type owl:NamedIndividual ,
+                       obo:NCIT_C16785 ,
+                       :Lectin ;
+              :uniprotId "http://purl.uniprot.org/uniprot/P20138"^^dcterms:URI ;
+              rdf:label "Siglec-3"^^xsd:string ;
+              rdfs:seeAlso "http://purl.uniprot.org/uniprot/P20138"^^dcterms:URI .
 
 
-###  http://rdf.glycoinfo.org/YVK/Id/Siglec-10_SCV2Ref_SARS-CoV-2
-<http://rdf.glycoinfo.org/YVK/Id/Siglec-10_SCV2Ref_SARS-CoV-2> rdf:type owl:NamedIndividual ,
-                                                                        :ReferencedInteraction ;
-                                                               <http://rdf.glycoinfo.org/GlyCovidRDF/Ontology#binds_to> <http://rdf.glycoinfo.org/YVK/Lectin/Siglec-10> ;
-                                                               :has_agent <http://rdf.glycoinfo.org/YVK/Agent/SARS-CoV-2_spike_protein> ;
-                                                               :has_pubmed <http://rdf.glycoinfo.org/GlyCovid/Id/10.1101/2020.05.13.092478> ;
-                                                               <http://rdf.glycoinfo.org/GlyCovidRDF/Ontology#binding_strength> "1.097"^^xsd:float ;
-                                                               dcterms:refereces <http://rdf.glycoinfo.org/GlyCovid/Id/10.1101/2020.05.13.092478> ;
-                                                               rdf:label "Siglec-10_SCV2Ref_SARS-CoV-2"^^xsd:string .
+###  http://rdf.glycoinfo.org/GlyCovid/Id/LEC4
+glycovid:LEC4 rdf:type owl:NamedIndividual ,
+                       obo:NCIT_C16785 ,
+                       :Lectin ;
+              owl:topDataProperty "http://purl.uniprot.org/uniprot/Q9Y336"^^dcterms:URI ;
+              rdf:label "Siglec-9"^^xsd:string ;
+              rdfs:seeAlso "http://purl.uniprot.org/uniprot/Q9Y336"^^dcterms:URI ,
+                           "https://glycosmos.org/glycoproteins/show/uniprot/Q9Y336"^^dcterms:URI .
 
 
-###  http://rdf.glycoinfo.org/YVK/Id/Siglec-3_SCV2Ref_SARS-CoV-2
-<http://rdf.glycoinfo.org/YVK/Id/Siglec-3_SCV2Ref_SARS-CoV-2> rdf:type owl:NamedIndividual ,
-                                                                       :ReferencedInteraction ;
-                                                              <http://rdf.glycoinfo.org/GlyCovidRDF/Ontology#binds_to> <http://rdf.glycoinfo.org/YVK/Lectin/Siglec-3> ;
-                                                              :has_agent <http://rdf.glycoinfo.org/YVK/Agent/SARS-CoV-2_spike_protein> ;
-                                                              :has_pubmed <http://rdf.glycoinfo.org/GlyCovid/Id/10.1101/2020.05.13.092478> ;
-                                                              <http://rdf.glycoinfo.org/GlyCovidRDF/Ontology#binding_strength> "1.865"^^xsd:float ;
-                                                              dcterms:refereces <http://rdf.glycoinfo.org/GlyCovid/Id/10.1101/2020.05.13.092478> ;
-                                                              rdf:label "Siglec-3_SCV2Ref_SARS-CoV-2"^^xsd:string .
+###  http://rdf.glycoinfo.org/GlyCovid/Id/LEC5
+glycovid:LEC5 rdf:type owl:NamedIndividual ,
+                       obo:NCIT_C16785 ,
+                       :Lectin ;
+              :uniprotId "http://purl.uniprot.org/uniprot/Q96LC7"^^dcterms:URI ;
+              rdf:label "Siglec-10"^^xsd:string ;
+              rdfs:seeAlso "http://purl.uniprot.org/uniprot/Q96LC7"^^dcterms:URI ,
+                           "https://glycosmos.org/glycoproteins/show/uniprot/Q96LC7"^^dcterms:URI .
 
 
-###  http://rdf.glycoinfo.org/YVK/Id/Siglec-9_SCV2Ref_SARS-CoV-2
-<http://rdf.glycoinfo.org/YVK/Id/Siglec-9_SCV2Ref_SARS-CoV-2> rdf:type owl:NamedIndividual ,
-                                                                       :ReferencedInteraction ;
-                                                              <http://rdf.glycoinfo.org/GlyCovidRDF/Ontology#binds_to> <http://rdf.glycoinfo.org/YVK/Lectin/Siglec-9> ;
-                                                              :has_agent <http://rdf.glycoinfo.org/YVK/Agent/SARS-CoV-2_spike_protein> ;
-                                                              :has_pubmed <http://rdf.glycoinfo.org/GlyCovid/Id/10.1101/2020.05.13.092478> ;
-                                                              <http://rdf.glycoinfo.org/GlyCovidRDF/Ontology#binding_strength> "1.622"^^xsd:float ;
-                                                              dcterms:refereces <http://rdf.glycoinfo.org/GlyCovid/Id/10.1101/2020.05.13.092478> ;
-                                                              rdf:label "Siglec-9_SCV2Ref_SARS-CoV-2"^^xsd:string .
+###  http://rdf.glycoinfo.org/GlyCovid/Id/DOI10.1101/2020.05.13.092478
+<http://rdf.glycoinfo.org/GlyCovid/Id/DOI10.1101/2020.05.13.092478> rdf:type owl:NamedIndividual ,
+                                                                             obo:NCIT_C71462 ;
+                                                                    dcterms:references "https://doi.org/10.1101/2020.05.13.092478"^^dcterms:URI ;
+                                                                    rdf:label "DOI10.1101/2020.05.13.092478"^^xsd:string .
 
 
-###  http://rdf.glycoinfo.org/YVK/Lectin/DC-SIGN
-<http://rdf.glycoinfo.org/YVK/Lectin/DC-SIGN> rdf:type owl:NamedIndividual ,
-                                                       <http://purl.obolibrary.org/obo/NCIT_C16785> ;
-                                              rdf:label "DC-SIGN"^^xsd:string .
+###  http://rdf.glycoinfo.org/GlyCovid/Id/LEC1_DOI10.1101/2020.05.13.092478_AGE1
+<http://rdf.glycoinfo.org/GlyCovid/Id/LEC1_DOI10.1101/2020.05.13.092478_AGE1> rdf:type owl:NamedIndividual ,
+                                                                                       :ReferencedInteraction ;
+                                                                              glycovidOntology:binds_to glycovid:LEC1 ;
+                                                                              :has_agent glycovid:AGE1 ;
+                                                                              :has_pubmed <http://rdf.glycoinfo.org/GlyCovid/Id/DOI10.1101/2020.05.13.092478> ;
+                                                                              glycovidOntology:binding_strength "1.996"^^xsd:float ;
+                                                                              rdf:label "LEC1_DOI10.1101/2020.05.13.092478_AGE1"^^xsd:string .
 
 
-###  http://rdf.glycoinfo.org/YVK/Lectin/MGL
-<http://rdf.glycoinfo.org/YVK/Lectin/MGL> rdf:type owl:NamedIndividual ,
-                                                   <http://purl.obolibrary.org/obo/NCIT_C16785> ;
-                                          rdf:label "MGL"^^xsd:string .
+###  http://rdf.glycoinfo.org/GlyCovid/Id/LEC2_DOI10.1101/2020.05.13.092478_AGE1
+<http://rdf.glycoinfo.org/GlyCovid/Id/LEC2_DOI10.1101/2020.05.13.092478_AGE1> rdf:type owl:NamedIndividual ,
+                                                                                       :ReferencedInteraction ;
+                                                                              :has_agent glycovid:AGE1 ;
+                                                                              :has_lectin glycovid:LEC2 ;
+                                                                              :has_pubmed <http://rdf.glycoinfo.org/GlyCovid/Id/DOI10.1101/2020.05.13.092478> ;
+                                                                              glycovidOntology:binding_strength "1.475"^^xsd:float ;
+                                                                              rdf:label "LEC2_DOI10.1101/2020.05.13.092478_AGE1"^^xsd:string .
 
 
-###  http://rdf.glycoinfo.org/YVK/Lectin/Siglec-10
-<http://rdf.glycoinfo.org/YVK/Lectin/Siglec-10> rdf:type owl:NamedIndividual ,
-                                                         <http://purl.obolibrary.org/obo/NCIT_C16785> .
+###  http://rdf.glycoinfo.org/GlyCovid/Id/LEC3_DOI10.1101/2020.05.13.092478_AGE1
+<http://rdf.glycoinfo.org/GlyCovid/Id/LEC3_DOI10.1101/2020.05.13.092478_AGE1> rdf:type owl:NamedIndividual ,
+                                                                                       :ReferencedInteraction ;
+                                                                              glycovidOntology:binds_to glycovid:LEC3 ;
+                                                                              :has_agent glycovid:AGE1 ;
+                                                                              :has_pubmed <http://rdf.glycoinfo.org/GlyCovid/Id/DOI10.1101/2020.05.13.092478> ;
+                                                                              glycovidOntology:binding_strength "1.865"^^xsd:float ;
+                                                                              rdf:label "LEC3_DOI10.1101/2020.05.13.092478_AGE1"^^xsd:string .
 
 
-###  http://rdf.glycoinfo.org/YVK/Lectin/Siglec-3
-<http://rdf.glycoinfo.org/YVK/Lectin/Siglec-3> rdf:type owl:NamedIndividual ,
-                                                        <http://purl.obolibrary.org/obo/NCIT_C16785> ;
-                                               rdf:label "Siglec-3"^^xsd:string .
+###  http://rdf.glycoinfo.org/GlyCovid/Id/LEC4_DOI10.1101/2020.05.13.092478_AGE1
+<http://rdf.glycoinfo.org/GlyCovid/Id/LEC4_DOI10.1101/2020.05.13.092478_AGE1> rdf:type owl:NamedIndividual ,
+                                                                                       :ReferencedInteraction ;
+                                                                              glycovidOntology:binds_to glycovid:LEC4 ;
+                                                                              :has_agent glycovid:AGE1 ;
+                                                                              :has_pubmed <http://rdf.glycoinfo.org/GlyCovid/Id/DOI10.1101/2020.05.13.092478> ;
+                                                                              glycovidOntology:binding_strength "1.622"^^xsd:float ;
+                                                                              rdf:label "LEC4_DOI10.1101/2020.05.13.092478_AGE1"^^xsd:string .
 
 
-###  http://rdf.glycoinfo.org/YVK/Lectin/Siglec-9
-<http://rdf.glycoinfo.org/YVK/Lectin/Siglec-9> rdf:type owl:NamedIndividual ,
-                                                        <http://purl.obolibrary.org/obo/NCIT_C16785> ;
-                                               rdf:label "Siglec-9"^^xsd:string .
+###  http://rdf.glycoinfo.org/GlyCovid/Id/LEC5_DOI10.1101/2020.05.13.092478_AGE1
+<http://rdf.glycoinfo.org/GlyCovid/Id/LEC5_DOI10.1101/2020.05.13.092478_AGE1> rdf:type owl:NamedIndividual ,
+                                                                                       :ReferencedInteraction ;
+                                                                              glycovidOntology:binds_to glycovid:LEC5 ;
+                                                                              :has_agent glycovid:AGE1 ;
+                                                                              :has_pubmed <http://rdf.glycoinfo.org/GlyCovid/Id/DOI10.1101/2020.05.13.092478> ;
+                                                                              glycovidOntology:binding_strength "1.097"^^xsd:float ;
+                                                                              rdf:label "LEC5_DOI10.1101/2020.05.13.092478_AGE1"^^xsd:string .
 
 
 #################################################################
@@ -1409,9 +1446,9 @@ dcterms:valid rdf:type owl:NamedIndividual .
 #################################################################
 
 dcterms:Agent rdfs:label "Agent"@en ;
-              rdfs:comment "A resource that acts or has the power to act."@en ;
+              dcterms:issued "2008-01-14"^^xsd:date ;
               rdfs:isDefinedBy dcterms: ;
-              dcterms:issued "2008-01-14"^^xsd:date .
+              rdfs:comment "A resource that acts or has the power to act."@en .
 
 
 dcterms:AgentClass dcterms:issued "2008-01-14"^^xsd:date ;
@@ -1459,17 +1496,17 @@ dcterms:ISO639-2 rdfs:seeAlso <http://lcweb.loc.gov/standards/iso639-2/langhome.
                  rdfs:label "ISO 639-2"@en .
 
 
-dcterms:ISO639-3 rdfs:comment "The set of three-letter codes listed in ISO 639-3 for the representation of names of languages."@en ;
-                 rdfs:label "ISO 639-3"@en ;
-                 rdfs:isDefinedBy dcterms: ;
+dcterms:ISO639-3 rdfs:label "ISO 639-3"@en ;
+                 rdfs:comment "The set of three-letter codes listed in ISO 639-3 for the representation of names of languages."@en ;
                  dcterms:issued "2008-01-14"^^xsd:date ;
+                 rdfs:isDefinedBy dcterms: ;
                  rdfs:seeAlso <http://www.sil.org/iso639-3/> .
 
 
 dcterms:Jurisdiction rdfs:label "Jurisdiction"@en ;
-                     dcterms:issued "2008-01-14"^^xsd:date ;
+                     rdfs:isDefinedBy dcterms: ;
                      rdfs:comment "The extent or range of judicial, law enforcement, or other authority."@en ;
-                     rdfs:isDefinedBy dcterms: .
+                     dcterms:issued "2008-01-14"^^xsd:date .
 
 
 dcterms:LicenseDocument rdfs:isDefinedBy dcterms: ;
@@ -1478,8 +1515,8 @@ dcterms:LicenseDocument rdfs:isDefinedBy dcterms: ;
                         rdfs:comment "A legal document giving official permission to do something with a resource."@en .
 
 
-dcterms:LinguisticSystem dcterms:issued "2008-01-14"^^xsd:date ;
-                         dcterms:description "Written, spoken, sign, and computer languages are linguistic systems."@en ;
+dcterms:LinguisticSystem dcterms:description "Written, spoken, sign, and computer languages are linguistic systems."@en ;
+                         dcterms:issued "2008-01-14"^^xsd:date ;
                          rdfs:isDefinedBy dcterms: ;
                          rdfs:comment "A system of signs, symbols, sounds, gestures, or rules used in communication."@en ;
                          rdfs:label "Linguistic System"@en .
@@ -1509,8 +1546,8 @@ dcterms:MediaTypeOrExtent rdfs:isDefinedBy dcterms: ;
                           dcterms:issued "2008-01-14"^^xsd:date .
 
 
-dcterms:MethodOfAccrual rdfs:isDefinedBy dcterms: ;
-                        rdfs:comment "A method by which resources are added to a collection."@en ;
+dcterms:MethodOfAccrual rdfs:comment "A method by which resources are added to a collection."@en ;
+                        rdfs:isDefinedBy dcterms: ;
                         rdfs:label "Method of Accrual"@en ;
                         dcterms:issued "2008-01-14"^^xsd:date .
 
@@ -1536,8 +1573,8 @@ dcterms:PeriodOfTime rdfs:comment "An interval of time that is named or defined 
 
 dcterms:PhysicalMedium dcterms:issued "2008-01-14"^^xsd:date ;
                        dcterms:description "Examples include paper, canvas, or DVD."@en ;
-                       rdfs:label "Physical Medium"@en ;
                        rdfs:isDefinedBy dcterms: ;
+                       rdfs:label "Physical Medium"@en ;
                        rdfs:comment "A physical material or carrier."@en .
 
 
@@ -1554,8 +1591,8 @@ dcterms:Point rdfs:comment "The set of points in space defined by their geograph
               rdfs:isDefinedBy dcterms: .
 
 
-dcterms:Policy rdfs:label "Policy"@en ;
-               rdfs:isDefinedBy dcterms: ;
+dcterms:Policy rdfs:isDefinedBy dcterms: ;
+               rdfs:label "Policy"@en ;
                rdfs:comment "A plan or course of action by an authority, intended to influence and determine decisions, actions, and other matters."@en ;
                dcterms:issued "2008-01-14"^^xsd:date .
 
@@ -1606,8 +1643,8 @@ dcterms:RightsStatement rdfs:label "Rights Statement"@en ;
 dcterms:SizeOrDuration rdfs:label "Size or Duration"@en ;
                        dcterms:description "Examples include a number of pages, a specification of length, width, and breadth, or a period in hours, minutes, and seconds."@en ;
                        rdfs:comment "A dimension or extent, or a time taken to play or execute."@en ;
-                       dcterms:issued "2008-01-14"^^xsd:date ;
-                       rdfs:isDefinedBy dcterms: .
+                       rdfs:isDefinedBy dcterms: ;
+                       dcterms:issued "2008-01-14"^^xsd:date .
 
 
 dcterms:Standard rdfs:comment "A reference point against which other things can be evaluated or compared."@en ;
@@ -1679,15 +1716,15 @@ dcterms:audience dcterms:issued "2001-05-21"^^xsd:date ;
                  rdfs:label "Audience"@en ;
                  rdfs:isDefinedBy dcterms: ;
                  dcterms:description "Recommended practice is to use this property with non-literal values from a vocabulary of audience types."@en ;
-                 rdfs:comment "A class of agents for whom the resource is intended or useful."@en ;
-                 <http://purl.org/dc/dcam/rangeIncludes> dcterms:AgentClass .
+                 <http://purl.org/dc/dcam/rangeIncludes> dcterms:AgentClass ;
+                 rdfs:comment "A class of agents for whom the resource is intended or useful."@en .
 
 
 dcterms:available rdfs:isDefinedBy dcterms: ;
                   rdfs:label "Date Available"@en ;
                   rdfs:comment "Date that the resource became or will become available."@en ;
-                  dcterms:issued "2000-07-11"^^xsd:date ;
-                  dcterms:description "Recommended practice is to describe the date, date/time, or period of time as recommended for the property Date, of which this is a subproperty."@en .
+                  dcterms:description "Recommended practice is to describe the date, date/time, or period of time as recommended for the property Date, of which this is a subproperty."@en ;
+                  dcterms:issued "2000-07-11"^^xsd:date .
 
 
 dcterms:bibliographicCitation dcterms:description "Recommended practice is to include sufficient bibliographic detail to identify the resource as unambiguously as possible."@en ;
@@ -1725,8 +1762,8 @@ dcterms:coverage <http://purl.org/dc/dcam/rangeIncludes> dcterms:Period ;
 dcterms:created rdfs:isDefinedBy dcterms: ;
                 rdfs:comment "Date of creation of the resource."@en ;
                 rdfs:label "Date Created"@en ;
-                dcterms:issued "2000-07-11"^^xsd:date ;
-                dcterms:description "Recommended practice is to describe the date, date/time, or period of time as recommended for the property Date, of which this is a subproperty."@en .
+                dcterms:description "Recommended practice is to describe the date, date/time, or period of time as recommended for the property Date, of which this is a subproperty."@en ;
+                dcterms:issued "2000-07-11"^^xsd:date .
 
 
 dcterms:creator <http://purl.org/dc/dcam/rangeIncludes> dcterms:Agent ;
@@ -1739,15 +1776,15 @@ dcterms:creator <http://purl.org/dc/dcam/rangeIncludes> dcterms:Agent ;
 
 dcterms:date rdfs:isDefinedBy dcterms: ;
              rdfs:comment "A point or period of time associated with an event in the lifecycle of the resource."@en ;
-             dcterms:issued "2008-01-14"^^xsd:date ;
              rdfs:label "Date"@en ;
+             dcterms:issued "2008-01-14"^^xsd:date ;
              dcterms:description "Date may be used to express temporal information at any level of granularity.  Recommended practice is to express the date, date/time, or period of time according to ISO 8601-1 [[ISO 8601-1](https://www.iso.org/iso-8601-date-and-time-format.html)] or a published profile of the ISO standard, such as the W3C Note on Date and Time Formats [[W3CDTF](https://www.w3.org/TR/NOTE-datetime)] or the Extended Date/Time Format Specification [[EDTF](http://www.loc.gov/standards/datetime/)].  If the full date is unknown, month and year (YYYY-MM) or just year (YYYY) may be used. Date ranges may be specified using ISO 8601 period of time specification in which start and end dates are separated by a '/' (slash) character.  Either the start or end date may be missing."@en .
 
 
 dcterms:dateAccepted dcterms:description "Recommended practice is to describe the date, date/time, or period of time as recommended for the property Date, of which this is a subproperty.  Examples of resources to which a date of acceptance may be relevant are a thesis (accepted by a university department) or an article (accepted by a journal)."@en ;
                      dcterms:issued "2002-07-13"^^xsd:date ;
-                     rdfs:comment "Date of acceptance of the resource."@en ;
                      rdfs:label "Date Accepted"@en ;
+                     rdfs:comment "Date of acceptance of the resource."@en ;
                      rdfs:isDefinedBy dcterms: .
 
 
@@ -1775,8 +1812,8 @@ dcterms:description rdfs:label "Description"@en ;
 dcterms:educationLevel <http://purl.org/dc/dcam/rangeIncludes> dcterms:AgentClass ;
                        rdfs:comment "A class of agents, defined in terms of progression through an educational or training context, for which the described resource is intended."@en ;
                        rdfs:isDefinedBy dcterms: ;
-                       rdfs:label "Audience Education Level"@en ;
-                       dcterms:issued "2002-07-13"^^xsd:date .
+                       dcterms:issued "2002-07-13"^^xsd:date ;
+                       rdfs:label "Audience Education Level"@en .
 
 
 dcterms:extent dcterms:description "Recommended practice is to specify the file size in megabytes and duration in ISO 8601 format."@en ;
@@ -1788,9 +1825,9 @@ dcterms:extent dcterms:description "Recommended practice is to specify the file 
 
 
 dcterms:format dcterms:issued "2008-01-14"^^xsd:date ;
+               <http://purl.org/dc/dcam/rangeIncludes> dcterms:Extent ;
                rdfs:comment "The file format, physical medium, or dimensions of the resource."@en ;
-               <http://purl.org/dc/dcam/rangeIncludes> dcterms:Extent ,
-                                                       dcterms:MediaType ;
+               <http://purl.org/dc/dcam/rangeIncludes> dcterms:MediaType ;
                dcterms:description "Recommended practice is to use a controlled vocabulary where available. For example, for file formats one could use the list of Internet Media Types [[MIME](https://www.iana.org/assignments/media-types/media-types.xhtml)].  Examples of dimensions include size and duration."@en ;
                rdfs:isDefinedBy dcterms: ;
                rdfs:label "Format"@en .
@@ -1810,8 +1847,8 @@ dcterms:hasPart rdfs:isDefinedBy dcterms: ;
                 rdfs:comment "A related resource that is included either physically or logically in the described resource."@en .
 
 
-dcterms:hasVersion rdfs:isDefinedBy dcterms: ;
-                   rdfs:comment "A related resource that is a version, edition, or adaptation of the described resource."@en ;
+dcterms:hasVersion rdfs:comment "A related resource that is a version, edition, or adaptation of the described resource."@en ;
+                   rdfs:isDefinedBy dcterms: ;
                    rdfs:label "Has Version"@en ;
                    dcterms:description "Changes in version imply substantive changes in content rather than differences in format. This property is intended to be used with non-literal values. This property is an inverse property of Is Version Of."@en ;
                    dcterms:issued "2000-07-11"^^xsd:date .
@@ -1827,8 +1864,8 @@ dcterms:identifier dcterms:description "Recommended practice is to identify the 
 dcterms:isFormatOf rdfs:comment "A pre-existing related resource that is substantially the same as the described resource, but in another format."@en ;
                    dcterms:description "This property is intended to be used with non-literal values. This property is an inverse property of Has Format."@en ;
                    dcterms:issued "2000-07-11"^^xsd:date ;
-                   rdfs:isDefinedBy dcterms: ;
-                   rdfs:label "Is Format Of"@en .
+                   rdfs:label "Is Format Of"@en ;
+                   rdfs:isDefinedBy dcterms: .
 
 
 dcterms:isPartOf rdfs:label "Is Part Of"@en ;
@@ -1900,16 +1937,16 @@ dcterms:mediator dcterms:description "In an educational context, a mediator migh
 dcterms:medium rdfs:isDefinedBy dcterms: ;
                <http://purl.org/dc/dcam/rangeIncludes> dcterms:PhysicalMedium ;
                rdfs:label "Medium"@en ;
-               <http://purl.org/dc/dcam/domainIncludes> dcterms:PhysicalResource ;
                rdfs:comment "The material or physical carrier of the resource."@en ;
+               <http://purl.org/dc/dcam/domainIncludes> dcterms:PhysicalResource ;
                dcterms:issued "2000-07-11"^^xsd:date .
 
 
 dcterms:modified rdfs:isDefinedBy dcterms: ;
                  rdfs:label "Date Modified"@en ;
                  rdfs:comment "Date on which the resource was changed."@en ;
-                 dcterms:issued "2000-07-11"^^xsd:date ;
-                 dcterms:description "Recommended practice is to describe the date, date/time, or period of time as recommended for the property Date, of which this is a subproperty."@en .
+                 dcterms:description "Recommended practice is to describe the date, date/time, or period of time as recommended for the property Date, of which this is a subproperty."@en ;
+                 dcterms:issued "2000-07-11"^^xsd:date .
 
 
 dcterms:publisher dcterms:issued "2008-01-14"^^xsd:date ;
@@ -1947,18 +1984,18 @@ dcterms:requires dcterms:description "This property is intended to be used with 
                  dcterms:issued "2000-07-11"^^xsd:date .
 
 
-dcterms:rights dcterms:issued "2008-01-14"^^xsd:date ;
-               rdfs:isDefinedBy dcterms: ;
+dcterms:rights rdfs:isDefinedBy dcterms: ;
+               dcterms:issued "2008-01-14"^^xsd:date ;
                rdfs:label "Rights"@en ;
-               <http://purl.org/dc/dcam/rangeIncludes> dcterms:RightsStatement ;
                rdfs:comment "Information about rights held in and over the resource."@en ;
+               <http://purl.org/dc/dcam/rangeIncludes> dcterms:RightsStatement ;
                dcterms:description "Typically, rights information includes a statement about various property rights associated with the resource, including intellectual property rights.  Recommended practice is to refer to a rights statement with a URI.  If this is not possible or feasible, a literal value (name, label, or short text) may be provided."@en .
 
 
 dcterms:source rdfs:label "Source"@en ;
                dcterms:issued "2008-01-14"^^xsd:date ;
-               rdfs:isDefinedBy dcterms: ;
                dcterms:description "This property is intended to be used with non-literal values. The described resource may be derived from the related resource in whole or in part. Best practice is to identify the related resource by means of a URI or a string conforming to a formal identification system."@en ;
+               rdfs:isDefinedBy dcterms: ;
                rdfs:comment "A related resource from which the described resource is derived."@en .
 
 
@@ -1976,14 +2013,14 @@ dcterms:subject dcterms:issued "2008-01-14"^^xsd:date ;
                 rdfs:isDefinedBy dcterms: .
 
 
-dcterms:tableOfContents rdfs:comment "A list of subunits of the resource."@en ;
-                        dcterms:issued "2000-07-11"^^xsd:date ;
+dcterms:tableOfContents dcterms:issued "2000-07-11"^^xsd:date ;
+                        rdfs:comment "A list of subunits of the resource."@en ;
                         rdfs:isDefinedBy dcterms: ;
                         rdfs:label "Table Of Contents"@en .
 
 
-dcterms:temporal <http://purl.org/dc/dcam/rangeIncludes> dcterms:PeriodOfTime ;
-                 dcterms:issued "2000-07-11"^^xsd:date ;
+dcterms:temporal dcterms:issued "2000-07-11"^^xsd:date ;
+                 <http://purl.org/dc/dcam/rangeIncludes> dcterms:PeriodOfTime ;
                  rdfs:label "Temporal Coverage"@en ;
                  rdfs:comment "Temporal characteristics of the resource."@en ;
                  rdfs:isDefinedBy dcterms: .
@@ -2002,8 +2039,8 @@ dcterms:type rdfs:isDefinedBy dcterms: ;
              dcterms:issued "2008-01-14"^^xsd:date .
 
 
-dcterms:valid dcterms:description "Recommended practice is to describe the date, date/time, or period of time as recommended for the property Date, of which this is a subproperty."@en ;
-              rdfs:comment "Date (often a range) of validity of a resource."@en ;
+dcterms:valid rdfs:comment "Date (often a range) of validity of a resource."@en ;
+              dcterms:description "Recommended practice is to describe the date, date/time, or period of time as recommended for the property Date, of which this is a subproperty."@en ;
               dcterms:issued "2000-07-11"^^xsd:date ;
               rdfs:label "Date Valid"@en ;
               rdfs:isDefinedBy dcterms: .
