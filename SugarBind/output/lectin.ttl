@@ -10,6 +10,9 @@
 @prefix obo: <http://purl.obolibrary.org/obo/> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix gold: <http://rdf.glycoinfo.org/gold/id/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
 @base <http://purl.jp/bio/12/glyco/diseases#> .
 
 
@@ -21,3777 +24,3240 @@ id:LEC1 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/1> ;
-		<https://sugarbind.expasy.org/lectins/1> ;
 		rdfs:label "1"^^xsd:string .
 
 id:LEC2 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/2> ;
-		<https://sugarbind.expasy.org/lectins/2> ;
 		rdfs:label "2"^^xsd:string .
 
 id:LEC3 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/3> ;
-		<https://sugarbind.expasy.org/lectins/3> ;
 		rdfs:label "3"^^xsd:string .
 
 id:LEC4 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/4> ;
-		<https://sugarbind.expasy.org/lectins/4> ;
 		rdfs:label "4"^^xsd:string .
 
 id:LEC5 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/5> ;
-		<https://sugarbind.expasy.org/lectins/5> ;
 		rdfs:label "5"^^xsd:string .
 
 id:LEC6 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/6> ;
-		<https://sugarbind.expasy.org/lectins/6> ;
 		rdfs:label "6"^^xsd:string .
 
 id:LEC7 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/7> ;
-		<https://sugarbind.expasy.org/lectins/7> ;
 		rdfs:label "7"^^xsd:string .
 
 id:LEC8 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/8> ;
-		<https://sugarbind.expasy.org/lectins/8> ;
 		rdfs:label "8"^^xsd:string .
 
 id:LEC9 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/9> ;
-		<https://sugarbind.expasy.org/lectins/9> ;
 		rdfs:label "9"^^xsd:string .
 
 id:LEC10 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/10> ;
-		<https://sugarbind.expasy.org/lectins/10> ;
 		rdfs:label "10"^^xsd:string .
 
 id:LEC11 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/11> ;
-		<https://sugarbind.expasy.org/lectins/11> ;
 		rdfs:label "11"^^xsd:string .
 
 id:LEC12 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/12> ;
-		<https://sugarbind.expasy.org/lectins/12> ;
 		rdfs:label "12"^^xsd:string .
 
 id:LEC13 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/13> ;
-		<https://sugarbind.expasy.org/lectins/13> ;
 		rdfs:label "13"^^xsd:string .
 
 id:LEC14 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/14> ;
-		<https://sugarbind.expasy.org/lectins/14> ;
 		rdfs:label "14"^^xsd:string .
 
 id:LEC15 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/15> ;
-		<https://sugarbind.expasy.org/lectins/15> ;
 		rdfs:label "15"^^xsd:string .
 
 id:LEC16 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/16> ;
-		<https://sugarbind.expasy.org/lectins/16> ;
 		rdfs:label "16"^^xsd:string .
 
 id:LEC17 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/17> ;
-		<https://sugarbind.expasy.org/lectins/17> ;
 		rdfs:label "17"^^xsd:string .
 
 id:LEC18 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/18> ;
-		<https://sugarbind.expasy.org/lectins/18> ;
 		rdfs:label "18"^^xsd:string .
 
 id:LEC19 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/19> ;
-		<https://sugarbind.expasy.org/lectins/19> ;
 		rdfs:label "19"^^xsd:string .
 
 id:LEC20 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/20> ;
-		<https://sugarbind.expasy.org/lectins/20> ;
 		rdfs:label "20"^^xsd:string .
 
 id:LEC21 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/21> ;
-		<https://sugarbind.expasy.org/lectins/21> ;
 		rdfs:label "21"^^xsd:string .
 
 id:LEC22 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/22> ;
-		<https://sugarbind.expasy.org/lectins/22> ;
 		rdfs:label "22"^^xsd:string .
 
 id:LEC23 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/23> ;
-		<https://sugarbind.expasy.org/lectins/23> ;
 		rdfs:label "23"^^xsd:string .
 
 id:LEC24 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/24> ;
-		<https://sugarbind.expasy.org/lectins/24> ;
 		rdfs:label "24"^^xsd:string .
 
 id:LEC25 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/25> ;
-		<https://sugarbind.expasy.org/lectins/25> ;
 		rdfs:label "25"^^xsd:string .
 
 id:LEC26 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/26> ;
-		<https://sugarbind.expasy.org/lectins/26> ;
 		rdfs:label "26"^^xsd:string .
 
 id:LEC27 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/27> ;
-		<https://sugarbind.expasy.org/lectins/27> ;
 		rdfs:label "27"^^xsd:string .
 
 id:LEC28 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/28> ;
-		<https://sugarbind.expasy.org/lectins/28> ;
 		rdfs:label "28"^^xsd:string .
 
 id:LEC29 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/29> ;
-		<https://sugarbind.expasy.org/lectins/29> ;
 		rdfs:label "29"^^xsd:string .
 
 id:LEC30 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/30> ;
-		<https://sugarbind.expasy.org/lectins/30> ;
 		rdfs:label "30"^^xsd:string .
 
 id:LEC31 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/31> ;
-		<https://sugarbind.expasy.org/lectins/31> ;
 		rdfs:label "31"^^xsd:string .
 
 id:LEC32 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/32> ;
-		<https://sugarbind.expasy.org/lectins/32> ;
 		rdfs:label "32"^^xsd:string .
 
 id:LEC33 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/33> ;
-		<https://sugarbind.expasy.org/lectins/33> ;
 		rdfs:label "33"^^xsd:string .
 
 id:LEC34 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/34> ;
-		<https://sugarbind.expasy.org/lectins/34> ;
 		rdfs:label "34"^^xsd:string .
 
 id:LEC35 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/35> ;
-		<https://sugarbind.expasy.org/lectins/35> ;
 		rdfs:label "35"^^xsd:string .
 
 id:LEC36 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/36> ;
-		<https://sugarbind.expasy.org/lectins/36> ;
 		rdfs:label "36"^^xsd:string .
 
 id:LEC37 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/37> ;
-		<https://sugarbind.expasy.org/lectins/37> ;
 		rdfs:label "37"^^xsd:string .
 
 id:LEC38 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/38> ;
-		<https://sugarbind.expasy.org/lectins/38> ;
 		rdfs:label "38"^^xsd:string .
 
 id:LEC39 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/39> ;
-		<https://sugarbind.expasy.org/lectins/39> ;
 		rdfs:label "39"^^xsd:string .
 
 id:LEC40 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/40> ;
-		<https://sugarbind.expasy.org/lectins/40> ;
 		rdfs:label "40"^^xsd:string .
 
 id:LEC41 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/41> ;
-		<https://sugarbind.expasy.org/lectins/41> ;
 		rdfs:label "41"^^xsd:string .
 
 id:LEC42 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/42> ;
-		<https://sugarbind.expasy.org/lectins/42> ;
 		rdfs:label "42"^^xsd:string .
 
 id:LEC43 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/43> ;
-		<https://sugarbind.expasy.org/lectins/43> ;
 		rdfs:label "43"^^xsd:string .
 
 id:LEC44 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/44> ;
-		<https://sugarbind.expasy.org/lectins/44> ;
 		rdfs:label "44"^^xsd:string .
 
 id:LEC45 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/45> ;
-		<https://sugarbind.expasy.org/lectins/45> ;
 		rdfs:label "45"^^xsd:string .
 
 id:LEC46 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/46> ;
-		<https://sugarbind.expasy.org/lectins/46> ;
 		rdfs:label "46"^^xsd:string .
 
 id:LEC48 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/48> ;
-		<https://sugarbind.expasy.org/lectins/48> ;
 		rdfs:label "48"^^xsd:string .
 
 id:LEC51 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/51> ;
-		<https://sugarbind.expasy.org/lectins/51> ;
 		rdfs:label "51"^^xsd:string .
 
 id:LEC52 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/52> ;
-		<https://sugarbind.expasy.org/lectins/52> ;
 		rdfs:label "52"^^xsd:string .
 
 id:LEC53 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/53> ;
-		<https://sugarbind.expasy.org/lectins/53> ;
 		rdfs:label "53"^^xsd:string .
 
 id:LEC54 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/54> ;
-		<https://sugarbind.expasy.org/lectins/54> ;
 		rdfs:label "54"^^xsd:string .
 
 id:LEC55 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/55> ;
-		<https://sugarbind.expasy.org/lectins/55> ;
 		rdfs:label "55"^^xsd:string .
 
 id:LEC56 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/56> ;
-		<https://sugarbind.expasy.org/lectins/56> ;
 		rdfs:label "56"^^xsd:string .
 
 id:LEC57 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/57> ;
-		<https://sugarbind.expasy.org/lectins/57> ;
 		rdfs:label "57"^^xsd:string .
 
 id:LEC58 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/58> ;
-		<https://sugarbind.expasy.org/lectins/58> ;
 		rdfs:label "58"^^xsd:string .
 
 id:LEC59 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/59> ;
-		<https://sugarbind.expasy.org/lectins/59> ;
 		rdfs:label "59"^^xsd:string .
 
 id:LEC61 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/61> ;
-		<https://sugarbind.expasy.org/lectins/61> ;
 		rdfs:label "61"^^xsd:string .
 
 id:LEC62 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/62> ;
-		<https://sugarbind.expasy.org/lectins/62> ;
 		rdfs:label "62"^^xsd:string .
 
 id:LEC63 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/63> ;
-		<https://sugarbind.expasy.org/lectins/63> ;
 		rdfs:label "63"^^xsd:string .
 
 id:LEC64 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/64> ;
-		<https://sugarbind.expasy.org/lectins/64> ;
 		rdfs:label "64"^^xsd:string .
 
 id:LEC65 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/65> ;
-		<https://sugarbind.expasy.org/lectins/65> ;
 		rdfs:label "65"^^xsd:string .
 
 id:LEC66 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/66> ;
-		<https://sugarbind.expasy.org/lectins/66> ;
 		rdfs:label "66"^^xsd:string .
 
 id:LEC67 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/67> ;
-		<https://sugarbind.expasy.org/lectins/67> ;
 		rdfs:label "67"^^xsd:string .
 
 id:LEC69 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/69> ;
-		<https://sugarbind.expasy.org/lectins/69> ;
 		rdfs:label "69"^^xsd:string .
 
 id:LEC70 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/70> ;
-		<https://sugarbind.expasy.org/lectins/70> ;
 		rdfs:label "70"^^xsd:string .
 
 id:LEC71 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/71> ;
-		<https://sugarbind.expasy.org/lectins/71> ;
 		rdfs:label "71"^^xsd:string .
 
 id:LEC72 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/72> ;
-		<https://sugarbind.expasy.org/lectins/72> ;
 		rdfs:label "72"^^xsd:string .
 
 id:LEC73 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/73> ;
-		<https://sugarbind.expasy.org/lectins/73> ;
 		rdfs:label "73"^^xsd:string .
 
 id:LEC74 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/74> ;
-		<https://sugarbind.expasy.org/lectins/74> ;
 		rdfs:label "74"^^xsd:string .
 
 id:LEC75 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/75> ;
-		<https://sugarbind.expasy.org/lectins/75> ;
 		rdfs:label "75"^^xsd:string .
 
 id:LEC76 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/76> ;
-		<https://sugarbind.expasy.org/lectins/76> ;
 		rdfs:label "76"^^xsd:string .
 
 id:LEC77 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/77> ;
-		<https://sugarbind.expasy.org/lectins/77> ;
 		rdfs:label "77"^^xsd:string .
 
 id:LEC78 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/78> ;
-		<https://sugarbind.expasy.org/lectins/78> ;
 		rdfs:label "78"^^xsd:string .
 
 id:LEC79 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/79> ;
-		<https://sugarbind.expasy.org/lectins/79> ;
 		rdfs:label "79"^^xsd:string .
 
 id:LEC80 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/80> ;
-		<https://sugarbind.expasy.org/lectins/80> ;
 		rdfs:label "80"^^xsd:string .
 
 id:LEC81 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/81> ;
-		<https://sugarbind.expasy.org/lectins/81> ;
 		rdfs:label "81"^^xsd:string .
 
 id:LEC82 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/82> ;
-		<https://sugarbind.expasy.org/lectins/82> ;
 		rdfs:label "82"^^xsd:string .
 
 id:LEC83 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/83> ;
-		<https://sugarbind.expasy.org/lectins/83> ;
 		rdfs:label "83"^^xsd:string .
 
 id:LEC84 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/84> ;
-		<https://sugarbind.expasy.org/lectins/84> ;
 		rdfs:label "84"^^xsd:string .
 
 id:LEC85 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/85> ;
-		<https://sugarbind.expasy.org/lectins/85> ;
 		rdfs:label "85"^^xsd:string .
 
 id:LEC86 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/86> ;
-		<https://sugarbind.expasy.org/lectins/86> ;
 		rdfs:label "86"^^xsd:string .
 
 id:LEC87 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/87> ;
-		<https://sugarbind.expasy.org/lectins/87> ;
 		rdfs:label "87"^^xsd:string .
 
 id:LEC88 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/88> ;
-		<https://sugarbind.expasy.org/lectins/88> ;
 		rdfs:label "88"^^xsd:string .
 
 id:LEC89 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/89> ;
-		<https://sugarbind.expasy.org/lectins/89> ;
 		rdfs:label "89"^^xsd:string .
 
 id:LEC90 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/90> ;
-		<https://sugarbind.expasy.org/lectins/90> ;
 		rdfs:label "90"^^xsd:string .
 
 id:LEC91 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/91> ;
-		<https://sugarbind.expasy.org/lectins/91> ;
 		rdfs:label "91"^^xsd:string .
 
 id:LEC92 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/92> ;
-		dctermes:references <https://sugarbind.expasy.org/lectins/92> ;
+		dcterms:references <https://sugarbind.expasy.org/lectins/92> ;
 		:uniprotId <http://purl.uniprot.org/uniprot/P10845> ;
-		rdfs:seeAlso <http://purl.uniprot.org/uniprot/P10845>
+		rdfs:seeAlso <http://purl.uniprot.org/uniprot/P10845> ;
 		rdfs:label "92"^^xsd:string .
 
 id:LEC93 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/93> ;
-		<https://sugarbind.expasy.org/lectins/93> ;
 		rdfs:label "93"^^xsd:string .
 
 id:LEC101 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/101> ;
-		dctermes:references <https://sugarbind.expasy.org/lectins/101> ;
+		dcterms:references <https://sugarbind.expasy.org/lectins/101> ;
 		:uniprotId <http://purl.uniprot.org/uniprot/P30996> ;
-		rdfs:seeAlso <http://purl.uniprot.org/uniprot/P30996>
+		rdfs:seeAlso <http://purl.uniprot.org/uniprot/P30996> ;
 		rdfs:label "101"^^xsd:string .
 
 id:LEC102 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/102> ;
-		<https://sugarbind.expasy.org/lectins/102> ;
 		rdfs:label "102"^^xsd:string .
 
 id:LEC103 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/103> ;
-		<https://sugarbind.expasy.org/lectins/103> ;
 		rdfs:label "103"^^xsd:string .
 
 id:LEC106 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/106> ;
-		<https://sugarbind.expasy.org/lectins/106> ;
 		rdfs:label "106"^^xsd:string .
 
 id:LEC107 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/107> ;
-		<https://sugarbind.expasy.org/lectins/107> ;
 		rdfs:label "107"^^xsd:string .
 
 id:LEC110 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/110> ;
-		<https://sugarbind.expasy.org/lectins/110> ;
 		rdfs:label "110"^^xsd:string .
 
 id:LEC111 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/111> ;
-		<https://sugarbind.expasy.org/lectins/111> ;
 		rdfs:label "111"^^xsd:string .
 
 id:LEC112 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/112> ;
-		<https://sugarbind.expasy.org/lectins/112> ;
 		rdfs:label "112"^^xsd:string .
 
 id:LEC113 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/113> ;
-		<https://sugarbind.expasy.org/lectins/113> ;
 		rdfs:label "113"^^xsd:string .
 
 id:LEC114 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/114> ;
-		<https://sugarbind.expasy.org/lectins/114> ;
 		rdfs:label "114"^^xsd:string .
 
 id:LEC115 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/115> ;
-		<https://sugarbind.expasy.org/lectins/115> ;
 		rdfs:label "115"^^xsd:string .
 
 id:LEC117 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/117> ;
-		<https://sugarbind.expasy.org/lectins/117> ;
 		rdfs:label "117"^^xsd:string .
 
 id:LEC118 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/118> ;
-		<https://sugarbind.expasy.org/lectins/118> ;
 		rdfs:label "118"^^xsd:string .
 
 id:LEC119 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/119> ;
-		<https://sugarbind.expasy.org/lectins/119> ;
 		rdfs:label "119"^^xsd:string .
 
 id:LEC120 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/120> ;
-		<https://sugarbind.expasy.org/lectins/120> ;
 		rdfs:label "120"^^xsd:string .
 
 id:LEC121 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/121> ;
-		<https://sugarbind.expasy.org/lectins/121> ;
 		rdfs:label "121"^^xsd:string .
 
 id:LEC125 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/125> ;
-		<https://sugarbind.expasy.org/lectins/125> ;
 		rdfs:label "125"^^xsd:string .
 
 id:LEC127 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/127> ;
-		<https://sugarbind.expasy.org/lectins/127> ;
 		rdfs:label "127"^^xsd:string .
 
 id:LEC128 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/128> ;
-		<https://sugarbind.expasy.org/lectins/128> ;
 		rdfs:label "128"^^xsd:string .
 
 id:LEC129 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/129> ;
-		<https://sugarbind.expasy.org/lectins/129> ;
 		rdfs:label "129"^^xsd:string .
 
 id:LEC130 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/130> ;
-		<https://sugarbind.expasy.org/lectins/130> ;
 		rdfs:label "130"^^xsd:string .
 
 id:LEC131 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/131> ;
-		<https://sugarbind.expasy.org/lectins/131> ;
 		rdfs:label "131"^^xsd:string .
 
 id:LEC132 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/132> ;
-		<https://sugarbind.expasy.org/lectins/132> ;
 		rdfs:label "132"^^xsd:string .
 
 id:LEC133 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/133> ;
-		<https://sugarbind.expasy.org/lectins/133> ;
 		rdfs:label "133"^^xsd:string .
 
 id:LEC134 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/134> ;
-		<https://sugarbind.expasy.org/lectins/134> ;
 		rdfs:label "134"^^xsd:string .
 
 id:LEC135 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/135> ;
-		<https://sugarbind.expasy.org/lectins/135> ;
 		rdfs:label "135"^^xsd:string .
 
 id:LEC136 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/136> ;
-		<https://sugarbind.expasy.org/lectins/136> ;
 		rdfs:label "136"^^xsd:string .
 
 id:LEC137 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/137> ;
-		<https://sugarbind.expasy.org/lectins/137> ;
 		rdfs:label "137"^^xsd:string .
 
 id:LEC138 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/138> ;
-		<https://sugarbind.expasy.org/lectins/138> ;
 		rdfs:label "138"^^xsd:string .
 
 id:LEC139 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/139> ;
-		<https://sugarbind.expasy.org/lectins/139> ;
 		rdfs:label "139"^^xsd:string .
 
 id:LEC140 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/140> ;
-		<https://sugarbind.expasy.org/lectins/140> ;
 		rdfs:label "140"^^xsd:string .
 
 id:LEC149 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/149> ;
-		<https://sugarbind.expasy.org/lectins/149> ;
 		rdfs:label "149"^^xsd:string .
 
 id:LEC151 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/151> ;
-		<https://sugarbind.expasy.org/lectins/151> ;
 		rdfs:label "151"^^xsd:string .
 
 id:LEC152 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/152> ;
-		<https://sugarbind.expasy.org/lectins/152> ;
 		rdfs:label "152"^^xsd:string .
 
 id:LEC153 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/153> ;
-		<https://sugarbind.expasy.org/lectins/153> ;
 		rdfs:label "153"^^xsd:string .
 
 id:LEC154 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/154> ;
-		<https://sugarbind.expasy.org/lectins/154> ;
 		rdfs:label "154"^^xsd:string .
 
 id:LEC155 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/155> ;
-		<https://sugarbind.expasy.org/lectins/155> ;
 		rdfs:label "155"^^xsd:string .
 
 id:LEC156 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/156> ;
-		<https://sugarbind.expasy.org/lectins/156> ;
 		rdfs:label "156"^^xsd:string .
 
 id:LEC157 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/157> ;
-		<https://sugarbind.expasy.org/lectins/157> ;
 		rdfs:label "157"^^xsd:string .
 
 id:LEC158 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/158> ;
-		<https://sugarbind.expasy.org/lectins/158> ;
 		rdfs:label "158"^^xsd:string .
 
 id:LEC159 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/159> ;
-		<https://sugarbind.expasy.org/lectins/159> ;
 		rdfs:label "159"^^xsd:string .
 
 id:LEC160 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/160> ;
-		<https://sugarbind.expasy.org/lectins/160> ;
 		rdfs:label "160"^^xsd:string .
 
 id:LEC161 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/161> ;
-		<https://sugarbind.expasy.org/lectins/161> ;
 		rdfs:label "161"^^xsd:string .
 
 id:LEC162 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/162> ;
-		<https://sugarbind.expasy.org/lectins/162> ;
 		rdfs:label "162"^^xsd:string .
 
 id:LEC163 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/163> ;
-		<https://sugarbind.expasy.org/lectins/163> ;
 		rdfs:label "163"^^xsd:string .
 
 id:LEC164 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/164> ;
-		<https://sugarbind.expasy.org/lectins/164> ;
 		rdfs:label "164"^^xsd:string .
 
 id:LEC165 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/165> ;
-		<https://sugarbind.expasy.org/lectins/165> ;
 		rdfs:label "165"^^xsd:string .
 
 id:LEC166 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/166> ;
-		<https://sugarbind.expasy.org/lectins/166> ;
 		rdfs:label "166"^^xsd:string .
 
 id:LEC167 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/167> ;
-		<https://sugarbind.expasy.org/lectins/167> ;
 		rdfs:label "167"^^xsd:string .
 
 id:LEC168 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/168> ;
-		<https://sugarbind.expasy.org/lectins/168> ;
 		rdfs:label "168"^^xsd:string .
 
 id:LEC169 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/169> ;
-		<https://sugarbind.expasy.org/lectins/169> ;
 		rdfs:label "169"^^xsd:string .
 
 id:LEC170 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/170> ;
-		<https://sugarbind.expasy.org/lectins/170> ;
 		rdfs:label "170"^^xsd:string .
 
 id:LEC171 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/171> ;
-		<https://sugarbind.expasy.org/lectins/171> ;
 		rdfs:label "171"^^xsd:string .
 
 id:LEC173 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/173> ;
-		<https://sugarbind.expasy.org/lectins/173> ;
 		rdfs:label "173"^^xsd:string .
 
 id:LEC174 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/174> ;
-		<https://sugarbind.expasy.org/lectins/174> ;
 		rdfs:label "174"^^xsd:string .
 
 id:LEC175 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/175> ;
-		<https://sugarbind.expasy.org/lectins/175> ;
 		rdfs:label "175"^^xsd:string .
 
 id:LEC176 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/176> ;
-		<https://sugarbind.expasy.org/lectins/176> ;
 		rdfs:label "176"^^xsd:string .
 
 id:LEC177 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/177> ;
-		<https://sugarbind.expasy.org/lectins/177> ;
 		rdfs:label "177"^^xsd:string .
 
 id:LEC180 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/180> ;
-		<https://sugarbind.expasy.org/lectins/180> ;
 		rdfs:label "180"^^xsd:string .
 
 id:LEC181 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/181> ;
-		<https://sugarbind.expasy.org/lectins/181> ;
 		rdfs:label "181"^^xsd:string .
 
 id:LEC182 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/182> ;
-		<https://sugarbind.expasy.org/lectins/182> ;
 		rdfs:label "182"^^xsd:string .
 
 id:LEC188 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/188> ;
-		<https://sugarbind.expasy.org/lectins/188> ;
 		rdfs:label "188"^^xsd:string .
 
 id:LEC190 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/190> ;
-		<https://sugarbind.expasy.org/lectins/190> ;
 		rdfs:label "190"^^xsd:string .
 
 id:LEC191 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/191> ;
-		<https://sugarbind.expasy.org/lectins/191> ;
 		rdfs:label "191"^^xsd:string .
 
 id:LEC192 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/192> ;
-		<https://sugarbind.expasy.org/lectins/192> ;
 		rdfs:label "192"^^xsd:string .
 
 id:LEC193 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/193> ;
-		<https://sugarbind.expasy.org/lectins/193> ;
 		rdfs:label "193"^^xsd:string .
 
 id:LEC194 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/194> ;
-		<https://sugarbind.expasy.org/lectins/194> ;
 		rdfs:label "194"^^xsd:string .
 
 id:LEC200 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/200> ;
-		<https://sugarbind.expasy.org/lectins/200> ;
 		rdfs:label "200"^^xsd:string .
 
 id:LEC201 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/201> ;
-		<https://sugarbind.expasy.org/lectins/201> ;
 		rdfs:label "201"^^xsd:string .
 
 id:LEC202 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/202> ;
-		<https://sugarbind.expasy.org/lectins/202> ;
 		rdfs:label "202"^^xsd:string .
 
 id:LEC203 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/203> ;
-		<https://sugarbind.expasy.org/lectins/203> ;
 		rdfs:label "203"^^xsd:string .
 
 id:LEC204 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/204> ;
-		<https://sugarbind.expasy.org/lectins/204> ;
 		rdfs:label "204"^^xsd:string .
 
 id:LEC205 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/205> ;
-		<https://sugarbind.expasy.org/lectins/205> ;
 		rdfs:label "205"^^xsd:string .
 
 id:LEC206 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/206> ;
-		<https://sugarbind.expasy.org/lectins/206> ;
 		rdfs:label "206"^^xsd:string .
 
 id:LEC207 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/207> ;
-		<https://sugarbind.expasy.org/lectins/207> ;
 		rdfs:label "207"^^xsd:string .
 
 id:LEC208 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/208> ;
-		<https://sugarbind.expasy.org/lectins/208> ;
 		rdfs:label "208"^^xsd:string .
 
 id:LEC209 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/209> ;
-		<https://sugarbind.expasy.org/lectins/209> ;
 		rdfs:label "209"^^xsd:string .
 
 id:LEC210 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/210> ;
-		<https://sugarbind.expasy.org/lectins/210> ;
 		rdfs:label "210"^^xsd:string .
 
 id:LEC211 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/211> ;
-		<https://sugarbind.expasy.org/lectins/211> ;
 		rdfs:label "211"^^xsd:string .
 
 id:LEC212 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/212> ;
-		<https://sugarbind.expasy.org/lectins/212> ;
 		rdfs:label "212"^^xsd:string .
 
 id:LEC213 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/213> ;
-		<https://sugarbind.expasy.org/lectins/213> ;
 		rdfs:label "213"^^xsd:string .
 
 id:LEC214 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/214> ;
-		<https://sugarbind.expasy.org/lectins/214> ;
 		rdfs:label "214"^^xsd:string .
 
 id:LEC215 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/215> ;
-		<https://sugarbind.expasy.org/lectins/215> ;
 		rdfs:label "215"^^xsd:string .
 
 id:LEC216 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/216> ;
-		<https://sugarbind.expasy.org/lectins/216> ;
 		rdfs:label "216"^^xsd:string .
 
 id:LEC221 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/221> ;
-		<https://sugarbind.expasy.org/lectins/221> ;
 		rdfs:label "221"^^xsd:string .
 
 id:LEC224 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/224> ;
-		<https://sugarbind.expasy.org/lectins/224> ;
 		rdfs:label "224"^^xsd:string .
 
 id:LEC226 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/226> ;
-		<https://sugarbind.expasy.org/lectins/226> ;
 		rdfs:label "226"^^xsd:string .
 
 id:LEC227 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/227> ;
-		<https://sugarbind.expasy.org/lectins/227> ;
 		rdfs:label "227"^^xsd:string .
 
 id:LEC228 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/228> ;
-		<https://sugarbind.expasy.org/lectins/228> ;
 		rdfs:label "228"^^xsd:string .
 
 id:LEC229 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/229> ;
-		<https://sugarbind.expasy.org/lectins/229> ;
 		rdfs:label "229"^^xsd:string .
 
 id:LEC230 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/230> ;
-		<https://sugarbind.expasy.org/lectins/230> ;
 		rdfs:label "230"^^xsd:string .
 
 id:LEC231 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/231> ;
-		<https://sugarbind.expasy.org/lectins/231> ;
 		rdfs:label "231"^^xsd:string .
 
 id:LEC232 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/232> ;
-		<https://sugarbind.expasy.org/lectins/232> ;
 		rdfs:label "232"^^xsd:string .
 
 id:LEC233 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/233> ;
-		<https://sugarbind.expasy.org/lectins/233> ;
 		rdfs:label "233"^^xsd:string .
 
 id:LEC234 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/234> ;
-		<https://sugarbind.expasy.org/lectins/234> ;
 		rdfs:label "234"^^xsd:string .
 
 id:LEC239 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/239> ;
-		<https://sugarbind.expasy.org/lectins/239> ;
 		rdfs:label "239"^^xsd:string .
 
 id:LEC240 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/240> ;
-		<https://sugarbind.expasy.org/lectins/240> ;
 		rdfs:label "240"^^xsd:string .
 
 id:LEC241 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/241> ;
-		<https://sugarbind.expasy.org/lectins/241> ;
 		rdfs:label "241"^^xsd:string .
 
 id:LEC242 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/242> ;
-		<https://sugarbind.expasy.org/lectins/242> ;
 		rdfs:label "242"^^xsd:string .
 
 id:LEC243 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/243> ;
-		<https://sugarbind.expasy.org/lectins/243> ;
 		rdfs:label "243"^^xsd:string .
 
 id:LEC244 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/244> ;
-		<https://sugarbind.expasy.org/lectins/244> ;
 		rdfs:label "244"^^xsd:string .
 
 id:LEC245 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/245> ;
-		<https://sugarbind.expasy.org/lectins/245> ;
 		rdfs:label "245"^^xsd:string .
 
 id:LEC246 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/246> ;
-		<https://sugarbind.expasy.org/lectins/246> ;
 		rdfs:label "246"^^xsd:string .
 
 id:LEC247 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/247> ;
-		<https://sugarbind.expasy.org/lectins/247> ;
 		rdfs:label "247"^^xsd:string .
 
 id:LEC248 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/248> ;
-		<https://sugarbind.expasy.org/lectins/248> ;
 		rdfs:label "248"^^xsd:string .
 
 id:LEC249 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/249> ;
-		<https://sugarbind.expasy.org/lectins/249> ;
 		rdfs:label "249"^^xsd:string .
 
 id:LEC250 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/250> ;
-		<https://sugarbind.expasy.org/lectins/250> ;
 		rdfs:label "250"^^xsd:string .
 
 id:LEC251 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/251> ;
-		<https://sugarbind.expasy.org/lectins/251> ;
 		rdfs:label "251"^^xsd:string .
 
 id:LEC252 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/252> ;
-		<https://sugarbind.expasy.org/lectins/252> ;
 		rdfs:label "252"^^xsd:string .
 
 id:LEC253 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/253> ;
-		<https://sugarbind.expasy.org/lectins/253> ;
 		rdfs:label "253"^^xsd:string .
 
 id:LEC254 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/254> ;
-		<https://sugarbind.expasy.org/lectins/254> ;
 		rdfs:label "254"^^xsd:string .
 
 id:LEC255 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/255> ;
-		<https://sugarbind.expasy.org/lectins/255> ;
 		rdfs:label "255"^^xsd:string .
 
 id:LEC256 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/256> ;
-		<https://sugarbind.expasy.org/lectins/256> ;
 		rdfs:label "256"^^xsd:string .
 
 id:LEC257 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/257> ;
-		<https://sugarbind.expasy.org/lectins/257> ;
 		rdfs:label "257"^^xsd:string .
 
 id:LEC258 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/258> ;
-		<https://sugarbind.expasy.org/lectins/258> ;
 		rdfs:label "258"^^xsd:string .
 
 id:LEC259 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/259> ;
-		<https://sugarbind.expasy.org/lectins/259> ;
 		rdfs:label "259"^^xsd:string .
 
 id:LEC260 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/260> ;
-		<https://sugarbind.expasy.org/lectins/260> ;
 		rdfs:label "260"^^xsd:string .
 
 id:LEC261 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/261> ;
-		<https://sugarbind.expasy.org/lectins/261> ;
 		rdfs:label "261"^^xsd:string .
 
 id:LEC262 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/262> ;
-		<https://sugarbind.expasy.org/lectins/262> ;
 		rdfs:label "262"^^xsd:string .
 
 id:LEC263 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/263> ;
-		<https://sugarbind.expasy.org/lectins/263> ;
 		rdfs:label "263"^^xsd:string .
 
 id:LEC264 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/264> ;
-		<https://sugarbind.expasy.org/lectins/264> ;
 		rdfs:label "264"^^xsd:string .
 
 id:LEC265 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/265> ;
-		<https://sugarbind.expasy.org/lectins/265> ;
 		rdfs:label "265"^^xsd:string .
 
 id:LEC266 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/266> ;
-		<https://sugarbind.expasy.org/lectins/266> ;
 		rdfs:label "266"^^xsd:string .
 
 id:LEC267 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/267> ;
-		<https://sugarbind.expasy.org/lectins/267> ;
 		rdfs:label "267"^^xsd:string .
 
 id:LEC268 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/268> ;
-		<https://sugarbind.expasy.org/lectins/268> ;
 		rdfs:label "268"^^xsd:string .
 
 id:LEC269 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/269> ;
-		<https://sugarbind.expasy.org/lectins/269> ;
 		rdfs:label "269"^^xsd:string .
 
 id:LEC270 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/270> ;
-		<https://sugarbind.expasy.org/lectins/270> ;
 		rdfs:label "270"^^xsd:string .
 
 id:LEC271 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/271> ;
-		<https://sugarbind.expasy.org/lectins/271> ;
 		rdfs:label "271"^^xsd:string .
 
 id:LEC272 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/272> ;
-		<https://sugarbind.expasy.org/lectins/272> ;
 		rdfs:label "272"^^xsd:string .
 
 id:LEC273 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/273> ;
-		<https://sugarbind.expasy.org/lectins/273> ;
 		rdfs:label "273"^^xsd:string .
 
 id:LEC274 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/274> ;
-		<https://sugarbind.expasy.org/lectins/274> ;
 		rdfs:label "274"^^xsd:string .
 
 id:LEC275 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/275> ;
-		<https://sugarbind.expasy.org/lectins/275> ;
 		rdfs:label "275"^^xsd:string .
 
 id:LEC276 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/276> ;
-		<https://sugarbind.expasy.org/lectins/276> ;
 		rdfs:label "276"^^xsd:string .
 
 id:LEC277 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/277> ;
-		<https://sugarbind.expasy.org/lectins/277> ;
 		rdfs:label "277"^^xsd:string .
 
 id:LEC278 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/278> ;
-		<https://sugarbind.expasy.org/lectins/278> ;
 		rdfs:label "278"^^xsd:string .
 
 id:LEC279 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/279> ;
-		<https://sugarbind.expasy.org/lectins/279> ;
 		rdfs:label "279"^^xsd:string .
 
 id:LEC280 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/280> ;
-		<https://sugarbind.expasy.org/lectins/280> ;
 		rdfs:label "280"^^xsd:string .
 
 id:LEC281 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/281> ;
-		<https://sugarbind.expasy.org/lectins/281> ;
 		rdfs:label "281"^^xsd:string .
 
 id:LEC282 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/282> ;
-		<https://sugarbind.expasy.org/lectins/282> ;
 		rdfs:label "282"^^xsd:string .
 
 id:LEC283 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/283> ;
-		<https://sugarbind.expasy.org/lectins/283> ;
 		rdfs:label "283"^^xsd:string .
 
 id:LEC284 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/284> ;
-		<https://sugarbind.expasy.org/lectins/284> ;
 		rdfs:label "284"^^xsd:string .
 
 id:LEC285 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/285> ;
-		<https://sugarbind.expasy.org/lectins/285> ;
 		rdfs:label "285"^^xsd:string .
 
 id:LEC286 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/286> ;
-		<https://sugarbind.expasy.org/lectins/286> ;
 		rdfs:label "286"^^xsd:string .
 
 id:LEC288 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/288> ;
-		<https://sugarbind.expasy.org/lectins/288> ;
 		rdfs:label "288"^^xsd:string .
 
 id:LEC289 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/289> ;
-		<https://sugarbind.expasy.org/lectins/289> ;
 		rdfs:label "289"^^xsd:string .
 
 id:LEC290 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/290> ;
-		<https://sugarbind.expasy.org/lectins/290> ;
 		rdfs:label "290"^^xsd:string .
 
 id:LEC291 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/291> ;
-		<https://sugarbind.expasy.org/lectins/291> ;
 		rdfs:label "291"^^xsd:string .
 
 id:LEC292 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/292> ;
-		<https://sugarbind.expasy.org/lectins/292> ;
 		rdfs:label "292"^^xsd:string .
 
 id:LEC293 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/293> ;
-		<https://sugarbind.expasy.org/lectins/293> ;
 		rdfs:label "293"^^xsd:string .
 
 id:LEC294 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/294> ;
-		<https://sugarbind.expasy.org/lectins/294> ;
 		rdfs:label "294"^^xsd:string .
 
 id:LEC295 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/295> ;
-		<https://sugarbind.expasy.org/lectins/295> ;
 		rdfs:label "295"^^xsd:string .
 
 id:LEC296 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/296> ;
-		<https://sugarbind.expasy.org/lectins/296> ;
 		rdfs:label "296"^^xsd:string .
 
 id:LEC297 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/297> ;
-		<https://sugarbind.expasy.org/lectins/297> ;
 		rdfs:label "297"^^xsd:string .
 
 id:LEC298 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/298> ;
-		<https://sugarbind.expasy.org/lectins/298> ;
 		rdfs:label "298"^^xsd:string .
 
 id:LEC299 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/299> ;
-		<https://sugarbind.expasy.org/lectins/299> ;
 		rdfs:label "299"^^xsd:string .
 
 id:LEC300 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/300> ;
-		<https://sugarbind.expasy.org/lectins/300> ;
 		rdfs:label "300"^^xsd:string .
 
 id:LEC301 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/301> ;
-		<https://sugarbind.expasy.org/lectins/301> ;
 		rdfs:label "301"^^xsd:string .
 
 id:LEC302 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/302> ;
-		<https://sugarbind.expasy.org/lectins/302> ;
 		rdfs:label "302"^^xsd:string .
 
 id:LEC303 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/303> ;
-		<https://sugarbind.expasy.org/lectins/303> ;
 		rdfs:label "303"^^xsd:string .
 
 id:LEC304 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/304> ;
-		<https://sugarbind.expasy.org/lectins/304> ;
 		rdfs:label "304"^^xsd:string .
 
 id:LEC305 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/305> ;
-		<https://sugarbind.expasy.org/lectins/305> ;
 		rdfs:label "305"^^xsd:string .
 
 id:LEC306 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/306> ;
-		<https://sugarbind.expasy.org/lectins/306> ;
 		rdfs:label "306"^^xsd:string .
 
 id:LEC307 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/307> ;
-		<https://sugarbind.expasy.org/lectins/307> ;
 		rdfs:label "307"^^xsd:string .
 
 id:LEC308 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/308> ;
-		<https://sugarbind.expasy.org/lectins/308> ;
 		rdfs:label "308"^^xsd:string .
 
 id:LEC309 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/309> ;
-		<https://sugarbind.expasy.org/lectins/309> ;
 		rdfs:label "309"^^xsd:string .
 
 id:LEC310 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/310> ;
-		<https://sugarbind.expasy.org/lectins/310> ;
 		rdfs:label "310"^^xsd:string .
 
 id:LEC311 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/311> ;
-		<https://sugarbind.expasy.org/lectins/311> ;
 		rdfs:label "311"^^xsd:string .
 
 id:LEC312 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/312> ;
-		<https://sugarbind.expasy.org/lectins/312> ;
 		rdfs:label "312"^^xsd:string .
 
 id:LEC313 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/313> ;
-		<https://sugarbind.expasy.org/lectins/313> ;
 		rdfs:label "313"^^xsd:string .
 
 id:LEC314 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/314> ;
-		<https://sugarbind.expasy.org/lectins/314> ;
 		rdfs:label "314"^^xsd:string .
 
 id:LEC315 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/315> ;
-		<https://sugarbind.expasy.org/lectins/315> ;
 		rdfs:label "315"^^xsd:string .
 
 id:LEC316 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/316> ;
-		<https://sugarbind.expasy.org/lectins/316> ;
 		rdfs:label "316"^^xsd:string .
 
 id:LEC317 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/317> ;
-		<https://sugarbind.expasy.org/lectins/317> ;
 		rdfs:label "317"^^xsd:string .
 
 id:LEC319 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/319> ;
-		<https://sugarbind.expasy.org/lectins/319> ;
 		rdfs:label "319"^^xsd:string .
 
 id:LEC320 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/320> ;
-		<https://sugarbind.expasy.org/lectins/320> ;
 		rdfs:label "320"^^xsd:string .
 
 id:LEC321 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/321> ;
-		<https://sugarbind.expasy.org/lectins/321> ;
 		rdfs:label "321"^^xsd:string .
 
 id:LEC322 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/322> ;
-		<https://sugarbind.expasy.org/lectins/322> ;
 		rdfs:label "322"^^xsd:string .
 
 id:LEC324 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/324> ;
-		<https://sugarbind.expasy.org/lectins/324> ;
 		rdfs:label "324"^^xsd:string .
 
 id:LEC325 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/325> ;
-		<https://sugarbind.expasy.org/lectins/325> ;
 		rdfs:label "325"^^xsd:string .
 
 id:LEC326 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/326> ;
-		<https://sugarbind.expasy.org/lectins/326> ;
 		rdfs:label "326"^^xsd:string .
 
 id:LEC327 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/327> ;
-		<https://sugarbind.expasy.org/lectins/327> ;
 		rdfs:label "327"^^xsd:string .
 
 id:LEC328 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/328> ;
-		<https://sugarbind.expasy.org/lectins/328> ;
 		rdfs:label "328"^^xsd:string .
 
 id:LEC329 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/329> ;
-		<https://sugarbind.expasy.org/lectins/329> ;
 		rdfs:label "329"^^xsd:string .
 
 id:LEC333 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/333> ;
-		<https://sugarbind.expasy.org/lectins/333> ;
 		rdfs:label "333"^^xsd:string .
 
 id:LEC334 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/334> ;
-		<https://sugarbind.expasy.org/lectins/334> ;
 		rdfs:label "334"^^xsd:string .
 
 id:LEC335 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/335> ;
-		<https://sugarbind.expasy.org/lectins/335> ;
 		rdfs:label "335"^^xsd:string .
 
 id:LEC338 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/338> ;
-		<https://sugarbind.expasy.org/lectins/338> ;
 		rdfs:label "338"^^xsd:string .
 
 id:LEC339 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/339> ;
-		<https://sugarbind.expasy.org/lectins/339> ;
 		rdfs:label "339"^^xsd:string .
 
 id:LEC340 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/340> ;
-		<https://sugarbind.expasy.org/lectins/340> ;
 		rdfs:label "340"^^xsd:string .
 
 id:LEC341 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/341> ;
-		<https://sugarbind.expasy.org/lectins/341> ;
 		rdfs:label "341"^^xsd:string .
 
 id:LEC342 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/342> ;
-		<https://sugarbind.expasy.org/lectins/342> ;
 		rdfs:label "342"^^xsd:string .
 
 id:LEC343 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/343> ;
-		<https://sugarbind.expasy.org/lectins/343> ;
 		rdfs:label "343"^^xsd:string .
 
 id:LEC344 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/344> ;
-		<https://sugarbind.expasy.org/lectins/344> ;
 		rdfs:label "344"^^xsd:string .
 
 id:LEC345 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/345> ;
-		<https://sugarbind.expasy.org/lectins/345> ;
 		rdfs:label "345"^^xsd:string .
 
 id:LEC346 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/346> ;
-		<https://sugarbind.expasy.org/lectins/346> ;
 		rdfs:label "346"^^xsd:string .
 
 id:LEC347 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/347> ;
-		<https://sugarbind.expasy.org/lectins/347> ;
 		rdfs:label "347"^^xsd:string .
 
 id:LEC348 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/348> ;
-		<https://sugarbind.expasy.org/lectins/348> ;
 		rdfs:label "348"^^xsd:string .
 
 id:LEC349 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/349> ;
-		<https://sugarbind.expasy.org/lectins/349> ;
 		rdfs:label "349"^^xsd:string .
 
 id:LEC350 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/350> ;
-		<https://sugarbind.expasy.org/lectins/350> ;
 		rdfs:label "350"^^xsd:string .
 
 id:LEC351 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/351> ;
-		<https://sugarbind.expasy.org/lectins/351> ;
 		rdfs:label "351"^^xsd:string .
 
 id:LEC352 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/352> ;
-		<https://sugarbind.expasy.org/lectins/352> ;
 		rdfs:label "352"^^xsd:string .
 
 id:LEC353 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/353> ;
-		<https://sugarbind.expasy.org/lectins/353> ;
 		rdfs:label "353"^^xsd:string .
 
 id:LEC354 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/354> ;
-		<https://sugarbind.expasy.org/lectins/354> ;
 		rdfs:label "354"^^xsd:string .
 
 id:LEC355 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/355> ;
-		<https://sugarbind.expasy.org/lectins/355> ;
 		rdfs:label "355"^^xsd:string .
 
 id:LEC356 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/356> ;
-		<https://sugarbind.expasy.org/lectins/356> ;
 		rdfs:label "356"^^xsd:string .
 
 id:LEC357 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/357> ;
-		<https://sugarbind.expasy.org/lectins/357> ;
 		rdfs:label "357"^^xsd:string .
 
 id:LEC358 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/358> ;
-		<https://sugarbind.expasy.org/lectins/358> ;
 		rdfs:label "358"^^xsd:string .
 
 id:LEC361 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/361> ;
-		<https://sugarbind.expasy.org/lectins/361> ;
 		rdfs:label "361"^^xsd:string .
 
 id:LEC362 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/362> ;
-		<https://sugarbind.expasy.org/lectins/362> ;
 		rdfs:label "362"^^xsd:string .
 
 id:LEC363 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/363> ;
-		<https://sugarbind.expasy.org/lectins/363> ;
 		rdfs:label "363"^^xsd:string .
 
 id:LEC364 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/364> ;
-		<https://sugarbind.expasy.org/lectins/364> ;
 		rdfs:label "364"^^xsd:string .
 
 id:LEC365 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/365> ;
-		<https://sugarbind.expasy.org/lectins/365> ;
 		rdfs:label "365"^^xsd:string .
 
 id:LEC366 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/366> ;
-		<https://sugarbind.expasy.org/lectins/366> ;
 		rdfs:label "366"^^xsd:string .
 
 id:LEC367 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/367> ;
-		<https://sugarbind.expasy.org/lectins/367> ;
 		rdfs:label "367"^^xsd:string .
 
 id:LEC368 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/368> ;
-		<https://sugarbind.expasy.org/lectins/368> ;
 		rdfs:label "368"^^xsd:string .
 
 id:LEC369 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/369> ;
-		<https://sugarbind.expasy.org/lectins/369> ;
 		rdfs:label "369"^^xsd:string .
 
 id:LEC370 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/370> ;
-		<https://sugarbind.expasy.org/lectins/370> ;
 		rdfs:label "370"^^xsd:string .
 
 id:LEC373 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/373> ;
-		<https://sugarbind.expasy.org/lectins/373> ;
 		rdfs:label "373"^^xsd:string .
 
 id:LEC376 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/376> ;
-		<https://sugarbind.expasy.org/lectins/376> ;
 		rdfs:label "376"^^xsd:string .
 
 id:LEC377 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/377> ;
-		<https://sugarbind.expasy.org/lectins/377> ;
 		rdfs:label "377"^^xsd:string .
 
 id:LEC378 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/378> ;
-		<https://sugarbind.expasy.org/lectins/378> ;
 		rdfs:label "378"^^xsd:string .
 
 id:LEC379 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/379> ;
-		<https://sugarbind.expasy.org/lectins/379> ;
 		rdfs:label "379"^^xsd:string .
 
 id:LEC380 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/380> ;
-		<https://sugarbind.expasy.org/lectins/380> ;
 		rdfs:label "380"^^xsd:string .
 
 id:LEC381 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/381> ;
-		<https://sugarbind.expasy.org/lectins/381> ;
 		rdfs:label "381"^^xsd:string .
 
 id:LEC382 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/382> ;
-		<https://sugarbind.expasy.org/lectins/382> ;
 		rdfs:label "382"^^xsd:string .
 
 id:LEC383 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/383> ;
-		<https://sugarbind.expasy.org/lectins/383> ;
 		rdfs:label "383"^^xsd:string .
 
 id:LEC384 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/384> ;
-		<https://sugarbind.expasy.org/lectins/384> ;
 		rdfs:label "384"^^xsd:string .
 
 id:LEC385 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/385> ;
-		<https://sugarbind.expasy.org/lectins/385> ;
 		rdfs:label "385"^^xsd:string .
 
 id:LEC386 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/386> ;
-		<https://sugarbind.expasy.org/lectins/386> ;
 		rdfs:label "386"^^xsd:string .
 
 id:LEC387 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/387> ;
-		<https://sugarbind.expasy.org/lectins/387> ;
 		rdfs:label "387"^^xsd:string .
 
 id:LEC388 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/388> ;
-		<https://sugarbind.expasy.org/lectins/388> ;
 		rdfs:label "388"^^xsd:string .
 
 id:LEC403 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/403> ;
-		<https://sugarbind.expasy.org/lectins/403> ;
 		rdfs:label "403"^^xsd:string .
 
 id:LEC404 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/404> ;
-		<https://sugarbind.expasy.org/lectins/404> ;
 		rdfs:label "404"^^xsd:string .
 
 id:LEC405 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/405> ;
-		<https://sugarbind.expasy.org/lectins/405> ;
 		rdfs:label "405"^^xsd:string .
 
 id:LEC406 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/406> ;
-		<https://sugarbind.expasy.org/lectins/406> ;
 		rdfs:label "406"^^xsd:string .
 
 id:LEC407 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/407> ;
-		<https://sugarbind.expasy.org/lectins/407> ;
 		rdfs:label "407"^^xsd:string .
 
 id:LEC408 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/408> ;
-		<https://sugarbind.expasy.org/lectins/408> ;
 		rdfs:label "408"^^xsd:string .
 
 id:LEC419 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/419> ;
-		<https://sugarbind.expasy.org/lectins/419> ;
 		rdfs:label "419"^^xsd:string .
 
 id:LEC477 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/477> ;
-		<https://sugarbind.expasy.org/lectins/477> ;
 		rdfs:label "477"^^xsd:string .
 
 id:LEC478 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/478> ;
-		<https://sugarbind.expasy.org/lectins/478> ;
 		rdfs:label "478"^^xsd:string .
 
 id:LEC479 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/479> ;
-		<https://sugarbind.expasy.org/lectins/479> ;
 		rdfs:label "479"^^xsd:string .
 
 id:LEC480 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/480> ;
-		<https://sugarbind.expasy.org/lectins/480> ;
 		rdfs:label "480"^^xsd:string .
 
 id:LEC481 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/481> ;
-		<https://sugarbind.expasy.org/lectins/481> ;
 		rdfs:label "481"^^xsd:string .
 
 id:LEC482 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/482> ;
-		<https://sugarbind.expasy.org/lectins/482> ;
 		rdfs:label "482"^^xsd:string .
 
 id:LEC483 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/483> ;
-		<https://sugarbind.expasy.org/lectins/483> ;
 		rdfs:label "483"^^xsd:string .
 
 id:LEC485 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/485> ;
-		<https://sugarbind.expasy.org/lectins/485> ;
 		rdfs:label "485"^^xsd:string .
 
 id:LEC486 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/486> ;
-		<https://sugarbind.expasy.org/lectins/486> ;
 		rdfs:label "486"^^xsd:string .
 
 id:LEC487 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/487> ;
-		<https://sugarbind.expasy.org/lectins/487> ;
 		rdfs:label "487"^^xsd:string .
 
 id:LEC488 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/488> ;
-		<https://sugarbind.expasy.org/lectins/488> ;
 		rdfs:label "488"^^xsd:string .
 
 id:LEC489 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/489> ;
-		<https://sugarbind.expasy.org/lectins/489> ;
 		rdfs:label "489"^^xsd:string .
 
 id:LEC490 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/490> ;
-		<https://sugarbind.expasy.org/lectins/490> ;
 		rdfs:label "490"^^xsd:string .
 
 id:LEC491 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/491> ;
-		<https://sugarbind.expasy.org/lectins/491> ;
 		rdfs:label "491"^^xsd:string .
 
 id:LEC492 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/492> ;
-		<https://sugarbind.expasy.org/lectins/492> ;
 		rdfs:label "492"^^xsd:string .
 
 id:LEC493 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/493> ;
-		<https://sugarbind.expasy.org/lectins/493> ;
 		rdfs:label "493"^^xsd:string .
 
 id:LEC494 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/494> ;
-		<https://sugarbind.expasy.org/lectins/494> ;
 		rdfs:label "494"^^xsd:string .
 
 id:LEC495 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/495> ;
-		<https://sugarbind.expasy.org/lectins/495> ;
 		rdfs:label "495"^^xsd:string .
 
 id:LEC496 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/496> ;
-		<https://sugarbind.expasy.org/lectins/496> ;
 		rdfs:label "496"^^xsd:string .
 
 id:LEC497 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/497> ;
-		<https://sugarbind.expasy.org/lectins/497> ;
 		rdfs:label "497"^^xsd:string .
 
 id:LEC498 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/498> ;
-		<https://sugarbind.expasy.org/lectins/498> ;
 		rdfs:label "498"^^xsd:string .
 
 id:LEC499 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/499> ;
-		<https://sugarbind.expasy.org/lectins/499> ;
 		rdfs:label "499"^^xsd:string .
 
 id:LEC500 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/500> ;
-		<https://sugarbind.expasy.org/lectins/500> ;
 		rdfs:label "500"^^xsd:string .
 
 id:LEC501 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/501> ;
-		<https://sugarbind.expasy.org/lectins/501> ;
 		rdfs:label "501"^^xsd:string .
 
 id:LEC502 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/502> ;
-		<https://sugarbind.expasy.org/lectins/502> ;
 		rdfs:label "502"^^xsd:string .
 
 id:LEC503 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/503> ;
-		<https://sugarbind.expasy.org/lectins/503> ;
 		rdfs:label "503"^^xsd:string .
 
 id:LEC504 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/504> ;
-		<https://sugarbind.expasy.org/lectins/504> ;
 		rdfs:label "504"^^xsd:string .
 
 id:LEC505 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/505> ;
-		<https://sugarbind.expasy.org/lectins/505> ;
 		rdfs:label "505"^^xsd:string .
 
 id:LEC506 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/506> ;
-		<https://sugarbind.expasy.org/lectins/506> ;
 		rdfs:label "506"^^xsd:string .
 
 id:LEC507 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/507> ;
-		<https://sugarbind.expasy.org/lectins/507> ;
 		rdfs:label "507"^^xsd:string .
 
 id:LEC508 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/508> ;
-		<https://sugarbind.expasy.org/lectins/508> ;
 		rdfs:label "508"^^xsd:string .
 
 id:LEC509 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/509> ;
-		<https://sugarbind.expasy.org/lectins/509> ;
 		rdfs:label "509"^^xsd:string .
 
 id:LEC510 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/510> ;
-		<https://sugarbind.expasy.org/lectins/510> ;
 		rdfs:label "510"^^xsd:string .
 
 id:LEC511 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/511> ;
-		<https://sugarbind.expasy.org/lectins/511> ;
 		rdfs:label "511"^^xsd:string .
 
 id:LEC512 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/512> ;
-		<https://sugarbind.expasy.org/lectins/512> ;
 		rdfs:label "512"^^xsd:string .
 
 id:LEC513 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/513> ;
-		<https://sugarbind.expasy.org/lectins/513> ;
 		rdfs:label "513"^^xsd:string .
 
 id:LEC514 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/514> ;
-		<https://sugarbind.expasy.org/lectins/514> ;
 		rdfs:label "514"^^xsd:string .
 
 id:LEC515 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/515> ;
-		<https://sugarbind.expasy.org/lectins/515> ;
 		rdfs:label "515"^^xsd:string .
 
 id:LEC516 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/516> ;
-		<https://sugarbind.expasy.org/lectins/516> ;
 		rdfs:label "516"^^xsd:string .
 
 id:LEC517 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/517> ;
-		<https://sugarbind.expasy.org/lectins/517> ;
 		rdfs:label "517"^^xsd:string .
 
 id:LEC518 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/518> ;
-		<https://sugarbind.expasy.org/lectins/518> ;
 		rdfs:label "518"^^xsd:string .
 
 id:LEC519 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/519> ;
-		<https://sugarbind.expasy.org/lectins/519> ;
 		rdfs:label "519"^^xsd:string .
 
 id:LEC520 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/520> ;
-		<https://sugarbind.expasy.org/lectins/520> ;
 		rdfs:label "520"^^xsd:string .
 
 id:LEC521 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/521> ;
-		<https://sugarbind.expasy.org/lectins/521> ;
 		rdfs:label "521"^^xsd:string .
 
 id:LEC522 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/522> ;
-		<https://sugarbind.expasy.org/lectins/522> ;
 		rdfs:label "522"^^xsd:string .
 
 id:LEC523 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/523> ;
-		<https://sugarbind.expasy.org/lectins/523> ;
 		rdfs:label "523"^^xsd:string .
 
 id:LEC524 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/524> ;
-		<https://sugarbind.expasy.org/lectins/524> ;
 		rdfs:label "524"^^xsd:string .
 
 id:LEC525 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/525> ;
-		<https://sugarbind.expasy.org/lectins/525> ;
 		rdfs:label "525"^^xsd:string .
 
 id:LEC526 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/526> ;
-		<https://sugarbind.expasy.org/lectins/526> ;
 		rdfs:label "526"^^xsd:string .
 
 id:LEC527 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/527> ;
-		<https://sugarbind.expasy.org/lectins/527> ;
 		rdfs:label "527"^^xsd:string .
 
 id:LEC528 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/528> ;
-		<https://sugarbind.expasy.org/lectins/528> ;
 		rdfs:label "528"^^xsd:string .
 
 id:LEC529 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/529> ;
-		<https://sugarbind.expasy.org/lectins/529> ;
 		rdfs:label "529"^^xsd:string .
 
 id:LEC530 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/530> ;
-		<https://sugarbind.expasy.org/lectins/530> ;
 		rdfs:label "530"^^xsd:string .
 
 id:LEC531 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/531> ;
-		<https://sugarbind.expasy.org/lectins/531> ;
 		rdfs:label "531"^^xsd:string .
 
 id:LEC532 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/532> ;
-		<https://sugarbind.expasy.org/lectins/532> ;
 		rdfs:label "532"^^xsd:string .
 
 id:LEC533 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/533> ;
-		<https://sugarbind.expasy.org/lectins/533> ;
 		rdfs:label "533"^^xsd:string .
 
 id:LEC534 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/534> ;
-		<https://sugarbind.expasy.org/lectins/534> ;
 		rdfs:label "534"^^xsd:string .
 
 id:LEC535 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/535> ;
-		<https://sugarbind.expasy.org/lectins/535> ;
 		rdfs:label "535"^^xsd:string .
 
 id:LEC536 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/536> ;
-		<https://sugarbind.expasy.org/lectins/536> ;
 		rdfs:label "536"^^xsd:string .
 
 id:LEC537 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/537> ;
-		<https://sugarbind.expasy.org/lectins/537> ;
 		rdfs:label "537"^^xsd:string .
 
 id:LEC538 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/538> ;
-		<https://sugarbind.expasy.org/lectins/538> ;
 		rdfs:label "538"^^xsd:string .
 
 id:LEC539 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/539> ;
-		<https://sugarbind.expasy.org/lectins/539> ;
 		rdfs:label "539"^^xsd:string .
 
 id:LEC540 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/540> ;
-		<https://sugarbind.expasy.org/lectins/540> ;
 		rdfs:label "540"^^xsd:string .
 
 id:LEC541 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/541> ;
-		<https://sugarbind.expasy.org/lectins/541> ;
 		rdfs:label "541"^^xsd:string .
 
 id:LEC542 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/542> ;
-		<https://sugarbind.expasy.org/lectins/542> ;
 		rdfs:label "542"^^xsd:string .
 
 id:LEC543 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/543> ;
-		<https://sugarbind.expasy.org/lectins/543> ;
 		rdfs:label "543"^^xsd:string .
 
 id:LEC544 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/544> ;
-		<https://sugarbind.expasy.org/lectins/544> ;
 		rdfs:label "544"^^xsd:string .
 
 id:LEC545 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/545> ;
-		<https://sugarbind.expasy.org/lectins/545> ;
 		rdfs:label "545"^^xsd:string .
 
 id:LEC546 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/546> ;
-		<https://sugarbind.expasy.org/lectins/546> ;
 		rdfs:label "546"^^xsd:string .
 
 id:LEC547 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/547> ;
-		<https://sugarbind.expasy.org/lectins/547> ;
 		rdfs:label "547"^^xsd:string .
 
 id:LEC548 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/548> ;
-		<https://sugarbind.expasy.org/lectins/548> ;
 		rdfs:label "548"^^xsd:string .
 
 id:LEC549 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/549> ;
-		<https://sugarbind.expasy.org/lectins/549> ;
 		rdfs:label "549"^^xsd:string .
 
 id:LEC550 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/550> ;
-		<https://sugarbind.expasy.org/lectins/550> ;
 		rdfs:label "550"^^xsd:string .
 
 id:LEC551 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/551> ;
-		<https://sugarbind.expasy.org/lectins/551> ;
 		rdfs:label "551"^^xsd:string .
 
 id:LEC560 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/560> ;
-		<https://sugarbind.expasy.org/lectins/560> ;
 		rdfs:label "560"^^xsd:string .
 
 id:LEC561 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/561> ;
-		<https://sugarbind.expasy.org/lectins/561> ;
 		rdfs:label "561"^^xsd:string .
 
 id:LEC562 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/562> ;
-		<https://sugarbind.expasy.org/lectins/562> ;
 		rdfs:label "562"^^xsd:string .
 
 id:LEC563 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/563> ;
-		<https://sugarbind.expasy.org/lectins/563> ;
 		rdfs:label "563"^^xsd:string .
 
 id:LEC564 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/564> ;
-		<https://sugarbind.expasy.org/lectins/564> ;
 		rdfs:label "564"^^xsd:string .
 
 id:LEC569 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/569> ;
-		<https://sugarbind.expasy.org/lectins/569> ;
 		rdfs:label "569"^^xsd:string .
 
 id:LEC570 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/570> ;
-		<https://sugarbind.expasy.org/lectins/570> ;
 		rdfs:label "570"^^xsd:string .
 
 id:LEC571 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/571> ;
-		<https://sugarbind.expasy.org/lectins/571> ;
 		rdfs:label "571"^^xsd:string .
 
 id:LEC572 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/572> ;
-		<https://sugarbind.expasy.org/lectins/572> ;
 		rdfs:label "572"^^xsd:string .
 
 id:LEC573 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/573> ;
-		<https://sugarbind.expasy.org/lectins/573> ;
 		rdfs:label "573"^^xsd:string .
 
 id:LEC574 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/574> ;
-		<https://sugarbind.expasy.org/lectins/574> ;
 		rdfs:label "574"^^xsd:string .
 
 id:LEC575 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/575> ;
-		<https://sugarbind.expasy.org/lectins/575> ;
 		rdfs:label "575"^^xsd:string .
 
 id:LEC576 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/576> ;
-		<https://sugarbind.expasy.org/lectins/576> ;
 		rdfs:label "576"^^xsd:string .
 
 id:LEC577 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/577> ;
-		<https://sugarbind.expasy.org/lectins/577> ;
 		rdfs:label "577"^^xsd:string .
 
 id:LEC578 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/578> ;
-		<https://sugarbind.expasy.org/lectins/578> ;
 		rdfs:label "578"^^xsd:string .
 
 id:LEC579 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/579> ;
-		<https://sugarbind.expasy.org/lectins/579> ;
 		rdfs:label "579"^^xsd:string .
 
 id:LEC581 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/581> ;
-		<https://sugarbind.expasy.org/lectins/581> ;
 		rdfs:label "581"^^xsd:string .
 
 id:LEC585 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/585> ;
-		<https://sugarbind.expasy.org/lectins/585> ;
 		rdfs:label "585"^^xsd:string .
 
 id:LEC586 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/586> ;
-		<https://sugarbind.expasy.org/lectins/586> ;
 		rdfs:label "586"^^xsd:string .
 
 id:LEC587 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/587> ;
-		<https://sugarbind.expasy.org/lectins/587> ;
 		rdfs:label "587"^^xsd:string .
 
 id:LEC588 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/588> ;
-		<https://sugarbind.expasy.org/lectins/588> ;
 		rdfs:label "588"^^xsd:string .
 
 id:LEC589 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/589> ;
-		<https://sugarbind.expasy.org/lectins/589> ;
 		rdfs:label "589"^^xsd:string .
 
 id:LEC590 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/590> ;
-		<https://sugarbind.expasy.org/lectins/590> ;
 		rdfs:label "590"^^xsd:string .
 
 id:LEC591 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/591> ;
-		<https://sugarbind.expasy.org/lectins/591> ;
 		rdfs:label "591"^^xsd:string .
 
 id:LEC592 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/592> ;
-		<https://sugarbind.expasy.org/lectins/592> ;
 		rdfs:label "592"^^xsd:string .
 
 id:LEC593 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/593> ;
-		<https://sugarbind.expasy.org/lectins/593> ;
 		rdfs:label "593"^^xsd:string .
 
 id:LEC594 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/594> ;
-		<https://sugarbind.expasy.org/lectins/594> ;
 		rdfs:label "594"^^xsd:string .
 
 id:LEC595 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/595> ;
-		<https://sugarbind.expasy.org/lectins/595> ;
 		rdfs:label "595"^^xsd:string .
 
 id:LEC596 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/596> ;
-		<https://sugarbind.expasy.org/lectins/596> ;
 		rdfs:label "596"^^xsd:string .
 
 id:LEC597 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/597> ;
-		<https://sugarbind.expasy.org/lectins/597> ;
 		rdfs:label "597"^^xsd:string .
 
 id:LEC598 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/598> ;
-		<https://sugarbind.expasy.org/lectins/598> ;
 		rdfs:label "598"^^xsd:string .
 
 id:LEC599 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/599> ;
-		<https://sugarbind.expasy.org/lectins/599> ;
 		rdfs:label "599"^^xsd:string .
 
 id:LEC600 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/600> ;
-		<https://sugarbind.expasy.org/lectins/600> ;
 		rdfs:label "600"^^xsd:string .
 
 id:LEC601 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/601> ;
-		<https://sugarbind.expasy.org/lectins/601> ;
 		rdfs:label "601"^^xsd:string .
 
 id:LEC602 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/602> ;
-		<https://sugarbind.expasy.org/lectins/602> ;
 		rdfs:label "602"^^xsd:string .
 
 id:LEC603 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/603> ;
-		<https://sugarbind.expasy.org/lectins/603> ;
 		rdfs:label "603"^^xsd:string .
 
 id:LEC604 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/604> ;
-		<https://sugarbind.expasy.org/lectins/604> ;
 		rdfs:label "604"^^xsd:string .
 
 id:LEC606 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/606> ;
-		<https://sugarbind.expasy.org/lectins/606> ;
 		rdfs:label "606"^^xsd:string .
 
 id:LEC607 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/607> ;
-		<https://sugarbind.expasy.org/lectins/607> ;
 		rdfs:label "607"^^xsd:string .
 
 id:LEC608 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/608> ;
-		<https://sugarbind.expasy.org/lectins/608> ;
 		rdfs:label "608"^^xsd:string .
 
 id:LEC609 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/609> ;
-		<https://sugarbind.expasy.org/lectins/609> ;
 		rdfs:label "609"^^xsd:string .
 
 id:LEC610 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/610> ;
-		<https://sugarbind.expasy.org/lectins/610> ;
 		rdfs:label "610"^^xsd:string .
 
 id:LEC611 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/611> ;
-		<https://sugarbind.expasy.org/lectins/611> ;
 		rdfs:label "611"^^xsd:string .
 
 id:LEC612 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/612> ;
-		<https://sugarbind.expasy.org/lectins/612> ;
 		rdfs:label "612"^^xsd:string .
 
 id:LEC613 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/613> ;
-		<https://sugarbind.expasy.org/lectins/613> ;
 		rdfs:label "613"^^xsd:string .
 
 id:LEC614 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/614> ;
-		<https://sugarbind.expasy.org/lectins/614> ;
 		rdfs:label "614"^^xsd:string .
 
 id:LEC620 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/620> ;
-		<https://sugarbind.expasy.org/lectins/620> ;
 		rdfs:label "620"^^xsd:string .
 
 id:LEC621 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/621> ;
-		<https://sugarbind.expasy.org/lectins/621> ;
 		rdfs:label "621"^^xsd:string .
 
 id:LEC622 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/622> ;
-		<https://sugarbind.expasy.org/lectins/622> ;
 		rdfs:label "622"^^xsd:string .
 
 id:LEC623 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/623> ;
-		<https://sugarbind.expasy.org/lectins/623> ;
 		rdfs:label "623"^^xsd:string .
 
 id:LEC624 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/624> ;
-		<https://sugarbind.expasy.org/lectins/624> ;
 		rdfs:label "624"^^xsd:string .
 
 id:LEC625 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/625> ;
-		<https://sugarbind.expasy.org/lectins/625> ;
 		rdfs:label "625"^^xsd:string .
 
 id:LEC626 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/626> ;
-		<https://sugarbind.expasy.org/lectins/626> ;
 		rdfs:label "626"^^xsd:string .
 
 id:LEC627 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/627> ;
-		<https://sugarbind.expasy.org/lectins/627> ;
 		rdfs:label "627"^^xsd:string .
 
 id:LEC646 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/646> ;
-		<https://sugarbind.expasy.org/lectins/646> ;
 		rdfs:label "646"^^xsd:string .
 
 id:LEC647 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/647> ;
-		<https://sugarbind.expasy.org/lectins/647> ;
 		rdfs:label "647"^^xsd:string .
 
 id:LEC649 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/649> ;
-		<https://sugarbind.expasy.org/lectins/649> ;
 		rdfs:label "649"^^xsd:string .
 
 id:LEC650 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/650> ;
-		<https://sugarbind.expasy.org/lectins/650> ;
 		rdfs:label "650"^^xsd:string .
 
 id:LEC651 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/651> ;
-		<https://sugarbind.expasy.org/lectins/651> ;
 		rdfs:label "651"^^xsd:string .
 
 id:LEC652 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/652> ;
-		<https://sugarbind.expasy.org/lectins/652> ;
 		rdfs:label "652"^^xsd:string .
 
 id:LEC653 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/653> ;
-		<https://sugarbind.expasy.org/lectins/653> ;
 		rdfs:label "653"^^xsd:string .
 
 id:LEC654 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/654> ;
-		<https://sugarbind.expasy.org/lectins/654> ;
 		rdfs:label "654"^^xsd:string .
 
 id:LEC655 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/655> ;
-		<https://sugarbind.expasy.org/lectins/655> ;
 		rdfs:label "655"^^xsd:string .
 
 id:LEC656 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/656> ;
-		<https://sugarbind.expasy.org/lectins/656> ;
 		rdfs:label "656"^^xsd:string .
 
 id:LEC657 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/657> ;
-		<https://sugarbind.expasy.org/lectins/657> ;
 		rdfs:label "657"^^xsd:string .
 
 id:LEC658 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/658> ;
-		<https://sugarbind.expasy.org/lectins/658> ;
 		rdfs:label "658"^^xsd:string .
 
 id:LEC659 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/659> ;
-		<https://sugarbind.expasy.org/lectins/659> ;
 		rdfs:label "659"^^xsd:string .
 
 id:LEC660 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/660> ;
-		<https://sugarbind.expasy.org/lectins/660> ;
 		rdfs:label "660"^^xsd:string .
 
 id:LEC661 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/661> ;
-		<https://sugarbind.expasy.org/lectins/661> ;
 		rdfs:label "661"^^xsd:string .
 
 id:LEC662 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/662> ;
-		<https://sugarbind.expasy.org/lectins/662> ;
 		rdfs:label "662"^^xsd:string .
 
 id:LEC663 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/663> ;
-		<https://sugarbind.expasy.org/lectins/663> ;
 		rdfs:label "663"^^xsd:string .
 
 id:LEC664 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/664> ;
-		<https://sugarbind.expasy.org/lectins/664> ;
 		rdfs:label "664"^^xsd:string .
 
 id:LEC665 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/665> ;
-		<https://sugarbind.expasy.org/lectins/665> ;
 		rdfs:label "665"^^xsd:string .
 
 id:LEC666 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/666> ;
-		<https://sugarbind.expasy.org/lectins/666> ;
 		rdfs:label "666"^^xsd:string .
 
 id:LEC667 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/667> ;
-		<https://sugarbind.expasy.org/lectins/667> ;
 		rdfs:label "667"^^xsd:string .
 
 id:LEC668 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/668> ;
-		<https://sugarbind.expasy.org/lectins/668> ;
 		rdfs:label "668"^^xsd:string .
 
 id:LEC671 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/671> ;
-		<https://sugarbind.expasy.org/lectins/671> ;
 		rdfs:label "671"^^xsd:string .
 
 id:LEC672 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/672> ;
-		<https://sugarbind.expasy.org/lectins/672> ;
 		rdfs:label "672"^^xsd:string .
 
 id:LEC673 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/673> ;
-		<https://sugarbind.expasy.org/lectins/673> ;
 		rdfs:label "673"^^xsd:string .
 
 id:LEC674 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/674> ;
-		<https://sugarbind.expasy.org/lectins/674> ;
 		rdfs:label "674"^^xsd:string .
 
 id:LEC675 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/675> ;
-		<https://sugarbind.expasy.org/lectins/675> ;
 		rdfs:label "675"^^xsd:string .
 
 id:LEC676 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/676> ;
-		<https://sugarbind.expasy.org/lectins/676> ;
 		rdfs:label "676"^^xsd:string .
 
 id:LEC677 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/677> ;
-		<https://sugarbind.expasy.org/lectins/677> ;
 		rdfs:label "677"^^xsd:string .
 
 id:LEC678 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/678> ;
-		<https://sugarbind.expasy.org/lectins/678> ;
 		rdfs:label "678"^^xsd:string .
 
 id:LEC679 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/679> ;
-		<https://sugarbind.expasy.org/lectins/679> ;
 		rdfs:label "679"^^xsd:string .
 
 id:LEC680 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/680> ;
-		<https://sugarbind.expasy.org/lectins/680> ;
 		rdfs:label "680"^^xsd:string .
 
 id:LEC681 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/681> ;
-		<https://sugarbind.expasy.org/lectins/681> ;
 		rdfs:label "681"^^xsd:string .
 
 id:LEC682 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/682> ;
-		<https://sugarbind.expasy.org/lectins/682> ;
 		rdfs:label "682"^^xsd:string .
 
 id:LEC683 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/683> ;
-		<https://sugarbind.expasy.org/lectins/683> ;
 		rdfs:label "683"^^xsd:string .
 
 id:LEC684 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/684> ;
-		<https://sugarbind.expasy.org/lectins/684> ;
 		rdfs:label "684"^^xsd:string .
 
 id:LEC685 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/685> ;
-		<https://sugarbind.expasy.org/lectins/685> ;
 		rdfs:label "685"^^xsd:string .
 
 id:LEC687 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/687> ;
-		<https://sugarbind.expasy.org/lectins/687> ;
 		rdfs:label "687"^^xsd:string .
 
 id:LEC688 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/688> ;
-		<https://sugarbind.expasy.org/lectins/688> ;
 		rdfs:label "688"^^xsd:string .
 
 id:LEC690 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/690> ;
-		<https://sugarbind.expasy.org/lectins/690> ;
 		rdfs:label "690"^^xsd:string .
 
 id:LEC691 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/691> ;
-		<https://sugarbind.expasy.org/lectins/691> ;
 		rdfs:label "691"^^xsd:string .
 
 id:LEC692 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/692> ;
-		<https://sugarbind.expasy.org/lectins/692> ;
 		rdfs:label "692"^^xsd:string .
 
 id:LEC693 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/693> ;
-		<https://sugarbind.expasy.org/lectins/693> ;
 		rdfs:label "693"^^xsd:string .
 
 id:LEC694 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/694> ;
-		<https://sugarbind.expasy.org/lectins/694> ;
 		rdfs:label "694"^^xsd:string .
 
 id:LEC695 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/695> ;
-		<https://sugarbind.expasy.org/lectins/695> ;
 		rdfs:label "695"^^xsd:string .
 
 id:LEC696 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/696> ;
-		<https://sugarbind.expasy.org/lectins/696> ;
 		rdfs:label "696"^^xsd:string .
 
 id:LEC697 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/697> ;
-		<https://sugarbind.expasy.org/lectins/697> ;
 		rdfs:label "697"^^xsd:string .
 
 id:LEC698 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/698> ;
-		<https://sugarbind.expasy.org/lectins/698> ;
 		rdfs:label "698"^^xsd:string .
 
 id:LEC699 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/699> ;
-		<https://sugarbind.expasy.org/lectins/699> ;
 		rdfs:label "699"^^xsd:string .
 
 id:LEC700 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/700> ;
-		<https://sugarbind.expasy.org/lectins/700> ;
 		rdfs:label "700"^^xsd:string .
 
 id:LEC701 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/701> ;
-		<https://sugarbind.expasy.org/lectins/701> ;
 		rdfs:label "701"^^xsd:string .
 
 id:LEC702 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/702> ;
-		<https://sugarbind.expasy.org/lectins/702> ;
 		rdfs:label "702"^^xsd:string .
 
 id:LEC703 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/703> ;
-		<https://sugarbind.expasy.org/lectins/703> ;
 		rdfs:label "703"^^xsd:string .
 
 id:LEC704 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/704> ;
-		<https://sugarbind.expasy.org/lectins/704> ;
 		rdfs:label "704"^^xsd:string .
 
 id:LEC705 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/705> ;
-		<https://sugarbind.expasy.org/lectins/705> ;
 		rdfs:label "705"^^xsd:string .
 
 id:LEC706 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/706> ;
-		<https://sugarbind.expasy.org/lectins/706> ;
 		rdfs:label "706"^^xsd:string .
 
 id:LEC707 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/707> ;
-		<https://sugarbind.expasy.org/lectins/707> ;
 		rdfs:label "707"^^xsd:string .
 
 id:LEC708 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/708> ;
-		<https://sugarbind.expasy.org/lectins/708> ;
 		rdfs:label "708"^^xsd:string .
 
 id:LEC709 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/709> ;
-		<https://sugarbind.expasy.org/lectins/709> ;
 		rdfs:label "709"^^xsd:string .
 
 id:LEC713 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/713> ;
-		<https://sugarbind.expasy.org/lectins/713> ;
 		rdfs:label "713"^^xsd:string .
 
 id:LEC714 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/714> ;
-		<https://sugarbind.expasy.org/lectins/714> ;
 		rdfs:label "714"^^xsd:string .
 
 id:LEC718 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/718> ;
-		<https://sugarbind.expasy.org/lectins/718> ;
 		rdfs:label "718"^^xsd:string .
 
 id:LEC719 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/719> ;
-		<https://sugarbind.expasy.org/lectins/719> ;
 		rdfs:label "719"^^xsd:string .
 
 id:LEC720 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/720> ;
-		<https://sugarbind.expasy.org/lectins/720> ;
 		rdfs:label "720"^^xsd:string .
 
 id:LEC721 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/721> ;
-		<https://sugarbind.expasy.org/lectins/721> ;
 		rdfs:label "721"^^xsd:string .
 
 id:LEC723 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/723> ;
-		<https://sugarbind.expasy.org/lectins/723> ;
 		rdfs:label "723"^^xsd:string .
 
 id:LEC725 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/725> ;
-		<https://sugarbind.expasy.org/lectins/725> ;
 		rdfs:label "725"^^xsd:string .
 
 id:LEC726 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/726> ;
-		<https://sugarbind.expasy.org/lectins/726> ;
 		rdfs:label "726"^^xsd:string .
 
 id:LEC727 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/727> ;
-		<https://sugarbind.expasy.org/lectins/727> ;
 		rdfs:label "727"^^xsd:string .
 
 id:LEC728 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/728> ;
-		<https://sugarbind.expasy.org/lectins/728> ;
 		rdfs:label "728"^^xsd:string .
 
 id:LEC729 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/729> ;
-		<https://sugarbind.expasy.org/lectins/729> ;
 		rdfs:label "729"^^xsd:string .
 
 id:LEC730 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/730> ;
-		<https://sugarbind.expasy.org/lectins/730> ;
 		rdfs:label "730"^^xsd:string .
 
 id:LEC731 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/731> ;
-		<https://sugarbind.expasy.org/lectins/731> ;
 		rdfs:label "731"^^xsd:string .
 
 id:LEC732 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/732> ;
-		<https://sugarbind.expasy.org/lectins/732> ;
 		rdfs:label "732"^^xsd:string .
 
 id:LEC733 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/733> ;
-		<https://sugarbind.expasy.org/lectins/733> ;
 		rdfs:label "733"^^xsd:string .
 
 id:LEC734 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/734> ;
-		<https://sugarbind.expasy.org/lectins/734> ;
 		rdfs:label "734"^^xsd:string .
 
 id:LEC735 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/735> ;
-		<https://sugarbind.expasy.org/lectins/735> ;
 		rdfs:label "735"^^xsd:string .
 
 id:LEC736 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/736> ;
-		<https://sugarbind.expasy.org/lectins/736> ;
 		rdfs:label "736"^^xsd:string .
 
 id:LEC737 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/737> ;
-		<https://sugarbind.expasy.org/lectins/737> ;
 		rdfs:label "737"^^xsd:string .
 
 id:LEC738 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/738> ;
-		<https://sugarbind.expasy.org/lectins/738> ;
 		rdfs:label "738"^^xsd:string .
 
 id:LEC739 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/739> ;
-		<https://sugarbind.expasy.org/lectins/739> ;
 		rdfs:label "739"^^xsd:string .
 
 id:LEC740 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/740> ;
-		<https://sugarbind.expasy.org/lectins/740> ;
 		rdfs:label "740"^^xsd:string .
 
 id:LEC741 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/741> ;
-		<https://sugarbind.expasy.org/lectins/741> ;
 		rdfs:label "741"^^xsd:string .
 
 id:LEC744 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/744> ;
-		<https://sugarbind.expasy.org/lectins/744> ;
 		rdfs:label "744"^^xsd:string .
 
 id:LEC745 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/745> ;
-		<https://sugarbind.expasy.org/lectins/745> ;
 		rdfs:label "745"^^xsd:string .
 
 #######################################################
@@ -3810,19 +3276,19 @@ id:LEC49 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/49> ;
-n		rdfs:label "S2 subunit"^^xsd:string .
+		rdfs:label "S2 subunit"^^xsd:string .
 
 id:LEC50 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/50> ;
-n		rdfs:label "S3 subunit"^^xsd:string .
+		rdfs:label "S3 subunit"^^xsd:string .
 
 id:LEC60 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/60> ;
-n		rdfs:label "22-kDa protein"^^xsd:string .
+		rdfs:label "22-kDa protein"^^xsd:string .
 
 id:LEC68 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
@@ -3892,7 +3358,7 @@ id:LEC104 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/104> ;
-n		rdfs:label "B subunit"^^xsd:string .
+		rdfs:label "B subunit"^^xsd:string .
 
 id:LEC105 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
@@ -3930,19 +3396,19 @@ id:LEC122 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/122> ;
-n		rdfs:label "Heavy (170-kDa) subunit"^^xsd:string .
+		rdfs:label "Heavy (170-kDa) subunit"^^xsd:string .
 
 id:LEC123 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/123> ;
-n		rdfs:label "Light (35- or 31-kDa) subunit"^^xsd:string .
+		rdfs:label "Light (35- or 31-kDa) subunit"^^xsd:string .
 
 id:LEC124 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/124> ;
-n		rdfs:label "Hgl; Lgl"^^xsd:string .
+		rdfs:label "Hgl; Lgl"^^xsd:string .
 
 id:LEC126 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
@@ -3956,19 +3422,19 @@ id:LEC141 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/141> ;
-n		rdfs:label "18 kDa protein"^^xsd:string .
+		rdfs:label "18 kDa protein"^^xsd:string .
 
 id:LEC142 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/142> ;
-n		rdfs:label "Class II Pap"^^xsd:string .
+		rdfs:label "Class II Pap"^^xsd:string .
 
 id:LEC143 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/143> ;
-n		rdfs:label "Class II Pap"^^xsd:string .
+		rdfs:label "Class II Pap"^^xsd:string .
 
 id:LEC144 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
@@ -3990,67 +3456,67 @@ id:LEC146 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/146> ;
-n		rdfs:label "Class I PapG"^^xsd:string .
+		rdfs:label "Class I PapG"^^xsd:string .
 
 id:LEC147 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/147> ;
-n		rdfs:label "Class III PrsG"^^xsd:string .
+		rdfs:label "Class III PrsG"^^xsd:string .
 
 id:LEC148 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/148> ;
-n		rdfs:label "Class I G"^^xsd:string .
+		rdfs:label "Class I G"^^xsd:string .
 
 id:LEC150 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/150> ;
-n		rdfs:label "Class II Pap"^^xsd:string .
+		rdfs:label "Class II Pap"^^xsd:string .
 
 id:LEC172 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/172> ;
-n		rdfs:label "17 kDa protein"^^xsd:string .
+		rdfs:label "17 kDa protein"^^xsd:string .
 
 id:LEC178 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/178> ;
-n		rdfs:label "CS3"^^xsd:string .
+		rdfs:label "CS3"^^xsd:string .
 
 id:LEC179 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/179> ;
-n		rdfs:label "20-kDa subunits"^^xsd:string .
+		rdfs:label "20-kDa subunits"^^xsd:string .
 
 id:LEC183 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/183> ;
-n		rdfs:label "FimH"^^xsd:string .
+		rdfs:label "FimH"^^xsd:string .
 
 id:LEC184 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/184> ;
-n		rdfs:label "FimH"^^xsd:string .
+		rdfs:label "FimH"^^xsd:string .
 
 id:LEC185 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/185> ;
-n		rdfs:label "PrsG"^^xsd:string .
+		rdfs:label "PrsG"^^xsd:string .
 
 id:LEC186 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/186> ;
-n		rdfs:label "SafS"^^xsd:string .
+		rdfs:label "SafS"^^xsd:string .
 
 id:LEC187 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
@@ -4064,7 +3530,7 @@ id:LEC189 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/189> ;
-n		rdfs:label "K1"^^xsd:string .
+		rdfs:label "K1"^^xsd:string .
 
 id:LEC195 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
@@ -4078,103 +3544,103 @@ id:LEC196 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/196> ;
-n		rdfs:label "CfaB"^^xsd:string .
+		rdfs:label "CfaB"^^xsd:string .
 
 id:LEC197 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/197> ;
-n		rdfs:label "SfaS"^^xsd:string .
+		rdfs:label "SfaS"^^xsd:string .
 
 id:LEC198 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/198> ;
-n		rdfs:label "PrsG"^^xsd:string .
+		rdfs:label "PrsG"^^xsd:string .
 
 id:LEC199 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/199> ;
-n		rdfs:label "FimH"^^xsd:string .
+		rdfs:label "FimH"^^xsd:string .
 
 id:LEC217 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/217> ;
-n		rdfs:label "K88ab"^^xsd:string .
+		rdfs:label "K88ab"^^xsd:string .
 
 id:LEC218 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/218> ;
-n		rdfs:label "K88ac"^^xsd:string .
+		rdfs:label "K88ac"^^xsd:string .
 
 id:LEC219 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/219> ;
-n		rdfs:label "K88ad"^^xsd:string .
+		rdfs:label "K88ad"^^xsd:string .
 
 id:LEC220 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/220> ;
-n		rdfs:label "FaeG"^^xsd:string .
+		rdfs:label "FaeG"^^xsd:string .
 
 id:LEC222 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/222> ;
-n		rdfs:label "PapGII"^^xsd:string .
+		rdfs:label "PapGII"^^xsd:string .
 
 id:LEC223 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/223> ;
-n		rdfs:label "PapGIII"^^xsd:string .
+		rdfs:label "PapGIII"^^xsd:string .
 
 id:LEC225 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/225> ;
-n		rdfs:label "PapG"^^xsd:string .
+		rdfs:label "PapG"^^xsd:string .
 
 id:LEC235 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/235> ;
-n		rdfs:label "Class II G, PapG"^^xsd:string .
+		rdfs:label "Class II G, PapG"^^xsd:string .
 
 id:LEC236 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/236> ;
-n		rdfs:label "Class III G, PrsG"^^xsd:string .
+		rdfs:label "Class III G, PrsG"^^xsd:string .
 
 id:LEC237 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/237> ;
-n		rdfs:label "PapG"^^xsd:string .
+		rdfs:label "PapG"^^xsd:string .
 
 id:LEC238 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/238> ;
-n		rdfs:label "FocH"^^xsd:string .
+		rdfs:label "FocH"^^xsd:string .
 
 id:LEC287 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/287> ;
-n		rdfs:label "HifE"^^xsd:string .
+		rdfs:label "HifE"^^xsd:string .
 
 id:LEC318 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/318> ;
-n		rdfs:label "BabA"^^xsd:string .
+		rdfs:label "BabA"^^xsd:string .
 
 id:LEC323 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
@@ -4188,31 +3654,31 @@ id:LEC330 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/330> ;
-n		rdfs:label "SabA"^^xsd:string .
+		rdfs:label "SabA"^^xsd:string .
 
 id:LEC331 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/331> ;
-n		rdfs:label "BabA"^^xsd:string .
+		rdfs:label "BabA"^^xsd:string .
 
 id:LEC332 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/332> ;
-n		rdfs:label "SabA"^^xsd:string .
+		rdfs:label "SabA"^^xsd:string .
 
 id:LEC336 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/336> ;
-n		rdfs:label "BabA"^^xsd:string .
+		rdfs:label "BabA"^^xsd:string .
 
 id:LEC337 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/337> ;
-n		rdfs:label "HpaA"^^xsd:string .
+		rdfs:label "HpaA"^^xsd:string .
 
 id:LEC360 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
@@ -4242,19 +3708,19 @@ id:LEC375 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/375> ;
-n		rdfs:label "H10"^^xsd:string .
+		rdfs:label "H10"^^xsd:string .
 
 id:LEC389 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/389> ;
-n		rdfs:label "H1"^^xsd:string .
+		rdfs:label "H1"^^xsd:string .
 
 id:LEC390 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/390> ;
-n		rdfs:label "H10"^^xsd:string .
+		rdfs:label "H10"^^xsd:string .
 
 id:LEC391 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
@@ -4268,7 +3734,7 @@ id:LEC392 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/392> ;
-n		rdfs:label "H1"^^xsd:string .
+		rdfs:label "H1"^^xsd:string .
 
 id:LEC393 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
@@ -4282,7 +3748,7 @@ id:LEC394 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/394> ;
-n		rdfs:label "H2"^^xsd:string .
+		rdfs:label "H2"^^xsd:string .
 
 id:LEC395 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
@@ -4320,7 +3786,7 @@ id:LEC399 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/399> ;
-n		rdfs:label "H3"^^xsd:string .
+		rdfs:label "H3"^^xsd:string .
 
 id:LEC400 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
@@ -4350,19 +3816,19 @@ id:LEC409 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/409> ;
-n		rdfs:label "H3"^^xsd:string .
+		rdfs:label "H3"^^xsd:string .
 
 id:LEC410 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/410> ;
-n		rdfs:label "H3"^^xsd:string .
+		rdfs:label "H3"^^xsd:string .
 
 id:LEC411 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/411> ;
-n		rdfs:label "H3"^^xsd:string .
+		rdfs:label "H3"^^xsd:string .
 
 id:LEC412 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
@@ -4376,7 +3842,7 @@ id:LEC413 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/413> ;
-n		rdfs:label "H3"^^xsd:string .
+		rdfs:label "H3"^^xsd:string .
 
 id:LEC414 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
@@ -4398,19 +3864,19 @@ id:LEC416 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/416> ;
-n		rdfs:label "H4"^^xsd:string .
+		rdfs:label "H4"^^xsd:string .
 
 id:LEC417 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/417> ;
-n		rdfs:label "H4"^^xsd:string .
+		rdfs:label "H4"^^xsd:string .
 
 id:LEC418 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/418> ;
-n		rdfs:label "H4"^^xsd:string .
+		rdfs:label "H4"^^xsd:string .
 
 id:LEC420 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
@@ -4440,25 +3906,25 @@ id:LEC423 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/423> ;
-n		rdfs:label "H5"^^xsd:string .
+		rdfs:label "H5"^^xsd:string .
 
 id:LEC424 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/424> ;
-n		rdfs:label "H5"^^xsd:string .
+		rdfs:label "H5"^^xsd:string .
 
 id:LEC425 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/425> ;
-n		rdfs:label "H5"^^xsd:string .
+		rdfs:label "H5"^^xsd:string .
 
 id:LEC426 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/426> ;
-n		rdfs:label "H5"^^xsd:string .
+		rdfs:label "H5"^^xsd:string .
 
 id:LEC427 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
@@ -4488,7 +3954,7 @@ id:LEC430 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/430> ;
-n		rdfs:label "H5"^^xsd:string .
+		rdfs:label "H5"^^xsd:string .
 
 id:LEC431 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
@@ -4526,13 +3992,13 @@ id:LEC435 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/435> ;
-n		rdfs:label "H5"^^xsd:string .
+		rdfs:label "H5"^^xsd:string .
 
 id:LEC436 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/436> ;
-n		rdfs:label "H5"^^xsd:string .
+		rdfs:label "H5"^^xsd:string .
 
 id:LEC437 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
@@ -4570,13 +4036,13 @@ id:LEC441 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/441> ;
-n		rdfs:label "H5"^^xsd:string .
+		rdfs:label "H5"^^xsd:string .
 
 id:LEC442 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/442> ;
-n		rdfs:label "H5"^^xsd:string .
+		rdfs:label "H5"^^xsd:string .
 
 id:LEC443 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
@@ -4590,7 +4056,7 @@ id:LEC444 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/444> ;
-n		rdfs:label "H5"^^xsd:string .
+		rdfs:label "H5"^^xsd:string .
 
 id:LEC445 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
@@ -4668,19 +4134,19 @@ id:LEC454 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/454> ;
-n		rdfs:label "H7"^^xsd:string .
+		rdfs:label "H7"^^xsd:string .
 
 id:LEC455 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/455> ;
-n		rdfs:label "H7"^^xsd:string .
+		rdfs:label "H7"^^xsd:string .
 
 id:LEC456 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/456> ;
-n		rdfs:label "H7"^^xsd:string .
+		rdfs:label "H7"^^xsd:string .
 
 id:LEC457 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
@@ -4694,7 +4160,7 @@ id:LEC458 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/458> ;
-n		rdfs:label "H7"^^xsd:string .
+		rdfs:label "H7"^^xsd:string .
 
 id:LEC459 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
@@ -4708,13 +4174,13 @@ id:LEC460 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/460> ;
-n		rdfs:label "H7"^^xsd:string .
+		rdfs:label "H7"^^xsd:string .
 
 id:LEC461 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/461> ;
-n		rdfs:label "H7"^^xsd:string .
+		rdfs:label "H7"^^xsd:string .
 
 id:LEC462 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
@@ -4736,7 +4202,7 @@ id:LEC464 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/464> ;
-n		rdfs:label "H9"^^xsd:string .
+		rdfs:label "H9"^^xsd:string .
 
 id:LEC465 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
@@ -4750,7 +4216,7 @@ id:LEC466 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/466> ;
-n		rdfs:label "H9"^^xsd:string .
+		rdfs:label "H9"^^xsd:string .
 
 id:LEC467 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
@@ -4772,7 +4238,7 @@ id:LEC469 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/469> ;
-n		rdfs:label "H9"^^xsd:string .
+		rdfs:label "H9"^^xsd:string .
 
 id:LEC470 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
@@ -4794,7 +4260,7 @@ id:LEC472 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/472> ;
-n		rdfs:label "H9"^^xsd:string .
+		rdfs:label "H9"^^xsd:string .
 
 id:LEC473 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
@@ -4832,7 +4298,7 @@ id:LEC484 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/484> ;
-n		rdfs:label "FimH"^^xsd:string .
+		rdfs:label "FimH"^^xsd:string .
 
 id:LEC552 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
@@ -4934,25 +4400,25 @@ id:LEC580 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/580> ;
-n		rdfs:label "68-kDa protein"^^xsd:string .
+		rdfs:label "68-kDa protein"^^xsd:string .
 
 id:LEC582 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/582> ;
-n		rdfs:label "EBA-175"^^xsd:string .
+		rdfs:label "EBA-175"^^xsd:string .
 
 id:LEC583 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/583> ;
-n		rdfs:label "BAEBL"^^xsd:string .
+		rdfs:label "BAEBL"^^xsd:string .
 
 id:LEC584 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/584> ;
-n		rdfs:label "EBP2"^^xsd:string .
+		rdfs:label "EBP2"^^xsd:string .
 
 id:LEC605 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
@@ -4966,25 +4432,25 @@ id:LEC615 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/615> ;
-n		rdfs:label "Exoenzyme S"^^xsd:string .
+		rdfs:label "Exoenzyme S"^^xsd:string .
 
 id:LEC616 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/616> ;
-n		rdfs:label "Pilin subunit"^^xsd:string .
+		rdfs:label "Pilin subunit"^^xsd:string .
 
 id:LEC617 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/617> ;
-n		rdfs:label "Exoenzyme S"^^xsd:string .
+		rdfs:label "Exoenzyme S"^^xsd:string .
 
 id:LEC618 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/618> ;
-n		rdfs:label "PA-IIL"^^xsd:string .
+		rdfs:label "PA-IIL"^^xsd:string .
 
 id:LEC619 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
@@ -4998,7 +4464,7 @@ id:LEC628 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/628> ;
-n		rdfs:label "B subunit"^^xsd:string .
+		rdfs:label "B subunit"^^xsd:string .
 
 id:LEC630 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
@@ -5036,19 +4502,19 @@ id:LEC648 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/648> ;
-n		rdfs:label "FimH"^^xsd:string .
+		rdfs:label "FimH"^^xsd:string .
 
 id:LEC669 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/669> ;
-n		rdfs:label "B subunit"^^xsd:string .
+		rdfs:label "B subunit"^^xsd:string .
 
 id:LEC670 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/670> ;
-n		rdfs:label "B subunit"^^xsd:string .
+		rdfs:label "B subunit"^^xsd:string .
 
 id:LEC686 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
@@ -5062,25 +4528,25 @@ id:LEC689 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/689> ;
-n		rdfs:label "GspB"^^xsd:string .
+		rdfs:label "GspB"^^xsd:string .
 
 id:LEC710 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/710> ;
-n		rdfs:label "P adhesin"^^xsd:string .
+		rdfs:label "P adhesin"^^xsd:string .
 
 id:LEC711 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/711> ;
-n		rdfs:label "P adhesin"^^xsd:string .
+		rdfs:label "P adhesin"^^xsd:string .
 
 id:LEC712 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/712> ;
-n		rdfs:label "18 kDa protein"^^xsd:string .
+		rdfs:label "18 kDa protein"^^xsd:string .
 
 id:LEC715 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
@@ -5102,7 +4568,7 @@ id:LEC717 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/717> ;
-n		rdfs:label "TgMIC4-A5"^^xsd:string .
+		rdfs:label "TgMIC4-A5"^^xsd:string .
 
 id:LEC722 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
@@ -5116,13 +4582,13 @@ id:LEC724 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/724> ;
-n		rdfs:label "B subunit"^^xsd:string .
+		rdfs:label "B subunit"^^xsd:string .
 
 id:LEC742 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,
 			:Lectin ;
 		foaf:homepage <https://sugarbind.expasy.org/lectins/742> ;
-n		rdfs:label "PH 6"^^xsd:string .
+		rdfs:label "PH 6"^^xsd:string .
 
 id:LEC743 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C16785 ,

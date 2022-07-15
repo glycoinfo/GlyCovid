@@ -10,6 +10,9 @@
 @prefix obo: <http://purl.obolibrary.org/obo/> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix gold: <http://rdf.glycoinfo.org/gold/id/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
 @base <http://purl.jp/bio/12/glyco/diseases#> .
 
 
@@ -21,44 +24,44 @@ id:DIS1 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C2991 ,
 			:Disease ;
 		:caused_by id:AGE399 ,
-			id:AGE/461 ,
-			id:AGE/115 ,
-			id:AGE/469 ,
-			id:AGE/463 ,
-			id:AGE/495 ,
-			id:AGE/36 ,
-			id:AGE/497 ,
-			id:AGE/509 ,
-			id:AGE/496 ,
-			id:AGE/498 ,
-			id:AGE/499 ,
-			id:AGE/501 ,
-			id:AGE/502 ,
-			id:AGE/507 ,
-			id:AGE/81 ,
-			id:AGE/419 ,
-			id:AGE/500 ,
-			id:AGE/508 ,
-			id:AGE/460 ,
-			id:AGE/120 ,
-			id:AGE/430 ,
-			id:AGE/456 ,
-			id:AGE/400 ,
-			id:AGE/511 ,
-			id:AGE/401 ,
-			id:AGE/402 ,
-			id:AGE/403 ,
-			id:AGE/454 ,
-			id:AGE/445 ,
-			id:AGE/451 ,
-			id:AGE/13 ,
-			id:AGE/14 ,
-			id:AGE/16 ,
-			id:AGE/15 ,
-			id:AGE/510 ,
-			id:AGE/452 ,
-			id:AGE/446 ,
-			id:AGE/61 ;
+			id:AGE461 ,
+			id:AGE115 ,
+			id:AGE469 ,
+			id:AGE463 ,
+			id:AGE495 ,
+			id:AGE36 ,
+			id:AGE497 ,
+			id:AGE509 ,
+			id:AGE496 ,
+			id:AGE498 ,
+			id:AGE499 ,
+			id:AGE501 ,
+			id:AGE502 ,
+			id:AGE507 ,
+			id:AGE81 ,
+			id:AGE419 ,
+			id:AGE500 ,
+			id:AGE508 ,
+			id:AGE460 ,
+			id:AGE120 ,
+			id:AGE430 ,
+			id:AGE456 ,
+			id:AGE400 ,
+			id:AGE511 ,
+			id:AGE401 ,
+			id:AGE402 ,
+			id:AGE403 ,
+			id:AGE454 ,
+			id:AGE445 ,
+			id:AGE451 ,
+			id:AGE13 ,
+			id:AGE14 ,
+			id:AGE16 ,
+			id:AGE15 ,
+			id:AGE510 ,
+			id:AGE452 ,
+			id:AGE446 ,
+			id:AGE61 ;
 		:caused_at id:ARE18 ,
 			id:ARE3 ,
 			id:ARE6 ,
@@ -69,7 +72,7 @@ id:DIS2 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C2991 ,
 			:Disease ;
 		:caused_by id:AGE3 ,
-			id:AGE/4 ;
+			id:AGE4 ;
 		:caused_at id:ARE2 ;
 		rdfs:label "Pleuropneumonia"^^xsd:string .
 
@@ -77,7 +80,7 @@ id:DIS3 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C2991 ,
 			:Disease ;
 		:caused_by id:AGE3 ,
-			id:AGE/4 ;
+			id:AGE4 ;
 		:caused_at id:ARE2 ;
 		rdfs:label "Porcine fibrinohemorrhagic necrotizing pleuropneumonia"^^xsd:string .
 
@@ -85,11 +88,11 @@ id:DIS4 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C2991 ,
 			:Disease ;
 		:caused_by id:AGE9 ,
-			id:AGE/11 ,
-			id:AGE/8 ,
-			id:AGE/10 ,
-			id:AGE/7 ,
-			id:AGE/12 ;
+			id:AGE11 ,
+			id:AGE8 ,
+			id:AGE10 ,
+			id:AGE7 ,
+			id:AGE12 ;
 		:caused_at id:ARE10 ,
 			id:ARE6 ,
 			id:ARE5 ,
@@ -101,7 +104,7 @@ id:DIS5 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C2991 ,
 			:Disease ;
 		:caused_by id:AGE488 ,
-			id:AGE/12 ;
+			id:AGE12 ;
 		:caused_at id:ARE10 ,
 			id:ARE5 ,
 			id:ARE9 ;
@@ -111,8 +114,8 @@ id:DIS6 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C2991 ,
 			:Disease ;
 		:caused_by id:AGE18 ,
-			id:AGE/19 ,
-			id:AGE/21 ;
+			id:AGE19 ,
+			id:AGE21 ;
 		:caused_at id:ARE3 ;
 		rdfs:label "Pertussis"^^xsd:string .
 
@@ -127,10 +130,10 @@ id:DIS8 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C2991 ,
 			:Disease ;
 		:caused_by id:AGE34 ,
-			id:AGE/30 ,
-			id:AGE/33 ,
-			id:AGE/31 ,
-			id:AGE/32 ;
+			id:AGE30 ,
+			id:AGE33 ,
+			id:AGE31 ,
+			id:AGE32 ;
 		:caused_at id:ARE3 ;
 		rdfs:label "Cutaneous lesions"^^xsd:string .
 
@@ -138,10 +141,10 @@ id:DIS9 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C2991 ,
 			:Disease ;
 		:caused_by id:AGE38 ,
-			id:AGE/40 ,
-			id:AGE/39 ,
-			id:AGE/42 ,
-			id:AGE/41 ;
+			id:AGE40 ,
+			id:AGE39 ,
+			id:AGE42 ,
+			id:AGE41 ;
 		:caused_at id:ARE14 ;
 		rdfs:label "Melioidosis"^^xsd:string .
 
@@ -149,9 +152,9 @@ id:DIS10 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C2991 ,
 			:Disease ;
 		:caused_by id:AGE52 ,
-			id:AGE/53 ,
-			id:AGE/54 ,
-			id:AGE/55 ;
+			id:AGE53 ,
+			id:AGE54 ,
+			id:AGE55 ;
 		:caused_at id:ARE3 ;
 		rdfs:label "Candidiasis"^^xsd:string .
 
@@ -173,19 +176,19 @@ id:DIS13 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C2991 ,
 			:Disease ;
 		:caused_by id:AGE76 ,
-			id:AGE/74 ,
-			id:AGE/72 ,
-			id:AGE/71 ,
-			id:AGE/70 ,
-			id:AGE/68 ,
-			id:AGE/67 ,
-			id:AGE/66 ,
-			id:AGE/65 ,
-			id:AGE/64 ,
-			id:AGE/63 ,
-			id:AGE/78 ,
-			id:AGE/62 ,
-			id:AGE/61 ;
+			id:AGE74 ,
+			id:AGE72 ,
+			id:AGE71 ,
+			id:AGE70 ,
+			id:AGE68 ,
+			id:AGE67 ,
+			id:AGE66 ,
+			id:AGE65 ,
+			id:AGE64 ,
+			id:AGE63 ,
+			id:AGE78 ,
+			id:AGE62 ,
+			id:AGE61 ;
 		:caused_at id:ARE15 ,
 			id:ARE3 ;
 		rdfs:label "Botulism"^^xsd:string .
@@ -194,7 +197,7 @@ id:DIS14 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C2991 ,
 			:Disease ;
 		:caused_by id:AGE84 ,
-			id:AGE/61 ;
+			id:AGE61 ;
 		:caused_at id:ARE19 ,
 			id:ARE4 ;
 		rdfs:label "Clostridial myonecrosis"^^xsd:string .
@@ -203,11 +206,11 @@ id:DIS15 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C2991 ,
 			:Disease ;
 		:caused_by id:AGE95 ,
-			id:AGE/91 ,
-			id:AGE/61 ,
-			id:AGE/87 ,
-			id:AGE/89 ,
-			id:AGE/93 ;
+			id:AGE91 ,
+			id:AGE61 ,
+			id:AGE87 ,
+			id:AGE89 ,
+			id:AGE93 ;
 		:caused_at id:ARE20 ;
 		rdfs:label "Tetanus"^^xsd:string .
 
@@ -215,9 +218,9 @@ id:DIS16 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C2991 ,
 			:Disease ;
 		:caused_by id:AGE101 ,
-			id:AGE/102 ,
-			id:AGE/103 ,
-			id:AGE/104 ;
+			id:AGE102 ,
+			id:AGE103 ,
+			id:AGE104 ;
 		:caused_at id:ARE3 ;
 		rdfs:label "Cryptococcosis"^^xsd:string .
 
@@ -225,8 +228,8 @@ id:DIS17 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C2991 ,
 			:Disease ;
 		:caused_by id:AGE107 ,
-			id:AGE/109 ,
-			id:AGE/108 ;
+			id:AGE109 ,
+			id:AGE108 ;
 		:caused_at id:ARE3 ;
 		rdfs:label "Amebiasis"^^xsd:string .
 
@@ -234,7 +237,7 @@ id:DIS18 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C2991 ,
 			:Disease ;
 		:caused_by id:AGE117 ,
-			id:AGE/116 ;
+			id:AGE116 ;
 		:caused_at id:ARE22 ;
 		rdfs:label "Cystitis"^^xsd:string .
 
@@ -249,17 +252,17 @@ id:DIS20 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C2991 ,
 			:Disease ;
 		:caused_by id:AGE121 ,
-			id:AGE/130 ,
-			id:AGE/123 ,
-			id:AGE/127 ,
-			id:AGE/124 ,
-			id:AGE/125 ,
-			id:AGE/126 ,
-			id:AGE/152 ,
-			id:AGE/128 ,
-			id:AGE/129 ,
-			id:AGE/132 ,
-			id:AGE/122 ;
+			id:AGE130 ,
+			id:AGE123 ,
+			id:AGE127 ,
+			id:AGE124 ,
+			id:AGE125 ,
+			id:AGE126 ,
+			id:AGE152 ,
+			id:AGE128 ,
+			id:AGE129 ,
+			id:AGE132 ,
+			id:AGE122 ;
 		:caused_at id:ARE23 ,
 			id:ARE22 ,
 			id:ARE3 ;
@@ -284,19 +287,19 @@ id:DIS23 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C2991 ,
 			:Disease ;
 		:caused_by id:AGE210 ,
-			id:AGE/209 ,
-			id:AGE/216 ,
-			id:AGE/204 ,
-			id:AGE/206 ,
-			id:AGE/208 ,
-			id:AGE/217 ,
-			id:AGE/211 ,
-			id:AGE/213 ,
-			id:AGE/214 ,
-			id:AGE/205 ,
-			id:AGE/207 ,
-			id:AGE/215 ,
-			id:AGE/212 ;
+			id:AGE209 ,
+			id:AGE216 ,
+			id:AGE204 ,
+			id:AGE206 ,
+			id:AGE208 ,
+			id:AGE217 ,
+			id:AGE211 ,
+			id:AGE213 ,
+			id:AGE214 ,
+			id:AGE205 ,
+			id:AGE207 ,
+			id:AGE215 ,
+			id:AGE212 ;
 		:caused_at id:ARE24 ;
 		rdfs:label "Chronic gastritis"^^xsd:string .
 
@@ -304,19 +307,19 @@ id:DIS24 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C2991 ,
 			:Disease ;
 		:caused_by id:AGE210 ,
-			id:AGE/208 ,
-			id:AGE/204 ,
-			id:AGE/216 ,
-			id:AGE/217 ,
-			id:AGE/214 ,
-			id:AGE/211 ,
-			id:AGE/212 ,
-			id:AGE/213 ,
-			id:AGE/207 ,
-			id:AGE/209 ,
-			id:AGE/205 ,
-			id:AGE/215 ,
-			id:AGE/206 ;
+			id:AGE208 ,
+			id:AGE204 ,
+			id:AGE216 ,
+			id:AGE217 ,
+			id:AGE214 ,
+			id:AGE211 ,
+			id:AGE212 ,
+			id:AGE213 ,
+			id:AGE207 ,
+			id:AGE209 ,
+			id:AGE205 ,
+			id:AGE215 ,
+			id:AGE206 ;
 		:caused_at id:ARE24 ;
 		rdfs:label "Peptic ulcers"^^xsd:string .
 
@@ -324,19 +327,19 @@ id:DIS25 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C2991 ,
 			:Disease ;
 		:caused_by id:AGE206 ,
-			id:AGE/205 ,
-			id:AGE/204 ,
-			id:AGE/215 ,
-			id:AGE/212 ,
-			id:AGE/208 ,
-			id:AGE/207 ,
-			id:AGE/216 ,
-			id:AGE/214 ,
-			id:AGE/210 ,
-			id:AGE/209 ,
-			id:AGE/213 ,
-			id:AGE/211 ,
-			id:AGE/217 ;
+			id:AGE205 ,
+			id:AGE204 ,
+			id:AGE215 ,
+			id:AGE212 ,
+			id:AGE208 ,
+			id:AGE207 ,
+			id:AGE216 ,
+			id:AGE214 ,
+			id:AGE210 ,
+			id:AGE209 ,
+			id:AGE213 ,
+			id:AGE211 ,
+			id:AGE217 ;
 		:caused_at id:ARE24 ;
 		rdfs:label "Gastric cancer"^^xsd:string .
 
@@ -344,7 +347,7 @@ id:DIS26 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C2991 ,
 			:Disease ;
 		:caused_by id:AGE220 ,
-			id:AGE/221 ;
+			id:AGE221 ;
 		:caused_at id:ARE3 ;
 		rdfs:label "Histoplasmosis"^^xsd:string .
 
@@ -352,105 +355,105 @@ id:DIS27 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C2991 ,
 			:Disease ;
 		:caused_by id:AGE322 ,
-			id:AGE/327 ,
-			id:AGE/329 ,
-			id:AGE/326 ,
-			id:AGE/325 ,
-			id:AGE/323 ,
-			id:AGE/321 ,
-			id:AGE/313 ,
-			id:AGE/319 ,
-			id:AGE/317 ,
-			id:AGE/315 ,
-			id:AGE/330 ,
-			id:AGE/312 ,
-			id:AGE/310 ,
-			id:AGE/308 ,
-			id:AGE/320 ,
-			id:AGE/331 ,
-			id:AGE/337 ,
-			id:AGE/333 ,
-			id:AGE/306 ,
-			id:AGE/345 ,
-			id:AGE/344 ,
-			id:AGE/241 ,
-			id:AGE/239 ,
-			id:AGE/240 ,
-			id:AGE/343 ,
-			id:AGE/342 ,
-			id:AGE/335 ,
-			id:AGE/341 ,
-			id:AGE/340 ,
-			id:AGE/339 ,
-			id:AGE/338 ,
-			id:AGE/336 ,
-			id:AGE/334 ,
-			id:AGE/332 ,
-			id:AGE/304 ,
-			id:AGE/272 ,
-			id:AGE/301 ,
-			id:AGE/266 ,
-			id:AGE/231 ,
-			id:AGE/227 ,
-			id:AGE/552 ,
-			id:AGE/229 ,
-			id:AGE/230 ,
-			id:AGE/243 ,
-			id:AGE/235 ,
-			id:AGE/244 ,
-			id:AGE/303 ,
-			id:AGE/236 ,
-			id:AGE/245 ,
-			id:AGE/246 ,
-			id:AGE/268 ,
-			id:AGE/248 ,
-			id:AGE/252 ,
-			id:AGE/257 ,
-			id:AGE/253 ,
-			id:AGE/254 ,
-			id:AGE/262 ,
-			id:AGE/256 ,
-			id:AGE/258 ,
-			id:AGE/260 ,
-			id:AGE/259 ,
-			id:AGE/255 ,
-			id:AGE/264 ,
-			id:AGE/263 ,
-			id:AGE/237 ,
-			id:AGE/250 ,
-			id:AGE/269 ,
-			id:AGE/228 ,
-			id:AGE/271 ,
-			id:AGE/293 ,
-			id:AGE/292 ,
-			id:AGE/291 ,
-			id:AGE/290 ,
-			id:AGE/289 ,
-			id:AGE/270 ,
-			id:AGE/275 ,
-			id:AGE/276 ,
-			id:AGE/294 ,
-			id:AGE/277 ,
-			id:AGE/279 ,
-			id:AGE/280 ,
-			id:AGE/281 ,
-			id:AGE/282 ,
-			id:AGE/283 ,
-			id:AGE/284 ,
-			id:AGE/285 ,
-			id:AGE/286 ,
-			id:AGE/278 ,
-			id:AGE/295 ,
-			id:AGE/297 ,
-			id:AGE/298 ,
-			id:AGE/238 ,
-			id:AGE/225 ,
-			id:AGE/287 ,
-			id:AGE/273 ,
-			id:AGE/274 ,
-			id:AGE/300 ,
-			id:AGE/288 ,
-			id:AGE/299 ;
+			id:AGE327 ,
+			id:AGE329 ,
+			id:AGE326 ,
+			id:AGE325 ,
+			id:AGE323 ,
+			id:AGE321 ,
+			id:AGE313 ,
+			id:AGE319 ,
+			id:AGE317 ,
+			id:AGE315 ,
+			id:AGE330 ,
+			id:AGE312 ,
+			id:AGE310 ,
+			id:AGE308 ,
+			id:AGE320 ,
+			id:AGE331 ,
+			id:AGE337 ,
+			id:AGE333 ,
+			id:AGE306 ,
+			id:AGE345 ,
+			id:AGE344 ,
+			id:AGE241 ,
+			id:AGE239 ,
+			id:AGE240 ,
+			id:AGE343 ,
+			id:AGE342 ,
+			id:AGE335 ,
+			id:AGE341 ,
+			id:AGE340 ,
+			id:AGE339 ,
+			id:AGE338 ,
+			id:AGE336 ,
+			id:AGE334 ,
+			id:AGE332 ,
+			id:AGE304 ,
+			id:AGE272 ,
+			id:AGE301 ,
+			id:AGE266 ,
+			id:AGE231 ,
+			id:AGE227 ,
+			id:AGE552 ,
+			id:AGE229 ,
+			id:AGE230 ,
+			id:AGE243 ,
+			id:AGE235 ,
+			id:AGE244 ,
+			id:AGE303 ,
+			id:AGE236 ,
+			id:AGE245 ,
+			id:AGE246 ,
+			id:AGE268 ,
+			id:AGE248 ,
+			id:AGE252 ,
+			id:AGE257 ,
+			id:AGE253 ,
+			id:AGE254 ,
+			id:AGE262 ,
+			id:AGE256 ,
+			id:AGE258 ,
+			id:AGE260 ,
+			id:AGE259 ,
+			id:AGE255 ,
+			id:AGE264 ,
+			id:AGE263 ,
+			id:AGE237 ,
+			id:AGE250 ,
+			id:AGE269 ,
+			id:AGE228 ,
+			id:AGE271 ,
+			id:AGE293 ,
+			id:AGE292 ,
+			id:AGE291 ,
+			id:AGE290 ,
+			id:AGE289 ,
+			id:AGE270 ,
+			id:AGE275 ,
+			id:AGE276 ,
+			id:AGE294 ,
+			id:AGE277 ,
+			id:AGE279 ,
+			id:AGE280 ,
+			id:AGE281 ,
+			id:AGE282 ,
+			id:AGE283 ,
+			id:AGE284 ,
+			id:AGE285 ,
+			id:AGE286 ,
+			id:AGE278 ,
+			id:AGE295 ,
+			id:AGE297 ,
+			id:AGE298 ,
+			id:AGE238 ,
+			id:AGE225 ,
+			id:AGE287 ,
+			id:AGE273 ,
+			id:AGE274 ,
+			id:AGE300 ,
+			id:AGE288 ,
+			id:AGE299 ;
 		:caused_at id:ARE25 ,
 			id:ARE3 ,
 			id:ARE27 ;
@@ -460,9 +463,9 @@ id:DIS28 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C2991 ,
 			:Disease ;
 		:caused_by id:AGE351 ,
-			id:AGE/350 ,
-			id:AGE/349 ,
-			id:AGE/348 ;
+			id:AGE350 ,
+			id:AGE349 ,
+			id:AGE348 ;
 		:caused_at id:ARE3 ;
 		rdfs:label "Klebsiella pneumonia infection"^^xsd:string .
 
@@ -470,7 +473,7 @@ id:DIS29 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C2991 ,
 			:Disease ;
 		:caused_by id:AGE360 ,
-			id:AGE/361 ;
+			id:AGE361 ;
 		:caused_at id:ARE3 ;
 		rdfs:label "Pneumonia"^^xsd:string .
 
@@ -478,7 +481,7 @@ id:DIS30 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C2991 ,
 			:Disease ;
 		:caused_by id:AGE361 ,
-			id:AGE/360 ;
+			id:AGE360 ;
 		:caused_at id:ARE3 ;
 		rdfs:label "Legionnaires' disease"^^xsd:string .
 
@@ -493,7 +496,7 @@ id:DIS32 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C2991 ,
 			:Disease ;
 		:caused_by id:AGE369 ,
-			id:AGE/368 ;
+			id:AGE368 ;
 		:caused_at id:ARE3 ;
 		rdfs:label "Pharyngitis"^^xsd:string .
 
@@ -501,7 +504,7 @@ id:DIS33 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C2991 ,
 			:Disease ;
 		:caused_by id:AGE369 ,
-			id:AGE/368 ;
+			id:AGE368 ;
 		:caused_at id:ARE3 ;
 		rdfs:label "Tracheobronchitis"^^xsd:string .
 
@@ -509,16 +512,16 @@ id:DIS34 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C2991 ,
 			:Disease ;
 		:caused_by id:AGE381 ,
-			id:AGE/378 ,
-			id:AGE/379 ,
-			id:AGE/377 ,
-			id:AGE/376 ,
-			id:AGE/375 ,
-			id:AGE/374 ,
-			id:AGE/373 ,
-			id:AGE/372 ,
-			id:AGE/371 ,
-			id:AGE/380 ;
+			id:AGE378 ,
+			id:AGE379 ,
+			id:AGE377 ,
+			id:AGE376 ,
+			id:AGE375 ,
+			id:AGE374 ,
+			id:AGE373 ,
+			id:AGE372 ,
+			id:AGE371 ,
+			id:AGE380 ;
 		:caused_at id:ARE3 ;
 		rdfs:label "Gonorrhea"^^xsd:string .
 
@@ -526,28 +529,28 @@ id:DIS35 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C2991 ,
 			:Disease ;
 		:caused_by id:AGE558 ,
-			id:AGE/560 ,
-			id:AGE/441 ,
-			id:AGE/557 ,
-			id:AGE/391 ,
-			id:AGE/569 ,
-			id:AGE/556 ,
-			id:AGE/386 ,
-			id:AGE/566 ,
-			id:AGE/388 ,
-			id:AGE/389 ,
-			id:AGE/390 ,
-			id:AGE/392 ,
-			id:AGE/393 ,
-			id:AGE/394 ,
-			id:AGE/387 ,
-			id:AGE/559 ,
-			id:AGE/396 ,
-			id:AGE/397 ,
-			id:AGE/395 ,
-			id:AGE/442 ,
-			id:AGE/439 ,
-			id:AGE/440 ;
+			id:AGE560 ,
+			id:AGE441 ,
+			id:AGE557 ,
+			id:AGE391 ,
+			id:AGE569 ,
+			id:AGE556 ,
+			id:AGE386 ,
+			id:AGE566 ,
+			id:AGE388 ,
+			id:AGE389 ,
+			id:AGE390 ,
+			id:AGE392 ,
+			id:AGE393 ,
+			id:AGE394 ,
+			id:AGE387 ,
+			id:AGE559 ,
+			id:AGE396 ,
+			id:AGE397 ,
+			id:AGE395 ,
+			id:AGE442 ,
+			id:AGE439 ,
+			id:AGE440 ;
 		:caused_at id:ARE17 ,
 			id:ARE33 ;
 		rdfs:label "Gastroenteritis"^^xsd:string .
@@ -556,8 +559,8 @@ id:DIS36 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C2991 ,
 			:Disease ;
 		:caused_by id:AGE409 ,
-			id:AGE/410 ,
-			id:AGE/411 ;
+			id:AGE410 ,
+			id:AGE411 ;
 		:caused_at id:ARE3 ;
 		rdfs:label "Malaria"^^xsd:string .
 
@@ -572,7 +575,7 @@ id:DIS38 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C2991 ,
 			:Disease ;
 		:caused_by id:AGE473 ,
-			id:AGE/472 ;
+			id:AGE472 ;
 		:caused_at id:ARE3 ;
 		rdfs:label "Sporotrichosis"^^xsd:string .
 
@@ -580,8 +583,8 @@ id:DIS39 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C2991 ,
 			:Disease ;
 		:caused_by id:AGE516 ,
-			id:AGE/515 ,
-			id:AGE/514 ;
+			id:AGE515 ,
+			id:AGE514 ;
 		:caused_at id:ARE20 ,
 			id:ARE34 ;
 		rdfs:label "Toxoplasmosis"^^xsd:string .
@@ -597,15 +600,15 @@ id:DIS41 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C2991 ,
 			:Disease ;
 		:caused_by id:AGE524 ,
-			id:AGE/523 ,
-			id:AGE/536 ,
-			id:AGE/532 ,
-			id:AGE/525 ,
-			id:AGE/534 ,
-			id:AGE/526 ,
-			id:AGE/538 ,
-			id:AGE/530 ,
-			id:AGE/528 ;
+			id:AGE523 ,
+			id:AGE536 ,
+			id:AGE532 ,
+			id:AGE525 ,
+			id:AGE534 ,
+			id:AGE526 ,
+			id:AGE538 ,
+			id:AGE530 ,
+			id:AGE528 ;
 		:caused_at id:ARE3 ;
 		rdfs:label "Cholera"^^xsd:string .
 
@@ -634,8 +637,8 @@ id:DIS46 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C2991 ,
 			:Disease ;
 		:caused_by id:AGE223 ,
-			id:AGE/222 ,
-			id:AGE/224 ;
+			id:AGE222 ,
+			id:AGE224 ;
 		:caused_at id:ARE7 ;
 		rdfs:label "Acquired immune deficiency syndrome"^^xsd:string .
 

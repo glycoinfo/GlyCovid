@@ -18,6 +18,8 @@ PREFIX = '@prefix : <http://rdf.glycoinfo.org/SugarBind/Ontology#> .\n\
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .\n\
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .\n\
 @prefix gold: <http://rdf.glycoinfo.org/gold/id/> .\n\
+@prefix dcterms: <http://purl.org/dc/terms/> .\n\
+@prefix bibo: <http://purl.org/ontology/bibo/> .\n\
 @base <http://purl.jp/bio/12/glyco/diseases#> .\n\n\n'
 # def agent_list():
 #     target_link = link_header + '/agents?n=407'                                                                             # set scraping target link
@@ -512,7 +514,7 @@ def ttl_pubmed():
     file.write('### Individuals (Pubmed) \n')                                                                               # inserting ttl header title
     file.write('#######################################################\n\n')
     for index, item in df_pubmed.iterrows():
-        file.write(f'''id:PUB{item["Pubmed ID"]} rdf:type owl:NamedIndividual ,\n\t\t\t:Pubmed ,\n\t\t\tobo:NCIT_C42881 ;\n\t\tdctermes:references <http://www.ncbi.nlm.nih.gov/pubmed/{item["Pubmed ID"]}> ;\n\t\tbibo:pmid "{item["Pubmed ID"]}"^^xsd:string ;\n\t\trdfs:label "{item["Pubmed ID"]}"^^xsd:string .\n\n''')
+        file.write(f'''id:PUB{item["Pubmed ID"]} rdf:type owl:NamedIndividual ,\n\t\t\t:Pubmed ,\n\t\t\tobo:NCIT_C42881 ;\n\t\tdcterms:references <http://www.ncbi.nlm.nih.gov/pubmed/{item["Pubmed ID"]}> ;\n\t\tbibo:pmid "{item["Pubmed ID"]}"^^xsd:string ;\n\t\trdfs:label "{item["Pubmed ID"]}"^^xsd:string .\n\n''')
                                                                                                                             # inserting ttl content
     file.close()
 
@@ -539,7 +541,7 @@ def ttl_ligand():
     file.write('### Individuals (Ligand) \n')                                                                               # inserting ttl header
     file.write('#######################################################\n\n')
     for index in range(1, 205):
-        file.write(f'''id:LIG{ index } rdf:type owl:NamedIndividual ,\n\t\t\tobo:NCIT_C95009 ,\n\t\t\t:Ligand ;\n\t\tfoaf:homepage <https://sugarbind.expasy.org/ligands/{ index }> ;\n\t\tdctermes:references <https://sugarbind.expasy.org/ligands/{ index }> ;\n''')
+        file.write(f'''id:LIG{ index } rdf:type owl:NamedIndividual ,\n\t\t\tobo:NCIT_C95009 ,\n\t\t\t:Ligand ;\n\t\tfoaf:homepage <https://sugarbind.expasy.org/ligands/{ index }> ;\n\t\tdcterms:references <https://sugarbind.expasy.org/ligands/{ index }> ;\n''')
                                                                                                                             # inserting ttl content
 
         filtered_structure_ligand = df_structure_ligand.loc[df_structure_ligand['Ligand ID'] == index]                      # filtering loaded data frame with ligand id
@@ -573,9 +575,10 @@ def ttl_lectin():
     file.write('#######################################################\n\n')
     for index, item in df_lectin_ns.iterrows():
         if type(item["Uniprot ID"]) is str:
-            file.write(f'''id:LEC{ item["Lectin ID"] } rdf:type owl:NamedIndividual ,\n\t\t\tobo:NCIT_C16785 ,\n\t\t\t:Lectin ;\n\t\tfoaf:homepage <https://sugarbind.expasy.org/lectins/{item["Lectin ID"]}> ;\n\t\tdctermes:references <https://sugarbind.expasy.org/lectins/{item["Lectin ID"]}> ;\n\t\t:uniprotId <http://purl.uniprot.org/uniprot/{ item["Uniprot link"][32:] }> ;\n\t\trdfs:seeAlso <http://purl.uniprot.org/uniprot/{ item["Uniprot link"][32:] }>\n\t\trdfs:label "{item["Lectin ID"]}"^^xsd:string .\n\n''')
+            file.write(f'''id:LEC{ item["Lectin ID"] } rdf:type owl:NamedIndividual ,\n\t\t\tobo:NCIT_C16785 ,\n\t\t\t:Lectin ;\n\t\tfoaf:homepage <https://sugarbind.expasy.org/lectins/{item["Lectin ID"]}> ;\n\t\tdcterms:references <https://sugarbind.expasy.org/lectins/{item["Lectin ID"]}> ;\n\t\t:uniprotId <http://purl.uniprot.org/uniprot/{ item["Uniprot link"][32:] }> ;\n\t\trdfs:seeAlso <http://purl.uniprot.org/uniprot/{ item["Uniprot link"][32:] }> ;\n\t\trdfs:label "{item["Lectin ID"]}"^^xsd:string .\n\n''')
         else:
-            file.write(f'''id:LEC{item["Lectin ID"]} rdf:type owl:NamedIndividual ,\n\t\t\tobo:NCIT_C16785 ,\n\t\t\t:Lectin ;\n\t\tfoaf:homepage <https://sugarbind.expasy.org/lectins/{item["Lectin ID"]}> ;\n\t\t<https://sugarbind.expasy.org/lectins/{item["Lectin ID"]}> ;\n\t\trdfs:label "{item["Lectin ID"]}"^^xsd:string .\n\n''')
+            file.write(f'''id:LEC{item["Lectin ID"]} rdf:type owl:NamedIndividual ,\n\t\t\tobo:NCIT_C16785 ,\n\t\t\t:Lectin ;\n\t\tfoaf:homepage <https://sugarbind.expasy.org/lectins/{item["Lectin ID"]}> ;\n\t\trdfs:label "{item["Lectin ID"]}"^^xsd:string .\n\n''')
+            # file.write(f'''id:LEC{item["Lectin ID"]} rdf:type owl:NamedIndividual ,\n\t\t\tobo:NCIT_C16785 ,\n\t\t\t:Lectin ;\n\t\tfoaf:homepage <https://sugarbind.expasy.org/lectins/{item["Lectin ID"]}> ;\n\t\t<https://sugarbind.expasy.org/lectins/{item["Lectin ID"]}> ;\n\t\trdfs:label "{item["Lectin ID"]}"^^xsd:string .\n\n''')
     file.write('#######################################################\n')
     file.write('### Individuals (Lectin without N/S) \n')
     file.write('#######################################################\n\n')
@@ -584,7 +587,7 @@ def ttl_lectin():
         if type(item["Uniprot ID"]) is str:
             file.write(f'''id:LEC{item["Lectin ID"]} rdf:type owl:NamedIndividual ,\n\t\t\tobo:NCIT_C16785 ,\n\t\t\t:Lectin ;\n\t\tfoaf:homepage <https://sugarbind.expasy.org/lectins/{item["Lectin ID"]}> ;\n\t\tdcterms:references <https://sugarbind.expasy.org/lectins/{item["Lectin ID"]}> ;\n\t\t:uniprotId <http://purl.uniprot.org/uniprot/{ item["Uniprot link"][32:] }> ;\n\t\trdfs:label "{item["Lectin name"]}"^^xsd:string .\n\n''')
         else:
-            file.write(f'''id:LEC{item["Lectin ID"]} rdf:type owl:NamedIndividual ,\n\t\t\tobo:NCIT_C16785 ,\n\t\t\t:Lectin ;\n\t\tfoaf:homepage <https://sugarbind.expasy.org/lectins/{item["Lectin ID"]}> ;\nn\t\trdfs:label "{item["Lectin name"]}"^^xsd:string .\n\n''')
+            file.write(f'''id:LEC{item["Lectin ID"]} rdf:type owl:NamedIndividual ,\n\t\t\tobo:NCIT_C16785 ,\n\t\t\t:Lectin ;\n\t\tfoaf:homepage <https://sugarbind.expasy.org/lectins/{item["Lectin ID"]}> ;\n\t\trdfs:label "{item["Lectin name"]}"^^xsd:string .\n\n''')
     file.close()
 
 def ttl_disease():
@@ -644,7 +647,7 @@ def ttl_area():
     file.write('#######################################################\n\n')
     for index, item in df_area_list.iterrows():
         category = ''
-        text = f'id:ARE{item["Affected Area ID"]} rdf:type owl:NamedIndividual ,\n\t\t\tobo:NCIT_C12801\n'
+        text = f'id:ARE{item["Affected Area ID"]} rdf:type owl:NamedIndividual ,\n\t\t\tobo:NCIT_C12801,\n'
         if item["Area Type"] == 1:
             category = 'System'
         elif item["Area Type"] == 2:
@@ -655,7 +658,7 @@ def ttl_area():
             category = 'Cell'
         text += f'\t\t:Area ,\n'
         text += f'\t\t:{category} ;\n'
-        text += f'\t\tfoaf:homepage <https://sugarbind.expasy.org/affectedAreas/{ item["Affected Area ID"]}>\n'
+        text += f'\t\tfoaf:homepage <https://sugarbind.expasy.org/affectedAreas/{ item["Affected Area ID"]}> ;\n'
         text += f'\t\trdfs:label "{item["Area Name"]}"^^xsd:string .\n\n'
         file.write(text)
     file.close()
@@ -697,7 +700,7 @@ def ttl_agent():
         filtered_agent_disease = df_agent_disease.loc[df_agent_disease['Agent ID'] == item['Agent ID']]
         filtered_agent_area = df_agent_area.loc[df_agent_area['Agent ID'] == item['Agent ID']]
         if len(filtered_agent_disease) > 0 or len(filtered_agent_area) > 0:
-            text = f'''id:AGE{ item["Agent ID"] } rdf:type owl:NamedIndividual ,\n\t\t\t:Agent ;\n\t\tfoaf:homepage <https://sugarbind.expasy.org/agents/{ item["Agent ID"] }> ;\n\t\tdctermes:references <https://sugarbind.expasy.org/agents/{ item["Agent ID"] }> ;\n'''
+            text = f'''id:AGE{ item["Agent ID"] } rdf:type owl:NamedIndividual ,\n\t\t\t:Agent ;\n\t\tfoaf:homepage <https://sugarbind.expasy.org/agents/{ item["Agent ID"] }> ;\n\t\tdcterms:references <https://sugarbind.expasy.org/agents/{ item["Agent ID"] }> ;\n'''
             if len(filtered_agent_disease) == 1:
                 for ind, ite in filtered_agent_disease.iterrows():
                     text += f'\t\t:causes id:DIS{ ite["Disease ID"] } ;\n\t\t<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS{ ite["Disease ID"] };\n'
@@ -710,12 +713,14 @@ def ttl_agent():
                     else:
                         text += f'\t\t\tid:DIS{ ite["Disease ID"] } ,\n'
                 text = text[:-2] + ';\n'
+                firstLoop = True
                 for ind, ite in filtered_agent_disease.iterrows():
                     if firstLoop:
                         text += f'\t\t<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS{ ite["Disease ID"] },\n'
                         firstLoop = False
                     else:
-                        text += f'\t\t\t<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS{ ite["Disease ID"] },\n'
+                        # text += f'\t\t\t<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS{ ite["Disease ID"] },\n'
+                        text += f'\t\t\tid:DIS{ ite["Disease ID"] },\n'
                 text = text[:-2] + ';\n'
             if len(filtered_agent_area) == 1:
                 for ind, ite in filtered_agent_area.iterrows():
@@ -735,7 +740,7 @@ def ttl_agent():
             # text += f'\t:agentId "{ item["Agent ID"] }"^^xsd:string ;\n\trdfs:label "{ item["Agent Name"] }"^^xsd:string .\n'
             text += f'\t\trdfs:label "{ item["Agent Name"] }"^^xsd:string ;\n\t\tskos:prefLabel "{ item["Agent Name"] }"^^xsd:string ;\n'
         else:
-            text = f'''id:AGE{ item["Agent ID"] } rdf:type owl:NamedIndividual ,\n\t\t\t:Agent ;\n\t\tfoaf:homepage <https://sugarbind.expasy.org/agents/{ item["Agent ID"] }> ;\n\t\tdctermes:references <https://sugarbind.expasy.org/agents/{ item["Agent ID"] }> ;\n\t\trdfs:label "{ item["Agent Name"] }"^^xsd:string ;\n\t\tskos:prefLabel "{ item["Agent Name"] }"^^xsd:string ;\n'''
+            text = f'''id:AGE{ item["Agent ID"] } rdf:type owl:NamedIndividual ,\n\t\t\t:Agent ;\n\t\tfoaf:homepage <https://sugarbind.expasy.org/agents/{ item["Agent ID"] }> ;\n\t\tdcterms:references <https://sugarbind.expasy.org/agents/{ item["Agent ID"] }> ;\n\t\trdfs:label "{ item["Agent Name"] }"^^xsd:string ;\n\t\tskos:prefLabel "{ item["Agent Name"] }"^^xsd:string ;\n'''
         
         # lineage_up
         if str(item['Agent ID']) in lineage_dictionary:
@@ -751,13 +756,13 @@ def ttl_agent():
             first = True
             for gold in item["GOLD"].split(','):
                 if first:
-                    text += '\t\t:rdfs:seeAlso gold:{}> ,\n'.format(re.findall(r'([0-9]+)', gold)[0])
+                    text += '\t\trdfs:seeAlso gold:{} ,\n'.format(re.findall(r'([0-9]+)', gold)[0])
                     # text += '\t\t:rdfs:seeAlso <http://rdf.glycoinfo.org/gold/id/{}> ,\n'.format(re.findall(r'([0-9]+)', gold)[0])
                     if re.findall(r'([0-9]+)', gold)[0] not in gold_ttl:
                         gold_ttl.append(re.findall(r'([0-9]+)', gold)[0])
                     first = False
                 else:
-                    text += '\t\t\tgold:{}> ,\n'.format(re.findall(r'([0-9]+)', gold)[0])
+                    text += '\t\t\tgold:{} ,\n'.format(re.findall(r'([0-9]+)', gold)[0])
                     # text += '\t\t\t<http://rdf.glycoinfo.org/gold/id/{}> ,\n'.format(re.findall(r'([0-9]+)', gold)[0])
                     if re.findall(r'([0-9]+)', gold)[0] not in gold_ttl:
                         gold_ttl.append(re.findall(r'([0-9]+)', gold)[0])
@@ -777,7 +782,7 @@ def ttl_agent():
 
         file.write(text + '\n')
     for val in gold_ttl:
-        text = f'gold:{ val }> foaf:homepage <https://gold.jgi.doe.gov/organisms?id={ val }>.\n'
+        text = f'gold:{ val } foaf:homepage <https://gold.jgi.doe.gov/organisms?id={ val }>.\n'
         # text = f'<http://rdf.glycoinfo.org/gold/id/{ val }> foaf:homepage <https://gold.jgi.doe.gov/organisms?id={ val }>.\n'
         file.write(text)
     
