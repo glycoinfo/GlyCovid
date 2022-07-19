@@ -55,7 +55,7 @@ id:AGE7 rdf:type owl:NamedIndividual ,
 		foaf:homepage <https://sugarbind.expasy.org/agents/7> ;
 		dcterms:references <https://sugarbind.expasy.org/agents/7> ;
 		:causes id:DIS4 ;
-		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS4;
+		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS4 ;
 		:found_in id:ARE3 ;
 		rdfs:label "Actinomyces naeslundii N/S"^^xsd:string ;
 		skos:prefLabel "Actinomyces naeslundii N/S"^^xsd:string ;
@@ -68,7 +68,7 @@ id:AGE8 rdf:type owl:NamedIndividual ,
 		foaf:homepage <https://sugarbind.expasy.org/agents/8> ;
 		dcterms:references <https://sugarbind.expasy.org/agents/8> ;
 		:causes id:DIS4 ;
-		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS4;
+		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS4 ;
 		:found_in id:ARE6 ;
 		rdfs:label "Actinomyces naeslundii N/S"^^xsd:string ;
 		skos:prefLabel "Actinomyces naeslundii N/S"^^xsd:string ;
@@ -81,7 +81,7 @@ id:AGE9 rdf:type owl:NamedIndividual ,
 		foaf:homepage <https://sugarbind.expasy.org/agents/9> ;
 		dcterms:references <https://sugarbind.expasy.org/agents/9> ;
 		:causes id:DIS4 ;
-		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS4;
+		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS4 ;
 		:found_in id:ARE6 ;
 		rdfs:label "Actinomyces naeslundii WVU45"^^xsd:string ;
 		skos:prefLabel "Actinomyces naeslundii WVU45"^^xsd:string ;
@@ -96,7 +96,7 @@ id:AGE10 rdf:type owl:NamedIndividual ,
 		foaf:homepage <https://sugarbind.expasy.org/agents/10> ;
 		dcterms:references <https://sugarbind.expasy.org/agents/10> ;
 		:causes id:DIS4 ;
-		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS4;
+		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS4 ;
 		:found_in id:ARE6 ;
 		rdfs:label "Actinomyces naeslundii N/S"^^xsd:string ;
 		skos:prefLabel "Actinomyces naeslundii N/S"^^xsd:string ;
@@ -109,7 +109,7 @@ id:AGE11 rdf:type owl:NamedIndividual ,
 		foaf:homepage <https://sugarbind.expasy.org/agents/11> ;
 		dcterms:references <https://sugarbind.expasy.org/agents/11> ;
 		:causes id:DIS4 ;
-		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS4;
+		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS4 ;
 		:found_in id:ARE6 ;
 		rdfs:label "Actinomyces naeslundii ATCC 12104"^^xsd:string ;
 		skos:prefLabel "Actinomyces naeslundii ATCC 12104"^^xsd:string ;
@@ -148,7 +148,7 @@ id:AGE13 rdf:type owl:NamedIndividual ,
 		foaf:homepage <https://sugarbind.expasy.org/agents/13> ;
 		dcterms:references <https://sugarbind.expasy.org/agents/13> ;
 		:causes id:DIS1 ;
-		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS1;
+		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS1 ;
 		:found_in id:ARE6 ;
 		rdfs:label "Actinomyces spp."^^xsd:string ;
 		skos:prefLabel "Actinomyces spp."^^xsd:string ;
@@ -164,7 +164,7 @@ id:AGE14 rdf:type owl:NamedIndividual ,
 		foaf:homepage <https://sugarbind.expasy.org/agents/14> ;
 		dcterms:references <https://sugarbind.expasy.org/agents/14> ;
 		:causes id:DIS1 ;
-		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS1;
+		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS1 ;
 		:found_in id:ARE6 ;
 		rdfs:label "Actinomyces viscosus"^^xsd:string ;
 		skos:prefLabel "Actinomyces viscosus"^^xsd:string ;
@@ -179,7 +179,7 @@ id:AGE15 rdf:type owl:NamedIndividual ,
 		foaf:homepage <https://sugarbind.expasy.org/agents/15> ;
 		dcterms:references <https://sugarbind.expasy.org/agents/15> ;
 		:causes id:DIS1 ;
-		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS1;
+		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS1 ;
 		:found_in id:ARE6 ;
 		rdfs:label "Actinomyces viscosus N/S"^^xsd:string ;
 		skos:prefLabel "Actinomyces viscosus N/S"^^xsd:string ;
@@ -192,7 +192,7 @@ id:AGE16 rdf:type owl:NamedIndividual ,
 		foaf:homepage <https://sugarbind.expasy.org/agents/16> ;
 		dcterms:references <https://sugarbind.expasy.org/agents/16> ;
 		:causes id:DIS1 ;
-		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS1;
+		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS1 ;
 		:found_in id:ARE6 ;
 		rdfs:label "Actinomyces viscosus ATCC 19246"^^xsd:string ;
 		skos:prefLabel "Actinomyces viscosus ATCC 19246"^^xsd:string ;
@@ -205,7 +205,7 @@ id:AGE18 rdf:type owl:NamedIndividual ,
 		foaf:homepage <https://sugarbind.expasy.org/agents/18> ;
 		dcterms:references <https://sugarbind.expasy.org/agents/18> ;
 		:causes id:DIS6 ;
-		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS6;
+		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS6 ;
 		:found_in id:ARE3 ;
 		rdfs:label "Bordetella pertussis"^^xsd:string ;
 		skos:prefLabel "Bordetella pertussis"^^xsd:string ;
@@ -222,7 +222,7 @@ id:AGE19 rdf:type owl:NamedIndividual ,
 		foaf:homepage <https://sugarbind.expasy.org/agents/19> ;
 		dcterms:references <https://sugarbind.expasy.org/agents/19> ;
 		:causes id:DIS6 ;
-		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS6;
+		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS6 ;
 		:found_in id:ARE3 ;
 		rdfs:label "Bordetella pertussis N/S"^^xsd:string ;
 		skos:prefLabel "Bordetella pertussis N/S"^^xsd:string ;
@@ -235,7 +235,7 @@ id:AGE21 rdf:type owl:NamedIndividual ,
 		foaf:homepage <https://sugarbind.expasy.org/agents/21> ;
 		dcterms:references <https://sugarbind.expasy.org/agents/21> ;
 		:causes id:DIS6 ;
-		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS6;
+		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS6 ;
 		:found_in id:ARE3 ;
 		rdfs:label "Bordetella pertussis N/S Toxin"^^xsd:string ;
 		skos:prefLabel "Bordetella pertussis N/S Toxin"^^xsd:string ;
@@ -248,7 +248,7 @@ id:AGE24 rdf:type owl:NamedIndividual ,
 		foaf:homepage <https://sugarbind.expasy.org/agents/24> ;
 		dcterms:references <https://sugarbind.expasy.org/agents/24> ;
 		:causes id:DIS7 ;
-		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS7;
+		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS7 ;
 		:found_in id:ARE3 ;
 		rdfs:label "Borrelia burgdorferi N/S"^^xsd:string ;
 		skos:prefLabel "Borrelia burgdorferi N/S"^^xsd:string ;
@@ -281,7 +281,7 @@ id:AGE30 rdf:type owl:NamedIndividual ,
 		foaf:homepage <https://sugarbind.expasy.org/agents/30> ;
 		dcterms:references <https://sugarbind.expasy.org/agents/30> ;
 		:causes id:DIS8 ;
-		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS8;
+		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS8 ;
 		:found_in id:ARE3 ;
 		rdfs:label "Burkholderia cepacia"^^xsd:string ;
 		skos:prefLabel "Burkholderia cepacia"^^xsd:string ;
@@ -305,7 +305,7 @@ id:AGE31 rdf:type owl:NamedIndividual ,
 		foaf:homepage <https://sugarbind.expasy.org/agents/31> ;
 		dcterms:references <https://sugarbind.expasy.org/agents/31> ;
 		:causes id:DIS8 ;
-		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS8;
+		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS8 ;
 		:found_in id:ARE3 ;
 		rdfs:label "Burkholderia cepacia ATCC 13945"^^xsd:string ;
 		skos:prefLabel "Burkholderia cepacia ATCC 13945"^^xsd:string ;
@@ -318,7 +318,7 @@ id:AGE32 rdf:type owl:NamedIndividual ,
 		foaf:homepage <https://sugarbind.expasy.org/agents/32> ;
 		dcterms:references <https://sugarbind.expasy.org/agents/32> ;
 		:causes id:DIS8 ;
-		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS8;
+		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS8 ;
 		:found_in id:ARE3 ;
 		rdfs:label "Burkholderia cepacia 25416"^^xsd:string ;
 		skos:prefLabel "Burkholderia cepacia 25416"^^xsd:string ;
@@ -332,7 +332,7 @@ id:AGE33 rdf:type owl:NamedIndividual ,
 		foaf:homepage <https://sugarbind.expasy.org/agents/33> ;
 		dcterms:references <https://sugarbind.expasy.org/agents/33> ;
 		:causes id:DIS8 ;
-		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS8;
+		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS8 ;
 		:found_in id:ARE3 ;
 		rdfs:label "Burkholderia cepacia ML1"^^xsd:string ;
 		skos:prefLabel "Burkholderia cepacia ML1"^^xsd:string ;
@@ -346,7 +346,7 @@ id:AGE34 rdf:type owl:NamedIndividual ,
 		foaf:homepage <https://sugarbind.expasy.org/agents/34> ;
 		dcterms:references <https://sugarbind.expasy.org/agents/34> ;
 		:causes id:DIS8 ;
-		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS8;
+		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS8 ;
 		:found_in id:ARE3 ;
 		rdfs:label "Burkholderia cepacia N/S"^^xsd:string ;
 		skos:prefLabel "Burkholderia cepacia N/S"^^xsd:string ;
@@ -359,7 +359,7 @@ id:AGE36 rdf:type owl:NamedIndividual ,
 		foaf:homepage <https://sugarbind.expasy.org/agents/36> ;
 		dcterms:references <https://sugarbind.expasy.org/agents/36> ;
 		:causes id:DIS1 ;
-		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS1;
+		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS1 ;
 		:found_in id:ARE11 ;
 		rdfs:label "Burkholderia oklahomensis EO147"^^xsd:string ;
 		skos:prefLabel "Burkholderia oklahomensis EO147"^^xsd:string ;
@@ -373,7 +373,7 @@ id:AGE38 rdf:type owl:NamedIndividual ,
 		foaf:homepage <https://sugarbind.expasy.org/agents/38> ;
 		dcterms:references <https://sugarbind.expasy.org/agents/38> ;
 		:causes id:DIS9 ;
-		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS9;
+		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS9 ;
 		:found_in id:ARE14 ;
 		rdfs:label "Burkholderia pseudomallei H-99"^^xsd:string ;
 		skos:prefLabel "Burkholderia pseudomallei H-99"^^xsd:string ;
@@ -387,7 +387,7 @@ id:AGE39 rdf:type owl:NamedIndividual ,
 		foaf:homepage <https://sugarbind.expasy.org/agents/39> ;
 		dcterms:references <https://sugarbind.expasy.org/agents/39> ;
 		:causes id:DIS9 ;
-		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS9;
+		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS9 ;
 		:found_in id:ARE14 ;
 		rdfs:label "Burkholderia pseudomallei Sp-140"^^xsd:string ;
 		skos:prefLabel "Burkholderia pseudomallei Sp-140"^^xsd:string ;
@@ -401,7 +401,7 @@ id:AGE40 rdf:type owl:NamedIndividual ,
 		foaf:homepage <https://sugarbind.expasy.org/agents/40> ;
 		dcterms:references <https://sugarbind.expasy.org/agents/40> ;
 		:causes id:DIS9 ;
-		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS9;
+		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS9 ;
 		:found_in id:ARE14 ;
 		rdfs:label "Burkholderia pseudomallei Sp-186"^^xsd:string ;
 		skos:prefLabel "Burkholderia pseudomallei Sp-186"^^xsd:string ;
@@ -415,7 +415,7 @@ id:AGE41 rdf:type owl:NamedIndividual ,
 		foaf:homepage <https://sugarbind.expasy.org/agents/41> ;
 		dcterms:references <https://sugarbind.expasy.org/agents/41> ;
 		:causes id:DIS9 ;
-		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS9;
+		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS9 ;
 		:found_in id:ARE14 ;
 		rdfs:label "Burkholderia pseudomallei Sp-335"^^xsd:string ;
 		skos:prefLabel "Burkholderia pseudomallei Sp-335"^^xsd:string ;
@@ -429,7 +429,7 @@ id:AGE42 rdf:type owl:NamedIndividual ,
 		foaf:homepage <https://sugarbind.expasy.org/agents/42> ;
 		dcterms:references <https://sugarbind.expasy.org/agents/42> ;
 		:causes id:DIS9 ;
-		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS9;
+		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS9 ;
 		:found_in id:ARE14 ;
 		rdfs:label "Burkholderia pseudomallei U-232"^^xsd:string ;
 		skos:prefLabel "Burkholderia pseudomallei U-232"^^xsd:string ;
@@ -473,7 +473,7 @@ id:AGE52 rdf:type owl:NamedIndividual ,
 		foaf:homepage <https://sugarbind.expasy.org/agents/52> ;
 		dcterms:references <https://sugarbind.expasy.org/agents/52> ;
 		:causes id:DIS10 ;
-		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS10;
+		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS10 ;
 		:found_in id:ARE3 ;
 		rdfs:label "Candida albicans ATCC 18804"^^xsd:string ;
 		skos:prefLabel "Candida albicans ATCC 18804"^^xsd:string ;
@@ -489,7 +489,7 @@ id:AGE53 rdf:type owl:NamedIndividual ,
 		foaf:homepage <https://sugarbind.expasy.org/agents/53> ;
 		dcterms:references <https://sugarbind.expasy.org/agents/53> ;
 		:causes id:DIS10 ;
-		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS10;
+		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS10 ;
 		:found_in id:ARE3 ;
 		rdfs:label "Candida albicans HFH 44"^^xsd:string ;
 		skos:prefLabel "Candida albicans HFH 44"^^xsd:string ;
@@ -502,7 +502,7 @@ id:AGE54 rdf:type owl:NamedIndividual ,
 		foaf:homepage <https://sugarbind.expasy.org/agents/54> ;
 		dcterms:references <https://sugarbind.expasy.org/agents/54> ;
 		:causes id:DIS10 ;
-		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS10;
+		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS10 ;
 		:found_in id:ARE3 ;
 		rdfs:label "Candida albicans HFH 45"^^xsd:string ;
 		skos:prefLabel "Candida albicans HFH 45"^^xsd:string ;
@@ -515,7 +515,7 @@ id:AGE55 rdf:type owl:NamedIndividual ,
 		foaf:homepage <https://sugarbind.expasy.org/agents/55> ;
 		dcterms:references <https://sugarbind.expasy.org/agents/55> ;
 		:causes id:DIS10 ;
-		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS10;
+		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS10 ;
 		:found_in id:ARE3 ;
 		rdfs:label "Candida albicans N/S"^^xsd:string ;
 		skos:prefLabel "Candida albicans N/S"^^xsd:string ;
@@ -528,7 +528,7 @@ id:AGE58 rdf:type owl:NamedIndividual ,
 		foaf:homepage <https://sugarbind.expasy.org/agents/58> ;
 		dcterms:references <https://sugarbind.expasy.org/agents/58> ;
 		:causes id:DIS11 ;
-		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS11;
+		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS11 ;
 		:found_in id:ARE3 ;
 		rdfs:label "Chlamydia pneumoniae N/S"^^xsd:string ;
 		skos:prefLabel "Chlamydia pneumoniae N/S"^^xsd:string ;
@@ -541,7 +541,7 @@ id:AGE60 rdf:type owl:NamedIndividual ,
 		foaf:homepage <https://sugarbind.expasy.org/agents/60> ;
 		dcterms:references <https://sugarbind.expasy.org/agents/60> ;
 		:causes id:DIS12 ;
-		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS12;
+		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS12 ;
 		:found_in id:ARE3 ;
 		rdfs:label "Chlamydia trachomatis N/S"^^xsd:string ;
 		skos:prefLabel "Chlamydia trachomatis N/S"^^xsd:string ;
@@ -597,7 +597,7 @@ id:AGE62 rdf:type owl:NamedIndividual ,
 		foaf:homepage <https://sugarbind.expasy.org/agents/62> ;
 		dcterms:references <https://sugarbind.expasy.org/agents/62> ;
 		:causes id:DIS13 ;
-		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS13;
+		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS13 ;
 		rdfs:label "Clostridium botulinum"^^xsd:string ;
 		skos:prefLabel "Clostridium botulinum"^^xsd:string ;
 		:lineage_up id:AGE61 ;
@@ -624,7 +624,7 @@ id:AGE63 rdf:type owl:NamedIndividual ,
 		foaf:homepage <https://sugarbind.expasy.org/agents/63> ;
 		dcterms:references <https://sugarbind.expasy.org/agents/63> ;
 		:causes id:DIS13 ;
-		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS13;
+		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS13 ;
 		rdfs:label "Clostridium botulinum Serotype A"^^xsd:string ;
 		skos:prefLabel "Clostridium botulinum Serotype A"^^xsd:string ;
 		:lineage_up id:AGE62 ;
@@ -636,7 +636,7 @@ id:AGE64 rdf:type owl:NamedIndividual ,
 		foaf:homepage <https://sugarbind.expasy.org/agents/64> ;
 		dcterms:references <https://sugarbind.expasy.org/agents/64> ;
 		:causes id:DIS13 ;
-		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS13;
+		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS13 ;
 		:found_in id:ARE3 ;
 		rdfs:label "Clostridium botulinum Serotype A Neurotoxin type A"^^xsd:string ;
 		skos:prefLabel "Clostridium botulinum Serotype A Neurotoxin type A"^^xsd:string ;
@@ -649,7 +649,7 @@ id:AGE65 rdf:type owl:NamedIndividual ,
 		foaf:homepage <https://sugarbind.expasy.org/agents/65> ;
 		dcterms:references <https://sugarbind.expasy.org/agents/65> ;
 		:causes id:DIS13 ;
-		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS13;
+		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS13 ;
 		:found_in id:ARE3 ;
 		rdfs:label "Clostridium botulinum Serotype A Progenitor toxin type A"^^xsd:string ;
 		skos:prefLabel "Clostridium botulinum Serotype A Progenitor toxin type A"^^xsd:string ;
@@ -662,7 +662,7 @@ id:AGE66 rdf:type owl:NamedIndividual ,
 		foaf:homepage <https://sugarbind.expasy.org/agents/66> ;
 		dcterms:references <https://sugarbind.expasy.org/agents/66> ;
 		:causes id:DIS13 ;
-		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS13;
+		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS13 ;
 		rdfs:label "Clostridium botulinum Serotype C"^^xsd:string ;
 		skos:prefLabel "Clostridium botulinum Serotype C"^^xsd:string ;
 		:lineage_up id:AGE62 ;
@@ -674,7 +674,7 @@ id:AGE67 rdf:type owl:NamedIndividual ,
 		foaf:homepage <https://sugarbind.expasy.org/agents/67> ;
 		dcterms:references <https://sugarbind.expasy.org/agents/67> ;
 		:causes id:DIS13 ;
-		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS13;
+		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS13 ;
 		:found_in id:ARE3 ;
 		rdfs:label "Clostridium botulinum Serotype C Neurotoxin"^^xsd:string ;
 		skos:prefLabel "Clostridium botulinum Serotype C Neurotoxin"^^xsd:string ;
@@ -687,7 +687,7 @@ id:AGE68 rdf:type owl:NamedIndividual ,
 		foaf:homepage <https://sugarbind.expasy.org/agents/68> ;
 		dcterms:references <https://sugarbind.expasy.org/agents/68> ;
 		:causes id:DIS13 ;
-		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS13;
+		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS13 ;
 		:found_in id:ARE3 ;
 		rdfs:label "Clostridium botulinum Serotype C Progenitor toxin type C"^^xsd:string ;
 		skos:prefLabel "Clostridium botulinum Serotype C Progenitor toxin type C"^^xsd:string ;
@@ -700,7 +700,7 @@ id:AGE70 rdf:type owl:NamedIndividual ,
 		foaf:homepage <https://sugarbind.expasy.org/agents/70> ;
 		dcterms:references <https://sugarbind.expasy.org/agents/70> ;
 		:causes id:DIS13 ;
-		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS13;
+		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS13 ;
 		:found_in id:ARE15 ;
 		rdfs:label "Clostridium botulinum Serotype D, OFD05 Neurotoxin"^^xsd:string ;
 		skos:prefLabel "Clostridium botulinum Serotype D, OFD05 Neurotoxin"^^xsd:string ;
@@ -713,7 +713,7 @@ id:AGE71 rdf:type owl:NamedIndividual ,
 		foaf:homepage <https://sugarbind.expasy.org/agents/71> ;
 		dcterms:references <https://sugarbind.expasy.org/agents/71> ;
 		:causes id:DIS13 ;
-		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS13;
+		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS13 ;
 		rdfs:label "Clostridium botulinum Serotype F"^^xsd:string ;
 		skos:prefLabel "Clostridium botulinum Serotype F"^^xsd:string ;
 		:lineage_up id:AGE62 ;
@@ -725,7 +725,7 @@ id:AGE72 rdf:type owl:NamedIndividual ,
 		foaf:homepage <https://sugarbind.expasy.org/agents/72> ;
 		dcterms:references <https://sugarbind.expasy.org/agents/72> ;
 		:causes id:DIS13 ;
-		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS13;
+		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS13 ;
 		:found_in id:ARE3 ;
 		rdfs:label "Clostridium botulinum Serotype F Neurotoxin F"^^xsd:string ;
 		skos:prefLabel "Clostridium botulinum Serotype F Neurotoxin F"^^xsd:string ;
@@ -738,7 +738,7 @@ id:AGE74 rdf:type owl:NamedIndividual ,
 		foaf:homepage <https://sugarbind.expasy.org/agents/74> ;
 		dcterms:references <https://sugarbind.expasy.org/agents/74> ;
 		:causes id:DIS13 ;
-		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS13;
+		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS13 ;
 		:found_in id:ARE3 ;
 		rdfs:label "Clostridium botulinum Serotype G Neurotoxin"^^xsd:string ;
 		skos:prefLabel "Clostridium botulinum Serotype G Neurotoxin"^^xsd:string ;
@@ -751,7 +751,7 @@ id:AGE76 rdf:type owl:NamedIndividual ,
 		foaf:homepage <https://sugarbind.expasy.org/agents/76> ;
 		dcterms:references <https://sugarbind.expasy.org/agents/76> ;
 		:causes id:DIS13 ;
-		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS13;
+		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS13 ;
 		:found_in id:ARE3 ;
 		rdfs:label "Clostridium botulinum N/S Neurotoxin type A"^^xsd:string ;
 		skos:prefLabel "Clostridium botulinum N/S Neurotoxin type A"^^xsd:string ;
@@ -764,7 +764,7 @@ id:AGE78 rdf:type owl:NamedIndividual ,
 		foaf:homepage <https://sugarbind.expasy.org/agents/78> ;
 		dcterms:references <https://sugarbind.expasy.org/agents/78> ;
 		:causes id:DIS13 ;
-		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS13;
+		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS13 ;
 		:found_in id:ARE3 ;
 		rdfs:label "Clostridium botulinum N/S Neurotoxin type B"^^xsd:string ;
 		skos:prefLabel "Clostridium botulinum N/S Neurotoxin type B"^^xsd:string ;
@@ -777,7 +777,7 @@ id:AGE81 rdf:type owl:NamedIndividual ,
 		foaf:homepage <https://sugarbind.expasy.org/agents/81> ;
 		dcterms:references <https://sugarbind.expasy.org/agents/81> ;
 		:causes id:DIS1 ;
-		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS1;
+		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS1 ;
 		:found_in id:ARE18 ;
 		rdfs:label "Clostridium difficle VP 10463 Toxin A"^^xsd:string ;
 		skos:prefLabel "Clostridium difficle VP 10463 Toxin A"^^xsd:string ;
@@ -790,7 +790,7 @@ id:AGE84 rdf:type owl:NamedIndividual ,
 		foaf:homepage <https://sugarbind.expasy.org/agents/84> ;
 		dcterms:references <https://sugarbind.expasy.org/agents/84> ;
 		:causes id:DIS14 ;
-		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS14;
+		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS14 ;
 		:found_in id:ARE19 ,
 			id:ARE4 ;
 		rdfs:label "Clostridium perfringens N/S Delta toxin"^^xsd:string ;
@@ -804,7 +804,7 @@ id:AGE87 rdf:type owl:NamedIndividual ,
 		foaf:homepage <https://sugarbind.expasy.org/agents/87> ;
 		dcterms:references <https://sugarbind.expasy.org/agents/87> ;
 		:causes id:DIS15 ;
-		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS15;
+		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS15 ;
 		:found_in id:ARE20 ;
 		rdfs:label "Clostridium tetani N/S Tetanus neurotoxin"^^xsd:string ;
 		skos:prefLabel "Clostridium tetani N/S Tetanus neurotoxin"^^xsd:string ;
@@ -817,7 +817,7 @@ id:AGE89 rdf:type owl:NamedIndividual ,
 		foaf:homepage <https://sugarbind.expasy.org/agents/89> ;
 		dcterms:references <https://sugarbind.expasy.org/agents/89> ;
 		:causes id:DIS15 ;
-		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS15;
+		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS15 ;
 		:found_in id:ARE20 ;
 		rdfs:label "Clostridium tetani N/S Tetanus neurotoxin"^^xsd:string ;
 		skos:prefLabel "Clostridium tetani N/S Tetanus neurotoxin"^^xsd:string ;
@@ -830,7 +830,7 @@ id:AGE91 rdf:type owl:NamedIndividual ,
 		foaf:homepage <https://sugarbind.expasy.org/agents/91> ;
 		dcterms:references <https://sugarbind.expasy.org/agents/91> ;
 		:causes id:DIS15 ;
-		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS15;
+		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS15 ;
 		:found_in id:ARE20 ;
 		rdfs:label "Clostridium tetani N/S Tetanus neurotoxin"^^xsd:string ;
 		skos:prefLabel "Clostridium tetani N/S Tetanus neurotoxin"^^xsd:string ;
@@ -843,7 +843,7 @@ id:AGE93 rdf:type owl:NamedIndividual ,
 		foaf:homepage <https://sugarbind.expasy.org/agents/93> ;
 		dcterms:references <https://sugarbind.expasy.org/agents/93> ;
 		:causes id:DIS15 ;
-		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS15;
+		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS15 ;
 		:found_in id:ARE20 ;
 		rdfs:label "Clostridium tetani N/S Tetanus neurotoxin"^^xsd:string ;
 		skos:prefLabel "Clostridium tetani N/S Tetanus neurotoxin"^^xsd:string ;
@@ -856,7 +856,7 @@ id:AGE95 rdf:type owl:NamedIndividual ,
 		foaf:homepage <https://sugarbind.expasy.org/agents/95> ;
 		dcterms:references <https://sugarbind.expasy.org/agents/95> ;
 		:causes id:DIS15 ;
-		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS15;
+		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS15 ;
 		:found_in id:ARE20 ;
 		rdfs:label "Clostridium tetani N/S Tetanus neurotoxin"^^xsd:string ;
 		skos:prefLabel "Clostridium tetani N/S Tetanus neurotoxin"^^xsd:string ;
@@ -895,7 +895,7 @@ id:AGE101 rdf:type owl:NamedIndividual ,
 		foaf:homepage <https://sugarbind.expasy.org/agents/101> ;
 		dcterms:references <https://sugarbind.expasy.org/agents/101> ;
 		:causes id:DIS16 ;
-		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS16;
+		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS16 ;
 		:found_in id:ARE3 ;
 		rdfs:label "Cryptococcus neoformans ATCC 34877"^^xsd:string ;
 		skos:prefLabel "Cryptococcus neoformans ATCC 34877"^^xsd:string ;
@@ -908,7 +908,7 @@ id:AGE102 rdf:type owl:NamedIndividual ,
 		foaf:homepage <https://sugarbind.expasy.org/agents/102> ;
 		dcterms:references <https://sugarbind.expasy.org/agents/102> ;
 		:causes id:DIS16 ;
-		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS16;
+		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS16 ;
 		:found_in id:ARE3 ;
 		rdfs:label "Cryptococcus neoformans HFH 32"^^xsd:string ;
 		skos:prefLabel "Cryptococcus neoformans HFH 32"^^xsd:string ;
@@ -922,7 +922,7 @@ id:AGE103 rdf:type owl:NamedIndividual ,
 		foaf:homepage <https://sugarbind.expasy.org/agents/103> ;
 		dcterms:references <https://sugarbind.expasy.org/agents/103> ;
 		:causes id:DIS16 ;
-		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS16;
+		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS16 ;
 		:found_in id:ARE3 ;
 		rdfs:label "Cryptococcus neoformans IMT 43"^^xsd:string ;
 		skos:prefLabel "Cryptococcus neoformans IMT 43"^^xsd:string ;
@@ -936,7 +936,7 @@ id:AGE104 rdf:type owl:NamedIndividual ,
 		foaf:homepage <https://sugarbind.expasy.org/agents/104> ;
 		dcterms:references <https://sugarbind.expasy.org/agents/104> ;
 		:causes id:DIS16 ;
-		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS16;
+		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS16 ;
 		:found_in id:ARE3 ;
 		rdfs:label "Cryptococcus neoformans NIH 68A"^^xsd:string ;
 		skos:prefLabel "Cryptococcus neoformans NIH 68A"^^xsd:string ;
@@ -950,7 +950,7 @@ id:AGE107 rdf:type owl:NamedIndividual ,
 		foaf:homepage <https://sugarbind.expasy.org/agents/107> ;
 		dcterms:references <https://sugarbind.expasy.org/agents/107> ;
 		:causes id:DIS17 ;
-		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS17;
+		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS17 ;
 		:found_in id:ARE3 ;
 		rdfs:label "Entamoeba histolytica HM1-IMSS"^^xsd:string ;
 		skos:prefLabel "Entamoeba histolytica HM1-IMSS"^^xsd:string ;
@@ -963,7 +963,7 @@ id:AGE108 rdf:type owl:NamedIndividual ,
 		foaf:homepage <https://sugarbind.expasy.org/agents/108> ;
 		dcterms:references <https://sugarbind.expasy.org/agents/108> ;
 		:causes id:DIS17 ;
-		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS17;
+		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS17 ;
 		:found_in id:ARE3 ;
 		rdfs:label "Entamoeba histolytica N/S"^^xsd:string ;
 		skos:prefLabel "Entamoeba histolytica N/S"^^xsd:string ;
@@ -976,7 +976,7 @@ id:AGE109 rdf:type owl:NamedIndividual ,
 		foaf:homepage <https://sugarbind.expasy.org/agents/109> ;
 		dcterms:references <https://sugarbind.expasy.org/agents/109> ;
 		:causes id:DIS17 ;
-		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS17;
+		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS17 ;
 		:found_in id:ARE3 ;
 		rdfs:label "Entamoeba histolytica N/S"^^xsd:string ;
 		skos:prefLabel "Entamoeba histolytica N/S"^^xsd:string ;
@@ -999,7 +999,7 @@ id:AGE115 rdf:type owl:NamedIndividual ,
 		foaf:homepage <https://sugarbind.expasy.org/agents/115> ;
 		dcterms:references <https://sugarbind.expasy.org/agents/115> ;
 		:causes id:DIS1 ;
-		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS1;
+		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS1 ;
 		:found_in id:ARE3 ;
 		rdfs:label "Escherichia coli 107/86"^^xsd:string ;
 		skos:prefLabel "Escherichia coli 107/86"^^xsd:string ;
@@ -1012,7 +1012,7 @@ id:AGE116 rdf:type owl:NamedIndividual ,
 		foaf:homepage <https://sugarbind.expasy.org/agents/116> ;
 		dcterms:references <https://sugarbind.expasy.org/agents/116> ;
 		:causes id:DIS18 ;
-		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS18;
+		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS18 ;
 		:found_in id:ARE22 ;
 		rdfs:label "Escherichia coli 346"^^xsd:string ;
 		skos:prefLabel "Escherichia coli 346"^^xsd:string ;
@@ -1026,7 +1026,7 @@ id:AGE117 rdf:type owl:NamedIndividual ,
 		foaf:homepage <https://sugarbind.expasy.org/agents/117> ;
 		dcterms:references <https://sugarbind.expasy.org/agents/117> ;
 		:causes id:DIS18 ;
-		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS18;
+		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS18 ;
 		:found_in id:ARE22 ;
 		rdfs:label "Escherichia coli 6883"^^xsd:string ;
 		skos:prefLabel "Escherichia coli 6883"^^xsd:string ;
@@ -1040,7 +1040,7 @@ id:AGE119 rdf:type owl:NamedIndividual ,
 		foaf:homepage <https://sugarbind.expasy.org/agents/119> ;
 		dcterms:references <https://sugarbind.expasy.org/agents/119> ;
 		:causes id:DIS19 ;
-		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS19;
+		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS19 ;
 		:found_in id:ARE3 ;
 		rdfs:label "Escherichia coli Bi 135 A O157:H7"^^xsd:string ;
 		skos:prefLabel "Escherichia coli Bi 135 A O157:H7"^^xsd:string ;
@@ -1053,7 +1053,7 @@ id:AGE120 rdf:type owl:NamedIndividual ,
 		foaf:homepage <https://sugarbind.expasy.org/agents/120> ;
 		dcterms:references <https://sugarbind.expasy.org/agents/120> ;
 		:causes id:DIS1 ;
-		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS1;
+		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS1 ;
 		:found_in id:ARE3 ;
 		rdfs:label "Escherichia coli EAggEC T7"^^xsd:string ;
 		skos:prefLabel "Escherichia coli EAggEC T7"^^xsd:string ;
@@ -1066,7 +1066,7 @@ id:AGE121 rdf:type owl:NamedIndividual ,
 		foaf:homepage <https://sugarbind.expasy.org/agents/121> ;
 		dcterms:references <https://sugarbind.expasy.org/agents/121> ;
 		:causes id:DIS20 ;
-		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS20;
+		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS20 ;
 		:found_in id:ARE23 ;
 		rdfs:label "Escherichia coli IA2(pDC1)"^^xsd:string ;
 		skos:prefLabel "Escherichia coli IA2(pDC1)"^^xsd:string ;
@@ -1079,7 +1079,7 @@ id:AGE122 rdf:type owl:NamedIndividual ,
 		foaf:homepage <https://sugarbind.expasy.org/agents/122> ;
 		dcterms:references <https://sugarbind.expasy.org/agents/122> ;
 		:causes id:DIS20 ;
-		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS20;
+		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS20 ;
 		:found_in id:ARE23 ;
 		rdfs:label "Escherichia coli IA2"^^xsd:string ;
 		skos:prefLabel "Escherichia coli IA2"^^xsd:string ;
@@ -1093,7 +1093,7 @@ id:AGE123 rdf:type owl:NamedIndividual ,
 		foaf:homepage <https://sugarbind.expasy.org/agents/123> ;
 		dcterms:references <https://sugarbind.expasy.org/agents/123> ;
 		:causes id:DIS20 ;
-		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS20;
+		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS20 ;
 		:found_in id:ARE23 ;
 		rdfs:label "Escherichia coli IH11165"^^xsd:string ;
 		skos:prefLabel "Escherichia coli IH11165"^^xsd:string ;
@@ -1107,7 +1107,7 @@ id:AGE124 rdf:type owl:NamedIndividual ,
 		foaf:homepage <https://sugarbind.expasy.org/agents/124> ;
 		dcterms:references <https://sugarbind.expasy.org/agents/124> ;
 		:causes id:DIS20 ;
-		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS20;
+		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS20 ;
 		:found_in id:ARE3 ;
 		rdfs:label "Escherichia coli J96 HB101/pPAP5"^^xsd:string ;
 		skos:prefLabel "Escherichia coli J96 HB101/pPAP5"^^xsd:string ;
@@ -1120,7 +1120,7 @@ id:AGE125 rdf:type owl:NamedIndividual ,
 		foaf:homepage <https://sugarbind.expasy.org/agents/125> ;
 		dcterms:references <https://sugarbind.expasy.org/agents/125> ;
 		:causes id:DIS20 ;
-		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS20;
+		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS20 ;
 		:found_in id:ARE23 ;
 		rdfs:label "Escherichia coli J96(JJ122)"^^xsd:string ;
 		skos:prefLabel "Escherichia coli J96(JJ122)"^^xsd:string ;
@@ -1133,7 +1133,7 @@ id:AGE126 rdf:type owl:NamedIndividual ,
 		foaf:homepage <https://sugarbind.expasy.org/agents/126> ;
 		dcterms:references <https://sugarbind.expasy.org/agents/126> ;
 		:causes id:DIS20 ;
-		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS20;
+		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS20 ;
 		:found_in id:ARE23 ;
 		rdfs:label "Escherichia coli J96(pJFK102)"^^xsd:string ;
 		skos:prefLabel "Escherichia coli J96(pJFK102)"^^xsd:string ;
@@ -1146,7 +1146,7 @@ id:AGE127 rdf:type owl:NamedIndividual ,
 		foaf:homepage <https://sugarbind.expasy.org/agents/127> ;
 		dcterms:references <https://sugarbind.expasy.org/agents/127> ;
 		:causes id:DIS20 ;
-		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS20;
+		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS20 ;
 		:found_in id:ARE3 ;
 		rdfs:label "Escherichia coli J96"^^xsd:string ;
 		skos:prefLabel "Escherichia coli J96"^^xsd:string ;
@@ -1160,7 +1160,7 @@ id:AGE128 rdf:type owl:NamedIndividual ,
 		foaf:homepage <https://sugarbind.expasy.org/agents/128> ;
 		dcterms:references <https://sugarbind.expasy.org/agents/128> ;
 		:causes id:DIS20 ;
-		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS20;
+		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS20 ;
 		:found_in id:ARE3 ;
 		rdfs:label "Escherichia coli PN7"^^xsd:string ;
 		skos:prefLabel "Escherichia coli PN7"^^xsd:string ;
@@ -1174,7 +1174,7 @@ id:AGE129 rdf:type owl:NamedIndividual ,
 		foaf:homepage <https://sugarbind.expasy.org/agents/129> ;
 		dcterms:references <https://sugarbind.expasy.org/agents/129> ;
 		:causes id:DIS20 ;
-		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS20;
+		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS20 ;
 		:found_in id:ARE23 ,
 			id:ARE3 ,
 			id:ARE23 ,
@@ -1191,7 +1191,7 @@ id:AGE130 rdf:type owl:NamedIndividual ,
 		foaf:homepage <https://sugarbind.expasy.org/agents/130> ;
 		dcterms:references <https://sugarbind.expasy.org/agents/130> ;
 		:causes id:DIS20 ;
-		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS20;
+		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS20 ;
 		:found_in id:ARE3 ;
 		rdfs:label "Escherichia coli Recombinant HB101(pPIL 219-15)"^^xsd:string ;
 		skos:prefLabel "Escherichia coli Recombinant HB101(pPIL 219-15)"^^xsd:string ;
@@ -1214,7 +1214,7 @@ id:AGE132 rdf:type owl:NamedIndividual ,
 		foaf:homepage <https://sugarbind.expasy.org/agents/132> ;
 		dcterms:references <https://sugarbind.expasy.org/agents/132> ;
 		:causes id:DIS20 ;
-		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS20;
+		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS20 ;
 		:found_in id:ARE3 ;
 		rdfs:label "Escherichia coli Recombinant HB101"^^xsd:string ;
 		skos:prefLabel "Escherichia coli Recombinant HB101"^^xsd:string ;
@@ -1408,7 +1408,7 @@ id:AGE151 rdf:type owl:NamedIndividual ,
 		foaf:homepage <https://sugarbind.expasy.org/agents/151> ;
 		dcterms:references <https://sugarbind.expasy.org/agents/151> ;
 		:causes id:DIS43 ;
-		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS43;
+		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS43 ;
 		:found_in id:ARE4 ;
 		rdfs:label "Escherichia coli N/S"^^xsd:string ;
 		skos:prefLabel "Escherichia coli N/S"^^xsd:string ;
@@ -1600,7 +1600,7 @@ id:AGE180 rdf:type owl:NamedIndividual ,
 		foaf:homepage <https://sugarbind.expasy.org/agents/180> ;
 		dcterms:references <https://sugarbind.expasy.org/agents/180> ;
 		:causes id:DIS22 ;
-		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS22;
+		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS22 ;
 		:found_in id:ARE3 ;
 		rdfs:label "Fusobacterium nucleatum N/S"^^xsd:string ;
 		skos:prefLabel "Fusobacterium nucleatum N/S"^^xsd:string ;
@@ -1996,7 +1996,7 @@ id:AGE220 rdf:type owl:NamedIndividual ,
 		foaf:homepage <https://sugarbind.expasy.org/agents/220> ;
 		dcterms:references <https://sugarbind.expasy.org/agents/220> ;
 		:causes id:DIS26 ;
-		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS26;
+		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS26 ;
 		:found_in id:ARE3 ;
 		rdfs:label "Histoplasma capsulatum CDC B923"^^xsd:string ;
 		skos:prefLabel "Histoplasma capsulatum CDC B923"^^xsd:string ;
@@ -2009,7 +2009,7 @@ id:AGE221 rdf:type owl:NamedIndividual ,
 		foaf:homepage <https://sugarbind.expasy.org/agents/221> ;
 		dcterms:references <https://sugarbind.expasy.org/agents/221> ;
 		:causes id:DIS26 ;
-		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS26;
+		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS26 ;
 		:found_in id:ARE3 ;
 		rdfs:label "Histoplasma capsulatum IMT 55"^^xsd:string ;
 		skos:prefLabel "Histoplasma capsulatum IMT 55"^^xsd:string ;
@@ -2022,7 +2022,7 @@ id:AGE222 rdf:type owl:NamedIndividual ,
 		foaf:homepage <https://sugarbind.expasy.org/agents/222> ;
 		dcterms:references <https://sugarbind.expasy.org/agents/222> ;
 		:causes id:DIS46 ;
-		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS46;
+		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS46 ;
 		rdfs:label "Lentivirus Human Immunodeficiency Virus"^^xsd:string ;
 		skos:prefLabel "Lentivirus Human Immunodeficiency Virus"^^xsd:string ;
 		:lineage_up id:AGE223 ;
@@ -2034,7 +2034,7 @@ id:AGE223 rdf:type owl:NamedIndividual ,
 		foaf:homepage <https://sugarbind.expasy.org/agents/223> ;
 		dcterms:references <https://sugarbind.expasy.org/agents/223> ;
 		:causes id:DIS46 ;
-		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS46;
+		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS46 ;
 		rdfs:label "Lentivirus"^^xsd:string ;
 		skos:prefLabel "Lentivirus"^^xsd:string ;
 		:lineage_up id:AGE222 ;
@@ -2049,7 +2049,7 @@ id:AGE224 rdf:type owl:NamedIndividual ,
 		foaf:homepage <https://sugarbind.expasy.org/agents/224> ;
 		dcterms:references <https://sugarbind.expasy.org/agents/224> ;
 		:causes id:DIS46 ;
-		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS46;
+		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS46 ;
 		:found_in id:ARE7 ;
 		rdfs:label "Lentivirus Human Immunodeficiency Virus Type 1"^^xsd:string ;
 		skos:prefLabel "Lentivirus Human Immunodeficiency Virus Type 1"^^xsd:string ;
@@ -2068,7 +2068,7 @@ id:AGE225 rdf:type owl:NamedIndividual ,
 		foaf:homepage <https://sugarbind.expasy.org/agents/225> ;
 		dcterms:references <https://sugarbind.expasy.org/agents/225> ;
 		:causes id:DIS27 ;
-		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS27;
+		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS27 ;
 		:found_in id:ARE3 ;
 		rdfs:label "Influenza"^^xsd:string ;
 		skos:prefLabel "Influenza"^^xsd:string ;
@@ -2080,7 +2080,7 @@ id:AGE227 rdf:type owl:NamedIndividual ,
 		foaf:homepage <https://sugarbind.expasy.org/agents/227> ;
 		dcterms:references <https://sugarbind.expasy.org/agents/227> ;
 		:causes id:DIS27 ;
-		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS27;
+		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS27 ;
 		:found_in id:ARE3 ;
 		rdfs:label "Influenza A b"^^xsd:string ;
 		skos:prefLabel "Influenza A b"^^xsd:string ;
@@ -2093,7 +2093,7 @@ id:AGE228 rdf:type owl:NamedIndividual ,
 		foaf:homepage <https://sugarbind.expasy.org/agents/228> ;
 		dcterms:references <https://sugarbind.expasy.org/agents/228> ;
 		:causes id:DIS27 ;
-		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS27;
+		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS27 ;
 		rdfs:label "Influenza B"^^xsd:string ;
 		skos:prefLabel "Influenza B"^^xsd:string ;
 		:lineage_up id:AGE228 ;
@@ -2108,7 +2108,7 @@ id:AGE229 rdf:type owl:NamedIndividual ,
 		foaf:homepage <https://sugarbind.expasy.org/agents/229> ;
 		dcterms:references <https://sugarbind.expasy.org/agents/229> ;
 		:causes id:DIS27 ;
-		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS27;
+		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS27 ;
 		:found_in id:ARE3 ;
 		rdfs:label "Influenza B Influenza B virus B/HongKong/8/73"^^xsd:string ;
 		skos:prefLabel "Influenza B Influenza B virus B/HongKong/8/73"^^xsd:string ;
@@ -2122,7 +2122,7 @@ id:AGE230 rdf:type owl:NamedIndividual ,
 		foaf:homepage <https://sugarbind.expasy.org/agents/230> ;
 		dcterms:references <https://sugarbind.expasy.org/agents/230> ;
 		:causes id:DIS27 ;
-		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS27;
+		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS27 ;
 		:found_in id:ARE3 ;
 		rdfs:label "Influenza C"^^xsd:string ;
 		skos:prefLabel "Influenza C"^^xsd:string ;
@@ -2135,7 +2135,7 @@ id:AGE231 rdf:type owl:NamedIndividual ,
 		foaf:homepage <https://sugarbind.expasy.org/agents/231> ;
 		dcterms:references <https://sugarbind.expasy.org/agents/231> ;
 		:causes id:DIS27 ;
-		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS27;
+		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS27 ;
 		:found_in id:ARE3 ;
 		rdfs:label "Influenza 1918 H1"^^xsd:string ;
 		skos:prefLabel "Influenza 1918 H1"^^xsd:string ;
@@ -2147,7 +2147,7 @@ id:AGE235 rdf:type owl:NamedIndividual ,
 		foaf:homepage <https://sugarbind.expasy.org/agents/235> ;
 		dcterms:references <https://sugarbind.expasy.org/agents/235> ;
 		:causes id:DIS27 ;
-		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS27;
+		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS27 ;
 		:found_in id:ARE25 ;
 		rdfs:label "Influenzavirus A influenza A virus H10N4 subtype A/Mallard/Netherlands/02/00"^^xsd:string ;
 		skos:prefLabel "Influenzavirus A influenza A virus H10N4 subtype A/Mallard/Netherlands/02/00"^^xsd:string ;
@@ -2160,7 +2160,7 @@ id:AGE236 rdf:type owl:NamedIndividual ,
 		foaf:homepage <https://sugarbind.expasy.org/agents/236> ;
 		dcterms:references <https://sugarbind.expasy.org/agents/236> ;
 		:causes id:DIS27 ;
-		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS27;
+		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS27 ;
 		:found_in id:ARE27 ;
 		rdfs:label "Influenzavirus A influenza A virus H1N1 subtype"^^xsd:string ;
 		skos:prefLabel "Influenzavirus A influenza A virus H1N1 subtype"^^xsd:string ;
@@ -2176,7 +2176,7 @@ id:AGE237 rdf:type owl:NamedIndividual ,
 		foaf:homepage <https://sugarbind.expasy.org/agents/237> ;
 		dcterms:references <https://sugarbind.expasy.org/agents/237> ;
 		:causes id:DIS27 ;
-		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS27;
+		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS27 ;
 		:found_in id:ARE3 ;
 		rdfs:label "Influenzavirus A influenza A virus H3N2 subtype"^^xsd:string ;
 		skos:prefLabel "Influenzavirus A influenza A virus H3N2 subtype"^^xsd:string ;
@@ -2189,7 +2189,7 @@ id:AGE238 rdf:type owl:NamedIndividual ,
 		foaf:homepage <https://sugarbind.expasy.org/agents/238> ;
 		dcterms:references <https://sugarbind.expasy.org/agents/238> ;
 		:causes id:DIS27 ;
-		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS27;
+		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS27 ;
 		:found_in id:ARE25 ,
 			id:ARE3 ;
 		rdfs:label "Influenzavirus A influenza A virus H4N6 subtype"^^xsd:string ;
@@ -2203,7 +2203,7 @@ id:AGE239 rdf:type owl:NamedIndividual ,
 		foaf:homepage <https://sugarbind.expasy.org/agents/239> ;
 		dcterms:references <https://sugarbind.expasy.org/agents/239> ;
 		:causes id:DIS27 ;
-		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS27;
+		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS27 ;
 		:found_in id:ARE3 ;
 		rdfs:label "Influenzavirus A influenza A virus N/S"^^xsd:string ;
 		skos:prefLabel "Influenzavirus A influenza A virus N/S"^^xsd:string ;
@@ -2216,7 +2216,7 @@ id:AGE240 rdf:type owl:NamedIndividual ,
 		foaf:homepage <https://sugarbind.expasy.org/agents/240> ;
 		dcterms:references <https://sugarbind.expasy.org/agents/240> ;
 		:causes id:DIS27 ;
-		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS27;
+		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS27 ;
 		:found_in id:ARE3 ;
 		rdfs:label "Influenzavirus A influenza A virus N/S"^^xsd:string ;
 		skos:prefLabel "Influenzavirus A influenza A virus N/S"^^xsd:string ;
@@ -2229,7 +2229,7 @@ id:AGE241 rdf:type owl:NamedIndividual ,
 		foaf:homepage <https://sugarbind.expasy.org/agents/241> ;
 		dcterms:references <https://sugarbind.expasy.org/agents/241> ;
 		:causes id:DIS27 ;
-		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS27;
+		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS27 ;
 		:found_in id:ARE3 ;
 		rdfs:label "Influenzavirus A influenza A virus N/S"^^xsd:string ;
 		skos:prefLabel "Influenzavirus A influenza A virus N/S"^^xsd:string ;
@@ -2242,7 +2242,7 @@ id:AGE243 rdf:type owl:NamedIndividual ,
 		foaf:homepage <https://sugarbind.expasy.org/agents/243> ;
 		dcterms:references <https://sugarbind.expasy.org/agents/243> ;
 		:causes id:DIS27 ;
-		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS27;
+		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS27 ;
 		:found_in id:ARE3 ;
 		rdfs:label "Influenzavirus A influenza A virus H1 Mal/TN/11464/85 (226Q, 228G)"^^xsd:string ;
 		skos:prefLabel "Influenzavirus A influenza A virus H1 Mal/TN/11464/85 (226Q, 228G)"^^xsd:string ;
@@ -2255,7 +2255,7 @@ id:AGE244 rdf:type owl:NamedIndividual ,
 		foaf:homepage <https://sugarbind.expasy.org/agents/244> ;
 		dcterms:references <https://sugarbind.expasy.org/agents/244> ;
 		:causes id:DIS27 ;
-		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS27;
+		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS27 ;
 		:found_in id:ARE3 ;
 		rdfs:label "Influenzavirus A influenza A virus H10N4 subtype A/Mallard/Netherlands/02/2000"^^xsd:string ;
 		skos:prefLabel "Influenzavirus A influenza A virus H10N4 subtype A/Mallard/Netherlands/02/2000"^^xsd:string ;
@@ -2268,7 +2268,7 @@ id:AGE245 rdf:type owl:NamedIndividual ,
 		foaf:homepage <https://sugarbind.expasy.org/agents/245> ;
 		dcterms:references <https://sugarbind.expasy.org/agents/245> ;
 		:causes id:DIS27 ;
-		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS27;
+		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS27 ;
 		:found_in id:ARE27 ;
 		rdfs:label "Influenzavirus A influenza A virus H1N1 subtype A/Swine/Finistere/2899/82"^^xsd:string ;
 		skos:prefLabel "Influenzavirus A influenza A virus H1N1 subtype A/Swine/Finistere/2899/82"^^xsd:string ;
@@ -2281,7 +2281,7 @@ id:AGE246 rdf:type owl:NamedIndividual ,
 		foaf:homepage <https://sugarbind.expasy.org/agents/246> ;
 		dcterms:references <https://sugarbind.expasy.org/agents/246> ;
 		:causes id:DIS27 ;
-		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS27;
+		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS27 ;
 		:found_in id:ARE27 ;
 		rdfs:label "Influenzavirus A influenza A virus H1N1 subtype A/Swine/France/80"^^xsd:string ;
 		skos:prefLabel "Influenzavirus A influenza A virus H1N1 subtype A/Swine/France/80"^^xsd:string ;
@@ -2294,7 +2294,7 @@ id:AGE248 rdf:type owl:NamedIndividual ,
 		foaf:homepage <https://sugarbind.expasy.org/agents/248> ;
 		dcterms:references <https://sugarbind.expasy.org/agents/248> ;
 		:causes id:DIS27 ;
-		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS27;
+		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS27 ;
 		:found_in id:ARE3 ;
 		rdfs:label "Influenzavirus A influenza A virus H1N3 subtype A/Duck/Hong Kong/717/79"^^xsd:string ;
 		skos:prefLabel "Influenzavirus A influenza A virus H1N3 subtype A/Duck/Hong Kong/717/79"^^xsd:string ;
@@ -2307,7 +2307,7 @@ id:AGE250 rdf:type owl:NamedIndividual ,
 		foaf:homepage <https://sugarbind.expasy.org/agents/250> ;
 		dcterms:references <https://sugarbind.expasy.org/agents/250> ;
 		:causes id:DIS27 ;
-		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS27;
+		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS27 ;
 		:found_in id:ARE3 ;
 		rdfs:label "Influenzavirus A influenza A virus H2 Leningrad/134/57 (226Q, 228G)"^^xsd:string ;
 		skos:prefLabel "Influenzavirus A influenza A virus H2 Leningrad/134/57 (226Q, 228G)"^^xsd:string ;
@@ -2321,7 +2321,7 @@ id:AGE252 rdf:type owl:NamedIndividual ,
 		foaf:homepage <https://sugarbind.expasy.org/agents/252> ;
 		dcterms:references <https://sugarbind.expasy.org/agents/252> ;
 		:causes id:DIS27 ;
-		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS27;
+		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS27 ;
 		:found_in id:ARE3 ;
 		rdfs:label "Influenzavirus A influenza A virus H2N9 subtype A/Duck/Hong Kong/278/78"^^xsd:string ;
 		skos:prefLabel "Influenzavirus A influenza A virus H2N9 subtype A/Duck/Hong Kong/278/78"^^xsd:string ;
@@ -2334,7 +2334,7 @@ id:AGE253 rdf:type owl:NamedIndividual ,
 		foaf:homepage <https://sugarbind.expasy.org/agents/253> ;
 		dcterms:references <https://sugarbind.expasy.org/agents/253> ;
 		:causes id:DIS27 ;
-		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS27;
+		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS27 ;
 		:found_in id:ARE3 ;
 		rdfs:label "Influenzavirus A influenza A virus H2N9 subtype A/Duck/NanChang/2-0485/00"^^xsd:string ;
 		skos:prefLabel "Influenzavirus A influenza A virus H2N9 subtype A/Duck/NanChang/2-0485/00"^^xsd:string ;
@@ -2347,7 +2347,7 @@ id:AGE254 rdf:type owl:NamedIndividual ,
 		foaf:homepage <https://sugarbind.expasy.org/agents/254> ;
 		dcterms:references <https://sugarbind.expasy.org/agents/254> ;
 		:causes id:DIS27 ;
-		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS27;
+		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS27 ;
 		:found_in id:ARE3 ;
 		rdfs:label "Influenzavirus A influenza A virus H2N9 subtype A/Duck/NanChang/2-0485/2000"^^xsd:string ;
 		skos:prefLabel "Influenzavirus A influenza A virus H2N9 subtype A/Duck/NanChang/2-0485/2000"^^xsd:string ;
@@ -2360,7 +2360,7 @@ id:AGE255 rdf:type owl:NamedIndividual ,
 		foaf:homepage <https://sugarbind.expasy.org/agents/255> ;
 		dcterms:references <https://sugarbind.expasy.org/agents/255> ;
 		:causes id:DIS27 ;
-		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS27;
+		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS27 ;
 		rdfs:label "Influenzavirus A influenza A virus H3N3 subtype"^^xsd:string ;
 		skos:prefLabel "Influenzavirus A influenza A virus H3N3 subtype"^^xsd:string ;
 		:lineage_up id:AGE233 ;
@@ -2372,7 +2372,7 @@ id:AGE256 rdf:type owl:NamedIndividual ,
 		foaf:homepage <https://sugarbind.expasy.org/agents/256> ;
 		dcterms:references <https://sugarbind.expasy.org/agents/256> ;
 		:causes id:DIS27 ;
-		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS27;
+		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS27 ;
 		:found_in id:ARE3 ;
 		rdfs:label "Influenzavirus A influenza A virus H3N3 subtype Duck/Hokkaido/7/82 (226Q, 228G)"^^xsd:string ;
 		skos:prefLabel "Influenzavirus A influenza A virus H3N3 subtype Duck/Hokkaido/7/82 (226Q, 228G)"^^xsd:string ;
@@ -2386,7 +2386,7 @@ id:AGE257 rdf:type owl:NamedIndividual ,
 		foaf:homepage <https://sugarbind.expasy.org/agents/257> ;
 		dcterms:references <https://sugarbind.expasy.org/agents/257> ;
 		:causes id:DIS27 ;
-		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS27;
+		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS27 ;
 		:found_in id:ARE3 ;
 		rdfs:label "Influenzavirus A influenza A virus H3N3 subtype RI/5+/57 (226L, 228S)"^^xsd:string ;
 		skos:prefLabel "Influenzavirus A influenza A virus H3N3 subtype RI/5+/57 (226L, 228S)"^^xsd:string ;
@@ -2399,7 +2399,7 @@ id:AGE258 rdf:type owl:NamedIndividual ,
 		foaf:homepage <https://sugarbind.expasy.org/agents/258> ;
 		dcterms:references <https://sugarbind.expasy.org/agents/258> ;
 		:causes id:DIS27 ;
-		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS27;
+		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS27 ;
 		:found_in id:ARE3 ;
 		rdfs:label "Influenzavirus A influenza A virus H3N3 subtype A/seal/MA/3911/1992"^^xsd:string ;
 		skos:prefLabel "Influenzavirus A influenza A virus H3N3 subtype A/seal/MA/3911/1992"^^xsd:string ;
@@ -2412,7 +2412,7 @@ id:AGE259 rdf:type owl:NamedIndividual ,
 		foaf:homepage <https://sugarbind.expasy.org/agents/259> ;
 		dcterms:references <https://sugarbind.expasy.org/agents/259> ;
 		:causes id:DIS27 ;
-		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS27;
+		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS27 ;
 		:found_in id:ARE3 ;
 		rdfs:label "Influenzavirus A influenza A virus H3N3 subtype A/Udorn/72/R2 (226Q, 228G)"^^xsd:string ;
 		skos:prefLabel "Influenzavirus A influenza A virus H3N3 subtype A/Udorn/72/R2 (226Q, 228G)"^^xsd:string ;
@@ -2425,7 +2425,7 @@ id:AGE260 rdf:type owl:NamedIndividual ,
 		foaf:homepage <https://sugarbind.expasy.org/agents/260> ;
 		dcterms:references <https://sugarbind.expasy.org/agents/260> ;
 		:causes id:DIS27 ;
-		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS27;
+		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS27 ;
 		:found_in id:ARE3 ;
 		rdfs:label "Influenzavirus A influenza A virus H3N3 subtype A/Udorn/72/R4 (226Q, 228G)"^^xsd:string ;
 		skos:prefLabel "Influenzavirus A influenza A virus H3N3 subtype A/Udorn/72/R4 (226Q, 228G)"^^xsd:string ;
@@ -2438,7 +2438,7 @@ id:AGE262 rdf:type owl:NamedIndividual ,
 		foaf:homepage <https://sugarbind.expasy.org/agents/262> ;
 		dcterms:references <https://sugarbind.expasy.org/agents/262> ;
 		:causes id:DIS27 ;
-		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS27;
+		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS27 ;
 		:found_in id:ARE3 ;
 		rdfs:label "Influenzavirus A influenza A virus H3N1 subtype A/Memphis/1/71-Bel/42 (H3N1)"^^xsd:string ;
 		skos:prefLabel "Influenzavirus A influenza A virus H3N1 subtype A/Memphis/1/71-Bel/42 (H3N1)"^^xsd:string ;
@@ -2452,7 +2452,7 @@ id:AGE263 rdf:type owl:NamedIndividual ,
 		foaf:homepage <https://sugarbind.expasy.org/agents/263> ;
 		dcterms:references <https://sugarbind.expasy.org/agents/263> ;
 		:causes id:DIS27 ;
-		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS27;
+		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS27 ;
 		:found_in id:ARE3 ;
 		rdfs:label "Influenzavirus A influenza A virus H3N2 subtype A/Canada/228/68"^^xsd:string ;
 		skos:prefLabel "Influenzavirus A influenza A virus H3N2 subtype A/Canada/228/68"^^xsd:string ;
@@ -2465,7 +2465,7 @@ id:AGE264 rdf:type owl:NamedIndividual ,
 		foaf:homepage <https://sugarbind.expasy.org/agents/264> ;
 		dcterms:references <https://sugarbind.expasy.org/agents/264> ;
 		:causes id:DIS27 ;
-		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS27;
+		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS27 ;
 		:found_in id:ARE3 ;
 		rdfs:label "Influenzavirus A influenza A virus H3N2 subtype A/USSR/039/68"^^xsd:string ;
 		skos:prefLabel "Influenzavirus A influenza A virus H3N2 subtype A/USSR/039/68"^^xsd:string ;
@@ -2478,7 +2478,7 @@ id:AGE266 rdf:type owl:NamedIndividual ,
 		foaf:homepage <https://sugarbind.expasy.org/agents/266> ;
 		dcterms:references <https://sugarbind.expasy.org/agents/266> ;
 		:causes id:DIS27 ;
-		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS27;
+		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS27 ;
 		:found_in id:ARE27 ;
 		rdfs:label "Influenzavirus A influenza A virus H3N6 subtype A/Swine/Kazakhstan/48/82"^^xsd:string ;
 		skos:prefLabel "Influenzavirus A influenza A virus H3N6 subtype A/Swine/Kazakhstan/48/82"^^xsd:string ;
@@ -2491,7 +2491,7 @@ id:AGE268 rdf:type owl:NamedIndividual ,
 		foaf:homepage <https://sugarbind.expasy.org/agents/268> ;
 		dcterms:references <https://sugarbind.expasy.org/agents/268> ;
 		:causes id:DIS27 ;
-		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS27;
+		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS27 ;
 		:found_in id:ARE3 ;
 		rdfs:label "Influenzavirus A influenza A virus H3N8 subtype A/Canine/Florida/43/04"^^xsd:string ;
 		skos:prefLabel "Influenzavirus A influenza A virus H3N8 subtype A/Canine/Florida/43/04"^^xsd:string ;
@@ -2504,7 +2504,7 @@ id:AGE269 rdf:type owl:NamedIndividual ,
 		foaf:homepage <https://sugarbind.expasy.org/agents/269> ;
 		dcterms:references <https://sugarbind.expasy.org/agents/269> ;
 		:causes id:DIS27 ;
-		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS27;
+		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS27 ;
 		:found_in id:ARE3 ;
 		rdfs:label "Influenzavirus A influenza A virus H3N8 subtype A/Duck/Burjatia/652/88"^^xsd:string ;
 		skos:prefLabel "Influenzavirus A influenza A virus H3N8 subtype A/Duck/Burjatia/652/88"^^xsd:string ;
@@ -2518,7 +2518,7 @@ id:AGE270 rdf:type owl:NamedIndividual ,
 		foaf:homepage <https://sugarbind.expasy.org/agents/270> ;
 		dcterms:references <https://sugarbind.expasy.org/agents/270> ;
 		:causes id:DIS27 ;
-		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS27;
+		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS27 ;
 		:found_in id:ARE3 ;
 		rdfs:label "Influenzavirus A influenza A virus H3N8 subtype A/Equine/Kentucky/5/02"^^xsd:string ;
 		skos:prefLabel "Influenzavirus A influenza A virus H3N8 subtype A/Equine/Kentucky/5/02"^^xsd:string ;
@@ -2531,7 +2531,7 @@ id:AGE271 rdf:type owl:NamedIndividual ,
 		foaf:homepage <https://sugarbind.expasy.org/agents/271> ;
 		dcterms:references <https://sugarbind.expasy.org/agents/271> ;
 		:causes id:DIS27 ;
-		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS27;
+		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS27 ;
 		:found_in id:ARE3 ;
 		rdfs:label "Influenzavirus A influenza A virus H3N8 subtype A/Equine/Ohio/1/03"^^xsd:string ;
 		skos:prefLabel "Influenzavirus A influenza A virus H3N8 subtype A/Equine/Ohio/1/03"^^xsd:string ;
@@ -2544,7 +2544,7 @@ id:AGE272 rdf:type owl:NamedIndividual ,
 		foaf:homepage <https://sugarbind.expasy.org/agents/272> ;
 		dcterms:references <https://sugarbind.expasy.org/agents/272> ;
 		:causes id:DIS27 ;
-		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS27;
+		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS27 ;
 		:found_in id:ARE3 ;
 		rdfs:label "Influenzavirus A influenza A virus H4N6 subtype A/Duck/Buryatia/1905/00"^^xsd:string ;
 		skos:prefLabel "Influenzavirus A influenza A virus H4N6 subtype A/Duck/Buryatia/1905/00"^^xsd:string ;
@@ -2557,7 +2557,7 @@ id:AGE273 rdf:type owl:NamedIndividual ,
 		foaf:homepage <https://sugarbind.expasy.org/agents/273> ;
 		dcterms:references <https://sugarbind.expasy.org/agents/273> ;
 		:causes id:DIS27 ;
-		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS27;
+		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS27 ;
 		:found_in id:ARE3 ;
 		rdfs:label "Influenzavirus A influenza A virus H4N6 subtype A/Mallard/New York/670/78"^^xsd:string ;
 		skos:prefLabel "Influenzavirus A influenza A virus H4N6 subtype A/Mallard/New York/670/78"^^xsd:string ;
@@ -2570,7 +2570,7 @@ id:AGE274 rdf:type owl:NamedIndividual ,
 		foaf:homepage <https://sugarbind.expasy.org/agents/274> ;
 		dcterms:references <https://sugarbind.expasy.org/agents/274> ;
 		:causes id:DIS27 ;
-		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS27;
+		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS27 ;
 		:found_in id:ARE25 ;
 		rdfs:label "Influenzavirus A influenza A virus H4N6 subtype A/Mallard/NewYork/670/78"^^xsd:string ;
 		skos:prefLabel "Influenzavirus A influenza A virus H4N6 subtype A/Mallard/NewYork/670/78"^^xsd:string ;
@@ -2583,7 +2583,7 @@ id:AGE275 rdf:type owl:NamedIndividual ,
 		foaf:homepage <https://sugarbind.expasy.org/agents/275> ;
 		dcterms:references <https://sugarbind.expasy.org/agents/275> ;
 		:causes id:DIS27 ;
-		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS27;
+		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS27 ;
 		:found_in id:ARE3 ;
 		rdfs:label "Influenzavirus A influenza A virus H5N1 subtype"^^xsd:string ;
 		skos:prefLabel "Influenzavirus A influenza A virus H5N1 subtype"^^xsd:string ;
@@ -2599,7 +2599,7 @@ id:AGE276 rdf:type owl:NamedIndividual ,
 		foaf:homepage <https://sugarbind.expasy.org/agents/276> ;
 		dcterms:references <https://sugarbind.expasy.org/agents/276> ;
 		:causes id:DIS27 ;
-		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS27;
+		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS27 ;
 		:found_in id:ARE3 ;
 		rdfs:label "Influenzavirus A influenza A virus H5N1 subtype A/Chicken/Hong Kong/220/97"^^xsd:string ;
 		skos:prefLabel "Influenzavirus A influenza A virus H5N1 subtype A/Chicken/Hong Kong/220/97"^^xsd:string ;
@@ -2613,7 +2613,7 @@ id:AGE277 rdf:type owl:NamedIndividual ,
 		foaf:homepage <https://sugarbind.expasy.org/agents/277> ;
 		dcterms:references <https://sugarbind.expasy.org/agents/277> ;
 		:causes id:DIS27 ;
-		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS27;
+		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS27 ;
 		:found_in id:ARE3 ;
 		rdfs:label "Influenzavirus A influenza A virus H5N1 subtype A/Chicken/Korea/ES/2003"^^xsd:string ;
 		skos:prefLabel "Influenzavirus A influenza A virus H5N1 subtype A/Chicken/Korea/ES/2003"^^xsd:string ;
@@ -2626,7 +2626,7 @@ id:AGE278 rdf:type owl:NamedIndividual ,
 		foaf:homepage <https://sugarbind.expasy.org/agents/278> ;
 		dcterms:references <https://sugarbind.expasy.org/agents/278> ;
 		:causes id:DIS27 ;
-		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS27;
+		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS27 ;
 		:found_in id:ARE3 ;
 		rdfs:label "Influenzavirus A influenza A virus H5N1 subtype A/Chicken/Laos/7191/2004"^^xsd:string ;
 		skos:prefLabel "Influenzavirus A influenza A virus H5N1 subtype A/Chicken/Laos/7191/2004"^^xsd:string ;
@@ -2639,7 +2639,7 @@ id:AGE279 rdf:type owl:NamedIndividual ,
 		foaf:homepage <https://sugarbind.expasy.org/agents/279> ;
 		dcterms:references <https://sugarbind.expasy.org/agents/279> ;
 		:causes id:DIS27 ;
-		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS27;
+		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS27 ;
 		:found_in id:ARE3 ;
 		rdfs:label "Influenzavirus A influenza A virus H5N1 subtype A/Chicken/Vietnam/NCVD11/03"^^xsd:string ;
 		skos:prefLabel "Influenzavirus A influenza A virus H5N1 subtype A/Chicken/Vietnam/NCVD11/03"^^xsd:string ;
@@ -2652,7 +2652,7 @@ id:AGE280 rdf:type owl:NamedIndividual ,
 		foaf:homepage <https://sugarbind.expasy.org/agents/280> ;
 		dcterms:references <https://sugarbind.expasy.org/agents/280> ;
 		:causes id:DIS27 ;
-		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS27;
+		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS27 ;
 		:found_in id:ARE3 ;
 		rdfs:label "Influenzavirus A influenza A virus H5N1 subtype A/Chicken/Vietnam/NCVD5/2003"^^xsd:string ;
 		skos:prefLabel "Influenzavirus A influenza A virus H5N1 subtype A/Chicken/Vietnam/NCVD5/2003"^^xsd:string ;
@@ -2665,7 +2665,7 @@ id:AGE281 rdf:type owl:NamedIndividual ,
 		foaf:homepage <https://sugarbind.expasy.org/agents/281> ;
 		dcterms:references <https://sugarbind.expasy.org/agents/281> ;
 		:causes id:DIS27 ;
-		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS27;
+		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS27 ;
 		:found_in id:ARE3 ;
 		rdfs:label "Influenzavirus A influenza A virus H5N1 subtype A/Duck meat/Amyang/AVL/2001"^^xsd:string ;
 		skos:prefLabel "Influenzavirus A influenza A virus H5N1 subtype A/Duck meat/Amyang/AVL/2001"^^xsd:string ;
@@ -2678,7 +2678,7 @@ id:AGE282 rdf:type owl:NamedIndividual ,
 		foaf:homepage <https://sugarbind.expasy.org/agents/282> ;
 		dcterms:references <https://sugarbind.expasy.org/agents/282> ;
 		:causes id:DIS27 ;
-		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS27;
+		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS27 ;
 		:found_in id:ARE3 ;
 		rdfs:label "Influenzavirus A influenza A virus H5N1 subtype A/Goose/Hong Kong/437-4/99"^^xsd:string ;
 		skos:prefLabel "Influenzavirus A influenza A virus H5N1 subtype A/Goose/Hong Kong/437-4/99"^^xsd:string ;
@@ -2691,7 +2691,7 @@ id:AGE283 rdf:type owl:NamedIndividual ,
 		foaf:homepage <https://sugarbind.expasy.org/agents/283> ;
 		dcterms:references <https://sugarbind.expasy.org/agents/283> ;
 		:causes id:DIS27 ;
-		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS27;
+		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS27 ;
 		:found_in id:ARE3 ;
 		rdfs:label "Influenzavirus A influenza A virus H5N1 subtype A/Goose/Hong Kong/739.2/2002"^^xsd:string ;
 		skos:prefLabel "Influenzavirus A influenza A virus H5N1 subtype A/Goose/Hong Kong/739.2/2002"^^xsd:string ;
@@ -2704,7 +2704,7 @@ id:AGE284 rdf:type owl:NamedIndividual ,
 		foaf:homepage <https://sugarbind.expasy.org/agents/284> ;
 		dcterms:references <https://sugarbind.expasy.org/agents/284> ;
 		:causes id:DIS27 ;
-		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS27;
+		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS27 ;
 		:found_in id:ARE3 ;
 		rdfs:label "Influenzavirus A influenza A virus H5N1 subtype A/Goose/Vietnam/113/2001"^^xsd:string ;
 		skos:prefLabel "Influenzavirus A influenza A virus H5N1 subtype A/Goose/Vietnam/113/2001"^^xsd:string ;
@@ -2717,7 +2717,7 @@ id:AGE285 rdf:type owl:NamedIndividual ,
 		foaf:homepage <https://sugarbind.expasy.org/agents/285> ;
 		dcterms:references <https://sugarbind.expasy.org/agents/285> ;
 		:causes id:DIS27 ;
-		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS27;
+		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS27 ;
 		:found_in id:ARE3 ;
 		rdfs:label "Influenzavirus A influenza A virus H5N1 subtype A/Goose/Vietnam/324/2001"^^xsd:string ;
 		skos:prefLabel "Influenzavirus A influenza A virus H5N1 subtype A/Goose/Vietnam/324/2001"^^xsd:string ;
@@ -2730,7 +2730,7 @@ id:AGE286 rdf:type owl:NamedIndividual ,
 		foaf:homepage <https://sugarbind.expasy.org/agents/286> ;
 		dcterms:references <https://sugarbind.expasy.org/agents/286> ;
 		:causes id:DIS27 ;
-		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS27;
+		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS27 ;
 		:found_in id:ARE3 ;
 		rdfs:label "Influenzavirus A influenza A virus H5N1 subtype A/Hong Kong/212/2003"^^xsd:string ;
 		skos:prefLabel "Influenzavirus A influenza A virus H5N1 subtype A/Hong Kong/212/2003"^^xsd:string ;
@@ -2744,7 +2744,7 @@ id:AGE287 rdf:type owl:NamedIndividual ,
 		foaf:homepage <https://sugarbind.expasy.org/agents/287> ;
 		dcterms:references <https://sugarbind.expasy.org/agents/287> ;
 		:causes id:DIS27 ;
-		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS27;
+		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS27 ;
 		:found_in id:ARE3 ;
 		rdfs:label "Influenzavirus A influenza A virus H5N1 subtype A/Hong Kong/213/2003"^^xsd:string ;
 		skos:prefLabel "Influenzavirus A influenza A virus H5N1 subtype A/Hong Kong/213/2003"^^xsd:string ;
@@ -2757,7 +2757,7 @@ id:AGE288 rdf:type owl:NamedIndividual ,
 		foaf:homepage <https://sugarbind.expasy.org/agents/288> ;
 		dcterms:references <https://sugarbind.expasy.org/agents/288> ;
 		:causes id:DIS27 ;
-		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS27;
+		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS27 ;
 		:found_in id:ARE3 ;
 		rdfs:label "Influenzavirus A influenza A virus H5N1 subtype A/Hong Kong/483/97"^^xsd:string ;
 		skos:prefLabel "Influenzavirus A influenza A virus H5N1 subtype A/Hong Kong/483/97"^^xsd:string ;
@@ -2770,7 +2770,7 @@ id:AGE289 rdf:type owl:NamedIndividual ,
 		foaf:homepage <https://sugarbind.expasy.org/agents/289> ;
 		dcterms:references <https://sugarbind.expasy.org/agents/289> ;
 		:causes id:DIS27 ;
-		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS27;
+		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS27 ;
 		:found_in id:ARE3 ;
 		rdfs:label "Influenzavirus A influenza A virus H5N1 subtype A/Hong Kong/486/97"^^xsd:string ;
 		skos:prefLabel "Influenzavirus A influenza A virus H5N1 subtype A/Hong Kong/486/97"^^xsd:string ;
@@ -2783,7 +2783,7 @@ id:AGE290 rdf:type owl:NamedIndividual ,
 		foaf:homepage <https://sugarbind.expasy.org/agents/290> ;
 		dcterms:references <https://sugarbind.expasy.org/agents/290> ;
 		:causes id:DIS27 ;
-		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS27;
+		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS27 ;
 		:found_in id:ARE3 ;
 		rdfs:label "Influenzavirus A influenza A virus H5N1 subtype A/Hong Kong/542/97"^^xsd:string ;
 		skos:prefLabel "Influenzavirus A influenza A virus H5N1 subtype A/Hong Kong/542/97"^^xsd:string ;
@@ -2796,7 +2796,7 @@ id:AGE291 rdf:type owl:NamedIndividual ,
 		foaf:homepage <https://sugarbind.expasy.org/agents/291> ;
 		dcterms:references <https://sugarbind.expasy.org/agents/291> ;
 		:causes id:DIS27 ;
-		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS27;
+		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS27 ;
 		:found_in id:ARE3 ;
 		rdfs:label "Influenzavirus A influenza A virus H5N1 subtype A/Rosybilled Pochard/Hong Kong/821/2002"^^xsd:string ;
 		skos:prefLabel "Influenzavirus A influenza A virus H5N1 subtype A/Rosybilled Pochard/Hong Kong/821/2002"^^xsd:string ;
@@ -2809,7 +2809,7 @@ id:AGE292 rdf:type owl:NamedIndividual ,
 		foaf:homepage <https://sugarbind.expasy.org/agents/292> ;
 		dcterms:references <https://sugarbind.expasy.org/agents/292> ;
 		:causes id:DIS27 ;
-		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS27;
+		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS27 ;
 		:found_in id:ARE3 ;
 		rdfs:label "Influenzavirus A influenza A virus H5N1 subtype A/Teal/Hong Kong/2978.1/2002"^^xsd:string ;
 		skos:prefLabel "Influenzavirus A influenza A virus H5N1 subtype A/Teal/Hong Kong/2978.1/2002"^^xsd:string ;
@@ -2822,7 +2822,7 @@ id:AGE293 rdf:type owl:NamedIndividual ,
 		foaf:homepage <https://sugarbind.expasy.org/agents/293> ;
 		dcterms:references <https://sugarbind.expasy.org/agents/293> ;
 		:causes id:DIS27 ;
-		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS27;
+		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS27 ;
 		:found_in id:ARE3 ;
 		rdfs:label "Influenzavirus A influenza A virus H5N1 subtype A/Thailand/16/2004"^^xsd:string ;
 		skos:prefLabel "Influenzavirus A influenza A virus H5N1 subtype A/Thailand/16/2004"^^xsd:string ;
@@ -2835,7 +2835,7 @@ id:AGE294 rdf:type owl:NamedIndividual ,
 		foaf:homepage <https://sugarbind.expasy.org/agents/294> ;
 		dcterms:references <https://sugarbind.expasy.org/agents/294> ;
 		:causes id:DIS27 ;
-		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS27;
+		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS27 ;
 		:found_in id:ARE3 ;
 		rdfs:label "Influenzavirus A influenza A virus H5N1 subtype A/Vietnam/1194/2004"^^xsd:string ;
 		skos:prefLabel "Influenzavirus A influenza A virus H5N1 subtype A/Vietnam/1194/2004"^^xsd:string ;
@@ -2848,7 +2848,7 @@ id:AGE295 rdf:type owl:NamedIndividual ,
 		foaf:homepage <https://sugarbind.expasy.org/agents/295> ;
 		dcterms:references <https://sugarbind.expasy.org/agents/295> ;
 		:causes id:DIS27 ;
-		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS27;
+		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS27 ;
 		:found_in id:ARE3 ;
 		rdfs:label "Influenzavirus A influenza A virus H5N1 subtype A/Vietnam/1203/2004"^^xsd:string ;
 		skos:prefLabel "Influenzavirus A influenza A virus H5N1 subtype A/Vietnam/1203/2004"^^xsd:string ;
@@ -2861,7 +2861,7 @@ id:AGE297 rdf:type owl:NamedIndividual ,
 		foaf:homepage <https://sugarbind.expasy.org/agents/297> ;
 		dcterms:references <https://sugarbind.expasy.org/agents/297> ;
 		:causes id:DIS27 ;
-		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS27;
+		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS27 ;
 		:found_in id:ARE3 ;
 		rdfs:label "Influenzavirus A influenza A virus H5N2 subtype A/Chicken/Mexico/31381-3/94"^^xsd:string ;
 		skos:prefLabel "Influenzavirus A influenza A virus H5N2 subtype A/Chicken/Mexico/31381-3/94"^^xsd:string ;
@@ -2874,7 +2874,7 @@ id:AGE298 rdf:type owl:NamedIndividual ,
 		foaf:homepage <https://sugarbind.expasy.org/agents/298> ;
 		dcterms:references <https://sugarbind.expasy.org/agents/298> ;
 		:causes id:DIS27 ;
-		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS27;
+		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS27 ;
 		:found_in id:ARE3 ;
 		rdfs:label "Influenzavirus A influenza A virus H5N2 subtype A/Chicken/New Jersey/17169/1993"^^xsd:string ;
 		skos:prefLabel "Influenzavirus A influenza A virus H5N2 subtype A/Chicken/New Jersey/17169/1993"^^xsd:string ;
@@ -2887,7 +2887,7 @@ id:AGE299 rdf:type owl:NamedIndividual ,
 		foaf:homepage <https://sugarbind.expasy.org/agents/299> ;
 		dcterms:references <https://sugarbind.expasy.org/agents/299> ;
 		:causes id:DIS27 ;
-		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS27;
+		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS27 ;
 		:found_in id:ARE3 ;
 		rdfs:label "Influenzavirus A influenza A virus H5N2 subtype A/Chukkar/Minnesota/14591-7/98"^^xsd:string ;
 		skos:prefLabel "Influenzavirus A influenza A virus H5N2 subtype A/Chukkar/Minnesota/14591-7/98"^^xsd:string ;
@@ -2900,7 +2900,7 @@ id:AGE300 rdf:type owl:NamedIndividual ,
 		foaf:homepage <https://sugarbind.expasy.org/agents/300> ;
 		dcterms:references <https://sugarbind.expasy.org/agents/300> ;
 		:causes id:DIS27 ;
-		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS27;
+		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS27 ;
 		:found_in id:ARE3 ;
 		rdfs:label "Influenzavirus A influenza A virus H5N2 subtype A/Duck/NJ/117228-7/2001"^^xsd:string ;
 		skos:prefLabel "Influenzavirus A influenza A virus H5N2 subtype A/Duck/NJ/117228-7/2001"^^xsd:string ;
@@ -2913,7 +2913,7 @@ id:AGE301 rdf:type owl:NamedIndividual ,
 		foaf:homepage <https://sugarbind.expasy.org/agents/301> ;
 		dcterms:references <https://sugarbind.expasy.org/agents/301> ;
 		:causes id:DIS27 ;
-		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS27;
+		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS27 ;
 		:found_in id:ARE3 ;
 		rdfs:label "Influenzavirus A influenza A virus H5N2 subtype A/Turkey/California/DO-6/2002"^^xsd:string ;
 		skos:prefLabel "Influenzavirus A influenza A virus H5N2 subtype A/Turkey/California/DO-6/2002"^^xsd:string ;
@@ -2926,7 +2926,7 @@ id:AGE303 rdf:type owl:NamedIndividual ,
 		foaf:homepage <https://sugarbind.expasy.org/agents/303> ;
 		dcterms:references <https://sugarbind.expasy.org/agents/303> ;
 		:causes id:DIS27 ;
-		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS27;
+		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS27 ;
 		:found_in id:ARE3 ;
 		rdfs:label "Influenzavirus A influenza A virus H5N3 subtype A/Chicken/Texas/167280-4/2002"^^xsd:string ;
 		skos:prefLabel "Influenzavirus A influenza A virus H5N3 subtype A/Chicken/Texas/167280-4/2002"^^xsd:string ;
@@ -2939,7 +2939,7 @@ id:AGE304 rdf:type owl:NamedIndividual ,
 		foaf:homepage <https://sugarbind.expasy.org/agents/304> ;
 		dcterms:references <https://sugarbind.expasy.org/agents/304> ;
 		:causes id:DIS27 ;
-		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS27;
+		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS27 ;
 		:found_in id:ARE3 ;
 		rdfs:label "Influenzavirus A influenza A virus H5N3 subtype A/Turkey/California/6878/79"^^xsd:string ;
 		skos:prefLabel "Influenzavirus A influenza A virus H5N3 subtype A/Turkey/California/6878/79"^^xsd:string ;
@@ -2952,7 +2952,7 @@ id:AGE306 rdf:type owl:NamedIndividual ,
 		foaf:homepage <https://sugarbind.expasy.org/agents/306> ;
 		dcterms:references <https://sugarbind.expasy.org/agents/306> ;
 		:causes id:DIS27 ;
-		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS27;
+		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS27 ;
 		:found_in id:ARE3 ;
 		rdfs:label "Influenzavirus A influenza A virus H5N8 subtype A/Turkey/Wisconsin/68"^^xsd:string ;
 		skos:prefLabel "Influenzavirus A influenza A virus H5N8 subtype A/Turkey/Wisconsin/68"^^xsd:string ;
@@ -2965,7 +2965,7 @@ id:AGE308 rdf:type owl:NamedIndividual ,
 		foaf:homepage <https://sugarbind.expasy.org/agents/308> ;
 		dcterms:references <https://sugarbind.expasy.org/agents/308> ;
 		:causes id:DIS27 ;
-		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS27;
+		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS27 ;
 		:found_in id:ARE3 ;
 		rdfs:label "Influenzavirus A influenza A virus H5N9 subtype A/Ratite/New York/12716/94"^^xsd:string ;
 		skos:prefLabel "Influenzavirus A influenza A virus H5N9 subtype A/Ratite/New York/12716/94"^^xsd:string ;
@@ -2978,7 +2978,7 @@ id:AGE310 rdf:type owl:NamedIndividual ,
 		foaf:homepage <https://sugarbind.expasy.org/agents/310> ;
 		dcterms:references <https://sugarbind.expasy.org/agents/310> ;
 		:causes id:DIS27 ;
-		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS27;
+		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS27 ;
 		:found_in id:ARE3 ;
 		rdfs:label "Influenzavirus A influenza A virus H6N1 subtype A/Teal/Hong Kong/W312/97"^^xsd:string ;
 		skos:prefLabel "Influenzavirus A influenza A virus H6N1 subtype A/Teal/Hong Kong/W312/97"^^xsd:string ;
@@ -2991,7 +2991,7 @@ id:AGE312 rdf:type owl:NamedIndividual ,
 		foaf:homepage <https://sugarbind.expasy.org/agents/312> ;
 		dcterms:references <https://sugarbind.expasy.org/agents/312> ;
 		:causes id:DIS27 ;
-		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS27;
+		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS27 ;
 		:found_in id:ARE3 ;
 		rdfs:label "Influenzavirus A influenza A virus H6N2 subtype A/Gull/Moscow/3100/06"^^xsd:string ;
 		skos:prefLabel "Influenzavirus A influenza A virus H6N2 subtype A/Gull/Moscow/3100/06"^^xsd:string ;
@@ -3004,7 +3004,7 @@ id:AGE313 rdf:type owl:NamedIndividual ,
 		foaf:homepage <https://sugarbind.expasy.org/agents/313> ;
 		dcterms:references <https://sugarbind.expasy.org/agents/313> ;
 		:causes id:DIS27 ;
-		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS27;
+		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS27 ;
 		:found_in id:ARE3 ;
 		rdfs:label "Influenzavirus A influenza A virus H6N2 subtype A/turkey/Massachusetts/3740/1965"^^xsd:string ;
 		skos:prefLabel "Influenzavirus A influenza A virus H6N2 subtype A/turkey/Massachusetts/3740/1965"^^xsd:string ;
@@ -3017,7 +3017,7 @@ id:AGE315 rdf:type owl:NamedIndividual ,
 		foaf:homepage <https://sugarbind.expasy.org/agents/315> ;
 		dcterms:references <https://sugarbind.expasy.org/agents/315> ;
 		:causes id:DIS27 ;
-		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS27;
+		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS27 ;
 		:found_in id:ARE3 ;
 		rdfs:label "Influenzavirus A influenza A virus H6N5 subtype A/Shearwater/Australia/1/72"^^xsd:string ;
 		skos:prefLabel "Influenzavirus A influenza A virus H6N5 subtype A/Shearwater/Australia/1/72"^^xsd:string ;
@@ -3031,7 +3031,7 @@ id:AGE317 rdf:type owl:NamedIndividual ,
 		foaf:homepage <https://sugarbind.expasy.org/agents/317> ;
 		dcterms:references <https://sugarbind.expasy.org/agents/317> ;
 		:causes id:DIS27 ;
-		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS27;
+		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS27 ;
 		:found_in id:ARE3 ;
 		rdfs:label "Influenzavirus A influenza A virus H6N8 subtype A/Chicken/New York/13237/98"^^xsd:string ;
 		skos:prefLabel "Influenzavirus A influenza A virus H6N8 subtype A/Chicken/New York/13237/98"^^xsd:string ;
@@ -3044,7 +3044,7 @@ id:AGE319 rdf:type owl:NamedIndividual ,
 		foaf:homepage <https://sugarbind.expasy.org/agents/319> ;
 		dcterms:references <https://sugarbind.expasy.org/agents/319> ;
 		:causes id:DIS27 ;
-		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS27;
+		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS27 ;
 		:found_in id:ARE3 ;
 		rdfs:label "Influenzavirus A influenza A virus H7N2 subtype A/Avian/New York/273874/03"^^xsd:string ;
 		skos:prefLabel "Influenzavirus A influenza A virus H7N2 subtype A/Avian/New York/273874/03"^^xsd:string ;
@@ -3057,7 +3057,7 @@ id:AGE320 rdf:type owl:NamedIndividual ,
 		foaf:homepage <https://sugarbind.expasy.org/agents/320> ;
 		dcterms:references <https://sugarbind.expasy.org/agents/320> ;
 		:causes id:DIS27 ;
-		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS27;
+		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS27 ;
 		:found_in id:ARE3 ;
 		rdfs:label "Influenzavirus A influenza A virus H7N2 subtype A/Chicken/Delaware/296763/04"^^xsd:string ;
 		skos:prefLabel "Influenzavirus A influenza A virus H7N2 subtype A/Chicken/Delaware/296763/04"^^xsd:string ;
@@ -3070,7 +3070,7 @@ id:AGE321 rdf:type owl:NamedIndividual ,
 		foaf:homepage <https://sugarbind.expasy.org/agents/321> ;
 		dcterms:references <https://sugarbind.expasy.org/agents/321> ;
 		:causes id:DIS27 ;
-		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS27;
+		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS27 ;
 		:found_in id:ARE3 ;
 		rdfs:label "Influenzavirus A influenza A virus H7N2 subtype A/Chicken/NJ/294598-12/04"^^xsd:string ;
 		skos:prefLabel "Influenzavirus A influenza A virus H7N2 subtype A/Chicken/NJ/294598-12/04"^^xsd:string ;
@@ -3083,7 +3083,7 @@ id:AGE322 rdf:type owl:NamedIndividual ,
 		foaf:homepage <https://sugarbind.expasy.org/agents/322> ;
 		dcterms:references <https://sugarbind.expasy.org/agents/322> ;
 		:causes id:DIS27 ;
-		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS27;
+		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS27 ;
 		:found_in id:ARE3 ;
 		rdfs:label "Influenzavirus A influenza A virus H7N2 subtype A/New York/107/03"^^xsd:string ;
 		skos:prefLabel "Influenzavirus A influenza A virus H7N2 subtype A/New York/107/03"^^xsd:string ;
@@ -3096,7 +3096,7 @@ id:AGE323 rdf:type owl:NamedIndividual ,
 		foaf:homepage <https://sugarbind.expasy.org/agents/323> ;
 		dcterms:references <https://sugarbind.expasy.org/agents/323> ;
 		:causes id:DIS27 ;
-		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS27;
+		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS27 ;
 		:found_in id:ARE3 ;
 		rdfs:label "Influenzavirus A influenza A virus H7N2 subtype A/Turkey/Virginia/4529/02"^^xsd:string ;
 		skos:prefLabel "Influenzavirus A influenza A virus H7N2 subtype A/Turkey/Virginia/4529/02"^^xsd:string ;
@@ -3109,7 +3109,7 @@ id:AGE325 rdf:type owl:NamedIndividual ,
 		foaf:homepage <https://sugarbind.expasy.org/agents/325> ;
 		dcterms:references <https://sugarbind.expasy.org/agents/325> ;
 		:causes id:DIS27 ;
-		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS27;
+		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS27 ;
 		:found_in id:ARE3 ;
 		rdfs:label "Influenzavirus A influenza A virus H7N7 subtype A/Netherlands/219/03"^^xsd:string ;
 		skos:prefLabel "Influenzavirus A influenza A virus H7N7 subtype A/Netherlands/219/03"^^xsd:string ;
@@ -3122,7 +3122,7 @@ id:AGE326 rdf:type owl:NamedIndividual ,
 		foaf:homepage <https://sugarbind.expasy.org/agents/326> ;
 		dcterms:references <https://sugarbind.expasy.org/agents/326> ;
 		:causes id:DIS27 ;
-		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS27;
+		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS27 ;
 		:found_in id:ARE3 ;
 		rdfs:label "Influenzavirus A influenza A virus H7N7 subtype A/Netherlands/230/03"^^xsd:string ;
 		skos:prefLabel "Influenzavirus A influenza A virus H7N7 subtype A/Netherlands/230/03"^^xsd:string ;
@@ -3135,7 +3135,7 @@ id:AGE327 rdf:type owl:NamedIndividual ,
 		foaf:homepage <https://sugarbind.expasy.org/agents/327> ;
 		dcterms:references <https://sugarbind.expasy.org/agents/327> ;
 		:causes id:DIS27 ;
-		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS27;
+		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS27 ;
 		:found_in id:ARE3 ;
 		rdfs:label "Influenzavirus A influenza A virus H7N7 subtype A/Netherlands/231/03"^^xsd:string ;
 		skos:prefLabel "Influenzavirus A influenza A virus H7N7 subtype A/Netherlands/231/03"^^xsd:string ;
@@ -3148,7 +3148,7 @@ id:AGE329 rdf:type owl:NamedIndividual ,
 		foaf:homepage <https://sugarbind.expasy.org/agents/329> ;
 		dcterms:references <https://sugarbind.expasy.org/agents/329> ;
 		:causes id:DIS27 ;
-		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS27;
+		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS27 ;
 		:found_in id:ARE3 ;
 		rdfs:label "Influenzavirus A influenza A virus H9N2 subtype A/Chicken/Hong Kong/FY20/99"^^xsd:string ;
 		skos:prefLabel "Influenzavirus A influenza A virus H9N2 subtype A/Chicken/Hong Kong/FY20/99"^^xsd:string ;
@@ -3161,7 +3161,7 @@ id:AGE330 rdf:type owl:NamedIndividual ,
 		foaf:homepage <https://sugarbind.expasy.org/agents/330> ;
 		dcterms:references <https://sugarbind.expasy.org/agents/330> ;
 		:causes id:DIS27 ;
-		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS27;
+		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS27 ;
 		:found_in id:ARE3 ;
 		rdfs:label "Influenzavirus A influenza A virus H9N2 subtype A/Chicken/Hong Kong/G9/97"^^xsd:string ;
 		skos:prefLabel "Influenzavirus A influenza A virus H9N2 subtype A/Chicken/Hong Kong/G9/97"^^xsd:string ;
@@ -3174,7 +3174,7 @@ id:AGE331 rdf:type owl:NamedIndividual ,
 		foaf:homepage <https://sugarbind.expasy.org/agents/331> ;
 		dcterms:references <https://sugarbind.expasy.org/agents/331> ;
 		:causes id:DIS27 ;
-		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS27;
+		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS27 ;
 		:found_in id:ARE3 ;
 		rdfs:label "Influenzavirus A influenza A virus H9N2 subtype A/Chicken/Hong Kong/SF3/99"^^xsd:string ;
 		skos:prefLabel "Influenzavirus A influenza A virus H9N2 subtype A/Chicken/Hong Kong/SF3/99"^^xsd:string ;
@@ -3187,7 +3187,7 @@ id:AGE332 rdf:type owl:NamedIndividual ,
 		foaf:homepage <https://sugarbind.expasy.org/agents/332> ;
 		dcterms:references <https://sugarbind.expasy.org/agents/332> ;
 		:causes id:DIS27 ;
-		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS27;
+		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS27 ;
 		:found_in id:ARE3 ;
 		rdfs:label "Influenzavirus A influenza A virus H9N2 subtype A/Chicken/Korea/96323/96"^^xsd:string ;
 		skos:prefLabel "Influenzavirus A influenza A virus H9N2 subtype A/Chicken/Korea/96323/96"^^xsd:string ;
@@ -3200,7 +3200,7 @@ id:AGE333 rdf:type owl:NamedIndividual ,
 		foaf:homepage <https://sugarbind.expasy.org/agents/333> ;
 		dcterms:references <https://sugarbind.expasy.org/agents/333> ;
 		:causes id:DIS27 ;
-		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS27;
+		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS27 ;
 		:found_in id:ARE3 ;
 		rdfs:label "Influenzavirus A influenza A virus H9N2 subtype A/Chicken/New Jersey/12220/97"^^xsd:string ;
 		skos:prefLabel "Influenzavirus A influenza A virus H9N2 subtype A/Chicken/New Jersey/12220/97"^^xsd:string ;
@@ -3213,7 +3213,7 @@ id:AGE334 rdf:type owl:NamedIndividual ,
 		foaf:homepage <https://sugarbind.expasy.org/agents/334> ;
 		dcterms:references <https://sugarbind.expasy.org/agents/334> ;
 		:causes id:DIS27 ;
-		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS27;
+		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS27 ;
 		:found_in id:ARE3 ;
 		rdfs:label "Influenzavirus A influenza A virus H9N2 subtype A/Duck/Hong Kong/Y280/97"^^xsd:string ;
 		skos:prefLabel "Influenzavirus A influenza A virus H9N2 subtype A/Duck/Hong Kong/Y280/97"^^xsd:string ;
@@ -3226,7 +3226,7 @@ id:AGE335 rdf:type owl:NamedIndividual ,
 		foaf:homepage <https://sugarbind.expasy.org/agents/335> ;
 		dcterms:references <https://sugarbind.expasy.org/agents/335> ;
 		:causes id:DIS27 ;
-		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS27;
+		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS27 ;
 		:found_in id:ARE3 ;
 		rdfs:label "Influenzavirus A influenza A virus H9N2 subtype A/Teal/Primorie/3628/02"^^xsd:string ;
 		skos:prefLabel "Influenzavirus A influenza A virus H9N2 subtype A/Teal/Primorie/3628/02"^^xsd:string ;
@@ -3239,7 +3239,7 @@ id:AGE336 rdf:type owl:NamedIndividual ,
 		foaf:homepage <https://sugarbind.expasy.org/agents/336> ;
 		dcterms:references <https://sugarbind.expasy.org/agents/336> ;
 		:causes id:DIS27 ;
-		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS27;
+		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS27 ;
 		:found_in id:ARE3 ;
 		rdfs:label "Influenzavirus A influenza A virus H9N2 subtype A/Goose/Minnesota/5773/80"^^xsd:string ;
 		skos:prefLabel "Influenzavirus A influenza A virus H9N2 subtype A/Goose/Minnesota/5773/80"^^xsd:string ;
@@ -3252,7 +3252,7 @@ id:AGE337 rdf:type owl:NamedIndividual ,
 		foaf:homepage <https://sugarbind.expasy.org/agents/337> ;
 		dcterms:references <https://sugarbind.expasy.org/agents/337> ;
 		:causes id:DIS27 ;
-		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS27;
+		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS27 ;
 		:found_in id:ARE3 ;
 		rdfs:label "Influenzavirus A influenza A virus H9N2 subtype A/Hong Kong/1073/99"^^xsd:string ;
 		skos:prefLabel "Influenzavirus A influenza A virus H9N2 subtype A/Hong Kong/1073/99"^^xsd:string ;
@@ -3266,7 +3266,7 @@ id:AGE338 rdf:type owl:NamedIndividual ,
 		foaf:homepage <https://sugarbind.expasy.org/agents/338> ;
 		dcterms:references <https://sugarbind.expasy.org/agents/338> ;
 		:causes id:DIS27 ;
-		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS27;
+		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS27 ;
 		:found_in id:ARE3 ;
 		rdfs:label "Influenzavirus A influenza A virus H9N2 subtype A/Hong Kong/2108/03"^^xsd:string ;
 		skos:prefLabel "Influenzavirus A influenza A virus H9N2 subtype A/Hong Kong/2108/03"^^xsd:string ;
@@ -3279,7 +3279,7 @@ id:AGE339 rdf:type owl:NamedIndividual ,
 		foaf:homepage <https://sugarbind.expasy.org/agents/339> ;
 		dcterms:references <https://sugarbind.expasy.org/agents/339> ;
 		:causes id:DIS27 ;
-		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS27;
+		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS27 ;
 		:found_in id:ARE3 ;
 		rdfs:label "Influenzavirus A influenza A virus H9N2 subtype A/Pheasant/Wisconsin/1780/8"^^xsd:string ;
 		skos:prefLabel "Influenzavirus A influenza A virus H9N2 subtype A/Pheasant/Wisconsin/1780/8"^^xsd:string ;
@@ -3292,7 +3292,7 @@ id:AGE340 rdf:type owl:NamedIndividual ,
 		foaf:homepage <https://sugarbind.expasy.org/agents/340> ;
 		dcterms:references <https://sugarbind.expasy.org/agents/340> ;
 		:causes id:DIS27 ;
-		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS27;
+		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS27 ;
 		:found_in id:ARE3 ;
 		rdfs:label "Influenzavirus A influenza A virus H9N2 subtype A/Quail/Hong Kong/G1/97"^^xsd:string ;
 		skos:prefLabel "Influenzavirus A influenza A virus H9N2 subtype A/Quail/Hong Kong/G1/97"^^xsd:string ;
@@ -3305,7 +3305,7 @@ id:AGE341 rdf:type owl:NamedIndividual ,
 		foaf:homepage <https://sugarbind.expasy.org/agents/341> ;
 		dcterms:references <https://sugarbind.expasy.org/agents/341> ;
 		:causes id:DIS27 ;
-		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS27;
+		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS27 ;
 		:found_in id:ARE27 ;
 		rdfs:label "Influenzavirus A influenza A virus H9N2 subtype A/Swine/Hong Kong/9/98"^^xsd:string ;
 		skos:prefLabel "Influenzavirus A influenza A virus H9N2 subtype A/Swine/Hong Kong/9/98"^^xsd:string ;
@@ -3318,7 +3318,7 @@ id:AGE342 rdf:type owl:NamedIndividual ,
 		foaf:homepage <https://sugarbind.expasy.org/agents/342> ;
 		dcterms:references <https://sugarbind.expasy.org/agents/342> ;
 		:causes id:DIS27 ;
-		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS27;
+		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS27 ;
 		:found_in id:ARE3 ;
 		rdfs:label "Influenzavirus A influenza A virus H9N2 subtype A/Turkey/Minnesota/38391-6/95"^^xsd:string ;
 		skos:prefLabel "Influenzavirus A influenza A virus H9N2 subtype A/Turkey/Minnesota/38391-6/95"^^xsd:string ;
@@ -3331,7 +3331,7 @@ id:AGE343 rdf:type owl:NamedIndividual ,
 		foaf:homepage <https://sugarbind.expasy.org/agents/343> ;
 		dcterms:references <https://sugarbind.expasy.org/agents/343> ;
 		:causes id:DIS27 ;
-		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS27;
+		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS27 ;
 		:found_in id:ARE3 ;
 		rdfs:label "Influenzavirus A influenza A virus H9N2 subtype A/Turkey/Wisconsin/1/66"^^xsd:string ;
 		skos:prefLabel "Influenzavirus A influenza A virus H9N2 subtype A/Turkey/Wisconsin/1/66"^^xsd:string ;
@@ -3345,7 +3345,7 @@ id:AGE344 rdf:type owl:NamedIndividual ,
 		foaf:homepage <https://sugarbind.expasy.org/agents/344> ;
 		dcterms:references <https://sugarbind.expasy.org/agents/344> ;
 		:causes id:DIS27 ;
-		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS27;
+		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS27 ;
 		:found_in id:ARE3 ;
 		rdfs:label "Influenzavirus A influenza A virus Sw/Germany/2/81 (190D, 155V)"^^xsd:string ;
 		skos:prefLabel "Influenzavirus A influenza A virus Sw/Germany/2/81 (190D, 155V)"^^xsd:string ;
@@ -3359,7 +3359,7 @@ id:AGE345 rdf:type owl:NamedIndividual ,
 		foaf:homepage <https://sugarbind.expasy.org/agents/345> ;
 		dcterms:references <https://sugarbind.expasy.org/agents/345> ;
 		:causes id:DIS27 ;
-		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS27;
+		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS27 ;
 		:found_in id:ARE3 ;
 		rdfs:label "Influenzavirus A influenza A virus Sw/Netherlands/3/80 (225E, 155I)"^^xsd:string ;
 		skos:prefLabel "Influenzavirus A influenza A virus Sw/Netherlands/3/80 (225E, 155I)"^^xsd:string ;
@@ -3372,7 +3372,7 @@ id:AGE348 rdf:type owl:NamedIndividual ,
 		foaf:homepage <https://sugarbind.expasy.org/agents/348> ;
 		dcterms:references <https://sugarbind.expasy.org/agents/348> ;
 		:causes id:DIS28 ;
-		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS28;
+		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS28 ;
 		:found_in id:ARE3 ;
 		rdfs:label "Klebsiella pneumoniae 27736"^^xsd:string ;
 		skos:prefLabel "Klebsiella pneumoniae 27736"^^xsd:string ;
@@ -3386,7 +3386,7 @@ id:AGE349 rdf:type owl:NamedIndividual ,
 		foaf:homepage <https://sugarbind.expasy.org/agents/349> ;
 		dcterms:references <https://sugarbind.expasy.org/agents/349> ;
 		:causes id:DIS28 ;
-		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS28;
+		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS28 ;
 		:found_in id:ARE3 ;
 		rdfs:label "Klebsiella pneumoniae N/S"^^xsd:string ;
 		skos:prefLabel "Klebsiella pneumoniae N/S"^^xsd:string ;
@@ -3399,7 +3399,7 @@ id:AGE350 rdf:type owl:NamedIndividual ,
 		foaf:homepage <https://sugarbind.expasy.org/agents/350> ;
 		dcterms:references <https://sugarbind.expasy.org/agents/350> ;
 		:causes id:DIS28 ;
-		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS28;
+		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS28 ;
 		:found_in id:ARE3 ;
 		rdfs:label "Klebsiella pneumoniae N/S"^^xsd:string ;
 		skos:prefLabel "Klebsiella pneumoniae N/S"^^xsd:string ;
@@ -3412,7 +3412,7 @@ id:AGE351 rdf:type owl:NamedIndividual ,
 		foaf:homepage <https://sugarbind.expasy.org/agents/351> ;
 		dcterms:references <https://sugarbind.expasy.org/agents/351> ;
 		:causes id:DIS28 ;
-		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS28;
+		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS28 ;
 		:found_in id:ARE3 ;
 		rdfs:label "Klebsiella pneumoniae N/S"^^xsd:string ;
 		skos:prefLabel "Klebsiella pneumoniae N/S"^^xsd:string ;
@@ -3501,7 +3501,7 @@ id:AGE366 rdf:type owl:NamedIndividual ,
 		foaf:homepage <https://sugarbind.expasy.org/agents/366> ;
 		dcterms:references <https://sugarbind.expasy.org/agents/366> ;
 		:causes id:DIS31 ;
-		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS31;
+		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS31 ;
 		:found_in id:ARE3 ;
 		rdfs:label "Mycoplasma gallisepticum N/S"^^xsd:string ;
 		skos:prefLabel "Mycoplasma gallisepticum N/S"^^xsd:string ;
@@ -3544,7 +3544,7 @@ id:AGE371 rdf:type owl:NamedIndividual ,
 		foaf:homepage <https://sugarbind.expasy.org/agents/371> ;
 		dcterms:references <https://sugarbind.expasy.org/agents/371> ;
 		:causes id:DIS34 ;
-		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS34;
+		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS34 ;
 		rdfs:label "Neisseria gonorrhoeae"^^xsd:string ;
 		skos:prefLabel "Neisseria gonorrhoeae"^^xsd:string ;
 		:lineage_up id:AGE370 ;
@@ -3561,7 +3561,7 @@ id:AGE372 rdf:type owl:NamedIndividual ,
 		foaf:homepage <https://sugarbind.expasy.org/agents/372> ;
 		dcterms:references <https://sugarbind.expasy.org/agents/372> ;
 		:causes id:DIS34 ;
-		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS34;
+		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS34 ;
 		:found_in id:ARE3 ;
 		rdfs:label "Neisseria gonorrhoeae FA5100"^^xsd:string ;
 		skos:prefLabel "Neisseria gonorrhoeae FA5100"^^xsd:string ;
@@ -3575,7 +3575,7 @@ id:AGE373 rdf:type owl:NamedIndividual ,
 		foaf:homepage <https://sugarbind.expasy.org/agents/373> ;
 		dcterms:references <https://sugarbind.expasy.org/agents/373> ;
 		:causes id:DIS34 ;
-		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS34;
+		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS34 ;
 		:found_in id:ARE3 ;
 		rdfs:label "Neisseria gonorrhoeae LP1"^^xsd:string ;
 		skos:prefLabel "Neisseria gonorrhoeae LP1"^^xsd:string ;
@@ -3589,7 +3589,7 @@ id:AGE374 rdf:type owl:NamedIndividual ,
 		foaf:homepage <https://sugarbind.expasy.org/agents/374> ;
 		dcterms:references <https://sugarbind.expasy.org/agents/374> ;
 		:causes id:DIS34 ;
-		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS34;
+		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS34 ;
 		:found_in id:ARE3 ;
 		rdfs:label "Neisseria gonorrhoeae ML1"^^xsd:string ;
 		skos:prefLabel "Neisseria gonorrhoeae ML1"^^xsd:string ;
@@ -3603,7 +3603,7 @@ id:AGE375 rdf:type owl:NamedIndividual ,
 		foaf:homepage <https://sugarbind.expasy.org/agents/375> ;
 		dcterms:references <https://sugarbind.expasy.org/agents/375> ;
 		:causes id:DIS34 ;
-		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS34;
+		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS34 ;
 		:found_in id:ARE3 ;
 		rdfs:label "Neisseria gonorrhoeae MS11"^^xsd:string ;
 		skos:prefLabel "Neisseria gonorrhoeae MS11"^^xsd:string ;
@@ -3617,7 +3617,7 @@ id:AGE376 rdf:type owl:NamedIndividual ,
 		foaf:homepage <https://sugarbind.expasy.org/agents/376> ;
 		dcterms:references <https://sugarbind.expasy.org/agents/376> ;
 		:causes id:DIS34 ;
-		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS34;
+		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS34 ;
 		:found_in id:ARE3 ;
 		rdfs:label "Neisseria gonorrhoeae MS11 with pili"^^xsd:string ;
 		skos:prefLabel "Neisseria gonorrhoeae MS11 with pili"^^xsd:string ;
@@ -3631,7 +3631,7 @@ id:AGE377 rdf:type owl:NamedIndividual ,
 		foaf:homepage <https://sugarbind.expasy.org/agents/377> ;
 		dcterms:references <https://sugarbind.expasy.org/agents/377> ;
 		:causes id:DIS34 ;
-		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS34;
+		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS34 ;
 		:found_in id:ARE3 ;
 		rdfs:label "Neisseria gonorrhoeae MS11 without pili"^^xsd:string ;
 		skos:prefLabel "Neisseria gonorrhoeae MS11 without pili"^^xsd:string ;
@@ -3645,7 +3645,7 @@ id:AGE378 rdf:type owl:NamedIndividual ,
 		foaf:homepage <https://sugarbind.expasy.org/agents/378> ;
 		dcterms:references <https://sugarbind.expasy.org/agents/378> ;
 		:causes id:DIS34 ;
-		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS34;
+		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS34 ;
 		:found_in id:ARE3 ;
 		rdfs:label "Neisseria gonorrhoeae N/S"^^xsd:string ;
 		skos:prefLabel "Neisseria gonorrhoeae N/S"^^xsd:string ;
@@ -3658,7 +3658,7 @@ id:AGE379 rdf:type owl:NamedIndividual ,
 		foaf:homepage <https://sugarbind.expasy.org/agents/379> ;
 		dcterms:references <https://sugarbind.expasy.org/agents/379> ;
 		:causes id:DIS34 ;
-		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS34;
+		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS34 ;
 		:found_in id:ARE3 ;
 		rdfs:label "Neisseria gonorrhoeae N/S"^^xsd:string ;
 		skos:prefLabel "Neisseria gonorrhoeae N/S"^^xsd:string ;
@@ -3671,7 +3671,7 @@ id:AGE380 rdf:type owl:NamedIndividual ,
 		foaf:homepage <https://sugarbind.expasy.org/agents/380> ;
 		dcterms:references <https://sugarbind.expasy.org/agents/380> ;
 		:causes id:DIS34 ;
-		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS34;
+		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS34 ;
 		:found_in id:ARE3 ;
 		rdfs:label "Neisseria gonorrhoeae N/S"^^xsd:string ;
 		skos:prefLabel "Neisseria gonorrhoeae N/S"^^xsd:string ;
@@ -3684,7 +3684,7 @@ id:AGE381 rdf:type owl:NamedIndividual ,
 		foaf:homepage <https://sugarbind.expasy.org/agents/381> ;
 		dcterms:references <https://sugarbind.expasy.org/agents/381> ;
 		:causes id:DIS34 ;
-		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS34;
+		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS34 ;
 		:found_in id:ARE3 ;
 		rdfs:label "Neisseria gonorrhoeae WG-52"^^xsd:string ;
 		skos:prefLabel "Neisseria gonorrhoeae WG-52"^^xsd:string ;
@@ -3708,7 +3708,7 @@ id:AGE386 rdf:type owl:NamedIndividual ,
 		foaf:homepage <https://sugarbind.expasy.org/agents/386> ;
 		dcterms:references <https://sugarbind.expasy.org/agents/386> ;
 		:causes id:DIS35 ;
-		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS35;
+		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS35 ;
 		:found_in id:ARE33 ;
 		rdfs:label "Norovirus norwalk virus Boxer"^^xsd:string ;
 		skos:prefLabel "Norovirus norwalk virus Boxer"^^xsd:string ;
@@ -3721,7 +3721,7 @@ id:AGE387 rdf:type owl:NamedIndividual ,
 		foaf:homepage <https://sugarbind.expasy.org/agents/387> ;
 		dcterms:references <https://sugarbind.expasy.org/agents/387> ;
 		:causes id:DIS35 ;
-		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS35;
+		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS35 ;
 		:found_in id:ARE33 ;
 		rdfs:label "Norovirus norwalk virus BUDS"^^xsd:string ;
 		skos:prefLabel "Norovirus norwalk virus BUDS"^^xsd:string ;
@@ -3734,7 +3734,7 @@ id:AGE388 rdf:type owl:NamedIndividual ,
 		foaf:homepage <https://sugarbind.expasy.org/agents/388> ;
 		dcterms:references <https://sugarbind.expasy.org/agents/388> ;
 		:causes id:DIS35 ;
-		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS35;
+		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS35 ;
 		:found_in id:ARE33 ;
 		rdfs:label "Norovirus norwalk virus GrV"^^xsd:string ;
 		skos:prefLabel "Norovirus norwalk virus GrV"^^xsd:string ;
@@ -3748,7 +3748,7 @@ id:AGE389 rdf:type owl:NamedIndividual ,
 		foaf:homepage <https://sugarbind.expasy.org/agents/389> ;
 		dcterms:references <https://sugarbind.expasy.org/agents/389> ;
 		:causes id:DIS35 ;
-		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS35;
+		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS35 ;
 		:found_in id:ARE33 ;
 		rdfs:label "Norovirus norwalk virus GrV or VA207"^^xsd:string ;
 		skos:prefLabel "Norovirus norwalk virus GrV or VA207"^^xsd:string ;
@@ -3762,7 +3762,7 @@ id:AGE390 rdf:type owl:NamedIndividual ,
 		foaf:homepage <https://sugarbind.expasy.org/agents/390> ;
 		dcterms:references <https://sugarbind.expasy.org/agents/390> ;
 		:causes id:DIS35 ;
-		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS35;
+		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS35 ;
 		:found_in id:ARE33 ;
 		rdfs:label "Norovirus norwalk virus HV"^^xsd:string ;
 		skos:prefLabel "Norovirus norwalk virus HV"^^xsd:string ;
@@ -3775,7 +3775,7 @@ id:AGE391 rdf:type owl:NamedIndividual ,
 		foaf:homepage <https://sugarbind.expasy.org/agents/391> ;
 		dcterms:references <https://sugarbind.expasy.org/agents/391> ;
 		:causes id:DIS35 ;
-		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS35;
+		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS35 ;
 		:found_in id:ARE33 ;
 		rdfs:label "Norovirus norwalk virus MOH"^^xsd:string ;
 		skos:prefLabel "Norovirus norwalk virus MOH"^^xsd:string ;
@@ -3788,7 +3788,7 @@ id:AGE392 rdf:type owl:NamedIndividual ,
 		foaf:homepage <https://sugarbind.expasy.org/agents/392> ;
 		dcterms:references <https://sugarbind.expasy.org/agents/392> ;
 		:causes id:DIS35 ;
-		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS35;
+		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS35 ;
 		:found_in id:ARE33 ;
 		rdfs:label "Norovirus norwalk virus MxV"^^xsd:string ;
 		skos:prefLabel "Norovirus norwalk virus MxV"^^xsd:string ;
@@ -3801,7 +3801,7 @@ id:AGE393 rdf:type owl:NamedIndividual ,
 		foaf:homepage <https://sugarbind.expasy.org/agents/393> ;
 		dcterms:references <https://sugarbind.expasy.org/agents/393> ;
 		:causes id:DIS35 ;
-		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS35;
+		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS35 ;
 		:found_in id:ARE33 ;
 		rdfs:label "Norovirus norwalk virus NV"^^xsd:string ;
 		skos:prefLabel "Norovirus norwalk virus NV"^^xsd:string ;
@@ -3815,7 +3815,7 @@ id:AGE394 rdf:type owl:NamedIndividual ,
 		foaf:homepage <https://sugarbind.expasy.org/agents/394> ;
 		dcterms:references <https://sugarbind.expasy.org/agents/394> ;
 		:causes id:DIS35 ;
-		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS35;
+		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS35 ;
 		:found_in id:ARE33 ;
 		rdfs:label "Norovirus norwalk virus OIF"^^xsd:string ;
 		skos:prefLabel "Norovirus norwalk virus OIF"^^xsd:string ;
@@ -3828,7 +3828,7 @@ id:AGE395 rdf:type owl:NamedIndividual ,
 		foaf:homepage <https://sugarbind.expasy.org/agents/395> ;
 		dcterms:references <https://sugarbind.expasy.org/agents/395> ;
 		:causes id:DIS35 ;
-		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS35;
+		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS35 ;
 		:found_in id:ARE33 ;
 		rdfs:label "Norovirus norwalk virus PiV"^^xsd:string ;
 		skos:prefLabel "Norovirus norwalk virus PiV"^^xsd:string ;
@@ -3841,7 +3841,7 @@ id:AGE396 rdf:type owl:NamedIndividual ,
 		foaf:homepage <https://sugarbind.expasy.org/agents/396> ;
 		dcterms:references <https://sugarbind.expasy.org/agents/396> ;
 		:causes id:DIS35 ;
-		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS35;
+		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS35 ;
 		:found_in id:ARE33 ;
 		rdfs:label "Norovirus norwalk virus VA207"^^xsd:string ;
 		skos:prefLabel "Norovirus norwalk virus VA207"^^xsd:string ;
@@ -3854,7 +3854,7 @@ id:AGE397 rdf:type owl:NamedIndividual ,
 		foaf:homepage <https://sugarbind.expasy.org/agents/397> ;
 		dcterms:references <https://sugarbind.expasy.org/agents/397> ;
 		:causes id:DIS35 ;
-		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS35;
+		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS35 ;
 		:found_in id:ARE33 ;
 		rdfs:label "Norovirus norwalk virus VA387"^^xsd:string ;
 		skos:prefLabel "Norovirus norwalk virus VA387"^^xsd:string ;
@@ -3867,7 +3867,7 @@ id:AGE399 rdf:type owl:NamedIndividual ,
 		foaf:homepage <https://sugarbind.expasy.org/agents/399> ;
 		dcterms:references <https://sugarbind.expasy.org/agents/399> ;
 		:causes id:DIS1 ;
-		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS1;
+		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS1 ;
 		:found_in id:ARE3 ;
 		rdfs:label "Parainfluenza virus 5 (SV5) hPIV-5"^^xsd:string ;
 		skos:prefLabel "Parainfluenza virus 5 (SV5) hPIV-5"^^xsd:string ;
@@ -3880,7 +3880,7 @@ id:AGE400 rdf:type owl:NamedIndividual ,
 		foaf:homepage <https://sugarbind.expasy.org/agents/400> ;
 		dcterms:references <https://sugarbind.expasy.org/agents/400> ;
 		:causes id:DIS1 ;
-		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS1;
+		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS1 ;
 		rdfs:label "Respirovirus Parainfluenza Virus Type 1 (human)"^^xsd:string ;
 		skos:prefLabel "Respirovirus Parainfluenza Virus Type 1 (human)"^^xsd:string ;
 		:lineage_up id:AGE456 ;
@@ -3893,7 +3893,7 @@ id:AGE401 rdf:type owl:NamedIndividual ,
 		foaf:homepage <https://sugarbind.expasy.org/agents/401> ;
 		dcterms:references <https://sugarbind.expasy.org/agents/401> ;
 		:causes id:DIS1 ;
-		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS1;
+		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS1 ;
 		:found_in id:ARE3 ;
 		rdfs:label "Respirovirus Parainfluenza Virus Type 1 (human) c35"^^xsd:string ;
 		skos:prefLabel "Respirovirus Parainfluenza Virus Type 1 (human) c35"^^xsd:string ;
@@ -3907,7 +3907,7 @@ id:AGE402 rdf:type owl:NamedIndividual ,
 		foaf:homepage <https://sugarbind.expasy.org/agents/402> ;
 		dcterms:references <https://sugarbind.expasy.org/agents/402> ;
 		:causes id:DIS1 ;
-		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS1;
+		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS1 ;
 		rdfs:label "Respirovirus Parainfluenza Virus Type 3 (human)"^^xsd:string ;
 		skos:prefLabel "Respirovirus Parainfluenza Virus Type 3 (human)"^^xsd:string ;
 		:lineage_up id:AGE456 ;
@@ -3920,7 +3920,7 @@ id:AGE403 rdf:type owl:NamedIndividual ,
 		foaf:homepage <https://sugarbind.expasy.org/agents/403> ;
 		dcterms:references <https://sugarbind.expasy.org/agents/403> ;
 		:causes id:DIS1 ;
-		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS1;
+		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS1 ;
 		:found_in id:ARE3 ;
 		rdfs:label "Respirovirus Parainfluenza Virus Type 3 (human) c243"^^xsd:string ;
 		skos:prefLabel "Respirovirus Parainfluenza Virus Type 3 (human) c243"^^xsd:string ;
@@ -3943,7 +3943,7 @@ id:AGE409 rdf:type owl:NamedIndividual ,
 		foaf:homepage <https://sugarbind.expasy.org/agents/409> ;
 		dcterms:references <https://sugarbind.expasy.org/agents/409> ;
 		:causes id:DIS36 ;
-		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS36;
+		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS36 ;
 		:found_in id:ARE3 ;
 		rdfs:label "Plasmodium falciparum N/S"^^xsd:string ;
 		skos:prefLabel "Plasmodium falciparum N/S"^^xsd:string ;
@@ -3956,7 +3956,7 @@ id:AGE410 rdf:type owl:NamedIndividual ,
 		foaf:homepage <https://sugarbind.expasy.org/agents/410> ;
 		dcterms:references <https://sugarbind.expasy.org/agents/410> ;
 		:causes id:DIS36 ;
-		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS36;
+		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS36 ;
 		:found_in id:ARE3 ;
 		rdfs:label "Plasmodium falciparum N/S"^^xsd:string ;
 		skos:prefLabel "Plasmodium falciparum N/S"^^xsd:string ;
@@ -3969,7 +3969,7 @@ id:AGE411 rdf:type owl:NamedIndividual ,
 		foaf:homepage <https://sugarbind.expasy.org/agents/411> ;
 		dcterms:references <https://sugarbind.expasy.org/agents/411> ;
 		:causes id:DIS36 ;
-		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS36;
+		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS36 ;
 		:found_in id:ARE3 ;
 		rdfs:label "Plasmodium falciparum N/S"^^xsd:string ;
 		skos:prefLabel "Plasmodium falciparum N/S"^^xsd:string ;
@@ -4023,7 +4023,7 @@ id:AGE419 rdf:type owl:NamedIndividual ,
 		foaf:homepage <https://sugarbind.expasy.org/agents/419> ;
 		dcterms:references <https://sugarbind.expasy.org/agents/419> ;
 		:causes id:DIS1 ;
-		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS1;
+		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS1 ;
 		:found_in id:ARE3 ;
 		rdfs:label "Proteus mirabilis"^^xsd:string ;
 		skos:prefLabel "Proteus mirabilis"^^xsd:string ;
@@ -4127,7 +4127,7 @@ id:AGE430 rdf:type owl:NamedIndividual ,
 		foaf:homepage <https://sugarbind.expasy.org/agents/430> ;
 		dcterms:references <https://sugarbind.expasy.org/agents/430> ;
 		:causes id:DIS1 ;
-		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS1;
+		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS1 ;
 		:found_in id:ARE3 ;
 		rdfs:label "Pseudomonas aeruginosa N/S"^^xsd:string ;
 		skos:prefLabel "Pseudomonas aeruginosa N/S"^^xsd:string ;
@@ -4219,7 +4219,7 @@ id:AGE439 rdf:type owl:NamedIndividual ,
 		foaf:homepage <https://sugarbind.expasy.org/agents/439> ;
 		dcterms:references <https://sugarbind.expasy.org/agents/439> ;
 		:causes id:DIS35 ;
-		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS35;
+		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS35 ;
 		rdfs:label "Rotavirus"^^xsd:string ;
 		skos:prefLabel "Rotavirus"^^xsd:string ;
 		:lineage_up id:AGE439 ;
@@ -4235,7 +4235,7 @@ id:AGE440 rdf:type owl:NamedIndividual ,
 		foaf:homepage <https://sugarbind.expasy.org/agents/440> ;
 		dcterms:references <https://sugarbind.expasy.org/agents/440> ;
 		:causes id:DIS35 ;
-		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS35;
+		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS35 ;
 		:found_in id:ARE33 ;
 		rdfs:label "Rotavirus Bovine rotavirus A NCDV/G6"^^xsd:string ;
 		skos:prefLabel "Rotavirus Bovine rotavirus A NCDV/G6"^^xsd:string ;
@@ -4248,7 +4248,7 @@ id:AGE441 rdf:type owl:NamedIndividual ,
 		foaf:homepage <https://sugarbind.expasy.org/agents/441> ;
 		dcterms:references <https://sugarbind.expasy.org/agents/441> ;
 		:causes id:DIS35 ;
-		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS35;
+		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS35 ;
 		:found_in id:ARE33 ;
 		rdfs:label "Rotavirus Simian rotavirus A SA11"^^xsd:string ;
 		skos:prefLabel "Rotavirus Simian rotavirus A SA11"^^xsd:string ;
@@ -4262,7 +4262,7 @@ id:AGE442 rdf:type owl:NamedIndividual ,
 		foaf:homepage <https://sugarbind.expasy.org/agents/442> ;
 		dcterms:references <https://sugarbind.expasy.org/agents/442> ;
 		:causes id:DIS35 ;
-		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS35;
+		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS35 ;
 		:found_in id:ARE33 ;
 		rdfs:label "Rotavirus Bovine rotavirus A UK/G6"^^xsd:string ;
 		skos:prefLabel "Rotavirus Bovine rotavirus A UK/G6"^^xsd:string ;
@@ -4275,7 +4275,7 @@ id:AGE445 rdf:type owl:NamedIndividual ,
 		foaf:homepage <https://sugarbind.expasy.org/agents/445> ;
 		dcterms:references <https://sugarbind.expasy.org/agents/445> ;
 		:causes id:DIS1 ;
-		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS1;
+		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS1 ;
 		:found_in id:ARE3 ;
 		rdfs:label "Saccharomyces cerevisiae ATCC 18824"^^xsd:string ;
 		skos:prefLabel "Saccharomyces cerevisiae ATCC 18824"^^xsd:string ;
@@ -4342,7 +4342,7 @@ id:AGE446 rdf:type owl:NamedIndividual ,
 		foaf:homepage <https://sugarbind.expasy.org/agents/446> ;
 		dcterms:references <https://sugarbind.expasy.org/agents/446> ;
 		:causes id:DIS1 ;
-		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS1;
+		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS1 ;
 		:found_in id:ARE3 ;
 		rdfs:label "Saccharomyces cerevisiae HFH 21"^^xsd:string ;
 		skos:prefLabel "Saccharomyces cerevisiae HFH 21"^^xsd:string ;
@@ -4377,7 +4377,7 @@ id:AGE451 rdf:type owl:NamedIndividual ,
 		foaf:homepage <https://sugarbind.expasy.org/agents/451> ;
 		dcterms:references <https://sugarbind.expasy.org/agents/451> ;
 		:causes id:DIS1 ;
-		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS1;
+		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS1 ;
 		:found_in id:ARE3 ;
 		rdfs:label "Salmonella typhimurium N/S"^^xsd:string ;
 		skos:prefLabel "Salmonella typhimurium N/S"^^xsd:string ;
@@ -4390,7 +4390,7 @@ id:AGE452 rdf:type owl:NamedIndividual ,
 		foaf:homepage <https://sugarbind.expasy.org/agents/452> ;
 		dcterms:references <https://sugarbind.expasy.org/agents/452> ;
 		:causes id:DIS1 ;
-		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS1;
+		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS1 ;
 		:found_in id:ARE3 ;
 		rdfs:label "Salmonella typhimurium N/S"^^xsd:string ;
 		skos:prefLabel "Salmonella typhimurium N/S"^^xsd:string ;
@@ -4403,7 +4403,7 @@ id:AGE454 rdf:type owl:NamedIndividual ,
 		foaf:homepage <https://sugarbind.expasy.org/agents/454> ;
 		dcterms:references <https://sugarbind.expasy.org/agents/454> ;
 		:causes id:DIS1 ;
-		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS1;
+		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS1 ;
 		:found_in id:ARE3 ;
 		rdfs:label "Salmonella typhimurium N/S Heat-labile enterotoxin"^^xsd:string ;
 		skos:prefLabel "Salmonella typhimurium N/S Heat-labile enterotoxin"^^xsd:string ;
@@ -4427,7 +4427,7 @@ id:AGE456 rdf:type owl:NamedIndividual ,
 		foaf:homepage <https://sugarbind.expasy.org/agents/456> ;
 		dcterms:references <https://sugarbind.expasy.org/agents/456> ;
 		:causes id:DIS1 ;
-		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS1;
+		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS1 ;
 		rdfs:label "Respirovirus"^^xsd:string ;
 		skos:prefLabel "Respirovirus"^^xsd:string ;
 		:lineage_up id:AGE400 ;
@@ -4453,7 +4453,7 @@ id:AGE460 rdf:type owl:NamedIndividual ,
 		foaf:homepage <https://sugarbind.expasy.org/agents/460> ;
 		dcterms:references <https://sugarbind.expasy.org/agents/460> ;
 		:causes id:DIS1 ;
-		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS1;
+		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS1 ;
 		:found_in id:ARE3 ;
 		rdfs:label "Serratia marcescens N/S"^^xsd:string ;
 		skos:prefLabel "Serratia marcescens N/S"^^xsd:string ;
@@ -4466,7 +4466,7 @@ id:AGE461 rdf:type owl:NamedIndividual ,
 		foaf:homepage <https://sugarbind.expasy.org/agents/461> ;
 		dcterms:references <https://sugarbind.expasy.org/agents/461> ;
 		:causes id:DIS1 ;
-		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS1;
+		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS1 ;
 		:found_in id:ARE3 ;
 		rdfs:label "Shiga toxin"^^xsd:string ;
 		skos:prefLabel "Shiga toxin"^^xsd:string ;
@@ -4487,7 +4487,7 @@ id:AGE463 rdf:type owl:NamedIndividual ,
 		foaf:homepage <https://sugarbind.expasy.org/agents/463> ;
 		dcterms:references <https://sugarbind.expasy.org/agents/463> ;
 		:causes id:DIS1 ;
-		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS1;
+		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS1 ;
 		:found_in id:ARE3 ;
 		rdfs:label "Shigella toxin"^^xsd:string ;
 		skos:prefLabel "Shigella toxin"^^xsd:string ;
@@ -4499,7 +4499,7 @@ id:AGE467 rdf:type owl:NamedIndividual ,
 		foaf:homepage <https://sugarbind.expasy.org/agents/467> ;
 		dcterms:references <https://sugarbind.expasy.org/agents/467> ;
 		:causes id:DIS37 ;
-		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS37;
+		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS37 ;
 		:found_in id:ARE3 ;
 		rdfs:label "Shigella dysenteriae N/S Shiga toxin"^^xsd:string ;
 		skos:prefLabel "Shigella dysenteriae N/S Shiga toxin"^^xsd:string ;
@@ -4512,7 +4512,7 @@ id:AGE469 rdf:type owl:NamedIndividual ,
 		foaf:homepage <https://sugarbind.expasy.org/agents/469> ;
 		dcterms:references <https://sugarbind.expasy.org/agents/469> ;
 		:causes id:DIS1 ;
-		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS1;
+		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS1 ;
 		:found_in id:ARE3 ;
 		rdfs:label "Shigella flexneri N/S"^^xsd:string ;
 		skos:prefLabel "Shigella flexneri N/S"^^xsd:string ;
@@ -4525,7 +4525,7 @@ id:AGE472 rdf:type owl:NamedIndividual ,
 		foaf:homepage <https://sugarbind.expasy.org/agents/472> ;
 		dcterms:references <https://sugarbind.expasy.org/agents/472> ;
 		:causes id:DIS38 ;
-		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS38;
+		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS38 ;
 		:found_in id:ARE3 ;
 		rdfs:label "Sporothrix schenckii CDC B4668"^^xsd:string ;
 		skos:prefLabel "Sporothrix schenckii CDC B4668"^^xsd:string ;
@@ -4538,7 +4538,7 @@ id:AGE473 rdf:type owl:NamedIndividual ,
 		foaf:homepage <https://sugarbind.expasy.org/agents/473> ;
 		dcterms:references <https://sugarbind.expasy.org/agents/473> ;
 		:causes id:DIS38 ;
-		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS38;
+		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS38 ;
 		:found_in id:ARE3 ;
 		rdfs:label "Sporothrix schenckii IMT58"^^xsd:string ;
 		skos:prefLabel "Sporothrix schenckii IMT58"^^xsd:string ;
@@ -4708,7 +4708,7 @@ id:AGE488 rdf:type owl:NamedIndividual ,
 		foaf:homepage <https://sugarbind.expasy.org/agents/488> ;
 		dcterms:references <https://sugarbind.expasy.org/agents/488> ;
 		:causes id:DIS5 ;
-		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS5;
+		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS5 ;
 		:found_in id:ARE9 ,
 			id:ARE10 ,
 			id:ARE9 ,
@@ -4766,7 +4766,7 @@ id:AGE495 rdf:type owl:NamedIndividual ,
 		foaf:homepage <https://sugarbind.expasy.org/agents/495> ;
 		dcterms:references <https://sugarbind.expasy.org/agents/495> ;
 		:causes id:DIS1 ;
-		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS1;
+		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS1 ;
 		:found_in id:ARE3 ;
 		rdfs:label "Streptococcus pneumoniae 27336"^^xsd:string ;
 		skos:prefLabel "Streptococcus pneumoniae 27336"^^xsd:string ;
@@ -4780,7 +4780,7 @@ id:AGE496 rdf:type owl:NamedIndividual ,
 		foaf:homepage <https://sugarbind.expasy.org/agents/496> ;
 		dcterms:references <https://sugarbind.expasy.org/agents/496> ;
 		:causes id:DIS1 ;
-		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS1;
+		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS1 ;
 		:found_in id:ARE3 ;
 		rdfs:label "Streptococcus pneumoniae ATCC 33400"^^xsd:string ;
 		skos:prefLabel "Streptococcus pneumoniae ATCC 33400"^^xsd:string ;
@@ -4816,7 +4816,7 @@ id:AGE497 rdf:type owl:NamedIndividual ,
 		foaf:homepage <https://sugarbind.expasy.org/agents/497> ;
 		dcterms:references <https://sugarbind.expasy.org/agents/497> ;
 		:causes id:DIS1 ;
-		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS1;
+		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS1 ;
 		:found_in id:ARE3 ;
 		rdfs:label "Streptococcus pneumoniae 6303"^^xsd:string ;
 		skos:prefLabel "Streptococcus pneumoniae 6303"^^xsd:string ;
@@ -4830,7 +4830,7 @@ id:AGE498 rdf:type owl:NamedIndividual ,
 		foaf:homepage <https://sugarbind.expasy.org/agents/498> ;
 		dcterms:references <https://sugarbind.expasy.org/agents/498> ;
 		:causes id:DIS1 ;
-		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS1;
+		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS1 ;
 		:found_in id:ARE3 ;
 		rdfs:label "Streptococcus pneumoniae N/S"^^xsd:string ;
 		skos:prefLabel "Streptococcus pneumoniae N/S"^^xsd:string ;
@@ -4843,7 +4843,7 @@ id:AGE499 rdf:type owl:NamedIndividual ,
 		foaf:homepage <https://sugarbind.expasy.org/agents/499> ;
 		dcterms:references <https://sugarbind.expasy.org/agents/499> ;
 		:causes id:DIS1 ;
-		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS1;
+		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS1 ;
 		:found_in id:ARE3 ;
 		rdfs:label "Streptococcus pneumoniae N/S"^^xsd:string ;
 		skos:prefLabel "Streptococcus pneumoniae N/S"^^xsd:string ;
@@ -4856,7 +4856,7 @@ id:AGE500 rdf:type owl:NamedIndividual ,
 		foaf:homepage <https://sugarbind.expasy.org/agents/500> ;
 		dcterms:references <https://sugarbind.expasy.org/agents/500> ;
 		:causes id:DIS1 ;
-		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS1;
+		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS1 ;
 		:found_in id:ARE3 ;
 		rdfs:label "Streptococcus pneumoniae N/S"^^xsd:string ;
 		skos:prefLabel "Streptococcus pneumoniae N/S"^^xsd:string ;
@@ -4869,7 +4869,7 @@ id:AGE501 rdf:type owl:NamedIndividual ,
 		foaf:homepage <https://sugarbind.expasy.org/agents/501> ;
 		dcterms:references <https://sugarbind.expasy.org/agents/501> ;
 		:causes id:DIS1 ;
-		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS1;
+		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS1 ;
 		:found_in id:ARE3 ;
 		rdfs:label "Streptococcus pneumoniae N/S"^^xsd:string ;
 		skos:prefLabel "Streptococcus pneumoniae N/S"^^xsd:string ;
@@ -4882,7 +4882,7 @@ id:AGE502 rdf:type owl:NamedIndividual ,
 		foaf:homepage <https://sugarbind.expasy.org/agents/502> ;
 		dcterms:references <https://sugarbind.expasy.org/agents/502> ;
 		:causes id:DIS1 ;
-		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS1;
+		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS1 ;
 		:found_in id:ARE3 ;
 		rdfs:label "Streptococcus pneumoniae N/S"^^xsd:string ;
 		skos:prefLabel "Streptococcus pneumoniae N/S"^^xsd:string ;
@@ -4915,7 +4915,7 @@ id:AGE507 rdf:type owl:NamedIndividual ,
 		foaf:homepage <https://sugarbind.expasy.org/agents/507> ;
 		dcterms:references <https://sugarbind.expasy.org/agents/507> ;
 		:causes id:DIS1 ;
-		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS1;
+		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS1 ;
 		:found_in id:ARE3 ;
 		rdfs:label "Streptococcus suis 628"^^xsd:string ;
 		skos:prefLabel "Streptococcus suis 628"^^xsd:string ;
@@ -4929,7 +4929,7 @@ id:AGE508 rdf:type owl:NamedIndividual ,
 		foaf:homepage <https://sugarbind.expasy.org/agents/508> ;
 		dcterms:references <https://sugarbind.expasy.org/agents/508> ;
 		:causes id:DIS1 ;
-		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS1;
+		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS1 ;
 		:found_in id:ARE3 ;
 		rdfs:label "Streptococcus suis 836"^^xsd:string ;
 		skos:prefLabel "Streptococcus suis 836"^^xsd:string ;
@@ -4943,7 +4943,7 @@ id:AGE509 rdf:type owl:NamedIndividual ,
 		foaf:homepage <https://sugarbind.expasy.org/agents/509> ;
 		dcterms:references <https://sugarbind.expasy.org/agents/509> ;
 		:causes id:DIS1 ;
-		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS1;
+		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS1 ;
 		:found_in id:ARE3 ;
 		rdfs:label "Streptococcus suis N/S"^^xsd:string ;
 		skos:prefLabel "Streptococcus suis N/S"^^xsd:string ;
@@ -4956,7 +4956,7 @@ id:AGE510 rdf:type owl:NamedIndividual ,
 		foaf:homepage <https://sugarbind.expasy.org/agents/510> ;
 		dcterms:references <https://sugarbind.expasy.org/agents/510> ;
 		:causes id:DIS1 ;
-		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS1;
+		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS1 ;
 		:found_in id:ARE3 ;
 		rdfs:label "Streptococcus suis N/S"^^xsd:string ;
 		skos:prefLabel "Streptococcus suis N/S"^^xsd:string ;
@@ -4969,7 +4969,7 @@ id:AGE511 rdf:type owl:NamedIndividual ,
 		foaf:homepage <https://sugarbind.expasy.org/agents/511> ;
 		dcterms:references <https://sugarbind.expasy.org/agents/511> ;
 		:causes id:DIS1 ;
-		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS1;
+		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS1 ;
 		:found_in id:ARE3 ;
 		rdfs:label "Streptococcus suis N/S"^^xsd:string ;
 		skos:prefLabel "Streptococcus suis N/S"^^xsd:string ;
@@ -4982,7 +4982,7 @@ id:AGE514 rdf:type owl:NamedIndividual ,
 		foaf:homepage <https://sugarbind.expasy.org/agents/514> ;
 		dcterms:references <https://sugarbind.expasy.org/agents/514> ;
 		:causes id:DIS39 ;
-		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS39;
+		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS39 ;
 		:found_in id:ARE34 ;
 		rdfs:label "Toxoplasma gondii N/S"^^xsd:string ;
 		skos:prefLabel "Toxoplasma gondii N/S"^^xsd:string ;
@@ -4995,7 +4995,7 @@ id:AGE515 rdf:type owl:NamedIndividual ,
 		foaf:homepage <https://sugarbind.expasy.org/agents/515> ;
 		dcterms:references <https://sugarbind.expasy.org/agents/515> ;
 		:causes id:DIS39 ;
-		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS39;
+		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS39 ;
 		:found_in id:ARE20 ;
 		rdfs:label "Toxoplasma gondii N/S"^^xsd:string ;
 		skos:prefLabel "Toxoplasma gondii N/S"^^xsd:string ;
@@ -5008,7 +5008,7 @@ id:AGE516 rdf:type owl:NamedIndividual ,
 		foaf:homepage <https://sugarbind.expasy.org/agents/516> ;
 		dcterms:references <https://sugarbind.expasy.org/agents/516> ;
 		:causes id:DIS39 ;
-		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS39;
+		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS39 ;
 		:found_in id:ARE20 ;
 		rdfs:label "Toxoplasma gondii N/S"^^xsd:string ;
 		skos:prefLabel "Toxoplasma gondii N/S"^^xsd:string ;
@@ -5021,7 +5021,7 @@ id:AGE519 rdf:type owl:NamedIndividual ,
 		foaf:homepage <https://sugarbind.expasy.org/agents/519> ;
 		dcterms:references <https://sugarbind.expasy.org/agents/519> ;
 		:causes id:DIS40 ;
-		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS40;
+		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS40 ;
 		:found_in id:ARE3 ;
 		rdfs:label "Trypanosoma cruzi N/S"^^xsd:string ;
 		skos:prefLabel "Trypanosoma cruzi N/S"^^xsd:string ;
@@ -5043,7 +5043,7 @@ id:AGE523 rdf:type owl:NamedIndividual ,
 		foaf:homepage <https://sugarbind.expasy.org/agents/523> ;
 		dcterms:references <https://sugarbind.expasy.org/agents/523> ;
 		:causes id:DIS41 ;
-		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS41;
+		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS41 ;
 		:found_in id:ARE3 ;
 		rdfs:label "Vibrio cholerae ATCC 14034"^^xsd:string ;
 		skos:prefLabel "Vibrio cholerae ATCC 14034"^^xsd:string ;
@@ -5056,7 +5056,7 @@ id:AGE524 rdf:type owl:NamedIndividual ,
 		foaf:homepage <https://sugarbind.expasy.org/agents/524> ;
 		dcterms:references <https://sugarbind.expasy.org/agents/524> ;
 		:causes id:DIS41 ;
-		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS41;
+		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS41 ;
 		:found_in id:ARE3 ;
 		rdfs:label "Vibrio cholerae ATCC 14035"^^xsd:string ;
 		skos:prefLabel "Vibrio cholerae ATCC 14035"^^xsd:string ;
@@ -5070,7 +5070,7 @@ id:AGE525 rdf:type owl:NamedIndividual ,
 		foaf:homepage <https://sugarbind.expasy.org/agents/525> ;
 		dcterms:references <https://sugarbind.expasy.org/agents/525> ;
 		:causes id:DIS41 ;
-		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS41;
+		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS41 ;
 		:found_in id:ARE3 ;
 		rdfs:label "Vibrio cholerae O1"^^xsd:string ;
 		skos:prefLabel "Vibrio cholerae O1"^^xsd:string ;
@@ -5084,7 +5084,7 @@ id:AGE526 rdf:type owl:NamedIndividual ,
 		foaf:homepage <https://sugarbind.expasy.org/agents/526> ;
 		dcterms:references <https://sugarbind.expasy.org/agents/526> ;
 		:causes id:DIS41 ;
-		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS41;
+		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS41 ;
 		:found_in id:ARE3 ;
 		rdfs:label "Vibrio cholerae N/S"^^xsd:string ;
 		skos:prefLabel "Vibrio cholerae N/S"^^xsd:string ;
@@ -5097,7 +5097,7 @@ id:AGE528 rdf:type owl:NamedIndividual ,
 		foaf:homepage <https://sugarbind.expasy.org/agents/528> ;
 		dcterms:references <https://sugarbind.expasy.org/agents/528> ;
 		:causes id:DIS41 ;
-		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS41;
+		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS41 ;
 		:found_in id:ARE3 ;
 		rdfs:label "Vibrio cholerae N/S Toxin"^^xsd:string ;
 		skos:prefLabel "Vibrio cholerae N/S Toxin"^^xsd:string ;
@@ -5110,7 +5110,7 @@ id:AGE530 rdf:type owl:NamedIndividual ,
 		foaf:homepage <https://sugarbind.expasy.org/agents/530> ;
 		dcterms:references <https://sugarbind.expasy.org/agents/530> ;
 		:causes id:DIS41 ;
-		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS41;
+		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS41 ;
 		:found_in id:ARE3 ;
 		rdfs:label "Vibrio cholerae N/S Toxin"^^xsd:string ;
 		skos:prefLabel "Vibrio cholerae N/S Toxin"^^xsd:string ;
@@ -5123,7 +5123,7 @@ id:AGE532 rdf:type owl:NamedIndividual ,
 		foaf:homepage <https://sugarbind.expasy.org/agents/532> ;
 		dcterms:references <https://sugarbind.expasy.org/agents/532> ;
 		:causes id:DIS41 ;
-		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS41;
+		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS41 ;
 		:found_in id:ARE3 ;
 		rdfs:label "Vibrio cholerae N/S Toxin"^^xsd:string ;
 		skos:prefLabel "Vibrio cholerae N/S Toxin"^^xsd:string ;
@@ -5136,7 +5136,7 @@ id:AGE534 rdf:type owl:NamedIndividual ,
 		foaf:homepage <https://sugarbind.expasy.org/agents/534> ;
 		dcterms:references <https://sugarbind.expasy.org/agents/534> ;
 		:causes id:DIS41 ;
-		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS41;
+		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS41 ;
 		:found_in id:ARE3 ;
 		rdfs:label "Vibrio cholerae N/S Toxin"^^xsd:string ;
 		skos:prefLabel "Vibrio cholerae N/S Toxin"^^xsd:string ;
@@ -5149,7 +5149,7 @@ id:AGE536 rdf:type owl:NamedIndividual ,
 		foaf:homepage <https://sugarbind.expasy.org/agents/536> ;
 		dcterms:references <https://sugarbind.expasy.org/agents/536> ;
 		:causes id:DIS41 ;
-		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS41;
+		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS41 ;
 		:found_in id:ARE3 ;
 		rdfs:label "Vibrio cholerae N/S Toxin"^^xsd:string ;
 		skos:prefLabel "Vibrio cholerae N/S Toxin"^^xsd:string ;
@@ -5162,7 +5162,7 @@ id:AGE538 rdf:type owl:NamedIndividual ,
 		foaf:homepage <https://sugarbind.expasy.org/agents/538> ;
 		dcterms:references <https://sugarbind.expasy.org/agents/538> ;
 		:causes id:DIS41 ;
-		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS41;
+		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS41 ;
 		:found_in id:ARE3 ;
 		rdfs:label "Vibrio cholerae N/S Toxin"^^xsd:string ;
 		skos:prefLabel "Vibrio cholerae N/S Toxin"^^xsd:string ;
@@ -5207,7 +5207,7 @@ id:AGE546 rdf:type owl:NamedIndividual ,
 		foaf:homepage <https://sugarbind.expasy.org/agents/546> ;
 		dcterms:references <https://sugarbind.expasy.org/agents/546> ;
 		:causes id:DIS42 ;
-		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS42;
+		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS42 ;
 		:found_in id:ARE3 ;
 		rdfs:label "Yersinia pestis N/S"^^xsd:string ;
 		skos:prefLabel "Yersinia pestis N/S"^^xsd:string ;
@@ -5220,7 +5220,7 @@ id:AGE548 rdf:type owl:NamedIndividual ,
 		foaf:homepage <https://sugarbind.expasy.org/agents/548> ;
 		dcterms:references <https://sugarbind.expasy.org/agents/548> ;
 		:causes id:DIS44 ;
-		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS44;
+		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS44 ;
 		:found_in id:ARE1 ;
 		rdfs:label "Burkholderia cenocepacia J2135"^^xsd:string ;
 		skos:prefLabel "Burkholderia cenocepacia J2135"^^xsd:string ;
@@ -5269,7 +5269,7 @@ id:AGE552 rdf:type owl:NamedIndividual ,
 		foaf:homepage <https://sugarbind.expasy.org/agents/552> ;
 		dcterms:references <https://sugarbind.expasy.org/agents/552> ;
 		:causes id:DIS27 ;
-		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS27;
+		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS27 ;
 		rdfs:label "Influenza B Influenza B virus"^^xsd:string ;
 		skos:prefLabel "Influenza B Influenza B virus"^^xsd:string ;
 		:lineage_up id:AGE228 ;
@@ -5313,7 +5313,7 @@ id:AGE556 rdf:type owl:NamedIndividual ,
 		foaf:homepage <https://sugarbind.expasy.org/agents/556> ;
 		dcterms:references <https://sugarbind.expasy.org/agents/556> ;
 		:causes id:DIS35 ;
-		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS35;
+		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS35 ;
 		rdfs:label "Rotavirus Human rotavirus P[14]"^^xsd:string ;
 		skos:prefLabel "Rotavirus Human rotavirus P[14]"^^xsd:string ;
 		:lineage_up id:AGE439 ;
@@ -5325,7 +5325,7 @@ id:AGE557 rdf:type owl:NamedIndividual ,
 		foaf:homepage <https://sugarbind.expasy.org/agents/557> ;
 		dcterms:references <https://sugarbind.expasy.org/agents/557> ;
 		:causes id:DIS35 ;
-		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS35;
+		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS35 ;
 		:found_in id:ARE33 ;
 		rdfs:label "Rotavirus Human rotavirus P[14] HAL1166"^^xsd:string ;
 		skos:prefLabel "Rotavirus Human rotavirus P[14] HAL1166"^^xsd:string ;
@@ -5338,7 +5338,7 @@ id:AGE558 rdf:type owl:NamedIndividual ,
 		foaf:homepage <https://sugarbind.expasy.org/agents/558> ;
 		dcterms:references <https://sugarbind.expasy.org/agents/558> ;
 		:causes id:DIS35 ;
-		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS35;
+		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS35 ;
 		rdfs:label "Rotavirus Simian rotavirus A"^^xsd:string ;
 		skos:prefLabel "Rotavirus Simian rotavirus A"^^xsd:string ;
 		:lineage_up id:AGE439 ;
@@ -5350,7 +5350,7 @@ id:AGE559 rdf:type owl:NamedIndividual ,
 		foaf:homepage <https://sugarbind.expasy.org/agents/559> ;
 		dcterms:references <https://sugarbind.expasy.org/agents/559> ;
 		:causes id:DIS35 ;
-		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS35;
+		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS35 ;
 		rdfs:label "Rotavirus Bovine rotavirus A"^^xsd:string ;
 		skos:prefLabel "Rotavirus Bovine rotavirus A"^^xsd:string ;
 		:lineage_up id:AGE439 ;
@@ -5362,7 +5362,7 @@ id:AGE560 rdf:type owl:NamedIndividual ,
 		foaf:homepage <https://sugarbind.expasy.org/agents/560> ;
 		dcterms:references <https://sugarbind.expasy.org/agents/560> ;
 		:causes id:DIS35 ;
-		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS35;
+		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS35 ;
 		:found_in id:ARE33 ;
 		rdfs:label "Rotavirus Unclassified Rotavirus A RRV"^^xsd:string ;
 		skos:prefLabel "Rotavirus Unclassified Rotavirus A RRV"^^xsd:string ;
@@ -5375,7 +5375,7 @@ id:AGE564 rdf:type owl:NamedIndividual ,
 		foaf:homepage <https://sugarbind.expasy.org/agents/564> ;
 		dcterms:references <https://sugarbind.expasy.org/agents/564> ;
 		:causes id:DIS47 ;
-		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS47;
+		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS47 ;
 		:found_in id:ARE3 ;
 		rdfs:label "Adenovirus Human adenovirus D 37"^^xsd:string ;
 		skos:prefLabel "Adenovirus Human adenovirus D 37"^^xsd:string ;
@@ -5398,7 +5398,7 @@ id:AGE566 rdf:type owl:NamedIndividual ,
 		foaf:homepage <https://sugarbind.expasy.org/agents/566> ;
 		dcterms:references <https://sugarbind.expasy.org/agents/566> ;
 		:causes id:DIS35 ;
-		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS35;
+		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS35 ;
 		:found_in id:ARE17 ;
 		rdfs:label "Norovirus norwalk virus GII.12"^^xsd:string ;
 		skos:prefLabel "Norovirus norwalk virus GII.12"^^xsd:string ;
@@ -5411,7 +5411,7 @@ id:AGE569 rdf:type owl:NamedIndividual ,
 		foaf:homepage <https://sugarbind.expasy.org/agents/569> ;
 		dcterms:references <https://sugarbind.expasy.org/agents/569> ;
 		:causes id:DIS35 ;
-		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS35;
+		<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS35 ;
 		:found_in id:ARE33 ;
 		rdfs:label "Rotavirus Human Rotavirus A Human Rotavirus G3P[6]"^^xsd:string ;
 		skos:prefLabel "Rotavirus Human Rotavirus A Human Rotavirus G3P[6]"^^xsd:string ;
