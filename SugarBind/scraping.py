@@ -643,8 +643,8 @@ def ttl_disease():
                     else:
                         text += f"""\t\t\tid:ARE{ str(item['Affected Area ID']) } ,\n"""
                 text = text[:-2] + ';\n'
-            text += f'\t\trdfs:label "{ disease_name.values[0] }"^^xsd:string .\n'
-            text += f'\t\trdfs:seeAlso { disease_doid.values[0] } .\n'
+            text += f'\t\trdfs:label "{ disease_name.values[0] }"^^xsd:string ;\n'
+            text += f'\t\trdfs:seeAlso obo:{ disease_doid.values[0].replace(":", "_") } .\n'
 
             file.write(text + '\n')
     file.close()
