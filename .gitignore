@@ -1,4 +1,6 @@
 __pycache__/
+./__pycache__
+./__pycache__/**
 *.py[cod]
 *$py.class
 
@@ -160,3 +162,17 @@ cython_debug/
 Footer
 
 *.DS_Store
+
+PSICQUIC/data/*
+PSICQUIC/test_data
+PSICQUIC/expdata/*
+PSICQUIC/data_1_27/
+PSICQUIC/log/
+PSICQUIC/owl/**/data/
+PSICQUIC/turtle/*
+PSICQUIC/csv_
+
+PubChem/data/**
+PubChem/trash/**
+PubChem/datalist_csv/**
+
