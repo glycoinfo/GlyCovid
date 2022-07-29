@@ -1,47 +1,47 @@
-Disease ID,Disease Name
-46,Acquired immune deficiency syndrome
-4,Actinomycosis
-21,Acute cystitis
-17,Amebiasis
-13,Botulism
-10,Candidiasis
-40,Chagas disease
-41,Cholera
-23,Chronic gastritis
-31,Chronic respiratory disease
-14,Clostridial myonecrosis
-16,Cryptococcosis
-8,Cutaneous lesions
-18,Cystitis
-43,Diarrhea
-25,Gastric cancer
-35,Gastroenteritis
-34,Gonorrhea
-19,Hemorrhagic colitis
-26,Histoplasmosis
-27,Influenza
-47,Keratoconjunctivitis
-28,Klebsiella pneumonia infection
-5,Lazy leukocyte syndrome
-30,Legionnaires' disease
-44,Lung infection
-7,Lyme disease
-36,Malaria
-9,Melioidosis
-24,Peptic ulcers
-6,Pertussis
-32,Pharyngitis
-42,Plague
-2,Pleuropneumonia
-29,Pneumonia
-3,Porcine fibrinohemorrhagic necrotizing pleuropneumonia
-20,Pyelonephritis
-37,Shigellosis
-38,Sporotrichosis
-11,Taiwan acute respiratory agent
-15,Tetanus
-39,Toxoplasmosis
-33,Tracheobronchitis
-12,Trachoma
-1,Unknown
-22,Vincent's angina
+Disease ID,Disease Name,DOID
+46,Acquired immune deficiency syndrome,DOID:635
+4,Actinomycosis,DOID:8478
+21,Acute cystitis,DOID:13148
+17,Amebiasis,DOID:9181
+13,Botulism,DOID:11976
+10,Candidiasis,DOID:1508
+40,Chagas disease,DOID:12140
+41,Cholera,DOID:1498
+23,Chronic gastritis,DOID:4029
+31,Chronic respiratory disease,DOID:4029
+14,Clostridial myonecrosis,DOID:4029
+16,Cryptococcosis,DOID:12053
+8,Cutaneous lesions,DOID:12053
+18,Cystitis,DOID:1679
+43,Diarrhea,DOID:13250
+25,Gastric cancer,DOID:13250
+35,Gastroenteritis,DOID:2326
+34,Gonorrhea,DOID:7551
+19,Hemorrhagic colitis,DOID:7551
+26,Histoplasmosis,DOID:1731
+27,Influenza,DOID:8469
+47,Keratoconjunctivitis,DOID:9368
+28,Klebsiella pneumonia infection,DOID:9368
+5,Lazy leukocyte syndrome,DOID:9368
+30,Legionnaires' disease,DOID:10457
+44,Lung infection,DOID:10457
+7,Lyme disease,DOID:11729
+36,Malaria,DOID:12365
+9,Melioidosis,DOID:5052
+24,Peptic ulcers,DOID:5052
+6,Pertussis,DOID:1116
+32,Pharyngitis,DOID:2275
+42,Plague,DOID:3482
+2,Pleuropneumonia,DOID:14319
+29,Pneumonia,DOID:552
+3,Porcine fibrinohemorrhagic necrotizing pleuropneumonia,DOID:552
+20,Pyelonephritis,DOID:11400
+37,Shigellosis,DOID:12385
+38,Sporotrichosis,DOID:14484
+11,Taiwan acute respiratory agent,DOID:14484
+15,Tetanus,DOID:11338
+39,Toxoplasmosis,DOID:9965
+33,Tracheobronchitis,DOID:9965
+12,Trachoma,DOID:11265
+1,Unknown,DOID:11265
+22,Vincent's angina,DOID:11265

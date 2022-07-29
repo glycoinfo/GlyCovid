@@ -3,6 +3,7 @@ import requests
 from bs4 import BeautifulSoup
 import csv
 import pandas as pd
+import sys
 
 link_header = 'https://sugarbind.expasy.org'
 PREFIX = '@prefix : <http://rdf.glycoinfo.org/SugarBind/Ontology#> .\n\
@@ -140,13 +141,22 @@ def disease_list():
     target_link = link_header + '/diseases'                                                                                 # set scraping target link
     file = open('data/disease_list.csv', 'w')                                                                              # open file named "disease_list.csv" in "data" folder
     writer = csv.writer(file)                                                                                               # set csv writer
-    writer.writerow(['Disease ID', 'Disease Name'])                                                                         # describe header title
+    writer.writerow(['Disease ID', 'Disease Name', 'DOID'])                                                                         # describe header title
     html = requests.get(target_link)                                                                                        # get html via request
     soup = BeautifulSoup(html.content, "html.parser")                                                                       # get html content as Beautiful Soup object
     tr_elements = soup.find('tbody').find_all('tr')                                                                            # find_all 'tr' elements from got html content
     for tr in tr_elements:
         disease = tr.find_all('td')[0]                                                                                      # find a tag element in a tr element
-        writer.writerow([disease.find('a').get('href')[10:],disease.find('a').get_text()])                                  # inserting extracted disease id and disease name
+        disease_link = link_header + disease.find('a').get('href')
+        disease_html = requests.get(disease_link)                                                                                        # get html via request
+        disease_soup = BeautifulSoup(disease_html.content, "html.parser")                                                                       # get html content as Beautiful Soup object
+        disease_id = disease.find('a').get('href')[10:]
+        disease_name = disease_soup.find("h1").get_text()
+        try:
+            disease_doid = disease_soup.find("h4").find("a").get_text()
+        except:
+            doid = ""
+        writer.writerow([disease_id, disease_name, disease_doid])
     file.close()                                                                                                            # close file
 
 def area_list():
@@ -601,6 +611,7 @@ def ttl_disease():
     file.write('#######################################################\n\n')
     for index in range(1, 48):
         disease_name = df_disease_list.loc[df_disease_list['Disease ID'] == index]['Disease Name']                          # filtering loaded data frame with disease name
+        disease_doid = df_disease_list.loc[df_disease_list['Disease ID'] == index]['DOID']                          # filtering loaded data frame with disease name
         filtered_disease_agent = df_disease_agent.loc[df_disease_agent['Disease ID'] == index]
         filtered_disease_area = df_disease_area.loc[df_disease_area['Disease ID'] == index]
         if len(filtered_disease_agent) > 0 or len(filtered_disease_area) > 0:
@@ -632,7 +643,8 @@ def ttl_disease():
                     else:
                         text += f"""\t\t\tid:ARE{ str(item['Affected Area ID']) } ,\n"""
                 text = text[:-2] + ';\n'
-            text += f'\t\trdfs:label "{ disease_name.values[0] }"^^xsd:string .\n'
+            text += f'\t\trdfs:label "{ disease_name.values[0] }"^^xsd:string ;\n'
+            text += f'\t\trdfs:seeAlso obo:{ disease_doid.values[0].replace(":", "_") } .\n'
 
             file.write(text + '\n')
     file.close()
@@ -703,7 +715,7 @@ def ttl_agent():
             text = f'''id:AGE{ item["Agent ID"] } rdf:type owl:NamedIndividual ,\n\t\t\t:Agent ;\n\t\tfoaf:homepage <https://sugarbind.expasy.org/agents/{ item["Agent ID"] }> ;\n\t\tdcterms:references <https://sugarbind.expasy.org/agents/{ item["Agent ID"] }> ;\n'''
             if len(filtered_agent_disease) == 1:
                 for ind, ite in filtered_agent_disease.iterrows():
-                    text += f'\t\t:causes id:DIS{ ite["Disease ID"] } ;\n\t\t<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS{ ite["Disease ID"] };\n'
+                    text += f'\t\t:causes id:DIS{ ite["Disease ID"] } ;\n\t\t<http://purl.obolibrary.org/obo/NCIT_P331> id:DIS{ ite["Disease ID"] } ;\n'
             elif len(filtered_agent_disease) > 1:
                 firstLoop = True
                 for ind, ite in filtered_agent_disease.iterrows():
@@ -840,3 +852,4 @@ if __name__ == "__main__":
 
     # merge_ttl(['agent', 'area', 'disease', 'lectin', 'ligand', 'pubmed', 'referenced_interaction', 'structure'])
     # passing string arguments which corresponds to the file name stored in the output folder
+
