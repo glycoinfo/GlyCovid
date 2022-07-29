@@ -1,0 +1,30 @@
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX up:<http://purl.uniprot.org/core/>
+
+SELECT ?uniprot_uri
+WHERE {
+  # 重複した結果を排除するため
+  {
+    SELECT distinct ?uniprot_uri
+    WHERE {
+      { ?interaction <http://rdf.glycoinfo.org/ontology/interaction#has_interactor_A> ?interactor.} UNION
+      { ?interaction <http://rdf.glycoinfo.org/ontology/interaction#has_interactor_B> ?interactor.}
+      ?interactor rdfs:seeAlso ?interactor_id .
+      FILTER ( contains(str(?interactor_id),"uniprot") )
+      BIND(URI(REPLACE(str(?interactor_id), "-PRO.+$", "", "i")) as ?interactor_uri)
+      BIND(URI(REPLACE(str(?interactor_uri), "http://(rdf.)?glycoinfo.org/dbid/uniprot/", "http://purl.uniprot.org/uniprot/", "i")) as ?uniprot_uri)
+    }
+  }
+
+  # glycosmosエンドポイントからGOのcarbodydrade bindingラベルを持つタンパク質を検索
+  SERVICE <https://ts.glycosmos.org/sparql> {
+    ?uniprot_uri a up:Protein .
+    # この時点では?uniprot_uriが298件
+
+    # carbohydrate binding
+    VALUES ?go {<http://purl.obolibrary.org/obo/GO_0030246>}
+    ?uniprot_uri up:classifiedWith ?go .
+  }
+}

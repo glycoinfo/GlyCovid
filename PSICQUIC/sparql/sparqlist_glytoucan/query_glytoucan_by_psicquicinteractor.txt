@@ -1,0 +1,26 @@
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX chebi: <https://www.ebi.ac.uk/rdf/services/sparql>
+PREFIX glycan: <http://purl.jp/bio/12/glyco/glycan#>
+SELECT ?interaction ?glytoucan_url ?chebi_uri
+
+WHERE {
+  BIND("chebi" as ?database)
+  BIND("157592" as ?id)
+
+  ?interaction a <http://biomodels.net/SBO/SBO_0000344> .
+  BIND(?database + "_" + ?id as ?interactor)
+  FILTER CONTAINS (str(?interaction), ?interactor)
+
+  ?interaction ?predicate ?object
+
+  FILTER CONTAINS (str(?object), "http://rdf.glycoinfo.org/dbid/CHEBI/")
+
+  BIND(REPLACE(str(?object), "http://rdf.glycoinfo.org/dbid/CHEBI/", "", "i") AS ?chebi_id)
+  BIND(URI(CONCAT("http://rdf.glycoinfo.org/chebi/", ?chebi_id)) as ?chebi_uri)
+
+  SERVICE <https://ts.glycosmos.org/sparql> {
+    ?glytoucan_url glycan:has_resource_entry ?chebi_uri .
+  }
+}

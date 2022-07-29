@@ -1,0 +1,24 @@
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX chebi: <https://www.ebi.ac.uk/rdf/services/sparql>
+PREFIX glycan: <http://purl.jp/bio/12/glyco/glycan#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX gco: <http://purl.jp/bio/12/glyco/conjugate#>
+
+SELECT ?uniprot_uri ?glytoucan_uri
+
+WHERE {
+  ?interaction a <http://biomodels.net/SBO/SBO_0000344> .
+  ?interaction ?p ?interactor .
+  ?interactor a <http://biomodels.net/SBO/SBO_0000241> .
+  FILTER CONTAINS (str(?interactor), "http://rdf.glycoinfo.org/dbid/uniprot")
+  BIND(REPLACE(str(?interoctor), "http://rdf.glycoinfo.org/dbid/uniprot/", "", "i") as ?uniprot_id)
+  BIND(URI(CONCAT("http://purl.uniprot.org/uniprot/", ?uniprot_id)) as ?uniprot_uri)
+
+  SERVICE <https://ts.glycosmos.org/sparql> {
+    ?uniprot_uri gco:glycosylated_at ?glycosylation_site .
+    ?glycosylation_site gco:has_saccharide ?glytoucan_uri .
+  }
+}
+limit 10

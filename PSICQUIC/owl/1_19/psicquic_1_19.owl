@@ -1,0 +1,221 @@
+@prefix : <http://www.semanticweb.org/arakawakouichi/ontologies/2022/0/untitled-ontology-11#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix lm: <http://www.linkedmodel.org/schema/vaem#> .
+@prefix bao: <http://www.bioassayontology.org/bao#> .
+@prefix bpo: <http://www.biopax.org/release/biopax-level3.owl#> .
+@prefix obo: <http://purl.obolibrary.org/obo/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://rdf.glycoinfo.org/PSICQUIC/Ontology#has_interactor_A> .
+
+<http://rdf.glycoinfo.org/PSICQUIC/Ontology#has_interactor_A> rdf:type owl:Ontology ;
+                                                               owl:versionIRI <http://rdf.glycoinfo.org/PSICQUIC/Ontology#has_interactor_A> ;
+                                                               owl:imports <http://protege.stanford.edu/plugins/owl/dc/protege-dc.owl> ,
+                                                                           <http://www.bioassayontology.org/bao/bao_complete.owl> ,
+                                                                           <http://www.biopax.org/release/biopax-level3.owl> .
+
+#################################################################
+#    Annotation properties
+#################################################################
+
+###  http://purl.obolibrary.org/obo/IAO_0000112
+obo:IAO_0000112 rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.obolibrary.org/obo/IAO_0000115
+obo:IAO_0000115 rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.obolibrary.org/obo/IAO_0000117
+obo:IAO_0000117 rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.obolibrary.org/obo/IAO_0000119
+obo:IAO_0000119 rdfs:range obo:NCIT_C93638 .
+
+
+###  http://purl.obolibrary.org/obo/IAO_0006012
+obo:IAO_0006012 rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.obolibrary.org/obo/NCIT_NHC0
+obo:NCIT_NHC0 rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.obolibrary.org/obo/NCIT_P106
+obo:NCIT_P106 rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.obolibrary.org/obo/NCIT_P108
+obo:NCIT_P108 rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.obolibrary.org/obo/NCIT_P207
+obo:NCIT_P207 rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.obolibrary.org/obo/NCIT_P322
+obo:NCIT_P322 rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/elements/1.1/identifier
+dc:identifier rdfs:range <http://rdf.glycoinfo.org/ontology/interaction#InteractionId> ;
+              rdfs:domain <http://biomodels.net/SBO/SBO_0000344> .
+
+
+###  http://www.bioassayontology.org/bao#BAO_0002875
+bao:BAO_0002875 rdf:type owl:AnnotationProperty .
+
+
+###  http://www.geneontology.org/formats/oboInOwl#hasExactSynonym
+<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> rdf:type owl:AnnotationProperty .
+
+
+###  http://www.geneontology.org/formats/oboInOwl#inSubset
+<http://www.geneontology.org/formats/oboInOwl#inSubset> rdf:type owl:AnnotationProperty .
+
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://purl.obolibrary.org/obo/IAO_0000119
+obo:IAO_0000119 rdf:type owl:ObjectProperty ;
+                rdfs:domain <http://biomodels.net/SBO/SBO_0000344> .
+
+
+###  http://purl.obolibrary.org/obo/INO_0000154
+obo:INO_0000154 rdf:type owl:ObjectProperty .
+
+
+###  http://purl.obolibrary.org/obo/RO_0000087
+obo:RO_0000087 rdf:type owl:ObjectProperty ;
+               rdfs:label "has role"@en .
+
+
+###  http://rdf.glycoinfo.org/PSICQUIC/Ontology#has_interactor_A
+<http://rdf.glycoinfo.org/PSICQUIC/Ontology#has_interactor_A> rdf:type owl:ObjectProperty ;
+                                                              rdfs:domain <http://biomodels.net/SBO/SBO_0000344> ;
+                                                              rdfs:range <http://biomodels.net/SBO/SBO_0000241> .
+
+
+###  http://rdf.glycoinfo.org/PSICQUIC/Ontology#has_interactor_B
+<http://rdf.glycoinfo.org/PSICQUIC/Ontology#has_interactor_B> rdf:type owl:ObjectProperty ;
+                                                              rdfs:domain <http://biomodels.net/SBO/SBO_0000344> ;
+                                                              rdfs:range <http://biomodels.net/SBO/SBO_0000241> .
+
+
+###  http://www.biopax.org/release/biopax-level3.owl#organism
+bpo:organism rdfs:domain <http://biomodels.net/SBO/SBO_0000344> ;
+             rdfs:range obo:EUPATH_0000591 .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://biomodels.net/SBO/SBO_0000241
+<http://biomodels.net/SBO/SBO_0000241> rdf:type owl:Class .
+
+
+###  http://biomodels.net/SBO/SBO_0000344
+<http://biomodels.net/SBO/SBO_0000344> rdf:type owl:Class .
+
+
+###  http://purl.obolibrary.org/obo/EUPATH_0000591
+obo:EUPATH_0000591 rdf:type owl:Class ;
+                   owl:equivalentClass [ owl:intersectionOf ( obo:OBI_0100026
+                                                              [ rdf:type owl:Restriction ;
+                                                                owl:onProperty obo:RO_0000087 ;
+                                                                owl:someValuesFrom obo:OBI_0000725
+                                                              ]
+                                                            ) ;
+                                         rdf:type owl:Class
+                                       ] ;
+                   rdfs:subClassOf obo:OBI_0100026 ;
+                   obo:IAO_0000115 "An organism that has host role" ;
+                   obo:IAO_0006012 "yes"^^xsd:string ;
+                   rdfs:label "host organism"@en .
+
+
+###  http://purl.obolibrary.org/obo/NCIT_C93638
+obo:NCIT_C93638 rdf:type owl:Class ;
+                rdfs:label "Publication Identifier"^^rdfs:Literal .
+
+
+###  http://purl.obolibrary.org/obo/OBI_0000725
+obo:OBI_0000725 rdf:type owl:Class ;
+                rdfs:label "host role"^^xsd:string .
+
+
+###  http://purl.obolibrary.org/obo/OBI_0100026
+obo:OBI_0100026 rdf:type owl:Class ;
+                rdfs:label "organism"@en .
+
+
+###  http://rdf.glycoinfo.org/PSICQUIC/Ontology#InteractionId
+<http://rdf.glycoinfo.org/PSICQUIC/Ontology#InteractionId> rdf:type owl:Class .
+
+
+#################################################################
+#    Individuals
+#################################################################
+
+###  http://purl.obolibrary.org/obo/MI_0914
+obo:MI_0914 rdf:type owl:NamedIndividual .
+
+
+###  http://rdf.glycoinfo.org/dbid/ensembl/ENSG00000023445
+<http://rdf.glycoinfo.org/dbid/ensembl/ENSG00000023445> rdf:type owl:NamedIndividual ,
+                                                                 <http://biomodels.net/SBO/SBO_0000241> .
+
+
+###  http://rdf.glycoinfo.org/dbid/imex/IM-23322
+<http://rdf.glycoinfo.org/dbid/imex/IM-23322> rdf:type owl:NamedIndividual ,
+                                                       obo:NCIT_C93638 .
+
+
+###  http://rdf.glycoinfo.org/dbid/imex/IM-23322-1
+<http://rdf.glycoinfo.org/dbid/imex/IM-23322-1> rdf:type owl:NamedIndividual ,
+                                                         <http://rdf.glycoinfo.org/PSICQUIC/Ontology#InteractionId> .
+
+
+###  http://rdf.glycoinfo.org/dbid/taxonomy/9606
+<http://rdf.glycoinfo.org/dbid/taxonomy/9606> rdf:type owl:NamedIndividual ,
+                                                       obo:EUPATH_0000591 .
+
+
+###  http://rdf.glycoinfo.org/dbid/uniprot/Q04206
+<http://rdf.glycoinfo.org/dbid/uniprot/Q04206> rdf:type owl:NamedIndividual ,
+                                                        <http://biomodels.net/SBO/SBO_0000241> .
+
+
+###  http://rdf.lycoinfo.org/dbid/ensembl/ENSG00000023445
+<http://rdf.lycoinfo.org/dbid/ensembl/ENSG00000023445> rdf:type owl:NamedIndividual .
+
+
+###  https://identifiers.org/matrixdb.association:ensembl_ENSG00000023445__uniprotkb_Q04206
+<https://identifiers.org/matrixdb.association:ensembl_ENSG00000023445__uniprotkb_Q04206> rdf:type owl:NamedIndividual ,
+                                                                                                  bpo:MolecularInteraction ;
+                                                                                         obo:INO_0000154 obo:MI_0914 ;
+                                                                                         <http://rdf.glycoinfo.org/PSICQUIC/Ontology#has_interactor_A> <http://rdf.glycoinfo.org/dbid/uniprot/Q04206> ;
+                                                                                         <http://rdf.glycoinfo.org/PSICQUIC/Ontology#has_interactor_B> <http://rdf.lycoinfo.org/dbid/ensembl/ENSG00000023445> ;
+                                                                                         bpo:interactionType obo:MI_0914 ;
+                                                                                         bpo:organism <http://rdf.glycoinfo.org/dbid/taxonomy/9606> ;
+                                                                                         obo:IAO_0000119 <http://rdf.glycoinfo.org/dbid/imex/IM-23322> ;
+                                                                                         dc:identifier <http://rdf.glycoinfo.org/dbid/imex/IM-23322-1> ;
+                                                                                         dc:source obo:MI_0469 ;
+                                                                                         bao:BAO_0002875 obo:MI_0402 .
+
+
+#################################################################
+#    Annotations
+#################################################################
+
+obo:IAO_0000119 rdfs:label "difinition source" .
+
+
+###  Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi

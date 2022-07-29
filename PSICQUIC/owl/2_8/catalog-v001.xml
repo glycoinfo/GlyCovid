@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+    <uri id="Imports Wizard Entry" name="http://semanticscience.org/resource/SIO_000253.rdf" uri="http://semanticscience.org/resource/SIO_000253"/>
+    <uri id="Imports Wizard Entry" name="http://semanticscience.org/resource/SIO_000559.rdf" uri="http://semanticscience.org/resource/SIO_000559"/>
+    <group id="Folder Repository, directory=, recursive=true, Auto-Update=true, version=2" prefer="public" xml:base=""/>
+</catalog>

@@ -1,0 +1,33 @@
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX chebi: <https://www.ebi.ac.uk/rdf/services/sparql>
+PREFIX glycan: <http://purl.jp/bio/12/glyco/glycan#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX gco: <http://purl.jp/bio/12/glyco/conjugate#>
+
+SELECT ?interaction ?detectin_method ?publication_identifier ?interaction_type ?source_database ?interaction_id ?interactor_a ?interactor_b ?host ?glytoucan_uri
+
+WHERE {
+  BIND("P02649" as ?uniprot_id)
+
+  ?interaction a <http://biomodels.net/SBO/SBO_0000344> .
+  BIND(URI(CONCAT("http://rdf.glycoinfo.org/dbid/uniprot/", ?uniprot_id)) as ?psicquic_uniprot_id)
+  ?interaction ?predicate ?psicquic_uniprot_id .
+
+  ?interaction <http://www.bioassayontology.org/bao#BAO_0002875> ?detectin_method .
+  ?interaction <http://purl.obolibrary.org/obo/IAO_0000119> ?publication_identifier .
+  ?interaction <http://www.biopax.org/release/biopax-level3.owl#interactionType> ?interaction_type .
+  ?interaction dc:source ?source_database .
+  ?interaction dc:identifier ?interaction_id .
+  ?interaction <http://rdf.glycoinfo.org/PSICQUIC/Ontology#has_interactor_A> ?interactor_a .
+  ?interaction <http://rdf.glycoinfo.org/PSICQUIC/Ontology#has_interactor_B> ?interactor_b .
+  ?interaction <http://semanticscience.org/resource/SIO_000253> ?host .
+
+  BIND(URI(CONCAT("http://purl.uniprot.org/uniprot/", ?uniprotid)) as ?glytoucan_uniprot_uri)
+  SERVICE <https://ts.glycosmos.org/sparql> {
+    ?glytoucan_uniprot_uri gco:glycosylated_at ?glycosylation_site .
+    ?glycosylation_site gco:has_saccharide ?glytoucan_uri .
+  }
+}
+limit 100

@@ -1,0 +1,209 @@
+{
+  "head": {
+    "vars": ["uniprot_uri", "glytoucan_uri"]
+  },
+  "results": {
+    "bindings": [
+      {
+        "uniprot_uri": { "type": "uri", "value": "http://purl.uniprot.org/uniprot/A0A0A6YWP4" },
+        "glytoucan_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G20861AN" }
+      },
+      {
+        "uniprot_uri": { "type": "uri", "value": "http://purl.uniprot.org/uniprot/A0A0A6YWP4" },
+        "glytoucan_uri": { "type": "uri", "value": "http://identifiers.org/glytoucan/G09724ZC" }
+      },
+      {
+        "uniprot_uri": { "type": "uri", "value": "https://purl.org/glyconnect/protein/62" },
+        "glytoucan_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G20861AN" }
+      },
+      {
+        "uniprot_uri": { "type": "uri", "value": "https://purl.org/glyconnect/protein/62" },
+        "glytoucan_uri": { "type": "uri", "value": "http://identifiers.org/glytoucan/G09724ZC" }
+      },
+      {
+        "uniprot_uri": { "type": "uri", "value": "http://purl.uniprot.org/uniprot/A0A0A6YWP4" },
+        "glytoucan_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G39448FX" }
+      },
+      {
+        "uniprot_uri": { "type": "uri", "value": "http://purl.uniprot.org/uniprot/A0A0A6YWP4" },
+        "glytoucan_uri": { "type": "uri", "value": "http://identifiers.org/glytoucan/G66538GV" }
+      },
+      {
+        "uniprot_uri": { "type": "uri", "value": "https://purl.org/glyconnect/protein/62" },
+        "glytoucan_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G39448FX" }
+      },
+      {
+        "uniprot_uri": { "type": "uri", "value": "https://purl.org/glyconnect/protein/62" },
+        "glytoucan_uri": { "type": "uri", "value": "http://identifiers.org/glytoucan/G66538GV" }
+      },
+      {
+        "uniprot_uri": { "type": "uri", "value": "http://purl.uniprot.org/uniprot/A0A0A6YWP4" },
+        "glytoucan_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G61514UE" }
+      },
+      {
+        "uniprot_uri": { "type": "uri", "value": "http://purl.uniprot.org/uniprot/A0A0A6YWP4" },
+        "glytoucan_uri": { "type": "uri", "value": "http://identifiers.org/glytoucan/G40702WU" }
+      },
+      {
+        "uniprot_uri": { "type": "uri", "value": "https://purl.org/glyconnect/protein/62" },
+        "glytoucan_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G61514UE" }
+      },
+      {
+        "uniprot_uri": { "type": "uri", "value": "https://purl.org/glyconnect/protein/62" },
+        "glytoucan_uri": { "type": "uri", "value": "http://identifiers.org/glytoucan/G40702WU" }
+      },
+      {
+        "uniprot_uri": { "type": "uri", "value": "http://purl.uniprot.org/uniprot/A0A0A6YWP4" },
+        "glytoucan_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G77994OH" }
+      },
+      {
+        "uniprot_uri": { "type": "uri", "value": "http://purl.uniprot.org/uniprot/A0A0A6YWP4" },
+        "glytoucan_uri": { "type": "uri", "value": "http://identifiers.org/glytoucan/G64527OM" }
+      },
+      {
+        "uniprot_uri": { "type": "uri", "value": "https://purl.org/glyconnect/protein/62" },
+        "glytoucan_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G77994OH" }
+      },
+      {
+        "uniprot_uri": { "type": "uri", "value": "https://purl.org/glyconnect/protein/62" },
+        "glytoucan_uri": { "type": "uri", "value": "http://identifiers.org/glytoucan/G64527OM" }
+      },
+      {
+        "uniprot_uri": { "type": "uri", "value": "http://purl.uniprot.org/uniprot/A0A0A6YX05" },
+        "glytoucan_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G17013IQ" }
+      },
+      {
+        "uniprot_uri": { "type": "uri", "value": "http://purl.uniprot.org/uniprot/A0A0A6YX05" },
+        "glytoucan_uri": { "type": "uri", "value": "http://identifiers.org/glytoucan/G83161QT" }
+      },
+      {
+        "uniprot_uri": { "type": "uri", "value": "https://purl.org/glyconnect/protein/62" },
+        "glytoucan_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G17013IQ" }
+      },
+      {
+        "uniprot_uri": { "type": "uri", "value": "https://purl.org/glyconnect/protein/62" },
+        "glytoucan_uri": { "type": "uri", "value": "http://identifiers.org/glytoucan/G83161QT" }
+      },
+      {
+        "uniprot_uri": { "type": "uri", "value": "http://purl.uniprot.org/uniprot/A0A0A6YX05" },
+        "glytoucan_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G20861AN" }
+      },
+      {
+        "uniprot_uri": { "type": "uri", "value": "http://purl.uniprot.org/uniprot/A0A0A6YX05" },
+        "glytoucan_uri": { "type": "uri", "value": "http://identifiers.org/glytoucan/G05724UK" }
+      },
+      {
+        "uniprot_uri": { "type": "uri", "value": "https://purl.org/glyconnect/protein/62" },
+        "glytoucan_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G20861AN" }
+      },
+      {
+        "uniprot_uri": { "type": "uri", "value": "https://purl.org/glyconnect/protein/62" },
+        "glytoucan_uri": { "type": "uri", "value": "http://identifiers.org/glytoucan/G05724UK" }
+      },
+      {
+        "uniprot_uri": { "type": "uri", "value": "http://purl.uniprot.org/uniprot/A0A0A6YX05" },
+        "glytoucan_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G28182LP" }
+      },
+      {
+        "uniprot_uri": { "type": "uri", "value": "http://purl.uniprot.org/uniprot/A0A0A6YX05" },
+        "glytoucan_uri": { "type": "uri", "value": "http://identifiers.org/glytoucan/G41827IE" }
+      },
+      {
+        "uniprot_uri": { "type": "uri", "value": "https://purl.org/glyconnect/protein/62" },
+        "glytoucan_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G28182LP" }
+      },
+      {
+        "uniprot_uri": { "type": "uri", "value": "https://purl.org/glyconnect/protein/62" },
+        "glytoucan_uri": { "type": "uri", "value": "http://identifiers.org/glytoucan/G41827IE" }
+      },
+      {
+        "uniprot_uri": { "type": "uri", "value": "http://purl.uniprot.org/uniprot/A0A0A6YX05" },
+        "glytoucan_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G34549PZ" }
+      },
+      {
+        "uniprot_uri": { "type": "uri", "value": "http://purl.uniprot.org/uniprot/A0A0A6YX05" },
+        "glytoucan_uri": { "type": "uri", "value": "http://identifiers.org/glytoucan/G64527OM" }
+      },
+      {
+        "uniprot_uri": { "type": "uri", "value": "https://purl.org/glyconnect/protein/62" },
+        "glytoucan_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G34549PZ" }
+      },
+      {
+        "uniprot_uri": { "type": "uri", "value": "https://purl.org/glyconnect/protein/62" },
+        "glytoucan_uri": { "type": "uri", "value": "http://identifiers.org/glytoucan/G64527OM" }
+      },
+      {
+        "uniprot_uri": { "type": "uri", "value": "http://purl.uniprot.org/uniprot/A0A0A6YX05" },
+        "glytoucan_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G38036OL" }
+      },
+      {
+        "uniprot_uri": { "type": "uri", "value": "http://purl.uniprot.org/uniprot/A0A0A6YX05" },
+        "glytoucan_uri": { "type": "uri", "value": "http://identifiers.org/glytoucan/G49232RW" }
+      },
+      {
+        "uniprot_uri": { "type": "uri", "value": "https://purl.org/glyconnect/protein/62" },
+        "glytoucan_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G38036OL" }
+      },
+      {
+        "uniprot_uri": { "type": "uri", "value": "https://purl.org/glyconnect/protein/62" },
+        "glytoucan_uri": { "type": "uri", "value": "http://identifiers.org/glytoucan/G49232RW" }
+      },
+      {
+        "uniprot_uri": { "type": "uri", "value": "http://purl.uniprot.org/uniprot/A0A0A6YX05" },
+        "glytoucan_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G39448FX" }
+      },
+      {
+        "uniprot_uri": { "type": "uri", "value": "http://purl.uniprot.org/uniprot/A0A0A6YX05" },
+        "glytoucan_uri": { "type": "uri", "value": "http://identifiers.org/glytoucan/G39188ZX" }
+      },
+      {
+        "uniprot_uri": { "type": "uri", "value": "https://purl.org/glyconnect/protein/62" },
+        "glytoucan_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G39448FX" }
+      },
+      {
+        "uniprot_uri": { "type": "uri", "value": "https://purl.org/glyconnect/protein/62" },
+        "glytoucan_uri": { "type": "uri", "value": "http://identifiers.org/glytoucan/G39188ZX" }
+      },
+      {
+        "uniprot_uri": { "type": "uri", "value": "http://purl.uniprot.org/uniprot/A0A0A6YX05" },
+        "glytoucan_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G61514UE" }
+      },
+      {
+        "uniprot_uri": { "type": "uri", "value": "http://purl.uniprot.org/uniprot/A0A0A6YX05" },
+        "glytoucan_uri": { "type": "uri", "value": "http://identifiers.org/glytoucan/G55220VL" }
+      },
+      {
+        "uniprot_uri": { "type": "uri", "value": "https://purl.org/glyconnect/protein/62" },
+        "glytoucan_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G61514UE" }
+      },
+      {
+        "uniprot_uri": { "type": "uri", "value": "https://purl.org/glyconnect/protein/62" },
+        "glytoucan_uri": { "type": "uri", "value": "http://identifiers.org/glytoucan/G55220VL" }
+      },
+      {
+        "uniprot_uri": { "type": "uri", "value": "http://purl.uniprot.org/uniprot/A0A0A6YX05" },
+        "glytoucan_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G70280CS" }
+      },
+      {
+        "uniprot_uri": { "type": "uri", "value": "http://purl.uniprot.org/uniprot/A0A0A6YX05" },
+        "glytoucan_uri": { "type": "uri", "value": "http://identifiers.org/glytoucan/G06110VR" }
+      },
+      {
+        "uniprot_uri": { "type": "uri", "value": "https://purl.org/glyconnect/protein/62" },
+        "glytoucan_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G70280CS" }
+      },
+      {
+        "uniprot_uri": { "type": "uri", "value": "https://purl.org/glyconnect/protein/62" },
+        "glytoucan_uri": { "type": "uri", "value": "http://identifiers.org/glytoucan/G06110VR" }
+      },
+      {
+        "uniprot_uri": { "type": "uri", "value": "http://purl.uniprot.org/uniprot/A0A0A6YX05" },
+        "glytoucan_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G74132QK" }
+      },
+      {
+        "uniprot_uri": { "type": "uri", "value": "http://purl.uniprot.org/uniprot/A0A0A6YX05" },
+        "glytoucan_uri": { "type": "uri", "value": "http://identifiers.org/glytoucan/G80966KZ" }
+      }
+    ]
+  }
+}

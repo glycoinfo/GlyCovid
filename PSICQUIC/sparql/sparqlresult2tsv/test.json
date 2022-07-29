@@ -1,0 +1,226 @@
+{
+  "results": {
+    "bindings": [
+      {
+        "child_taxon": {
+          "type": "uri",
+          "value": "http://purl.uniprot.org/taxonomy/2697049"
+        },
+        "child_taxon_name": {
+          "type": "uri",
+          "value": "http://purl.uniprot.org/taxonomy/2697049"
+        },
+        "interactor": {
+          "type": "uri",
+          "value": "http://rdf.glycoinfo.org/dbid/uniprot/P0DTC2"
+        },
+        "other_interactor_chebi_uri": {
+          "type": "uri",
+          "value": "http://rdf.glycoinfo.org/chebi/17012"
+        },
+        "glytoucan_uri": {
+          "type": "uri",
+          "value": "http://rdf.glycoinfo.org/glycan/G81533KY"
+        }
+      },
+      {
+        "child_taxon": {
+          "type": "uri",
+          "value": "http://purl.uniprot.org/taxonomy/2697049"
+        },
+        "child_taxon_name": {
+          "type": "literal",
+          "value": "Severe acute respiratory syndrome coronavirus 2"
+        },
+        "interactor": {
+          "type": "uri",
+          "value": "http://rdf.glycoinfo.org/dbid/uniprot/P0DTC2"
+        },
+        "other_interactor_chebi_uri": {
+          "type": "uri",
+          "value": "http://rdf.glycoinfo.org/chebi/17012"
+        },
+        "glytoucan_uri": {
+          "type": "uri",
+          "value": "http://rdf.glycoinfo.org/glycan/G81533KY"
+        }
+      },
+      {
+        "child_taxon": {
+          "type": "uri",
+          "value": "http://purl.uniprot.org/taxonomy/2697049"
+        },
+        "child_taxon_name": {
+          "type": "uri",
+          "value": "http://purl.uniprot.org/taxonomy/2697049"
+        },
+        "interactor": {
+          "type": "uri",
+          "value": "http://rdf.glycoinfo.org/dbid/uniprot/P0DTC2"
+        },
+        "other_interactor_chebi_uri": {
+          "type": "uri",
+          "value": "http://rdf.glycoinfo.org/chebi/17012"
+        },
+        "glytoucan_uri": {
+          "type": "uri",
+          "value": "http://rdf.glycoinfo.org/glycan/G81533KY"
+        }
+      },
+      {
+        "child_taxon": {
+          "type": "uri",
+          "value": "http://purl.uniprot.org/taxonomy/2697049"
+        },
+        "child_taxon_name": {
+          "type": "literal",
+          "value": "Severe acute respiratory syndrome coronavirus 2"
+        },
+        "interactor": {
+          "type": "uri",
+          "value": "http://rdf.glycoinfo.org/dbid/uniprot/P0DTC2"
+        },
+        "other_interactor_chebi_uri": {
+          "type": "uri",
+          "value": "http://rdf.glycoinfo.org/chebi/17012"
+        },
+        "glytoucan_uri": {
+          "type": "uri",
+          "value": "http://rdf.glycoinfo.org/glycan/G81533KY"
+        }
+      },
+      {
+        "child_taxon": {
+          "type": "uri",
+          "value": "http://purl.uniprot.org/taxonomy/2697049"
+        },
+        "child_taxon_name": {
+          "type": "uri",
+          "value": "http://purl.uniprot.org/taxonomy/2697049"
+        },
+        "interactor": {
+          "type": "uri",
+          "value": "http://rdf.glycoinfo.org/dbid/uniprot/P0DTC2"
+        },
+        "other_interactor_chebi_uri": {
+          "type": "uri",
+          "value": "http://rdf.glycoinfo.org/chebi/17012"
+        },
+        "glytoucan_uri": {
+          "type": "uri",
+          "value": "http://rdf.glycoinfo.org/glycan/G81533KY"
+        }
+      },
+      {
+        "child_taxon": {
+          "type": "uri",
+          "value": "http://purl.uniprot.org/taxonomy/2697049"
+        },
+        "child_taxon_name": {
+          "type": "literal",
+          "value": "Severe acute respiratory syndrome coronavirus 2"
+        },
+        "interactor": {
+          "type": "uri",
+          "value": "http://rdf.glycoinfo.org/dbid/uniprot/P0DTC2"
+        },
+        "other_interactor_chebi_uri": {
+          "type": "uri",
+          "value": "http://rdf.glycoinfo.org/chebi/17012"
+        },
+        "glytoucan_uri": {
+          "type": "uri",
+          "value": "http://rdf.glycoinfo.org/glycan/G81533KY"
+        }
+      },
+      {
+        "child_taxon": {
+          "type": "uri",
+          "value": "http://purl.uniprot.org/taxonomy/2697049"
+        },
+        "child_taxon_name": {
+          "type": "uri",
+          "value": "http://purl.uniprot.org/taxonomy/2697049"
+        },
+        "interactor": {
+          "type": "uri",
+          "value": "http://rdf.glycoinfo.org/dbid/uniprot/P0DTC2"
+        },
+        "other_interactor_chebi_uri": {
+          "type": "uri",
+          "value": "http://rdf.glycoinfo.org/chebi/17012"
+        },
+        "glytoucan_uri": {
+          "type": "uri",
+          "value": "http://rdf.glycoinfo.org/glycan/G81533KY"
+        }
+      },
+      {
+        "child_taxon": {
+          "type": "uri",
+          "value": "http://purl.uniprot.org/taxonomy/2697049"
+        },
+        "child_taxon_name": {
+          "type": "literal",
+          "value": "Severe acute respiratory syndrome coronavirus 2"
+        },
+        "interactor": {
+          "type": "uri",
+          "value": "http://rdf.glycoinfo.org/dbid/uniprot/P0DTC2"
+        },
+        "other_interactor_chebi_uri": {
+          "type": "uri",
+          "value": "http://rdf.glycoinfo.org/chebi/17012"
+        },
+        "glytoucan_uri": {
+          "type": "uri",
+          "value": "http://rdf.glycoinfo.org/glycan/G81533KY"
+        }
+      },
+      {
+        "child_taxon": {
+          "type": "uri",
+          "value": "http://purl.uniprot.org/taxonomy/2697049"
+        },
+        "child_taxon_name": {
+          "type": "uri",
+          "value": "http://purl.uniprot.org/taxonomy/2697049"
+        },
+        "interactor": {
+          "type": "uri",
+          "value": "http://rdf.glycoinfo.org/dbid/uniprot/P0DTC2"
+        },
+        "other_interactor_chebi_uri": {
+          "type": "uri",
+          "value": "http://rdf.glycoinfo.org/chebi/17012"
+        },
+        "glytoucan_uri": {
+          "type": "uri",
+          "value": "http://rdf.glycoinfo.org/glycan/G81533KY"
+        }
+      },
+      {
+        "child_taxon": {
+          "type": "uri",
+          "value": "http://purl.uniprot.org/taxonomy/2697049"
+        },
+        "child_taxon_name": {
+          "type": "literal",
+          "value": "Severe acute respiratory syndrome coronavirus 2"
+        },
+        "interactor": {
+          "type": "uri",
+          "value": "http://rdf.glycoinfo.org/dbid/uniprot/P0DTC2"
+        },
+        "other_interactor_chebi_uri": {
+          "type": "uri",
+          "value": "http://rdf.glycoinfo.org/chebi/17012"
+        },
+        "glytoucan_uri": {
+          "type": "uri",
+          "value": "http://rdf.glycoinfo.org/glycan/G81533KY"
+        }
+      }
+    ]
+  }
+}

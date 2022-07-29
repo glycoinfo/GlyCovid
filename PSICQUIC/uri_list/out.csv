@@ -1,0 +1,60 @@
+entrez gene/locuslink,entrez gene/locuslink:17997
+uniprotkb,uniprotkb:P40925
+intact,intact:EBI-11169630
+ensembl,ensembl:ENSG00000135245
+chebi,chebi:CHEBI:29108
+chembl,chembl:CHEMBL185419
+refseq,refseq:NP_003365.1
+ddbj/embl/genbank,ddbj/embl/genbank:AB047639
+reactome,reactome:R-HSA-173588
+wwpdb,wwpdb:5fo7
+rogid,rogid:4FcfiifZz5BTuis8MWgb300d/Jc9606
+complex,complex:dvyWoCSdxADQ6xEo3nUxCbO/0eE
+rhea,rhea:RHEA:57720
+RNAcentral,RNAcentral:URS00005BBC98_9606
+matrixdb,matrixdb:MULT_53_VAR3_human
+intenz,intenz:2.3.1.255
+complex portal,complex portal:CPX-1120
+signor,signor:SIGNOR-C32
+-,-
+chembl target,chembl target:CHEMBL2111357
+psi-mi,psi-mi:MI:0004(affinity chromatography technology)
+pubmed,pubmed:26496610
+imex,imex:IM-24620
+doi,doi:10.1371/journal.pone.0133994
+mint,mint:MINT-6731333
+pmid,pmid:18990187
+taxid,taxid:10090
+biogrid,biogrid:1466270
+tissue list,tissue list:TS-0437
+go,go:0005829
+rcsb pdb,rcsb pdb:1M9C
+pdbe,pdbe:3X13
+dip,dip:DIP-187808E
+emdb,emdb:EMD-9108
+mpidb,mpidb:MPIDB-INT-1816
+rigid,rigid:kqmmUQES2XMovBLH3o7nf90t5SE
+edgetype,edgetype:X
+hprd,hprd:-
+CEN,CEN:I-022707
+bind,bind:215564
+pdb,pdb:1nlw
+ELK,ELK:I-010441
+innatedb,innatedb:IDB-188840
+TAU,TAU:R-331292
+mppi,mppi:-
+WEB,WEB:0002003
+InnateDB,InnateDB:IDB-1632377
+WSC,WSC:R-001274
+virhostnet-nrid,virhostnet-nrid:3663
+virhostnet-rid,virhostnet-rid:4173
+empiar,empiar:EMPAIR-10358
+ARN,ARN:R-000045
+pride,pride:15379
+InnateDB Allergy,InnateDB Allergy:IDB-1630637
+protein ontology,protein ontology:PR(000027395)
+interpro,interpro:IPR011615
+proteomexchange,proteomexchange:PXD000030
+omim,omim:614822
+bmrb,bmrb:4899
+ntnu,ntnu:18990187_0_YBX3_CAT

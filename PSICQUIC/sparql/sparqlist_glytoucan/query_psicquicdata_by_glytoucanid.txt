@@ -1,0 +1,23 @@
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX chebi: <https://www.ebi.ac.uk/rdf/services/sparql>
+PREFIX glycan: <http://purl.jp/bio/12/glyco/glycan#>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+
+SELECT ?glytoucan_uri ?interaction
+
+WHERE {
+
+  BIND("G72701VD" as ?glytoucan_id)
+
+  SERVICE <https://ts.glycosmos.org/sparql> {
+    ?glytoucan_uri dcterms:identifier ?glytoucan_id .
+    ?glytoucan_uri glycan:has_resource_entry ?glytoucan_chebi_uri .
+    FILTER CONTAINS (str(?glytoucan_chebi_uri), "http://rdf.glycoinfo.org/chebi/")
+  }
+  BIND(REPLACE(str(?glytoucan_chebi_uri), "http://rdf.glycoinfo.org/chebi/", "", "i") AS ?chebi_id)
+  BIND(URI(CONCAT("http://rdf.glycoinfo.org/dbid/CHEBI/", ?chebi_id)) as ?psicquic_chebi_uri)
+
+  ?interaction ?predicarte ?psicquic_chebi_uri
+}

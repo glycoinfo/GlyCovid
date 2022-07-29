@@ -1,0 +1,1665 @@
+{
+  "head": {
+    "vars": ["glytoucan_url", "chebi_uri"]
+  },
+  "results": {
+    "bindings": [
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G00026MO" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/131910" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G00026MO" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/131910" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G00026MO" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/131910" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G40967YY" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/138679" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G40967YY" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/138679" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G57710SU" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/140819" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G00503EE" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/146078" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G98058RD" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/146303" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G00944OL" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/146423" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G02622IU" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/146430" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G02945KQ" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/146472" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G01464ES" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/146507" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G01657UH" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/146543" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G01665LU" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/146545" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G03542TR" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/146579" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G01825JS" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/146580" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G01854VF" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/146583" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G03652XH" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/146600" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G03740OH" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/146616" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G03909YF" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/146652" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G02441OB" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/146673" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G02474FD" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/146682" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G05096LE" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/146767" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G08348BC" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/146814" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G06171TU" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/146941" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G09255AF" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/146950" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G06676BQ" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/147029" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G06721LM" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/147036" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G10148GI" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/147087" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G10148GI" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/147087" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G10163TY" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/147091" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G07145VL" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/147097" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G10340BX" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/147135" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G10340BX" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/147135" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G07547GE" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/147175" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G07547GE" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/147175" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G10581YA" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/147188" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G07822HH" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/147232" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G10965EB" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/147266" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G16873YG" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/147479" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G11091XO" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/147480" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G16879YK" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/147481" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G16976BN" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/147514" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G17077YF" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/147561" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G17077YF" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/147561" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G14226PU" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/147595" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G14226PU" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/147595" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G17689EW" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/147753" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G13294EW" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/148075" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G13616KY" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/148168" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G16642FB" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/148178" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G16642FB" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/148178" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G19677OB" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/148210" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G20704OX" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/148287" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G21521KS" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/148361" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G21541CK" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/148362" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G63389BN" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/148362" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G21586NB" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/148364" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G21978PS" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/148394" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G22079SE" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/148399" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G22437MC" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/148426" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G25538MM" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/148466" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G25559RS" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/148470" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G22815DC" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/148505" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G28948UC" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/148551" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G25902AL" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/148569" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G23296IL" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/148595" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G23322RK" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/148604" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G23654OQ" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/148705" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G23782KP" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/148744" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G26844MI" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/148790" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G24363HJ" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/148874" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G24363HJ" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/148874" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G24363HJ" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/148874" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G30159WR" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/148883" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G30159WR" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/148883" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G30159WR" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/148883" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G30233OG" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/148893" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G27248RA" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/148898" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G27248RA" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/148898" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G24596ML" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/148932" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G30314VR" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/148933" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G27720WY" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/149007" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G27776KI" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/149016" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G27783HI" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/149027" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G30704AF" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/149040" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G27939KO" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/149069" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G27939KO" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/149069" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G27939KO" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/149069" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G25129BT" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/149071" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G25129BT" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/149071" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G25129BT" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/149071" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G25132GJ" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/149074" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G25132GJ" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/149074" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G25132GJ" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/149074" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G27960EQ" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/149078" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G27960EQ" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/149078" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G27960EQ" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/149078" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G27960EQ" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/149078" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G27960EQ" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/149078" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G31037WG" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/149124" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G28326EU" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/149154" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G31540HC" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/149192" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G31540HC" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/149192" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G31540HC" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/149192" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G31559RO" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/149193" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G31822CM" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/149218" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G31831UH" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/149219" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G33244HE" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/149331" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G33608TH" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/149365" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G34118NA" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/149410" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G34118NA" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/149410" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G34118NA" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/149410" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G40268BC" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/150088" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G40268BC" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/150088" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G40268BC" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/150088" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G40268BC" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/150088" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G40270LS" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/150095" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G40270LS" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/150095" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G40270LS" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/150095" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G40542QP" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/150155" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G40542QP" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/150155" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G40542QP" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/150155" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G40542QP" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/150155" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G40585SO" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/150180" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G40585SO" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/150180" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G40585SO" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/150180" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G40585SO" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/150180" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G40585SO" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/150180" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G37919OJ" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/150181" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G37919OJ" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/150181" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G37919OJ" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/150181" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G37919OJ" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/150181" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G37919OJ" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/150181" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G38002BK" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/150195" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G38002BK" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/150195" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G38002BK" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/150195" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G40689UV" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/150197" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G40689UV" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/150197" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G40689UV" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/150197" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G40689UV" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/150197" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G38085DZ" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/150222" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G38085DZ" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/150222" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G40874QJ" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/150235" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G40874QJ" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/150235" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G40874QJ" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/150235" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G38208CY" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/150244" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G38208CY" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/150244" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G38208CY" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/150244" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G38208CY" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/150244" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G38208CY" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/150244" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G38373BD" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/150271" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G38373BD" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/150271" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G38373BD" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/150271" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G38395YJ" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/150272" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G38395YJ" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/150272" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G38395YJ" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/150272" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G35448LP" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/150297" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G35448LP" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/150297" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G35448LP" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/150297" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G41158BG" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/150326" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G41158BG" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/150326" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G41158BG" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/150326" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G41158BG" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/150326" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G41158BG" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/150326" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G41189JN" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/150339" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G41189JN" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/150339" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G36293DS" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/150525" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G39408YK" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/150543" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G39408YK" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/150543" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G39408YK" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/150543" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G36498HE" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/150547" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G36498HE" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/150547" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G36519NW" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/150552" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G36519NW" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/150552" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G36519NW" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/150552" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G39465KG" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/150566" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G36631LH" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/150583" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G36631LH" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/150583" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G36631LH" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/150583" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G36631LH" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/150583" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G36660SM" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/150586" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G36660SM" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/150586" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G36660SM" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/150586" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G36660SM" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/150586" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G36660SM" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/150586" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G36835IG" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/150641" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G36835IG" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/150641" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G36835IG" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/150641" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G39722LF" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/150648" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G39722LF" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/150648" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G39722LF" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/150648" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G39722LF" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/150648" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G36854DS" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/150649" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G36854DS" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/150649" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G36854DS" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/150649" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G36854DS" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/150649" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G36854DS" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/150649" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G39850EU" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/150688" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G39850EU" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/150688" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G39850EU" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/150688" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G37234PE" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/150733" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G37234PE" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/150733" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G37234PE" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/150733" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G37234PE" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/150733" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G42525DE" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/150744" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G42525DE" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/150744" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G42525DE" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/150744" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G42525DE" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/150744" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G42525DE" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/150744" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G44503UE" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/150923" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G44503UE" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/150923" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G44503UE" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/150923" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G44503UE" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/150923" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G44503UE" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/150923" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G44965FY" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/150962" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G44965FY" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/150962" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G44965FY" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/150962" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G44965FY" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/150962" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G44965FY" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/150962" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G44980KU" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/150963" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G44980KU" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/150963" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G44980KU" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/150963" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G45492BK" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/151001" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G45565NV" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/151009" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G54337PK" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/151086" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G46103YX" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/151099" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G46103YX" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/151099" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G46103YX" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/151099" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G46103YX" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/151099" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G46103YX" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/151099" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G46479GT" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/151179" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G46479GT" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/151179" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G46479GT" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/151179" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G46511PG" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/151183" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G46697NP" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/151215" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G46758LT" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/151226" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G55104BW" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/151241" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G55104BW" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/151241" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G55104BW" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/151241" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G55104BW" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/151241" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G55407TJ" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/151295" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G55407TJ" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/151295" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G55407TJ" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/151295" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G55407TJ" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/151295" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G55407TJ" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/151295" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G47307IR" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/151310" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G47366RU" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/151318" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G47366RU" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/151318" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G47366RU" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/151318" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G47366RU" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/151318" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G47366RU" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/151318" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G47391NN" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/151320" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G47391NN" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/151320" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G47391NN" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/151320" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G55659LV" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/151336" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G55659LV" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/151336" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G55659LV" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/151336" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G47590GJ" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/151371" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G47590GJ" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/151371" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G47590GJ" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/151371" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G47590GJ" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/151371" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G47782UT" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/151395" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G47782UT" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/151395" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G47782UT" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/151395" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G47782UT" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/151395" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G47854HN" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/151399" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G47854HN" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/151399" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G47854HN" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/151399" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G47854HN" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/151399" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G47928KI" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/151418" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G47928KI" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/151418" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G56354PO" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/151451" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G48614JL" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/151532" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G48614JL" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/151532" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G48614JL" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/151532" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G48614JL" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/151532" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G56869RQ" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/151535" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G56869RQ" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/151535" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G56869RQ" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/151535" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G56869RQ" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/151535" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G48630BP" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/151536" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G48630BP" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/151536" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G48630BP" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/151536" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G48630BP" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/151536" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G51580UF" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/151555" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G51670CS" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/151562" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G51670CS" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/151562" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G51670CS" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/151562" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G51670CS" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/151562" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G51896IF" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/151580" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G51896IF" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/151580" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G51896IF" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/151580" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G52106FW" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/151607" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G52106FW" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/151607" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G52106FW" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/151607" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G52106FW" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/151607" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G52106FW" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/151607" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G52112MC" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/151608" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G52112MC" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/151608" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G52112MC" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/151608" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G52120GQ" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/151609" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G52461YB" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/151640" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G52763AS" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/151663" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G52928OQ" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/151683" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G53016WG" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/151691" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G53016WG" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/151691" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G53016WG" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/151691" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G53016WG" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/151691" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G53871AD" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/151761" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G54083SI" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/151785" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G54092SK" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/151787" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G54151YB" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/151792" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G54158IT" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/151793" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G49743VF" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/151878" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G49743VF" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/151878" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G49743VF" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/151878" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G49785PR" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/151882" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G49859TR" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/151890" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G49859TR" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/151890" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G49859TR" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/151890" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G49859TR" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/151890" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G50117DJ" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/151913" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G50117DJ" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/151913" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G50117DJ" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/151913" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G50117DJ" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/151913" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G50146MH" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/151916" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G50549VU" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/151957" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G57881VN" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/152202" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G60820JU" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/152236" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G58517TJ" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/152303" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G58517TJ" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/152303" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G58517TJ" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/152303" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G61539GW" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/152357" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G59454IE" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/152460" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G62571UK" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/152523" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G65414VM" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/152591" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G66040YD" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/152716" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G63659FK" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/152717" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G66653BX" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/152822" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G64761FU" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/152931" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G67925AS" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/153045" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G71409LF" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/153150" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G71689LT" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/153200" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G69022KK" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/153214" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G72478OJ" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/153345" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G70113QZ" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/153416" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G79713BZ" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/153608" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G74111MH" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/153671" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G80180SI" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/153746" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G80494PJ" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/153818" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G75872ER" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/154172" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G75959OB" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/154196" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G82142DS" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/154197" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G76118WO" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/154236" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G79363XM" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/154260" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G79363XM" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/154260" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G79363XM" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/154260" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G76431SN" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/154286" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G88249DW" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/154326" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G85497PI" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/154343" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G83600PQ" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/154667" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G83763EL" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/154718" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G83763EL" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/154718" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G83919DT" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/154749" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G87065VW" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/154761" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G87065VW" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/154761" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G87065VW" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/154761" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G83948CA" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/154762" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G90769IN" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/154873" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G84376FR" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/154874" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G90889KG" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/154923" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G87727XV" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/154925" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G90895OS" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/154926" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G87743WX" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/154928" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G85288QT" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/155054" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G97077OZ" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/155089" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G98003WW" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/155334" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G93100YT" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/155500" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G95929CC" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/155519" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G98699SF" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/155520" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G98728LU" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/155530" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G93638BI" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/155627" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G96336FY" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/155630" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G00463XD" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/156599" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G91972CK" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/156713" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G91972CK" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/156713" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G91972CK" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/156713" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G00468NI" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/156772" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G00468NI" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/156772" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G71264OU" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/157104" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G28226YW" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/157121" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G32648IV" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/157170" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G39540XG" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/157190" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G68826FE" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/157215" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G24984RR" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/157230" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G89524PP" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/157240" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G89524PP" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/157240" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G75143LK" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/157262" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G57568CV" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/157264" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G22795QB" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/157331" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G46213JU" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/157359" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G80355WT" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/157394" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G80355WT" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/157394" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G74701OU" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/157480" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G74701OU" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/157480" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G26935KA" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/157490" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G74497TS" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/157531" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G74497TS" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/157531" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G28337WM" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/157551" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G20749KW" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/157591" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G20749KW" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/157591" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G72701VD" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/157592" }
+      },
+      {
+        "glytoucan_url": { "type": "uri", "value": "http://rdf.glycoinfo.org/glycan/G72701VD" },
+        "chebi_uri": { "type": "uri", "value": "http://rdf.glycoinfo.org/chebi/157592" }
+      }
+    ]
+  }
+}
