@@ -1,0 +1,25 @@
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX obo: <http://purl.obolibrary.org/obo/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+prefix oboInOwl: <http://www.geneontology.org/formats/oboInOwl#>
+prefix mesh: <http://id.nlm.nih.gov/mesh/>
+prefix sugarbind_id: <http://rdf.glycoinfo.org/SugarBind/Id/>
+prefix pubchem_gene: <http://rdf.ncbi.nlm.nih.gov/pubchem/gene/>
+
+select ?sugarbind_disease ?doid ?mesh ?pubchem_gene
+where {
+  # SugarBind
+  ?sugarbind_disease a obo:NCIT_C2991 .
+  ?sugarbind_disease rdfs:seeAlso ?doid .
+  
+  # DOID
+  ?doid oboInOwl:hasDbXref ?mesh_literal . 
+  FILTER(contains(?mesh_literal,"MESH"))
+  BIND(uri(REPLACE(?mesh_literal, 'MESH:', "http://id.nlm.nih.gov/mesh/", "i")) AS ?mesh)
+  
+  # PubChem
+  ?mesh a <http://id.nlm.nih.gov/mesh/vocab#Concept> .
+  ?pubchem_gene rdfs:seeAlso ?mesh
+}
+
