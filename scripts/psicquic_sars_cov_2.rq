@@ -16,7 +16,7 @@ WHERE {
               :partOfLineage ?part_of_lineage .
     { ?ancestor  up:rank up:Species .} UNION
     { ?ancestor  up:rank up:Genus .} UNION
-    { ?ancestor  up:rank up:Famili .} 
+    { ?ancestor  up:rank up:Family .} 
     
     # 取得した祖先が持つ子に当たる種を含む全てのタンパク質
     ?child_taxon rdfs:subClassOf ?ancestor .
@@ -49,3 +49,4 @@ WHERE {
     ?glytoucan_uri glycan:has_resource_entry ?other_interactor_chebi_uri .
   }
 }
+
