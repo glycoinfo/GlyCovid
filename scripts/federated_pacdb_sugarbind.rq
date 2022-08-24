@@ -1,0 +1,34 @@
+PREFIX : <http://rdf.glycoinfo.org/SugarBind/Ontology#>
+PREFIX glycan: <http://purl.jp/bio/12/glyco/glycan#>
+PREFIX pacsch: <http://jcggdb.jp/rdf/diseases/paconto-schema#>
+PREFIX gmsch: <http://jcggdb.jp/rdf/diseases/gmncbi-schema#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+SELECT ?Disease ?DiseaseLabel ?Agent ?AgentLabel ?Area ?AreaLabel ?Glycan ?GlycanSequence
+WHERE {
+  {
+    # to PAConto
+    ?referenced_interaction pacsch:hasInteractionWith ?Ligand .
+    ?Ligand rdfs:label ?LigandLabel .
+    ?Ligand glycan:has_glycoconjugate_sequence ?Glycan .
+    ?Glycan glycan:has_sequence ?GlycanSequence .
+    ?referenced_interaction pacsch:inBioSource ?Area .
+    ?troplsm pacsch:hasTropismTo ?Area .
+    ?Area rdfs:label ?AreaLabel .
+    ?Agent pacsch:tropismInReference ?troplsm .
+    ?Agent rdfs:label ?AgentLabel .
+    ?Agent gmsch:causes ?Disease .
+    ?Disease rdfs:label ?DiseaseLabel .
+  } UNION {
+    # to SugarBind
+    ?referenced_interaction :has_ligand ?Ligand .
+    ?Ligand rdfs:label ?LigandLabel .
+    ?Ligand :has_structure ?Glycan .
+    ?referenced_interaction :has_agent ?Agent .
+    ?Agent rdfs:label ?AgentLabel .
+    ?referenced_interaction :has_area ?Area .
+    ?Area rdfs:label ?AreaLabel .
+    ?Agent :causes ?Disease .
+    ?Disease rdfs:label ?DiseaseLabel .
+  }
+  BIND(RAND() AS ?random) .
+} ORDER BY ?random
