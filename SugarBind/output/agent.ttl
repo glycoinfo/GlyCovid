@@ -1,4 +1,4 @@
-@prefix : <http://rdf.glycoinfo.org/SugarBind/Ontology#> .
+@prefix : <http://rdf.glycoinfo.org/SugarBind/ontology#> .
 @prefix interaction: <http://rdf.glycoinfo.org/ontology/interaction#> .
 @prefix id: <http://rdf.glycoinfo.org/SugarBind/Id/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .

@@ -1,4 +1,4 @@
-@prefix : <http://rdf.glycoinfo.org/SugarBind/Ontology#> .
+@prefix : <http://rdf.glycoinfo.org/SugarBind/ontology#> .
 @prefix interaction: <http://rdf.glycoinfo.org/ontology/interaction#> .
 @prefix id: <http://rdf.glycoinfo.org/SugarBind/Id/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
@@ -24,7 +24,7 @@ interaction:LEC250_LIG28_PUB7527546_AGE158 rdf:type owl:NamedIndividual ,
 			:ReferencedInteraction ;
 		:has_lectin id:LEC250 ;
 		:has_ligand id:LIG28 ;
-		:has_pubmed id:PUB7527546 ;
+		:has_citation id:PUB7527546 ;
 		:has_agent id:AGE158 ;
 		rdfs:label "LEC250_LIG28_PUB7527546_AGE158"^^xsd:string .
 
@@ -32,7 +32,7 @@ interaction:LEC251_LIG13_PUB1091565_AGE160 rdf:type owl:NamedIndividual ,
 			:ReferencedInteraction ;
 		:has_lectin id:LEC251 ;
 		:has_ligand id:LIG13 ;
-		:has_pubmed id:PUB1091565 ;
+		:has_citation id:PUB1091565 ;
 		:has_agent id:AGE160 ;
 		rdfs:label "LEC251_LIG13_PUB1091565_AGE160"^^xsd:string .
 
@@ -40,7 +40,7 @@ interaction:LEC252_LIG14_PUB1091565_AGE160 rdf:type owl:NamedIndividual ,
 			:ReferencedInteraction ;
 		:has_lectin id:LEC252 ;
 		:has_ligand id:LIG14 ;
-		:has_pubmed id:PUB1091565 ;
+		:has_citation id:PUB1091565 ;
 		:has_agent id:AGE160 ;
 		rdfs:label "LEC252_LIG14_PUB1091565_AGE160"^^xsd:string .
 
@@ -48,7 +48,7 @@ interaction:LEC253_LIG41_PUB1091565_AGE160 rdf:type owl:NamedIndividual ,
 			:ReferencedInteraction ;
 		:has_lectin id:LEC253 ;
 		:has_ligand id:LIG41 ;
-		:has_pubmed id:PUB1091565 ;
+		:has_citation id:PUB1091565 ;
 		:has_agent id:AGE160 ;
 		rdfs:label "LEC253_LIG41_PUB1091565_AGE160"^^xsd:string .
 
@@ -56,7 +56,7 @@ interaction:LEC254_LIG95_PUB1091565_AGE160 rdf:type owl:NamedIndividual ,
 			:ReferencedInteraction ;
 		:has_lectin id:LEC254 ;
 		:has_ligand id:LIG95 ;
-		:has_pubmed id:PUB1091565 ;
+		:has_citation id:PUB1091565 ;
 		:has_agent id:AGE160 ;
 		rdfs:label "LEC254_LIG95_PUB1091565_AGE160"^^xsd:string .
 
@@ -64,7 +64,7 @@ interaction:LEC255_LIG26_PUB7696856_AGE162 rdf:type owl:NamedIndividual ,
 			:ReferencedInteraction ;
 		:has_lectin id:LEC255 ;
 		:has_ligand id:LIG26 ;
-		:has_pubmed id:PUB7696856 ;
+		:has_citation id:PUB7696856 ;
 		:has_agent id:AGE162 ;
 		rdfs:label "LEC255_LIG26_PUB7696856_AGE162"^^xsd:string .
 
@@ -72,7 +72,7 @@ interaction:LEC256_LIG96_PUB3290106_AGE164 rdf:type owl:NamedIndividual ,
 			:ReferencedInteraction ;
 		:has_lectin id:LEC256 ;
 		:has_ligand id:LIG96 ;
-		:has_pubmed id:PUB3290106 ;
+		:has_citation id:PUB3290106 ;
 		:has_agent id:AGE164 ;
 		rdfs:label "LEC256_LIG96_PUB3290106_AGE164"^^xsd:string .
 
@@ -80,7 +80,7 @@ interaction:LEC257_LIG13_PUB3290106_AGE164 rdf:type owl:NamedIndividual ,
 			:ReferencedInteraction ;
 		:has_lectin id:LEC257 ;
 		:has_ligand id:LIG13 ;
-		:has_pubmed id:PUB3290106 ;
+		:has_citation id:PUB3290106 ;
 		:has_agent id:AGE164 ;
 		rdfs:label "LEC257_LIG13_PUB3290106_AGE164"^^xsd:string .
 
@@ -88,7 +88,7 @@ interaction:LEC258_LIG14_PUB3290106_AGE164 rdf:type owl:NamedIndividual ,
 			:ReferencedInteraction ;
 		:has_lectin id:LEC258 ;
 		:has_ligand id:LIG14 ;
-		:has_pubmed id:PUB3290106 ;
+		:has_citation id:PUB3290106 ;
 		:has_agent id:AGE164 ;
 		rdfs:label "LEC258_LIG14_PUB3290106_AGE164"^^xsd:string .
 
@@ -96,7 +96,7 @@ interaction:LEC259_LIG2_PUB3290106_AGE164 rdf:type owl:NamedIndividual ,
 			:ReferencedInteraction ;
 		:has_lectin id:LEC259 ;
 		:has_ligand id:LIG2 ;
-		:has_pubmed id:PUB3290106 ;
+		:has_citation id:PUB3290106 ;
 		:has_agent id:AGE164 ;
 		rdfs:label "LEC259_LIG2_PUB3290106_AGE164"^^xsd:string .
 
@@ -104,7 +104,7 @@ interaction:LEC260_LIG24_PUB3290106_AGE165 rdf:type owl:NamedIndividual ,
 			:ReferencedInteraction ;
 		:has_lectin id:LEC260 ;
 		:has_ligand id:LIG24 ;
-		:has_pubmed id:PUB3290106 ;
+		:has_citation id:PUB3290106 ;
 		:has_agent id:AGE165 ;
 		rdfs:label "LEC260_LIG24_PUB3290106_AGE165"^^xsd:string .
 
@@ -112,7 +112,7 @@ interaction:LEC261_LIG13_PUB3290106_AGE165 rdf:type owl:NamedIndividual ,
 			:ReferencedInteraction ;
 		:has_lectin id:LEC261 ;
 		:has_ligand id:LIG13 ;
-		:has_pubmed id:PUB3290106 ;
+		:has_citation id:PUB3290106 ;
 		:has_agent id:AGE165 ;
 		rdfs:label "LEC261_LIG13_PUB3290106_AGE165"^^xsd:string .
 
@@ -120,7 +120,7 @@ interaction:LEC262_LIG14_PUB3290106_AGE165 rdf:type owl:NamedIndividual ,
 			:ReferencedInteraction ;
 		:has_lectin id:LEC262 ;
 		:has_ligand id:LIG14 ;
-		:has_pubmed id:PUB3290106 ;
+		:has_citation id:PUB3290106 ;
 		:has_agent id:AGE165 ;
 		rdfs:label "LEC262_LIG14_PUB3290106_AGE165"^^xsd:string .
 
@@ -128,7 +128,7 @@ interaction:LEC263_LIG41_PUB3290106_AGE165 rdf:type owl:NamedIndividual ,
 			:ReferencedInteraction ;
 		:has_lectin id:LEC263 ;
 		:has_ligand id:LIG41 ;
-		:has_pubmed id:PUB3290106 ;
+		:has_citation id:PUB3290106 ;
 		:has_agent id:AGE165 ;
 		rdfs:label "LEC263_LIG41_PUB3290106_AGE165"^^xsd:string .
 
@@ -136,7 +136,7 @@ interaction:LEC264_LIG94_PUB3290106_AGE165 rdf:type owl:NamedIndividual ,
 			:ReferencedInteraction ;
 		:has_lectin id:LEC264 ;
 		:has_ligand id:LIG94 ;
-		:has_pubmed id:PUB3290106 ;
+		:has_citation id:PUB3290106 ;
 		:has_agent id:AGE165 ;
 		rdfs:label "LEC264_LIG94_PUB3290106_AGE165"^^xsd:string .
 
@@ -144,7 +144,7 @@ interaction:LEC265_LIG22_PUB3290106_AGE165 rdf:type owl:NamedIndividual ,
 			:ReferencedInteraction ;
 		:has_lectin id:LEC265 ;
 		:has_ligand id:LIG22 ;
-		:has_pubmed id:PUB3290106 ;
+		:has_citation id:PUB3290106 ;
 		:has_agent id:AGE165 ;
 		rdfs:label "LEC265_LIG22_PUB3290106_AGE165"^^xsd:string .
 
@@ -152,7 +152,7 @@ interaction:LEC266_LIG28_PUB3290106_AGE165 rdf:type owl:NamedIndividual ,
 			:ReferencedInteraction ;
 		:has_lectin id:LEC266 ;
 		:has_ligand id:LIG28 ;
-		:has_pubmed id:PUB3290106 ;
+		:has_citation id:PUB3290106 ;
 		:has_agent id:AGE165 ;
 		rdfs:label "LEC266_LIG28_PUB3290106_AGE165"^^xsd:string .
 
@@ -160,7 +160,7 @@ interaction:LEC267_LIG38_PUB3290106_AGE165 rdf:type owl:NamedIndividual ,
 			:ReferencedInteraction ;
 		:has_lectin id:LEC267 ;
 		:has_ligand id:LIG38 ;
-		:has_pubmed id:PUB3290106 ;
+		:has_citation id:PUB3290106 ;
 		:has_agent id:AGE165 ;
 		rdfs:label "LEC267_LIG38_PUB3290106_AGE165"^^xsd:string .
 
@@ -168,7 +168,7 @@ interaction:LEC268_LIG22_PUB3290106_AGE166 rdf:type owl:NamedIndividual ,
 			:ReferencedInteraction ;
 		:has_lectin id:LEC268 ;
 		:has_ligand id:LIG22 ;
-		:has_pubmed id:PUB3290106 ;
+		:has_citation id:PUB3290106 ;
 		:has_agent id:AGE166 ;
 		rdfs:label "LEC268_LIG22_PUB3290106_AGE166"^^xsd:string .
 
@@ -176,7 +176,7 @@ interaction:LEC269_LIG28_PUB3290106_AGE166 rdf:type owl:NamedIndividual ,
 			:ReferencedInteraction ;
 		:has_lectin id:LEC269 ;
 		:has_ligand id:LIG28 ;
-		:has_pubmed id:PUB3290106 ;
+		:has_citation id:PUB3290106 ;
 		:has_agent id:AGE166 ;
 		rdfs:label "LEC269_LIG28_PUB3290106_AGE166"^^xsd:string .
 
@@ -184,7 +184,7 @@ interaction:LEC270_LIG97_PUB3290106_AGE166 rdf:type owl:NamedIndividual ,
 			:ReferencedInteraction ;
 		:has_lectin id:LEC270 ;
 		:has_ligand id:LIG97 ;
-		:has_pubmed id:PUB3290106 ;
+		:has_citation id:PUB3290106 ;
 		:has_agent id:AGE166 ;
 		rdfs:label "LEC270_LIG97_PUB3290106_AGE166"^^xsd:string .
 
@@ -192,7 +192,7 @@ interaction:LEC271_LIG27_PUB11179385_AGE168 rdf:type owl:NamedIndividual ,
 			:ReferencedInteraction ;
 		:has_lectin id:LEC271 ;
 		:has_ligand id:LIG27 ;
-		:has_pubmed id:PUB11179385 ;
+		:has_citation id:PUB11179385 ;
 		:has_agent id:AGE168 ;
 		rdfs:label "LEC271_LIG27_PUB11179385_AGE168"^^xsd:string .
 
@@ -200,7 +200,7 @@ interaction:LEC272_LIG27_PUB11179385_AGE169 rdf:type owl:NamedIndividual ,
 			:ReferencedInteraction ;
 		:has_lectin id:LEC272 ;
 		:has_ligand id:LIG27 ;
-		:has_pubmed id:PUB11179385 ;
+		:has_citation id:PUB11179385 ;
 		:has_agent id:AGE169 ;
 		rdfs:label "LEC272_LIG27_PUB11179385_AGE169"^^xsd:string .
 
@@ -208,7 +208,7 @@ interaction:LEC273_LIG27_PUB11179385_AGE170 rdf:type owl:NamedIndividual ,
 			:ReferencedInteraction ;
 		:has_lectin id:LEC273 ;
 		:has_ligand id:LIG27 ;
-		:has_pubmed id:PUB11179385 ;
+		:has_citation id:PUB11179385 ;
 		:has_agent id:AGE170 ;
 		rdfs:label "LEC273_LIG27_PUB11179385_AGE170"^^xsd:string .
 
@@ -216,7 +216,7 @@ interaction:LEC274_LIG27_PUB11179385_AGE171 rdf:type owl:NamedIndividual ,
 			:ReferencedInteraction ;
 		:has_lectin id:LEC274 ;
 		:has_ligand id:LIG27 ;
-		:has_pubmed id:PUB11179385 ;
+		:has_citation id:PUB11179385 ;
 		:has_agent id:AGE171 ;
 		rdfs:label "LEC274_LIG27_PUB11179385_AGE171"^^xsd:string .
 
@@ -224,7 +224,7 @@ interaction:LEC275_LIG18_PUB11179385_AGE172 rdf:type owl:NamedIndividual ,
 			:ReferencedInteraction ;
 		:has_lectin id:LEC275 ;
 		:has_ligand id:LIG18 ;
-		:has_pubmed id:PUB11179385 ;
+		:has_citation id:PUB11179385 ;
 		:has_agent id:AGE172 ;
 		rdfs:label "LEC275_LIG18_PUB11179385_AGE172"^^xsd:string .
 
@@ -232,7 +232,7 @@ interaction:LEC276_LIG27_PUB7868240_AGE174 rdf:type owl:NamedIndividual ,
 			:ReferencedInteraction ;
 		:has_lectin id:LEC276 ;
 		:has_ligand id:LIG27 ;
-		:has_pubmed id:PUB7868240 ;
+		:has_citation id:PUB7868240 ;
 		:has_agent id:AGE174 ;
 		rdfs:label "LEC276_LIG27_PUB7868240_AGE174"^^xsd:string .
 
@@ -240,7 +240,7 @@ interaction:LEC277_LIG18_PUB7868240_AGE174 rdf:type owl:NamedIndividual ,
 			:ReferencedInteraction ;
 		:has_lectin id:LEC277 ;
 		:has_ligand id:LIG18 ;
-		:has_pubmed id:PUB7868240 ;
+		:has_citation id:PUB7868240 ;
 		:has_agent id:AGE174 ;
 		rdfs:label "LEC277_LIG18_PUB7868240_AGE174"^^xsd:string .
 
@@ -248,7 +248,7 @@ interaction:LEC278_LIG27_PUB3284526_AGE176 rdf:type owl:NamedIndividual ,
 			:ReferencedInteraction ;
 		:has_lectin id:LEC278 ;
 		:has_ligand id:LIG27 ;
-		:has_pubmed id:PUB3284526 ;
+		:has_citation id:PUB3284526 ;
 		:has_agent id:AGE176 ;
 		rdfs:label "LEC278_LIG27_PUB3284526_AGE176"^^xsd:string .
 
@@ -256,7 +256,7 @@ interaction:LEC279_LIG2_PUB3413084_AGE177 rdf:type owl:NamedIndividual ,
 			:ReferencedInteraction ;
 		:has_lectin id:LEC279 ;
 		:has_ligand id:LIG2 ;
-		:has_pubmed id:PUB3413084 ;
+		:has_citation id:PUB3413084 ;
 		:has_agent id:AGE177 ;
 		rdfs:label "LEC279_LIG2_PUB3413084_AGE177"^^xsd:string .
 
@@ -264,7 +264,7 @@ interaction:LEC280_LIG25_PUB3413084_AGE177 rdf:type owl:NamedIndividual ,
 			:ReferencedInteraction ;
 		:has_lectin id:LEC280 ;
 		:has_ligand id:LIG25 ;
-		:has_pubmed id:PUB3413084 ;
+		:has_citation id:PUB3413084 ;
 		:has_agent id:AGE177 ;
 		rdfs:label "LEC280_LIG25_PUB3413084_AGE177"^^xsd:string .
 
@@ -272,7 +272,7 @@ interaction:LEC281_LIG4_PUB3413084_AGE177 rdf:type owl:NamedIndividual ,
 			:ReferencedInteraction ;
 		:has_lectin id:LEC281 ;
 		:has_ligand id:LIG4 ;
-		:has_pubmed id:PUB3413084 ;
+		:has_citation id:PUB3413084 ;
 		:has_agent id:AGE177 ;
 		rdfs:label "LEC281_LIG4_PUB3413084_AGE177"^^xsd:string .
 
@@ -280,7 +280,7 @@ interaction:LEC282_LIG88_PUB1894623_ARE3_AGE180 rdf:type owl:NamedIndividual ,
 			:ReferencedInteraction ;
 		:has_lectin id:LEC282 ;
 		:has_ligand id:LIG88 ;
-		:has_pubmed id:PUB1894623 ;
+		:has_citation id:PUB1894623 ;
 		:has_agent id:AGE180 ;
 		:has_area id:ARE3 ;
 		rdfs:label "LEC282_LIG88_PUB1894623_ARE3_AGE180"^^xsd:string .
@@ -289,7 +289,7 @@ interaction:LEC283_LIG24_PUB1894623_ARE3_AGE180 rdf:type owl:NamedIndividual ,
 			:ReferencedInteraction ;
 		:has_lectin id:LEC283 ;
 		:has_ligand id:LIG24 ;
-		:has_pubmed id:PUB1894623 ;
+		:has_citation id:PUB1894623 ;
 		:has_agent id:AGE180 ;
 		:has_area id:ARE3 ;
 		rdfs:label "LEC283_LIG24_PUB1894623_ARE3_AGE180"^^xsd:string .
@@ -298,7 +298,7 @@ interaction:LEC284_LIG30_PUB1894623_ARE3_AGE180 rdf:type owl:NamedIndividual ,
 			:ReferencedInteraction ;
 		:has_lectin id:LEC284 ;
 		:has_ligand id:LIG30 ;
-		:has_pubmed id:PUB1894623 ;
+		:has_citation id:PUB1894623 ;
 		:has_agent id:AGE180 ;
 		:has_area id:ARE3 ;
 		rdfs:label "LEC284_LIG30_PUB1894623_ARE3_AGE180"^^xsd:string .
@@ -307,7 +307,7 @@ interaction:LEC285_LIG25_PUB3413084_AGE183 rdf:type owl:NamedIndividual ,
 			:ReferencedInteraction ;
 		:has_lectin id:LEC285 ;
 		:has_ligand id:LIG25 ;
-		:has_pubmed id:PUB3413084 ;
+		:has_citation id:PUB3413084 ;
 		:has_agent id:AGE183 ;
 		rdfs:label "LEC285_LIG25_PUB3413084_AGE183"^^xsd:string .
 
@@ -315,7 +315,7 @@ interaction:LEC286_LIG25_PUB3413084_AGE184 rdf:type owl:NamedIndividual ,
 			:ReferencedInteraction ;
 		:has_lectin id:LEC286 ;
 		:has_ligand id:LIG25 ;
-		:has_pubmed id:PUB3413084 ;
+		:has_citation id:PUB3413084 ;
 		:has_agent id:AGE184 ;
 		rdfs:label "LEC286_LIG25_PUB3413084_AGE184"^^xsd:string .
 
@@ -323,7 +323,7 @@ interaction:LEC288_LIG2_PUB3413084_AGE186 rdf:type owl:NamedIndividual ,
 			:ReferencedInteraction ;
 		:has_lectin id:LEC288 ;
 		:has_ligand id:LIG2 ;
-		:has_pubmed id:PUB3413084 ;
+		:has_citation id:PUB3413084 ;
 		:has_agent id:AGE186 ;
 		rdfs:label "LEC288_LIG2_PUB3413084_AGE186"^^xsd:string .
 
@@ -331,7 +331,7 @@ interaction:LEC289_LIG4_PUB3413084_AGE186 rdf:type owl:NamedIndividual ,
 			:ReferencedInteraction ;
 		:has_lectin id:LEC289 ;
 		:has_ligand id:LIG4 ;
-		:has_pubmed id:PUB3413084 ;
+		:has_citation id:PUB3413084 ;
 		:has_agent id:AGE186 ;
 		rdfs:label "LEC289_LIG4_PUB3413084_AGE186"^^xsd:string .
 
@@ -346,7 +346,7 @@ interaction:LEC291_LIG25_PUB3413084_AGE189 rdf:type owl:NamedIndividual ,
 			:ReferencedInteraction ;
 		:has_lectin id:LEC291 ;
 		:has_ligand id:LIG25 ;
-		:has_pubmed id:PUB3413084 ;
+		:has_citation id:PUB3413084 ;
 		:has_agent id:AGE189 ;
 		rdfs:label "LEC291_LIG25_PUB3413084_AGE189"^^xsd:string .
 
@@ -354,7 +354,7 @@ interaction:LEC292_LIG2_PUB3413084_AGE190 rdf:type owl:NamedIndividual ,
 			:ReferencedInteraction ;
 		:has_lectin id:LEC292 ;
 		:has_ligand id:LIG2 ;
-		:has_pubmed id:PUB3413084 ;
+		:has_citation id:PUB3413084 ;
 		:has_agent id:AGE190 ;
 		rdfs:label "LEC292_LIG2_PUB3413084_AGE190"^^xsd:string .
 
@@ -362,7 +362,7 @@ interaction:LEC293_LIG4_PUB3413084_AGE190 rdf:type owl:NamedIndividual ,
 			:ReferencedInteraction ;
 		:has_lectin id:LEC293 ;
 		:has_ligand id:LIG4 ;
-		:has_pubmed id:PUB3413084 ;
+		:has_citation id:PUB3413084 ;
 		:has_agent id:AGE190 ;
 		rdfs:label "LEC293_LIG4_PUB3413084_AGE190"^^xsd:string .
 
@@ -370,7 +370,7 @@ interaction:LEC294_LIG10_PUB12704182_AGE193 rdf:type owl:NamedIndividual ,
 			:ReferencedInteraction ;
 		:has_lectin id:LEC294 ;
 		:has_ligand id:LIG10 ;
-		:has_pubmed id:PUB12704182 ;
+		:has_citation id:PUB12704182 ;
 		:has_agent id:AGE193 ;
 		rdfs:label "LEC294_LIG10_PUB12704182_AGE193"^^xsd:string .
 
@@ -378,7 +378,7 @@ interaction:LEC295_LIG2_PUB12704182_AGE193 rdf:type owl:NamedIndividual ,
 			:ReferencedInteraction ;
 		:has_lectin id:LEC295 ;
 		:has_ligand id:LIG2 ;
-		:has_pubmed id:PUB12704182 ;
+		:has_citation id:PUB12704182 ;
 		:has_agent id:AGE193 ;
 		rdfs:label "LEC295_LIG2_PUB12704182_AGE193"^^xsd:string .
 
@@ -386,7 +386,7 @@ interaction:LEC296_LIG26_PUB12704182_AGE193 rdf:type owl:NamedIndividual ,
 			:ReferencedInteraction ;
 		:has_lectin id:LEC296 ;
 		:has_ligand id:LIG26 ;
-		:has_pubmed id:PUB12704182 ;
+		:has_citation id:PUB12704182 ;
 		:has_agent id:AGE193 ;
 		rdfs:label "LEC296_LIG26_PUB12704182_AGE193"^^xsd:string .
 
@@ -394,7 +394,7 @@ interaction:LEC297_LIG3_PUB12704182_AGE193 rdf:type owl:NamedIndividual ,
 			:ReferencedInteraction ;
 		:has_lectin id:LEC297 ;
 		:has_ligand id:LIG3 ;
-		:has_pubmed id:PUB12704182 ;
+		:has_citation id:PUB12704182 ;
 		:has_agent id:AGE193 ;
 		rdfs:label "LEC297_LIG3_PUB12704182_AGE193"^^xsd:string .
 
@@ -402,7 +402,7 @@ interaction:LEC298_LIG10_PUB12704182_AGE195 rdf:type owl:NamedIndividual ,
 			:ReferencedInteraction ;
 		:has_lectin id:LEC298 ;
 		:has_ligand id:LIG10 ;
-		:has_pubmed id:PUB12704182 ;
+		:has_citation id:PUB12704182 ;
 		:has_agent id:AGE195 ;
 		rdfs:label "LEC298_LIG10_PUB12704182_AGE195"^^xsd:string .
 
@@ -410,7 +410,7 @@ interaction:LEC299_LIG2_PUB12704182_AGE195 rdf:type owl:NamedIndividual ,
 			:ReferencedInteraction ;
 		:has_lectin id:LEC299 ;
 		:has_ligand id:LIG2 ;
-		:has_pubmed id:PUB12704182 ;
+		:has_citation id:PUB12704182 ;
 		:has_agent id:AGE195 ;
 		rdfs:label "LEC299_LIG2_PUB12704182_AGE195"^^xsd:string .
 
@@ -418,7 +418,7 @@ interaction:LEC300_LIG26_PUB12704182_AGE195 rdf:type owl:NamedIndividual ,
 			:ReferencedInteraction ;
 		:has_lectin id:LEC300 ;
 		:has_ligand id:LIG26 ;
-		:has_pubmed id:PUB12704182 ;
+		:has_citation id:PUB12704182 ;
 		:has_agent id:AGE195 ;
 		rdfs:label "LEC300_LIG26_PUB12704182_AGE195"^^xsd:string .
 
@@ -426,7 +426,7 @@ interaction:LEC301_LIG3_PUB12704182_AGE195 rdf:type owl:NamedIndividual ,
 			:ReferencedInteraction ;
 		:has_lectin id:LEC301 ;
 		:has_ligand id:LIG3 ;
-		:has_pubmed id:PUB12704182 ;
+		:has_citation id:PUB12704182 ;
 		:has_agent id:AGE195 ;
 		rdfs:label "LEC301_LIG3_PUB12704182_AGE195"^^xsd:string .
 
@@ -434,7 +434,7 @@ interaction:LEC302_LIG10_PUB12704182_AGE197 rdf:type owl:NamedIndividual ,
 			:ReferencedInteraction ;
 		:has_lectin id:LEC302 ;
 		:has_ligand id:LIG10 ;
-		:has_pubmed id:PUB12704182 ;
+		:has_citation id:PUB12704182 ;
 		:has_agent id:AGE197 ;
 		rdfs:label "LEC302_LIG10_PUB12704182_AGE197"^^xsd:string .
 
@@ -442,7 +442,7 @@ interaction:LEC303_LIG2_PUB12704182_AGE197 rdf:type owl:NamedIndividual ,
 			:ReferencedInteraction ;
 		:has_lectin id:LEC303 ;
 		:has_ligand id:LIG2 ;
-		:has_pubmed id:PUB12704182 ;
+		:has_citation id:PUB12704182 ;
 		:has_agent id:AGE197 ;
 		rdfs:label "LEC303_LIG2_PUB12704182_AGE197"^^xsd:string .
 
@@ -450,7 +450,7 @@ interaction:LEC304_LIG26_PUB12704182_AGE197 rdf:type owl:NamedIndividual ,
 			:ReferencedInteraction ;
 		:has_lectin id:LEC304 ;
 		:has_ligand id:LIG26 ;
-		:has_pubmed id:PUB12704182 ;
+		:has_citation id:PUB12704182 ;
 		:has_agent id:AGE197 ;
 		rdfs:label "LEC304_LIG26_PUB12704182_AGE197"^^xsd:string .
 
@@ -458,7 +458,7 @@ interaction:LEC305_LIG3_PUB12704182_AGE197 rdf:type owl:NamedIndividual ,
 			:ReferencedInteraction ;
 		:has_lectin id:LEC305 ;
 		:has_ligand id:LIG3 ;
-		:has_pubmed id:PUB12704182 ;
+		:has_citation id:PUB12704182 ;
 		:has_agent id:AGE197 ;
 		rdfs:label "LEC305_LIG3_PUB12704182_AGE197"^^xsd:string .
 
@@ -466,7 +466,7 @@ interaction:LEC306_LIG10_PUB12704182_AGE199 rdf:type owl:NamedIndividual ,
 			:ReferencedInteraction ;
 		:has_lectin id:LEC306 ;
 		:has_ligand id:LIG10 ;
-		:has_pubmed id:PUB12704182 ;
+		:has_citation id:PUB12704182 ;
 		:has_agent id:AGE199 ;
 		rdfs:label "LEC306_LIG10_PUB12704182_AGE199"^^xsd:string .
 
@@ -474,7 +474,7 @@ interaction:LEC307_LIG2_PUB12704182_AGE199 rdf:type owl:NamedIndividual ,
 			:ReferencedInteraction ;
 		:has_lectin id:LEC307 ;
 		:has_ligand id:LIG2 ;
-		:has_pubmed id:PUB12704182 ;
+		:has_citation id:PUB12704182 ;
 		:has_agent id:AGE199 ;
 		rdfs:label "LEC307_LIG2_PUB12704182_AGE199"^^xsd:string .
 
@@ -482,7 +482,7 @@ interaction:LEC308_LIG26_PUB12704182_AGE199 rdf:type owl:NamedIndividual ,
 			:ReferencedInteraction ;
 		:has_lectin id:LEC308 ;
 		:has_ligand id:LIG26 ;
-		:has_pubmed id:PUB12704182 ;
+		:has_citation id:PUB12704182 ;
 		:has_agent id:AGE199 ;
 		rdfs:label "LEC308_LIG26_PUB12704182_AGE199"^^xsd:string .
 
@@ -490,7 +490,7 @@ interaction:LEC309_LIG3_PUB12704182_AGE199 rdf:type owl:NamedIndividual ,
 			:ReferencedInteraction ;
 		:has_lectin id:LEC309 ;
 		:has_ligand id:LIG3 ;
-		:has_pubmed id:PUB12704182 ;
+		:has_citation id:PUB12704182 ;
 		:has_agent id:AGE199 ;
 		rdfs:label "LEC309_LIG3_PUB12704182_AGE199"^^xsd:string .
 
@@ -498,7 +498,7 @@ interaction:LEC310_LIG10_PUB12704182_AGE201 rdf:type owl:NamedIndividual ,
 			:ReferencedInteraction ;
 		:has_lectin id:LEC310 ;
 		:has_ligand id:LIG10 ;
-		:has_pubmed id:PUB12704182 ;
+		:has_citation id:PUB12704182 ;
 		:has_agent id:AGE201 ;
 		rdfs:label "LEC310_LIG10_PUB12704182_AGE201"^^xsd:string .
 
@@ -506,7 +506,7 @@ interaction:LEC311_LIG2_PUB12704182_AGE201 rdf:type owl:NamedIndividual ,
 			:ReferencedInteraction ;
 		:has_lectin id:LEC311 ;
 		:has_ligand id:LIG2 ;
-		:has_pubmed id:PUB12704182 ;
+		:has_citation id:PUB12704182 ;
 		:has_agent id:AGE201 ;
 		rdfs:label "LEC311_LIG2_PUB12704182_AGE201"^^xsd:string .
 
@@ -514,7 +514,7 @@ interaction:LEC312_LIG26_PUB12704182_AGE201 rdf:type owl:NamedIndividual ,
 			:ReferencedInteraction ;
 		:has_lectin id:LEC312 ;
 		:has_ligand id:LIG26 ;
-		:has_pubmed id:PUB12704182 ;
+		:has_citation id:PUB12704182 ;
 		:has_agent id:AGE201 ;
 		rdfs:label "LEC312_LIG26_PUB12704182_AGE201"^^xsd:string .
 
@@ -522,7 +522,7 @@ interaction:LEC313_LIG3_PUB12704182_AGE201 rdf:type owl:NamedIndividual ,
 			:ReferencedInteraction ;
 		:has_lectin id:LEC313 ;
 		:has_ligand id:LIG3 ;
-		:has_pubmed id:PUB12704182 ;
+		:has_citation id:PUB12704182 ;
 		:has_agent id:AGE201 ;
 		rdfs:label "LEC313_LIG3_PUB12704182_AGE201"^^xsd:string .
 
@@ -530,7 +530,7 @@ interaction:LEC314_LIG10_PUB12704182_AGE202 rdf:type owl:NamedIndividual ,
 			:ReferencedInteraction ;
 		:has_lectin id:LEC314 ;
 		:has_ligand id:LIG10 ;
-		:has_pubmed id:PUB12704182 ;
+		:has_citation id:PUB12704182 ;
 		:has_agent id:AGE202 ;
 		rdfs:label "LEC314_LIG10_PUB12704182_AGE202"^^xsd:string .
 
@@ -538,7 +538,7 @@ interaction:LEC315_LIG2_PUB12704182_AGE202 rdf:type owl:NamedIndividual ,
 			:ReferencedInteraction ;
 		:has_lectin id:LEC315 ;
 		:has_ligand id:LIG2 ;
-		:has_pubmed id:PUB12704182 ;
+		:has_citation id:PUB12704182 ;
 		:has_agent id:AGE202 ;
 		rdfs:label "LEC315_LIG2_PUB12704182_AGE202"^^xsd:string .
 
@@ -546,7 +546,7 @@ interaction:LEC316_LIG26_PUB12704182_AGE202 rdf:type owl:NamedIndividual ,
 			:ReferencedInteraction ;
 		:has_lectin id:LEC316 ;
 		:has_ligand id:LIG26 ;
-		:has_pubmed id:PUB12704182 ;
+		:has_citation id:PUB12704182 ;
 		:has_agent id:AGE202 ;
 		rdfs:label "LEC316_LIG26_PUB12704182_AGE202"^^xsd:string .
 
@@ -554,7 +554,7 @@ interaction:LEC317_LIG3_PUB12704182_AGE202 rdf:type owl:NamedIndividual ,
 			:ReferencedInteraction ;
 		:has_lectin id:LEC317 ;
 		:has_ligand id:LIG3 ;
-		:has_pubmed id:PUB12704182 ;
+		:has_citation id:PUB12704182 ;
 		:has_agent id:AGE202 ;
 		rdfs:label "LEC317_LIG3_PUB12704182_AGE202"^^xsd:string .
 
@@ -562,7 +562,7 @@ interaction:LEC319_LIG10_PUB12704182_ARE24_AGE205 rdf:type owl:NamedIndividual ,
 			:ReferencedInteraction ;
 		:has_lectin id:LEC319 ;
 		:has_ligand id:LIG10 ;
-		:has_pubmed id:PUB12704182 ;
+		:has_citation id:PUB12704182 ;
 		:has_agent id:AGE205 ;
 		:has_area id:ARE24 ;
 		rdfs:label "LEC319_LIG10_PUB12704182_ARE24_AGE205"^^xsd:string .
@@ -571,7 +571,7 @@ interaction:LEC320_LIG2_PUB12704182_ARE24_AGE205 rdf:type owl:NamedIndividual ,
 			:ReferencedInteraction ;
 		:has_lectin id:LEC320 ;
 		:has_ligand id:LIG2 ;
-		:has_pubmed id:PUB12704182 ;
+		:has_citation id:PUB12704182 ;
 		:has_agent id:AGE205 ;
 		:has_area id:ARE24 ;
 		rdfs:label "LEC320_LIG2_PUB12704182_ARE24_AGE205"^^xsd:string .
@@ -580,7 +580,7 @@ interaction:LEC321_LIG26_PUB12704182_ARE24_AGE205 rdf:type owl:NamedIndividual ,
 			:ReferencedInteraction ;
 		:has_lectin id:LEC321 ;
 		:has_ligand id:LIG26 ;
-		:has_pubmed id:PUB12704182 ;
+		:has_citation id:PUB12704182 ;
 		:has_agent id:AGE205 ;
 		:has_area id:ARE24 ;
 		rdfs:label "LEC321_LIG26_PUB12704182_ARE24_AGE205"^^xsd:string .
@@ -589,7 +589,7 @@ interaction:LEC322_LIG3_PUB12704182_ARE24_AGE205 rdf:type owl:NamedIndividual ,
 			:ReferencedInteraction ;
 		:has_lectin id:LEC322 ;
 		:has_ligand id:LIG3 ;
-		:has_pubmed id:PUB12704182 ;
+		:has_citation id:PUB12704182 ;
 		:has_agent id:AGE205 ;
 		:has_area id:ARE24 ;
 		rdfs:label "LEC322_LIG3_PUB12704182_ARE24_AGE205"^^xsd:string .
@@ -598,7 +598,7 @@ interaction:LEC324_LIG108_PUB10569742_ARE24_AGE206 rdf:type owl:NamedIndividual 
 			:ReferencedInteraction ;
 		:has_lectin id:LEC324 ;
 		:has_ligand id:LIG108 ;
-		:has_pubmed id:PUB10569742 ;
+		:has_citation id:PUB10569742 ;
 		:has_agent id:AGE206 ;
 		:has_area id:ARE24 ;
 		rdfs:label "LEC324_LIG108_PUB10569742_ARE24_AGE206"^^xsd:string .
@@ -607,7 +607,7 @@ interaction:LEC325_LIG112_PUB12704182_ARE24_AGE206 rdf:type owl:NamedIndividual 
 			:ReferencedInteraction ;
 		:has_lectin id:LEC325 ;
 		:has_ligand id:LIG112 ;
-		:has_pubmed id:PUB12704182 ;
+		:has_citation id:PUB12704182 ;
 		:has_agent id:AGE206 ;
 		:has_area id:ARE24 ;
 		rdfs:label "LEC325_LIG112_PUB12704182_ARE24_AGE206"^^xsd:string .
@@ -616,7 +616,7 @@ interaction:LEC326_LIG10_PUB12704182_ARE24_AGE206 rdf:type owl:NamedIndividual ,
 			:ReferencedInteraction ;
 		:has_lectin id:LEC326 ;
 		:has_ligand id:LIG10 ;
-		:has_pubmed id:PUB12704182 ;
+		:has_citation id:PUB12704182 ;
 		:has_agent id:AGE206 ;
 		:has_area id:ARE24 ;
 		rdfs:label "LEC326_LIG10_PUB12704182_ARE24_AGE206"^^xsd:string .
@@ -625,7 +625,7 @@ interaction:LEC327_LIG2_PUB12704182_ARE24_AGE206 rdf:type owl:NamedIndividual ,
 			:ReferencedInteraction ;
 		:has_lectin id:LEC327 ;
 		:has_ligand id:LIG2 ;
-		:has_pubmed id:PUB12704182 ;
+		:has_citation id:PUB12704182 ;
 		:has_agent id:AGE206 ;
 		:has_area id:ARE24 ;
 		rdfs:label "LEC327_LIG2_PUB12704182_ARE24_AGE206"^^xsd:string .
@@ -634,7 +634,7 @@ interaction:LEC328_LIG26_PUB12704182_ARE24_AGE206 rdf:type owl:NamedIndividual ,
 			:ReferencedInteraction ;
 		:has_lectin id:LEC328 ;
 		:has_ligand id:LIG26 ;
-		:has_pubmed id:PUB12704182 ;
+		:has_citation id:PUB12704182 ;
 		:has_agent id:AGE206 ;
 		:has_area id:ARE24 ;
 		rdfs:label "LEC328_LIG26_PUB12704182_ARE24_AGE206"^^xsd:string .
@@ -643,7 +643,7 @@ interaction:LEC329_LIG3_PUB12704182_ARE24_AGE206 rdf:type owl:NamedIndividual ,
 			:ReferencedInteraction ;
 		:has_lectin id:LEC329 ;
 		:has_ligand id:LIG3 ;
-		:has_pubmed id:PUB12704182 ;
+		:has_citation id:PUB12704182 ;
 		:has_agent id:AGE206 ;
 		:has_area id:ARE24 ;
 		rdfs:label "LEC329_LIG3_PUB12704182_ARE24_AGE206"^^xsd:string .
@@ -652,7 +652,7 @@ interaction:LEC333_LIG39_PUB9169796_ARE24_AGE209 rdf:type owl:NamedIndividual ,
 			:ReferencedInteraction ;
 		:has_lectin id:LEC333 ;
 		:has_ligand id:LIG39 ;
-		:has_pubmed id:PUB9169796 ;
+		:has_citation id:PUB9169796 ;
 		:has_agent id:AGE209 ;
 		:has_area id:ARE24 ;
 		rdfs:label "LEC333_LIG39_PUB9169796_ARE24_AGE209"^^xsd:string .
@@ -661,7 +661,7 @@ interaction:LEC334_LIG108_PUB9169796_ARE24_AGE209 rdf:type owl:NamedIndividual ,
 			:ReferencedInteraction ;
 		:has_lectin id:LEC334 ;
 		:has_ligand id:LIG108 ;
-		:has_pubmed id:PUB9169796 ;
+		:has_citation id:PUB9169796 ;
 		:has_agent id:AGE209 ;
 		:has_area id:ARE24 ;
 		rdfs:label "LEC334_LIG108_PUB9169796_ARE24_AGE209"^^xsd:string .
@@ -670,7 +670,7 @@ interaction:LEC335_LIG109_PUB9169796_ARE24_AGE209 rdf:type owl:NamedIndividual ,
 			:ReferencedInteraction ;
 		:has_lectin id:LEC335 ;
 		:has_ligand id:LIG109 ;
-		:has_pubmed id:PUB9169796 ;
+		:has_citation id:PUB9169796 ;
 		:has_agent id:AGE209 ;
 		:has_area id:ARE24 ;
 		rdfs:label "LEC335_LIG109_PUB9169796_ARE24_AGE209"^^xsd:string .
@@ -679,7 +679,7 @@ interaction:LEC338_LIG114_PUB9499377_ARE24_AGE212 rdf:type owl:NamedIndividual ,
 			:ReferencedInteraction ;
 		:has_lectin id:LEC338 ;
 		:has_ligand id:LIG114 ;
-		:has_pubmed id:PUB9499377 ;
+		:has_citation id:PUB9499377 ;
 		:has_agent id:AGE212 ;
 		:has_area id:ARE24 ;
 		rdfs:label "LEC338_LIG114_PUB9499377_ARE24_AGE212"^^xsd:string .
@@ -688,7 +688,7 @@ interaction:LEC339_LIG10_PUB9499377_ARE24_AGE212 rdf:type owl:NamedIndividual ,
 			:ReferencedInteraction ;
 		:has_lectin id:LEC339 ;
 		:has_ligand id:LIG10 ;
-		:has_pubmed id:PUB9499377 ;
+		:has_citation id:PUB9499377 ;
 		:has_agent id:AGE212 ;
 		:has_area id:ARE24 ;
 		rdfs:label "LEC339_LIG10_PUB9499377_ARE24_AGE212"^^xsd:string .
@@ -697,7 +697,7 @@ interaction:LEC340_LIG2_PUB9499377_ARE24_AGE212 rdf:type owl:NamedIndividual ,
 			:ReferencedInteraction ;
 		:has_lectin id:LEC340 ;
 		:has_ligand id:LIG2 ;
-		:has_pubmed id:PUB9499377 ;
+		:has_citation id:PUB9499377 ;
 		:has_agent id:AGE212 ;
 		:has_area id:ARE24 ;
 		rdfs:label "LEC340_LIG2_PUB9499377_ARE24_AGE212"^^xsd:string .
@@ -706,7 +706,7 @@ interaction:LEC341_LIG3_PUB9499377_ARE24_AGE212 rdf:type owl:NamedIndividual ,
 			:ReferencedInteraction ;
 		:has_lectin id:LEC341 ;
 		:has_ligand id:LIG3 ;
-		:has_pubmed id:PUB9499377 ;
+		:has_citation id:PUB9499377 ;
 		:has_agent id:AGE212 ;
 		:has_area id:ARE24 ;
 		rdfs:label "LEC341_LIG3_PUB9499377_ARE24_AGE212"^^xsd:string .
@@ -715,7 +715,7 @@ interaction:LEC342_LIG4_PUB9499377_ARE24_AGE212 rdf:type owl:NamedIndividual ,
 			:ReferencedInteraction ;
 		:has_lectin id:LEC342 ;
 		:has_ligand id:LIG4 ;
-		:has_pubmed id:PUB9499377 ;
+		:has_citation id:PUB9499377 ;
 		:has_agent id:AGE212 ;
 		:has_area id:ARE24 ;
 		rdfs:label "LEC342_LIG4_PUB9499377_ARE24_AGE212"^^xsd:string .
@@ -724,7 +724,7 @@ interaction:LEC343_LIG115_PUB15659615_ARE24_AGE213 rdf:type owl:NamedIndividual 
 			:ReferencedInteraction ;
 		:has_lectin id:LEC343 ;
 		:has_ligand id:LIG115 ;
-		:has_pubmed id:PUB15659615 ;
+		:has_citation id:PUB15659615 ;
 		:has_agent id:AGE213 ;
 		:has_area id:ARE24 ;
 		rdfs:label "LEC343_LIG115_PUB15659615_ARE24_AGE213"^^xsd:string .
@@ -733,7 +733,7 @@ interaction:LEC344_LIG114_PUB9228091_ARE24_AGE214 rdf:type owl:NamedIndividual ,
 			:ReferencedInteraction ;
 		:has_lectin id:LEC344 ;
 		:has_ligand id:LIG114 ;
-		:has_pubmed id:PUB9228091 ;
+		:has_citation id:PUB9228091 ;
 		:has_agent id:AGE214 ;
 		:has_area id:ARE24 ;
 		rdfs:label "LEC344_LIG114_PUB9228091_ARE24_AGE214"^^xsd:string .
@@ -742,7 +742,7 @@ interaction:LEC345_LIG2_PUB9228091_ARE24_AGE214 rdf:type owl:NamedIndividual ,
 			:ReferencedInteraction ;
 		:has_lectin id:LEC345 ;
 		:has_ligand id:LIG2 ;
-		:has_pubmed id:PUB9228091 ;
+		:has_citation id:PUB9228091 ;
 		:has_agent id:AGE214 ;
 		:has_area id:ARE24 ;
 		rdfs:label "LEC345_LIG2_PUB9228091_ARE24_AGE214"^^xsd:string .
@@ -751,7 +751,7 @@ interaction:LEC346_LIG15_PUB9228091_ARE24_AGE214 rdf:type owl:NamedIndividual ,
 			:ReferencedInteraction ;
 		:has_lectin id:LEC346 ;
 		:has_ligand id:LIG15 ;
-		:has_pubmed id:PUB9228091 ;
+		:has_citation id:PUB9228091 ;
 		:has_agent id:AGE214 ;
 		:has_area id:ARE24 ;
 		rdfs:label "LEC346_LIG15_PUB9228091_ARE24_AGE214"^^xsd:string .
@@ -760,7 +760,7 @@ interaction:LEC347_LIG116_PUB9228091_ARE24_AGE214 rdf:type owl:NamedIndividual ,
 			:ReferencedInteraction ;
 		:has_lectin id:LEC347 ;
 		:has_ligand id:LIG116 ;
-		:has_pubmed id:PUB9228091 ;
+		:has_citation id:PUB9228091 ;
 		:has_agent id:AGE214 ;
 		:has_area id:ARE24 ;
 		rdfs:label "LEC347_LIG116_PUB9228091_ARE24_AGE214"^^xsd:string .
@@ -769,7 +769,7 @@ interaction:LEC348_LIG109_PUB9228091_ARE24_AGE214 rdf:type owl:NamedIndividual ,
 			:ReferencedInteraction ;
 		:has_lectin id:LEC348 ;
 		:has_ligand id:LIG109 ;
-		:has_pubmed id:PUB9228091 ;
+		:has_citation id:PUB9228091 ;
 		:has_agent id:AGE214 ;
 		:has_area id:ARE24 ;
 		rdfs:label "LEC348_LIG109_PUB9228091_ARE24_AGE214"^^xsd:string .
@@ -778,7 +778,7 @@ interaction:LEC349_LIG110_PUB9228091_ARE24_AGE214 rdf:type owl:NamedIndividual ,
 			:ReferencedInteraction ;
 		:has_lectin id:LEC349 ;
 		:has_ligand id:LIG110 ;
-		:has_pubmed id:PUB9228091 ;
+		:has_citation id:PUB9228091 ;
 		:has_agent id:AGE214 ;
 		:has_area id:ARE24 ;
 		rdfs:label "LEC349_LIG110_PUB9228091_ARE24_AGE214"^^xsd:string .
@@ -787,7 +787,7 @@ interaction:LEC350_LIG117_PUB9228091_ARE24_AGE214 rdf:type owl:NamedIndividual ,
 			:ReferencedInteraction ;
 		:has_lectin id:LEC350 ;
 		:has_ligand id:LIG117 ;
-		:has_pubmed id:PUB9228091 ;
+		:has_citation id:PUB9228091 ;
 		:has_agent id:AGE214 ;
 		:has_area id:ARE24 ;
 		rdfs:label "LEC350_LIG117_PUB9228091_ARE24_AGE214"^^xsd:string .
@@ -796,7 +796,7 @@ interaction:LEC351_LIG118_PUB9228091_ARE24_AGE214 rdf:type owl:NamedIndividual ,
 			:ReferencedInteraction ;
 		:has_lectin id:LEC351 ;
 		:has_ligand id:LIG118 ;
-		:has_pubmed id:PUB9228091 ;
+		:has_citation id:PUB9228091 ;
 		:has_agent id:AGE214 ;
 		:has_area id:ARE24 ;
 		rdfs:label "LEC351_LIG118_PUB9228091_ARE24_AGE214"^^xsd:string .
@@ -805,7 +805,7 @@ interaction:LEC352_LIG119_PUB9228091_ARE24_AGE214 rdf:type owl:NamedIndividual ,
 			:ReferencedInteraction ;
 		:has_lectin id:LEC352 ;
 		:has_ligand id:LIG119 ;
-		:has_pubmed id:PUB9228091 ;
+		:has_citation id:PUB9228091 ;
 		:has_agent id:AGE214 ;
 		:has_area id:ARE24 ;
 		rdfs:label "LEC352_LIG119_PUB9228091_ARE24_AGE214"^^xsd:string .
@@ -814,7 +814,7 @@ interaction:LEC353_LIG71_PUB2459065_ARE24_AGE215 rdf:type owl:NamedIndividual ,
 			:ReferencedInteraction ;
 		:has_lectin id:LEC353 ;
 		:has_ligand id:LIG71 ;
-		:has_pubmed id:PUB2459065 ;
+		:has_citation id:PUB2459065 ;
 		:has_agent id:AGE215 ;
 		:has_area id:ARE24 ;
 		rdfs:label "LEC353_LIG71_PUB2459065_ARE24_AGE215"^^xsd:string .
@@ -823,7 +823,7 @@ interaction:LEC354_LIG66_PUB10406842_ARE24_AGE216 rdf:type owl:NamedIndividual ,
 			:ReferencedInteraction ;
 		:has_lectin id:LEC354 ;
 		:has_ligand id:LIG66 ;
-		:has_pubmed id:PUB10406842 ;
+		:has_citation id:PUB10406842 ;
 		:has_agent id:AGE216 ;
 		:has_area id:ARE24 ;
 		rdfs:label "LEC354_LIG66_PUB10406842_ARE24_AGE216"^^xsd:string .
@@ -848,7 +848,7 @@ interaction:LEC357_LIG3_PUB2194958_ARE3_AGE220 rdf:type owl:NamedIndividual ,
 			:ReferencedInteraction ;
 		:has_lectin id:LEC357 ;
 		:has_ligand id:LIG3 ;
-		:has_pubmed id:PUB2194958 ;
+		:has_citation id:PUB2194958 ;
 		:has_agent id:AGE220 ;
 		:has_area id:ARE3 ;
 		rdfs:label "LEC357_LIG3_PUB2194958_ARE3_AGE220"^^xsd:string .
@@ -857,7 +857,7 @@ interaction:LEC358_LIG3_PUB2194958_ARE3_AGE221 rdf:type owl:NamedIndividual ,
 			:ReferencedInteraction ;
 		:has_lectin id:LEC358 ;
 		:has_ligand id:LIG3 ;
-		:has_pubmed id:PUB2194958 ;
+		:has_citation id:PUB2194958 ;
 		:has_agent id:AGE221 ;
 		:has_area id:ARE3 ;
 		rdfs:label "LEC358_LIG3_PUB2194958_ARE3_AGE221"^^xsd:string .
@@ -866,7 +866,7 @@ interaction:LEC361_LIG35_PUB9261399_ARE3_AGE225 rdf:type owl:NamedIndividual ,
 			:ReferencedInteraction ;
 		:has_lectin id:LEC361 ;
 		:has_ligand id:LIG35 ;
-		:has_pubmed id:PUB9261399 ;
+		:has_citation id:PUB9261399 ;
 		:has_agent id:AGE225 ;
 		:has_area id:ARE3 ;
 		rdfs:label "LEC361_LIG35_PUB9261399_ARE3_AGE225"^^xsd:string .
@@ -875,7 +875,7 @@ interaction:LEC362_LIG66_PUB8806582_ARE3_AGE225 rdf:type owl:NamedIndividual ,
 			:ReferencedInteraction ;
 		:has_lectin id:LEC362 ;
 		:has_ligand id:LIG66 ;
-		:has_pubmed id:PUB8806582 ;
+		:has_citation id:PUB8806582 ;
 		:has_agent id:AGE225 ;
 		:has_area id:ARE3 ;
 		rdfs:label "LEC362_LIG66_PUB8806582_ARE3_AGE225"^^xsd:string .
@@ -884,7 +884,7 @@ interaction:LEC363_LIG12_PUB7594654_ARE3_AGE225 rdf:type owl:NamedIndividual ,
 			:ReferencedInteraction ;
 		:has_lectin id:LEC363 ;
 		:has_ligand id:LIG12 ;
-		:has_pubmed id:PUB7594654 ;
+		:has_citation id:PUB7594654 ;
 		:has_agent id:AGE225 ;
 		:has_area id:ARE3 ;
 		rdfs:label "LEC363_LIG12_PUB7594654_ARE3_AGE225"^^xsd:string .
@@ -893,7 +893,7 @@ interaction:LEC364_LIG15_PUB7594654_ARE3_AGE225 rdf:type owl:NamedIndividual ,
 			:ReferencedInteraction ;
 		:has_lectin id:LEC364 ;
 		:has_ligand id:LIG15 ;
-		:has_pubmed id:PUB7594654 ;
+		:has_citation id:PUB7594654 ;
 		:has_agent id:AGE225 ;
 		:has_area id:ARE3 ;
 		rdfs:label "LEC364_LIG15_PUB7594654_ARE3_AGE225"^^xsd:string .
@@ -902,7 +902,7 @@ interaction:LEC365_LIG18_PUB7594654_ARE3_AGE225 rdf:type owl:NamedIndividual ,
 			:ReferencedInteraction ;
 		:has_lectin id:LEC365 ;
 		:has_ligand id:LIG18 ;
-		:has_pubmed id:PUB7594654 ;
+		:has_citation id:PUB7594654 ;
 		:has_agent id:AGE225 ;
 		:has_area id:ARE3 ;
 		rdfs:label "LEC365_LIG18_PUB7594654_ARE3_AGE225"^^xsd:string .
@@ -911,7 +911,7 @@ interaction:LEC366_LIG121_PUB7594654_ARE3_AGE225 rdf:type owl:NamedIndividual ,
 			:ReferencedInteraction ;
 		:has_lectin id:LEC366 ;
 		:has_ligand id:LIG121 ;
-		:has_pubmed id:PUB7594654 ;
+		:has_citation id:PUB7594654 ;
 		:has_agent id:AGE225 ;
 		:has_area id:ARE3 ;
 		rdfs:label "LEC366_LIG121_PUB7594654_ARE3_AGE225"^^xsd:string .
@@ -920,7 +920,7 @@ interaction:LEC367_LIG98_PUB7870741_ARE3_AGE227 rdf:type owl:NamedIndividual ,
 			:ReferencedInteraction ;
 		:has_lectin id:LEC367 ;
 		:has_ligand id:LIG98 ;
-		:has_pubmed id:PUB7870741 ;
+		:has_citation id:PUB7870741 ;
 		:has_agent id:AGE227 ;
 		:has_area id:ARE3 ;
 		rdfs:label "LEC367_LIG98_PUB7870741_ARE3_AGE227"^^xsd:string .
@@ -929,7 +929,7 @@ interaction:LEC368_LIG108_PUB7870741_ARE3_AGE227 rdf:type owl:NamedIndividual ,
 			:ReferencedInteraction ;
 		:has_lectin id:LEC368 ;
 		:has_ligand id:LIG108 ;
-		:has_pubmed id:PUB7870741 ;
+		:has_citation id:PUB7870741 ;
 		:has_agent id:AGE227 ;
 		:has_area id:ARE3 ;
 		rdfs:label "LEC368_LIG108_PUB7870741_ARE3_AGE227"^^xsd:string .
@@ -938,7 +938,7 @@ interaction:LEC369_LIG122_PUB7870741_ARE3_AGE227 rdf:type owl:NamedIndividual ,
 			:ReferencedInteraction ;
 		:has_lectin id:LEC369 ;
 		:has_ligand id:LIG122 ;
-		:has_pubmed id:PUB7870741 ;
+		:has_citation id:PUB7870741 ;
 		:has_agent id:AGE227 ;
 		:has_area id:ARE3 ;
 		rdfs:label "LEC369_LIG122_PUB7870741_ARE3_AGE227"^^xsd:string .
@@ -947,7 +947,7 @@ interaction:LEC370_LIG123_PUB7870741_ARE3_AGE227 rdf:type owl:NamedIndividual ,
 			:ReferencedInteraction ;
 		:has_lectin id:LEC370 ;
 		:has_ligand id:LIG123 ;
-		:has_pubmed id:PUB7870741 ;
+		:has_citation id:PUB7870741 ;
 		:has_agent id:AGE227 ;
 		:has_area id:ARE3 ;
 		rdfs:label "LEC370_LIG123_PUB7870741_ARE3_AGE227"^^xsd:string .
@@ -956,7 +956,7 @@ interaction:LEC373_LIG95_PUB7870741_ARE3_AGE230 rdf:type owl:NamedIndividual ,
 			:ReferencedInteraction ;
 		:has_lectin id:LEC373 ;
 		:has_ligand id:LIG95 ;
-		:has_pubmed id:PUB7870741 ;
+		:has_citation id:PUB7870741 ;
 		:has_agent id:AGE230 ;
 		:has_area id:ARE3 ;
 		rdfs:label "LEC373_LIG95_PUB7870741_ARE3_AGE230"^^xsd:string .
@@ -965,7 +965,7 @@ interaction:LEC376_LIG126_PUB11030743_ARE3_AGE236 rdf:type owl:NamedIndividual ,
 			:ReferencedInteraction ;
 		:has_lectin id:LEC376 ;
 		:has_ligand id:LIG126 ;
-		:has_pubmed id:PUB11030743 ;
+		:has_citation id:PUB11030743 ;
 		:has_agent id:AGE236 ;
 		:has_area id:ARE3 ;
 		rdfs:label "LEC376_LIG126_PUB11030743_ARE3_AGE236"^^xsd:string .
@@ -974,7 +974,7 @@ interaction:LEC377_LIG132_PUB9201232_ARE3_AGE236 rdf:type owl:NamedIndividual ,
 			:ReferencedInteraction ;
 		:has_lectin id:LEC377 ;
 		:has_ligand id:LIG132 ;
-		:has_pubmed id:PUB9201232 ;
+		:has_citation id:PUB9201232 ;
 		:has_agent id:AGE236 ;
 		:has_area id:ARE3 ;
 		rdfs:label "LEC377_LIG132_PUB9201232_ARE3_AGE236"^^xsd:string .
@@ -983,7 +983,7 @@ interaction:LEC378_LIG126_PUB9201232_ARE3_AGE237 rdf:type owl:NamedIndividual ,
 			:ReferencedInteraction ;
 		:has_lectin id:LEC378 ;
 		:has_ligand id:LIG126 ;
-		:has_pubmed id:PUB9201232 ;
+		:has_citation id:PUB9201232 ;
 		:has_agent id:AGE237 ;
 		:has_area id:ARE3 ;
 		rdfs:label "LEC378_LIG126_PUB9201232_ARE3_AGE237"^^xsd:string .
@@ -992,7 +992,7 @@ interaction:LEC379_LIG39_PUB11030743_ARE3_AGE238 rdf:type owl:NamedIndividual ,
 			:ReferencedInteraction ;
 		:has_lectin id:LEC379 ;
 		:has_ligand id:LIG39 ;
-		:has_pubmed id:PUB11030743 ;
+		:has_citation id:PUB11030743 ;
 		:has_agent id:AGE238 ;
 		:has_area id:ARE3 ;
 		rdfs:label "LEC379_LIG39_PUB11030743_ARE3_AGE238"^^xsd:string .
@@ -1001,7 +1001,7 @@ interaction:LEC380_LIG22_PUB7870741_ARE3_AGE239 rdf:type owl:NamedIndividual ,
 			:ReferencedInteraction ;
 		:has_lectin id:LEC380 ;
 		:has_ligand id:LIG22 ;
-		:has_pubmed id:PUB7870741 ;
+		:has_citation id:PUB7870741 ;
 		:has_agent id:AGE239 ;
 		:has_area id:ARE3 ;
 		rdfs:label "LEC380_LIG22_PUB7870741_ARE3_AGE239"^^xsd:string .
@@ -1010,7 +1010,7 @@ interaction:LEC381_LIG28_PUB7870741_ARE3_AGE239 rdf:type owl:NamedIndividual ,
 			:ReferencedInteraction ;
 		:has_lectin id:LEC381 ;
 		:has_ligand id:LIG28 ;
-		:has_pubmed id:PUB7870741 ;
+		:has_citation id:PUB7870741 ;
 		:has_agent id:AGE239 ;
 		:has_area id:ARE3 ;
 		rdfs:label "LEC381_LIG28_PUB7870741_ARE3_AGE239"^^xsd:string .
@@ -1019,7 +1019,7 @@ interaction:LEC382_LIG133_PUB7870741_ARE3_AGE239 rdf:type owl:NamedIndividual ,
 			:ReferencedInteraction ;
 		:has_lectin id:LEC382 ;
 		:has_ligand id:LIG133 ;
-		:has_pubmed id:PUB7870741 ;
+		:has_citation id:PUB7870741 ;
 		:has_agent id:AGE239 ;
 		:has_area id:ARE3 ;
 		rdfs:label "LEC382_LIG133_PUB7870741_ARE3_AGE239"^^xsd:string .
@@ -1028,7 +1028,7 @@ interaction:LEC383_LIG71_PUB7870741_ARE3_AGE239 rdf:type owl:NamedIndividual ,
 			:ReferencedInteraction ;
 		:has_lectin id:LEC383 ;
 		:has_ligand id:LIG71 ;
-		:has_pubmed id:PUB7870741 ;
+		:has_citation id:PUB7870741 ;
 		:has_agent id:AGE239 ;
 		:has_area id:ARE3 ;
 		rdfs:label "LEC383_LIG71_PUB7870741_ARE3_AGE239"^^xsd:string .
@@ -1037,7 +1037,7 @@ interaction:LEC384_LIG109_PUB7870741_ARE3_AGE239 rdf:type owl:NamedIndividual ,
 			:ReferencedInteraction ;
 		:has_lectin id:LEC384 ;
 		:has_ligand id:LIG109 ;
-		:has_pubmed id:PUB7870741 ;
+		:has_citation id:PUB7870741 ;
 		:has_agent id:AGE239 ;
 		:has_area id:ARE3 ;
 		rdfs:label "LEC384_LIG109_PUB7870741_ARE3_AGE239"^^xsd:string .
@@ -1046,7 +1046,7 @@ interaction:LEC385_LIG111_PUB7870741_ARE3_AGE239 rdf:type owl:NamedIndividual ,
 			:ReferencedInteraction ;
 		:has_lectin id:LEC385 ;
 		:has_ligand id:LIG111 ;
-		:has_pubmed id:PUB7870741 ;
+		:has_citation id:PUB7870741 ;
 		:has_agent id:AGE239 ;
 		:has_area id:ARE3 ;
 		rdfs:label "LEC385_LIG111_PUB7870741_ARE3_AGE239"^^xsd:string .
@@ -1055,7 +1055,7 @@ interaction:LEC386_LIG39_PUB7975212_ARE3_AGE240 rdf:type owl:NamedIndividual ,
 			:ReferencedInteraction ;
 		:has_lectin id:LEC386 ;
 		:has_ligand id:LIG39 ;
-		:has_pubmed id:PUB7975212 ;
+		:has_citation id:PUB7975212 ;
 		:has_agent id:AGE240 ;
 		:has_area id:ARE3 ;
 		rdfs:label "LEC386_LIG39_PUB7975212_ARE3_AGE240"^^xsd:string .
@@ -1064,7 +1064,7 @@ interaction:LEC387_LIG126_PUB7975212_ARE3_AGE240 rdf:type owl:NamedIndividual ,
 			:ReferencedInteraction ;
 		:has_lectin id:LEC387 ;
 		:has_ligand id:LIG126 ;
-		:has_pubmed id:PUB7975212 ;
+		:has_citation id:PUB7975212 ;
 		:has_agent id:AGE240 ;
 		:has_area id:ARE3 ;
 		rdfs:label "LEC387_LIG126_PUB7975212_ARE3_AGE240"^^xsd:string .
@@ -1073,7 +1073,7 @@ interaction:LEC388_LIG39_PUB9201232_ARE3_AGE241 rdf:type owl:NamedIndividual ,
 			:ReferencedInteraction ;
 		:has_lectin id:LEC388 ;
 		:has_ligand id:LIG39 ;
-		:has_pubmed id:PUB9201232 ;
+		:has_citation id:PUB9201232 ;
 		:has_agent id:AGE241 ;
 		:has_area id:ARE3 ;
 		rdfs:label "LEC388_LIG39_PUB9201232_ARE3_AGE241"^^xsd:string .
@@ -1082,7 +1082,7 @@ interaction:LEC403_LIG135_PUB2476569_ARE3_AGE262 rdf:type owl:NamedIndividual ,
 			:ReferencedInteraction ;
 		:has_lectin id:LEC403 ;
 		:has_ligand id:LIG135 ;
-		:has_pubmed id:PUB2476569 ;
+		:has_citation id:PUB2476569 ;
 		:has_agent id:AGE262 ;
 		:has_area id:ARE3 ;
 		rdfs:label "LEC403_LIG135_PUB2476569_ARE3_AGE262"^^xsd:string .
@@ -1091,7 +1091,7 @@ interaction:LEC404_LIG22_PUB2476569_ARE3_AGE262 rdf:type owl:NamedIndividual ,
 			:ReferencedInteraction ;
 		:has_lectin id:LEC404 ;
 		:has_ligand id:LIG22 ;
-		:has_pubmed id:PUB2476569 ;
+		:has_citation id:PUB2476569 ;
 		:has_agent id:AGE262 ;
 		:has_area id:ARE3 ;
 		rdfs:label "LEC404_LIG22_PUB2476569_ARE3_AGE262"^^xsd:string .
@@ -1100,7 +1100,7 @@ interaction:LEC405_LIG71_PUB2476569_ARE3_AGE262 rdf:type owl:NamedIndividual ,
 			:ReferencedInteraction ;
 		:has_lectin id:LEC405 ;
 		:has_ligand id:LIG71 ;
-		:has_pubmed id:PUB2476569 ;
+		:has_citation id:PUB2476569 ;
 		:has_agent id:AGE262 ;
 		:has_area id:ARE3 ;
 		rdfs:label "LEC405_LIG71_PUB2476569_ARE3_AGE262"^^xsd:string .
@@ -1109,7 +1109,7 @@ interaction:LEC406_LIG108_PUB2476569_ARE3_AGE262 rdf:type owl:NamedIndividual ,
 			:ReferencedInteraction ;
 		:has_lectin id:LEC406 ;
 		:has_ligand id:LIG108 ;
-		:has_pubmed id:PUB2476569 ;
+		:has_citation id:PUB2476569 ;
 		:has_agent id:AGE262 ;
 		:has_area id:ARE3 ;
 		rdfs:label "LEC406_LIG108_PUB2476569_ARE3_AGE262"^^xsd:string .
@@ -1118,7 +1118,7 @@ interaction:LEC407_LIG109_PUB2476569_ARE3_AGE262 rdf:type owl:NamedIndividual ,
 			:ReferencedInteraction ;
 		:has_lectin id:LEC407 ;
 		:has_ligand id:LIG109 ;
-		:has_pubmed id:PUB2476569 ;
+		:has_citation id:PUB2476569 ;
 		:has_agent id:AGE262 ;
 		:has_area id:ARE3 ;
 		rdfs:label "LEC407_LIG109_PUB2476569_ARE3_AGE262"^^xsd:string .
@@ -1127,7 +1127,7 @@ interaction:LEC408_LIG123_PUB2476569_ARE3_AGE262 rdf:type owl:NamedIndividual ,
 			:ReferencedInteraction ;
 		:has_lectin id:LEC408 ;
 		:has_ligand id:LIG123 ;
-		:has_pubmed id:PUB2476569 ;
+		:has_citation id:PUB2476569 ;
 		:has_agent id:AGE262 ;
 		:has_area id:ARE3 ;
 		rdfs:label "LEC408_LIG123_PUB2476569_ARE3_AGE262"^^xsd:string .
@@ -1136,7 +1136,7 @@ interaction:LEC419_LIG39_PUB9882316_ARE3_AGE275 rdf:type owl:NamedIndividual ,
 			:ReferencedInteraction ;
 		:has_lectin id:LEC419 ;
 		:has_ligand id:LIG39 ;
-		:has_pubmed id:PUB9882316 ;
+		:has_citation id:PUB9882316 ;
 		:has_agent id:AGE275 ;
 		:has_area id:ARE3 ;
 		rdfs:label "LEC419_LIG39_PUB9882316_ARE3_AGE275"^^xsd:string .
@@ -1145,7 +1145,7 @@ interaction:LEC477_LIG76_PUB10954551_ARE3_AGE344 rdf:type owl:NamedIndividual ,
 			:ReferencedInteraction ;
 		:has_lectin id:LEC477 ;
 		:has_ligand id:LIG76 ;
-		:has_pubmed id:PUB10954551 ;
+		:has_citation id:PUB10954551 ;
 		:has_agent id:AGE344 ;
 		:has_area id:ARE3 ;
 		rdfs:label "LEC477_LIG76_PUB10954551_ARE3_AGE344"^^xsd:string .
@@ -1154,7 +1154,7 @@ interaction:LEC478_LIG76_PUB10954551_ARE3_AGE345 rdf:type owl:NamedIndividual ,
 			:ReferencedInteraction ;
 		:has_lectin id:LEC478 ;
 		:has_ligand id:LIG76 ;
-		:has_pubmed id:PUB10954551 ;
+		:has_citation id:PUB10954551 ;
 		:has_agent id:AGE345 ;
 		:has_area id:ARE3 ;
 		rdfs:label "LEC478_LIG76_PUB10954551_ARE3_AGE345"^^xsd:string .
@@ -1163,7 +1163,7 @@ interaction:LEC479_LIG25_PUB3413084_ARE3_AGE348 rdf:type owl:NamedIndividual ,
 			:ReferencedInteraction ;
 		:has_lectin id:LEC479 ;
 		:has_ligand id:LIG25 ;
-		:has_pubmed id:PUB3413084 ;
+		:has_citation id:PUB3413084 ;
 		:has_agent id:AGE348 ;
 		:has_area id:ARE3 ;
 		rdfs:label "LEC479_LIG25_PUB3413084_ARE3_AGE348"^^xsd:string .
@@ -1172,7 +1172,7 @@ interaction:LEC480_LIG44_PUB2885220_ARE3_AGE349 rdf:type owl:NamedIndividual ,
 			:ReferencedInteraction ;
 		:has_lectin id:LEC480 ;
 		:has_ligand id:LIG44 ;
-		:has_pubmed id:PUB2885220 ;
+		:has_citation id:PUB2885220 ;
 		:has_agent id:AGE349 ;
 		:has_area id:ARE3 ;
 		rdfs:label "LEC480_LIG44_PUB2885220_ARE3_AGE349"^^xsd:string .
@@ -1181,7 +1181,7 @@ interaction:LEC481_LIG2_PUB3413084_ARE3_AGE350 rdf:type owl:NamedIndividual ,
 			:ReferencedInteraction ;
 		:has_lectin id:LEC481 ;
 		:has_ligand id:LIG2 ;
-		:has_pubmed id:PUB3413084 ;
+		:has_citation id:PUB3413084 ;
 		:has_agent id:AGE350 ;
 		:has_area id:ARE3 ;
 		rdfs:label "LEC481_LIG2_PUB3413084_ARE3_AGE350"^^xsd:string .
@@ -1190,7 +1190,7 @@ interaction:LEC482_LIG4_PUB3413084_ARE3_AGE350 rdf:type owl:NamedIndividual ,
 			:ReferencedInteraction ;
 		:has_lectin id:LEC482 ;
 		:has_ligand id:LIG4 ;
-		:has_pubmed id:PUB3413084 ;
+		:has_citation id:PUB3413084 ;
 		:has_agent id:AGE350 ;
 		:has_area id:ARE3 ;
 		rdfs:label "LEC482_LIG4_PUB3413084_ARE3_AGE350"^^xsd:string .
@@ -1207,7 +1207,7 @@ interaction:LEC485_LIG27_PUB8912650_AGE355 rdf:type owl:NamedIndividual ,
 			:ReferencedInteraction ;
 		:has_lectin id:LEC485 ;
 		:has_ligand id:LIG27 ;
-		:has_pubmed id:PUB8912650 ;
+		:has_citation id:PUB8912650 ;
 		:has_agent id:AGE355 ;
 		rdfs:label "LEC485_LIG27_PUB8912650_AGE355"^^xsd:string .
 
@@ -1215,7 +1215,7 @@ interaction:LEC486_LIG1_PUB8912650_AGE355 rdf:type owl:NamedIndividual ,
 			:ReferencedInteraction ;
 		:has_lectin id:LEC486 ;
 		:has_ligand id:LIG1 ;
-		:has_pubmed id:PUB8912650 ;
+		:has_citation id:PUB8912650 ;
 		:has_agent id:AGE355 ;
 		rdfs:label "LEC486_LIG1_PUB8912650_AGE355"^^xsd:string .
 
@@ -1223,7 +1223,7 @@ interaction:LEC487_LIG2_PUB8912650_AGE355 rdf:type owl:NamedIndividual ,
 			:ReferencedInteraction ;
 		:has_lectin id:LEC487 ;
 		:has_ligand id:LIG2 ;
-		:has_pubmed id:PUB8912650 ;
+		:has_citation id:PUB8912650 ;
 		:has_agent id:AGE355 ;
 		rdfs:label "LEC487_LIG2_PUB8912650_AGE355"^^xsd:string .
 
@@ -1231,7 +1231,7 @@ interaction:LEC488_LIG3_PUB8912650_AGE355 rdf:type owl:NamedIndividual ,
 			:ReferencedInteraction ;
 		:has_lectin id:LEC488 ;
 		:has_ligand id:LIG3 ;
-		:has_pubmed id:PUB8912650 ;
+		:has_citation id:PUB8912650 ;
 		:has_agent id:AGE355 ;
 		rdfs:label "LEC488_LIG3_PUB8912650_AGE355"^^xsd:string .
 
@@ -1239,7 +1239,7 @@ interaction:LEC489_LIG15_PUB8912650_AGE355 rdf:type owl:NamedIndividual ,
 			:ReferencedInteraction ;
 		:has_lectin id:LEC489 ;
 		:has_ligand id:LIG15 ;
-		:has_pubmed id:PUB8912650 ;
+		:has_citation id:PUB8912650 ;
 		:has_agent id:AGE355 ;
 		rdfs:label "LEC489_LIG15_PUB8912650_AGE355"^^xsd:string .
 
@@ -1247,7 +1247,7 @@ interaction:LEC490_LIG5_PUB8912650_AGE355 rdf:type owl:NamedIndividual ,
 			:ReferencedInteraction ;
 		:has_lectin id:LEC490 ;
 		:has_ligand id:LIG5 ;
-		:has_pubmed id:PUB8912650 ;
+		:has_citation id:PUB8912650 ;
 		:has_agent id:AGE355 ;
 		rdfs:label "LEC490_LIG5_PUB8912650_AGE355"^^xsd:string .
 
@@ -1255,7 +1255,7 @@ interaction:LEC491_LIG10_PUB11087711_AGE357 rdf:type owl:NamedIndividual ,
 			:ReferencedInteraction ;
 		:has_lectin id:LEC491 ;
 		:has_ligand id:LIG10 ;
-		:has_pubmed id:PUB11087711 ;
+		:has_citation id:PUB11087711 ;
 		:has_agent id:AGE357 ;
 		rdfs:label "LEC491_LIG10_PUB11087711_AGE357"^^xsd:string .
 
@@ -1263,7 +1263,7 @@ interaction:LEC492_LIG2_PUB11087711_AGE357 rdf:type owl:NamedIndividual ,
 			:ReferencedInteraction ;
 		:has_lectin id:LEC492 ;
 		:has_ligand id:LIG2 ;
-		:has_pubmed id:PUB11087711 ;
+		:has_citation id:PUB11087711 ;
 		:has_agent id:AGE357 ;
 		rdfs:label "LEC492_LIG2_PUB11087711_AGE357"^^xsd:string .
 
@@ -1271,7 +1271,7 @@ interaction:LEC493_LIG2_PUB11087711_AGE357 rdf:type owl:NamedIndividual ,
 			:ReferencedInteraction ;
 		:has_lectin id:LEC493 ;
 		:has_ligand id:LIG2 ;
-		:has_pubmed id:PUB11087711 ;
+		:has_citation id:PUB11087711 ;
 		:has_agent id:AGE357 ;
 		rdfs:label "LEC493_LIG2_PUB11087711_AGE357"^^xsd:string .
 
@@ -1279,7 +1279,7 @@ interaction:LEC494_LIG26_PUB11087711_AGE357 rdf:type owl:NamedIndividual ,
 			:ReferencedInteraction ;
 		:has_lectin id:LEC494 ;
 		:has_ligand id:LIG26 ;
-		:has_pubmed id:PUB11087711 ;
+		:has_citation id:PUB11087711 ;
 		:has_agent id:AGE357 ;
 		rdfs:label "LEC494_LIG26_PUB11087711_AGE357"^^xsd:string .
 
@@ -1287,7 +1287,7 @@ interaction:LEC495_LIG3_PUB11087711_AGE357 rdf:type owl:NamedIndividual ,
 			:ReferencedInteraction ;
 		:has_lectin id:LEC495 ;
 		:has_ligand id:LIG3 ;
-		:has_pubmed id:PUB11087711 ;
+		:has_citation id:PUB11087711 ;
 		:has_agent id:AGE357 ;
 		rdfs:label "LEC495_LIG3_PUB11087711_AGE357"^^xsd:string .
 
@@ -1295,7 +1295,7 @@ interaction:LEC496_LIG15_PUB11087711_AGE357 rdf:type owl:NamedIndividual ,
 			:ReferencedInteraction ;
 		:has_lectin id:LEC496 ;
 		:has_ligand id:LIG15 ;
-		:has_pubmed id:PUB11087711 ;
+		:has_citation id:PUB11087711 ;
 		:has_agent id:AGE357 ;
 		rdfs:label "LEC496_LIG15_PUB11087711_AGE357"^^xsd:string .
 
@@ -1303,7 +1303,7 @@ interaction:LEC497_LIG84_PUB11087711_AGE357 rdf:type owl:NamedIndividual ,
 			:ReferencedInteraction ;
 		:has_lectin id:LEC497 ;
 		:has_ligand id:LIG84 ;
-		:has_pubmed id:PUB11087711 ;
+		:has_citation id:PUB11087711 ;
 		:has_agent id:AGE357 ;
 		rdfs:label "LEC497_LIG84_PUB11087711_AGE357"^^xsd:string .
 
@@ -1311,7 +1311,7 @@ interaction:LEC498_LIG4_PUB11087711_AGE357 rdf:type owl:NamedIndividual ,
 			:ReferencedInteraction ;
 		:has_lectin id:LEC498 ;
 		:has_ligand id:LIG4 ;
-		:has_pubmed id:PUB11087711 ;
+		:has_citation id:PUB11087711 ;
 		:has_agent id:AGE357 ;
 		rdfs:label "LEC498_LIG4_PUB11087711_AGE357"^^xsd:string .
 
@@ -1319,7 +1319,7 @@ interaction:LEC499_LIG117_PUB11087711_AGE357 rdf:type owl:NamedIndividual ,
 			:ReferencedInteraction ;
 		:has_lectin id:LEC499 ;
 		:has_ligand id:LIG117 ;
-		:has_pubmed id:PUB11087711 ;
+		:has_citation id:PUB11087711 ;
 		:has_agent id:AGE357 ;
 		rdfs:label "LEC499_LIG117_PUB11087711_AGE357"^^xsd:string .
 
@@ -1327,7 +1327,7 @@ interaction:LEC500_LIG2_PUB14687561_ARE3_AGE360 rdf:type owl:NamedIndividual ,
 			:ReferencedInteraction ;
 		:has_lectin id:LEC500 ;
 		:has_ligand id:LIG2 ;
-		:has_pubmed id:PUB14687561 ;
+		:has_citation id:PUB14687561 ;
 		:has_agent id:AGE360 ;
 		:has_area id:ARE3 ;
 		rdfs:label "LEC500_LIG2_PUB14687561_ARE3_AGE360"^^xsd:string .

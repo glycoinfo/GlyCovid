@@ -6,7 +6,7 @@ import pandas as pd
 import sys
 
 link_header = 'https://sugarbind.expasy.org'
-PREFIX = '@prefix : <http://rdf.glycoinfo.org/SugarBind/Ontology#> .\n\
+PREFIX = '@prefix : <http://rdf.glycoinfo.org/SugarBind/ontology#> .\n\
 @prefix interaction: <http://rdf.glycoinfo.org/ontology/interaction#> .\n\
 @prefix id: <http://rdf.glycoinfo.org/SugarBind/Id/> .\n\
 @prefix owl: <http://www.w3.org/2002/07/owl#> .\n\
@@ -433,7 +433,7 @@ def ttl_ReferenceInteraction():
             for index2, item2 in filtered_pubmed.iterrows():
                 document += f'id:PUB{item2["Pubmed ID"]} ,\n\t\t\t'                          # add pubmed URI to document
             document = document[:-5] + ';\n'
-            file.write('\t\t:has_pubmed ')
+            file.write('\t\t:has_citation ')
             file.write(document)
         # agent
         if len(filtered_agent) > 0:                                                                                         # if agent exists in filtered data frame
@@ -615,7 +615,7 @@ def ttl_disease():
         filtered_disease_agent = df_disease_agent.loc[df_disease_agent['Disease ID'] == index]
         filtered_disease_area = df_disease_area.loc[df_disease_area['Disease ID'] == index]
         if len(filtered_disease_agent) > 0 or len(filtered_disease_area) > 0:
-            text = f'''id:DIS{ index } rdf:type owl:NamedIndividual ,\n\t\t\tobo:NCIT_C2991 ,\n\t\t\t:Disease ;\n'''
+            text = f'''id:DIS{ index } rdf:type owl:NamedIndividual ,\n\t\t\tobo:NCIT_C2991 ,\n\t\t\tobo:DOID_4 ;\n'''
             if len(filtered_disease_agent) == 1:                                                                            # if the number related to disease is 1 or not
                 for ind, item in filtered_disease_agent.iterrows():
                     text += f"""\t\t:caused_by id:AGE{ str(item['Agent ID']) } ;\n"""         # inserting

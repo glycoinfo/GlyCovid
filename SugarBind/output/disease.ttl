@@ -1,4 +1,4 @@
-@prefix : <http://rdf.glycoinfo.org/SugarBind/Ontology#> .
+@prefix : <http://rdf.glycoinfo.org/SugarBind/ontology#> .
 @prefix interaction: <http://rdf.glycoinfo.org/ontology/interaction#> .
 @prefix id: <http://rdf.glycoinfo.org/SugarBind/Id/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
@@ -22,7 +22,7 @@
 
 id:DIS1 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C2991 ,
-			:Disease ;
+			obo:DOID_4 ;
 		:caused_by id:AGE399 ,
 			id:AGE461 ,
 			id:AGE115 ,
@@ -71,7 +71,7 @@ id:DIS1 rdf:type owl:NamedIndividual ,
 
 id:DIS2 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C2991 ,
-			:Disease ;
+			obo:DOID_4 ;
 		:caused_by id:AGE3 ,
 			id:AGE4 ;
 		:caused_at id:ARE2 ;
@@ -80,7 +80,7 @@ id:DIS2 rdf:type owl:NamedIndividual ,
 
 id:DIS3 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C2991 ,
-			:Disease ;
+			obo:DOID_4 ;
 		:caused_by id:AGE3 ,
 			id:AGE4 ;
 		:caused_at id:ARE2 ;
@@ -89,7 +89,7 @@ id:DIS3 rdf:type owl:NamedIndividual ,
 
 id:DIS4 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C2991 ,
-			:Disease ;
+			obo:DOID_4 ;
 		:caused_by id:AGE9 ,
 			id:AGE11 ,
 			id:AGE8 ,
@@ -106,7 +106,7 @@ id:DIS4 rdf:type owl:NamedIndividual ,
 
 id:DIS5 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C2991 ,
-			:Disease ;
+			obo:DOID_4 ;
 		:caused_by id:AGE488 ,
 			id:AGE12 ;
 		:caused_at id:ARE10 ,
@@ -117,7 +117,7 @@ id:DIS5 rdf:type owl:NamedIndividual ,
 
 id:DIS6 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C2991 ,
-			:Disease ;
+			obo:DOID_4 ;
 		:caused_by id:AGE18 ,
 			id:AGE19 ,
 			id:AGE21 ;
@@ -127,7 +127,7 @@ id:DIS6 rdf:type owl:NamedIndividual ,
 
 id:DIS7 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C2991 ,
-			:Disease ;
+			obo:DOID_4 ;
 		:caused_by id:AGE24 ;
 		:caused_at id:ARE3 ;
 		rdfs:label "Lyme disease"^^xsd:string ;
@@ -135,7 +135,7 @@ id:DIS7 rdf:type owl:NamedIndividual ,
 
 id:DIS8 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C2991 ,
-			:Disease ;
+			obo:DOID_4 ;
 		:caused_by id:AGE34 ,
 			id:AGE30 ,
 			id:AGE33 ,
@@ -147,7 +147,7 @@ id:DIS8 rdf:type owl:NamedIndividual ,
 
 id:DIS9 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C2991 ,
-			:Disease ;
+			obo:DOID_4 ;
 		:caused_by id:AGE38 ,
 			id:AGE40 ,
 			id:AGE39 ,
@@ -159,7 +159,7 @@ id:DIS9 rdf:type owl:NamedIndividual ,
 
 id:DIS10 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C2991 ,
-			:Disease ;
+			obo:DOID_4 ;
 		:caused_by id:AGE52 ,
 			id:AGE53 ,
 			id:AGE54 ,
@@ -170,7 +170,7 @@ id:DIS10 rdf:type owl:NamedIndividual ,
 
 id:DIS11 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C2991 ,
-			:Disease ;
+			obo:DOID_4 ;
 		:caused_by id:AGE58 ;
 		:caused_at id:ARE3 ;
 		rdfs:label "Taiwan acute respiratory agent"^^xsd:string ;
@@ -178,7 +178,7 @@ id:DIS11 rdf:type owl:NamedIndividual ,
 
 id:DIS12 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C2991 ,
-			:Disease ;
+			obo:DOID_4 ;
 		:caused_by id:AGE60 ;
 		:caused_at id:ARE3 ;
 		rdfs:label "Trachoma"^^xsd:string ;
@@ -186,7 +186,7 @@ id:DIS12 rdf:type owl:NamedIndividual ,
 
 id:DIS13 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C2991 ,
-			:Disease ;
+			obo:DOID_4 ;
 		:caused_by id:AGE76 ,
 			id:AGE74 ,
 			id:AGE72 ,
@@ -208,7 +208,7 @@ id:DIS13 rdf:type owl:NamedIndividual ,
 
 id:DIS14 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C2991 ,
-			:Disease ;
+			obo:DOID_4 ;
 		:caused_by id:AGE84 ,
 			id:AGE61 ;
 		:caused_at id:ARE19 ,
@@ -218,7 +218,7 @@ id:DIS14 rdf:type owl:NamedIndividual ,
 
 id:DIS15 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C2991 ,
-			:Disease ;
+			obo:DOID_4 ;
 		:caused_by id:AGE95 ,
 			id:AGE91 ,
 			id:AGE61 ,
@@ -231,7 +231,7 @@ id:DIS15 rdf:type owl:NamedIndividual ,
 
 id:DIS16 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C2991 ,
-			:Disease ;
+			obo:DOID_4 ;
 		:caused_by id:AGE101 ,
 			id:AGE102 ,
 			id:AGE103 ,
@@ -242,7 +242,7 @@ id:DIS16 rdf:type owl:NamedIndividual ,
 
 id:DIS17 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C2991 ,
-			:Disease ;
+			obo:DOID_4 ;
 		:caused_by id:AGE107 ,
 			id:AGE109 ,
 			id:AGE108 ;
@@ -252,7 +252,7 @@ id:DIS17 rdf:type owl:NamedIndividual ,
 
 id:DIS18 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C2991 ,
-			:Disease ;
+			obo:DOID_4 ;
 		:caused_by id:AGE117 ,
 			id:AGE116 ;
 		:caused_at id:ARE22 ;
@@ -261,7 +261,7 @@ id:DIS18 rdf:type owl:NamedIndividual ,
 
 id:DIS19 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C2991 ,
-			:Disease ;
+			obo:DOID_4 ;
 		:caused_by id:AGE119 ;
 		:caused_at id:ARE3 ;
 		rdfs:label "Hemorrhagic colitis"^^xsd:string ;
@@ -269,7 +269,7 @@ id:DIS19 rdf:type owl:NamedIndividual ,
 
 id:DIS20 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C2991 ,
-			:Disease ;
+			obo:DOID_4 ;
 		:caused_by id:AGE121 ,
 			id:AGE130 ,
 			id:AGE123 ,
@@ -290,7 +290,7 @@ id:DIS20 rdf:type owl:NamedIndividual ,
 
 id:DIS21 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C2991 ,
-			:Disease ;
+			obo:DOID_4 ;
 		:caused_by id:AGE152 ;
 		:caused_at id:ARE3 ,
 			id:ARE22 ;
@@ -299,7 +299,7 @@ id:DIS21 rdf:type owl:NamedIndividual ,
 
 id:DIS22 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C2991 ,
-			:Disease ;
+			obo:DOID_4 ;
 		:caused_by id:AGE180 ;
 		:caused_at id:ARE3 ;
 		rdfs:label "Vincent's angina"^^xsd:string ;
@@ -307,7 +307,7 @@ id:DIS22 rdf:type owl:NamedIndividual ,
 
 id:DIS23 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C2991 ,
-			:Disease ;
+			obo:DOID_4 ;
 		:caused_by id:AGE210 ,
 			id:AGE209 ,
 			id:AGE216 ,
@@ -328,7 +328,7 @@ id:DIS23 rdf:type owl:NamedIndividual ,
 
 id:DIS24 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C2991 ,
-			:Disease ;
+			obo:DOID_4 ;
 		:caused_by id:AGE210 ,
 			id:AGE208 ,
 			id:AGE204 ,
@@ -349,7 +349,7 @@ id:DIS24 rdf:type owl:NamedIndividual ,
 
 id:DIS25 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C2991 ,
-			:Disease ;
+			obo:DOID_4 ;
 		:caused_by id:AGE206 ,
 			id:AGE205 ,
 			id:AGE204 ,
@@ -370,7 +370,7 @@ id:DIS25 rdf:type owl:NamedIndividual ,
 
 id:DIS26 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C2991 ,
-			:Disease ;
+			obo:DOID_4 ;
 		:caused_by id:AGE220 ,
 			id:AGE221 ;
 		:caused_at id:ARE3 ;
@@ -379,7 +379,7 @@ id:DIS26 rdf:type owl:NamedIndividual ,
 
 id:DIS27 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C2991 ,
-			:Disease ;
+			obo:DOID_4 ;
 		:caused_by id:AGE322 ,
 			id:AGE327 ,
 			id:AGE329 ,
@@ -488,7 +488,7 @@ id:DIS27 rdf:type owl:NamedIndividual ,
 
 id:DIS28 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C2991 ,
-			:Disease ;
+			obo:DOID_4 ;
 		:caused_by id:AGE351 ,
 			id:AGE350 ,
 			id:AGE349 ,
@@ -499,7 +499,7 @@ id:DIS28 rdf:type owl:NamedIndividual ,
 
 id:DIS29 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C2991 ,
-			:Disease ;
+			obo:DOID_4 ;
 		:caused_by id:AGE360 ,
 			id:AGE361 ;
 		:caused_at id:ARE3 ;
@@ -508,7 +508,7 @@ id:DIS29 rdf:type owl:NamedIndividual ,
 
 id:DIS30 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C2991 ,
-			:Disease ;
+			obo:DOID_4 ;
 		:caused_by id:AGE361 ,
 			id:AGE360 ;
 		:caused_at id:ARE3 ;
@@ -517,7 +517,7 @@ id:DIS30 rdf:type owl:NamedIndividual ,
 
 id:DIS31 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C2991 ,
-			:Disease ;
+			obo:DOID_4 ;
 		:caused_by id:AGE366 ;
 		:caused_at id:ARE3 ;
 		rdfs:label "Chronic respiratory disease"^^xsd:string ;
@@ -525,7 +525,7 @@ id:DIS31 rdf:type owl:NamedIndividual ,
 
 id:DIS32 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C2991 ,
-			:Disease ;
+			obo:DOID_4 ;
 		:caused_by id:AGE369 ,
 			id:AGE368 ;
 		:caused_at id:ARE3 ;
@@ -534,7 +534,7 @@ id:DIS32 rdf:type owl:NamedIndividual ,
 
 id:DIS33 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C2991 ,
-			:Disease ;
+			obo:DOID_4 ;
 		:caused_by id:AGE369 ,
 			id:AGE368 ;
 		:caused_at id:ARE3 ;
@@ -543,7 +543,7 @@ id:DIS33 rdf:type owl:NamedIndividual ,
 
 id:DIS34 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C2991 ,
-			:Disease ;
+			obo:DOID_4 ;
 		:caused_by id:AGE381 ,
 			id:AGE378 ,
 			id:AGE379 ,
@@ -561,7 +561,7 @@ id:DIS34 rdf:type owl:NamedIndividual ,
 
 id:DIS35 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C2991 ,
-			:Disease ;
+			obo:DOID_4 ;
 		:caused_by id:AGE558 ,
 			id:AGE560 ,
 			id:AGE441 ,
@@ -592,7 +592,7 @@ id:DIS35 rdf:type owl:NamedIndividual ,
 
 id:DIS36 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C2991 ,
-			:Disease ;
+			obo:DOID_4 ;
 		:caused_by id:AGE409 ,
 			id:AGE410 ,
 			id:AGE411 ;
@@ -602,7 +602,7 @@ id:DIS36 rdf:type owl:NamedIndividual ,
 
 id:DIS37 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C2991 ,
-			:Disease ;
+			obo:DOID_4 ;
 		:caused_by id:AGE467 ;
 		:caused_at id:ARE3 ;
 		rdfs:label "Shigellosis"^^xsd:string ;
@@ -610,7 +610,7 @@ id:DIS37 rdf:type owl:NamedIndividual ,
 
 id:DIS38 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C2991 ,
-			:Disease ;
+			obo:DOID_4 ;
 		:caused_by id:AGE473 ,
 			id:AGE472 ;
 		:caused_at id:ARE3 ;
@@ -619,7 +619,7 @@ id:DIS38 rdf:type owl:NamedIndividual ,
 
 id:DIS39 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C2991 ,
-			:Disease ;
+			obo:DOID_4 ;
 		:caused_by id:AGE516 ,
 			id:AGE515 ,
 			id:AGE514 ;
@@ -630,7 +630,7 @@ id:DIS39 rdf:type owl:NamedIndividual ,
 
 id:DIS40 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C2991 ,
-			:Disease ;
+			obo:DOID_4 ;
 		:caused_by id:AGE519 ;
 		:caused_at id:ARE3 ;
 		rdfs:label "Chagas disease"^^xsd:string ;
@@ -638,7 +638,7 @@ id:DIS40 rdf:type owl:NamedIndividual ,
 
 id:DIS41 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C2991 ,
-			:Disease ;
+			obo:DOID_4 ;
 		:caused_by id:AGE524 ,
 			id:AGE523 ,
 			id:AGE536 ,
@@ -655,7 +655,7 @@ id:DIS41 rdf:type owl:NamedIndividual ,
 
 id:DIS42 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C2991 ,
-			:Disease ;
+			obo:DOID_4 ;
 		:caused_by id:AGE546 ;
 		:caused_at id:ARE3 ;
 		rdfs:label "Plague"^^xsd:string ;
@@ -663,7 +663,7 @@ id:DIS42 rdf:type owl:NamedIndividual ,
 
 id:DIS43 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C2991 ,
-			:Disease ;
+			obo:DOID_4 ;
 		:caused_by id:AGE151 ;
 		:caused_at id:ARE4 ;
 		rdfs:label "Diarrhea"^^xsd:string ;
@@ -671,7 +671,7 @@ id:DIS43 rdf:type owl:NamedIndividual ,
 
 id:DIS44 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C2991 ,
-			:Disease ;
+			obo:DOID_4 ;
 		:caused_by id:AGE548 ;
 		:caused_at id:ARE1 ;
 		rdfs:label "Lung infection"^^xsd:string ;
@@ -679,7 +679,7 @@ id:DIS44 rdf:type owl:NamedIndividual ,
 
 id:DIS46 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C2991 ,
-			:Disease ;
+			obo:DOID_4 ;
 		:caused_by id:AGE223 ,
 			id:AGE222 ,
 			id:AGE224 ;
@@ -689,7 +689,7 @@ id:DIS46 rdf:type owl:NamedIndividual ,
 
 id:DIS47 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C2991 ,
-			:Disease ;
+			obo:DOID_4 ;
 		:caused_by id:AGE564 ;
 		:caused_at id:ARE3 ;
 		rdfs:label "Keratoconjunctivitis"^^xsd:string ;
