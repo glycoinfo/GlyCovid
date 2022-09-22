@@ -537,7 +537,7 @@ def ttl_structure():
     file.write('#######################################################\n\n')
     for index, item in df_structure.iterrows():
         # file.write(f'<https://sugarbind.expasy.org/structures/{item["Structure ID"]}> rdf:type owl:NamedIndividual ,\n\t\t\t:Structure ;\n\t\t:glytoucanId glycoinfo:{item["Glytoucan ID"]} ;\n\t\t:structureId "{item["Structure link"]}"^^xsd:anyURI ;\n\t\trdfs:label "{item["Structure ID"]}"^^xsd:string .\n\n')
-        file.write(f'''id:STR{item["Structure ID"]} rdf:type owl:NamedIndividual ,\n\t\t\tobo:NCIT_C41186 ,\n\t\t\t:Structure ;\n\t\t:glytoucanId glycoinfo:{item["Glytoucan ID"]} ;\n\t\tfoaf:homepage <{item["Structure link"]}> ;\n\t\tdcterms:references <{item["Structure link"]}> ;\n\t\trdfs:label "{item["Structure ID"]}"^^xsd:string .\n\n''')
+        file.write(f'''id:STR{item["Structure ID"]} rdf:type owl:NamedIndividual ,\n\t\t\tobo:NCIT_C41186 ,\n\t\t\tglycoinfo:Compound ;\n\t\t:glytoucanId glycoinfo:{item["Glytoucan ID"]} ;\n\t\tfoaf:homepage <{item["Structure link"]}> ;\n\t\tdcterms:references <{item["Structure link"]}> ;\n\t\trdfs:label "{item["Structure ID"]}"^^xsd:string .\n\n''')
                                                                                                                             # inserting ttl content
     file.close()
 

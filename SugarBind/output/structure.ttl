@@ -22,7 +22,7 @@
 
 id:STR1 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C41186 ,
-			:Structure ;
+			glycoinfo:Compound ;
 		:glytoucanId glycoinfo:G65889KE ;
 		foaf:homepage <https://sugarbind.expasy.org/structures/1> ;
 		dcterms:references <https://sugarbind.expasy.org/structures/1> ;
@@ -30,7 +30,7 @@ id:STR1 rdf:type owl:NamedIndividual ,
 
 id:STR2 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C41186 ,
-			:Structure ;
+			glycoinfo:Compound ;
 		:glytoucanId glycoinfo:G21856LC ;
 		foaf:homepage <https://sugarbind.expasy.org/structures/2> ;
 		dcterms:references <https://sugarbind.expasy.org/structures/2> ;
@@ -38,7 +38,7 @@ id:STR2 rdf:type owl:NamedIndividual ,
 
 id:STR3 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C41186 ,
-			:Structure ;
+			glycoinfo:Compound ;
 		:glytoucanId glycoinfo:G84224TW ;
 		foaf:homepage <https://sugarbind.expasy.org/structures/3> ;
 		dcterms:references <https://sugarbind.expasy.org/structures/3> ;
@@ -46,7 +46,7 @@ id:STR3 rdf:type owl:NamedIndividual ,
 
 id:STR4 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C41186 ,
-			:Structure ;
+			glycoinfo:Compound ;
 		:glytoucanId glycoinfo:G90562PB ;
 		foaf:homepage <https://sugarbind.expasy.org/structures/4> ;
 		dcterms:references <https://sugarbind.expasy.org/structures/4> ;
@@ -54,7 +54,7 @@ id:STR4 rdf:type owl:NamedIndividual ,
 
 id:STR5 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C41186 ,
-			:Structure ;
+			glycoinfo:Compound ;
 		:glytoucanId glycoinfo:G71142DF ;
 		foaf:homepage <https://sugarbind.expasy.org/structures/5> ;
 		dcterms:references <https://sugarbind.expasy.org/structures/5> ;
@@ -62,7 +62,7 @@ id:STR5 rdf:type owl:NamedIndividual ,
 
 id:STR6 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C41186 ,
-			:Structure ;
+			glycoinfo:Compound ;
 		:glytoucanId glycoinfo:G74621DY ;
 		foaf:homepage <https://sugarbind.expasy.org/structures/6> ;
 		dcterms:references <https://sugarbind.expasy.org/structures/6> ;
@@ -70,7 +70,7 @@ id:STR6 rdf:type owl:NamedIndividual ,
 
 id:STR7 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C41186 ,
-			:Structure ;
+			glycoinfo:Compound ;
 		:glytoucanId glycoinfo:G68158BT ;
 		foaf:homepage <https://sugarbind.expasy.org/structures/7> ;
 		dcterms:references <https://sugarbind.expasy.org/structures/7> ;
@@ -78,7 +78,7 @@ id:STR7 rdf:type owl:NamedIndividual ,
 
 id:STR8 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C41186 ,
-			:Structure ;
+			glycoinfo:Compound ;
 		:glytoucanId glycoinfo:G78436BB ;
 		foaf:homepage <https://sugarbind.expasy.org/structures/8> ;
 		dcterms:references <https://sugarbind.expasy.org/structures/8> ;
@@ -86,7 +86,7 @@ id:STR8 rdf:type owl:NamedIndividual ,
 
 id:STR8 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C41186 ,
-			:Structure ;
+			glycoinfo:Compound ;
 		:glytoucanId glycoinfo:G78436BB ;
 		foaf:homepage <https://sugarbind.expasy.org/structures/8> ;
 		dcterms:references <https://sugarbind.expasy.org/structures/8> ;
@@ -94,7 +94,7 @@ id:STR8 rdf:type owl:NamedIndividual ,
 
 id:STR8 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C41186 ,
-			:Structure ;
+			glycoinfo:Compound ;
 		:glytoucanId glycoinfo:G78436BB ;
 		foaf:homepage <https://sugarbind.expasy.org/structures/8> ;
 		dcterms:references <https://sugarbind.expasy.org/structures/8> ;
@@ -102,7 +102,7 @@ id:STR8 rdf:type owl:NamedIndividual ,
 
 id:STR9 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C41186 ,
-			:Structure ;
+			glycoinfo:Compound ;
 		:glytoucanId glycoinfo:G61418DU ;
 		foaf:homepage <https://sugarbind.expasy.org/structures/9> ;
 		dcterms:references <https://sugarbind.expasy.org/structures/9> ;
@@ -110,7 +110,7 @@ id:STR9 rdf:type owl:NamedIndividual ,
 
 id:STR10 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C41186 ,
-			:Structure ;
+			glycoinfo:Compound ;
 		:glytoucanId glycoinfo:G78074HX ;
 		foaf:homepage <https://sugarbind.expasy.org/structures/10> ;
 		dcterms:references <https://sugarbind.expasy.org/structures/10> ;
@@ -118,7 +118,7 @@ id:STR10 rdf:type owl:NamedIndividual ,
 
 id:STR11 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C41186 ,
-			:Structure ;
+			glycoinfo:Compound ;
 		:glytoucanId glycoinfo:G54721WC ;
 		foaf:homepage <https://sugarbind.expasy.org/structures/11> ;
 		dcterms:references <https://sugarbind.expasy.org/structures/11> ;
@@ -126,7 +126,7 @@ id:STR11 rdf:type owl:NamedIndividual ,
 
 id:STR12 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C41186 ,
-			:Structure ;
+			glycoinfo:Compound ;
 		:glytoucanId glycoinfo:G99053DY ;
 		foaf:homepage <https://sugarbind.expasy.org/structures/12> ;
 		dcterms:references <https://sugarbind.expasy.org/structures/12> ;
@@ -134,7 +134,7 @@ id:STR12 rdf:type owl:NamedIndividual ,
 
 id:STR13 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C41186 ,
-			:Structure ;
+			glycoinfo:Compound ;
 		:glytoucanId glycoinfo:G48558GR ;
 		foaf:homepage <https://sugarbind.expasy.org/structures/13> ;
 		dcterms:references <https://sugarbind.expasy.org/structures/13> ;
@@ -142,7 +142,7 @@ id:STR13 rdf:type owl:NamedIndividual ,
 
 id:STR14 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C41186 ,
-			:Structure ;
+			glycoinfo:Compound ;
 		:glytoucanId glycoinfo:G37184KW ;
 		foaf:homepage <https://sugarbind.expasy.org/structures/14> ;
 		dcterms:references <https://sugarbind.expasy.org/structures/14> ;
@@ -150,7 +150,7 @@ id:STR14 rdf:type owl:NamedIndividual ,
 
 id:STR15 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C41186 ,
-			:Structure ;
+			glycoinfo:Compound ;
 		:glytoucanId glycoinfo:G58896AZ ;
 		foaf:homepage <https://sugarbind.expasy.org/structures/15> ;
 		dcterms:references <https://sugarbind.expasy.org/structures/15> ;
@@ -158,7 +158,7 @@ id:STR15 rdf:type owl:NamedIndividual ,
 
 id:STR17 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C41186 ,
-			:Structure ;
+			glycoinfo:Compound ;
 		:glytoucanId glycoinfo:G57710SU ;
 		foaf:homepage <https://sugarbind.expasy.org/structures/17> ;
 		dcterms:references <https://sugarbind.expasy.org/structures/17> ;
@@ -166,7 +166,7 @@ id:STR17 rdf:type owl:NamedIndividual ,
 
 id:STR18 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C41186 ,
-			:Structure ;
+			glycoinfo:Compound ;
 		:glytoucanId glycoinfo:G00061MO ;
 		foaf:homepage <https://sugarbind.expasy.org/structures/18> ;
 		dcterms:references <https://sugarbind.expasy.org/structures/18> ;
@@ -174,7 +174,7 @@ id:STR18 rdf:type owl:NamedIndividual ,
 
 id:STR19 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C41186 ,
-			:Structure ;
+			glycoinfo:Compound ;
 		:glytoucanId glycoinfo:G51699SI ;
 		foaf:homepage <https://sugarbind.expasy.org/structures/19> ;
 		dcterms:references <https://sugarbind.expasy.org/structures/19> ;
@@ -182,7 +182,7 @@ id:STR19 rdf:type owl:NamedIndividual ,
 
 id:STR20 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C41186 ,
-			:Structure ;
+			glycoinfo:Compound ;
 		:glytoucanId glycoinfo:G06239NA ;
 		foaf:homepage <https://sugarbind.expasy.org/structures/20> ;
 		dcterms:references <https://sugarbind.expasy.org/structures/20> ;
@@ -190,7 +190,7 @@ id:STR20 rdf:type owl:NamedIndividual ,
 
 id:STR21 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C41186 ,
-			:Structure ;
+			glycoinfo:Compound ;
 		:glytoucanId glycoinfo:G87315SO ;
 		foaf:homepage <https://sugarbind.expasy.org/structures/21> ;
 		dcterms:references <https://sugarbind.expasy.org/structures/21> ;
@@ -198,7 +198,7 @@ id:STR21 rdf:type owl:NamedIndividual ,
 
 id:STR22 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C41186 ,
-			:Structure ;
+			glycoinfo:Compound ;
 		:glytoucanId glycoinfo:G46677TE ;
 		foaf:homepage <https://sugarbind.expasy.org/structures/22> ;
 		dcterms:references <https://sugarbind.expasy.org/structures/22> ;
@@ -206,7 +206,7 @@ id:STR22 rdf:type owl:NamedIndividual ,
 
 id:STR23 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C41186 ,
-			:Structure ;
+			glycoinfo:Compound ;
 		:glytoucanId glycoinfo:G60859DF ;
 		foaf:homepage <https://sugarbind.expasy.org/structures/23> ;
 		dcterms:references <https://sugarbind.expasy.org/structures/23> ;
@@ -214,7 +214,7 @@ id:STR23 rdf:type owl:NamedIndividual ,
 
 id:STR24 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C41186 ,
-			:Structure ;
+			glycoinfo:Compound ;
 		:glytoucanId glycoinfo:G00049MO ;
 		foaf:homepage <https://sugarbind.expasy.org/structures/24> ;
 		dcterms:references <https://sugarbind.expasy.org/structures/24> ;
@@ -222,7 +222,7 @@ id:STR24 rdf:type owl:NamedIndividual ,
 
 id:STR25 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C41186 ,
-			:Structure ;
+			glycoinfo:Compound ;
 		:glytoucanId glycoinfo:G00059MO ;
 		foaf:homepage <https://sugarbind.expasy.org/structures/25> ;
 		dcterms:references <https://sugarbind.expasy.org/structures/25> ;
@@ -230,7 +230,7 @@ id:STR25 rdf:type owl:NamedIndividual ,
 
 id:STR26 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C41186 ,
-			:Structure ;
+			glycoinfo:Compound ;
 		:glytoucanId glycoinfo:G40183QN ;
 		foaf:homepage <https://sugarbind.expasy.org/structures/26> ;
 		dcterms:references <https://sugarbind.expasy.org/structures/26> ;
@@ -238,7 +238,7 @@ id:STR26 rdf:type owl:NamedIndividual ,
 
 id:STR27 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C41186 ,
-			:Structure ;
+			glycoinfo:Compound ;
 		:glytoucanId glycoinfo:G04616ST ;
 		foaf:homepage <https://sugarbind.expasy.org/structures/27> ;
 		dcterms:references <https://sugarbind.expasy.org/structures/27> ;
@@ -246,7 +246,7 @@ id:STR27 rdf:type owl:NamedIndividual ,
 
 id:STR27 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C41186 ,
-			:Structure ;
+			glycoinfo:Compound ;
 		:glytoucanId glycoinfo:G04616ST ;
 		foaf:homepage <https://sugarbind.expasy.org/structures/27> ;
 		dcterms:references <https://sugarbind.expasy.org/structures/27> ;
@@ -254,7 +254,7 @@ id:STR27 rdf:type owl:NamedIndividual ,
 
 id:STR28 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C41186 ,
-			:Structure ;
+			glycoinfo:Compound ;
 		:glytoucanId glycoinfo:G51331BY ;
 		foaf:homepage <https://sugarbind.expasy.org/structures/28> ;
 		dcterms:references <https://sugarbind.expasy.org/structures/28> ;
@@ -262,7 +262,7 @@ id:STR28 rdf:type owl:NamedIndividual ,
 
 id:STR29 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C41186 ,
-			:Structure ;
+			glycoinfo:Compound ;
 		:glytoucanId glycoinfo:G62763GO ;
 		foaf:homepage <https://sugarbind.expasy.org/structures/29> ;
 		dcterms:references <https://sugarbind.expasy.org/structures/29> ;
@@ -270,7 +270,7 @@ id:STR29 rdf:type owl:NamedIndividual ,
 
 id:STR30 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C41186 ,
-			:Structure ;
+			glycoinfo:Compound ;
 		:glytoucanId glycoinfo:G67988RO ;
 		foaf:homepage <https://sugarbind.expasy.org/structures/30> ;
 		dcterms:references <https://sugarbind.expasy.org/structures/30> ;
@@ -278,7 +278,7 @@ id:STR30 rdf:type owl:NamedIndividual ,
 
 id:STR30 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C41186 ,
-			:Structure ;
+			glycoinfo:Compound ;
 		:glytoucanId glycoinfo:G67988RO ;
 		foaf:homepage <https://sugarbind.expasy.org/structures/30> ;
 		dcterms:references <https://sugarbind.expasy.org/structures/30> ;
@@ -286,7 +286,7 @@ id:STR30 rdf:type owl:NamedIndividual ,
 
 id:STR31 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C41186 ,
-			:Structure ;
+			glycoinfo:Compound ;
 		:glytoucanId glycoinfo:G20624LQ ;
 		foaf:homepage <https://sugarbind.expasy.org/structures/31> ;
 		dcterms:references <https://sugarbind.expasy.org/structures/31> ;
@@ -294,7 +294,7 @@ id:STR31 rdf:type owl:NamedIndividual ,
 
 id:STR32 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C41186 ,
-			:Structure ;
+			glycoinfo:Compound ;
 		:glytoucanId glycoinfo:G39064VB ;
 		foaf:homepage <https://sugarbind.expasy.org/structures/32> ;
 		dcterms:references <https://sugarbind.expasy.org/structures/32> ;
@@ -302,7 +302,7 @@ id:STR32 rdf:type owl:NamedIndividual ,
 
 id:STR33 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C41186 ,
-			:Structure ;
+			glycoinfo:Compound ;
 		:glytoucanId glycoinfo:G81533KY ;
 		foaf:homepage <https://sugarbind.expasy.org/structures/33> ;
 		dcterms:references <https://sugarbind.expasy.org/structures/33> ;
@@ -310,7 +310,7 @@ id:STR33 rdf:type owl:NamedIndividual ,
 
 id:STR34 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C41186 ,
-			:Structure ;
+			glycoinfo:Compound ;
 		:glytoucanId glycoinfo:G27025MB ;
 		foaf:homepage <https://sugarbind.expasy.org/structures/34> ;
 		dcterms:references <https://sugarbind.expasy.org/structures/34> ;
@@ -318,7 +318,7 @@ id:STR34 rdf:type owl:NamedIndividual ,
 
 id:STR35 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C41186 ,
-			:Structure ;
+			glycoinfo:Compound ;
 		:glytoucanId glycoinfo:G91237TK ;
 		foaf:homepage <https://sugarbind.expasy.org/structures/35> ;
 		dcterms:references <https://sugarbind.expasy.org/structures/35> ;
@@ -326,7 +326,7 @@ id:STR35 rdf:type owl:NamedIndividual ,
 
 id:STR35 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C41186 ,
-			:Structure ;
+			glycoinfo:Compound ;
 		:glytoucanId glycoinfo:G91237TK ;
 		foaf:homepage <https://sugarbind.expasy.org/structures/35> ;
 		dcterms:references <https://sugarbind.expasy.org/structures/35> ;
@@ -334,7 +334,7 @@ id:STR35 rdf:type owl:NamedIndividual ,
 
 id:STR36 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C41186 ,
-			:Structure ;
+			glycoinfo:Compound ;
 		:glytoucanId glycoinfo:G18625KA ;
 		foaf:homepage <https://sugarbind.expasy.org/structures/36> ;
 		dcterms:references <https://sugarbind.expasy.org/structures/36> ;
@@ -342,7 +342,7 @@ id:STR36 rdf:type owl:NamedIndividual ,
 
 id:STR37 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C41186 ,
-			:Structure ;
+			glycoinfo:Compound ;
 		:glytoucanId glycoinfo:G77824XV ;
 		foaf:homepage <https://sugarbind.expasy.org/structures/37> ;
 		dcterms:references <https://sugarbind.expasy.org/structures/37> ;
@@ -350,7 +350,7 @@ id:STR37 rdf:type owl:NamedIndividual ,
 
 id:STR38 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C41186 ,
-			:Structure ;
+			glycoinfo:Compound ;
 		:glytoucanId glycoinfo:G03499BP ;
 		foaf:homepage <https://sugarbind.expasy.org/structures/38> ;
 		dcterms:references <https://sugarbind.expasy.org/structures/38> ;
@@ -358,7 +358,7 @@ id:STR38 rdf:type owl:NamedIndividual ,
 
 id:STR39 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C41186 ,
-			:Structure ;
+			glycoinfo:Compound ;
 		:glytoucanId glycoinfo:G79389NT ;
 		foaf:homepage <https://sugarbind.expasy.org/structures/39> ;
 		dcterms:references <https://sugarbind.expasy.org/structures/39> ;
@@ -366,7 +366,7 @@ id:STR39 rdf:type owl:NamedIndividual ,
 
 id:STR40 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C41186 ,
-			:Structure ;
+			glycoinfo:Compound ;
 		:glytoucanId glycoinfo:G97569KL ;
 		foaf:homepage <https://sugarbind.expasy.org/structures/40> ;
 		dcterms:references <https://sugarbind.expasy.org/structures/40> ;
@@ -374,7 +374,7 @@ id:STR40 rdf:type owl:NamedIndividual ,
 
 id:STR41 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C41186 ,
-			:Structure ;
+			glycoinfo:Compound ;
 		:glytoucanId glycoinfo:G61298NX ;
 		foaf:homepage <https://sugarbind.expasy.org/structures/41> ;
 		dcterms:references <https://sugarbind.expasy.org/structures/41> ;
@@ -382,7 +382,7 @@ id:STR41 rdf:type owl:NamedIndividual ,
 
 id:STR42 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C41186 ,
-			:Structure ;
+			glycoinfo:Compound ;
 		:glytoucanId glycoinfo:G70323CJ ;
 		foaf:homepage <https://sugarbind.expasy.org/structures/42> ;
 		dcterms:references <https://sugarbind.expasy.org/structures/42> ;
@@ -390,7 +390,7 @@ id:STR42 rdf:type owl:NamedIndividual ,
 
 id:STR43 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C41186 ,
-			:Structure ;
+			glycoinfo:Compound ;
 		:glytoucanId glycoinfo:G00050MO ;
 		foaf:homepage <https://sugarbind.expasy.org/structures/43> ;
 		dcterms:references <https://sugarbind.expasy.org/structures/43> ;
@@ -398,7 +398,7 @@ id:STR43 rdf:type owl:NamedIndividual ,
 
 id:STR44 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C41186 ,
-			:Structure ;
+			glycoinfo:Compound ;
 		:glytoucanId glycoinfo:G22689CV ;
 		foaf:homepage <https://sugarbind.expasy.org/structures/44> ;
 		dcterms:references <https://sugarbind.expasy.org/structures/44> ;
@@ -406,7 +406,7 @@ id:STR44 rdf:type owl:NamedIndividual ,
 
 id:STR45 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C41186 ,
-			:Structure ;
+			glycoinfo:Compound ;
 		:glytoucanId glycoinfo:G63238VS ;
 		foaf:homepage <https://sugarbind.expasy.org/structures/45> ;
 		dcterms:references <https://sugarbind.expasy.org/structures/45> ;
@@ -414,7 +414,7 @@ id:STR45 rdf:type owl:NamedIndividual ,
 
 id:STR46 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C41186 ,
-			:Structure ;
+			glycoinfo:Compound ;
 		:glytoucanId glycoinfo:G71485PH ;
 		foaf:homepage <https://sugarbind.expasy.org/structures/46> ;
 		dcterms:references <https://sugarbind.expasy.org/structures/46> ;
@@ -422,7 +422,7 @@ id:STR46 rdf:type owl:NamedIndividual ,
 
 id:STR48 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C41186 ,
-			:Structure ;
+			glycoinfo:Compound ;
 		:glytoucanId glycoinfo:G37830TX ;
 		foaf:homepage <https://sugarbind.expasy.org/structures/48> ;
 		dcterms:references <https://sugarbind.expasy.org/structures/48> ;
@@ -430,7 +430,7 @@ id:STR48 rdf:type owl:NamedIndividual ,
 
 id:STR48 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C41186 ,
-			:Structure ;
+			glycoinfo:Compound ;
 		:glytoucanId glycoinfo:G37830TX ;
 		foaf:homepage <https://sugarbind.expasy.org/structures/48> ;
 		dcterms:references <https://sugarbind.expasy.org/structures/48> ;
@@ -438,7 +438,7 @@ id:STR48 rdf:type owl:NamedIndividual ,
 
 id:STR49 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C41186 ,
-			:Structure ;
+			glycoinfo:Compound ;
 		:glytoucanId glycoinfo:G04715SK ;
 		foaf:homepage <https://sugarbind.expasy.org/structures/49> ;
 		dcterms:references <https://sugarbind.expasy.org/structures/49> ;
@@ -446,7 +446,7 @@ id:STR49 rdf:type owl:NamedIndividual ,
 
 id:STR50 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C41186 ,
-			:Structure ;
+			glycoinfo:Compound ;
 		:glytoucanId glycoinfo:G82858KU ;
 		foaf:homepage <https://sugarbind.expasy.org/structures/50> ;
 		dcterms:references <https://sugarbind.expasy.org/structures/50> ;
@@ -454,7 +454,7 @@ id:STR50 rdf:type owl:NamedIndividual ,
 
 id:STR51 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C41186 ,
-			:Structure ;
+			glycoinfo:Compound ;
 		:glytoucanId glycoinfo:G65507FU ;
 		foaf:homepage <https://sugarbind.expasy.org/structures/51> ;
 		dcterms:references <https://sugarbind.expasy.org/structures/51> ;
@@ -462,7 +462,7 @@ id:STR51 rdf:type owl:NamedIndividual ,
 
 id:STR52 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C41186 ,
-			:Structure ;
+			glycoinfo:Compound ;
 		:glytoucanId glycoinfo:G00711NG ;
 		foaf:homepage <https://sugarbind.expasy.org/structures/52> ;
 		dcterms:references <https://sugarbind.expasy.org/structures/52> ;
@@ -470,7 +470,7 @@ id:STR52 rdf:type owl:NamedIndividual ,
 
 id:STR53 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C41186 ,
-			:Structure ;
+			glycoinfo:Compound ;
 		:glytoucanId glycoinfo:G76297JC ;
 		foaf:homepage <https://sugarbind.expasy.org/structures/53> ;
 		dcterms:references <https://sugarbind.expasy.org/structures/53> ;
@@ -478,7 +478,7 @@ id:STR53 rdf:type owl:NamedIndividual ,
 
 id:STR54 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C41186 ,
-			:Structure ;
+			glycoinfo:Compound ;
 		:glytoucanId glycoinfo:G26123AX ;
 		foaf:homepage <https://sugarbind.expasy.org/structures/54> ;
 		dcterms:references <https://sugarbind.expasy.org/structures/54> ;
@@ -486,7 +486,7 @@ id:STR54 rdf:type owl:NamedIndividual ,
 
 id:STR55 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C41186 ,
-			:Structure ;
+			glycoinfo:Compound ;
 		:glytoucanId glycoinfo:G33224VN ;
 		foaf:homepage <https://sugarbind.expasy.org/structures/55> ;
 		dcterms:references <https://sugarbind.expasy.org/structures/55> ;
@@ -494,7 +494,7 @@ id:STR55 rdf:type owl:NamedIndividual ,
 
 id:STR56 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C41186 ,
-			:Structure ;
+			glycoinfo:Compound ;
 		:glytoucanId glycoinfo:G05357CB ;
 		foaf:homepage <https://sugarbind.expasy.org/structures/56> ;
 		dcterms:references <https://sugarbind.expasy.org/structures/56> ;
@@ -502,7 +502,7 @@ id:STR56 rdf:type owl:NamedIndividual ,
 
 id:STR57 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C41186 ,
-			:Structure ;
+			glycoinfo:Compound ;
 		:glytoucanId glycoinfo:G97932OH ;
 		foaf:homepage <https://sugarbind.expasy.org/structures/57> ;
 		dcterms:references <https://sugarbind.expasy.org/structures/57> ;
@@ -510,7 +510,7 @@ id:STR57 rdf:type owl:NamedIndividual ,
 
 id:STR58 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C41186 ,
-			:Structure ;
+			glycoinfo:Compound ;
 		:glytoucanId glycoinfo:G32254QI ;
 		foaf:homepage <https://sugarbind.expasy.org/structures/58> ;
 		dcterms:references <https://sugarbind.expasy.org/structures/58> ;
@@ -518,7 +518,7 @@ id:STR58 rdf:type owl:NamedIndividual ,
 
 id:STR58 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C41186 ,
-			:Structure ;
+			glycoinfo:Compound ;
 		:glytoucanId glycoinfo:G32254QI ;
 		foaf:homepage <https://sugarbind.expasy.org/structures/58> ;
 		dcterms:references <https://sugarbind.expasy.org/structures/58> ;
@@ -526,7 +526,7 @@ id:STR58 rdf:type owl:NamedIndividual ,
 
 id:STR59 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C41186 ,
-			:Structure ;
+			glycoinfo:Compound ;
 		:glytoucanId glycoinfo:G64581RP ;
 		foaf:homepage <https://sugarbind.expasy.org/structures/59> ;
 		dcterms:references <https://sugarbind.expasy.org/structures/59> ;
@@ -534,7 +534,7 @@ id:STR59 rdf:type owl:NamedIndividual ,
 
 id:STR60 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C41186 ,
-			:Structure ;
+			glycoinfo:Compound ;
 		:glytoucanId glycoinfo:G67988RO ;
 		foaf:homepage <https://sugarbind.expasy.org/structures/60> ;
 		dcterms:references <https://sugarbind.expasy.org/structures/60> ;
@@ -542,7 +542,7 @@ id:STR60 rdf:type owl:NamedIndividual ,
 
 id:STR61 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C41186 ,
-			:Structure ;
+			glycoinfo:Compound ;
 		:glytoucanId glycoinfo:G98465JN ;
 		foaf:homepage <https://sugarbind.expasy.org/structures/61> ;
 		dcterms:references <https://sugarbind.expasy.org/structures/61> ;
@@ -550,7 +550,7 @@ id:STR61 rdf:type owl:NamedIndividual ,
 
 id:STR62 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C41186 ,
-			:Structure ;
+			glycoinfo:Compound ;
 		:glytoucanId glycoinfo:G72565QB ;
 		foaf:homepage <https://sugarbind.expasy.org/structures/62> ;
 		dcterms:references <https://sugarbind.expasy.org/structures/62> ;
@@ -558,7 +558,7 @@ id:STR62 rdf:type owl:NamedIndividual ,
 
 id:STR63 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C41186 ,
-			:Structure ;
+			glycoinfo:Compound ;
 		:glytoucanId glycoinfo:G75789AR ;
 		foaf:homepage <https://sugarbind.expasy.org/structures/63> ;
 		dcterms:references <https://sugarbind.expasy.org/structures/63> ;
@@ -566,7 +566,7 @@ id:STR63 rdf:type owl:NamedIndividual ,
 
 id:STR64 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C41186 ,
-			:Structure ;
+			glycoinfo:Compound ;
 		:glytoucanId glycoinfo:G70323CJ ;
 		foaf:homepage <https://sugarbind.expasy.org/structures/64> ;
 		dcterms:references <https://sugarbind.expasy.org/structures/64> ;
@@ -574,7 +574,7 @@ id:STR64 rdf:type owl:NamedIndividual ,
 
 id:STR65 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C41186 ,
-			:Structure ;
+			glycoinfo:Compound ;
 		:glytoucanId glycoinfo:G30207PZ ;
 		foaf:homepage <https://sugarbind.expasy.org/structures/65> ;
 		dcterms:references <https://sugarbind.expasy.org/structures/65> ;
@@ -582,7 +582,7 @@ id:STR65 rdf:type owl:NamedIndividual ,
 
 id:STR66 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C41186 ,
-			:Structure ;
+			glycoinfo:Compound ;
 		:glytoucanId glycoinfo:G32969VW ;
 		foaf:homepage <https://sugarbind.expasy.org/structures/66> ;
 		dcterms:references <https://sugarbind.expasy.org/structures/66> ;
@@ -590,7 +590,7 @@ id:STR66 rdf:type owl:NamedIndividual ,
 
 id:STR67 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C41186 ,
-			:Structure ;
+			glycoinfo:Compound ;
 		:glytoucanId glycoinfo:G56299XO ;
 		foaf:homepage <https://sugarbind.expasy.org/structures/67> ;
 		dcterms:references <https://sugarbind.expasy.org/structures/67> ;
@@ -598,7 +598,7 @@ id:STR67 rdf:type owl:NamedIndividual ,
 
 id:STR68 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C41186 ,
-			:Structure ;
+			glycoinfo:Compound ;
 		:glytoucanId glycoinfo:G70323CJ ;
 		foaf:homepage <https://sugarbind.expasy.org/structures/68> ;
 		dcterms:references <https://sugarbind.expasy.org/structures/68> ;
@@ -606,7 +606,7 @@ id:STR68 rdf:type owl:NamedIndividual ,
 
 id:STR69 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C41186 ,
-			:Structure ;
+			glycoinfo:Compound ;
 		:glytoucanId glycoinfo:G17780OR ;
 		foaf:homepage <https://sugarbind.expasy.org/structures/69> ;
 		dcterms:references <https://sugarbind.expasy.org/structures/69> ;
@@ -614,7 +614,7 @@ id:STR69 rdf:type owl:NamedIndividual ,
 
 id:STR70 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C41186 ,
-			:Structure ;
+			glycoinfo:Compound ;
 		:glytoucanId glycoinfo:G07982RO ;
 		foaf:homepage <https://sugarbind.expasy.org/structures/70> ;
 		dcterms:references <https://sugarbind.expasy.org/structures/70> ;
@@ -622,7 +622,7 @@ id:STR70 rdf:type owl:NamedIndividual ,
 
 id:STR70 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C41186 ,
-			:Structure ;
+			glycoinfo:Compound ;
 		:glytoucanId glycoinfo:G07982RO ;
 		foaf:homepage <https://sugarbind.expasy.org/structures/70> ;
 		dcterms:references <https://sugarbind.expasy.org/structures/70> ;
@@ -630,7 +630,7 @@ id:STR70 rdf:type owl:NamedIndividual ,
 
 id:STR71 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C41186 ,
-			:Structure ;
+			glycoinfo:Compound ;
 		:glytoucanId glycoinfo:G50850NI ;
 		foaf:homepage <https://sugarbind.expasy.org/structures/71> ;
 		dcterms:references <https://sugarbind.expasy.org/structures/71> ;
@@ -638,7 +638,7 @@ id:STR71 rdf:type owl:NamedIndividual ,
 
 id:STR72 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C41186 ,
-			:Structure ;
+			glycoinfo:Compound ;
 		:glytoucanId glycoinfo:G56516VH ;
 		foaf:homepage <https://sugarbind.expasy.org/structures/72> ;
 		dcterms:references <https://sugarbind.expasy.org/structures/72> ;
@@ -646,7 +646,7 @@ id:STR72 rdf:type owl:NamedIndividual ,
 
 id:STR73 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C41186 ,
-			:Structure ;
+			glycoinfo:Compound ;
 		:glytoucanId glycoinfo:G47395XN ;
 		foaf:homepage <https://sugarbind.expasy.org/structures/73> ;
 		dcterms:references <https://sugarbind.expasy.org/structures/73> ;
@@ -654,7 +654,7 @@ id:STR73 rdf:type owl:NamedIndividual ,
 
 id:STR74 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C41186 ,
-			:Structure ;
+			glycoinfo:Compound ;
 		:glytoucanId glycoinfo:G56478LD ;
 		foaf:homepage <https://sugarbind.expasy.org/structures/74> ;
 		dcterms:references <https://sugarbind.expasy.org/structures/74> ;
@@ -662,7 +662,7 @@ id:STR74 rdf:type owl:NamedIndividual ,
 
 id:STR75 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C41186 ,
-			:Structure ;
+			glycoinfo:Compound ;
 		:glytoucanId glycoinfo:G95034OI ;
 		foaf:homepage <https://sugarbind.expasy.org/structures/75> ;
 		dcterms:references <https://sugarbind.expasy.org/structures/75> ;
@@ -670,7 +670,7 @@ id:STR75 rdf:type owl:NamedIndividual ,
 
 id:STR76 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C41186 ,
-			:Structure ;
+			glycoinfo:Compound ;
 		:glytoucanId glycoinfo:G83212YI ;
 		foaf:homepage <https://sugarbind.expasy.org/structures/76> ;
 		dcterms:references <https://sugarbind.expasy.org/structures/76> ;
@@ -678,7 +678,7 @@ id:STR76 rdf:type owl:NamedIndividual ,
 
 id:STR77 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C41186 ,
-			:Structure ;
+			glycoinfo:Compound ;
 		:glytoucanId glycoinfo:G72548RZ ;
 		foaf:homepage <https://sugarbind.expasy.org/structures/77> ;
 		dcterms:references <https://sugarbind.expasy.org/structures/77> ;
@@ -686,7 +686,7 @@ id:STR77 rdf:type owl:NamedIndividual ,
 
 id:STR78 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C41186 ,
-			:Structure ;
+			glycoinfo:Compound ;
 		:glytoucanId glycoinfo:G20044TD ;
 		foaf:homepage <https://sugarbind.expasy.org/structures/78> ;
 		dcterms:references <https://sugarbind.expasy.org/structures/78> ;
@@ -694,7 +694,7 @@ id:STR78 rdf:type owl:NamedIndividual ,
 
 id:STR79 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C41186 ,
-			:Structure ;
+			glycoinfo:Compound ;
 		:glytoucanId glycoinfo:G84034JH ;
 		foaf:homepage <https://sugarbind.expasy.org/structures/79> ;
 		dcterms:references <https://sugarbind.expasy.org/structures/79> ;
@@ -702,7 +702,7 @@ id:STR79 rdf:type owl:NamedIndividual ,
 
 id:STR80 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C41186 ,
-			:Structure ;
+			glycoinfo:Compound ;
 		:glytoucanId glycoinfo:G82576YO ;
 		foaf:homepage <https://sugarbind.expasy.org/structures/80> ;
 		dcterms:references <https://sugarbind.expasy.org/structures/80> ;
@@ -710,7 +710,7 @@ id:STR80 rdf:type owl:NamedIndividual ,
 
 id:STR81 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C41186 ,
-			:Structure ;
+			glycoinfo:Compound ;
 		:glytoucanId glycoinfo:G78260AJ ;
 		foaf:homepage <https://sugarbind.expasy.org/structures/81> ;
 		dcterms:references <https://sugarbind.expasy.org/structures/81> ;
@@ -718,7 +718,7 @@ id:STR81 rdf:type owl:NamedIndividual ,
 
 id:STR82 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C41186 ,
-			:Structure ;
+			glycoinfo:Compound ;
 		:glytoucanId glycoinfo:G65889KE ;
 		foaf:homepage <https://sugarbind.expasy.org/structures/82> ;
 		dcterms:references <https://sugarbind.expasy.org/structures/82> ;
@@ -726,7 +726,7 @@ id:STR82 rdf:type owl:NamedIndividual ,
 
 id:STR82 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C41186 ,
-			:Structure ;
+			glycoinfo:Compound ;
 		:glytoucanId glycoinfo:G65889KE ;
 		foaf:homepage <https://sugarbind.expasy.org/structures/82> ;
 		dcterms:references <https://sugarbind.expasy.org/structures/82> ;
@@ -734,7 +734,7 @@ id:STR82 rdf:type owl:NamedIndividual ,
 
 id:STR83 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C41186 ,
-			:Structure ;
+			glycoinfo:Compound ;
 		:glytoucanId glycoinfo:G88796WA ;
 		foaf:homepage <https://sugarbind.expasy.org/structures/83> ;
 		dcterms:references <https://sugarbind.expasy.org/structures/83> ;
@@ -742,7 +742,7 @@ id:STR83 rdf:type owl:NamedIndividual ,
 
 id:STR84 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C41186 ,
-			:Structure ;
+			glycoinfo:Compound ;
 		:glytoucanId glycoinfo:G19336PT ;
 		foaf:homepage <https://sugarbind.expasy.org/structures/84> ;
 		dcterms:references <https://sugarbind.expasy.org/structures/84> ;
@@ -750,7 +750,7 @@ id:STR84 rdf:type owl:NamedIndividual ,
 
 id:STR85 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C41186 ,
-			:Structure ;
+			glycoinfo:Compound ;
 		:glytoucanId glycoinfo:G62971NJ ;
 		foaf:homepage <https://sugarbind.expasy.org/structures/85> ;
 		dcterms:references <https://sugarbind.expasy.org/structures/85> ;
@@ -758,7 +758,7 @@ id:STR85 rdf:type owl:NamedIndividual ,
 
 id:STR86 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C41186 ,
-			:Structure ;
+			glycoinfo:Compound ;
 		:glytoucanId glycoinfo:G80062GG ;
 		foaf:homepage <https://sugarbind.expasy.org/structures/86> ;
 		dcterms:references <https://sugarbind.expasy.org/structures/86> ;
@@ -766,7 +766,7 @@ id:STR86 rdf:type owl:NamedIndividual ,
 
 id:STR87 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C41186 ,
-			:Structure ;
+			glycoinfo:Compound ;
 		:glytoucanId glycoinfo:G24034CH ;
 		foaf:homepage <https://sugarbind.expasy.org/structures/87> ;
 		dcterms:references <https://sugarbind.expasy.org/structures/87> ;
@@ -774,7 +774,7 @@ id:STR87 rdf:type owl:NamedIndividual ,
 
 id:STR88 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C41186 ,
-			:Structure ;
+			glycoinfo:Compound ;
 		:glytoucanId glycoinfo:G02657AK ;
 		foaf:homepage <https://sugarbind.expasy.org/structures/88> ;
 		dcterms:references <https://sugarbind.expasy.org/structures/88> ;
@@ -782,7 +782,7 @@ id:STR88 rdf:type owl:NamedIndividual ,
 
 id:STR89 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C41186 ,
-			:Structure ;
+			glycoinfo:Compound ;
 		:glytoucanId glycoinfo:G98544DH ;
 		foaf:homepage <https://sugarbind.expasy.org/structures/89> ;
 		dcterms:references <https://sugarbind.expasy.org/structures/89> ;
@@ -790,7 +790,7 @@ id:STR89 rdf:type owl:NamedIndividual ,
 
 id:STR90 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C41186 ,
-			:Structure ;
+			glycoinfo:Compound ;
 		:glytoucanId glycoinfo:G04165ZA ;
 		foaf:homepage <https://sugarbind.expasy.org/structures/90> ;
 		dcterms:references <https://sugarbind.expasy.org/structures/90> ;
@@ -798,7 +798,7 @@ id:STR90 rdf:type owl:NamedIndividual ,
 
 id:STR91 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C41186 ,
-			:Structure ;
+			glycoinfo:Compound ;
 		:glytoucanId glycoinfo:G03777BI ;
 		foaf:homepage <https://sugarbind.expasy.org/structures/91> ;
 		dcterms:references <https://sugarbind.expasy.org/structures/91> ;
@@ -806,7 +806,7 @@ id:STR91 rdf:type owl:NamedIndividual ,
 
 id:STR92 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C41186 ,
-			:Structure ;
+			glycoinfo:Compound ;
 		:glytoucanId glycoinfo:G03277YI ;
 		foaf:homepage <https://sugarbind.expasy.org/structures/92> ;
 		dcterms:references <https://sugarbind.expasy.org/structures/92> ;
@@ -814,7 +814,7 @@ id:STR92 rdf:type owl:NamedIndividual ,
 
 id:STR93 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C41186 ,
-			:Structure ;
+			glycoinfo:Compound ;
 		:glytoucanId glycoinfo:G08079IN ;
 		foaf:homepage <https://sugarbind.expasy.org/structures/93> ;
 		dcterms:references <https://sugarbind.expasy.org/structures/93> ;
@@ -822,7 +822,7 @@ id:STR93 rdf:type owl:NamedIndividual ,
 
 id:STR94 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C41186 ,
-			:Structure ;
+			glycoinfo:Compound ;
 		:glytoucanId glycoinfo:G88393MK ;
 		foaf:homepage <https://sugarbind.expasy.org/structures/94> ;
 		dcterms:references <https://sugarbind.expasy.org/structures/94> ;
@@ -830,7 +830,7 @@ id:STR94 rdf:type owl:NamedIndividual ,
 
 id:STR95 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C41186 ,
-			:Structure ;
+			glycoinfo:Compound ;
 		:glytoucanId glycoinfo:G60395SO ;
 		foaf:homepage <https://sugarbind.expasy.org/structures/95> ;
 		dcterms:references <https://sugarbind.expasy.org/structures/95> ;
@@ -838,7 +838,7 @@ id:STR95 rdf:type owl:NamedIndividual ,
 
 id:STR96 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C41186 ,
-			:Structure ;
+			glycoinfo:Compound ;
 		:glytoucanId glycoinfo:G48600JD ;
 		foaf:homepage <https://sugarbind.expasy.org/structures/96> ;
 		dcterms:references <https://sugarbind.expasy.org/structures/96> ;
@@ -846,7 +846,7 @@ id:STR96 rdf:type owl:NamedIndividual ,
 
 id:STR97 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C41186 ,
-			:Structure ;
+			glycoinfo:Compound ;
 		:glytoucanId glycoinfo:G58507AZ ;
 		foaf:homepage <https://sugarbind.expasy.org/structures/97> ;
 		dcterms:references <https://sugarbind.expasy.org/structures/97> ;
@@ -854,7 +854,7 @@ id:STR97 rdf:type owl:NamedIndividual ,
 
 id:STR98 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C41186 ,
-			:Structure ;
+			glycoinfo:Compound ;
 		:glytoucanId glycoinfo:G08855PJ ;
 		foaf:homepage <https://sugarbind.expasy.org/structures/98> ;
 		dcterms:references <https://sugarbind.expasy.org/structures/98> ;
@@ -862,7 +862,7 @@ id:STR98 rdf:type owl:NamedIndividual ,
 
 id:STR99 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C41186 ,
-			:Structure ;
+			glycoinfo:Compound ;
 		:glytoucanId glycoinfo:G45215IJ ;
 		foaf:homepage <https://sugarbind.expasy.org/structures/99> ;
 		dcterms:references <https://sugarbind.expasy.org/structures/99> ;
@@ -870,7 +870,7 @@ id:STR99 rdf:type owl:NamedIndividual ,
 
 id:STR100 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C41186 ,
-			:Structure ;
+			glycoinfo:Compound ;
 		:glytoucanId glycoinfo:G96401FK ;
 		foaf:homepage <https://sugarbind.expasy.org/structures/100> ;
 		dcterms:references <https://sugarbind.expasy.org/structures/100> ;
@@ -878,7 +878,7 @@ id:STR100 rdf:type owl:NamedIndividual ,
 
 id:STR101 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C41186 ,
-			:Structure ;
+			glycoinfo:Compound ;
 		:glytoucanId glycoinfo:G01296LJ ;
 		foaf:homepage <https://sugarbind.expasy.org/structures/101> ;
 		dcterms:references <https://sugarbind.expasy.org/structures/101> ;
@@ -886,7 +886,7 @@ id:STR101 rdf:type owl:NamedIndividual ,
 
 id:STR102 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C41186 ,
-			:Structure ;
+			glycoinfo:Compound ;
 		:glytoucanId glycoinfo:G01767JJ ;
 		foaf:homepage <https://sugarbind.expasy.org/structures/102> ;
 		dcterms:references <https://sugarbind.expasy.org/structures/102> ;
@@ -894,7 +894,7 @@ id:STR102 rdf:type owl:NamedIndividual ,
 
 id:STR103 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C41186 ,
-			:Structure ;
+			glycoinfo:Compound ;
 		:glytoucanId glycoinfo:G03067VG ;
 		foaf:homepage <https://sugarbind.expasy.org/structures/103> ;
 		dcterms:references <https://sugarbind.expasy.org/structures/103> ;
@@ -902,7 +902,7 @@ id:STR103 rdf:type owl:NamedIndividual ,
 
 id:STR104 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C41186 ,
-			:Structure ;
+			glycoinfo:Compound ;
 		:glytoucanId glycoinfo:G26036PN ;
 		foaf:homepage <https://sugarbind.expasy.org/structures/104> ;
 		dcterms:references <https://sugarbind.expasy.org/structures/104> ;
@@ -910,7 +910,7 @@ id:STR104 rdf:type owl:NamedIndividual ,
 
 id:STR105 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C41186 ,
-			:Structure ;
+			glycoinfo:Compound ;
 		:glytoucanId glycoinfo:G28566CQ ;
 		foaf:homepage <https://sugarbind.expasy.org/structures/105> ;
 		dcterms:references <https://sugarbind.expasy.org/structures/105> ;
@@ -918,7 +918,7 @@ id:STR105 rdf:type owl:NamedIndividual ,
 
 id:STR106 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C41186 ,
-			:Structure ;
+			glycoinfo:Compound ;
 		:glytoucanId glycoinfo:G09552LA ;
 		foaf:homepage <https://sugarbind.expasy.org/structures/106> ;
 		dcterms:references <https://sugarbind.expasy.org/structures/106> ;
@@ -926,7 +926,7 @@ id:STR106 rdf:type owl:NamedIndividual ,
 
 id:STR107 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C41186 ,
-			:Structure ;
+			glycoinfo:Compound ;
 		:glytoucanId glycoinfo:G50321QR ;
 		foaf:homepage <https://sugarbind.expasy.org/structures/107> ;
 		dcterms:references <https://sugarbind.expasy.org/structures/107> ;
@@ -934,7 +934,7 @@ id:STR107 rdf:type owl:NamedIndividual ,
 
 id:STR108 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C41186 ,
-			:Structure ;
+			glycoinfo:Compound ;
 		:glytoucanId glycoinfo:G57920AK ;
 		foaf:homepage <https://sugarbind.expasy.org/structures/108> ;
 		dcterms:references <https://sugarbind.expasy.org/structures/108> ;
@@ -942,7 +942,7 @@ id:STR108 rdf:type owl:NamedIndividual ,
 
 id:STR109 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C41186 ,
-			:Structure ;
+			glycoinfo:Compound ;
 		:glytoucanId glycoinfo:G10203DW ;
 		foaf:homepage <https://sugarbind.expasy.org/structures/109> ;
 		dcterms:references <https://sugarbind.expasy.org/structures/109> ;
@@ -950,7 +950,7 @@ id:STR109 rdf:type owl:NamedIndividual ,
 
 id:STR110 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C41186 ,
-			:Structure ;
+			glycoinfo:Compound ;
 		:glytoucanId glycoinfo:G30207PZ ;
 		foaf:homepage <https://sugarbind.expasy.org/structures/110> ;
 		dcterms:references <https://sugarbind.expasy.org/structures/110> ;
@@ -958,7 +958,7 @@ id:STR110 rdf:type owl:NamedIndividual ,
 
 id:STR111 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C41186 ,
-			:Structure ;
+			glycoinfo:Compound ;
 		:glytoucanId glycoinfo:G55153IW ;
 		foaf:homepage <https://sugarbind.expasy.org/structures/111> ;
 		dcterms:references <https://sugarbind.expasy.org/structures/111> ;
@@ -966,7 +966,7 @@ id:STR111 rdf:type owl:NamedIndividual ,
 
 id:STR112 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C41186 ,
-			:Structure ;
+			glycoinfo:Compound ;
 		:glytoucanId glycoinfo:G07169WN ;
 		foaf:homepage <https://sugarbind.expasy.org/structures/112> ;
 		dcterms:references <https://sugarbind.expasy.org/structures/112> ;
@@ -974,7 +974,7 @@ id:STR112 rdf:type owl:NamedIndividual ,
 
 id:STR113 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C41186 ,
-			:Structure ;
+			glycoinfo:Compound ;
 		:glytoucanId glycoinfo:G96614JE ;
 		foaf:homepage <https://sugarbind.expasy.org/structures/113> ;
 		dcterms:references <https://sugarbind.expasy.org/structures/113> ;
@@ -982,7 +982,7 @@ id:STR113 rdf:type owl:NamedIndividual ,
 
 id:STR114 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C41186 ,
-			:Structure ;
+			glycoinfo:Compound ;
 		:glytoucanId glycoinfo:G87245HS ;
 		foaf:homepage <https://sugarbind.expasy.org/structures/114> ;
 		dcterms:references <https://sugarbind.expasy.org/structures/114> ;
@@ -990,7 +990,7 @@ id:STR114 rdf:type owl:NamedIndividual ,
 
 id:STR115 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C41186 ,
-			:Structure ;
+			glycoinfo:Compound ;
 		:glytoucanId glycoinfo:G72692DY ;
 		foaf:homepage <https://sugarbind.expasy.org/structures/115> ;
 		dcterms:references <https://sugarbind.expasy.org/structures/115> ;
@@ -998,7 +998,7 @@ id:STR115 rdf:type owl:NamedIndividual ,
 
 id:STR116 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C41186 ,
-			:Structure ;
+			glycoinfo:Compound ;
 		:glytoucanId glycoinfo:G83513YI ;
 		foaf:homepage <https://sugarbind.expasy.org/structures/116> ;
 		dcterms:references <https://sugarbind.expasy.org/structures/116> ;
@@ -1006,7 +1006,7 @@ id:STR116 rdf:type owl:NamedIndividual ,
 
 id:STR117 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C41186 ,
-			:Structure ;
+			glycoinfo:Compound ;
 		:glytoucanId glycoinfo:G21066IE ;
 		foaf:homepage <https://sugarbind.expasy.org/structures/117> ;
 		dcterms:references <https://sugarbind.expasy.org/structures/117> ;
@@ -1014,7 +1014,7 @@ id:STR117 rdf:type owl:NamedIndividual ,
 
 id:STR118 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C41186 ,
-			:Structure ;
+			glycoinfo:Compound ;
 		:glytoucanId glycoinfo:G21938SG ;
 		foaf:homepage <https://sugarbind.expasy.org/structures/118> ;
 		dcterms:references <https://sugarbind.expasy.org/structures/118> ;
@@ -1022,7 +1022,7 @@ id:STR118 rdf:type owl:NamedIndividual ,
 
 id:STR119 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C41186 ,
-			:Structure ;
+			glycoinfo:Compound ;
 		:glytoucanId glycoinfo:G44345UH ;
 		foaf:homepage <https://sugarbind.expasy.org/structures/119> ;
 		dcterms:references <https://sugarbind.expasy.org/structures/119> ;
@@ -1030,7 +1030,7 @@ id:STR119 rdf:type owl:NamedIndividual ,
 
 id:STR120 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C41186 ,
-			:Structure ;
+			glycoinfo:Compound ;
 		:glytoucanId glycoinfo:G46776WR ;
 		foaf:homepage <https://sugarbind.expasy.org/structures/120> ;
 		dcterms:references <https://sugarbind.expasy.org/structures/120> ;
@@ -1038,7 +1038,7 @@ id:STR120 rdf:type owl:NamedIndividual ,
 
 id:STR121 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C41186 ,
-			:Structure ;
+			glycoinfo:Compound ;
 		:glytoucanId glycoinfo:G80722US ;
 		foaf:homepage <https://sugarbind.expasy.org/structures/121> ;
 		dcterms:references <https://sugarbind.expasy.org/structures/121> ;
@@ -1046,7 +1046,7 @@ id:STR121 rdf:type owl:NamedIndividual ,
 
 id:STR122 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C41186 ,
-			:Structure ;
+			glycoinfo:Compound ;
 		:glytoucanId glycoinfo:G00054MO ;
 		foaf:homepage <https://sugarbind.expasy.org/structures/122> ;
 		dcterms:references <https://sugarbind.expasy.org/structures/122> ;
@@ -1054,7 +1054,7 @@ id:STR122 rdf:type owl:NamedIndividual ,
 
 id:STR123 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C41186 ,
-			:Structure ;
+			glycoinfo:Compound ;
 		:glytoucanId glycoinfo:G99745QX ;
 		foaf:homepage <https://sugarbind.expasy.org/structures/123> ;
 		dcterms:references <https://sugarbind.expasy.org/structures/123> ;
@@ -1062,7 +1062,7 @@ id:STR123 rdf:type owl:NamedIndividual ,
 
 id:STR124 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C41186 ,
-			:Structure ;
+			glycoinfo:Compound ;
 		:glytoucanId glycoinfo:G00065MO ;
 		foaf:homepage <https://sugarbind.expasy.org/structures/124> ;
 		dcterms:references <https://sugarbind.expasy.org/structures/124> ;
@@ -1070,7 +1070,7 @@ id:STR124 rdf:type owl:NamedIndividual ,
 
 id:STR125 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C41186 ,
-			:Structure ;
+			glycoinfo:Compound ;
 		:glytoucanId glycoinfo:G09376MR ;
 		foaf:homepage <https://sugarbind.expasy.org/structures/125> ;
 		dcterms:references <https://sugarbind.expasy.org/structures/125> ;
@@ -1078,7 +1078,7 @@ id:STR125 rdf:type owl:NamedIndividual ,
 
 id:STR126 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C41186 ,
-			:Structure ;
+			glycoinfo:Compound ;
 		:glytoucanId glycoinfo:G79536OW ;
 		foaf:homepage <https://sugarbind.expasy.org/structures/126> ;
 		dcterms:references <https://sugarbind.expasy.org/structures/126> ;
@@ -1086,7 +1086,7 @@ id:STR126 rdf:type owl:NamedIndividual ,
 
 id:STR127 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C41186 ,
-			:Structure ;
+			glycoinfo:Compound ;
 		:glytoucanId glycoinfo:G93779QZ ;
 		foaf:homepage <https://sugarbind.expasy.org/structures/127> ;
 		dcterms:references <https://sugarbind.expasy.org/structures/127> ;
@@ -1094,7 +1094,7 @@ id:STR127 rdf:type owl:NamedIndividual ,
 
 id:STR128 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C41186 ,
-			:Structure ;
+			glycoinfo:Compound ;
 		:glytoucanId glycoinfo:G16194TN ;
 		foaf:homepage <https://sugarbind.expasy.org/structures/128> ;
 		dcterms:references <https://sugarbind.expasy.org/structures/128> ;
@@ -1102,7 +1102,7 @@ id:STR128 rdf:type owl:NamedIndividual ,
 
 id:STR129 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C41186 ,
-			:Structure ;
+			glycoinfo:Compound ;
 		:glytoucanId glycoinfo:G29313LW ;
 		foaf:homepage <https://sugarbind.expasy.org/structures/129> ;
 		dcterms:references <https://sugarbind.expasy.org/structures/129> ;
@@ -1110,7 +1110,7 @@ id:STR129 rdf:type owl:NamedIndividual ,
 
 id:STR129 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C41186 ,
-			:Structure ;
+			glycoinfo:Compound ;
 		:glytoucanId glycoinfo:G29313LW ;
 		foaf:homepage <https://sugarbind.expasy.org/structures/129> ;
 		dcterms:references <https://sugarbind.expasy.org/structures/129> ;
@@ -1118,7 +1118,7 @@ id:STR129 rdf:type owl:NamedIndividual ,
 
 id:STR130 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C41186 ,
-			:Structure ;
+			glycoinfo:Compound ;
 		:glytoucanId glycoinfo:G60645OK ;
 		foaf:homepage <https://sugarbind.expasy.org/structures/130> ;
 		dcterms:references <https://sugarbind.expasy.org/structures/130> ;
@@ -1126,7 +1126,7 @@ id:STR130 rdf:type owl:NamedIndividual ,
 
 id:STR131 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C41186 ,
-			:Structure ;
+			glycoinfo:Compound ;
 		:glytoucanId glycoinfo:G72548RZ ;
 		foaf:homepage <https://sugarbind.expasy.org/structures/131> ;
 		dcterms:references <https://sugarbind.expasy.org/structures/131> ;
@@ -1134,7 +1134,7 @@ id:STR131 rdf:type owl:NamedIndividual ,
 
 id:STR132 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C41186 ,
-			:Structure ;
+			glycoinfo:Compound ;
 		:glytoucanId glycoinfo:G72548RZ ;
 		foaf:homepage <https://sugarbind.expasy.org/structures/132> ;
 		dcterms:references <https://sugarbind.expasy.org/structures/132> ;
@@ -1142,7 +1142,7 @@ id:STR132 rdf:type owl:NamedIndividual ,
 
 id:STR133 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C41186 ,
-			:Structure ;
+			glycoinfo:Compound ;
 		:glytoucanId glycoinfo:G20044TD ;
 		foaf:homepage <https://sugarbind.expasy.org/structures/133> ;
 		dcterms:references <https://sugarbind.expasy.org/structures/133> ;
@@ -1150,7 +1150,7 @@ id:STR133 rdf:type owl:NamedIndividual ,
 
 id:STR134 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C41186 ,
-			:Structure ;
+			glycoinfo:Compound ;
 		:glytoucanId glycoinfo:G60011XD ;
 		foaf:homepage <https://sugarbind.expasy.org/structures/134> ;
 		dcterms:references <https://sugarbind.expasy.org/structures/134> ;
@@ -1158,7 +1158,7 @@ id:STR134 rdf:type owl:NamedIndividual ,
 
 id:STR135 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C41186 ,
-			:Structure ;
+			glycoinfo:Compound ;
 		:glytoucanId glycoinfo:G20420WT ;
 		foaf:homepage <https://sugarbind.expasy.org/structures/135> ;
 		dcterms:references <https://sugarbind.expasy.org/structures/135> ;
@@ -1166,7 +1166,7 @@ id:STR135 rdf:type owl:NamedIndividual ,
 
 id:STR136 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C41186 ,
-			:Structure ;
+			glycoinfo:Compound ;
 		:glytoucanId glycoinfo:G41709CA ;
 		foaf:homepage <https://sugarbind.expasy.org/structures/136> ;
 		dcterms:references <https://sugarbind.expasy.org/structures/136> ;
@@ -1174,7 +1174,7 @@ id:STR136 rdf:type owl:NamedIndividual ,
 
 id:STR137 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C41186 ,
-			:Structure ;
+			glycoinfo:Compound ;
 		:glytoucanId glycoinfo:G87727XV ;
 		foaf:homepage <https://sugarbind.expasy.org/structures/137> ;
 		dcterms:references <https://sugarbind.expasy.org/structures/137> ;
@@ -1182,7 +1182,7 @@ id:STR137 rdf:type owl:NamedIndividual ,
 
 id:STR138 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C41186 ,
-			:Structure ;
+			glycoinfo:Compound ;
 		:glytoucanId glycoinfo:G39211DH ;
 		foaf:homepage <https://sugarbind.expasy.org/structures/138> ;
 		dcterms:references <https://sugarbind.expasy.org/structures/138> ;
@@ -1190,7 +1190,7 @@ id:STR138 rdf:type owl:NamedIndividual ,
 
 id:STR139 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C41186 ,
-			:Structure ;
+			glycoinfo:Compound ;
 		:glytoucanId glycoinfo:G49963IQ ;
 		foaf:homepage <https://sugarbind.expasy.org/structures/139> ;
 		dcterms:references <https://sugarbind.expasy.org/structures/139> ;
@@ -1198,7 +1198,7 @@ id:STR139 rdf:type owl:NamedIndividual ,
 
 id:STR140 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C41186 ,
-			:Structure ;
+			glycoinfo:Compound ;
 		:glytoucanId glycoinfo:G58612ZQ ;
 		foaf:homepage <https://sugarbind.expasy.org/structures/140> ;
 		dcterms:references <https://sugarbind.expasy.org/structures/140> ;
@@ -1206,7 +1206,7 @@ id:STR140 rdf:type owl:NamedIndividual ,
 
 id:STR141 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C41186 ,
-			:Structure ;
+			glycoinfo:Compound ;
 		:glytoucanId glycoinfo:G55958KV ;
 		foaf:homepage <https://sugarbind.expasy.org/structures/141> ;
 		dcterms:references <https://sugarbind.expasy.org/structures/141> ;
@@ -1214,7 +1214,7 @@ id:STR141 rdf:type owl:NamedIndividual ,
 
 id:STR142 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C41186 ,
-			:Structure ;
+			glycoinfo:Compound ;
 		:glytoucanId glycoinfo:G14300ZJ ;
 		foaf:homepage <https://sugarbind.expasy.org/structures/142> ;
 		dcterms:references <https://sugarbind.expasy.org/structures/142> ;
@@ -1222,7 +1222,7 @@ id:STR142 rdf:type owl:NamedIndividual ,
 
 id:STR143 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C41186 ,
-			:Structure ;
+			glycoinfo:Compound ;
 		:glytoucanId glycoinfo:G94938PL ;
 		foaf:homepage <https://sugarbind.expasy.org/structures/143> ;
 		dcterms:references <https://sugarbind.expasy.org/structures/143> ;
@@ -1230,7 +1230,7 @@ id:STR143 rdf:type owl:NamedIndividual ,
 
 id:STR144 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C41186 ,
-			:Structure ;
+			glycoinfo:Compound ;
 		:glytoucanId glycoinfo:G12068BR ;
 		foaf:homepage <https://sugarbind.expasy.org/structures/144> ;
 		dcterms:references <https://sugarbind.expasy.org/structures/144> ;
@@ -1238,7 +1238,7 @@ id:STR144 rdf:type owl:NamedIndividual ,
 
 id:STR145 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C41186 ,
-			:Structure ;
+			glycoinfo:Compound ;
 		:glytoucanId glycoinfo:G50899UD ;
 		foaf:homepage <https://sugarbind.expasy.org/structures/145> ;
 		dcterms:references <https://sugarbind.expasy.org/structures/145> ;
@@ -1246,7 +1246,7 @@ id:STR145 rdf:type owl:NamedIndividual ,
 
 id:STR146 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C41186 ,
-			:Structure ;
+			glycoinfo:Compound ;
 		:glytoucanId glycoinfo:G66086EX ;
 		foaf:homepage <https://sugarbind.expasy.org/structures/146> ;
 		dcterms:references <https://sugarbind.expasy.org/structures/146> ;
@@ -1254,7 +1254,7 @@ id:STR146 rdf:type owl:NamedIndividual ,
 
 id:STR147 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C41186 ,
-			:Structure ;
+			glycoinfo:Compound ;
 		:glytoucanId glycoinfo:G00047MO ;
 		foaf:homepage <https://sugarbind.expasy.org/structures/147> ;
 		dcterms:references <https://sugarbind.expasy.org/structures/147> ;
@@ -1262,7 +1262,7 @@ id:STR147 rdf:type owl:NamedIndividual ,
 
 id:STR148 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C41186 ,
-			:Structure ;
+			glycoinfo:Compound ;
 		:glytoucanId glycoinfo:G23041XK ;
 		foaf:homepage <https://sugarbind.expasy.org/structures/148> ;
 		dcterms:references <https://sugarbind.expasy.org/structures/148> ;
@@ -1270,7 +1270,7 @@ id:STR148 rdf:type owl:NamedIndividual ,
 
 id:STR149 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C41186 ,
-			:Structure ;
+			glycoinfo:Compound ;
 		:glytoucanId glycoinfo:G01187XC ;
 		foaf:homepage <https://sugarbind.expasy.org/structures/149> ;
 		dcterms:references <https://sugarbind.expasy.org/structures/149> ;
@@ -1278,7 +1278,7 @@ id:STR149 rdf:type owl:NamedIndividual ,
 
 id:STR150 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C41186 ,
-			:Structure ;
+			glycoinfo:Compound ;
 		:glytoucanId glycoinfo:G72494BI ;
 		foaf:homepage <https://sugarbind.expasy.org/structures/150> ;
 		dcterms:references <https://sugarbind.expasy.org/structures/150> ;
@@ -1286,7 +1286,7 @@ id:STR150 rdf:type owl:NamedIndividual ,
 
 id:STR151 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C41186 ,
-			:Structure ;
+			glycoinfo:Compound ;
 		:glytoucanId glycoinfo:G37563FN ;
 		foaf:homepage <https://sugarbind.expasy.org/structures/151> ;
 		dcterms:references <https://sugarbind.expasy.org/structures/151> ;
@@ -1294,7 +1294,7 @@ id:STR151 rdf:type owl:NamedIndividual ,
 
 id:STR152 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C41186 ,
-			:Structure ;
+			glycoinfo:Compound ;
 		:glytoucanId glycoinfo:G98173LG ;
 		foaf:homepage <https://sugarbind.expasy.org/structures/152> ;
 		dcterms:references <https://sugarbind.expasy.org/structures/152> ;
@@ -1302,7 +1302,7 @@ id:STR152 rdf:type owl:NamedIndividual ,
 
 id:STR152 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C41186 ,
-			:Structure ;
+			glycoinfo:Compound ;
 		:glytoucanId glycoinfo:G98173LG ;
 		foaf:homepage <https://sugarbind.expasy.org/structures/152> ;
 		dcterms:references <https://sugarbind.expasy.org/structures/152> ;
@@ -1310,7 +1310,7 @@ id:STR152 rdf:type owl:NamedIndividual ,
 
 id:STR153 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C41186 ,
-			:Structure ;
+			glycoinfo:Compound ;
 		:glytoucanId glycoinfo:G91326YS ;
 		foaf:homepage <https://sugarbind.expasy.org/structures/153> ;
 		dcterms:references <https://sugarbind.expasy.org/structures/153> ;
@@ -1318,7 +1318,7 @@ id:STR153 rdf:type owl:NamedIndividual ,
 
 id:STR154 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C41186 ,
-			:Structure ;
+			glycoinfo:Compound ;
 		:glytoucanId glycoinfo:G86123DJ ;
 		foaf:homepage <https://sugarbind.expasy.org/structures/154> ;
 		dcterms:references <https://sugarbind.expasy.org/structures/154> ;
@@ -1326,7 +1326,7 @@ id:STR154 rdf:type owl:NamedIndividual ,
 
 id:STR155 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C41186 ,
-			:Structure ;
+			glycoinfo:Compound ;
 		:glytoucanId glycoinfo:G00407UJ ;
 		foaf:homepage <https://sugarbind.expasy.org/structures/155> ;
 		dcterms:references <https://sugarbind.expasy.org/structures/155> ;
@@ -1334,7 +1334,7 @@ id:STR155 rdf:type owl:NamedIndividual ,
 
 id:STR156 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C41186 ,
-			:Structure ;
+			glycoinfo:Compound ;
 		:glytoucanId glycoinfo:G65889KE ;
 		foaf:homepage <https://sugarbind.expasy.org/structures/156> ;
 		dcterms:references <https://sugarbind.expasy.org/structures/156> ;
@@ -1342,7 +1342,7 @@ id:STR156 rdf:type owl:NamedIndividual ,
 
 id:STR157 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C41186 ,
-			:Structure ;
+			glycoinfo:Compound ;
 		:glytoucanId glycoinfo:G65889KE ;
 		foaf:homepage <https://sugarbind.expasy.org/structures/157> ;
 		dcterms:references <https://sugarbind.expasy.org/structures/157> ;
@@ -1350,7 +1350,7 @@ id:STR157 rdf:type owl:NamedIndividual ,
 
 id:STR158 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C41186 ,
-			:Structure ;
+			glycoinfo:Compound ;
 		:glytoucanId glycoinfo:G00059MO ;
 		foaf:homepage <https://sugarbind.expasy.org/structures/158> ;
 		dcterms:references <https://sugarbind.expasy.org/structures/158> ;
@@ -1358,7 +1358,7 @@ id:STR158 rdf:type owl:NamedIndividual ,
 
 id:STR159 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C41186 ,
-			:Structure ;
+			glycoinfo:Compound ;
 		:glytoucanId glycoinfo:G91649BT ;
 		foaf:homepage <https://sugarbind.expasy.org/structures/159> ;
 		dcterms:references <https://sugarbind.expasy.org/structures/159> ;
@@ -1366,7 +1366,7 @@ id:STR159 rdf:type owl:NamedIndividual ,
 
 id:STR160 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C41186 ,
-			:Structure ;
+			glycoinfo:Compound ;
 		:glytoucanId glycoinfo:G12460DL ;
 		foaf:homepage <https://sugarbind.expasy.org/structures/160> ;
 		dcterms:references <https://sugarbind.expasy.org/structures/160> ;
@@ -1374,7 +1374,7 @@ id:STR160 rdf:type owl:NamedIndividual ,
 
 id:STR161 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C41186 ,
-			:Structure ;
+			glycoinfo:Compound ;
 		:glytoucanId glycoinfo:G50850NI ;
 		foaf:homepage <https://sugarbind.expasy.org/structures/161> ;
 		dcterms:references <https://sugarbind.expasy.org/structures/161> ;
@@ -1382,7 +1382,7 @@ id:STR161 rdf:type owl:NamedIndividual ,
 
 id:STR161 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C41186 ,
-			:Structure ;
+			glycoinfo:Compound ;
 		:glytoucanId glycoinfo:G50850NI ;
 		foaf:homepage <https://sugarbind.expasy.org/structures/161> ;
 		dcterms:references <https://sugarbind.expasy.org/structures/161> ;
@@ -1390,7 +1390,7 @@ id:STR161 rdf:type owl:NamedIndividual ,
 
 id:STR161 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C41186 ,
-			:Structure ;
+			glycoinfo:Compound ;
 		:glytoucanId glycoinfo:G50850NI ;
 		foaf:homepage <https://sugarbind.expasy.org/structures/161> ;
 		dcterms:references <https://sugarbind.expasy.org/structures/161> ;
@@ -1398,7 +1398,7 @@ id:STR161 rdf:type owl:NamedIndividual ,
 
 id:STR162 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C41186 ,
-			:Structure ;
+			glycoinfo:Compound ;
 		:glytoucanId glycoinfo:G02880JU ;
 		foaf:homepage <https://sugarbind.expasy.org/structures/162> ;
 		dcterms:references <https://sugarbind.expasy.org/structures/162> ;
@@ -1406,7 +1406,7 @@ id:STR162 rdf:type owl:NamedIndividual ,
 
 id:STR163 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C41186 ,
-			:Structure ;
+			glycoinfo:Compound ;
 		:glytoucanId glycoinfo:G45827GY ;
 		foaf:homepage <https://sugarbind.expasy.org/structures/163> ;
 		dcterms:references <https://sugarbind.expasy.org/structures/163> ;
@@ -1414,7 +1414,7 @@ id:STR163 rdf:type owl:NamedIndividual ,
 
 id:STR164 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C41186 ,
-			:Structure ;
+			glycoinfo:Compound ;
 		:glytoucanId glycoinfo:G48059CD ;
 		foaf:homepage <https://sugarbind.expasy.org/structures/164> ;
 		dcterms:references <https://sugarbind.expasy.org/structures/164> ;
@@ -1422,7 +1422,7 @@ id:STR164 rdf:type owl:NamedIndividual ,
 
 id:STR165 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C41186 ,
-			:Structure ;
+			glycoinfo:Compound ;
 		:glytoucanId glycoinfo:G39011KA ;
 		foaf:homepage <https://sugarbind.expasy.org/structures/165> ;
 		dcterms:references <https://sugarbind.expasy.org/structures/165> ;
@@ -1430,7 +1430,7 @@ id:STR165 rdf:type owl:NamedIndividual ,
 
 id:STR166 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C41186 ,
-			:Structure ;
+			glycoinfo:Compound ;
 		:glytoucanId glycoinfo:G55205ZV ;
 		foaf:homepage <https://sugarbind.expasy.org/structures/166> ;
 		dcterms:references <https://sugarbind.expasy.org/structures/166> ;
@@ -1438,7 +1438,7 @@ id:STR166 rdf:type owl:NamedIndividual ,
 
 id:STR167 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C41186 ,
-			:Structure ;
+			glycoinfo:Compound ;
 		:glytoucanId glycoinfo:G06000DZ ;
 		foaf:homepage <https://sugarbind.expasy.org/structures/167> ;
 		dcterms:references <https://sugarbind.expasy.org/structures/167> ;
@@ -1446,7 +1446,7 @@ id:STR167 rdf:type owl:NamedIndividual ,
 
 id:STR168 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C41186 ,
-			:Structure ;
+			glycoinfo:Compound ;
 		:glytoucanId glycoinfo:G23581GL ;
 		foaf:homepage <https://sugarbind.expasy.org/structures/168> ;
 		dcterms:references <https://sugarbind.expasy.org/structures/168> ;
@@ -1454,7 +1454,7 @@ id:STR168 rdf:type owl:NamedIndividual ,
 
 id:STR169 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C41186 ,
-			:Structure ;
+			glycoinfo:Compound ;
 		:glytoucanId glycoinfo:G65191ST ;
 		foaf:homepage <https://sugarbind.expasy.org/structures/169> ;
 		dcterms:references <https://sugarbind.expasy.org/structures/169> ;
@@ -1462,7 +1462,7 @@ id:STR169 rdf:type owl:NamedIndividual ,
 
 id:STR171 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C41186 ,
-			:Structure ;
+			glycoinfo:Compound ;
 		:glytoucanId glycoinfo:G90889KG ;
 		foaf:homepage <https://sugarbind.expasy.org/structures/171> ;
 		dcterms:references <https://sugarbind.expasy.org/structures/171> ;
@@ -1470,7 +1470,7 @@ id:STR171 rdf:type owl:NamedIndividual ,
 
 id:STR172 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C41186 ,
-			:Structure ;
+			glycoinfo:Compound ;
 		:glytoucanId glycoinfo:G28330DZ ;
 		foaf:homepage <https://sugarbind.expasy.org/structures/172> ;
 		dcterms:references <https://sugarbind.expasy.org/structures/172> ;
@@ -1478,7 +1478,7 @@ id:STR172 rdf:type owl:NamedIndividual ,
 
 id:STR173 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C41186 ,
-			:Structure ;
+			glycoinfo:Compound ;
 		:glytoucanId glycoinfo:G47812NS ;
 		foaf:homepage <https://sugarbind.expasy.org/structures/173> ;
 		dcterms:references <https://sugarbind.expasy.org/structures/173> ;
@@ -1486,7 +1486,7 @@ id:STR173 rdf:type owl:NamedIndividual ,
 
 id:STR174 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C41186 ,
-			:Structure ;
+			glycoinfo:Compound ;
 		:glytoucanId glycoinfo:G62593IS ;
 		foaf:homepage <https://sugarbind.expasy.org/structures/174> ;
 		dcterms:references <https://sugarbind.expasy.org/structures/174> ;
@@ -1494,7 +1494,7 @@ id:STR174 rdf:type owl:NamedIndividual ,
 
 id:STR175 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C41186 ,
-			:Structure ;
+			glycoinfo:Compound ;
 		:glytoucanId glycoinfo:G59168YE ;
 		foaf:homepage <https://sugarbind.expasy.org/structures/175> ;
 		dcterms:references <https://sugarbind.expasy.org/structures/175> ;
@@ -1502,7 +1502,7 @@ id:STR175 rdf:type owl:NamedIndividual ,
 
 id:STR176 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C41186 ,
-			:Structure ;
+			glycoinfo:Compound ;
 		:glytoucanId glycoinfo:G59508TM ;
 		foaf:homepage <https://sugarbind.expasy.org/structures/176> ;
 		dcterms:references <https://sugarbind.expasy.org/structures/176> ;
@@ -1510,7 +1510,7 @@ id:STR176 rdf:type owl:NamedIndividual ,
 
 id:STR177 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C41186 ,
-			:Structure ;
+			glycoinfo:Compound ;
 		:glytoucanId glycoinfo:G32417JV ;
 		foaf:homepage <https://sugarbind.expasy.org/structures/177> ;
 		dcterms:references <https://sugarbind.expasy.org/structures/177> ;
@@ -1518,7 +1518,7 @@ id:STR177 rdf:type owl:NamedIndividual ,
 
 id:STR178 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C41186 ,
-			:Structure ;
+			glycoinfo:Compound ;
 		:glytoucanId glycoinfo:G00998NI ;
 		foaf:homepage <https://sugarbind.expasy.org/structures/178> ;
 		dcterms:references <https://sugarbind.expasy.org/structures/178> ;
@@ -1526,7 +1526,7 @@ id:STR178 rdf:type owl:NamedIndividual ,
 
 id:STR179 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C41186 ,
-			:Structure ;
+			glycoinfo:Compound ;
 		:glytoucanId glycoinfo:G28528AG ;
 		foaf:homepage <https://sugarbind.expasy.org/structures/179> ;
 		dcterms:references <https://sugarbind.expasy.org/structures/179> ;
@@ -1534,7 +1534,7 @@ id:STR179 rdf:type owl:NamedIndividual ,
 
 id:STR180 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C41186 ,
-			:Structure ;
+			glycoinfo:Compound ;
 		:glytoucanId glycoinfo:G15021LG ;
 		foaf:homepage <https://sugarbind.expasy.org/structures/180> ;
 		dcterms:references <https://sugarbind.expasy.org/structures/180> ;
@@ -1542,7 +1542,7 @@ id:STR180 rdf:type owl:NamedIndividual ,
 
 id:STR181 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C41186 ,
-			:Structure ;
+			glycoinfo:Compound ;
 		:glytoucanId glycoinfo:G11485ID ;
 		foaf:homepage <https://sugarbind.expasy.org/structures/181> ;
 		dcterms:references <https://sugarbind.expasy.org/structures/181> ;
@@ -1550,7 +1550,7 @@ id:STR181 rdf:type owl:NamedIndividual ,
 
 id:STR182 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C41186 ,
-			:Structure ;
+			glycoinfo:Compound ;
 		:glytoucanId glycoinfo:G03506YN ;
 		foaf:homepage <https://sugarbind.expasy.org/structures/182> ;
 		dcterms:references <https://sugarbind.expasy.org/structures/182> ;
@@ -1558,7 +1558,7 @@ id:STR182 rdf:type owl:NamedIndividual ,
 
 id:STR183 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C41186 ,
-			:Structure ;
+			glycoinfo:Compound ;
 		:glytoucanId glycoinfo:G68158BT ;
 		foaf:homepage <https://sugarbind.expasy.org/structures/183> ;
 		dcterms:references <https://sugarbind.expasy.org/structures/183> ;
@@ -1566,7 +1566,7 @@ id:STR183 rdf:type owl:NamedIndividual ,
 
 id:STR184 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C41186 ,
-			:Structure ;
+			glycoinfo:Compound ;
 		:glytoucanId glycoinfo:G07490EK ;
 		foaf:homepage <https://sugarbind.expasy.org/structures/184> ;
 		dcterms:references <https://sugarbind.expasy.org/structures/184> ;
@@ -1574,7 +1574,7 @@ id:STR184 rdf:type owl:NamedIndividual ,
 
 id:STR185 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C41186 ,
-			:Structure ;
+			glycoinfo:Compound ;
 		:glytoucanId glycoinfo:G51379UR ;
 		foaf:homepage <https://sugarbind.expasy.org/structures/185> ;
 		dcterms:references <https://sugarbind.expasy.org/structures/185> ;
@@ -1582,7 +1582,7 @@ id:STR185 rdf:type owl:NamedIndividual ,
 
 id:STR187 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C41186 ,
-			:Structure ;
+			glycoinfo:Compound ;
 		:glytoucanId glycoinfo:G89659QV ;
 		foaf:homepage <https://sugarbind.expasy.org/structures/187> ;
 		dcterms:references <https://sugarbind.expasy.org/structures/187> ;
@@ -1590,7 +1590,7 @@ id:STR187 rdf:type owl:NamedIndividual ,
 
 id:STR188 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C41186 ,
-			:Structure ;
+			glycoinfo:Compound ;
 		:glytoucanId glycoinfo:G48236KP ;
 		foaf:homepage <https://sugarbind.expasy.org/structures/188> ;
 		dcterms:references <https://sugarbind.expasy.org/structures/188> ;
@@ -1598,7 +1598,7 @@ id:STR188 rdf:type owl:NamedIndividual ,
 
 id:STR189 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C41186 ,
-			:Structure ;
+			glycoinfo:Compound ;
 		:glytoucanId glycoinfo:G72506RN ;
 		foaf:homepage <https://sugarbind.expasy.org/structures/189> ;
 		dcterms:references <https://sugarbind.expasy.org/structures/189> ;
@@ -1606,7 +1606,7 @@ id:STR189 rdf:type owl:NamedIndividual ,
 
 id:STR190 rdf:type owl:NamedIndividual ,
 			obo:NCIT_C41186 ,
-			:Structure ;
+			glycoinfo:Compound ;
 		:glytoucanId glycoinfo:G17108EX ;
 		foaf:homepage <https://sugarbind.expasy.org/structures/190> ;
 		dcterms:references <https://sugarbind.expasy.org/structures/190> ;
