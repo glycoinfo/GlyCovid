@@ -1,4 +1,4 @@
-@prefix : <http://rdf.glycoinfo.org/SugarBind/Ontology#> .
+@prefix : <http://rdf.glycoinfo.org/SugarBind/ontology#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
@@ -378,7 +378,7 @@
                                  rdfs:range rdfs:Literal .
 
 
-###  http://rdf.glycoinfo.org/SugarBind/Ontology#LingadId
+###  http://rdf.glycoinfo.org/SugarBind/ontology#LingadId
 :LingadId rdf:type owl:AnnotationProperty .
 
 
@@ -452,72 +452,72 @@ xsd:date rdf:type rdfs:Datatype .
                                                          rdfs:range :Lectin .
 
 
-###  http://rdf.glycoinfo.org/SugarBind/Ontology#caused_at
+###  http://rdf.glycoinfo.org/SugarBind/ontology#caused_at
 :caused_at rdf:type owl:ObjectProperty ;
            rdfs:domain :Disease ;
            rdfs:range :Area .
 
 
-###  http://rdf.glycoinfo.org/SugarBind/Ontology#caused_by
+###  http://rdf.glycoinfo.org/SugarBind/ontology#caused_by
 :caused_by rdf:type owl:ObjectProperty ;
            rdfs:domain :Disease ;
            rdfs:range :Agent .
 
 
-###  http://rdf.glycoinfo.org/SugarBind/Ontology#causes
+###  http://rdf.glycoinfo.org/SugarBind/ontology#causes
 :causes rdf:type owl:ObjectProperty ;
         rdfs:domain :Agent ;
         rdfs:range :Disease .
 
 
-###  http://rdf.glycoinfo.org/SugarBind/Ontology#found_in
+###  http://rdf.glycoinfo.org/SugarBind/ontology#found_in
 :found_in rdf:type owl:ObjectProperty ;
           rdfs:domain :Agent ;
           rdfs:range :Area .
 
 
-###  http://rdf.glycoinfo.org/SugarBind/Ontology#has_agent
+###  http://rdf.glycoinfo.org/SugarBind/ontology#has_agent
 :has_agent rdf:type owl:ObjectProperty ;
            rdfs:domain :ReferencedInteraction ;
            rdfs:range :Agent .
 
 
-###  http://rdf.glycoinfo.org/SugarBind/Ontology#has_area
+###  http://rdf.glycoinfo.org/SugarBind/ontology#has_area
 :has_area rdf:type owl:ObjectProperty ;
           rdfs:domain :ReferencedInteraction ;
           rdfs:range :Area .
 
 
-###  http://rdf.glycoinfo.org/SugarBind/Ontology#has_lectin
+###  http://rdf.glycoinfo.org/SugarBind/ontology#has_lectin
 :has_lectin rdf:type owl:ObjectProperty ;
             rdfs:domain :ReferencedInteraction ;
             rdfs:range :Lectin .
 
 
-###  http://rdf.glycoinfo.org/SugarBind/Ontology#has_ligand
+###  http://rdf.glycoinfo.org/SugarBind/ontology#has_ligand
 :has_ligand rdf:type owl:ObjectProperty ;
             rdfs:domain :ReferencedInteraction ;
             rdfs:range :Ligand .
 
 
-###  http://rdf.glycoinfo.org/SugarBind/Ontology#has_pubmed
-:has_pubmed rdf:type owl:ObjectProperty ;
+###  http://rdf.glycoinfo.org/SugarBind/ontology#has_citation
+:has_citation rdf:type owl:ObjectProperty ;
             rdfs:domain :ReferencedInteraction ;
             rdfs:range :Pubmed .
 
 
-###  http://rdf.glycoinfo.org/SugarBind/Ontology#has_structure
+###  http://rdf.glycoinfo.org/SugarBind/ontology#has_structure
 :has_structure rdf:type owl:ObjectProperty ;
                rdfs:domain :Ligand ;
                rdfs:range :Structure .
 
 
-###  http://rdf.glycoinfo.org/SugarBind/Ontology#isClassified
+###  http://rdf.glycoinfo.org/SugarBind/ontology#isClassified
 :isClassified rdf:type owl:ObjectProperty ;
               rdfs:domain :Area .
 
 
-###  http://rdf.glycoinfo.org/SugarBind/Ontology#lineage_up
+###  http://rdf.glycoinfo.org/SugarBind/ontology#lineage_up
 :lineage_up rdf:type owl:ObjectProperty ;
             rdfs:domain :Agent ;
             rdfs:range :Agent .
@@ -593,52 +593,52 @@ xsd:date rdf:type rdfs:Datatype .
 <http://rdf.glycoinfo.org/GlyCovidRDF/Ontology#binding_strength> rdf:type owl:DatatypeProperty .
 
 
-###  http://rdf.glycoinfo.org/SugarBind/Ontology#areaTypeId
+###  http://rdf.glycoinfo.org/SugarBind/ontology#areaTypeId
 :areaTypeId rdf:type owl:DatatypeProperty .
 
 
-###  http://rdf.glycoinfo.org/SugarBind/Ontology#glytoucanId
+###  http://rdf.glycoinfo.org/SugarBind/ontology#glytoucanId
 :glytoucanId rdf:type owl:DatatypeProperty ;
              rdfs:subPropertyOf <http://purl.org/dc/terms/identifier> ;
              rdfs:domain :Structure .
 
 
-###  http://rdf.glycoinfo.org/SugarBind/Ontology#gold
+###  http://rdf.glycoinfo.org/SugarBind/ontology#gold
 :gold rdf:type owl:DatatypeProperty ;
       rdfs:domain :Agent .
 
 
-###  http://rdf.glycoinfo.org/SugarBind/Ontology#hamap
+###  http://rdf.glycoinfo.org/SugarBind/ontology#hamap
 :hamap rdf:type owl:DatatypeProperty ;
        rdfs:domain :Agent .
 
 
-###  http://rdf.glycoinfo.org/SugarBind/Ontology#structureId
+###  http://rdf.glycoinfo.org/SugarBind/ontology#structureId
 :structureId rdf:type owl:DatatypeProperty ;
              rdfs:domain :Structure .
 
 
-###  http://rdf.glycoinfo.org/SugarBind/Ontology#taxonomyId
+###  http://rdf.glycoinfo.org/SugarBind/ontology#taxonomyId
 :taxonomyId rdf:type owl:DatatypeProperty ;
             rdfs:domain :Agent .
 
 
-###  http://rdf.glycoinfo.org/SugarBind/Ontology#taxonomyLevel
+###  http://rdf.glycoinfo.org/SugarBind/ontology#taxonomyLevel
 :taxonomyLevel rdf:type owl:DatatypeProperty ;
                rdfs:domain :Agent .
 
 
-###  http://rdf.glycoinfo.org/SugarBind/Ontology#uniprotId
+###  http://rdf.glycoinfo.org/SugarBind/ontology#uniprotId
 :uniprotId rdf:type owl:DatatypeProperty ;
            rdfs:domain :Lectin .
 
 
-###  http://rdf.glycoinfo.org/SugarBind/Ontology#viralzone
+###  http://rdf.glycoinfo.org/SugarBind/ontology#viralzone
 :viralzone rdf:type owl:DatatypeProperty ;
            rdfs:domain :Agent .
 
 
-###  http://rdf.glycoinfo.org/SugarBind/Ontology#viralzoneLabel
+###  http://rdf.glycoinfo.org/SugarBind/ontology#viralzoneLabel
 :viralzoneLabel rdf:type owl:DatatypeProperty ;
                 rdfs:domain :Agent .
 
@@ -748,69 +748,72 @@ xsd:date rdf:type rdfs:Datatype .
 <http://purl.org/dc/terms/Standard> rdf:type owl:Class .
 
 
-###  http://rdf.glycoinfo.org/SugarBind/Ontology#Agent
+###  http://rdf.glycoinfo.org/SugarBind/ontology#Agent
 :Agent rdf:type owl:Class ;
        rdfs:label "Agent"@en .
 
 
-###  http://rdf.glycoinfo.org/SugarBind/Ontology#Area
+###  http://rdf.glycoinfo.org/SugarBind/ontology#Area
 :Area rdf:type owl:Class ;
       rdfs:label "Area"@en .
 
 
-###  http://rdf.glycoinfo.org/SugarBind/Ontology#AreaType
+###  http://rdf.glycoinfo.org/SugarBind/ontology#AreaType
 :AreaType rdf:type owl:Class .
 
 
-###  http://rdf.glycoinfo.org/SugarBind/Ontology#Cell
+###  http://rdf.glycoinfo.org/SugarBind/ontology#Cell
 :Cell rdf:type owl:Class ;
       rdfs:subClassOf :AreaType ;
       rdfs:label "Cell"@en .
 
 
-###  http://rdf.glycoinfo.org/SugarBind/Ontology#Disease
+###  http://rdf.glycoinfo.org/SugarBind/ontology#Disease
 :Disease rdf:type owl:Class ;
          rdfs:label "Disease"@en .
 
 
-###  http://rdf.glycoinfo.org/SugarBind/Ontology#Lectin
+###  http://rdf.glycoinfo.org/SugarBind/ontology#Lectin
 :Lectin rdf:type owl:Class ;
         rdfs:label "Lectin"^^xsd:string .
 
 
-###  http://rdf.glycoinfo.org/SugarBind/Ontology#Ligand
+###  http://rdf.glycoinfo.org/SugarBind/ontology#Ligand
 :Ligand rdf:type owl:Class ;
         rdfs:label "Ligand"^^xsd:string .
 
 
-###  http://rdf.glycoinfo.org/SugarBind/Ontology#Organ
+###  http://rdf.glycoinfo.org/SugarBind/ontology#Organ
 :Organ rdf:type owl:Class ;
        rdfs:subClassOf :AreaType ;
        rdfs:label "Organ"@en .
 
 
-###  http://rdf.glycoinfo.org/SugarBind/Ontology#Pubmed
+###  http://rdf.glycoinfo.org/SugarBind/ontology#Pubmed
 :Pubmed rdf:type owl:Class ;
         rdfs:label "Pubmed"^^xsd:string .
 
+###  http://rdf.glycoinfo.org/glycan/Citation
+<http://rdf.glycoinfo.org/glycan/Citation> rdf:type owl:Class ;
+                                      rdfs:subClassOf :Pubmed .
 
-###  http://rdf.glycoinfo.org/SugarBind/Ontology#ReferencedInteraction
+###  http://rdf.glycoinfo.org/SugarBind/ontology#ReferencedInteraction
 :ReferencedInteraction rdf:type owl:Class ;
                        rdfs:label "ReferencedInteraction"^^xsd:string .
 
 
-###  http://rdf.glycoinfo.org/SugarBind/Ontology#Structure
+###  http://rdf.glycoinfo.org/SugarBind/ontology#Structure
 :Structure rdf:type owl:Class ;
            rdfs:label "Structure"^^xsd:string .
 
 
-###  http://rdf.glycoinfo.org/SugarBind/Ontology#System
+###  http://rdf.glycoinfo.org/SugarBind/ontology#System
 :System rdf:type owl:Class ;
         rdfs:subClassOf :AreaType ;
         rdfs:label "System"@en .
 
 
-###  http://rdf.glycoinfo.org/SugarBind/Ontology#Tissue
+###  http://rdf.glycoinfo.org/SugarBind/ontology#Tissue
 :Tissue rdf:type owl:Class ;
         rdfs:subClassOf :AreaType ;
         rdfs:label "Tissue"@en .
