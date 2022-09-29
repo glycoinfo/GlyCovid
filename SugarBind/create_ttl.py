@@ -10,7 +10,7 @@ PREFIX = '@prefix : <http://rdf.glycoinfo.org/SugarBind/ontology#> .\n\
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .\n\
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .\n\
 @prefix glycoinfo: <http://rdf.glycoinfo.org/glycan/> .\n\
-@prefix glycann: <http://purl.jp/bio/12/glyco/glycan> .\n\
+@prefix glycan: <http://purl.jp/bio/12/glyco/glycan> .\n\
 @prefix obo: <http://purl.obolibrary.org/obo/> .\n\
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .\n\
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .\n\
