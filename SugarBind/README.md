@@ -7,6 +7,7 @@ This project includes
 - example data and output folder  
 - extended ontology [ontology_v2_yvk.owl]
 for scraping [SugarBind](https://sugarbind.expasy.org "リンク") and making ttl files.
+- [miro schema](https://miro.com/app/board/uXjVOh2Qj-E=/?share_link_id=186509415095)
 
 ## Steps to make integrated ttl file
 ### Step 0
