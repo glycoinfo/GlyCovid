@@ -6,6 +6,7 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix glycoinfo: <http://rdf.glycoinfo.org/glycan/> .
+@prefix glycan: <http://purl.jp/bio/12/glyco/glycan#> .
 @base <http://purl.jp/bio/12/glyco/diseases#> .
 
 <http://purl.jp/bio/12/glyco/diseases#> rdf:type owl:Ontology ;
@@ -503,7 +504,7 @@ xsd:date rdf:type rdfs:Datatype .
 ###  http://www.glycovid.org/SugarBind/Ontology#has_structure
 :has_structure rdf:type owl:ObjectProperty ;
                rdfs:domain :Ligand ;
-               rdfs:range :Structure .
+               rdfs:range glycan:Saccharide .
 
 
 ###  http://www.glycovid.org/SugarBind/Ontology#isClassified
