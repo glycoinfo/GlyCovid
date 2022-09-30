@@ -26,7 +26,7 @@ id:LIG1 rdf:type owl:NamedIndividual ,
 			:Ligand ;
 		foaf:homepage <https://sugarbind.expasy.org/ligands/1> ;
 		dcterms:references <https://sugarbind.expasy.org/ligands/1> ;
-		:has_structure id:STR1 ;
+		:has_structure glycoinfo:G65889KE ;
 		rdfs:label "LC"^^xsd:string ,
 			"Galactosylceramide"^^xsd:string ,
 			"GalCer"^^xsd:string .
@@ -36,7 +36,7 @@ id:LIG2 rdf:type owl:NamedIndividual ,
 			:Ligand ;
 		foaf:homepage <https://sugarbind.expasy.org/ligands/2> ;
 		dcterms:references <https://sugarbind.expasy.org/ligands/2> ;
-		:has_structure id:STR2 ;
+		:has_structure glycoinfo:G21856LC ;
 		rdfs:label "Asialo-GM1"^^xsd:string ,
 			"GgO4"^^xsd:string ,
 			"Gg4"^^xsd:string ,
@@ -49,7 +49,7 @@ id:LIG3 rdf:type owl:NamedIndividual ,
 			:Ligand ;
 		foaf:homepage <https://sugarbind.expasy.org/ligands/3> ;
 		dcterms:references <https://sugarbind.expasy.org/ligands/3> ;
-		:has_structure id:STR3 ;
+		:has_structure glycoinfo:G84224TW ;
 		rdfs:label "LacCer"^^xsd:string ,
 			"Lc2"^^xsd:string ,
 			"CDH"^^xsd:string ,
@@ -60,7 +60,7 @@ id:LIG4 rdf:type owl:NamedIndividual ,
 			:Ligand ;
 		foaf:homepage <https://sugarbind.expasy.org/ligands/4> ;
 		dcterms:references <https://sugarbind.expasy.org/ligands/4> ;
-		:has_structure id:STR4 ;
+		:has_structure glycoinfo:G90562PB ;
 		rdfs:label "Gg3"^^xsd:string ,
 			"Gangliotriaosylceramide"^^xsd:string ,
 			"Asialo-GM2"^^xsd:string ,
@@ -72,7 +72,7 @@ id:LIG5 rdf:type owl:NamedIndividual ,
 			:Ligand ;
 		foaf:homepage <https://sugarbind.expasy.org/ligands/5> ;
 		dcterms:references <https://sugarbind.expasy.org/ligands/5> ;
-		:has_structure id:STR5 ;
+		:has_structure glycoinfo:G71142DF ;
 		rdfs:label "Glucosylceramide"^^xsd:string ,
 			"GlcCer"^^xsd:string ,
 			"CMH"^^xsd:string ,
@@ -83,7 +83,7 @@ id:LIG6 rdf:type owl:NamedIndividual ,
 			:Ligand ;
 		foaf:homepage <https://sugarbind.expasy.org/ligands/6> ;
 		dcterms:references <https://sugarbind.expasy.org/ligands/6> ;
-		:has_structure id:STR6 ;
+		:has_structure glycoinfo:G74621DY ;
 		rdfs:label "6"^^xsd:string .
 
 id:LIG7 rdf:type owl:NamedIndividual ,
@@ -91,7 +91,7 @@ id:LIG7 rdf:type owl:NamedIndividual ,
 			:Ligand ;
 		foaf:homepage <https://sugarbind.expasy.org/ligands/7> ;
 		dcterms:references <https://sugarbind.expasy.org/ligands/7> ;
-		:has_structure id:STR7 ;
+		:has_structure glycoinfo:G68158BT ;
 		rdfs:label "Gal"^^xsd:string ,
 			"Galactose"^^xsd:string .
 
@@ -100,7 +100,7 @@ id:LIG8 rdf:type owl:NamedIndividual ,
 			:Ligand ;
 		foaf:homepage <https://sugarbind.expasy.org/ligands/8> ;
 		dcterms:references <https://sugarbind.expasy.org/ligands/8> ;
-		:has_structure id:STR8 ;
+		:has_structure glycoinfo:G78436BB ;
 		rdfs:label "8"^^xsd:string .
 
 id:LIG9 rdf:type owl:NamedIndividual ,
@@ -108,7 +108,7 @@ id:LIG9 rdf:type owl:NamedIndividual ,
 			:Ligand ;
 		foaf:homepage <https://sugarbind.expasy.org/ligands/9> ;
 		dcterms:references <https://sugarbind.expasy.org/ligands/9> ;
-		:has_structure id:STR9 ;
+		:has_structure glycoinfo:G61418DU ;
 		rdfs:label "GalNAc"^^xsd:string ,
 			"N-acetyl-D-galactosamine"^^xsd:string .
 
@@ -117,7 +117,7 @@ id:LIG10 rdf:type owl:NamedIndividual ,
 			:Ligand ;
 		foaf:homepage <https://sugarbind.expasy.org/ligands/10> ;
 		dcterms:references <https://sugarbind.expasy.org/ligands/10> ;
-		:has_structure id:STR10 ;
+		:has_structure glycoinfo:G78074HX ;
 		rdfs:label "Isoglobotriaosylceramide"^^xsd:string ,
 			"Isoglobotri"^^xsd:string ,
 			"IGb3"^^xsd:string .
@@ -127,7 +127,7 @@ id:LIG11 rdf:type owl:NamedIndividual ,
 			:Ligand ;
 		foaf:homepage <https://sugarbind.expasy.org/ligands/11> ;
 		dcterms:references <https://sugarbind.expasy.org/ligands/11> ;
-		:has_structure id:STR11 ;
+		:has_structure glycoinfo:G54721WC ;
 		rdfs:label "11"^^xsd:string .
 
 id:LIG12 rdf:type owl:NamedIndividual ,
@@ -135,7 +135,7 @@ id:LIG12 rdf:type owl:NamedIndividual ,
 			:Ligand ;
 		foaf:homepage <https://sugarbind.expasy.org/ligands/12> ;
 		dcterms:references <https://sugarbind.expasy.org/ligands/12> ;
-		:has_structure id:STR12 ;
+		:has_structure glycoinfo:G99053DY ;
 		rdfs:label "Stage-specific embryonic antigen-3"^^xsd:string ,
 			"Gal(b1-3) globoside"^^xsd:string ,
 			"SSEA-3"^^xsd:string .
@@ -145,7 +145,7 @@ id:LIG13 rdf:type owl:NamedIndividual ,
 			:Ligand ;
 		foaf:homepage <https://sugarbind.expasy.org/ligands/13> ;
 		dcterms:references <https://sugarbind.expasy.org/ligands/13> ;
-		:has_structure id:STR13 ;
+		:has_structure glycoinfo:G48558GR ;
 		rdfs:label "GM1"^^xsd:string ,
 			"GM1a"^^xsd:string ,
 			"NeuAc-GM1"^^xsd:string ,
@@ -157,7 +157,7 @@ id:LIG14 rdf:type owl:NamedIndividual ,
 			:Ligand ;
 		foaf:homepage <https://sugarbind.expasy.org/ligands/14> ;
 		dcterms:references <https://sugarbind.expasy.org/ligands/14> ;
-		:has_structure id:STR14 ;
+		:has_structure glycoinfo:G37184KW ;
 		rdfs:label "GD1b"^^xsd:string ,
 			"Disialoganglioside"^^xsd:string ,
 			"NeuAc-GD1b"^^xsd:string ,
@@ -168,7 +168,7 @@ id:LIG15 rdf:type owl:NamedIndividual ,
 			:Ligand ;
 		foaf:homepage <https://sugarbind.expasy.org/ligands/15> ;
 		dcterms:references <https://sugarbind.expasy.org/ligands/15> ;
-		:has_structure id:STR15 ;
+		:has_structure glycoinfo:G58896AZ ;
 		rdfs:label "Paragloboside"^^xsd:string ,
 			"NLc4"^^xsd:string ,
 			"Neolactotetraosylceramide"^^xsd:string .
@@ -185,7 +185,7 @@ id:LIG17 rdf:type owl:NamedIndividual ,
 			:Ligand ;
 		foaf:homepage <https://sugarbind.expasy.org/ligands/17> ;
 		dcterms:references <https://sugarbind.expasy.org/ligands/17> ;
-		:has_structure id:STR17 ;
+		:has_structure glycoinfo:G57710SU ;
 		rdfs:label "17"^^xsd:string .
 
 id:LIG18 rdf:type owl:NamedIndividual ,
@@ -193,7 +193,7 @@ id:LIG18 rdf:type owl:NamedIndividual ,
 			:Ligand ;
 		foaf:homepage <https://sugarbind.expasy.org/ligands/18> ;
 		dcterms:references <https://sugarbind.expasy.org/ligands/18> ;
-		:has_structure id:STR18 ;
+		:has_structure glycoinfo:G00061MO ;
 		rdfs:label "Globotetraosylceramide"^^xsd:string ,
 			"Globoside"^^xsd:string ,
 			"Gb4"^^xsd:string .
@@ -203,7 +203,7 @@ id:LIG19 rdf:type owl:NamedIndividual ,
 			:Ligand ;
 		foaf:homepage <https://sugarbind.expasy.org/ligands/19> ;
 		dcterms:references <https://sugarbind.expasy.org/ligands/19> ;
-		:has_structure id:STR19 ;
+		:has_structure glycoinfo:G51699SI ;
 		rdfs:label "19"^^xsd:string .
 
 id:LIG20 rdf:type owl:NamedIndividual ,
@@ -211,7 +211,7 @@ id:LIG20 rdf:type owl:NamedIndividual ,
 			:Ligand ;
 		foaf:homepage <https://sugarbind.expasy.org/ligands/20> ;
 		dcterms:references <https://sugarbind.expasy.org/ligands/20> ;
-		:has_structure id:STR20 ;
+		:has_structure glycoinfo:G06239NA ;
 		rdfs:label "Lc3"^^xsd:string ,
 			"Lactotriaosylceramide"^^xsd:string .
 
@@ -220,7 +220,7 @@ id:LIG21 rdf:type owl:NamedIndividual ,
 			:Ligand ;
 		foaf:homepage <https://sugarbind.expasy.org/ligands/21> ;
 		dcterms:references <https://sugarbind.expasy.org/ligands/21> ;
-		:has_structure id:STR21 ;
+		:has_structure glycoinfo:G87315SO ;
 		rdfs:label "21"^^xsd:string .
 
 id:LIG22 rdf:type owl:NamedIndividual ,
@@ -228,7 +228,7 @@ id:LIG22 rdf:type owl:NamedIndividual ,
 			:Ligand ;
 		foaf:homepage <https://sugarbind.expasy.org/ligands/22> ;
 		dcterms:references <https://sugarbind.expasy.org/ligands/22> ;
-		:has_structure id:STR22 ;
+		:has_structure glycoinfo:G46677TE ;
 		rdfs:label "Disialogangliotetraosylceramide"^^xsd:string ,
 			"GD1a"^^xsd:string .
 
@@ -237,7 +237,7 @@ id:LIG23 rdf:type owl:NamedIndividual ,
 			:Ligand ;
 		foaf:homepage <https://sugarbind.expasy.org/ligands/23> ;
 		dcterms:references <https://sugarbind.expasy.org/ligands/23> ;
-		:has_structure id:STR8 ;
+		:has_structure glycoinfo:G78436BB ;
 		rdfs:label "Sialophorin"^^xsd:string ,
 			"Leukosialin"^^xsd:string ,
 			"CD43"^^xsd:string ,
@@ -248,7 +248,7 @@ id:LIG24 rdf:type owl:NamedIndividual ,
 			:Ligand ;
 		foaf:homepage <https://sugarbind.expasy.org/ligands/24> ;
 		dcterms:references <https://sugarbind.expasy.org/ligands/24> ;
-		:has_structure id:STR8 ;
+		:has_structure glycoinfo:G78436BB ;
 		rdfs:label "Leukocyte common antigen"^^xsd:string ,
 			"CD45"^^xsd:string ,
 			"LCA"^^xsd:string .
@@ -258,7 +258,7 @@ id:LIG25 rdf:type owl:NamedIndividual ,
 			:Ligand ;
 		foaf:homepage <https://sugarbind.expasy.org/ligands/25> ;
 		dcterms:references <https://sugarbind.expasy.org/ligands/25> ;
-		:has_structure id:STR23 ;
+		:has_structure glycoinfo:G60859DF ;
 		rdfs:label "25"^^xsd:string .
 
 id:LIG26 rdf:type owl:NamedIndividual ,
@@ -266,7 +266,7 @@ id:LIG26 rdf:type owl:NamedIndividual ,
 			:Ligand ;
 		foaf:homepage <https://sugarbind.expasy.org/ligands/26> ;
 		dcterms:references <https://sugarbind.expasy.org/ligands/26> ;
-		:has_structure id:STR24 ;
+		:has_structure glycoinfo:G00049MO ;
 		rdfs:label "Lactotetraosylceramide"^^xsd:string ,
 			"Lc4"^^xsd:string .
 
@@ -275,7 +275,7 @@ id:LIG27 rdf:type owl:NamedIndividual ,
 			:Ligand ;
 		foaf:homepage <https://sugarbind.expasy.org/ligands/27> ;
 		dcterms:references <https://sugarbind.expasy.org/ligands/27> ;
-		:has_structure id:STR25 ;
+		:has_structure glycoinfo:G00059MO ;
 		rdfs:label "CTH"^^xsd:string ,
 			"Globotriaosylceramide"^^xsd:string ,
 			"Trihexosylceramide"^^xsd:string ,
@@ -286,7 +286,7 @@ id:LIG28 rdf:type owl:NamedIndividual ,
 			:Ligand ;
 		foaf:homepage <https://sugarbind.expasy.org/ligands/28> ;
 		dcterms:references <https://sugarbind.expasy.org/ligands/28> ;
-		:has_structure id:STR26 ;
+		:has_structure glycoinfo:G40183QN ;
 		rdfs:label "Trisialogangliotetraosylceramide"^^xsd:string ,
 			"NeuAc-GT1b"^^xsd:string ,
 			"GT1b"^^xsd:string .
@@ -296,7 +296,7 @@ id:LIG29 rdf:type owl:NamedIndividual ,
 			:Ligand ;
 		foaf:homepage <https://sugarbind.expasy.org/ligands/29> ;
 		dcterms:references <https://sugarbind.expasy.org/ligands/29> ;
-		:has_structure id:STR27 ;
+		:has_structure glycoinfo:G04616ST ;
 		rdfs:label "29"^^xsd:string .
 
 id:LIG30 rdf:type owl:NamedIndividual ,
@@ -304,7 +304,7 @@ id:LIG30 rdf:type owl:NamedIndividual ,
 			:Ligand ;
 		foaf:homepage <https://sugarbind.expasy.org/ligands/30> ;
 		dcterms:references <https://sugarbind.expasy.org/ligands/30> ;
-		:has_structure id:STR28 ;
+		:has_structure glycoinfo:G51331BY ;
 		rdfs:label "30"^^xsd:string .
 
 id:LIG31 rdf:type owl:NamedIndividual ,
@@ -312,7 +312,7 @@ id:LIG31 rdf:type owl:NamedIndividual ,
 			:Ligand ;
 		foaf:homepage <https://sugarbind.expasy.org/ligands/31> ;
 		dcterms:references <https://sugarbind.expasy.org/ligands/31> ;
-		:has_structure id:STR29 ;
+		:has_structure glycoinfo:G62763GO ;
 		rdfs:label "Galabiose"^^xsd:string ,
 			"Digalactoside"^^xsd:string ,
 			"Ga2"^^xsd:string .
@@ -322,7 +322,7 @@ id:LIG32 rdf:type owl:NamedIndividual ,
 			:Ligand ;
 		foaf:homepage <https://sugarbind.expasy.org/ligands/32> ;
 		dcterms:references <https://sugarbind.expasy.org/ligands/32> ;
-		:has_structure id:STR30 ;
+		:has_structure glycoinfo:G67988RO ;
 		rdfs:label "Digalactosylceramide"^^xsd:string ,
 			"Galabiosylceramide"^^xsd:string .
 
@@ -331,7 +331,7 @@ id:LIG33 rdf:type owl:NamedIndividual ,
 			:Ligand ;
 		foaf:homepage <https://sugarbind.expasy.org/ligands/33> ;
 		dcterms:references <https://sugarbind.expasy.org/ligands/33> ;
-		:has_structure id:STR31 ;
+		:has_structure glycoinfo:G20624LQ ;
 		rdfs:label "Pentasaccharide N-linked glycan core"^^xsd:string ,
 			"3a,6a-mannopentaose"^^xsd:string .
 
@@ -340,7 +340,7 @@ id:LIG34 rdf:type owl:NamedIndividual ,
 			:Ligand ;
 		foaf:homepage <https://sugarbind.expasy.org/ligands/34> ;
 		dcterms:references <https://sugarbind.expasy.org/ligands/34> ;
-		:has_structure id:STR32 ;
+		:has_structure glycoinfo:G39064VB ;
 		rdfs:label "34"^^xsd:string .
 
 id:LIG35 rdf:type owl:NamedIndividual ,
@@ -348,7 +348,7 @@ id:LIG35 rdf:type owl:NamedIndividual ,
 			:Ligand ;
 		foaf:homepage <https://sugarbind.expasy.org/ligands/35> ;
 		dcterms:references <https://sugarbind.expasy.org/ligands/35> ;
-		:has_structure id:STR33 ;
+		:has_structure glycoinfo:G81533KY ;
 		rdfs:label "NANA"^^xsd:string ,
 			"Sialic acid"^^xsd:string ,
 			"NeuAc"^^xsd:string ,
@@ -359,7 +359,7 @@ id:LIG36 rdf:type owl:NamedIndividual ,
 			:Ligand ;
 		foaf:homepage <https://sugarbind.expasy.org/ligands/36> ;
 		dcterms:references <https://sugarbind.expasy.org/ligands/36> ;
-		:has_structure id:STR34 ;
+		:has_structure glycoinfo:G27025MB ;
 		rdfs:label "GalNAc"^^xsd:string ,
 			"N-acetylgalactosamine"^^xsd:string .
 
@@ -368,7 +368,7 @@ id:LIG37 rdf:type owl:NamedIndividual ,
 			:Ligand ;
 		foaf:homepage <https://sugarbind.expasy.org/ligands/37> ;
 		dcterms:references <https://sugarbind.expasy.org/ligands/37> ;
-		:has_structure id:STR35 ;
+		:has_structure glycoinfo:G91237TK ;
 		rdfs:label "3'SL"^^xsd:string ,
 			"Sialyl-3-lactose"^^xsd:string ,
 			"Alpha 2-3 sialyllactose"^^xsd:string .
@@ -378,7 +378,7 @@ id:LIG38 rdf:type owl:NamedIndividual ,
 			:Ligand ;
 		foaf:homepage <https://sugarbind.expasy.org/ligands/38> ;
 		dcterms:references <https://sugarbind.expasy.org/ligands/38> ;
-		:has_structure id:STR36 ;
+		:has_structure glycoinfo:G18625KA ;
 		rdfs:label "NeuAc-GQ1b"^^xsd:string ,
 			"GQ1b"^^xsd:string .
 
@@ -387,7 +387,7 @@ id:LIG39 rdf:type owl:NamedIndividual ,
 			:Ligand ;
 		foaf:homepage <https://sugarbind.expasy.org/ligands/39> ;
 		dcterms:references <https://sugarbind.expasy.org/ligands/39> ;
-		:has_structure id:STR37 ;
+		:has_structure glycoinfo:G77824XV ;
 		rdfs:label "Sai2-3Gal"^^xsd:string .
 
 id:LIG40 rdf:type owl:NamedIndividual ,
@@ -395,7 +395,7 @@ id:LIG40 rdf:type owl:NamedIndividual ,
 			:Ligand ;
 		foaf:homepage <https://sugarbind.expasy.org/ligands/40> ;
 		dcterms:references <https://sugarbind.expasy.org/ligands/40> ;
-		:has_structure id:STR38 ;
+		:has_structure glycoinfo:G03499BP ;
 		rdfs:label "40"^^xsd:string .
 
 id:LIG41 rdf:type owl:NamedIndividual ,
@@ -403,7 +403,7 @@ id:LIG41 rdf:type owl:NamedIndividual ,
 			:Ligand ;
 		foaf:homepage <https://sugarbind.expasy.org/ligands/41> ;
 		dcterms:references <https://sugarbind.expasy.org/ligands/41> ;
-		:has_structure id:STR39 ;
+		:has_structure glycoinfo:G79389NT ;
 		rdfs:label "NeuAc-GM2"^^xsd:string ,
 			"GM2"^^xsd:string .
 
@@ -412,7 +412,7 @@ id:LIG42 rdf:type owl:NamedIndividual ,
 			:Ligand ;
 		foaf:homepage <https://sugarbind.expasy.org/ligands/42> ;
 		dcterms:references <https://sugarbind.expasy.org/ligands/42> ;
-		:has_structure id:STR40 ;
+		:has_structure glycoinfo:G97569KL ;
 		rdfs:label "Disialylactose"^^xsd:string ,
 			"DiSai"^^xsd:string .
 
@@ -421,7 +421,7 @@ id:LIG43 rdf:type owl:NamedIndividual ,
 			:Ligand ;
 		foaf:homepage <https://sugarbind.expasy.org/ligands/43> ;
 		dcterms:references <https://sugarbind.expasy.org/ligands/43> ;
-		:has_structure id:STR41 ;
+		:has_structure glycoinfo:G61298NX ;
 		rdfs:label "43"^^xsd:string .
 
 id:LIG44 rdf:type owl:NamedIndividual ,
@@ -429,7 +429,7 @@ id:LIG44 rdf:type owl:NamedIndividual ,
 			:Ligand ;
 		foaf:homepage <https://sugarbind.expasy.org/ligands/44> ;
 		dcterms:references <https://sugarbind.expasy.org/ligands/44> ;
-		:has_structure id:STR42 ;
+		:has_structure glycoinfo:G70323CJ ;
 		rdfs:label "Mannose"^^xsd:string ,
 			"Man"^^xsd:string .
 
@@ -438,7 +438,7 @@ id:LIG45 rdf:type owl:NamedIndividual ,
 			:Ligand ;
 		foaf:homepage <https://sugarbind.expasy.org/ligands/45> ;
 		dcterms:references <https://sugarbind.expasy.org/ligands/45> ;
-		:has_structure id:STR43 ;
+		:has_structure glycoinfo:G00050MO ;
 		rdfs:label "H5 type 1"^^xsd:string .
 
 id:LIG46 rdf:type owl:NamedIndividual ,
@@ -446,7 +446,7 @@ id:LIG46 rdf:type owl:NamedIndividual ,
 			:Ligand ;
 		foaf:homepage <https://sugarbind.expasy.org/ligands/46> ;
 		dcterms:references <https://sugarbind.expasy.org/ligands/46> ;
-		:has_structure id:STR44 ;
+		:has_structure glycoinfo:G22689CV ;
 		rdfs:label "B Lewis b(7)"^^xsd:string ,
 			"B7 type 1"^^xsd:string .
 
@@ -455,7 +455,7 @@ id:LIG47 rdf:type owl:NamedIndividual ,
 			:Ligand ;
 		foaf:homepage <https://sugarbind.expasy.org/ligands/47> ;
 		dcterms:references <https://sugarbind.expasy.org/ligands/47> ;
-		:has_structure id:STR45 ;
+		:has_structure glycoinfo:G63238VS ;
 		rdfs:label "B6 type 1"^^xsd:string .
 
 id:LIG48 rdf:type owl:NamedIndividual ,
@@ -463,7 +463,7 @@ id:LIG48 rdf:type owl:NamedIndividual ,
 			:Ligand ;
 		foaf:homepage <https://sugarbind.expasy.org/ligands/48> ;
 		dcterms:references <https://sugarbind.expasy.org/ligands/48> ;
-		:has_structure id:STR46 ;
+		:has_structure glycoinfo:G71485PH ;
 		rdfs:label "A7 type 1"^^xsd:string .
 
 id:LIG49 rdf:type owl:NamedIndividual ,
@@ -478,7 +478,7 @@ id:LIG50 rdf:type owl:NamedIndividual ,
 			:Ligand ;
 		foaf:homepage <https://sugarbind.expasy.org/ligands/50> ;
 		dcterms:references <https://sugarbind.expasy.org/ligands/50> ;
-		:has_structure id:STR48 ;
+		:has_structure glycoinfo:G37830TX ;
 		rdfs:label "A7 type 4"^^xsd:string .
 
 id:LIG51 rdf:type owl:NamedIndividual ,
@@ -486,7 +486,7 @@ id:LIG51 rdf:type owl:NamedIndividual ,
 			:Ligand ;
 		foaf:homepage <https://sugarbind.expasy.org/ligands/51> ;
 		dcterms:references <https://sugarbind.expasy.org/ligands/51> ;
-		:has_structure id:STR49 ;
+		:has_structure glycoinfo:G04715SK ;
 		rdfs:label "A8 type 1"^^xsd:string .
 
 id:LIG52 rdf:type owl:NamedIndividual ,
@@ -494,7 +494,7 @@ id:LIG52 rdf:type owl:NamedIndividual ,
 			:Ligand ;
 		foaf:homepage <https://sugarbind.expasy.org/ligands/52> ;
 		dcterms:references <https://sugarbind.expasy.org/ligands/52> ;
-		:has_structure id:STR50 ;
+		:has_structure glycoinfo:G82858KU ;
 		rdfs:label "A6 type 1"^^xsd:string .
 
 id:LIG53 rdf:type owl:NamedIndividual ,
@@ -502,7 +502,7 @@ id:LIG53 rdf:type owl:NamedIndividual ,
 			:Ligand ;
 		foaf:homepage <https://sugarbind.expasy.org/ligands/53> ;
 		dcterms:references <https://sugarbind.expasy.org/ligands/53> ;
-		:has_structure id:STR51 ;
+		:has_structure glycoinfo:G65507FU ;
 		rdfs:label "Glycoprotein 2"^^xsd:string .
 
 id:LIG54 rdf:type owl:NamedIndividual ,
@@ -510,7 +510,7 @@ id:LIG54 rdf:type owl:NamedIndividual ,
 			:Ligand ;
 		foaf:homepage <https://sugarbind.expasy.org/ligands/54> ;
 		dcterms:references <https://sugarbind.expasy.org/ligands/54> ;
-		:has_structure id:STR52 ;
+		:has_structure glycoinfo:G00711NG ;
 		rdfs:label "Glycoprotein 1"^^xsd:string .
 
 id:LIG55 rdf:type owl:NamedIndividual ,
@@ -518,7 +518,7 @@ id:LIG55 rdf:type owl:NamedIndividual ,
 			:Ligand ;
 		foaf:homepage <https://sugarbind.expasy.org/ligands/55> ;
 		dcterms:references <https://sugarbind.expasy.org/ligands/55> ;
-		:has_structure id:STR53 ;
+		:has_structure glycoinfo:G76297JC ;
 		rdfs:label "Glycoprotein 3"^^xsd:string .
 
 id:LIG56 rdf:type owl:NamedIndividual ,
@@ -526,7 +526,7 @@ id:LIG56 rdf:type owl:NamedIndividual ,
 			:Ligand ;
 		foaf:homepage <https://sugarbind.expasy.org/ligands/56> ;
 		dcterms:references <https://sugarbind.expasy.org/ligands/56> ;
-		:has_structure id:STR54 ;
+		:has_structure glycoinfo:G26123AX ;
 		rdfs:label "Lea-5"^^xsd:string ,
 			"Lewis a"^^xsd:string .
 
@@ -535,7 +535,7 @@ id:LIG57 rdf:type owl:NamedIndividual ,
 			:Ligand ;
 		foaf:homepage <https://sugarbind.expasy.org/ligands/57> ;
 		dcterms:references <https://sugarbind.expasy.org/ligands/57> ;
-		:has_structure id:STR55 ;
+		:has_structure glycoinfo:G33224VN ;
 		rdfs:label "57"^^xsd:string .
 
 id:LIG58 rdf:type owl:NamedIndividual ,
@@ -543,7 +543,7 @@ id:LIG58 rdf:type owl:NamedIndividual ,
 			:Ligand ;
 		foaf:homepage <https://sugarbind.expasy.org/ligands/58> ;
 		dcterms:references <https://sugarbind.expasy.org/ligands/58> ;
-		:has_structure id:STR56 ;
+		:has_structure glycoinfo:G05357CB ;
 		rdfs:label "Gangliotetraosylceramide"^^xsd:string ,
 			"Gg4"^^xsd:string .
 
@@ -552,7 +552,7 @@ id:LIG59 rdf:type owl:NamedIndividual ,
 			:Ligand ;
 		foaf:homepage <https://sugarbind.expasy.org/ligands/59> ;
 		dcterms:references <https://sugarbind.expasy.org/ligands/59> ;
-		:has_structure id:STR57 ;
+		:has_structure glycoinfo:G97932OH ;
 		rdfs:label "Disialosyl galactosyl globoside"^^xsd:string ,
 			"DSGG"^^xsd:string .
 
@@ -561,7 +561,7 @@ id:LIG60 rdf:type owl:NamedIndividual ,
 			:Ligand ;
 		foaf:homepage <https://sugarbind.expasy.org/ligands/60> ;
 		dcterms:references <https://sugarbind.expasy.org/ligands/60> ;
-		:has_structure id:STR58 ;
+		:has_structure glycoinfo:G32254QI ;
 		rdfs:label "SGG"^^xsd:string ,
 			"Sialosyl gal-globoside"^^xsd:string ,
 			"Sialosyl galactosyl globoside"^^xsd:string .
@@ -571,7 +571,7 @@ id:LIG61 rdf:type owl:NamedIndividual ,
 			:Ligand ;
 		foaf:homepage <https://sugarbind.expasy.org/ligands/61> ;
 		dcterms:references <https://sugarbind.expasy.org/ligands/61> ;
-		:has_structure id:STR59 ;
+		:has_structure glycoinfo:G64581RP ;
 		rdfs:label "N-acetylglucosamine"^^xsd:string ,
 			"GlcNAc"^^xsd:string .
 
@@ -580,7 +580,7 @@ id:LIG62 rdf:type owl:NamedIndividual ,
 			:Ligand ;
 		foaf:homepage <https://sugarbind.expasy.org/ligands/62> ;
 		dcterms:references <https://sugarbind.expasy.org/ligands/62> ;
-		:has_structure id:STR60 ;
+		:has_structure glycoinfo:G67988RO ;
 		rdfs:label "62"^^xsd:string .
 
 id:LIG63 rdf:type owl:NamedIndividual ,
@@ -588,7 +588,7 @@ id:LIG63 rdf:type owl:NamedIndividual ,
 			:Ligand ;
 		foaf:homepage <https://sugarbind.expasy.org/ligands/63> ;
 		dcterms:references <https://sugarbind.expasy.org/ligands/63> ;
-		:has_structure id:STR61 ;
+		:has_structure glycoinfo:G98465JN ;
 		rdfs:label "Globo-H"^^xsd:string .
 
 id:LIG64 rdf:type owl:NamedIndividual ,
@@ -596,7 +596,7 @@ id:LIG64 rdf:type owl:NamedIndividual ,
 			:Ligand ;
 		foaf:homepage <https://sugarbind.expasy.org/ligands/64> ;
 		dcterms:references <https://sugarbind.expasy.org/ligands/64> ;
-		:has_structure id:STR48 ;
+		:has_structure glycoinfo:G37830TX ;
 		rdfs:label "Globo-A"^^xsd:string .
 
 id:LIG65 rdf:type owl:NamedIndividual ,
@@ -604,7 +604,7 @@ id:LIG65 rdf:type owl:NamedIndividual ,
 			:Ligand ;
 		foaf:homepage <https://sugarbind.expasy.org/ligands/65> ;
 		dcterms:references <https://sugarbind.expasy.org/ligands/65> ;
-		:has_structure id:STR62 ;
+		:has_structure glycoinfo:G72565QB ;
 		rdfs:label "Forssman"^^xsd:string .
 
 id:LIG66 rdf:type owl:NamedIndividual ,
@@ -612,7 +612,7 @@ id:LIG66 rdf:type owl:NamedIndividual ,
 			:Ligand ;
 		foaf:homepage <https://sugarbind.expasy.org/ligands/66> ;
 		dcterms:references <https://sugarbind.expasy.org/ligands/66> ;
-		:has_structure id:STR63 ;
+		:has_structure glycoinfo:G75789AR ;
 		rdfs:label "NeuGc-GM3"^^xsd:string ,
 			"GM3gc"^^xsd:string .
 
@@ -621,7 +621,7 @@ id:LIG67 rdf:type owl:NamedIndividual ,
 			:Ligand ;
 		foaf:homepage <https://sugarbind.expasy.org/ligands/67> ;
 		dcterms:references <https://sugarbind.expasy.org/ligands/67> ;
-		:has_structure id:STR64 ;
+		:has_structure glycoinfo:G70323CJ ;
 		rdfs:label "Mannose"^^xsd:string ,
 			"Man"^^xsd:string ,
 			"Alpha-linked mannose"^^xsd:string .
@@ -631,7 +631,7 @@ id:LIG68 rdf:type owl:NamedIndividual ,
 			:Ligand ;
 		foaf:homepage <https://sugarbind.expasy.org/ligands/68> ;
 		dcterms:references <https://sugarbind.expasy.org/ligands/68> ;
-		:has_structure id:STR65 ;
+		:has_structure glycoinfo:G30207PZ ;
 		rdfs:label "Sai2-3Gal"^^xsd:string .
 
 id:LIG69 rdf:type owl:NamedIndividual ,
@@ -639,7 +639,7 @@ id:LIG69 rdf:type owl:NamedIndividual ,
 			:Ligand ;
 		foaf:homepage <https://sugarbind.expasy.org/ligands/69> ;
 		dcterms:references <https://sugarbind.expasy.org/ligands/69> ;
-		:has_structure id:STR66 ;
+		:has_structure glycoinfo:G32969VW ;
 		rdfs:label "69"^^xsd:string .
 
 id:LIG70 rdf:type owl:NamedIndividual ,
@@ -647,7 +647,7 @@ id:LIG70 rdf:type owl:NamedIndividual ,
 			:Ligand ;
 		foaf:homepage <https://sugarbind.expasy.org/ligands/70> ;
 		dcterms:references <https://sugarbind.expasy.org/ligands/70> ;
-		:has_structure id:STR67 ;
+		:has_structure glycoinfo:G56299XO ;
 		rdfs:label "70"^^xsd:string .
 
 id:LIG71 rdf:type owl:NamedIndividual ,
@@ -655,7 +655,7 @@ id:LIG71 rdf:type owl:NamedIndividual ,
 			:Ligand ;
 		foaf:homepage <https://sugarbind.expasy.org/ligands/71> ;
 		dcterms:references <https://sugarbind.expasy.org/ligands/71> ;
-		:has_structure id:STR35 ;
+		:has_structure glycoinfo:G91237TK ;
 		rdfs:label "Hematoside"^^xsd:string ,
 			"GM3"^^xsd:string ,
 			"II3NeuAc LacCer"^^xsd:string ,
@@ -666,7 +666,7 @@ id:LIG72 rdf:type owl:NamedIndividual ,
 			:Ligand ;
 		foaf:homepage <https://sugarbind.expasy.org/ligands/72> ;
 		dcterms:references <https://sugarbind.expasy.org/ligands/72> ;
-		:has_structure id:STR68 ;
+		:has_structure glycoinfo:G70323CJ ;
 		rdfs:label "72"^^xsd:string .
 
 id:LIG73 rdf:type owl:NamedIndividual ,
@@ -674,7 +674,7 @@ id:LIG73 rdf:type owl:NamedIndividual ,
 			:Ligand ;
 		foaf:homepage <https://sugarbind.expasy.org/ligands/73> ;
 		dcterms:references <https://sugarbind.expasy.org/ligands/73> ;
-		:has_structure id:STR69 ;
+		:has_structure glycoinfo:G17780OR ;
 		rdfs:label "Mannotriose"^^xsd:string .
 
 id:LIG74 rdf:type owl:NamedIndividual ,
@@ -682,7 +682,7 @@ id:LIG74 rdf:type owl:NamedIndividual ,
 			:Ligand ;
 		foaf:homepage <https://sugarbind.expasy.org/ligands/74> ;
 		dcterms:references <https://sugarbind.expasy.org/ligands/74> ;
-		:has_structure id:STR70 ;
+		:has_structure glycoinfo:G07982RO ;
 		rdfs:label "74"^^xsd:string .
 
 id:LIG75 rdf:type owl:NamedIndividual ,
@@ -690,7 +690,7 @@ id:LIG75 rdf:type owl:NamedIndividual ,
 			:Ligand ;
 		foaf:homepage <https://sugarbind.expasy.org/ligands/75> ;
 		dcterms:references <https://sugarbind.expasy.org/ligands/75> ;
-		:has_structure id:STR71 ;
+		:has_structure glycoinfo:G50850NI ;
 		rdfs:label "N-acetylneuraminic acid"^^xsd:string ,
 			"NeuAc"^^xsd:string .
 
@@ -699,7 +699,7 @@ id:LIG76 rdf:type owl:NamedIndividual ,
 			:Ligand ;
 		foaf:homepage <https://sugarbind.expasy.org/ligands/76> ;
 		dcterms:references <https://sugarbind.expasy.org/ligands/76> ;
-		:has_structure id:STR72 ;
+		:has_structure glycoinfo:G56516VH ;
 		rdfs:label "3'SL"^^xsd:string ,
 			"Sialyl-3-lactose"^^xsd:string .
 
@@ -708,7 +708,7 @@ id:LIG77 rdf:type owl:NamedIndividual ,
 			:Ligand ;
 		foaf:homepage <https://sugarbind.expasy.org/ligands/77> ;
 		dcterms:references <https://sugarbind.expasy.org/ligands/77> ;
-		:has_structure id:STR73 ;
+		:has_structure glycoinfo:G47395XN ;
 		rdfs:label "Mannotriose"^^xsd:string .
 
 id:LIG78 rdf:type owl:NamedIndividual ,
@@ -716,7 +716,7 @@ id:LIG78 rdf:type owl:NamedIndividual ,
 			:Ligand ;
 		foaf:homepage <https://sugarbind.expasy.org/ligands/78> ;
 		dcterms:references <https://sugarbind.expasy.org/ligands/78> ;
-		:has_structure id:STR74 ;
+		:has_structure glycoinfo:G56478LD ;
 		rdfs:label "GM2gc"^^xsd:string ,
 			"NeuGc-GM2"^^xsd:string .
 
@@ -725,7 +725,7 @@ id:LIG79 rdf:type owl:NamedIndividual ,
 			:Ligand ;
 		foaf:homepage <https://sugarbind.expasy.org/ligands/79> ;
 		dcterms:references <https://sugarbind.expasy.org/ligands/79> ;
-		:has_structure id:STR30 ;
+		:has_structure glycoinfo:G67988RO ;
 		rdfs:label "Galabiosylceramide"^^xsd:string .
 
 id:LIG80 rdf:type owl:NamedIndividual ,
@@ -733,7 +733,7 @@ id:LIG80 rdf:type owl:NamedIndividual ,
 			:Ligand ;
 		foaf:homepage <https://sugarbind.expasy.org/ligands/80> ;
 		dcterms:references <https://sugarbind.expasy.org/ligands/80> ;
-		:has_structure id:STR75 ;
+		:has_structure glycoinfo:G95034OI ;
 		rdfs:label "Tetraosylceramide"^^xsd:string .
 
 id:LIG81 rdf:type owl:NamedIndividual ,
@@ -741,7 +741,7 @@ id:LIG81 rdf:type owl:NamedIndividual ,
 			:Ligand ;
 		foaf:homepage <https://sugarbind.expasy.org/ligands/81> ;
 		dcterms:references <https://sugarbind.expasy.org/ligands/81> ;
-		:has_structure id:STR76 ;
+		:has_structure glycoinfo:G83212YI ;
 		rdfs:label "Hexaosylceramide"^^xsd:string .
 
 id:LIG82 rdf:type owl:NamedIndividual ,
@@ -749,7 +749,7 @@ id:LIG82 rdf:type owl:NamedIndividual ,
 			:Ligand ;
 		foaf:homepage <https://sugarbind.expasy.org/ligands/82> ;
 		dcterms:references <https://sugarbind.expasy.org/ligands/82> ;
-		:has_structure id:STR77 ;
+		:has_structure glycoinfo:G72548RZ ;
 		rdfs:label "Sulfatide"^^xsd:string .
 
 id:LIG83 rdf:type owl:NamedIndividual ,
@@ -757,7 +757,7 @@ id:LIG83 rdf:type owl:NamedIndividual ,
 			:Ligand ;
 		foaf:homepage <https://sugarbind.expasy.org/ligands/83> ;
 		dcterms:references <https://sugarbind.expasy.org/ligands/83> ;
-		:has_structure id:STR78 ;
+		:has_structure glycoinfo:G20044TD ;
 		rdfs:label "Sulf-lactosylceramide"^^xsd:string .
 
 id:LIG84 rdf:type owl:NamedIndividual ,
@@ -765,7 +765,7 @@ id:LIG84 rdf:type owl:NamedIndividual ,
 			:Ligand ;
 		foaf:homepage <https://sugarbind.expasy.org/ligands/84> ;
 		dcterms:references <https://sugarbind.expasy.org/ligands/84> ;
-		:has_structure id:STR79 ;
+		:has_structure glycoinfo:G84034JH ;
 		rdfs:label "NLc6"^^xsd:string ,
 			"Neolactohexosylceramide"^^xsd:string .
 
@@ -774,7 +774,7 @@ id:LIG85 rdf:type owl:NamedIndividual ,
 			:Ligand ;
 		foaf:homepage <https://sugarbind.expasy.org/ligands/85> ;
 		dcterms:references <https://sugarbind.expasy.org/ligands/85> ;
-		:has_structure id:STR70 ;
+		:has_structure glycoinfo:G07982RO ;
 		rdfs:label "Chitobios"^^xsd:string .
 
 id:LIG86 rdf:type owl:NamedIndividual ,
@@ -782,7 +782,7 @@ id:LIG86 rdf:type owl:NamedIndividual ,
 			:Ligand ;
 		foaf:homepage <https://sugarbind.expasy.org/ligands/86> ;
 		dcterms:references <https://sugarbind.expasy.org/ligands/86> ;
-		:has_structure id:STR80 ;
+		:has_structure glycoinfo:G82576YO ;
 		rdfs:label "Fuc"^^xsd:string ,
 			"L-Fucose"^^xsd:string ,
 			"Fucose"^^xsd:string .
@@ -792,7 +792,7 @@ id:LIG87 rdf:type owl:NamedIndividual ,
 			:Ligand ;
 		foaf:homepage <https://sugarbind.expasy.org/ligands/87> ;
 		dcterms:references <https://sugarbind.expasy.org/ligands/87> ;
-		:has_structure id:STR81 ;
+		:has_structure glycoinfo:G78260AJ ;
 		rdfs:label "87"^^xsd:string .
 
 id:LIG88 rdf:type owl:NamedIndividual ,
@@ -800,7 +800,7 @@ id:LIG88 rdf:type owl:NamedIndividual ,
 			:Ligand ;
 		foaf:homepage <https://sugarbind.expasy.org/ligands/88> ;
 		dcterms:references <https://sugarbind.expasy.org/ligands/88> ;
-		:has_structure id:STR82 ;
+		:has_structure glycoinfo:G65889KE ;
 		rdfs:label "Beta-linked galactose"^^xsd:string .
 
 id:LIG89 rdf:type owl:NamedIndividual ,
@@ -808,7 +808,7 @@ id:LIG89 rdf:type owl:NamedIndividual ,
 			:Ligand ;
 		foaf:homepage <https://sugarbind.expasy.org/ligands/89> ;
 		dcterms:references <https://sugarbind.expasy.org/ligands/89> ;
-		:has_structure id:STR83 ;
+		:has_structure glycoinfo:G88796WA ;
 		rdfs:label "Gb5"^^xsd:string .
 
 id:LIG90 rdf:type owl:NamedIndividual ,
@@ -816,7 +816,7 @@ id:LIG90 rdf:type owl:NamedIndividual ,
 			:Ligand ;
 		foaf:homepage <https://sugarbind.expasy.org/ligands/90> ;
 		dcterms:references <https://sugarbind.expasy.org/ligands/90> ;
-		:has_structure id:STR84 ;
+		:has_structure glycoinfo:G19336PT ;
 		rdfs:label "GL-III"^^xsd:string .
 
 id:LIG91 rdf:type owl:NamedIndividual ,
@@ -824,7 +824,7 @@ id:LIG91 rdf:type owl:NamedIndividual ,
 			:Ligand ;
 		foaf:homepage <https://sugarbind.expasy.org/ligands/91> ;
 		dcterms:references <https://sugarbind.expasy.org/ligands/91> ;
-		:has_structure id:STR85 ;
+		:has_structure glycoinfo:G62971NJ ;
 		rdfs:label "GL-II"^^xsd:string .
 
 id:LIG92 rdf:type owl:NamedIndividual ,
@@ -832,7 +832,7 @@ id:LIG92 rdf:type owl:NamedIndividual ,
 			:Ligand ;
 		foaf:homepage <https://sugarbind.expasy.org/ligands/92> ;
 		dcterms:references <https://sugarbind.expasy.org/ligands/92> ;
-		:has_structure id:STR86 ;
+		:has_structure glycoinfo:G80062GG ;
 		rdfs:label "Forssman glycolipid"^^xsd:string .
 
 id:LIG93 rdf:type owl:NamedIndividual ,
@@ -840,7 +840,7 @@ id:LIG93 rdf:type owl:NamedIndividual ,
 			:Ligand ;
 		foaf:homepage <https://sugarbind.expasy.org/ligands/93> ;
 		dcterms:references <https://sugarbind.expasy.org/ligands/93> ;
-		:has_structure id:STR87 ;
+		:has_structure glycoinfo:G24034CH ;
 		rdfs:label "NeuGc-GM1"^^xsd:string ,
 			"II3Neu5GcGg4Cer, GM1(Gc)"^^xsd:string .
 
@@ -849,7 +849,7 @@ id:LIG94 rdf:type owl:NamedIndividual ,
 			:Ligand ;
 		foaf:homepage <https://sugarbind.expasy.org/ligands/94> ;
 		dcterms:references <https://sugarbind.expasy.org/ligands/94> ;
-		:has_structure id:STR88 ;
+		:has_structure glycoinfo:G02657AK ;
 		rdfs:label "NeuAc-GD2"^^xsd:string ,
 			"GD2"^^xsd:string .
 
@@ -858,7 +858,7 @@ id:LIG95 rdf:type owl:NamedIndividual ,
 			:Ligand ;
 		foaf:homepage <https://sugarbind.expasy.org/ligands/95> ;
 		dcterms:references <https://sugarbind.expasy.org/ligands/95> ;
-		:has_structure id:STR89 ;
+		:has_structure glycoinfo:G98544DH ;
 		rdfs:label "GD3"^^xsd:string .
 
 id:LIG96 rdf:type owl:NamedIndividual ,
@@ -866,7 +866,7 @@ id:LIG96 rdf:type owl:NamedIndividual ,
 			:Ligand ;
 		foaf:homepage <https://sugarbind.expasy.org/ligands/96> ;
 		dcterms:references <https://sugarbind.expasy.org/ligands/96> ;
-		:has_structure id:STR90 ;
+		:has_structure glycoinfo:G04165ZA ;
 		rdfs:label "96"^^xsd:string .
 
 id:LIG97 rdf:type owl:NamedIndividual ,
@@ -874,7 +874,7 @@ id:LIG97 rdf:type owl:NamedIndividual ,
 			:Ligand ;
 		foaf:homepage <https://sugarbind.expasy.org/ligands/97> ;
 		dcterms:references <https://sugarbind.expasy.org/ligands/97> ;
-		:has_structure id:STR91 ;
+		:has_structure glycoinfo:G03777BI ;
 		rdfs:label "97"^^xsd:string .
 
 id:LIG98 rdf:type owl:NamedIndividual ,
@@ -882,7 +882,7 @@ id:LIG98 rdf:type owl:NamedIndividual ,
 			:Ligand ;
 		foaf:homepage <https://sugarbind.expasy.org/ligands/98> ;
 		dcterms:references <https://sugarbind.expasy.org/ligands/98> ;
-		:has_structure id:STR92 ;
+		:has_structure glycoinfo:G03277YI ;
 		rdfs:label "GM1"^^xsd:string .
 
 id:LIG99 rdf:type owl:NamedIndividual ,
@@ -890,7 +890,7 @@ id:LIG99 rdf:type owl:NamedIndividual ,
 			:Ligand ;
 		foaf:homepage <https://sugarbind.expasy.org/ligands/99> ;
 		dcterms:references <https://sugarbind.expasy.org/ligands/99> ;
-		:has_structure id:STR93 ;
+		:has_structure glycoinfo:G08079IN ;
 		rdfs:label "99"^^xsd:string .
 
 id:LIG100 rdf:type owl:NamedIndividual ,
@@ -898,7 +898,7 @@ id:LIG100 rdf:type owl:NamedIndividual ,
 			:Ligand ;
 		foaf:homepage <https://sugarbind.expasy.org/ligands/100> ;
 		dcterms:references <https://sugarbind.expasy.org/ligands/100> ;
-		:has_structure id:STR94 ;
+		:has_structure glycoinfo:G88393MK ;
 		rdfs:label "H1 (tri-)"^^xsd:string ,
 			"Antigen H"^^xsd:string .
 
@@ -907,7 +907,7 @@ id:LIG101 rdf:type owl:NamedIndividual ,
 			:Ligand ;
 		foaf:homepage <https://sugarbind.expasy.org/ligands/101> ;
 		dcterms:references <https://sugarbind.expasy.org/ligands/101> ;
-		:has_structure id:STR95 ;
+		:has_structure glycoinfo:G60395SO ;
 		rdfs:label "B Lewis b"^^xsd:string ,
 			"B Leb"^^xsd:string .
 
@@ -916,7 +916,7 @@ id:LIG102 rdf:type owl:NamedIndividual ,
 			:Ligand ;
 		foaf:homepage <https://sugarbind.expasy.org/ligands/102> ;
 		dcterms:references <https://sugarbind.expasy.org/ligands/102> ;
-		:has_structure id:STR96 ;
+		:has_structure glycoinfo:G48600JD ;
 		rdfs:label "A Leb"^^xsd:string ,
 			"A Lewis b"^^xsd:string .
 
@@ -925,7 +925,7 @@ id:LIG103 rdf:type owl:NamedIndividual ,
 			:Ligand ;
 		foaf:homepage <https://sugarbind.expasy.org/ligands/103> ;
 		dcterms:references <https://sugarbind.expasy.org/ligands/103> ;
-		:has_structure id:STR97 ;
+		:has_structure glycoinfo:G58507AZ ;
 		rdfs:label "Antigen A"^^xsd:string .
 
 id:LIG104 rdf:type owl:NamedIndividual ,
@@ -933,7 +933,7 @@ id:LIG104 rdf:type owl:NamedIndividual ,
 			:Ligand ;
 		foaf:homepage <https://sugarbind.expasy.org/ligands/104> ;
 		dcterms:references <https://sugarbind.expasy.org/ligands/104> ;
-		:has_structure id:STR98 ;
+		:has_structure glycoinfo:G08855PJ ;
 		rdfs:label "G9-B"^^xsd:string .
 
 id:LIG105 rdf:type owl:NamedIndividual ,
@@ -941,7 +941,7 @@ id:LIG105 rdf:type owl:NamedIndividual ,
 			:Ligand ;
 		foaf:homepage <https://sugarbind.expasy.org/ligands/105> ;
 		dcterms:references <https://sugarbind.expasy.org/ligands/105> ;
-		:has_structure id:STR99 ;
+		:has_structure glycoinfo:G45215IJ ;
 		rdfs:label "NeuAca3-dimer-Lex"^^xsd:string ,
 			"Sialyl Lewis x Lewis x"^^xsd:string ,
 			"SDLex"^^xsd:string .
@@ -951,7 +951,7 @@ id:LIG106 rdf:type owl:NamedIndividual ,
 			:Ligand ;
 		foaf:homepage <https://sugarbind.expasy.org/ligands/106> ;
 		dcterms:references <https://sugarbind.expasy.org/ligands/106> ;
-		:has_structure id:STR100 ;
+		:has_structure glycoinfo:G96401FK ;
 		rdfs:label "NeuAca3-Lex"^^xsd:string ,
 			"SLex"^^xsd:string ,
 			"Sialyl Lewis x"^^xsd:string .
@@ -961,7 +961,7 @@ id:LIG107 rdf:type owl:NamedIndividual ,
 			:Ligand ;
 		foaf:homepage <https://sugarbind.expasy.org/ligands/107> ;
 		dcterms:references <https://sugarbind.expasy.org/ligands/107> ;
-		:has_structure id:STR101 ;
+		:has_structure glycoinfo:G01296LJ ;
 		rdfs:label "VIM-2"^^xsd:string .
 
 id:LIG108 rdf:type owl:NamedIndividual ,
@@ -969,7 +969,7 @@ id:LIG108 rdf:type owl:NamedIndividual ,
 			:Ligand ;
 		foaf:homepage <https://sugarbind.expasy.org/ligands/108> ;
 		dcterms:references <https://sugarbind.expasy.org/ligands/108> ;
-		:has_structure id:STR102 ;
+		:has_structure glycoinfo:G01767JJ ;
 		rdfs:label "S3P"^^xsd:string ,
 			"NeuAca3SPG"^^xsd:string ,
 			"IV3(NeuAc)nLc4Cer"^^xsd:string ,
@@ -983,7 +983,7 @@ id:LIG109 rdf:type owl:NamedIndividual ,
 			:Ligand ;
 		foaf:homepage <https://sugarbind.expasy.org/ligands/109> ;
 		dcterms:references <https://sugarbind.expasy.org/ligands/109> ;
-		:has_structure id:STR103 ;
+		:has_structure glycoinfo:G03067VG ;
 		rdfs:label "NeuAca2-3i"^^xsd:string ,
 			"NeuAca3-nLc6"^^xsd:string ,
 			"I-active ganglioside"^^xsd:string .
@@ -993,7 +993,7 @@ id:LIG110 rdf:type owl:NamedIndividual ,
 			:Ligand ;
 		foaf:homepage <https://sugarbind.expasy.org/ligands/110> ;
 		dcterms:references <https://sugarbind.expasy.org/ligands/110> ;
-		:has_structure id:STR104 ;
+		:has_structure glycoinfo:G26036PN ;
 		rdfs:label "NeuAca3-nLc8"^^xsd:string .
 
 id:LIG111 rdf:type owl:NamedIndividual ,
@@ -1001,7 +1001,7 @@ id:LIG111 rdf:type owl:NamedIndividual ,
 			:Ligand ;
 		foaf:homepage <https://sugarbind.expasy.org/ligands/111> ;
 		dcterms:references <https://sugarbind.expasy.org/ligands/111> ;
-		:has_structure id:STR105 ;
+		:has_structure glycoinfo:G28566CQ ;
 		rdfs:label "NeuAca2-3I"^^xsd:string ,
 			"NeuAc-G-10"^^xsd:string ,
 			"I-Active ganglioside"^^xsd:string .
@@ -1011,7 +1011,7 @@ id:LIG112 rdf:type owl:NamedIndividual ,
 			:Ligand ;
 		foaf:homepage <https://sugarbind.expasy.org/ligands/112> ;
 		dcterms:references <https://sugarbind.expasy.org/ligands/112> ;
-		:has_structure id:STR106 ;
+		:has_structure glycoinfo:G09552LA ;
 		rdfs:label "Leb-6"^^xsd:string ,
 			"Lewis b"^^xsd:string .
 
@@ -1020,7 +1020,7 @@ id:LIG113 rdf:type owl:NamedIndividual ,
 			:Ligand ;
 		foaf:homepage <https://sugarbind.expasy.org/ligands/113> ;
 		dcterms:references <https://sugarbind.expasy.org/ligands/113> ;
-		:has_structure id:STR107 ;
+		:has_structure glycoinfo:G50321QR ;
 		rdfs:label "Sialyl Lewis a"^^xsd:string ,
 			"NeuAca3-Lea"^^xsd:string .
 
@@ -1029,7 +1029,7 @@ id:LIG114 rdf:type owl:NamedIndividual ,
 			:Ligand ;
 		foaf:homepage <https://sugarbind.expasy.org/ligands/114> ;
 		dcterms:references <https://sugarbind.expasy.org/ligands/114> ;
-		:has_structure id:STR108 ;
+		:has_structure glycoinfo:G57920AK ;
 		rdfs:label "H-5-ganglio"^^xsd:string ,
 			"Fuc-GgO4"^^xsd:string ,
 			"Fuc-gangliotetraosylceramide"^^xsd:string .
@@ -1039,7 +1039,7 @@ id:LIG115 rdf:type owl:NamedIndividual ,
 			:Ligand ;
 		foaf:homepage <https://sugarbind.expasy.org/ligands/115> ;
 		dcterms:references <https://sugarbind.expasy.org/ligands/115> ;
-		:has_structure id:STR109 ;
+		:has_structure glycoinfo:G10203DW ;
 		rdfs:label "3'SiaLacNAc(1-4)"^^xsd:string ,
 			"3′-sialyl-N-acetyllactosamine"^^xsd:string ,
 			"3'SLN"^^xsd:string .
@@ -1049,7 +1049,7 @@ id:LIG116 rdf:type owl:NamedIndividual ,
 			:Ligand ;
 		foaf:homepage <https://sugarbind.expasy.org/ligands/116> ;
 		dcterms:references <https://sugarbind.expasy.org/ligands/116> ;
-		:has_structure id:STR110 ;
+		:has_structure glycoinfo:G30207PZ ;
 		rdfs:label "116"^^xsd:string .
 
 id:LIG117 rdf:type owl:NamedIndividual ,
@@ -1057,7 +1057,7 @@ id:LIG117 rdf:type owl:NamedIndividual ,
 			:Ligand ;
 		foaf:homepage <https://sugarbind.expasy.org/ligands/117> ;
 		dcterms:references <https://sugarbind.expasy.org/ligands/117> ;
-		:has_structure id:STR111 ;
+		:has_structure glycoinfo:G55153IW ;
 		rdfs:label "117"^^xsd:string .
 
 id:LIG118 rdf:type owl:NamedIndividual ,
@@ -1065,7 +1065,7 @@ id:LIG118 rdf:type owl:NamedIndividual ,
 			:Ligand ;
 		foaf:homepage <https://sugarbind.expasy.org/ligands/118> ;
 		dcterms:references <https://sugarbind.expasy.org/ligands/118> ;
-		:has_structure id:STR112 ;
+		:has_structure glycoinfo:G07169WN ;
 		rdfs:label "Sulfatide"^^xsd:string .
 
 id:LIG119 rdf:type owl:NamedIndividual ,
@@ -1073,7 +1073,7 @@ id:LIG119 rdf:type owl:NamedIndividual ,
 			:Ligand ;
 		foaf:homepage <https://sugarbind.expasy.org/ligands/119> ;
 		dcterms:references <https://sugarbind.expasy.org/ligands/119> ;
-		:has_structure id:STR113 ;
+		:has_structure glycoinfo:G96614JE ;
 		rdfs:label "Sulf-gangliotetraosyl ceramide"^^xsd:string .
 
 id:LIG120 rdf:type owl:NamedIndividual ,
@@ -1081,7 +1081,7 @@ id:LIG120 rdf:type owl:NamedIndividual ,
 			:Ligand ;
 		foaf:homepage <https://sugarbind.expasy.org/ligands/120> ;
 		dcterms:references <https://sugarbind.expasy.org/ligands/120> ;
-		:has_structure id:STR114 ;
+		:has_structure glycoinfo:G87245HS ;
 		rdfs:label "120"^^xsd:string .
 
 id:LIG121 rdf:type owl:NamedIndividual ,
@@ -1089,7 +1089,7 @@ id:LIG121 rdf:type owl:NamedIndividual ,
 			:Ligand ;
 		foaf:homepage <https://sugarbind.expasy.org/ligands/121> ;
 		dcterms:references <https://sugarbind.expasy.org/ligands/121> ;
-		:has_structure id:STR58 ;
+		:has_structure glycoinfo:G32254QI ;
 		rdfs:label "Stage specific embryonic antigen-4"^^xsd:string ,
 			"SSEA-4"^^xsd:string .
 
@@ -1098,7 +1098,7 @@ id:LIG122 rdf:type owl:NamedIndividual ,
 			:Ligand ;
 		foaf:homepage <https://sugarbind.expasy.org/ligands/122> ;
 		dcterms:references <https://sugarbind.expasy.org/ligands/122> ;
-		:has_structure id:STR115 ;
+		:has_structure glycoinfo:G72692DY ;
 		rdfs:label "Sialyllactotetraosylceramide"^^xsd:string .
 
 id:LIG123 rdf:type owl:NamedIndividual ,
@@ -1106,7 +1106,7 @@ id:LIG123 rdf:type owl:NamedIndividual ,
 			:Ligand ;
 		foaf:homepage <https://sugarbind.expasy.org/ligands/123> ;
 		dcterms:references <https://sugarbind.expasy.org/ligands/123> ;
-		:has_structure id:STR116 ;
+		:has_structure glycoinfo:G83513YI ;
 		rdfs:label "NeuAca2-6PG"^^xsd:string ,
 			"IV6(NeuAc)nLc4Cer"^^xsd:string ,
 			"Sialylparagloboside"^^xsd:string .
@@ -1116,7 +1116,7 @@ id:LIG124 rdf:type owl:NamedIndividual ,
 			:Ligand ;
 		foaf:homepage <https://sugarbind.expasy.org/ligands/124> ;
 		dcterms:references <https://sugarbind.expasy.org/ligands/124> ;
-		:has_structure id:STR117 ;
+		:has_structure glycoinfo:G21066IE ;
 		rdfs:label "LSTa"^^xsd:string .
 
 id:LIG125 rdf:type owl:NamedIndividual ,
@@ -1124,7 +1124,7 @@ id:LIG125 rdf:type owl:NamedIndividual ,
 			:Ligand ;
 		foaf:homepage <https://sugarbind.expasy.org/ligands/125> ;
 		dcterms:references <https://sugarbind.expasy.org/ligands/125> ;
-		:has_structure id:STR118 ;
+		:has_structure glycoinfo:G21938SG ;
 		rdfs:label "LSTc"^^xsd:string .
 
 id:LIG126 rdf:type owl:NamedIndividual ,
@@ -1132,7 +1132,7 @@ id:LIG126 rdf:type owl:NamedIndividual ,
 			:Ligand ;
 		foaf:homepage <https://sugarbind.expasy.org/ligands/126> ;
 		dcterms:references <https://sugarbind.expasy.org/ligands/126> ;
-		:has_structure id:STR119 ;
+		:has_structure glycoinfo:G44345UH ;
 		rdfs:label "126"^^xsd:string .
 
 id:LIG127 rdf:type owl:NamedIndividual ,
@@ -1140,7 +1140,7 @@ id:LIG127 rdf:type owl:NamedIndividual ,
 			:Ligand ;
 		foaf:homepage <https://sugarbind.expasy.org/ligands/127> ;
 		dcterms:references <https://sugarbind.expasy.org/ligands/127> ;
-		:has_structure id:STR120 ;
+		:has_structure glycoinfo:G46776WR ;
 		rdfs:label "Sialyl Lewis c"^^xsd:string ,
 			"SaiLec"^^xsd:string ,
 			"SLec"^^xsd:string .
@@ -1150,7 +1150,7 @@ id:LIG128 rdf:type owl:NamedIndividual ,
 			:Ligand ;
 		foaf:homepage <https://sugarbind.expasy.org/ligands/128> ;
 		dcterms:references <https://sugarbind.expasy.org/ligands/128> ;
-		:has_structure id:STR121 ;
+		:has_structure glycoinfo:G80722US ;
 		rdfs:label "Su-SaiLex"^^xsd:string ,
 			"Su-SLex"^^xsd:string ,
 			"6-sulfo sialyl Lewis x"^^xsd:string .
@@ -1160,7 +1160,7 @@ id:LIG129 rdf:type owl:NamedIndividual ,
 			:Ligand ;
 		foaf:homepage <https://sugarbind.expasy.org/ligands/129> ;
 		dcterms:references <https://sugarbind.expasy.org/ligands/129> ;
-		:has_structure id:STR122 ;
+		:has_structure glycoinfo:G00054MO ;
 		rdfs:label "Sialyl Lewis x"^^xsd:string ,
 			"SLex"^^xsd:string ,
 			"SaiLex"^^xsd:string .
@@ -1170,7 +1170,7 @@ id:LIG130 rdf:type owl:NamedIndividual ,
 			:Ligand ;
 		foaf:homepage <https://sugarbind.expasy.org/ligands/130> ;
 		dcterms:references <https://sugarbind.expasy.org/ligands/130> ;
-		:has_structure id:STR123 ;
+		:has_structure glycoinfo:G99745QX ;
 		rdfs:label "Su-3'SLN"^^xsd:string ,
 			"Sulfated sialyl-3-N-acetyllactosamine"^^xsd:string ,
 			"Sulfated trisaccharide"^^xsd:string .
@@ -1180,7 +1180,7 @@ id:LIG131 rdf:type owl:NamedIndividual ,
 			:Ligand ;
 		foaf:homepage <https://sugarbind.expasy.org/ligands/131> ;
 		dcterms:references <https://sugarbind.expasy.org/ligands/131> ;
-		:has_structure id:STR124 ;
+		:has_structure glycoinfo:G00065MO ;
 		rdfs:label "3′-sialyl-N-acetyllactosamine"^^xsd:string ,
 			"3'SLN"^^xsd:string .
 
@@ -1189,7 +1189,7 @@ id:LIG132 rdf:type owl:NamedIndividual ,
 			:Ligand ;
 		foaf:homepage <https://sugarbind.expasy.org/ligands/132> ;
 		dcterms:references <https://sugarbind.expasy.org/ligands/132> ;
-		:has_structure id:STR125 ;
+		:has_structure glycoinfo:G09376MR ;
 		rdfs:label "6'SiaLacNAc(1-4)"^^xsd:string ,
 			"6'SLN"^^xsd:string ,
 			"6′-sialyl-N-acetyllactosamine"^^xsd:string .
@@ -1199,7 +1199,7 @@ id:LIG133 rdf:type owl:NamedIndividual ,
 			:Ligand ;
 		foaf:homepage <https://sugarbind.expasy.org/ligands/133> ;
 		dcterms:references <https://sugarbind.expasy.org/ligands/133> ;
-		:has_structure id:STR126 ;
+		:has_structure glycoinfo:G79536OW ;
 		rdfs:label "Sialyllactotetraosylceramide"^^xsd:string .
 
 id:LIG134 rdf:type owl:NamedIndividual ,
@@ -1207,7 +1207,7 @@ id:LIG134 rdf:type owl:NamedIndividual ,
 			:Ligand ;
 		foaf:homepage <https://sugarbind.expasy.org/ligands/134> ;
 		dcterms:references <https://sugarbind.expasy.org/ligands/134> ;
-		:has_structure id:STR127 ;
+		:has_structure glycoinfo:G93779QZ ;
 		rdfs:label "Su-SLec"^^xsd:string ,
 			"Su-SaiLec"^^xsd:string ,
 			"6-sulfo sialyl Lewis c"^^xsd:string .
@@ -1217,7 +1217,7 @@ id:LIG135 rdf:type owl:NamedIndividual ,
 			:Ligand ;
 		foaf:homepage <https://sugarbind.expasy.org/ligands/135> ;
 		dcterms:references <https://sugarbind.expasy.org/ligands/135> ;
-		:has_structure id:STR128 ;
+		:has_structure glycoinfo:G16194TN ;
 		rdfs:label "I-active ganglioside"^^xsd:string .
 
 id:LIG136 rdf:type owl:NamedIndividual ,
@@ -1225,7 +1225,7 @@ id:LIG136 rdf:type owl:NamedIndividual ,
 			:Ligand ;
 		foaf:homepage <https://sugarbind.expasy.org/ligands/136> ;
 		dcterms:references <https://sugarbind.expasy.org/ligands/136> ;
-		:has_structure id:STR129 ;
+		:has_structure glycoinfo:G29313LW ;
 		rdfs:label "136"^^xsd:string .
 
 id:LIG137 rdf:type owl:NamedIndividual ,
@@ -1233,7 +1233,7 @@ id:LIG137 rdf:type owl:NamedIndividual ,
 			:Ligand ;
 		foaf:homepage <https://sugarbind.expasy.org/ligands/137> ;
 		dcterms:references <https://sugarbind.expasy.org/ligands/137> ;
-		:has_structure id:STR27 ;
+		:has_structure glycoinfo:G04616ST ;
 		rdfs:label "Globotetraosylceramide"^^xsd:string .
 
 id:LIG138 rdf:type owl:NamedIndividual ,
@@ -1241,7 +1241,7 @@ id:LIG138 rdf:type owl:NamedIndividual ,
 			:Ligand ;
 		foaf:homepage <https://sugarbind.expasy.org/ligands/138> ;
 		dcterms:references <https://sugarbind.expasy.org/ligands/138> ;
-		:has_structure id:STR130 ;
+		:has_structure glycoinfo:G60645OK ;
 		rdfs:label "A-galactosylparagloboside"^^xsd:string ,
 			"A-Galactosylparagloboside"^^xsd:string .
 
@@ -1250,7 +1250,7 @@ id:LIG139 rdf:type owl:NamedIndividual ,
 			:Ligand ;
 		foaf:homepage <https://sugarbind.expasy.org/ligands/139> ;
 		dcterms:references <https://sugarbind.expasy.org/ligands/139> ;
-		:has_structure id:STR131 ;
+		:has_structure glycoinfo:G72548RZ ;
 		rdfs:label "Sulfatide"^^xsd:string .
 
 id:LIG140 rdf:type owl:NamedIndividual ,
@@ -1258,7 +1258,7 @@ id:LIG140 rdf:type owl:NamedIndividual ,
 			:Ligand ;
 		foaf:homepage <https://sugarbind.expasy.org/ligands/140> ;
 		dcterms:references <https://sugarbind.expasy.org/ligands/140> ;
-		:has_structure id:STR132 ;
+		:has_structure glycoinfo:G72548RZ ;
 		rdfs:label "Seminolipid"^^xsd:string .
 
 id:LIG141 rdf:type owl:NamedIndividual ,
@@ -1266,7 +1266,7 @@ id:LIG141 rdf:type owl:NamedIndividual ,
 			:Ligand ;
 		foaf:homepage <https://sugarbind.expasy.org/ligands/141> ;
 		dcterms:references <https://sugarbind.expasy.org/ligands/141> ;
-		:has_structure id:STR133 ;
+		:has_structure glycoinfo:G20044TD ;
 		rdfs:label "Lactosylsulfatide"^^xsd:string .
 
 id:LIG142 rdf:type owl:NamedIndividual ,
@@ -1274,7 +1274,7 @@ id:LIG142 rdf:type owl:NamedIndividual ,
 			:Ligand ;
 		foaf:homepage <https://sugarbind.expasy.org/ligands/142> ;
 		dcterms:references <https://sugarbind.expasy.org/ligands/142> ;
-		:has_structure id:STR134 ;
+		:has_structure glycoinfo:G60011XD ;
 		rdfs:label "Sulfatide"^^xsd:string .
 
 id:LIG143 rdf:type owl:NamedIndividual ,
@@ -1282,7 +1282,7 @@ id:LIG143 rdf:type owl:NamedIndividual ,
 			:Ligand ;
 		foaf:homepage <https://sugarbind.expasy.org/ligands/143> ;
 		dcterms:references <https://sugarbind.expasy.org/ligands/143> ;
-		:has_structure id:STR135 ;
+		:has_structure glycoinfo:G20420WT ;
 		rdfs:label "Lactosylceramide"^^xsd:string ,
 			"LacCer"^^xsd:string .
 
@@ -1291,7 +1291,7 @@ id:LIG144 rdf:type owl:NamedIndividual ,
 			:Ligand ;
 		foaf:homepage <https://sugarbind.expasy.org/ligands/144> ;
 		dcterms:references <https://sugarbind.expasy.org/ligands/144> ;
-		:has_structure id:STR136 ;
+		:has_structure glycoinfo:G41709CA ;
 		rdfs:label "144"^^xsd:string .
 
 id:LIG145 rdf:type owl:NamedIndividual ,
@@ -1299,7 +1299,7 @@ id:LIG145 rdf:type owl:NamedIndividual ,
 			:Ligand ;
 		foaf:homepage <https://sugarbind.expasy.org/ligands/145> ;
 		dcterms:references <https://sugarbind.expasy.org/ligands/145> ;
-		:has_structure id:STR137 ;
+		:has_structure glycoinfo:G87727XV ;
 		rdfs:label "145"^^xsd:string .
 
 id:LIG146 rdf:type owl:NamedIndividual ,
@@ -1307,7 +1307,7 @@ id:LIG146 rdf:type owl:NamedIndividual ,
 			:Ligand ;
 		foaf:homepage <https://sugarbind.expasy.org/ligands/146> ;
 		dcterms:references <https://sugarbind.expasy.org/ligands/146> ;
-		:has_structure id:STR138 ;
+		:has_structure glycoinfo:G39211DH ;
 		rdfs:label "Lewis b"^^xsd:string ,
 			"Leb-4"^^xsd:string .
 
@@ -1316,7 +1316,7 @@ id:LIG147 rdf:type owl:NamedIndividual ,
 			:Ligand ;
 		foaf:homepage <https://sugarbind.expasy.org/ligands/147> ;
 		dcterms:references <https://sugarbind.expasy.org/ligands/147> ;
-		:has_structure id:STR139 ;
+		:has_structure glycoinfo:G49963IQ ;
 		rdfs:label "Lewis y"^^xsd:string ,
 			"Ley-4"^^xsd:string .
 
@@ -1325,7 +1325,7 @@ id:LIG148 rdf:type owl:NamedIndividual ,
 			:Ligand ;
 		foaf:homepage <https://sugarbind.expasy.org/ligands/148> ;
 		dcterms:references <https://sugarbind.expasy.org/ligands/148> ;
-		:has_structure id:STR140 ;
+		:has_structure glycoinfo:G58612ZQ ;
 		rdfs:label "B antigen(tri-)"^^xsd:string .
 
 id:LIG149 rdf:type owl:NamedIndividual ,
@@ -1333,7 +1333,7 @@ id:LIG149 rdf:type owl:NamedIndividual ,
 			:Ligand ;
 		foaf:homepage <https://sugarbind.expasy.org/ligands/149> ;
 		dcterms:references <https://sugarbind.expasy.org/ligands/149> ;
-		:has_structure id:STR141 ;
+		:has_structure glycoinfo:G55958KV ;
 		rdfs:label "A antigen(tri-)"^^xsd:string .
 
 id:LIG150 rdf:type owl:NamedIndividual ,
@@ -1341,7 +1341,7 @@ id:LIG150 rdf:type owl:NamedIndividual ,
 			:Ligand ;
 		foaf:homepage <https://sugarbind.expasy.org/ligands/150> ;
 		dcterms:references <https://sugarbind.expasy.org/ligands/150> ;
-		:has_structure id:STR142 ;
+		:has_structure glycoinfo:G14300ZJ ;
 		rdfs:label "H type 1 Leb"^^xsd:string ,
 			"H type 1 Lewis b"^^xsd:string .
 
@@ -1350,7 +1350,7 @@ id:LIG151 rdf:type owl:NamedIndividual ,
 			:Ligand ;
 		foaf:homepage <https://sugarbind.expasy.org/ligands/151> ;
 		dcterms:references <https://sugarbind.expasy.org/ligands/151> ;
-		:has_structure id:STR143 ;
+		:has_structure glycoinfo:G94938PL ;
 		rdfs:label "B type 1 B Leb"^^xsd:string ,
 			"B type 1 B Lewis b"^^xsd:string .
 
@@ -1359,7 +1359,7 @@ id:LIG152 rdf:type owl:NamedIndividual ,
 			:Ligand ;
 		foaf:homepage <https://sugarbind.expasy.org/ligands/152> ;
 		dcterms:references <https://sugarbind.expasy.org/ligands/152> ;
-		:has_structure id:STR144 ;
+		:has_structure glycoinfo:G12068BR ;
 		rdfs:label "A type 1 A Lewis b"^^xsd:string ,
 			"A type 1 A Leb"^^xsd:string .
 
@@ -1368,7 +1368,7 @@ id:LIG153 rdf:type owl:NamedIndividual ,
 			:Ligand ;
 		foaf:homepage <https://sugarbind.expasy.org/ligands/153> ;
 		dcterms:references <https://sugarbind.expasy.org/ligands/153> ;
-		:has_structure id:STR145 ;
+		:has_structure glycoinfo:G50899UD ;
 		rdfs:label "H type 1"^^xsd:string .
 
 id:LIG154 rdf:type owl:NamedIndividual ,
@@ -1376,7 +1376,7 @@ id:LIG154 rdf:type owl:NamedIndividual ,
 			:Ligand ;
 		foaf:homepage <https://sugarbind.expasy.org/ligands/154> ;
 		dcterms:references <https://sugarbind.expasy.org/ligands/154> ;
-		:has_structure id:STR146 ;
+		:has_structure glycoinfo:G66086EX ;
 		rdfs:label "H3 (di-)"^^xsd:string .
 
 id:LIG155 rdf:type owl:NamedIndividual ,
@@ -1384,7 +1384,7 @@ id:LIG155 rdf:type owl:NamedIndividual ,
 			:Ligand ;
 		foaf:homepage <https://sugarbind.expasy.org/ligands/155> ;
 		dcterms:references <https://sugarbind.expasy.org/ligands/155> ;
-		:has_structure id:STR147 ;
+		:has_structure glycoinfo:G00047MO ;
 		rdfs:label "Lewis a"^^xsd:string ,
 			"Lea-3"^^xsd:string .
 
@@ -1393,7 +1393,7 @@ id:LIG156 rdf:type owl:NamedIndividual ,
 			:Ligand ;
 		foaf:homepage <https://sugarbind.expasy.org/ligands/156> ;
 		dcterms:references <https://sugarbind.expasy.org/ligands/156> ;
-		:has_structure id:STR148 ;
+		:has_structure glycoinfo:G23041XK ;
 		rdfs:label "Precusor Lewis a"^^xsd:string ,
 			"Precusor Lea"^^xsd:string .
 
@@ -1402,7 +1402,7 @@ id:LIG157 rdf:type owl:NamedIndividual ,
 			:Ligand ;
 		foaf:homepage <https://sugarbind.expasy.org/ligands/157> ;
 		dcterms:references <https://sugarbind.expasy.org/ligands/157> ;
-		:has_structure id:STR149 ;
+		:has_structure glycoinfo:G01187XC ;
 		rdfs:label "Lex-3"^^xsd:string ,
 			"Lewis x"^^xsd:string .
 
@@ -1411,7 +1411,7 @@ id:LIG158 rdf:type owl:NamedIndividual ,
 			:Ligand ;
 		foaf:homepage <https://sugarbind.expasy.org/ligands/158> ;
 		dcterms:references <https://sugarbind.expasy.org/ligands/158> ;
-		:has_structure id:STR150 ;
+		:has_structure glycoinfo:G72494BI ;
 		rdfs:label "NeuGca2-3I"^^xsd:string .
 
 id:LIG159 rdf:type owl:NamedIndividual ,
@@ -1419,7 +1419,7 @@ id:LIG159 rdf:type owl:NamedIndividual ,
 			:Ligand ;
 		foaf:homepage <https://sugarbind.expasy.org/ligands/159> ;
 		dcterms:references <https://sugarbind.expasy.org/ligands/159> ;
-		:has_structure id:STR151 ;
+		:has_structure glycoinfo:G37563FN ;
 		rdfs:label "NeuAca2-6I"^^xsd:string .
 
 id:LIG160 rdf:type owl:NamedIndividual ,
@@ -1427,7 +1427,7 @@ id:LIG160 rdf:type owl:NamedIndividual ,
 			:Ligand ;
 		foaf:homepage <https://sugarbind.expasy.org/ligands/160> ;
 		dcterms:references <https://sugarbind.expasy.org/ligands/160> ;
-		:has_structure id:STR152 ;
+		:has_structure glycoinfo:G98173LG ;
 		rdfs:label "LNFP II"^^xsd:string .
 
 id:LIG161 rdf:type owl:NamedIndividual ,
@@ -1435,7 +1435,7 @@ id:LIG161 rdf:type owl:NamedIndividual ,
 			:Ligand ;
 		foaf:homepage <https://sugarbind.expasy.org/ligands/161> ;
 		dcterms:references <https://sugarbind.expasy.org/ligands/161> ;
-		:has_structure id:STR152 ;
+		:has_structure glycoinfo:G98173LG ;
 		rdfs:label "Lacto-N-fucopentose"^^xsd:string .
 
 id:LIG162 rdf:type owl:NamedIndividual ,
@@ -1443,7 +1443,7 @@ id:LIG162 rdf:type owl:NamedIndividual ,
 			:Ligand ;
 		foaf:homepage <https://sugarbind.expasy.org/ligands/162> ;
 		dcterms:references <https://sugarbind.expasy.org/ligands/162> ;
-		:has_structure id:STR153 ;
+		:has_structure glycoinfo:G91326YS ;
 		rdfs:label "Sialyl Lewis a"^^xsd:string ,
 			"SLea"^^xsd:string .
 
@@ -1452,7 +1452,7 @@ id:LIG163 rdf:type owl:NamedIndividual ,
 			:Ligand ;
 		foaf:homepage <https://sugarbind.expasy.org/ligands/163> ;
 		dcterms:references <https://sugarbind.expasy.org/ligands/163> ;
-		:has_structure id:STR154 ;
+		:has_structure glycoinfo:G86123DJ ;
 		rdfs:label "Melibiose"^^xsd:string .
 
 id:LIG164 rdf:type owl:NamedIndividual ,
@@ -1460,7 +1460,7 @@ id:LIG164 rdf:type owl:NamedIndividual ,
 			:Ligand ;
 		foaf:homepage <https://sugarbind.expasy.org/ligands/164> ;
 		dcterms:references <https://sugarbind.expasy.org/ligands/164> ;
-		:has_structure id:STR155 ;
+		:has_structure glycoinfo:G00407UJ ;
 		rdfs:label "164"^^xsd:string .
 
 id:LIG165 rdf:type owl:NamedIndividual ,
@@ -1468,7 +1468,7 @@ id:LIG165 rdf:type owl:NamedIndividual ,
 			:Ligand ;
 		foaf:homepage <https://sugarbind.expasy.org/ligands/165> ;
 		dcterms:references <https://sugarbind.expasy.org/ligands/165> ;
-		:has_structure id:STR156 ;
+		:has_structure glycoinfo:G65889KE ;
 		rdfs:label "165"^^xsd:string .
 
 id:LIG166 rdf:type owl:NamedIndividual ,
@@ -1476,7 +1476,7 @@ id:LIG166 rdf:type owl:NamedIndividual ,
 			:Ligand ;
 		foaf:homepage <https://sugarbind.expasy.org/ligands/166> ;
 		dcterms:references <https://sugarbind.expasy.org/ligands/166> ;
-		:has_structure id:STR157 ;
+		:has_structure glycoinfo:G65889KE ;
 		rdfs:label "166"^^xsd:string .
 
 id:LIG167 rdf:type owl:NamedIndividual ,
@@ -1484,7 +1484,7 @@ id:LIG167 rdf:type owl:NamedIndividual ,
 			:Ligand ;
 		foaf:homepage <https://sugarbind.expasy.org/ligands/167> ;
 		dcterms:references <https://sugarbind.expasy.org/ligands/167> ;
-		:has_structure id:STR158 ;
+		:has_structure glycoinfo:G00059MO ;
 		rdfs:label "167"^^xsd:string .
 
 id:LIG168 rdf:type owl:NamedIndividual ,
@@ -1492,7 +1492,7 @@ id:LIG168 rdf:type owl:NamedIndividual ,
 			:Ligand ;
 		foaf:homepage <https://sugarbind.expasy.org/ligands/168> ;
 		dcterms:references <https://sugarbind.expasy.org/ligands/168> ;
-		:has_structure id:STR159 ;
+		:has_structure glycoinfo:G91649BT ;
 		rdfs:label "168"^^xsd:string .
 
 id:LIG169 rdf:type owl:NamedIndividual ,
@@ -1500,7 +1500,7 @@ id:LIG169 rdf:type owl:NamedIndividual ,
 			:Ligand ;
 		foaf:homepage <https://sugarbind.expasy.org/ligands/169> ;
 		dcterms:references <https://sugarbind.expasy.org/ligands/169> ;
-		:has_structure id:STR160 ;
+		:has_structure glycoinfo:G12460DL ;
 		rdfs:label "169"^^xsd:string .
 
 id:LIG170 rdf:type owl:NamedIndividual ,
@@ -1508,7 +1508,7 @@ id:LIG170 rdf:type owl:NamedIndividual ,
 			:Ligand ;
 		foaf:homepage <https://sugarbind.expasy.org/ligands/170> ;
 		dcterms:references <https://sugarbind.expasy.org/ligands/170> ;
-		:has_structure id:STR161 ;
+		:has_structure glycoinfo:G50850NI ;
 		rdfs:label "CD43"^^xsd:string ,
 			"Leukosialin"^^xsd:string ,
 			"Sialophorin and SPN"^^xsd:string .
@@ -1518,7 +1518,7 @@ id:LIG171 rdf:type owl:NamedIndividual ,
 			:Ligand ;
 		foaf:homepage <https://sugarbind.expasy.org/ligands/171> ;
 		dcterms:references <https://sugarbind.expasy.org/ligands/171> ;
-		:has_structure id:STR161 ;
+		:has_structure glycoinfo:G50850NI ;
 		rdfs:label "Leukocyte common antigen"^^xsd:string ,
 			"CD45"^^xsd:string .
 
@@ -1527,7 +1527,7 @@ id:LIG172 rdf:type owl:NamedIndividual ,
 			:Ligand ;
 		foaf:homepage <https://sugarbind.expasy.org/ligands/172> ;
 		dcterms:references <https://sugarbind.expasy.org/ligands/172> ;
-		:has_structure id:STR161 ;
+		:has_structure glycoinfo:G50850NI ;
 		rdfs:label "NeuAc"^^xsd:string ,
 			"N-acetylneuraminic acid"^^xsd:string .
 
@@ -1536,7 +1536,7 @@ id:LIG173 rdf:type owl:NamedIndividual ,
 			:Ligand ;
 		foaf:homepage <https://sugarbind.expasy.org/ligands/173> ;
 		dcterms:references <https://sugarbind.expasy.org/ligands/173> ;
-		:has_structure id:STR162 ;
+		:has_structure glycoinfo:G02880JU ;
 		rdfs:label "173"^^xsd:string .
 
 id:LIG174 rdf:type owl:NamedIndividual ,
@@ -1544,7 +1544,7 @@ id:LIG174 rdf:type owl:NamedIndividual ,
 			:Ligand ;
 		foaf:homepage <https://sugarbind.expasy.org/ligands/174> ;
 		dcterms:references <https://sugarbind.expasy.org/ligands/174> ;
-		:has_structure id:STR163 ;
+		:has_structure glycoinfo:G45827GY ;
 		rdfs:label "Lacto-N-tetraose"^^xsd:string ,
 			"Lactotetraose"^^xsd:string ,
 			"LNT"^^xsd:string .
@@ -1554,7 +1554,7 @@ id:LIG175 rdf:type owl:NamedIndividual ,
 			:Ligand ;
 		foaf:homepage <https://sugarbind.expasy.org/ligands/175> ;
 		dcterms:references <https://sugarbind.expasy.org/ligands/175> ;
-		:has_structure id:STR164 ;
+		:has_structure glycoinfo:G48059CD ;
 		rdfs:label "Neolactotetrose"^^xsd:string ,
 			"LNnT"^^xsd:string ,
 			"Lacto-N-neotetraose"^^xsd:string .
@@ -1564,7 +1564,7 @@ id:LIG176 rdf:type owl:NamedIndividual ,
 			:Ligand ;
 		foaf:homepage <https://sugarbind.expasy.org/ligands/176> ;
 		dcterms:references <https://sugarbind.expasy.org/ligands/176> ;
-		:has_structure id:STR165 ;
+		:has_structure glycoinfo:G39011KA ;
 		rdfs:label "176"^^xsd:string .
 
 id:LIG177 rdf:type owl:NamedIndividual ,
@@ -1572,7 +1572,7 @@ id:LIG177 rdf:type owl:NamedIndividual ,
 			:Ligand ;
 		foaf:homepage <https://sugarbind.expasy.org/ligands/177> ;
 		dcterms:references <https://sugarbind.expasy.org/ligands/177> ;
-		:has_structure id:STR166 ;
+		:has_structure glycoinfo:G55205ZV ;
 		rdfs:label "177"^^xsd:string .
 
 id:LIG178 rdf:type owl:NamedIndividual ,
@@ -1580,7 +1580,7 @@ id:LIG178 rdf:type owl:NamedIndividual ,
 			:Ligand ;
 		foaf:homepage <https://sugarbind.expasy.org/ligands/178> ;
 		dcterms:references <https://sugarbind.expasy.org/ligands/178> ;
-		:has_structure id:STR167 ;
+		:has_structure glycoinfo:G06000DZ ;
 		rdfs:label "178"^^xsd:string .
 
 id:LIG179 rdf:type owl:NamedIndividual ,
@@ -1588,7 +1588,7 @@ id:LIG179 rdf:type owl:NamedIndividual ,
 			:Ligand ;
 		foaf:homepage <https://sugarbind.expasy.org/ligands/179> ;
 		dcterms:references <https://sugarbind.expasy.org/ligands/179> ;
-		:has_structure id:STR168 ;
+		:has_structure glycoinfo:G23581GL ;
 		rdfs:label "179"^^xsd:string .
 
 id:LIG180 rdf:type owl:NamedIndividual ,
@@ -1596,7 +1596,7 @@ id:LIG180 rdf:type owl:NamedIndividual ,
 			:Ligand ;
 		foaf:homepage <https://sugarbind.expasy.org/ligands/180> ;
 		dcterms:references <https://sugarbind.expasy.org/ligands/180> ;
-		:has_structure id:STR169 ;
+		:has_structure glycoinfo:G65191ST ;
 		rdfs:label "180"^^xsd:string .
 
 id:LIG181 rdf:type owl:NamedIndividual ,
@@ -1612,7 +1612,7 @@ id:LIG182 rdf:type owl:NamedIndividual ,
 			:Ligand ;
 		foaf:homepage <https://sugarbind.expasy.org/ligands/182> ;
 		dcterms:references <https://sugarbind.expasy.org/ligands/182> ;
-		:has_structure id:STR171 ;
+		:has_structure glycoinfo:G90889KG ;
 		rdfs:label "N-glycan"^^xsd:string .
 
 id:LIG183 rdf:type owl:NamedIndividual ,
@@ -1620,7 +1620,7 @@ id:LIG183 rdf:type owl:NamedIndividual ,
 			:Ligand ;
 		foaf:homepage <https://sugarbind.expasy.org/ligands/183> ;
 		dcterms:references <https://sugarbind.expasy.org/ligands/183> ;
-		:has_structure id:STR172 ;
+		:has_structure glycoinfo:G28330DZ ;
 		rdfs:label "N-glycan"^^xsd:string .
 
 id:LIG184 rdf:type owl:NamedIndividual ,
@@ -1628,7 +1628,7 @@ id:LIG184 rdf:type owl:NamedIndividual ,
 			:Ligand ;
 		foaf:homepage <https://sugarbind.expasy.org/ligands/184> ;
 		dcterms:references <https://sugarbind.expasy.org/ligands/184> ;
-		:has_structure id:STR173 ;
+		:has_structure glycoinfo:G47812NS ;
 		rdfs:label "2'-fluorine-3′-sialyl-N-acetyllactosamine"^^xsd:string ,
 			"2'F-3'SiaLacNAc(1-3)"^^xsd:string .
 
@@ -1637,7 +1637,7 @@ id:LIG185 rdf:type owl:NamedIndividual ,
 			:Ligand ;
 		foaf:homepage <https://sugarbind.expasy.org/ligands/185> ;
 		dcterms:references <https://sugarbind.expasy.org/ligands/185> ;
-		:has_structure id:STR174 ;
+		:has_structure glycoinfo:G62593IS ;
 		rdfs:label "2'F-3'SiaLacNAc(1-4)"^^xsd:string ,
 			"2'-fluorine-3′-sialyl-N-acetyllactosamine"^^xsd:string .
 
@@ -1646,7 +1646,7 @@ id:LIG186 rdf:type owl:NamedIndividual ,
 			:Ligand ;
 		foaf:homepage <https://sugarbind.expasy.org/ligands/186> ;
 		dcterms:references <https://sugarbind.expasy.org/ligands/186> ;
-		:has_structure id:STR175 ;
+		:has_structure glycoinfo:G59168YE ;
 		rdfs:label "3′-sialyl-N-acetyllactosamine(1-3)"^^xsd:string ,
 			"3'SiaLacNAc(1-3)"^^xsd:string ,
 			"3'SLN"^^xsd:string .
@@ -1656,7 +1656,7 @@ id:LIG187 rdf:type owl:NamedIndividual ,
 			:Ligand ;
 		foaf:homepage <https://sugarbind.expasy.org/ligands/187> ;
 		dcterms:references <https://sugarbind.expasy.org/ligands/187> ;
-		:has_structure id:STR82 ;
+		:has_structure glycoinfo:G65889KE ;
 		rdfs:label "Galactose"^^xsd:string ,
 			"Gal"^^xsd:string .
 
@@ -1665,7 +1665,7 @@ id:LIG188 rdf:type owl:NamedIndividual ,
 			:Ligand ;
 		foaf:homepage <https://sugarbind.expasy.org/ligands/188> ;
 		dcterms:references <https://sugarbind.expasy.org/ligands/188> ;
-		:has_structure id:STR176 ;
+		:has_structure glycoinfo:G59508TM ;
 		rdfs:label "SM1a"^^xsd:string ,
 			"Gg4Cer II3-sulfate"^^xsd:string .
 
@@ -1674,7 +1674,7 @@ id:LIG189 rdf:type owl:NamedIndividual ,
 			:Ligand ;
 		foaf:homepage <https://sugarbind.expasy.org/ligands/189> ;
 		dcterms:references <https://sugarbind.expasy.org/ligands/189> ;
-		:has_structure id:STR177 ;
+		:has_structure glycoinfo:G32417JV ;
 		rdfs:label "Sialyllacto-N-tetraose b"^^xsd:string ,
 			"LSTb"^^xsd:string .
 
@@ -1683,7 +1683,7 @@ id:LIG190 rdf:type owl:NamedIndividual ,
 			:Ligand ;
 		foaf:homepage <https://sugarbind.expasy.org/ligands/190> ;
 		dcterms:references <https://sugarbind.expasy.org/ligands/190> ;
-		:has_structure id:STR178 ;
+		:has_structure glycoinfo:G00998NI ;
 		rdfs:label "NA2F"^^xsd:string .
 
 id:LIG191 rdf:type owl:NamedIndividual ,
@@ -1691,7 +1691,7 @@ id:LIG191 rdf:type owl:NamedIndividual ,
 			:Ligand ;
 		foaf:homepage <https://sugarbind.expasy.org/ligands/191> ;
 		dcterms:references <https://sugarbind.expasy.org/ligands/191> ;
-		:has_structure id:STR179 ;
+		:has_structure glycoinfo:G28528AG ;
 		rdfs:label "Mannotriose"^^xsd:string .
 
 id:LIG192 rdf:type owl:NamedIndividual ,
@@ -1699,7 +1699,7 @@ id:LIG192 rdf:type owl:NamedIndividual ,
 			:Ligand ;
 		foaf:homepage <https://sugarbind.expasy.org/ligands/192> ;
 		dcterms:references <https://sugarbind.expasy.org/ligands/192> ;
-		:has_structure id:STR180 ;
+		:has_structure glycoinfo:G15021LG ;
 		rdfs:label "D-Glucose"^^xsd:string ,
 			"Glucose"^^xsd:string ,
 			"Glc"^^xsd:string .
@@ -1709,7 +1709,7 @@ id:LIG193 rdf:type owl:NamedIndividual ,
 			:Ligand ;
 		foaf:homepage <https://sugarbind.expasy.org/ligands/193> ;
 		dcterms:references <https://sugarbind.expasy.org/ligands/193> ;
-		:has_structure id:STR181 ;
+		:has_structure glycoinfo:G11485ID ;
 		rdfs:label "B-GM1"^^xsd:string .
 
 id:LIG194 rdf:type owl:NamedIndividual ,
@@ -1717,7 +1717,7 @@ id:LIG194 rdf:type owl:NamedIndividual ,
 			:Ligand ;
 		foaf:homepage <https://sugarbind.expasy.org/ligands/194> ;
 		dcterms:references <https://sugarbind.expasy.org/ligands/194> ;
-		:has_structure id:STR182 ;
+		:has_structure glycoinfo:G03506YN ;
 		rdfs:label "Extended GM1"^^xsd:string .
 
 id:LIG195 rdf:type owl:NamedIndividual ,
@@ -1725,7 +1725,7 @@ id:LIG195 rdf:type owl:NamedIndividual ,
 			:Ligand ;
 		foaf:homepage <https://sugarbind.expasy.org/ligands/195> ;
 		dcterms:references <https://sugarbind.expasy.org/ligands/195> ;
-		:has_structure id:STR183 ;
+		:has_structure glycoinfo:G68158BT ;
 		rdfs:label "Galactose beta1"^^xsd:string ,
 			"Gal beta1"^^xsd:string .
 
@@ -1734,7 +1734,7 @@ id:LIG196 rdf:type owl:NamedIndividual ,
 			:Ligand ;
 		foaf:homepage <https://sugarbind.expasy.org/ligands/196> ;
 		dcterms:references <https://sugarbind.expasy.org/ligands/196> ;
-		:has_structure id:STR129 ;
+		:has_structure glycoinfo:G29313LW ;
 		rdfs:label "alpha-oligomannoside"^^xsd:string ,
 			"dimannoside"^^xsd:string .
 
@@ -1743,7 +1743,7 @@ id:LIG197 rdf:type owl:NamedIndividual ,
 			:Ligand ;
 		foaf:homepage <https://sugarbind.expasy.org/ligands/197> ;
 		dcterms:references <https://sugarbind.expasy.org/ligands/197> ;
-		:has_structure id:STR184 ;
+		:has_structure glycoinfo:G07490EK ;
 		rdfs:label "alpha-oligomannoside"^^xsd:string .
 
 id:LIG198 rdf:type owl:NamedIndividual ,
@@ -1751,7 +1751,7 @@ id:LIG198 rdf:type owl:NamedIndividual ,
 			:Ligand ;
 		foaf:homepage <https://sugarbind.expasy.org/ligands/198> ;
 		dcterms:references <https://sugarbind.expasy.org/ligands/198> ;
-		:has_structure id:STR185 ;
+		:has_structure glycoinfo:G51379UR ;
 		rdfs:label "alpha-oligomannoside"^^xsd:string .
 
 id:LIG199 rdf:type owl:NamedIndividual ,
@@ -1759,7 +1759,7 @@ id:LIG199 rdf:type owl:NamedIndividual ,
 			:Ligand ;
 		foaf:homepage <https://sugarbind.expasy.org/ligands/199> ;
 		dcterms:references <https://sugarbind.expasy.org/ligands/199> ;
-		:has_structure id:STR187 ;
+		:has_structure glycoinfo:G89659QV ;
 		rdfs:label "Lewis y"^^xsd:string ,
 			"Ley-6"^^xsd:string .
 
@@ -1776,7 +1776,7 @@ id:LIG201 rdf:type owl:NamedIndividual ,
 			:Ligand ;
 		foaf:homepage <https://sugarbind.expasy.org/ligands/201> ;
 		dcterms:references <https://sugarbind.expasy.org/ligands/201> ;
-		:has_structure id:STR188 ;
+		:has_structure glycoinfo:G48236KP ;
 		rdfs:label "201"^^xsd:string .
 
 id:LIG202 rdf:type owl:NamedIndividual ,
@@ -1784,7 +1784,7 @@ id:LIG202 rdf:type owl:NamedIndividual ,
 			:Ligand ;
 		foaf:homepage <https://sugarbind.expasy.org/ligands/202> ;
 		dcterms:references <https://sugarbind.expasy.org/ligands/202> ;
-		:has_structure id:STR189 ;
+		:has_structure glycoinfo:G72506RN ;
 		rdfs:label "LSTc pentasaccharide"^^xsd:string .
 
 id:LIG203 rdf:type owl:NamedIndividual ,
@@ -1792,7 +1792,7 @@ id:LIG203 rdf:type owl:NamedIndividual ,
 			:Ligand ;
 		foaf:homepage <https://sugarbind.expasy.org/ligands/203> ;
 		dcterms:references <https://sugarbind.expasy.org/ligands/203> ;
-		:has_structure id:STR190 ;
+		:has_structure glycoinfo:G17108EX ;
 		rdfs:label "Blood group A type 2 tetrasaccharide"^^xsd:string .
 
 id:LIG204 rdf:type owl:NamedIndividual ,

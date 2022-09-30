@@ -199,7 +199,7 @@ def ttl_ligand():
         if len(filtered_structure_ligand) > 0:                                                                              # if structure ligand exists in filtered data frame
             document = ''                                                                                                   # initiate document as string data
             for index2, item2 in filtered_structure_ligand.iterrows():
-                document += f'id:STR{ item2["Structure ID"] } ,\n\t\t\t'                # add structure URI to document
+                document += f'glycoinfo:{ item2["Glytoucan ID"] } ,\n\t\t\t'                # add structure URI to document
             file.write('\t\t:has_structure ')                                                                               # add ttl object property
             file.write( document[:-5] + ';\n')                                                                              # inserting ligand information to ttl
 
