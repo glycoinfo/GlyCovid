@@ -21,997 +21,997 @@
 ### Individuals (Structure) 
 #######################################################
 
-id:STR1 rdf:type owl:NamedIndividual ,
+glycoinfo:G65889KE rdf:type owl:NamedIndividual ,
                     glycan:Saccharide ;
                 glycan:has_resource_entry <https://sugarbind.expasy.org/structures/1> ;
                 rdfs:label "1"^^xsd:string .
                 
-id:STR2 rdf:type owl:NamedIndividual ,
+glycoinfo:G21856LC rdf:type owl:NamedIndividual ,
                     glycan:Saccharide ;
                 glycan:has_resource_entry <https://sugarbind.expasy.org/structures/2> ;
                 rdfs:label "2"^^xsd:string .
                 
-id:STR3 rdf:type owl:NamedIndividual ,
+glycoinfo:G84224TW rdf:type owl:NamedIndividual ,
                     glycan:Saccharide ;
                 glycan:has_resource_entry <https://sugarbind.expasy.org/structures/3> ;
                 rdfs:label "3"^^xsd:string .
                 
-id:STR4 rdf:type owl:NamedIndividual ,
+glycoinfo:G90562PB rdf:type owl:NamedIndividual ,
                     glycan:Saccharide ;
                 glycan:has_resource_entry <https://sugarbind.expasy.org/structures/4> ;
                 rdfs:label "4"^^xsd:string .
                 
-id:STR5 rdf:type owl:NamedIndividual ,
+glycoinfo:G71142DF rdf:type owl:NamedIndividual ,
                     glycan:Saccharide ;
                 glycan:has_resource_entry <https://sugarbind.expasy.org/structures/5> ;
                 rdfs:label "5"^^xsd:string .
                 
-id:STR6 rdf:type owl:NamedIndividual ,
+glycoinfo:G74621DY rdf:type owl:NamedIndividual ,
                     glycan:Saccharide ;
                 glycan:has_resource_entry <https://sugarbind.expasy.org/structures/6> ;
                 rdfs:label "6"^^xsd:string .
                 
-id:STR7 rdf:type owl:NamedIndividual ,
+glycoinfo:G68158BT rdf:type owl:NamedIndividual ,
                     glycan:Saccharide ;
                 glycan:has_resource_entry <https://sugarbind.expasy.org/structures/7> ;
                 rdfs:label "7"^^xsd:string .
                 
-id:STR8 rdf:type owl:NamedIndividual ,
+glycoinfo:G78436BB rdf:type owl:NamedIndividual ,
                     glycan:Saccharide ;
                 glycan:has_resource_entry <https://sugarbind.expasy.org/structures/8> ;
                 rdfs:label "8"^^xsd:string .
                 
-id:STR8 rdf:type owl:NamedIndividual ,
+glycoinfo:G78436BB rdf:type owl:NamedIndividual ,
                     glycan:Saccharide ;
                 glycan:has_resource_entry <https://sugarbind.expasy.org/structures/8> ;
                 rdfs:label "8"^^xsd:string .
                 
-id:STR8 rdf:type owl:NamedIndividual ,
+glycoinfo:G78436BB rdf:type owl:NamedIndividual ,
                     glycan:Saccharide ;
                 glycan:has_resource_entry <https://sugarbind.expasy.org/structures/8> ;
                 rdfs:label "8"^^xsd:string .
                 
-id:STR9 rdf:type owl:NamedIndividual ,
+glycoinfo:G61418DU rdf:type owl:NamedIndividual ,
                     glycan:Saccharide ;
                 glycan:has_resource_entry <https://sugarbind.expasy.org/structures/9> ;
                 rdfs:label "9"^^xsd:string .
                 
-id:STR10 rdf:type owl:NamedIndividual ,
+glycoinfo:G78074HX rdf:type owl:NamedIndividual ,
                     glycan:Saccharide ;
                 glycan:has_resource_entry <https://sugarbind.expasy.org/structures/10> ;
                 rdfs:label "10"^^xsd:string .
                 
-id:STR11 rdf:type owl:NamedIndividual ,
+glycoinfo:G54721WC rdf:type owl:NamedIndividual ,
                     glycan:Saccharide ;
                 glycan:has_resource_entry <https://sugarbind.expasy.org/structures/11> ;
                 rdfs:label "11"^^xsd:string .
                 
-id:STR12 rdf:type owl:NamedIndividual ,
+glycoinfo:G99053DY rdf:type owl:NamedIndividual ,
                     glycan:Saccharide ;
                 glycan:has_resource_entry <https://sugarbind.expasy.org/structures/12> ;
                 rdfs:label "12"^^xsd:string .
                 
-id:STR13 rdf:type owl:NamedIndividual ,
+glycoinfo:G48558GR rdf:type owl:NamedIndividual ,
                     glycan:Saccharide ;
                 glycan:has_resource_entry <https://sugarbind.expasy.org/structures/13> ;
                 rdfs:label "13"^^xsd:string .
                 
-id:STR14 rdf:type owl:NamedIndividual ,
+glycoinfo:G37184KW rdf:type owl:NamedIndividual ,
                     glycan:Saccharide ;
                 glycan:has_resource_entry <https://sugarbind.expasy.org/structures/14> ;
                 rdfs:label "14"^^xsd:string .
                 
-id:STR15 rdf:type owl:NamedIndividual ,
+glycoinfo:G58896AZ rdf:type owl:NamedIndividual ,
                     glycan:Saccharide ;
                 glycan:has_resource_entry <https://sugarbind.expasy.org/structures/15> ;
                 rdfs:label "15"^^xsd:string .
                 
-id:STR17 rdf:type owl:NamedIndividual ,
+glycoinfo:G57710SU rdf:type owl:NamedIndividual ,
                     glycan:Saccharide ;
                 glycan:has_resource_entry <https://sugarbind.expasy.org/structures/17> ;
                 rdfs:label "17"^^xsd:string .
                 
-id:STR18 rdf:type owl:NamedIndividual ,
+glycoinfo:G00061MO rdf:type owl:NamedIndividual ,
                     glycan:Saccharide ;
                 glycan:has_resource_entry <https://sugarbind.expasy.org/structures/18> ;
                 rdfs:label "18"^^xsd:string .
                 
-id:STR19 rdf:type owl:NamedIndividual ,
+glycoinfo:G51699SI rdf:type owl:NamedIndividual ,
                     glycan:Saccharide ;
                 glycan:has_resource_entry <https://sugarbind.expasy.org/structures/19> ;
                 rdfs:label "19"^^xsd:string .
                 
-id:STR20 rdf:type owl:NamedIndividual ,
+glycoinfo:G06239NA rdf:type owl:NamedIndividual ,
                     glycan:Saccharide ;
                 glycan:has_resource_entry <https://sugarbind.expasy.org/structures/20> ;
                 rdfs:label "20"^^xsd:string .
                 
-id:STR21 rdf:type owl:NamedIndividual ,
+glycoinfo:G87315SO rdf:type owl:NamedIndividual ,
                     glycan:Saccharide ;
                 glycan:has_resource_entry <https://sugarbind.expasy.org/structures/21> ;
                 rdfs:label "21"^^xsd:string .
                 
-id:STR22 rdf:type owl:NamedIndividual ,
+glycoinfo:G46677TE rdf:type owl:NamedIndividual ,
                     glycan:Saccharide ;
                 glycan:has_resource_entry <https://sugarbind.expasy.org/structures/22> ;
                 rdfs:label "22"^^xsd:string .
                 
-id:STR23 rdf:type owl:NamedIndividual ,
+glycoinfo:G60859DF rdf:type owl:NamedIndividual ,
                     glycan:Saccharide ;
                 glycan:has_resource_entry <https://sugarbind.expasy.org/structures/23> ;
                 rdfs:label "23"^^xsd:string .
                 
-id:STR24 rdf:type owl:NamedIndividual ,
+glycoinfo:G00049MO rdf:type owl:NamedIndividual ,
                     glycan:Saccharide ;
                 glycan:has_resource_entry <https://sugarbind.expasy.org/structures/24> ;
                 rdfs:label "24"^^xsd:string .
                 
-id:STR25 rdf:type owl:NamedIndividual ,
+glycoinfo:G00059MO rdf:type owl:NamedIndividual ,
                     glycan:Saccharide ;
                 glycan:has_resource_entry <https://sugarbind.expasy.org/structures/25> ;
                 rdfs:label "25"^^xsd:string .
                 
-id:STR26 rdf:type owl:NamedIndividual ,
+glycoinfo:G40183QN rdf:type owl:NamedIndividual ,
                     glycan:Saccharide ;
                 glycan:has_resource_entry <https://sugarbind.expasy.org/structures/26> ;
                 rdfs:label "26"^^xsd:string .
                 
-id:STR27 rdf:type owl:NamedIndividual ,
+glycoinfo:G04616ST rdf:type owl:NamedIndividual ,
                     glycan:Saccharide ;
                 glycan:has_resource_entry <https://sugarbind.expasy.org/structures/27> ;
                 rdfs:label "27"^^xsd:string .
                 
-id:STR27 rdf:type owl:NamedIndividual ,
+glycoinfo:G04616ST rdf:type owl:NamedIndividual ,
                     glycan:Saccharide ;
                 glycan:has_resource_entry <https://sugarbind.expasy.org/structures/27> ;
                 rdfs:label "27"^^xsd:string .
                 
-id:STR28 rdf:type owl:NamedIndividual ,
+glycoinfo:G51331BY rdf:type owl:NamedIndividual ,
                     glycan:Saccharide ;
                 glycan:has_resource_entry <https://sugarbind.expasy.org/structures/28> ;
                 rdfs:label "28"^^xsd:string .
                 
-id:STR29 rdf:type owl:NamedIndividual ,
+glycoinfo:G62763GO rdf:type owl:NamedIndividual ,
                     glycan:Saccharide ;
                 glycan:has_resource_entry <https://sugarbind.expasy.org/structures/29> ;
                 rdfs:label "29"^^xsd:string .
                 
-id:STR30 rdf:type owl:NamedIndividual ,
+glycoinfo:G67988RO rdf:type owl:NamedIndividual ,
                     glycan:Saccharide ;
                 glycan:has_resource_entry <https://sugarbind.expasy.org/structures/30> ;
                 rdfs:label "30"^^xsd:string .
                 
-id:STR30 rdf:type owl:NamedIndividual ,
+glycoinfo:G67988RO rdf:type owl:NamedIndividual ,
                     glycan:Saccharide ;
                 glycan:has_resource_entry <https://sugarbind.expasy.org/structures/30> ;
                 rdfs:label "30"^^xsd:string .
                 
-id:STR31 rdf:type owl:NamedIndividual ,
+glycoinfo:G20624LQ rdf:type owl:NamedIndividual ,
                     glycan:Saccharide ;
                 glycan:has_resource_entry <https://sugarbind.expasy.org/structures/31> ;
                 rdfs:label "31"^^xsd:string .
                 
-id:STR32 rdf:type owl:NamedIndividual ,
+glycoinfo:G39064VB rdf:type owl:NamedIndividual ,
                     glycan:Saccharide ;
                 glycan:has_resource_entry <https://sugarbind.expasy.org/structures/32> ;
                 rdfs:label "32"^^xsd:string .
                 
-id:STR33 rdf:type owl:NamedIndividual ,
+glycoinfo:G81533KY rdf:type owl:NamedIndividual ,
                     glycan:Saccharide ;
                 glycan:has_resource_entry <https://sugarbind.expasy.org/structures/33> ;
                 rdfs:label "33"^^xsd:string .
                 
-id:STR34 rdf:type owl:NamedIndividual ,
+glycoinfo:G27025MB rdf:type owl:NamedIndividual ,
                     glycan:Saccharide ;
                 glycan:has_resource_entry <https://sugarbind.expasy.org/structures/34> ;
                 rdfs:label "34"^^xsd:string .
                 
-id:STR35 rdf:type owl:NamedIndividual ,
+glycoinfo:G91237TK rdf:type owl:NamedIndividual ,
                     glycan:Saccharide ;
                 glycan:has_resource_entry <https://sugarbind.expasy.org/structures/35> ;
                 rdfs:label "35"^^xsd:string .
                 
-id:STR35 rdf:type owl:NamedIndividual ,
+glycoinfo:G91237TK rdf:type owl:NamedIndividual ,
                     glycan:Saccharide ;
                 glycan:has_resource_entry <https://sugarbind.expasy.org/structures/35> ;
                 rdfs:label "35"^^xsd:string .
                 
-id:STR36 rdf:type owl:NamedIndividual ,
+glycoinfo:G18625KA rdf:type owl:NamedIndividual ,
                     glycan:Saccharide ;
                 glycan:has_resource_entry <https://sugarbind.expasy.org/structures/36> ;
                 rdfs:label "36"^^xsd:string .
                 
-id:STR37 rdf:type owl:NamedIndividual ,
+glycoinfo:G77824XV rdf:type owl:NamedIndividual ,
                     glycan:Saccharide ;
                 glycan:has_resource_entry <https://sugarbind.expasy.org/structures/37> ;
                 rdfs:label "37"^^xsd:string .
                 
-id:STR38 rdf:type owl:NamedIndividual ,
+glycoinfo:G03499BP rdf:type owl:NamedIndividual ,
                     glycan:Saccharide ;
                 glycan:has_resource_entry <https://sugarbind.expasy.org/structures/38> ;
                 rdfs:label "38"^^xsd:string .
                 
-id:STR39 rdf:type owl:NamedIndividual ,
+glycoinfo:G79389NT rdf:type owl:NamedIndividual ,
                     glycan:Saccharide ;
                 glycan:has_resource_entry <https://sugarbind.expasy.org/structures/39> ;
                 rdfs:label "39"^^xsd:string .
                 
-id:STR40 rdf:type owl:NamedIndividual ,
+glycoinfo:G97569KL rdf:type owl:NamedIndividual ,
                     glycan:Saccharide ;
                 glycan:has_resource_entry <https://sugarbind.expasy.org/structures/40> ;
                 rdfs:label "40"^^xsd:string .
                 
-id:STR41 rdf:type owl:NamedIndividual ,
+glycoinfo:G61298NX rdf:type owl:NamedIndividual ,
                     glycan:Saccharide ;
                 glycan:has_resource_entry <https://sugarbind.expasy.org/structures/41> ;
                 rdfs:label "41"^^xsd:string .
                 
-id:STR42 rdf:type owl:NamedIndividual ,
+glycoinfo:G70323CJ rdf:type owl:NamedIndividual ,
                     glycan:Saccharide ;
                 glycan:has_resource_entry <https://sugarbind.expasy.org/structures/42> ;
                 rdfs:label "42"^^xsd:string .
                 
-id:STR43 rdf:type owl:NamedIndividual ,
+glycoinfo:G00050MO rdf:type owl:NamedIndividual ,
                     glycan:Saccharide ;
                 glycan:has_resource_entry <https://sugarbind.expasy.org/structures/43> ;
                 rdfs:label "43"^^xsd:string .
                 
-id:STR44 rdf:type owl:NamedIndividual ,
+glycoinfo:G22689CV rdf:type owl:NamedIndividual ,
                     glycan:Saccharide ;
                 glycan:has_resource_entry <https://sugarbind.expasy.org/structures/44> ;
                 rdfs:label "44"^^xsd:string .
                 
-id:STR45 rdf:type owl:NamedIndividual ,
+glycoinfo:G63238VS rdf:type owl:NamedIndividual ,
                     glycan:Saccharide ;
                 glycan:has_resource_entry <https://sugarbind.expasy.org/structures/45> ;
                 rdfs:label "45"^^xsd:string .
                 
-id:STR46 rdf:type owl:NamedIndividual ,
+glycoinfo:G71485PH rdf:type owl:NamedIndividual ,
                     glycan:Saccharide ;
                 glycan:has_resource_entry <https://sugarbind.expasy.org/structures/46> ;
                 rdfs:label "46"^^xsd:string .
                 
-id:STR48 rdf:type owl:NamedIndividual ,
+glycoinfo:G37830TX rdf:type owl:NamedIndividual ,
                     glycan:Saccharide ;
                 glycan:has_resource_entry <https://sugarbind.expasy.org/structures/48> ;
                 rdfs:label "48"^^xsd:string .
                 
-id:STR48 rdf:type owl:NamedIndividual ,
+glycoinfo:G37830TX rdf:type owl:NamedIndividual ,
                     glycan:Saccharide ;
                 glycan:has_resource_entry <https://sugarbind.expasy.org/structures/48> ;
                 rdfs:label "48"^^xsd:string .
                 
-id:STR49 rdf:type owl:NamedIndividual ,
+glycoinfo:G04715SK rdf:type owl:NamedIndividual ,
                     glycan:Saccharide ;
                 glycan:has_resource_entry <https://sugarbind.expasy.org/structures/49> ;
                 rdfs:label "49"^^xsd:string .
                 
-id:STR50 rdf:type owl:NamedIndividual ,
+glycoinfo:G82858KU rdf:type owl:NamedIndividual ,
                     glycan:Saccharide ;
                 glycan:has_resource_entry <https://sugarbind.expasy.org/structures/50> ;
                 rdfs:label "50"^^xsd:string .
                 
-id:STR51 rdf:type owl:NamedIndividual ,
+glycoinfo:G65507FU rdf:type owl:NamedIndividual ,
                     glycan:Saccharide ;
                 glycan:has_resource_entry <https://sugarbind.expasy.org/structures/51> ;
                 rdfs:label "51"^^xsd:string .
                 
-id:STR52 rdf:type owl:NamedIndividual ,
+glycoinfo:G00711NG rdf:type owl:NamedIndividual ,
                     glycan:Saccharide ;
                 glycan:has_resource_entry <https://sugarbind.expasy.org/structures/52> ;
                 rdfs:label "52"^^xsd:string .
                 
-id:STR53 rdf:type owl:NamedIndividual ,
+glycoinfo:G76297JC rdf:type owl:NamedIndividual ,
                     glycan:Saccharide ;
                 glycan:has_resource_entry <https://sugarbind.expasy.org/structures/53> ;
                 rdfs:label "53"^^xsd:string .
                 
-id:STR54 rdf:type owl:NamedIndividual ,
+glycoinfo:G26123AX rdf:type owl:NamedIndividual ,
                     glycan:Saccharide ;
                 glycan:has_resource_entry <https://sugarbind.expasy.org/structures/54> ;
                 rdfs:label "54"^^xsd:string .
                 
-id:STR55 rdf:type owl:NamedIndividual ,
+glycoinfo:G33224VN rdf:type owl:NamedIndividual ,
                     glycan:Saccharide ;
                 glycan:has_resource_entry <https://sugarbind.expasy.org/structures/55> ;
                 rdfs:label "55"^^xsd:string .
                 
-id:STR56 rdf:type owl:NamedIndividual ,
+glycoinfo:G05357CB rdf:type owl:NamedIndividual ,
                     glycan:Saccharide ;
                 glycan:has_resource_entry <https://sugarbind.expasy.org/structures/56> ;
                 rdfs:label "56"^^xsd:string .
                 
-id:STR57 rdf:type owl:NamedIndividual ,
+glycoinfo:G97932OH rdf:type owl:NamedIndividual ,
                     glycan:Saccharide ;
                 glycan:has_resource_entry <https://sugarbind.expasy.org/structures/57> ;
                 rdfs:label "57"^^xsd:string .
                 
-id:STR58 rdf:type owl:NamedIndividual ,
+glycoinfo:G32254QI rdf:type owl:NamedIndividual ,
                     glycan:Saccharide ;
                 glycan:has_resource_entry <https://sugarbind.expasy.org/structures/58> ;
                 rdfs:label "58"^^xsd:string .
                 
-id:STR58 rdf:type owl:NamedIndividual ,
+glycoinfo:G32254QI rdf:type owl:NamedIndividual ,
                     glycan:Saccharide ;
                 glycan:has_resource_entry <https://sugarbind.expasy.org/structures/58> ;
                 rdfs:label "58"^^xsd:string .
                 
-id:STR59 rdf:type owl:NamedIndividual ,
+glycoinfo:G64581RP rdf:type owl:NamedIndividual ,
                     glycan:Saccharide ;
                 glycan:has_resource_entry <https://sugarbind.expasy.org/structures/59> ;
                 rdfs:label "59"^^xsd:string .
                 
-id:STR60 rdf:type owl:NamedIndividual ,
+glycoinfo:G67988RO rdf:type owl:NamedIndividual ,
                     glycan:Saccharide ;
                 glycan:has_resource_entry <https://sugarbind.expasy.org/structures/60> ;
                 rdfs:label "60"^^xsd:string .
                 
-id:STR61 rdf:type owl:NamedIndividual ,
+glycoinfo:G98465JN rdf:type owl:NamedIndividual ,
                     glycan:Saccharide ;
                 glycan:has_resource_entry <https://sugarbind.expasy.org/structures/61> ;
                 rdfs:label "61"^^xsd:string .
                 
-id:STR62 rdf:type owl:NamedIndividual ,
+glycoinfo:G72565QB rdf:type owl:NamedIndividual ,
                     glycan:Saccharide ;
                 glycan:has_resource_entry <https://sugarbind.expasy.org/structures/62> ;
                 rdfs:label "62"^^xsd:string .
                 
-id:STR63 rdf:type owl:NamedIndividual ,
+glycoinfo:G75789AR rdf:type owl:NamedIndividual ,
                     glycan:Saccharide ;
                 glycan:has_resource_entry <https://sugarbind.expasy.org/structures/63> ;
                 rdfs:label "63"^^xsd:string .
                 
-id:STR64 rdf:type owl:NamedIndividual ,
+glycoinfo:G70323CJ rdf:type owl:NamedIndividual ,
                     glycan:Saccharide ;
                 glycan:has_resource_entry <https://sugarbind.expasy.org/structures/64> ;
                 rdfs:label "64"^^xsd:string .
                 
-id:STR65 rdf:type owl:NamedIndividual ,
+glycoinfo:G30207PZ rdf:type owl:NamedIndividual ,
                     glycan:Saccharide ;
                 glycan:has_resource_entry <https://sugarbind.expasy.org/structures/65> ;
                 rdfs:label "65"^^xsd:string .
                 
-id:STR66 rdf:type owl:NamedIndividual ,
+glycoinfo:G32969VW rdf:type owl:NamedIndividual ,
                     glycan:Saccharide ;
                 glycan:has_resource_entry <https://sugarbind.expasy.org/structures/66> ;
                 rdfs:label "66"^^xsd:string .
                 
-id:STR67 rdf:type owl:NamedIndividual ,
+glycoinfo:G56299XO rdf:type owl:NamedIndividual ,
                     glycan:Saccharide ;
                 glycan:has_resource_entry <https://sugarbind.expasy.org/structures/67> ;
                 rdfs:label "67"^^xsd:string .
                 
-id:STR68 rdf:type owl:NamedIndividual ,
+glycoinfo:G70323CJ rdf:type owl:NamedIndividual ,
                     glycan:Saccharide ;
                 glycan:has_resource_entry <https://sugarbind.expasy.org/structures/68> ;
                 rdfs:label "68"^^xsd:string .
                 
-id:STR69 rdf:type owl:NamedIndividual ,
+glycoinfo:G17780OR rdf:type owl:NamedIndividual ,
                     glycan:Saccharide ;
                 glycan:has_resource_entry <https://sugarbind.expasy.org/structures/69> ;
                 rdfs:label "69"^^xsd:string .
                 
-id:STR70 rdf:type owl:NamedIndividual ,
+glycoinfo:G07982RO rdf:type owl:NamedIndividual ,
                     glycan:Saccharide ;
                 glycan:has_resource_entry <https://sugarbind.expasy.org/structures/70> ;
                 rdfs:label "70"^^xsd:string .
                 
-id:STR70 rdf:type owl:NamedIndividual ,
+glycoinfo:G07982RO rdf:type owl:NamedIndividual ,
                     glycan:Saccharide ;
                 glycan:has_resource_entry <https://sugarbind.expasy.org/structures/70> ;
                 rdfs:label "70"^^xsd:string .
                 
-id:STR71 rdf:type owl:NamedIndividual ,
+glycoinfo:G50850NI rdf:type owl:NamedIndividual ,
                     glycan:Saccharide ;
                 glycan:has_resource_entry <https://sugarbind.expasy.org/structures/71> ;
                 rdfs:label "71"^^xsd:string .
                 
-id:STR72 rdf:type owl:NamedIndividual ,
+glycoinfo:G56516VH rdf:type owl:NamedIndividual ,
                     glycan:Saccharide ;
                 glycan:has_resource_entry <https://sugarbind.expasy.org/structures/72> ;
                 rdfs:label "72"^^xsd:string .
                 
-id:STR73 rdf:type owl:NamedIndividual ,
+glycoinfo:G47395XN rdf:type owl:NamedIndividual ,
                     glycan:Saccharide ;
                 glycan:has_resource_entry <https://sugarbind.expasy.org/structures/73> ;
                 rdfs:label "73"^^xsd:string .
                 
-id:STR74 rdf:type owl:NamedIndividual ,
+glycoinfo:G56478LD rdf:type owl:NamedIndividual ,
                     glycan:Saccharide ;
                 glycan:has_resource_entry <https://sugarbind.expasy.org/structures/74> ;
                 rdfs:label "74"^^xsd:string .
                 
-id:STR75 rdf:type owl:NamedIndividual ,
+glycoinfo:G95034OI rdf:type owl:NamedIndividual ,
                     glycan:Saccharide ;
                 glycan:has_resource_entry <https://sugarbind.expasy.org/structures/75> ;
                 rdfs:label "75"^^xsd:string .
                 
-id:STR76 rdf:type owl:NamedIndividual ,
+glycoinfo:G83212YI rdf:type owl:NamedIndividual ,
                     glycan:Saccharide ;
                 glycan:has_resource_entry <https://sugarbind.expasy.org/structures/76> ;
                 rdfs:label "76"^^xsd:string .
                 
-id:STR77 rdf:type owl:NamedIndividual ,
+glycoinfo:G72548RZ rdf:type owl:NamedIndividual ,
                     glycan:Saccharide ;
                 glycan:has_resource_entry <https://sugarbind.expasy.org/structures/77> ;
                 rdfs:label "77"^^xsd:string .
                 
-id:STR78 rdf:type owl:NamedIndividual ,
+glycoinfo:G20044TD rdf:type owl:NamedIndividual ,
                     glycan:Saccharide ;
                 glycan:has_resource_entry <https://sugarbind.expasy.org/structures/78> ;
                 rdfs:label "78"^^xsd:string .
                 
-id:STR79 rdf:type owl:NamedIndividual ,
+glycoinfo:G84034JH rdf:type owl:NamedIndividual ,
                     glycan:Saccharide ;
                 glycan:has_resource_entry <https://sugarbind.expasy.org/structures/79> ;
                 rdfs:label "79"^^xsd:string .
                 
-id:STR80 rdf:type owl:NamedIndividual ,
+glycoinfo:G82576YO rdf:type owl:NamedIndividual ,
                     glycan:Saccharide ;
                 glycan:has_resource_entry <https://sugarbind.expasy.org/structures/80> ;
                 rdfs:label "80"^^xsd:string .
                 
-id:STR81 rdf:type owl:NamedIndividual ,
+glycoinfo:G78260AJ rdf:type owl:NamedIndividual ,
                     glycan:Saccharide ;
                 glycan:has_resource_entry <https://sugarbind.expasy.org/structures/81> ;
                 rdfs:label "81"^^xsd:string .
                 
-id:STR82 rdf:type owl:NamedIndividual ,
+glycoinfo:G65889KE rdf:type owl:NamedIndividual ,
                     glycan:Saccharide ;
                 glycan:has_resource_entry <https://sugarbind.expasy.org/structures/82> ;
                 rdfs:label "82"^^xsd:string .
                 
-id:STR82 rdf:type owl:NamedIndividual ,
+glycoinfo:G65889KE rdf:type owl:NamedIndividual ,
                     glycan:Saccharide ;
                 glycan:has_resource_entry <https://sugarbind.expasy.org/structures/82> ;
                 rdfs:label "82"^^xsd:string .
                 
-id:STR83 rdf:type owl:NamedIndividual ,
+glycoinfo:G88796WA rdf:type owl:NamedIndividual ,
                     glycan:Saccharide ;
                 glycan:has_resource_entry <https://sugarbind.expasy.org/structures/83> ;
                 rdfs:label "83"^^xsd:string .
                 
-id:STR84 rdf:type owl:NamedIndividual ,
+glycoinfo:G19336PT rdf:type owl:NamedIndividual ,
                     glycan:Saccharide ;
                 glycan:has_resource_entry <https://sugarbind.expasy.org/structures/84> ;
                 rdfs:label "84"^^xsd:string .
                 
-id:STR85 rdf:type owl:NamedIndividual ,
+glycoinfo:G62971NJ rdf:type owl:NamedIndividual ,
                     glycan:Saccharide ;
                 glycan:has_resource_entry <https://sugarbind.expasy.org/structures/85> ;
                 rdfs:label "85"^^xsd:string .
                 
-id:STR86 rdf:type owl:NamedIndividual ,
+glycoinfo:G80062GG rdf:type owl:NamedIndividual ,
                     glycan:Saccharide ;
                 glycan:has_resource_entry <https://sugarbind.expasy.org/structures/86> ;
                 rdfs:label "86"^^xsd:string .
                 
-id:STR87 rdf:type owl:NamedIndividual ,
+glycoinfo:G24034CH rdf:type owl:NamedIndividual ,
                     glycan:Saccharide ;
                 glycan:has_resource_entry <https://sugarbind.expasy.org/structures/87> ;
                 rdfs:label "87"^^xsd:string .
                 
-id:STR88 rdf:type owl:NamedIndividual ,
+glycoinfo:G02657AK rdf:type owl:NamedIndividual ,
                     glycan:Saccharide ;
                 glycan:has_resource_entry <https://sugarbind.expasy.org/structures/88> ;
                 rdfs:label "88"^^xsd:string .
                 
-id:STR89 rdf:type owl:NamedIndividual ,
+glycoinfo:G98544DH rdf:type owl:NamedIndividual ,
                     glycan:Saccharide ;
                 glycan:has_resource_entry <https://sugarbind.expasy.org/structures/89> ;
                 rdfs:label "89"^^xsd:string .
                 
-id:STR90 rdf:type owl:NamedIndividual ,
+glycoinfo:G04165ZA rdf:type owl:NamedIndividual ,
                     glycan:Saccharide ;
                 glycan:has_resource_entry <https://sugarbind.expasy.org/structures/90> ;
                 rdfs:label "90"^^xsd:string .
                 
-id:STR91 rdf:type owl:NamedIndividual ,
+glycoinfo:G03777BI rdf:type owl:NamedIndividual ,
                     glycan:Saccharide ;
                 glycan:has_resource_entry <https://sugarbind.expasy.org/structures/91> ;
                 rdfs:label "91"^^xsd:string .
                 
-id:STR92 rdf:type owl:NamedIndividual ,
+glycoinfo:G03277YI rdf:type owl:NamedIndividual ,
                     glycan:Saccharide ;
                 glycan:has_resource_entry <https://sugarbind.expasy.org/structures/92> ;
                 rdfs:label "92"^^xsd:string .
                 
-id:STR93 rdf:type owl:NamedIndividual ,
+glycoinfo:G08079IN rdf:type owl:NamedIndividual ,
                     glycan:Saccharide ;
                 glycan:has_resource_entry <https://sugarbind.expasy.org/structures/93> ;
                 rdfs:label "93"^^xsd:string .
                 
-id:STR94 rdf:type owl:NamedIndividual ,
+glycoinfo:G88393MK rdf:type owl:NamedIndividual ,
                     glycan:Saccharide ;
                 glycan:has_resource_entry <https://sugarbind.expasy.org/structures/94> ;
                 rdfs:label "94"^^xsd:string .
                 
-id:STR95 rdf:type owl:NamedIndividual ,
+glycoinfo:G60395SO rdf:type owl:NamedIndividual ,
                     glycan:Saccharide ;
                 glycan:has_resource_entry <https://sugarbind.expasy.org/structures/95> ;
                 rdfs:label "95"^^xsd:string .
                 
-id:STR96 rdf:type owl:NamedIndividual ,
+glycoinfo:G48600JD rdf:type owl:NamedIndividual ,
                     glycan:Saccharide ;
                 glycan:has_resource_entry <https://sugarbind.expasy.org/structures/96> ;
                 rdfs:label "96"^^xsd:string .
                 
-id:STR97 rdf:type owl:NamedIndividual ,
+glycoinfo:G58507AZ rdf:type owl:NamedIndividual ,
                     glycan:Saccharide ;
                 glycan:has_resource_entry <https://sugarbind.expasy.org/structures/97> ;
                 rdfs:label "97"^^xsd:string .
                 
-id:STR98 rdf:type owl:NamedIndividual ,
+glycoinfo:G08855PJ rdf:type owl:NamedIndividual ,
                     glycan:Saccharide ;
                 glycan:has_resource_entry <https://sugarbind.expasy.org/structures/98> ;
                 rdfs:label "98"^^xsd:string .
                 
-id:STR99 rdf:type owl:NamedIndividual ,
+glycoinfo:G45215IJ rdf:type owl:NamedIndividual ,
                     glycan:Saccharide ;
                 glycan:has_resource_entry <https://sugarbind.expasy.org/structures/99> ;
                 rdfs:label "99"^^xsd:string .
                 
-id:STR100 rdf:type owl:NamedIndividual ,
+glycoinfo:G96401FK rdf:type owl:NamedIndividual ,
                     glycan:Saccharide ;
                 glycan:has_resource_entry <https://sugarbind.expasy.org/structures/100> ;
                 rdfs:label "100"^^xsd:string .
                 
-id:STR101 rdf:type owl:NamedIndividual ,
+glycoinfo:G01296LJ rdf:type owl:NamedIndividual ,
                     glycan:Saccharide ;
                 glycan:has_resource_entry <https://sugarbind.expasy.org/structures/101> ;
                 rdfs:label "101"^^xsd:string .
                 
-id:STR102 rdf:type owl:NamedIndividual ,
+glycoinfo:G01767JJ rdf:type owl:NamedIndividual ,
                     glycan:Saccharide ;
                 glycan:has_resource_entry <https://sugarbind.expasy.org/structures/102> ;
                 rdfs:label "102"^^xsd:string .
                 
-id:STR103 rdf:type owl:NamedIndividual ,
+glycoinfo:G03067VG rdf:type owl:NamedIndividual ,
                     glycan:Saccharide ;
                 glycan:has_resource_entry <https://sugarbind.expasy.org/structures/103> ;
                 rdfs:label "103"^^xsd:string .
                 
-id:STR104 rdf:type owl:NamedIndividual ,
+glycoinfo:G26036PN rdf:type owl:NamedIndividual ,
                     glycan:Saccharide ;
                 glycan:has_resource_entry <https://sugarbind.expasy.org/structures/104> ;
                 rdfs:label "104"^^xsd:string .
                 
-id:STR105 rdf:type owl:NamedIndividual ,
+glycoinfo:G28566CQ rdf:type owl:NamedIndividual ,
                     glycan:Saccharide ;
                 glycan:has_resource_entry <https://sugarbind.expasy.org/structures/105> ;
                 rdfs:label "105"^^xsd:string .
                 
-id:STR106 rdf:type owl:NamedIndividual ,
+glycoinfo:G09552LA rdf:type owl:NamedIndividual ,
                     glycan:Saccharide ;
                 glycan:has_resource_entry <https://sugarbind.expasy.org/structures/106> ;
                 rdfs:label "106"^^xsd:string .
                 
-id:STR107 rdf:type owl:NamedIndividual ,
+glycoinfo:G50321QR rdf:type owl:NamedIndividual ,
                     glycan:Saccharide ;
                 glycan:has_resource_entry <https://sugarbind.expasy.org/structures/107> ;
                 rdfs:label "107"^^xsd:string .
                 
-id:STR108 rdf:type owl:NamedIndividual ,
+glycoinfo:G57920AK rdf:type owl:NamedIndividual ,
                     glycan:Saccharide ;
                 glycan:has_resource_entry <https://sugarbind.expasy.org/structures/108> ;
                 rdfs:label "108"^^xsd:string .
                 
-id:STR109 rdf:type owl:NamedIndividual ,
+glycoinfo:G10203DW rdf:type owl:NamedIndividual ,
                     glycan:Saccharide ;
                 glycan:has_resource_entry <https://sugarbind.expasy.org/structures/109> ;
                 rdfs:label "109"^^xsd:string .
                 
-id:STR110 rdf:type owl:NamedIndividual ,
+glycoinfo:G30207PZ rdf:type owl:NamedIndividual ,
                     glycan:Saccharide ;
                 glycan:has_resource_entry <https://sugarbind.expasy.org/structures/110> ;
                 rdfs:label "110"^^xsd:string .
                 
-id:STR111 rdf:type owl:NamedIndividual ,
+glycoinfo:G55153IW rdf:type owl:NamedIndividual ,
                     glycan:Saccharide ;
                 glycan:has_resource_entry <https://sugarbind.expasy.org/structures/111> ;
                 rdfs:label "111"^^xsd:string .
                 
-id:STR112 rdf:type owl:NamedIndividual ,
+glycoinfo:G07169WN rdf:type owl:NamedIndividual ,
                     glycan:Saccharide ;
                 glycan:has_resource_entry <https://sugarbind.expasy.org/structures/112> ;
                 rdfs:label "112"^^xsd:string .
                 
-id:STR113 rdf:type owl:NamedIndividual ,
+glycoinfo:G96614JE rdf:type owl:NamedIndividual ,
                     glycan:Saccharide ;
                 glycan:has_resource_entry <https://sugarbind.expasy.org/structures/113> ;
                 rdfs:label "113"^^xsd:string .
                 
-id:STR114 rdf:type owl:NamedIndividual ,
+glycoinfo:G87245HS rdf:type owl:NamedIndividual ,
                     glycan:Saccharide ;
                 glycan:has_resource_entry <https://sugarbind.expasy.org/structures/114> ;
                 rdfs:label "114"^^xsd:string .
                 
-id:STR115 rdf:type owl:NamedIndividual ,
+glycoinfo:G72692DY rdf:type owl:NamedIndividual ,
                     glycan:Saccharide ;
                 glycan:has_resource_entry <https://sugarbind.expasy.org/structures/115> ;
                 rdfs:label "115"^^xsd:string .
                 
-id:STR116 rdf:type owl:NamedIndividual ,
+glycoinfo:G83513YI rdf:type owl:NamedIndividual ,
                     glycan:Saccharide ;
                 glycan:has_resource_entry <https://sugarbind.expasy.org/structures/116> ;
                 rdfs:label "116"^^xsd:string .
                 
-id:STR117 rdf:type owl:NamedIndividual ,
+glycoinfo:G21066IE rdf:type owl:NamedIndividual ,
                     glycan:Saccharide ;
                 glycan:has_resource_entry <https://sugarbind.expasy.org/structures/117> ;
                 rdfs:label "117"^^xsd:string .
                 
-id:STR118 rdf:type owl:NamedIndividual ,
+glycoinfo:G21938SG rdf:type owl:NamedIndividual ,
                     glycan:Saccharide ;
                 glycan:has_resource_entry <https://sugarbind.expasy.org/structures/118> ;
                 rdfs:label "118"^^xsd:string .
                 
-id:STR119 rdf:type owl:NamedIndividual ,
+glycoinfo:G44345UH rdf:type owl:NamedIndividual ,
                     glycan:Saccharide ;
                 glycan:has_resource_entry <https://sugarbind.expasy.org/structures/119> ;
                 rdfs:label "119"^^xsd:string .
                 
-id:STR120 rdf:type owl:NamedIndividual ,
+glycoinfo:G46776WR rdf:type owl:NamedIndividual ,
                     glycan:Saccharide ;
                 glycan:has_resource_entry <https://sugarbind.expasy.org/structures/120> ;
                 rdfs:label "120"^^xsd:string .
                 
-id:STR121 rdf:type owl:NamedIndividual ,
+glycoinfo:G80722US rdf:type owl:NamedIndividual ,
                     glycan:Saccharide ;
                 glycan:has_resource_entry <https://sugarbind.expasy.org/structures/121> ;
                 rdfs:label "121"^^xsd:string .
                 
-id:STR122 rdf:type owl:NamedIndividual ,
+glycoinfo:G00054MO rdf:type owl:NamedIndividual ,
                     glycan:Saccharide ;
                 glycan:has_resource_entry <https://sugarbind.expasy.org/structures/122> ;
                 rdfs:label "122"^^xsd:string .
                 
-id:STR123 rdf:type owl:NamedIndividual ,
+glycoinfo:G99745QX rdf:type owl:NamedIndividual ,
                     glycan:Saccharide ;
                 glycan:has_resource_entry <https://sugarbind.expasy.org/structures/123> ;
                 rdfs:label "123"^^xsd:string .
                 
-id:STR124 rdf:type owl:NamedIndividual ,
+glycoinfo:G00065MO rdf:type owl:NamedIndividual ,
                     glycan:Saccharide ;
                 glycan:has_resource_entry <https://sugarbind.expasy.org/structures/124> ;
                 rdfs:label "124"^^xsd:string .
                 
-id:STR125 rdf:type owl:NamedIndividual ,
+glycoinfo:G09376MR rdf:type owl:NamedIndividual ,
                     glycan:Saccharide ;
                 glycan:has_resource_entry <https://sugarbind.expasy.org/structures/125> ;
                 rdfs:label "125"^^xsd:string .
                 
-id:STR126 rdf:type owl:NamedIndividual ,
+glycoinfo:G79536OW rdf:type owl:NamedIndividual ,
                     glycan:Saccharide ;
                 glycan:has_resource_entry <https://sugarbind.expasy.org/structures/126> ;
                 rdfs:label "126"^^xsd:string .
                 
-id:STR127 rdf:type owl:NamedIndividual ,
+glycoinfo:G93779QZ rdf:type owl:NamedIndividual ,
                     glycan:Saccharide ;
                 glycan:has_resource_entry <https://sugarbind.expasy.org/structures/127> ;
                 rdfs:label "127"^^xsd:string .
                 
-id:STR128 rdf:type owl:NamedIndividual ,
+glycoinfo:G16194TN rdf:type owl:NamedIndividual ,
                     glycan:Saccharide ;
                 glycan:has_resource_entry <https://sugarbind.expasy.org/structures/128> ;
                 rdfs:label "128"^^xsd:string .
                 
-id:STR129 rdf:type owl:NamedIndividual ,
+glycoinfo:G29313LW rdf:type owl:NamedIndividual ,
                     glycan:Saccharide ;
                 glycan:has_resource_entry <https://sugarbind.expasy.org/structures/129> ;
                 rdfs:label "129"^^xsd:string .
                 
-id:STR129 rdf:type owl:NamedIndividual ,
+glycoinfo:G29313LW rdf:type owl:NamedIndividual ,
                     glycan:Saccharide ;
                 glycan:has_resource_entry <https://sugarbind.expasy.org/structures/129> ;
                 rdfs:label "129"^^xsd:string .
                 
-id:STR130 rdf:type owl:NamedIndividual ,
+glycoinfo:G60645OK rdf:type owl:NamedIndividual ,
                     glycan:Saccharide ;
                 glycan:has_resource_entry <https://sugarbind.expasy.org/structures/130> ;
                 rdfs:label "130"^^xsd:string .
                 
-id:STR131 rdf:type owl:NamedIndividual ,
+glycoinfo:G72548RZ rdf:type owl:NamedIndividual ,
                     glycan:Saccharide ;
                 glycan:has_resource_entry <https://sugarbind.expasy.org/structures/131> ;
                 rdfs:label "131"^^xsd:string .
                 
-id:STR132 rdf:type owl:NamedIndividual ,
+glycoinfo:G72548RZ rdf:type owl:NamedIndividual ,
                     glycan:Saccharide ;
                 glycan:has_resource_entry <https://sugarbind.expasy.org/structures/132> ;
                 rdfs:label "132"^^xsd:string .
                 
-id:STR133 rdf:type owl:NamedIndividual ,
+glycoinfo:G20044TD rdf:type owl:NamedIndividual ,
                     glycan:Saccharide ;
                 glycan:has_resource_entry <https://sugarbind.expasy.org/structures/133> ;
                 rdfs:label "133"^^xsd:string .
                 
-id:STR134 rdf:type owl:NamedIndividual ,
+glycoinfo:G60011XD rdf:type owl:NamedIndividual ,
                     glycan:Saccharide ;
                 glycan:has_resource_entry <https://sugarbind.expasy.org/structures/134> ;
                 rdfs:label "134"^^xsd:string .
                 
-id:STR135 rdf:type owl:NamedIndividual ,
+glycoinfo:G20420WT rdf:type owl:NamedIndividual ,
                     glycan:Saccharide ;
                 glycan:has_resource_entry <https://sugarbind.expasy.org/structures/135> ;
                 rdfs:label "135"^^xsd:string .
                 
-id:STR136 rdf:type owl:NamedIndividual ,
+glycoinfo:G41709CA rdf:type owl:NamedIndividual ,
                     glycan:Saccharide ;
                 glycan:has_resource_entry <https://sugarbind.expasy.org/structures/136> ;
                 rdfs:label "136"^^xsd:string .
                 
-id:STR137 rdf:type owl:NamedIndividual ,
+glycoinfo:G87727XV rdf:type owl:NamedIndividual ,
                     glycan:Saccharide ;
                 glycan:has_resource_entry <https://sugarbind.expasy.org/structures/137> ;
                 rdfs:label "137"^^xsd:string .
                 
-id:STR138 rdf:type owl:NamedIndividual ,
+glycoinfo:G39211DH rdf:type owl:NamedIndividual ,
                     glycan:Saccharide ;
                 glycan:has_resource_entry <https://sugarbind.expasy.org/structures/138> ;
                 rdfs:label "138"^^xsd:string .
                 
-id:STR139 rdf:type owl:NamedIndividual ,
+glycoinfo:G49963IQ rdf:type owl:NamedIndividual ,
                     glycan:Saccharide ;
                 glycan:has_resource_entry <https://sugarbind.expasy.org/structures/139> ;
                 rdfs:label "139"^^xsd:string .
                 
-id:STR140 rdf:type owl:NamedIndividual ,
+glycoinfo:G58612ZQ rdf:type owl:NamedIndividual ,
                     glycan:Saccharide ;
                 glycan:has_resource_entry <https://sugarbind.expasy.org/structures/140> ;
                 rdfs:label "140"^^xsd:string .
                 
-id:STR141 rdf:type owl:NamedIndividual ,
+glycoinfo:G55958KV rdf:type owl:NamedIndividual ,
                     glycan:Saccharide ;
                 glycan:has_resource_entry <https://sugarbind.expasy.org/structures/141> ;
                 rdfs:label "141"^^xsd:string .
                 
-id:STR142 rdf:type owl:NamedIndividual ,
+glycoinfo:G14300ZJ rdf:type owl:NamedIndividual ,
                     glycan:Saccharide ;
                 glycan:has_resource_entry <https://sugarbind.expasy.org/structures/142> ;
                 rdfs:label "142"^^xsd:string .
                 
-id:STR143 rdf:type owl:NamedIndividual ,
+glycoinfo:G94938PL rdf:type owl:NamedIndividual ,
                     glycan:Saccharide ;
                 glycan:has_resource_entry <https://sugarbind.expasy.org/structures/143> ;
                 rdfs:label "143"^^xsd:string .
                 
-id:STR144 rdf:type owl:NamedIndividual ,
+glycoinfo:G12068BR rdf:type owl:NamedIndividual ,
                     glycan:Saccharide ;
                 glycan:has_resource_entry <https://sugarbind.expasy.org/structures/144> ;
                 rdfs:label "144"^^xsd:string .
                 
-id:STR145 rdf:type owl:NamedIndividual ,
+glycoinfo:G50899UD rdf:type owl:NamedIndividual ,
                     glycan:Saccharide ;
                 glycan:has_resource_entry <https://sugarbind.expasy.org/structures/145> ;
                 rdfs:label "145"^^xsd:string .
                 
-id:STR146 rdf:type owl:NamedIndividual ,
+glycoinfo:G66086EX rdf:type owl:NamedIndividual ,
                     glycan:Saccharide ;
                 glycan:has_resource_entry <https://sugarbind.expasy.org/structures/146> ;
                 rdfs:label "146"^^xsd:string .
                 
-id:STR147 rdf:type owl:NamedIndividual ,
+glycoinfo:G00047MO rdf:type owl:NamedIndividual ,
                     glycan:Saccharide ;
                 glycan:has_resource_entry <https://sugarbind.expasy.org/structures/147> ;
                 rdfs:label "147"^^xsd:string .
                 
-id:STR148 rdf:type owl:NamedIndividual ,
+glycoinfo:G23041XK rdf:type owl:NamedIndividual ,
                     glycan:Saccharide ;
                 glycan:has_resource_entry <https://sugarbind.expasy.org/structures/148> ;
                 rdfs:label "148"^^xsd:string .
                 
-id:STR149 rdf:type owl:NamedIndividual ,
+glycoinfo:G01187XC rdf:type owl:NamedIndividual ,
                     glycan:Saccharide ;
                 glycan:has_resource_entry <https://sugarbind.expasy.org/structures/149> ;
                 rdfs:label "149"^^xsd:string .
                 
-id:STR150 rdf:type owl:NamedIndividual ,
+glycoinfo:G72494BI rdf:type owl:NamedIndividual ,
                     glycan:Saccharide ;
                 glycan:has_resource_entry <https://sugarbind.expasy.org/structures/150> ;
                 rdfs:label "150"^^xsd:string .
                 
-id:STR151 rdf:type owl:NamedIndividual ,
+glycoinfo:G37563FN rdf:type owl:NamedIndividual ,
                     glycan:Saccharide ;
                 glycan:has_resource_entry <https://sugarbind.expasy.org/structures/151> ;
                 rdfs:label "151"^^xsd:string .
                 
-id:STR152 rdf:type owl:NamedIndividual ,
+glycoinfo:G98173LG rdf:type owl:NamedIndividual ,
                     glycan:Saccharide ;
                 glycan:has_resource_entry <https://sugarbind.expasy.org/structures/152> ;
                 rdfs:label "152"^^xsd:string .
                 
-id:STR152 rdf:type owl:NamedIndividual ,
+glycoinfo:G98173LG rdf:type owl:NamedIndividual ,
                     glycan:Saccharide ;
                 glycan:has_resource_entry <https://sugarbind.expasy.org/structures/152> ;
                 rdfs:label "152"^^xsd:string .
                 
-id:STR153 rdf:type owl:NamedIndividual ,
+glycoinfo:G91326YS rdf:type owl:NamedIndividual ,
                     glycan:Saccharide ;
                 glycan:has_resource_entry <https://sugarbind.expasy.org/structures/153> ;
                 rdfs:label "153"^^xsd:string .
                 
-id:STR154 rdf:type owl:NamedIndividual ,
+glycoinfo:G86123DJ rdf:type owl:NamedIndividual ,
                     glycan:Saccharide ;
                 glycan:has_resource_entry <https://sugarbind.expasy.org/structures/154> ;
                 rdfs:label "154"^^xsd:string .
                 
-id:STR155 rdf:type owl:NamedIndividual ,
+glycoinfo:G00407UJ rdf:type owl:NamedIndividual ,
                     glycan:Saccharide ;
                 glycan:has_resource_entry <https://sugarbind.expasy.org/structures/155> ;
                 rdfs:label "155"^^xsd:string .
                 
-id:STR156 rdf:type owl:NamedIndividual ,
+glycoinfo:G65889KE rdf:type owl:NamedIndividual ,
                     glycan:Saccharide ;
                 glycan:has_resource_entry <https://sugarbind.expasy.org/structures/156> ;
                 rdfs:label "156"^^xsd:string .
                 
-id:STR157 rdf:type owl:NamedIndividual ,
+glycoinfo:G65889KE rdf:type owl:NamedIndividual ,
                     glycan:Saccharide ;
                 glycan:has_resource_entry <https://sugarbind.expasy.org/structures/157> ;
                 rdfs:label "157"^^xsd:string .
                 
-id:STR158 rdf:type owl:NamedIndividual ,
+glycoinfo:G00059MO rdf:type owl:NamedIndividual ,
                     glycan:Saccharide ;
                 glycan:has_resource_entry <https://sugarbind.expasy.org/structures/158> ;
                 rdfs:label "158"^^xsd:string .
                 
-id:STR159 rdf:type owl:NamedIndividual ,
+glycoinfo:G91649BT rdf:type owl:NamedIndividual ,
                     glycan:Saccharide ;
                 glycan:has_resource_entry <https://sugarbind.expasy.org/structures/159> ;
                 rdfs:label "159"^^xsd:string .
                 
-id:STR160 rdf:type owl:NamedIndividual ,
+glycoinfo:G12460DL rdf:type owl:NamedIndividual ,
                     glycan:Saccharide ;
                 glycan:has_resource_entry <https://sugarbind.expasy.org/structures/160> ;
                 rdfs:label "160"^^xsd:string .
                 
-id:STR161 rdf:type owl:NamedIndividual ,
+glycoinfo:G50850NI rdf:type owl:NamedIndividual ,
                     glycan:Saccharide ;
                 glycan:has_resource_entry <https://sugarbind.expasy.org/structures/161> ;
                 rdfs:label "161"^^xsd:string .
                 
-id:STR161 rdf:type owl:NamedIndividual ,
+glycoinfo:G50850NI rdf:type owl:NamedIndividual ,
                     glycan:Saccharide ;
                 glycan:has_resource_entry <https://sugarbind.expasy.org/structures/161> ;
                 rdfs:label "161"^^xsd:string .
                 
-id:STR161 rdf:type owl:NamedIndividual ,
+glycoinfo:G50850NI rdf:type owl:NamedIndividual ,
                     glycan:Saccharide ;
                 glycan:has_resource_entry <https://sugarbind.expasy.org/structures/161> ;
                 rdfs:label "161"^^xsd:string .
                 
-id:STR162 rdf:type owl:NamedIndividual ,
+glycoinfo:G02880JU rdf:type owl:NamedIndividual ,
                     glycan:Saccharide ;
                 glycan:has_resource_entry <https://sugarbind.expasy.org/structures/162> ;
                 rdfs:label "162"^^xsd:string .
                 
-id:STR163 rdf:type owl:NamedIndividual ,
+glycoinfo:G45827GY rdf:type owl:NamedIndividual ,
                     glycan:Saccharide ;
                 glycan:has_resource_entry <https://sugarbind.expasy.org/structures/163> ;
                 rdfs:label "163"^^xsd:string .
                 
-id:STR164 rdf:type owl:NamedIndividual ,
+glycoinfo:G48059CD rdf:type owl:NamedIndividual ,
                     glycan:Saccharide ;
                 glycan:has_resource_entry <https://sugarbind.expasy.org/structures/164> ;
                 rdfs:label "164"^^xsd:string .
                 
-id:STR165 rdf:type owl:NamedIndividual ,
+glycoinfo:G39011KA rdf:type owl:NamedIndividual ,
                     glycan:Saccharide ;
                 glycan:has_resource_entry <https://sugarbind.expasy.org/structures/165> ;
                 rdfs:label "165"^^xsd:string .
                 
-id:STR166 rdf:type owl:NamedIndividual ,
+glycoinfo:G55205ZV rdf:type owl:NamedIndividual ,
                     glycan:Saccharide ;
                 glycan:has_resource_entry <https://sugarbind.expasy.org/structures/166> ;
                 rdfs:label "166"^^xsd:string .
                 
-id:STR167 rdf:type owl:NamedIndividual ,
+glycoinfo:G06000DZ rdf:type owl:NamedIndividual ,
                     glycan:Saccharide ;
                 glycan:has_resource_entry <https://sugarbind.expasy.org/structures/167> ;
                 rdfs:label "167"^^xsd:string .
                 
-id:STR168 rdf:type owl:NamedIndividual ,
+glycoinfo:G23581GL rdf:type owl:NamedIndividual ,
                     glycan:Saccharide ;
                 glycan:has_resource_entry <https://sugarbind.expasy.org/structures/168> ;
                 rdfs:label "168"^^xsd:string .
                 
-id:STR169 rdf:type owl:NamedIndividual ,
+glycoinfo:G65191ST rdf:type owl:NamedIndividual ,
                     glycan:Saccharide ;
                 glycan:has_resource_entry <https://sugarbind.expasy.org/structures/169> ;
                 rdfs:label "169"^^xsd:string .
                 
-id:STR171 rdf:type owl:NamedIndividual ,
+glycoinfo:G90889KG rdf:type owl:NamedIndividual ,
                     glycan:Saccharide ;
                 glycan:has_resource_entry <https://sugarbind.expasy.org/structures/171> ;
                 rdfs:label "171"^^xsd:string .
                 
-id:STR172 rdf:type owl:NamedIndividual ,
+glycoinfo:G28330DZ rdf:type owl:NamedIndividual ,
                     glycan:Saccharide ;
                 glycan:has_resource_entry <https://sugarbind.expasy.org/structures/172> ;
                 rdfs:label "172"^^xsd:string .
                 
-id:STR173 rdf:type owl:NamedIndividual ,
+glycoinfo:G47812NS rdf:type owl:NamedIndividual ,
                     glycan:Saccharide ;
                 glycan:has_resource_entry <https://sugarbind.expasy.org/structures/173> ;
                 rdfs:label "173"^^xsd:string .
                 
-id:STR174 rdf:type owl:NamedIndividual ,
+glycoinfo:G62593IS rdf:type owl:NamedIndividual ,
                     glycan:Saccharide ;
                 glycan:has_resource_entry <https://sugarbind.expasy.org/structures/174> ;
                 rdfs:label "174"^^xsd:string .
                 
-id:STR175 rdf:type owl:NamedIndividual ,
+glycoinfo:G59168YE rdf:type owl:NamedIndividual ,
                     glycan:Saccharide ;
                 glycan:has_resource_entry <https://sugarbind.expasy.org/structures/175> ;
                 rdfs:label "175"^^xsd:string .
                 
-id:STR176 rdf:type owl:NamedIndividual ,
+glycoinfo:G59508TM rdf:type owl:NamedIndividual ,
                     glycan:Saccharide ;
                 glycan:has_resource_entry <https://sugarbind.expasy.org/structures/176> ;
                 rdfs:label "176"^^xsd:string .
                 
-id:STR177 rdf:type owl:NamedIndividual ,
+glycoinfo:G32417JV rdf:type owl:NamedIndividual ,
                     glycan:Saccharide ;
                 glycan:has_resource_entry <https://sugarbind.expasy.org/structures/177> ;
                 rdfs:label "177"^^xsd:string .
                 
-id:STR178 rdf:type owl:NamedIndividual ,
+glycoinfo:G00998NI rdf:type owl:NamedIndividual ,
                     glycan:Saccharide ;
                 glycan:has_resource_entry <https://sugarbind.expasy.org/structures/178> ;
                 rdfs:label "178"^^xsd:string .
                 
-id:STR179 rdf:type owl:NamedIndividual ,
+glycoinfo:G28528AG rdf:type owl:NamedIndividual ,
                     glycan:Saccharide ;
                 glycan:has_resource_entry <https://sugarbind.expasy.org/structures/179> ;
                 rdfs:label "179"^^xsd:string .
                 
-id:STR180 rdf:type owl:NamedIndividual ,
+glycoinfo:G15021LG rdf:type owl:NamedIndividual ,
                     glycan:Saccharide ;
                 glycan:has_resource_entry <https://sugarbind.expasy.org/structures/180> ;
                 rdfs:label "180"^^xsd:string .
                 
-id:STR181 rdf:type owl:NamedIndividual ,
+glycoinfo:G11485ID rdf:type owl:NamedIndividual ,
                     glycan:Saccharide ;
                 glycan:has_resource_entry <https://sugarbind.expasy.org/structures/181> ;
                 rdfs:label "181"^^xsd:string .
                 
-id:STR182 rdf:type owl:NamedIndividual ,
+glycoinfo:G03506YN rdf:type owl:NamedIndividual ,
                     glycan:Saccharide ;
                 glycan:has_resource_entry <https://sugarbind.expasy.org/structures/182> ;
                 rdfs:label "182"^^xsd:string .
                 
-id:STR183 rdf:type owl:NamedIndividual ,
+glycoinfo:G68158BT rdf:type owl:NamedIndividual ,
                     glycan:Saccharide ;
                 glycan:has_resource_entry <https://sugarbind.expasy.org/structures/183> ;
                 rdfs:label "183"^^xsd:string .
                 
-id:STR184 rdf:type owl:NamedIndividual ,
+glycoinfo:G07490EK rdf:type owl:NamedIndividual ,
                     glycan:Saccharide ;
                 glycan:has_resource_entry <https://sugarbind.expasy.org/structures/184> ;
                 rdfs:label "184"^^xsd:string .
                 
-id:STR185 rdf:type owl:NamedIndividual ,
+glycoinfo:G51379UR rdf:type owl:NamedIndividual ,
                     glycan:Saccharide ;
                 glycan:has_resource_entry <https://sugarbind.expasy.org/structures/185> ;
                 rdfs:label "185"^^xsd:string .
                 
-id:STR187 rdf:type owl:NamedIndividual ,
+glycoinfo:G89659QV rdf:type owl:NamedIndividual ,
                     glycan:Saccharide ;
                 glycan:has_resource_entry <https://sugarbind.expasy.org/structures/187> ;
                 rdfs:label "187"^^xsd:string .
                 
-id:STR188 rdf:type owl:NamedIndividual ,
+glycoinfo:G48236KP rdf:type owl:NamedIndividual ,
                     glycan:Saccharide ;
                 glycan:has_resource_entry <https://sugarbind.expasy.org/structures/188> ;
                 rdfs:label "188"^^xsd:string .
                 
-id:STR189 rdf:type owl:NamedIndividual ,
+glycoinfo:G72506RN rdf:type owl:NamedIndividual ,
                     glycan:Saccharide ;
                 glycan:has_resource_entry <https://sugarbind.expasy.org/structures/189> ;
                 rdfs:label "189"^^xsd:string .
                 
-id:STR190 rdf:type owl:NamedIndividual ,
+glycoinfo:G17108EX rdf:type owl:NamedIndividual ,
                     glycan:Saccharide ;
                 glycan:has_resource_entry <https://sugarbind.expasy.org/structures/190> ;
                 rdfs:label "190"^^xsd:string .

@@ -175,7 +175,7 @@ def ttl_structure():
     file.write('#######################################################\n\n')
     for index, item in df_structure.iterrows():
         # file.write(f'<https://sugarbind.expasy.org/structures/{item["Structure ID"]}> rdf:type owl:NamedIndividual ,\n\t\t\t:Structure ;\n\t\t:glytoucanId glycoinfo:{item["Glytoucan ID"]} ;\n\t\t:structureId "{item["Structure link"]}"^^xsd:anyURI ;\n\t\trdfs:label "{item["Structure ID"]}"^^xsd:string .\n\n')
-        file.write(f'''id:STR{item["Structure ID"]} rdf:type owl:NamedIndividual ,
+        file.write(f'''glycoinfo:{item["Glytoucan ID"]} rdf:type owl:NamedIndividual ,
                     glycan:Saccharide ;
                 glycan:has_resource_entry <{item["Structure link"]}> ;
                 rdfs:label "{item["Structure ID"]}"^^xsd:string .

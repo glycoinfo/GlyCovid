@@ -1,0 +1,9 @@
+PREFIX : <http://rdf.glycoinfo.org/SugarBind/ontology#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX obo: <http://purl.obolibrary.org/obo/>
+
+SELECT distinct ?doid
+WHERE {
+  ?disease rdfs:seeAlso ?doid .
+}
+
