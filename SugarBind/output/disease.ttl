@@ -67,6 +67,7 @@ id:DIS1 rdf:type owl:NamedIndividual ,
 			id:ARE3 ,
 			id:ARE6 ,
 			id:ARE11 ;
+		foaf:homepage <https://sugarbind.expasy.org/diseases/Unknown> ;
 		rdfs:label "Unknown"^^xsd:string ;
 		rdfs:seeAlso obo:DOID_11265 .
 
@@ -76,6 +77,7 @@ id:DIS2 rdf:type owl:NamedIndividual ,
 		:caused_by id:AGE3 ,
 			id:AGE4 ;
 		:caused_at id:ARE2 ;
+		foaf:homepage <https://sugarbind.expasy.org/diseases/Pleuropneumonia> ;
 		rdfs:label "Pleuropneumonia"^^xsd:string ;
 		rdfs:seeAlso obo:DOID_14319 .
 
@@ -85,6 +87,7 @@ id:DIS3 rdf:type owl:NamedIndividual ,
 		:caused_by id:AGE3 ,
 			id:AGE4 ;
 		:caused_at id:ARE2 ;
+		foaf:homepage <https://sugarbind.expasy.org/diseases/Porcine fibrinohemorrhagic necrotizing pleuropneumonia> ;
 		rdfs:label "Porcine fibrinohemorrhagic necrotizing pleuropneumonia"^^xsd:string ;
 		rdfs:seeAlso obo:DOID_552 .
 
@@ -102,6 +105,7 @@ id:DIS4 rdf:type owl:NamedIndividual ,
 			id:ARE5 ,
 			id:ARE9 ,
 			id:ARE3 ;
+		foaf:homepage <https://sugarbind.expasy.org/diseases/Actinomycosis> ;
 		rdfs:label "Actinomycosis"^^xsd:string ;
 		rdfs:seeAlso obo:DOID_8478 .
 
@@ -113,6 +117,7 @@ id:DIS5 rdf:type owl:NamedIndividual ,
 		:caused_at id:ARE10 ,
 			id:ARE5 ,
 			id:ARE9 ;
+		foaf:homepage <https://sugarbind.expasy.org/diseases/Lazy leukocyte syndrome> ;
 		rdfs:label "Lazy leukocyte syndrome"^^xsd:string ;
 		rdfs:seeAlso obo:DOID_9368 .
 
@@ -123,6 +128,7 @@ id:DIS6 rdf:type owl:NamedIndividual ,
 			id:AGE19 ,
 			id:AGE21 ;
 		:caused_at id:ARE3 ;
+		foaf:homepage <https://sugarbind.expasy.org/diseases/Pertussis> ;
 		rdfs:label "Pertussis"^^xsd:string ;
 		rdfs:seeAlso obo:DOID_1116 .
 
@@ -131,6 +137,7 @@ id:DIS7 rdf:type owl:NamedIndividual ,
 			obo:DOID_4 ;
 		:caused_by id:AGE24 ;
 		:caused_at id:ARE3 ;
+		foaf:homepage <https://sugarbind.expasy.org/diseases/Lyme disease> ;
 		rdfs:label "Lyme disease"^^xsd:string ;
 		rdfs:seeAlso obo:DOID_11729 .
 
@@ -143,6 +150,7 @@ id:DIS8 rdf:type owl:NamedIndividual ,
 			id:AGE31 ,
 			id:AGE32 ;
 		:caused_at id:ARE3 ;
+		foaf:homepage <https://sugarbind.expasy.org/diseases/Cutaneous lesions> ;
 		rdfs:label "Cutaneous lesions"^^xsd:string ;
 		rdfs:seeAlso obo:DOID_12053 .
 
@@ -155,6 +163,7 @@ id:DIS9 rdf:type owl:NamedIndividual ,
 			id:AGE42 ,
 			id:AGE41 ;
 		:caused_at id:ARE14 ;
+		foaf:homepage <https://sugarbind.expasy.org/diseases/Melioidosis> ;
 		rdfs:label "Melioidosis"^^xsd:string ;
 		rdfs:seeAlso obo:DOID_5052 .
 
@@ -166,6 +175,7 @@ id:DIS10 rdf:type owl:NamedIndividual ,
 			id:AGE54 ,
 			id:AGE55 ;
 		:caused_at id:ARE3 ;
+		foaf:homepage <https://sugarbind.expasy.org/diseases/Candidiasis> ;
 		rdfs:label "Candidiasis"^^xsd:string ;
 		rdfs:seeAlso obo:DOID_1508 .
 
@@ -174,6 +184,7 @@ id:DIS11 rdf:type owl:NamedIndividual ,
 			obo:DOID_4 ;
 		:caused_by id:AGE58 ;
 		:caused_at id:ARE3 ;
+		foaf:homepage <https://sugarbind.expasy.org/diseases/Taiwan acute respiratory agent> ;
 		rdfs:label "Taiwan acute respiratory agent"^^xsd:string ;
 		rdfs:seeAlso obo:DOID_14484 .
 
@@ -182,6 +193,7 @@ id:DIS12 rdf:type owl:NamedIndividual ,
 			obo:DOID_4 ;
 		:caused_by id:AGE60 ;
 		:caused_at id:ARE3 ;
+		foaf:homepage <https://sugarbind.expasy.org/diseases/Trachoma> ;
 		rdfs:label "Trachoma"^^xsd:string ;
 		rdfs:seeAlso obo:DOID_11265 .
 
@@ -204,6 +216,7 @@ id:DIS13 rdf:type owl:NamedIndividual ,
 			id:AGE61 ;
 		:caused_at id:ARE15 ,
 			id:ARE3 ;
+		foaf:homepage <https://sugarbind.expasy.org/diseases/Botulism> ;
 		rdfs:label "Botulism"^^xsd:string ;
 		rdfs:seeAlso obo:DOID_11976 .
 
@@ -214,6 +227,7 @@ id:DIS14 rdf:type owl:NamedIndividual ,
 			id:AGE61 ;
 		:caused_at id:ARE19 ,
 			id:ARE4 ;
+		foaf:homepage <https://sugarbind.expasy.org/diseases/Clostridial myonecrosis> ;
 		rdfs:label "Clostridial myonecrosis"^^xsd:string ;
 		rdfs:seeAlso obo:DOID_4029 .
 
@@ -227,6 +241,7 @@ id:DIS15 rdf:type owl:NamedIndividual ,
 			id:AGE89 ,
 			id:AGE93 ;
 		:caused_at id:ARE20 ;
+		foaf:homepage <https://sugarbind.expasy.org/diseases/Tetanus> ;
 		rdfs:label "Tetanus"^^xsd:string ;
 		rdfs:seeAlso obo:DOID_11338 .
 
@@ -238,6 +253,7 @@ id:DIS16 rdf:type owl:NamedIndividual ,
 			id:AGE103 ,
 			id:AGE104 ;
 		:caused_at id:ARE3 ;
+		foaf:homepage <https://sugarbind.expasy.org/diseases/Cryptococcosis> ;
 		rdfs:label "Cryptococcosis"^^xsd:string ;
 		rdfs:seeAlso obo:DOID_12053 .
 
@@ -248,6 +264,7 @@ id:DIS17 rdf:type owl:NamedIndividual ,
 			id:AGE109 ,
 			id:AGE108 ;
 		:caused_at id:ARE3 ;
+		foaf:homepage <https://sugarbind.expasy.org/diseases/Amebiasis> ;
 		rdfs:label "Amebiasis"^^xsd:string ;
 		rdfs:seeAlso obo:DOID_9181 .
 
@@ -257,6 +274,7 @@ id:DIS18 rdf:type owl:NamedIndividual ,
 		:caused_by id:AGE117 ,
 			id:AGE116 ;
 		:caused_at id:ARE22 ;
+		foaf:homepage <https://sugarbind.expasy.org/diseases/Cystitis> ;
 		rdfs:label "Cystitis"^^xsd:string ;
 		rdfs:seeAlso obo:DOID_1679 .
 
@@ -265,6 +283,7 @@ id:DIS19 rdf:type owl:NamedIndividual ,
 			obo:DOID_4 ;
 		:caused_by id:AGE119 ;
 		:caused_at id:ARE3 ;
+		foaf:homepage <https://sugarbind.expasy.org/diseases/Hemorrhagic colitis> ;
 		rdfs:label "Hemorrhagic colitis"^^xsd:string ;
 		rdfs:seeAlso obo:DOID_7551 .
 
@@ -286,6 +305,7 @@ id:DIS20 rdf:type owl:NamedIndividual ,
 		:caused_at id:ARE23 ,
 			id:ARE22 ,
 			id:ARE3 ;
+		foaf:homepage <https://sugarbind.expasy.org/diseases/Pyelonephritis> ;
 		rdfs:label "Pyelonephritis"^^xsd:string ;
 		rdfs:seeAlso obo:DOID_11400 .
 
@@ -295,6 +315,7 @@ id:DIS21 rdf:type owl:NamedIndividual ,
 		:caused_by id:AGE152 ;
 		:caused_at id:ARE3 ,
 			id:ARE22 ;
+		foaf:homepage <https://sugarbind.expasy.org/diseases/Acute cystitis> ;
 		rdfs:label "Acute cystitis"^^xsd:string ;
 		rdfs:seeAlso obo:DOID_13148 .
 
@@ -303,6 +324,7 @@ id:DIS22 rdf:type owl:NamedIndividual ,
 			obo:DOID_4 ;
 		:caused_by id:AGE180 ;
 		:caused_at id:ARE3 ;
+		foaf:homepage <https://sugarbind.expasy.org/diseases/Vincent's angina> ;
 		rdfs:label "Vincent's angina"^^xsd:string ;
 		rdfs:seeAlso obo:DOID_11265 .
 
@@ -324,6 +346,7 @@ id:DIS23 rdf:type owl:NamedIndividual ,
 			id:AGE215 ,
 			id:AGE212 ;
 		:caused_at id:ARE24 ;
+		foaf:homepage <https://sugarbind.expasy.org/diseases/Chronic gastritis> ;
 		rdfs:label "Chronic gastritis"^^xsd:string ;
 		rdfs:seeAlso obo:DOID_4029 .
 
@@ -345,6 +368,7 @@ id:DIS24 rdf:type owl:NamedIndividual ,
 			id:AGE215 ,
 			id:AGE206 ;
 		:caused_at id:ARE24 ;
+		foaf:homepage <https://sugarbind.expasy.org/diseases/Peptic ulcers> ;
 		rdfs:label "Peptic ulcers"^^xsd:string ;
 		rdfs:seeAlso obo:DOID_5052 .
 
@@ -366,6 +390,7 @@ id:DIS25 rdf:type owl:NamedIndividual ,
 			id:AGE211 ,
 			id:AGE217 ;
 		:caused_at id:ARE24 ;
+		foaf:homepage <https://sugarbind.expasy.org/diseases/Gastric cancer> ;
 		rdfs:label "Gastric cancer"^^xsd:string ;
 		rdfs:seeAlso obo:DOID_13250 .
 
@@ -375,6 +400,7 @@ id:DIS26 rdf:type owl:NamedIndividual ,
 		:caused_by id:AGE220 ,
 			id:AGE221 ;
 		:caused_at id:ARE3 ;
+		foaf:homepage <https://sugarbind.expasy.org/diseases/Histoplasmosis> ;
 		rdfs:label "Histoplasmosis"^^xsd:string ;
 		rdfs:seeAlso obo:DOID_1731 .
 
@@ -484,6 +510,7 @@ id:DIS27 rdf:type owl:NamedIndividual ,
 		:caused_at id:ARE25 ,
 			id:ARE3 ,
 			id:ARE27 ;
+		foaf:homepage <https://sugarbind.expasy.org/diseases/Influenza> ;
 		rdfs:label "Influenza"^^xsd:string ;
 		rdfs:seeAlso obo:DOID_8469 .
 
@@ -495,6 +522,7 @@ id:DIS28 rdf:type owl:NamedIndividual ,
 			id:AGE349 ,
 			id:AGE348 ;
 		:caused_at id:ARE3 ;
+		foaf:homepage <https://sugarbind.expasy.org/diseases/Klebsiella pneumonia infection> ;
 		rdfs:label "Klebsiella pneumonia infection"^^xsd:string ;
 		rdfs:seeAlso obo:DOID_9368 .
 
@@ -504,6 +532,7 @@ id:DIS29 rdf:type owl:NamedIndividual ,
 		:caused_by id:AGE360 ,
 			id:AGE361 ;
 		:caused_at id:ARE3 ;
+		foaf:homepage <https://sugarbind.expasy.org/diseases/Pneumonia> ;
 		rdfs:label "Pneumonia"^^xsd:string ;
 		rdfs:seeAlso obo:DOID_552 .
 
@@ -513,6 +542,7 @@ id:DIS30 rdf:type owl:NamedIndividual ,
 		:caused_by id:AGE361 ,
 			id:AGE360 ;
 		:caused_at id:ARE3 ;
+		foaf:homepage <https://sugarbind.expasy.org/diseases/Legionnaires' disease> ;
 		rdfs:label "Legionnaires' disease"^^xsd:string ;
 		rdfs:seeAlso obo:DOID_10457 .
 
@@ -521,6 +551,7 @@ id:DIS31 rdf:type owl:NamedIndividual ,
 			obo:DOID_4 ;
 		:caused_by id:AGE366 ;
 		:caused_at id:ARE3 ;
+		foaf:homepage <https://sugarbind.expasy.org/diseases/Chronic respiratory disease> ;
 		rdfs:label "Chronic respiratory disease"^^xsd:string ;
 		rdfs:seeAlso obo:DOID_4029 .
 
@@ -530,6 +561,7 @@ id:DIS32 rdf:type owl:NamedIndividual ,
 		:caused_by id:AGE369 ,
 			id:AGE368 ;
 		:caused_at id:ARE3 ;
+		foaf:homepage <https://sugarbind.expasy.org/diseases/Pharyngitis> ;
 		rdfs:label "Pharyngitis"^^xsd:string ;
 		rdfs:seeAlso obo:DOID_2275 .
 
@@ -539,6 +571,7 @@ id:DIS33 rdf:type owl:NamedIndividual ,
 		:caused_by id:AGE369 ,
 			id:AGE368 ;
 		:caused_at id:ARE3 ;
+		foaf:homepage <https://sugarbind.expasy.org/diseases/Tracheobronchitis> ;
 		rdfs:label "Tracheobronchitis"^^xsd:string ;
 		rdfs:seeAlso obo:DOID_9965 .
 
@@ -557,6 +590,7 @@ id:DIS34 rdf:type owl:NamedIndividual ,
 			id:AGE371 ,
 			id:AGE380 ;
 		:caused_at id:ARE3 ;
+		foaf:homepage <https://sugarbind.expasy.org/diseases/Gonorrhea> ;
 		rdfs:label "Gonorrhea"^^xsd:string ;
 		rdfs:seeAlso obo:DOID_7551 .
 
@@ -588,6 +622,7 @@ id:DIS35 rdf:type owl:NamedIndividual ,
 			id:AGE440 ;
 		:caused_at id:ARE17 ,
 			id:ARE33 ;
+		foaf:homepage <https://sugarbind.expasy.org/diseases/Gastroenteritis> ;
 		rdfs:label "Gastroenteritis"^^xsd:string ;
 		rdfs:seeAlso obo:DOID_2326 .
 
@@ -598,6 +633,7 @@ id:DIS36 rdf:type owl:NamedIndividual ,
 			id:AGE410 ,
 			id:AGE411 ;
 		:caused_at id:ARE3 ;
+		foaf:homepage <https://sugarbind.expasy.org/diseases/Malaria> ;
 		rdfs:label "Malaria"^^xsd:string ;
 		rdfs:seeAlso obo:DOID_12365 .
 
@@ -606,6 +642,7 @@ id:DIS37 rdf:type owl:NamedIndividual ,
 			obo:DOID_4 ;
 		:caused_by id:AGE467 ;
 		:caused_at id:ARE3 ;
+		foaf:homepage <https://sugarbind.expasy.org/diseases/Shigellosis> ;
 		rdfs:label "Shigellosis"^^xsd:string ;
 		rdfs:seeAlso obo:DOID_12385 .
 
@@ -615,6 +652,7 @@ id:DIS38 rdf:type owl:NamedIndividual ,
 		:caused_by id:AGE473 ,
 			id:AGE472 ;
 		:caused_at id:ARE3 ;
+		foaf:homepage <https://sugarbind.expasy.org/diseases/Sporotrichosis> ;
 		rdfs:label "Sporotrichosis"^^xsd:string ;
 		rdfs:seeAlso obo:DOID_14484 .
 
@@ -626,6 +664,7 @@ id:DIS39 rdf:type owl:NamedIndividual ,
 			id:AGE514 ;
 		:caused_at id:ARE20 ,
 			id:ARE34 ;
+		foaf:homepage <https://sugarbind.expasy.org/diseases/Toxoplasmosis> ;
 		rdfs:label "Toxoplasmosis"^^xsd:string ;
 		rdfs:seeAlso obo:DOID_9965 .
 
@@ -634,6 +673,7 @@ id:DIS40 rdf:type owl:NamedIndividual ,
 			obo:DOID_4 ;
 		:caused_by id:AGE519 ;
 		:caused_at id:ARE3 ;
+		foaf:homepage <https://sugarbind.expasy.org/diseases/Chagas disease> ;
 		rdfs:label "Chagas disease"^^xsd:string ;
 		rdfs:seeAlso obo:DOID_12140 .
 
@@ -651,6 +691,7 @@ id:DIS41 rdf:type owl:NamedIndividual ,
 			id:AGE530 ,
 			id:AGE528 ;
 		:caused_at id:ARE3 ;
+		foaf:homepage <https://sugarbind.expasy.org/diseases/Cholera> ;
 		rdfs:label "Cholera"^^xsd:string ;
 		rdfs:seeAlso obo:DOID_1498 .
 
@@ -659,6 +700,7 @@ id:DIS42 rdf:type owl:NamedIndividual ,
 			obo:DOID_4 ;
 		:caused_by id:AGE546 ;
 		:caused_at id:ARE3 ;
+		foaf:homepage <https://sugarbind.expasy.org/diseases/Plague> ;
 		rdfs:label "Plague"^^xsd:string ;
 		rdfs:seeAlso obo:DOID_3482 .
 
@@ -667,6 +709,7 @@ id:DIS43 rdf:type owl:NamedIndividual ,
 			obo:DOID_4 ;
 		:caused_by id:AGE151 ;
 		:caused_at id:ARE4 ;
+		foaf:homepage <https://sugarbind.expasy.org/diseases/Diarrhea> ;
 		rdfs:label "Diarrhea"^^xsd:string ;
 		rdfs:seeAlso obo:DOID_13250 .
 
@@ -675,6 +718,7 @@ id:DIS44 rdf:type owl:NamedIndividual ,
 			obo:DOID_4 ;
 		:caused_by id:AGE548 ;
 		:caused_at id:ARE1 ;
+		foaf:homepage <https://sugarbind.expasy.org/diseases/Lung infection> ;
 		rdfs:label "Lung infection"^^xsd:string ;
 		rdfs:seeAlso obo:DOID_10457 .
 
@@ -685,6 +729,7 @@ id:DIS46 rdf:type owl:NamedIndividual ,
 			id:AGE222 ,
 			id:AGE224 ;
 		:caused_at id:ARE7 ;
+		foaf:homepage <https://sugarbind.expasy.org/diseases/Acquired immune deficiency syndrome> ;
 		rdfs:label "Acquired immune deficiency syndrome"^^xsd:string ;
 		rdfs:seeAlso obo:DOID_635 .
 
@@ -693,6 +738,7 @@ id:DIS47 rdf:type owl:NamedIndividual ,
 			obo:DOID_4 ;
 		:caused_by id:AGE564 ;
 		:caused_at id:ARE3 ;
+		foaf:homepage <https://sugarbind.expasy.org/diseases/Keratoconjunctivitis> ;
 		rdfs:label "Keratoconjunctivitis"^^xsd:string ;
 		rdfs:seeAlso obo:DOID_9368 .
 
