@@ -123,7 +123,7 @@ def ttl_ReferenceInteraction():
         if len(filtered_ligand) > 0:                                                                                        # if ligand exists in filtered data frame
             document = ''                                                                                                   # initiate document as string data
             for index2, item2 in filtered_ligand.iterrows():
-                document += f'<https://sugarbind.expasy.org/ligands/{item2["Ligand ID"]}> ,\n\t\t\t'                        # add ligand URI to document
+                document += f'id:LIG{item2["Ligand ID"]} ,\n\t\t\t'                        # add ligand URI to document
             document = document[:-5] + ';\n'                                                                                # cut off last 5 letters and add \n
             file.write('\t\t:has_ligand ')                                                                                  # add ttl object property
             file.write(document)                                                                                            # inserting ligand information to ttl
@@ -139,7 +139,7 @@ def ttl_ReferenceInteraction():
         if len(filtered_agent) > 0:                                                                                         # if agent exists in filtered data frame
             document = ''
             for index2, item2 in filtered_agent.iterrows():
-                document += f'<https://sugarbind.expasy.org/agents/{item2["Agent ID"]}> ,\n\t\t\t'
+                document += f'id:AGE{item2["Agent ID"]} ,\n\t\t\t'
             document = document[:-5] + ';\n'
             file.write('\t\t:has_agent ')
             file.write(document)
@@ -147,7 +147,7 @@ def ttl_ReferenceInteraction():
         if len(filtered_area) > 0:                                                                                          # if area exists in filtered data frame
             document = ''
             for index2, item2 in filtered_area.iterrows():
-                document += f'<https://sugarbind.expasy.org/affectedAreas/{item2["Affect ID"]}> ,\n\t\t\t'
+                document += f'id:ARE{item2["Affect ID"]} ,\n\t\t\t'
             document = document[:-5] + ';\n'
             file.write('\t\t:has_area ')
             file.write(document)
@@ -162,7 +162,7 @@ def ttl_pubmed():
     file.write('### Individuals (Pubmed) \n')                                                                               # inserting ttl header title
     file.write('#######################################################\n\n')
     for index, item in df_pubmed.iterrows():
-        file.write(f'''<http://www.ncbi.nlm.nih.gov/pubmed/{item["Pubmed ID"]}> rdf:type owl:NamedIndividual ,\n\t\t\t:Pubmed ,\n\t\t\tobo:NCIT_C42881 ;\n\t\tdcterms:references <http://www.ncbi.nlm.nih.gov/pubmed/{item["Pubmed ID"]}> ;\n\t\tbibo:pmid "{item["Pubmed ID"]}"^^xsd:string ;\n\t\trdfs:label "{item["Pubmed ID"]}"^^xsd:string .\n\n''')
+        file.write(f'''<http://www.ncbi.nlm.nih.gov/pubmed/{item["Pubmed ID"]}> rdf:type owl:NamedIndividual ,\n\t\t\t:Pubmed ,\n\t\t\tobo:NCIT_C42881 ;\n\t\tdcterms:references <http://www.ncbi.nlm.nih.gov/pubmed/{item["Pubmed ID"]}> ;\n\t\t:pubmedId "{item["Pubmed ID"]}"^^xsd:string ;\n\t\trdfs:label "{item["Pubmed ID"]}"^^xsd:string .\n\n''')
                                                                                                                             # inserting ttl content
     file.close()
 
