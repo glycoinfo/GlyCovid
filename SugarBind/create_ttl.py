@@ -50,6 +50,7 @@ def ttl_ReferenceInteraction():
         for index, item in filtered_area.iterrows():
             title += 'ARE' + str(item['Affect ID']) + '_'                                                                   # add area information to title
         for index, item in filtered_agent.iterrows():
+            # print(item["Agent ID"], end=",")
             title += 'AGE' + str(item['Agent ID']) + '_'                                                                    # add agent information to title
         title = title[:-1]                                                                                                  # cut off last '-' from title string
         file.write(f'interaction:{title} rdf:type owl:NamedIndividual ,\n')                                                            # add ttl type description
@@ -69,7 +70,7 @@ def ttl_ReferenceInteraction():
         if len(filtered_pubmed) > 0:                                                                                        # if pubmed exists in filtered data frame
             document = ''
             for index2, item2 in filtered_pubmed.iterrows():
-                document += f'id:PUB{item2["Pubmed ID"]} ,\n\t\t\t'                          # add pubmed URI to document
+                document += f'<http://www.ncbi.nlm.nih.gov/pubmed/{item2["Pubmed ID"]}> ,\n\t\t\t'                          # add pubmed URI to document
             document = document[:-5] + ';\n'
             file.write('\t\t:has_citation ')
             file.write(document)
@@ -112,12 +113,13 @@ def ttl_ReferenceInteraction():
             title += 'ARE' + str(item['Affect ID']) + '_'                                                                   # add area information to title
         for index, item in filtered_agent.iterrows():
             title += 'AGE' + str(item['Agent ID']) + '_'                                                                    # add agent information to title
+            # print(item["Agent ID"], end=",")
         title = title[:-1]
         
         file.write(f'interaction:{title} rdf:type owl:NamedIndividual ,\n')                                                            # add ttl type description
         file.write('\t\t\t:ReferencedInteraction ;\n')                                                                      # add ttl class type description
         # lectin
-        file.write(f'\t\t:has_lectin <https://sugarbind.expasy.org/lectins/{lectin_id}> ;\n')                               # add ttl object property and lectin URI
+        file.write(f'\t\t:has_lectin id:LEC{lectin_id} ;\n')                               # add ttl object property and lectin URI
 
         # ligand
         if len(filtered_ligand) > 0:                                                                                        # if ligand exists in filtered data frame
@@ -133,7 +135,7 @@ def ttl_ReferenceInteraction():
             for index2, item2 in filtered_pubmed.iterrows():
                 document += f'<http://www.ncbi.nlm.nih.gov/pubmed/{item2["Pubmed ID"]}> ,\n\t\t\t'
             document = document[:-5] + ';\n'
-            file.write('\t\t:has_pubmed ')
+            file.write('\t\t:has_citation ')
             file.write(document)
         # agent
         if len(filtered_agent) > 0:                                                                                         # if agent exists in filtered data frame
