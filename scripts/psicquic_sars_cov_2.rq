@@ -5,29 +5,25 @@ PREFIX taxon: <http://purl.uniprot.org/taxonomy/>
 PREFIX up: <http://purl.uniprot.org/core/>
 PREFIX glycan: <http://purl.jp/bio/12/glyco/glycan#>
 
-SELECT ?child_taxon ?child_taxon_name ?interactor ?other_interactor_chebi_uri ?glytoucan_uri
+SELECT ?ancestor ?name ?protein ?rank ?interactor ?other_interactor_chebi_uri ?glytoucan_uri
 WHERE {
   # 1. コロナウイルスに関係するタンパク質一覧を取得
   bind(taxon:2697049 as ?taxon)
   SERVICE <https://sparql.uniprot.org> {
     # taxonの祖先を取得
     ?taxon rdfs:subClassOf+ ?ancestor .
-    ?ancestor :scientificName ?name ;
-              :partOfLineage ?part_of_lineage .
+    ?ancestor :scientificName ?name .
     { ?ancestor  up:rank up:Species .} UNION
-    { ?ancestor  up:rank up:Genus .} UNION
-    { ?ancestor  up:rank up:Family .} 
+    { ?ancestor  up:rank up:Genus .}
+    OPTIONAL {
+      ?ancestor  up:rank ?rank .
+    }
     
     # 取得した祖先が持つ子に当たる種を含む全てのタンパク質
-    ?child_taxon rdfs:subClassOf ?ancestor .
-    ?child_taxon a up:Taxon .
-    ?protein up:organism ?child_taxon.
-    optional {
-        ?child_taxon :scientificName ? ?child_taxon_name
-      }
+    ?protein up:organism ?ancestor.
     ?protein a up:Protein .
   }
-	# 取得したuniprotのうりをpsicquicで使用しているものに変換
+	# 取得したuniprotのURIをpsicquicで使用しているものに変換
   BIND(URI(REPLACE(str(?protein), "http://purl.uniprot.org/uniprot/", "http://rdf.glycoinfo.org/dbid/uniprot/", "i")) as ?covid_uniprot_uri)
 
   # 2. 取得したタンパク質が含まれるpsiquicのinteractionを検索
