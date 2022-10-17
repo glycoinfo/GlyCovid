@@ -303,11 +303,12 @@ def ttl_area():
     file.write('#######################################################\n\n')
     for index, item in df_area_list.iterrows():
         category = ''
-        text = f'id:ARE{item["Affected Area ID"]} rdf:type owl:NamedIndividual ,\n\t\t\tobo:NCIT_C12801,\n'
-        text += f'''\t\t:Area ,\n'
-            \t\t:{item["Area Type"]} ;\n
-            \t\tfoaf:homepage <https://sugarbind.expasy.org/affectedAreas/{ item["Affected Area ID"]}> ;\n
-            \t\trdfs:label "{item["Area Name"]}"^^xsd:string .\n\n'''
+        text = f'''id:ARE{item["Affected Area ID"]} rdf:type owl:NamedIndividual ,
+            obo:NCIT_C12801,
+            :Area ,
+        :{item["Area Type"].replace(" ","")} ;
+        foaf:homepage <https://sugarbind.expasy.org/affectedAreas/{ item["Affected Area ID"]}> ;
+        rdfs:label "{item["Area Name"]}"^^xsd:string .\n\n\n'''
         file.write(text)
     file.close()
 

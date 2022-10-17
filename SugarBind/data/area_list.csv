@@ -1,24 +1,24 @@
 Affected Area ID,Area Name,Area Type,Host organism
-20,Central nervous system, System,-
-18,Colonic epithelial cells, Cell, Human
-17,Colonic epithelium, Tissue, Human
-4,Digestive system, System,-
-7,Immune system, System, Human (Impaired PMN function in pathological conditions such as neutropenia or leukemia)
-19,Integumentary, System,-
-11,Integumentary system, System, Human
-25,Intestine, Organ, Swine
-23,Kidney, Organ, Human
-2,Lung, Organ, Swine
-15,Nervous system, System, Bovine
-5,Oral cavity, Organ,-
-6,Oral epithelial, Tissue,-
-10,Periodontium, Tissue, Human (Impaired PMN function in pathological conditions such as neutropenia or leukemia)
-14,Pharyngeal epithelial cells, Cell, Human
-9,Polymorphonuclear leukocyte, Cell, Human (Impaired PMN function in pathological conditions such as neutropenia or leukemia)
-1,Respiratory system, System, Swine
-33,Small intestine, Organ, Human
-24,Stomach, Organ, Human
-34,Systemic, System,-
-27,Tracheal epithelium, Tissue, Swine
-3,Unknown, System,-
-22,Urinary bladder, Organ,-
+20,Central nervous system,System,-
+18,Colonic epithelial cells,Cell,Human
+17,Colonic epithelium,Tissue,Human
+4,Digestive system,System,-
+7,Immune system,System,Human(ImpairedPMNfunctioninpathologicalconditionssuchasneutropeniaorleukemia)
+19,Integumentary,System,-
+11,Integumentary system,System,Human
+25,Intestine,Organ,Swine
+23,Kidney,Organ,Human
+2,Lung,Organ,Swine
+15,Nervous system,System,Bovine
+5,Oral cavity,Organ,-
+6,Oral epithelial,Tissue,-
+10,Periodontium,Tissue,Human(ImpairedPMNfunctioninpathologicalconditionssuchasneutropeniaorleukemia)
+14,Pharyngeal epithelial cells,Cell,Human
+9,Polymorphonuclear leukocyte,Cell,Human(ImpairedPMNfunctioninpathologicalconditionssuchasneutropeniaorleukemia)
+1,Respiratory system,System,Swine
+33,Small intestine,Organ,Human
+24,Stomach,Organ,Human
+34,Systemic,System,-
+27,Tracheal epithelium,Tissue,Swine
+3,Unknown,System,-
+22,Urinary bladder,Organ,-

@@ -162,9 +162,12 @@ def area_list():
         area_id = tr.find_all('td')[0].find('a').get('href')[15:]
         area_name = sub_soup.find('h1').get_text()
         try:
-            writer.writerow([area_id, area_name, area_detail[1].get_text(), area_detail[2].get_text()])                                         # inserting extracted area id, area name, and area type index
+            writer.writerow([area_id,
+                             area_name,
+                             area_detail[1].get_text().replace(" ", ""),
+                             area_detail[2].get_text().replace(" ", "")])                                         # inserting extracted area id, area name, and area type index
         except:
-            writer.writerow([area_id, area_name, area_detail[1].get_text(), "-"])                                                           # inserting extracted area id, area name, and area type index
+            writer.writerow([area_id, area_name, area_detail[1].get_text().replace(" ",""), "-"])                                                           # inserting extracted area id, area name, and area type index
 
 
     file.close()                                                                                                            # file close
