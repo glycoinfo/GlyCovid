@@ -144,22 +144,29 @@ def disease_list():
     file.close()                                                                                                            # close file
 
 def area_list():
-    target_link = link_header + '/affectedAreaTypes'                                                                        # set scraping target link
+    target_link = link_header + '/affectedAreas'                                                                        # set scraping target link
     file = open('data/area_list.csv', 'w')                                                                                 # open file named "area_list.csv" in "data" folder
     writer = csv.writer(file)                                                                                               # set csv writer
     writer.writerow(['Affected Area ID', 'Area Name',\
-                        'Area Type'])                                                                                       # describe header title
+                        'Area Type', 'Host organism'])                                                                                       # describe header title
     html = requests.get(target_link)                                                                                        # get html via request
     soup = BeautifulSoup(html.content, "html.parser")                                                                       # get html content as Beautiful Soup object
     tr_elements = soup.find('tbody').find_all('tr')                                                                         # find all 'tr' elements from got html content
-    area_type_index = 1                                                                                                     # set area type index {1: "System", 2: "Organ", 3: "Tissue", 4: "Cell"}
     for tr in tr_elements:
-        areas = tr.find_all('td')[1].find('ul').find_all('li')                                                              # find a tag element in a tr element
-        for area in areas:
-            area_id = area.find('a').get('href')[15:]                                                                       # extracting area id
-            area_name = area.find('a').get_text()                                                                           # extracting area name
-            writer.writerow([area_id, area_name,area_type_index])                                                           # inserting extracted area id, area name, and area type index
-        area_type_index += 1                                                                                                # incrementing area type index
+        sub_target_link = link_header + tr.find_all('td')[0].find('a').get('href')
+        sub_html = requests.get(sub_target_link)
+        sub_soup = BeautifulSoup(sub_html.content, "html.parser")
+        area_sidebar = sub_soup.find("div", class_="sidebar")
+        area_detail = area_sidebar.find_all("div")[1].find_all("p")
+        assert area_detail is not None
+        area_id = tr.find_all('td')[0].find('a').get('href')[15:]
+        area_name = sub_soup.find('h1').get_text()
+        try:
+            writer.writerow([area_id, area_name, area_detail[1].get_text(), area_detail[2].get_text()])                                         # inserting extracted area id, area name, and area type index
+        except:
+            writer.writerow([area_id, area_name, area_detail[1].get_text(), "-"])                                                           # inserting extracted area id, area name, and area type index
+
+
     file.close()                                                                                                            # file close
 
 def lectin_pubmed():
@@ -367,29 +374,29 @@ def agent_area():
 
 
 if __name__ == "__main__":
-    agent_list_2()
-    ### scraping from sugarbind ( https://sugarbind.expasy.org )
-    # agent_list()
-        # creating agent_list.csv
-    lectin_list()
-        # creating lectin_list.csv
-    disease_list()
-        # creating disease_list.csv
+    # agent_list_2()
+    # ### scraping from sugarbind ( https://sugarbind.expasy.org )
+    # # agent_list()
+    #     # creating agent_list.csv
+    # lectin_list()
+    #     # creating lectin_list.csv
+    # disease_list()
+    #     # creating disease_list.csv
     area_list()
-        # creating area_list.csv
-    lectin_pubmed()
-        # creating lectin_pubmed.csv
-    lectin_ligand()
-        # creating lectin_ligand.csv
-    structure_ligand()
-        # creating ligand_names.csv, structure_ligand
-    area_disease()
-        # creating area_disease.csv
-    agent_area()
-        # creating agent_affected_area.csv
-    agent_disease()
-        # creating agent_disease.csv
-    lectin_area()
-        # creating lectin_area.csv
-    lectin_agent()
-        # creating lectin_agent.csv
+    #     # creating area_list.csv
+    # lectin_pubmed()
+    #     # creating lectin_pubmed.csv
+    # lectin_ligand()
+    #     # creating lectin_ligand.csv
+    # structure_ligand()
+    #     # creating ligand_names.csv, structure_ligand
+    # area_disease()
+    #     # creating area_disease.csv
+    # agent_area()
+    #     # creating agent_affected_area.csv
+    # agent_disease()
+    #     # creating agent_disease.csv
+    # lectin_area()
+    #     # creating lectin_area.csv
+    # lectin_agent()
+    #     # creating lectin_agent.csv
