@@ -304,18 +304,10 @@ def ttl_area():
     for index, item in df_area_list.iterrows():
         category = ''
         text = f'id:ARE{item["Affected Area ID"]} rdf:type owl:NamedIndividual ,\n\t\t\tobo:NCIT_C12801,\n'
-        if item["Area Type"] == 1:
-            category = 'System'
-        elif item["Area Type"] == 2:
-            category = 'Organ'
-        elif item["Area Type"] == 3:
-            category = 'Tissue'
-        else:
-            category = 'Cell'
-        text += f'\t\t:Area ,\n'
-        text += f'\t\t:{category} ;\n'
-        text += f'\t\tfoaf:homepage <https://sugarbind.expasy.org/affectedAreas/{ item["Affected Area ID"]}> ;\n'
-        text += f'\t\trdfs:label "{item["Area Name"]}"^^xsd:string .\n\n'
+        text += f'''\t\t:Area ,\n'
+            \t\t:{item["Area Type"]} ;\n
+            \t\tfoaf:homepage <https://sugarbind.expasy.org/affectedAreas/{ item["Affected Area ID"]}> ;\n
+            \t\trdfs:label "{item["Area Name"]}"^^xsd:string .\n\n'''
         file.write(text)
     file.close()
 
