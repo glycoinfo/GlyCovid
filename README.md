@@ -1,5 +1,4 @@
 # GlyCovid
-=======
 This repository is related to GlyCovid project
 
 # glycovid_yvk
