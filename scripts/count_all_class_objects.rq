@@ -1,0 +1,19 @@
+# count all classes object for data reports in papeer 
+
+prefix owl: <http://www.w3.org/2002/07/owl#>
+prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+
+SELECT ?class (COUNT(?s) AS ?s_count)
+(GROUP_CONCAT(DISTINCT ?label ; separator = ",") AS ?labels) ?class
+(GROUP_CONCAT(DISTINCT ?description ; separator = ",") AS ?descriptions) ?class
+FROM<http://rdf.glycosmos.org/glycovid_pubchem>
+FROM<http://rdf.glycosmos.org/sugarbind>
+FROM<http://rdf.glycosmos.org/psicquic>
+
+WHERE {
+  ?s a ?class .
+  OPTIONAL { ?class rdfs:label ?label}
+  OPTIONAL { ?class rdfs:comment ?description}
+}
+group by ?class ?label ?description
+

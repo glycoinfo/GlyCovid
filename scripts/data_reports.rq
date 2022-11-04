@@ -1,0 +1,40 @@
+#  data reports in papeer 
+
+## count triples
+prefix owl: <http://www.w3.org/2002/07/owl#>
+prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+SELECT (COUNT(?o) AS ?count)
+FROM<http://rdf.glycosmos.org/glycovid_pubchem>
+FROM<http://rdf.glycosmos.org/sugarbind>
+FROM<http://rdf.glycosmos.org/psicquic>
+WHERE {
+  ?s ?p ?o .
+}
+
+
+## count properties
+prefix owl: <http://www.w3.org/2002/07/owl#>
+prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+SELECT ?ptype (COUNT(?p) AS ?count)
+FROM<http://rdf.glycosmos.org/glycovid_pubchem>
+FROM<http://rdf.glycosmos.org/sugarbind>
+FROM<http://rdf.glycosmos.org/psicquic>
+WHERE {
+  ?s ?p ?o .
+  ?p ?ptype ?oo .
+}
+group by ?ptype
+
+
+## count classes
+prefix owl: <http://www.w3.org/2002/07/owl#>
+prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+SELECT (COUNT(?o) AS ?count)
+FROM<http://rdf.glycosmos.org/glycovid_pubchem>
+FROM<http://rdf.glycosmos.org/sugarbind>
+FROM<http://rdf.glycosmos.org/psicquic>
+WHERE {
+  ?s a ?o .
+  ?o owl:Class
+}
+group by ?o

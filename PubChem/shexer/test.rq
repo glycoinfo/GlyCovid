@@ -1,0 +1,25 @@
+PREFIX : <http://rdf.glycoinfo.org/SugarBind/ontology#>
+PREFIX glycan: <http://purl.jp/bio/12/glyco/glycan#>
+PREFIX obo: <http://purl.obolibrary.org/obo/>
+select distinct ?header ?class
+#where {
+#  ?interaction a :ReferencedInteraction .
+#  ?interaction :has_area ?o .
+##  BIND(REPLACE(str(?o), "/[^/]+$", "", "i") AS ?header)
+#  BIND(REPLACE(str(?o), "[0-9]+$", "", "i") AS ?header)
+#  ?o a ?class .
+#}
+#where {
+#  ?disease a obo:DOID_4 .
+#  ?disease :caused_at ?o .
+##  BIND(REPLACE(str(?o), "/[^/]+$", "", "i") AS ?header)
+#  BIND(REPLACE(str(?o), "[0-9]+$", "", "i") AS ?header)
+#  ?o a ?class .
+#}
+where {
+  ?gtcid a :Ligand .
+  ?gtcid :has_structure ?o .
+#  BIND(REPLACE(str(?o), "/[^/]+$", "", "i") AS ?header)
+  BIND(REPLACE(str(?o), "[0-9A-Z]+$", "", "i") AS ?header)
+  ?o a ?class .
+}
