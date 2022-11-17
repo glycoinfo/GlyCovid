@@ -1,6 +1,6 @@
 # glycovid_PSIQUIC
 ## RDF schema
-![RDF schema](img/schema.png)
+![RDF schema](/resources/img/schema.png)
 
 ## Content
 

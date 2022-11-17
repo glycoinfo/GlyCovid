@@ -302,5 +302,5 @@ def main(dir_name: str):
 
 if __name__ == "__main__":
     print("start create ttl")
-    dir_name = "expdata/"
+    dir_name = "data/"
     main(dir_name)

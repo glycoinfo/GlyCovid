@@ -3,6 +3,9 @@ __pycache__/
 ./__pycache__/**
 *.py[cod]
 *$py.class
+RDF/sugarbind/*
+RDF/pubchem/*
+RDF/psicquic/*
 
 # C extensions
 *.so
@@ -163,14 +166,6 @@ Footer
 
 *.DS_Store
 
-PSICQUIC/data/*
-PSICQUIC/test_data
-PSICQUIC/expdata/*
-PSICQUIC/data_1_27/
-PSICQUIC/log/
-PSICQUIC/owl/**/data/
-PSICQUIC/turtle/*
-PSICQUIC/csv_
 
 PubChem/data/**
 PubChem/trash/**

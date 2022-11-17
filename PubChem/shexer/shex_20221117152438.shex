@@ -1,0 +1,152 @@
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX : <http://rdf.glycoinfo.org/SugarBind/ontology#>
+PREFIX glycan: <http://purl.jp/bio/12/glyco/glycan#>
+PREFIX id: <http://rdf.glycoinfo.org/SugarBind/Id/>
+PREFIX interaction: <http://rdf.glycoinfo.org/ontology/interaction#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX glycoinfo: <http://rdf.glycoinfo.org/glycan/>
+PREFIX obo: <http://purl.obolibrary.org/obo/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX pubmed: <http://www.ncbi.nlm.nih.gov/pubmed/>
+PREFIX bp: <http://www.biopax.org/release/biopax-level3.owl#>
+PREFIX cheminf: <http://semanticscience.org/resource/>
+PREFIX PDBo: <http://rdf.wwpdb.org/schema/pdbx-v40.owl#>
+PREFIX meshv: <http://id.nlm.nih.gov/mesh/vocab#>
+PREFIX up: <https://www.uniprot.org/core/>
+PREFIX fabio: <http://purl.org/spar/fabio/>
+PREFIX cito: <http://purl.org/spar/cito/>
+PREFIX weso-s: <http://weso.es/shapes/>
+
+weso-s:CHEBI_24431
+{
+   rdf:type  [obo:CHEBI_24431]  ;                              # 100.0 %
+   rdfs:label  xsd:string  +                                   # 100.0 %
+            # 99.17569364663176 % obj: xsd:string. Cardinality: {1}
+}
+
+
+weso-s:ctdchemicalgene_s
+{
+   rdf:type  [<http://togodb.org/ctdchemicalgene_s>]  ;          # 100.0 %
+   <http://togodb.org/ontology/ctdchemicalgene_s#cid>  xsd:string  ;          # 100.0 %
+   <http://togodb.org/ontology/ctdchemicalgene_s#chemicalname>  xsd:string  ;          # 100.0 %
+   <http://togodb.org/ontology/ctdchemicalgene_s#pmids>  xsd:string  ;          # 100.0 %
+   <http://togodb.org/ontology/ctdchemicalgene_s#chemicalid>  xsd:string  ;          # 100.0 %
+   <http://togodb.org/ontology/ctdchemicalgene_s#id>  xsd:string  ;          # 100.0 %
+   <http://togodb.org/ontology/ctdchemicalgene_s#geneid>  xsd:string  ;          # 100.0 %
+   rdfs:label  xsd:string  ;                                   # 100.0 %
+   <http://togodb.org/ontology/ctdchemicalgene_s#taxid>  xsd:string  ?
+            # 98.12309094743429 % obj: xsd:string. Cardinality: {1}
+}
+
+
+weso-s:pathwayreaction_s
+{
+   rdf:type  [<http://togodb.org/pathwayreaction_s>]  ;          # 100.0 %
+   <http://togodb.org/ontology/pathwayreaction_s#id>  xsd:string  ;          # 100.0 %
+   <http://togodb.org/ontology/pathwayreaction_s#name>  xsd:string  ;          # 100.0 %
+   <http://togodb.org/ontology/pathwayreaction_s#url>  xsd:string  ;          # 100.0 %
+   <http://togodb.org/ontology/pathwayreaction_s#reaction>  xsd:string  ;          # 100.0 %
+   rdfs:label  xsd:string  ;                                   # 100.0 %
+   <http://togodb.org/ontology/pathwayreaction_s#definition>  xsd:string  ;          # 100.0 %
+   <http://togodb.org/ontology/pathwayreaction_s#source>  xsd:string  ;          # 100.0 %
+   <http://togodb.org/ontology/pathwayreaction_s#pmids>  xsd:string  ;          # 100.0 %
+   <http://togodb.org/ontology/pathwayreaction_s#externalid>  xsd:string  ;          # 100.0 %
+   <http://togodb.org/ontology/pathwayreaction_s#control>  xsd:string  ?
+            # 66.0021551724138 % obj: xsd:string. Cardinality: {1}
+}
+
+
+weso-s:dgidb_s__drugchemblid
+{
+   rdf:type  [<http://togodb.org/dgidb_s__drugchemblid>]  ;          # 100.0 %
+   <http://togodb.org/ontology/dgidb_s__drugchemblid#drugname>  xsd:string  ;          # 100.0 %
+   <http://togodb.org/ontology/dgidb_s__drugchemblid#dois>  xsd:string  ;          # 100.0 %
+   <http://togodb.org/ontology/dgidb_s__drugchemblid#id>  xsd:string  ;          # 100.0 %
+   <http://togodb.org/ontology/dgidb_s__drugchemblid#pmids>  xsd:string  ;          # 100.0 %
+   rdfs:label  xsd:string  ;                                   # 100.0 %
+   <http://togodb.org/ontology/dgidb_s__drugchemblid#genename>  xsd:string  ;          # 100.0 %
+   <http://togodb.org/ontology/dgidb_s__drugchemblid#sid>  xsd:string  ;          # 100.0 %
+   <http://togodb.org/ontology/dgidb_s__drugchemblid#geneid>  xsd:string  ;          # 100.0 %
+   <http://togodb.org/ontology/dgidb_s__drugchemblid#drugchemblid>  xsd:string  ;          # 100.0 %
+   <http://togodb.org/ontology/dgidb_s__drugchemblid#cid>  xsd:string  ?;
+            # 77.45839636913767 % obj: xsd:string. Cardinality: {1}
+   <http://togodb.org/ontology/dgidb_s__drugchemblid#cmpdname>  xsd:string  ?
+            # 77.45839636913767 % obj: xsd:string. Cardinality: {1}
+}
+
+
+weso-s:journalArticle
+{
+   rdf:type  [fabio:journalArticle]  ;                         # 100.0 %
+   rdfs:label  xsd:string                                      # 100.0 %
+}
+
+
+weso-s:chembldrug_s__drugchemblid
+{
+   rdf:type  [<http://togodb.org/chembldrug_s__drugchemblid>]  ;          # 100.0 %
+   <http://togodb.org/ontology/chembldrug_s__drugchemblid#chemblid>  xsd:string  ;          # 100.0 %
+   rdfs:label  xsd:string  ;                                   # 100.0 %
+   <http://togodb.org/ontology/chembldrug_s__drugchemblid#mecid>  xsd:string  ;          # 100.0 %
+   <http://togodb.org/ontology/chembldrug_s__drugchemblid#geneids>  xsd:string  ;          # 100.0 %
+   <http://togodb.org/ontology/chembldrug_s__drugchemblid#id>  xsd:string  ;          # 100.0 %
+   <http://togodb.org/ontology/chembldrug_s__drugchemblid#targetname>  xsd:string  ;          # 100.0 %
+   <http://togodb.org/ontology/chembldrug_s__drugchemblid#cid>  xsd:string  ;          # 100.0 %
+   <http://togodb.org/ontology/chembldrug_s__drugchemblid#protacxns>  xsd:string  ;          # 100.0 %
+   <http://togodb.org/ontology/chembldrug_s__drugchemblid#cmpdname>  xsd:string  ;          # 100.0 %
+   <http://togodb.org/ontology/chembldrug_s__drugchemblid#dois>  xsd:string  ;          # 100.0 %
+   <http://togodb.org/ontology/chembldrug_s__drugchemblid#drugname>  xsd:string  ;          # 100.0 %
+   <http://togodb.org/ontology/chembldrug_s__drugchemblid#targetchemblid>  xsd:string  ;          # 100.0 %
+   <http://togodb.org/ontology/chembldrug_s__drugchemblid#pmids>  xsd:string            # 100.0 %
+}
+
+
+weso-s:Protein
+{
+   rdf:type  [bp:Protein]  ;                                   # 100.0 %
+   up:encodedBy  @weso-s:Gene  +;                              # 100.0 %
+            # 36.48424543946932 % obj: @weso-s:Gene. Cardinality: {3}
+            # 33.99668325041459 % obj: @weso-s:Gene. Cardinality: {4}
+            # 14.759535655058043 % obj: @weso-s:Gene. Cardinality: {2}
+            # 10.779436152570481 % obj: @weso-s:Gene. Cardinality: {5}
+   rdfs:label  xsd:string                                      # 100.0 %
+}
+
+
+weso-s:Gene
+{
+   rdf:type  [bp:Gene]  ;                                      # 100.0 %
+   rdfs:label  xsd:string  +;                                  # 100.0 %
+            # 33.26923076923077 % obj: xsd:string. Cardinality: {3}
+            # 27.435897435897438 % obj: xsd:string. Cardinality: {4}
+            # 22.30769230769231 % obj: xsd:string. Cardinality: {2}
+   cito:isDiscussedBy  IRI  *
+            # 99.93589743589743 % obj: IRI. Cardinality: +
+            # 57.56410256410256 % obj: @weso-s:journalArticle. Cardinality: +
+}
+
+
+weso-s:CHEMINF_000412
+{
+   rdf:type  [cheminf:CHEMINF_000412]  ;                       # 100.0 %
+   rdfs:label  xsd:string                                      # 100.0 %
+}
+
+
+weso-s:Property
+{
+   rdf:type  [rdf:Property]                                    # 100.0 %
+}
+
+
+weso-s:Class
+{
+   rdf:type  [rdfs:Class]                                      # 100.0 %
+}
+
+
