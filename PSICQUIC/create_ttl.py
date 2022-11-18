@@ -133,7 +133,7 @@ def create_ttl(dir_name, file_name, service):
     interaction_id = URIRef("http://rdf.glycoinfo.org/PSICQUIC/Ontology#InteractionId")
     functional_entiry = URIRef("http://biomodels.net/SBO/SBO_0000241")
     host_organism = URIRef("http://purl.obolibrary.org/obo/EUPATH_0000591")
-    in_vitro = URIRef("http://www.bioassayontosiyousuru.org/bao#BAO_0020008")
+    in_vitro = URIRef("http://www.bioassayontology.org/bao#BAO_0020008")
     chemical_synthesis = URIRef("http://semanticscience.org/resource/SIO_000559")
     unidentified = URIRef("http://purl.bioontology.org/ontology/SNOMEDCT/69910005")
 
@@ -302,5 +302,5 @@ def main(dir_name: str):
 
 if __name__ == "__main__":
     print("start create ttl")
-    dir_name = "data/"
+    dir_name = "expdata/"
     main(dir_name)

@@ -1,0 +1,93 @@
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX glycan: <http://purl.jp/bio/12/glyco/glycan#>
+PREFIX id: <http://rdf.glycoinfo.org/SugarBind/Id/>
+PREFIX interaction: <http://rdf.glycoinfo.org/ontology/interaction#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX glycoinfo: <http://rdf.glycoinfo.org/glycan/>
+PREFIX obo: <http://purl.obolibrary.org/obo/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX dc: <http://purl.org/dc/terms/>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX pubmed: <http://www.ncbi.nlm.nih.gov/pubmed/>
+PREFIX bp: <http://www.biopax.org/release/biopax-level3.owl#>
+PREFIX sio: <http://semanticscience.org/resource/>
+PREFIX PDBo: <http://rdf.wwpdb.org/schema/pdbx-v40.owl#>
+PREFIX meshv: <http://id.nlm.nih.gov/mesh/vocab#>
+PREFIX up: <https://www.uniprot.org/core/>
+PREFIX fabio: <http://purl.org/spar/fabio/>
+PREFIX cito: <http://purl.org/spar/cito/>
+PREFIX bao: <http://www.bioassayontology.org/bao#>
+PREFIX bpo: <https://w3id.org/bpo#>
+PREFIX xml: <http://www.w3.org/XML/1998/namespace>
+PREFIX : <http://rdf.glycoinfo.org/PSICQUIC/Ontology#>
+PREFIX weso-s: <http://weso.es/shapes/>
+
+weso-s:SBO_0000344
+{
+   rdf:type  [<http://biomodels.net/SBO/SBO_0000344>]  ;          # 100.0 %
+   :has_interactor_A  @weso-s:SBO_0000241  +;                  # 100.0 %
+            # 12.359256589162342 % obj: @weso-s:SBO_0000241. Cardinality: {1}
+            # 10.130593128389219 % obj: @weso-s:SBO_0000241. Cardinality: {4}
+   <http://purl.org/dc/elements/1.1/source>  IRI  +;           # 100.0 %
+            # 47.50389311555498 % obj: IRI. Cardinality: {1}
+            # 29.715068499411036 % obj: IRI. Cardinality: {2}
+            # 10.161364831675355 % obj: IRI. Cardinality: {3}
+   :has_interactor_B  @weso-s:SBO_0000241  +;                  # 100.0 %
+            # 19.191488729673253 % obj: @weso-s:SBO_0000241. Cardinality: {4}
+   bao:BAO_0002875  IRI  *;
+            # 99.9928783310464 % obj: IRI. Cardinality: +
+            # 46.58611183152949 % obj: IRI. Cardinality: {1}
+            # 28.07940775134636 % obj: IRI. Cardinality: {2}
+   obo:IAO_0000119  @weso-s:NCIT_C93638  *;
+            # 99.18873907994892 % obj: @weso-s:NCIT_C93638. Cardinality: +
+            # 13.725169844187784 % obj: @weso-s:NCIT_C93638. Cardinality: {1}
+            # 12.74154168518491 % obj: @weso-s:NCIT_C93638. Cardinality: {12}
+   bp:interactionType  IRI  *;
+            # 91.28105875986228 % obj: IRI. Cardinality: +
+            # 40.694968255255844 % obj: IRI. Cardinality: {1}
+            # 28.558501844588424 % obj: IRI. Cardinality: {2}
+            # 10.456209543112566 % obj: IRI. Cardinality: {3}
+   obo:INO_0000154  IRI  *;
+            # 91.28105875986228 % obj: IRI. Cardinality: +
+            # 40.694968255255844 % obj: IRI. Cardinality: {1}
+            # 28.558501844588424 % obj: IRI. Cardinality: {2}
+            # 10.456209543112566 % obj: IRI. Cardinality: {3}
+   <http://purl.org/dc/elements/1.1/identifier>  @weso-s:InteractionId  *;
+            # 87.61656020342838 % obj: @weso-s:InteractionId. Cardinality: +
+            # 37.12171846252688 % obj: @weso-s:InteractionId. Cardinality: {1}
+            # 19.743589450637504 % obj: @weso-s:InteractionId. Cardinality: {4}
+   sio:SIO_000253  @weso-s:EUPATH_0000591  *
+            # 85.91410048560643 % obj: @weso-s:EUPATH_0000591. Cardinality: +
+            # 35.61089638200175 % obj: @weso-s:EUPATH_0000591. Cardinality: {48}
+            # 24.11953131039851 % obj: @weso-s:EUPATH_0000591. Cardinality: {96}
+}
+
+
+weso-s:InteractionId
+{
+   rdf:type  [:InteractionId]                                  # 100.0 %
+}
+
+
+weso-s:SBO_0000241
+{
+   rdf:type  [<http://biomodels.net/SBO/SBO_0000241>]  ;          # 100.0 %
+   sio:SIO_000253  @weso-s:EUPATH_0000591  *
+            # 72.22610611720354 % obj: @weso-s:EUPATH_0000591. Cardinality: +
+}
+
+
+weso-s:NCIT_C93638
+{
+   rdf:type  [obo:NCIT_C93638]                                 # 100.0 %
+}
+
+
+weso-s:EUPATH_0000591
+{
+   rdf:type  [obo:EUPATH_0000591]                              # 100.0 %
+}
+
+

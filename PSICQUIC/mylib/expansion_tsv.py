@@ -121,5 +121,5 @@ def expansion_tsv(dirname):
 
 
 if __name__ == "__main__":
-    dirname = "/Users/kouiti/localfile/glycovid/glycovid_PSIQUIC/"
+    dirname = "./"
     expansion_tsv(dirname)

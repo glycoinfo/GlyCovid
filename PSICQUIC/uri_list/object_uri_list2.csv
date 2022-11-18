@@ -1,0 +1,65 @@
+psicquic_subject	http://rdf.glycoinfo.org/matrixdb.association	.+_.+__.+_.+
+mi	http://purl.obolibrary.org/obo/MI_	\d{4}
+ia	http://purl.obolibrary.org/obo/MI_	\d{4}
+psi-mi	http://purl.obolibrary.org/obo/MI_	\d{4}
+pubmed	http://rdf.glycoinfo.org/dbid/pubmed/	\d+
+imex	http://rdf.glycoinfo.org/dbid/imex/	((IM-\d+(-?)(\d+?))|(\d+))
+doi	http://rdf.glycoinfo.org/dbid/doi/	\d{2}\.\d{4}.+
+mint	http://rdf.glycoinfo.org/dbid/mint/	((MINT\-\d{1,7})|(d-\d{2}-[a-z0-9]{5,7})|(fj-\d{2}-\d{4}))
+intact	http://rdf.glycoinfo.org/dbid/intact/	EBI\-[0-9]+
+pmid	http://rdf.glycoinfo.org/dbid/pubmed/	\d+
+taxid	http://rdf.glycoinfo.org/dbid/taxonomy/	\d+
+biogrid	http://rdf.glycoinfo.org/dbid/biogrid/	\d+
+tissue list	http://rdf.glycoinfo.org/dbid/tissuelist/	TS-\d{4}
+go	http://rdf.glycoinfo.org/dbid/GO/	\d{7}
+chebi	http://rdf.glycoinfo.org/dbid/CHEBI/	\d+
+chembl	http://rdf.glycoinfo.org/dbid/chembl/	CHEMBL\d+
+wwpdb	http://rdf.glycoinfo.org/dbid/pdb/	[0-9][A-Za-z0-9]{3}
+pdbe	http://rdf.glycoinfo.org/dbid/pdb/	[0-9][A-Za-z0-9]{3}
+rcsb pdb	http://rdf.glycoinfo.org/dbid/pdb/	[0-9][A-Za-z0-9]{3}
+emdb	http://rdf.glycoinfo.org/dbid/emdb/	EMD-\d{4,5}
+pride	http://rdf.glycoinfo.org/dbid/pride/	\d+
+proteomexchange	http://rdf.glycoinfo.org/dbid/px/	(R)?PXD\d{6}
+omim	http://rdf.glycoinfo.org/dbid/OMIM/	\d{6}
+interpro	http://rdf.glycoinfo.org/dbid/interpro/	IPR\d{6,7}
+intenz	http://rdf.glycoinfo.org/dbid/intenz/	(\d{1,2}\.?)+
+bmrb	http://rdf.glycoinfo.org/dbid/bmrb/	(bmr|bmse|bmst)?[0-9]{1,6}
+dip	http://rdf.glycoinfo.org/dbid/dip/	DIP(\:)?\-\d{1,}[ENXS]
+empiar	http://rdf.glycoinfo.org/dbid/empiar/	EMPAIR-\d{5}
+matrixdb	https://bioregistry.io/reference/matrixdb:	.+
+mpidb	http://rdf.glycoinfo.org/dbid/mpid/	((\d+)|(MPIDB-INT-\d{3,4}))
+rigid	http://rdf.glycoinfo.org/dbid/rigid/	.+
+hprd	http://rdf.glycoinfo.org/dbid/hprd/	\d+
+reactome	http://rdf.glycoinfo.org/dbid/reactome/	(R-[A-Z]{3}-\d+)(?:\.\d+)?
+virhostnet-rid	http://rdf.glycoinfo.org/dbid/virhostnet-rid/	\d{3,6}
+virhostnet-nrid	http://rdf.glycoinfo.org/dbid/virhostnet-nrid/	\d{3,6}
+pdb	http://rdf.glycoinfo.org/dbid/pdb/	[0-9][A-Za-z0-9]{3}
+signor	http://rdf.glycoinfo.org/dbid/signor/	SIGNOR\-[A-Z]+\d+
+chembl target	http://rdf.glycoinfo.org/dbid/chembl.target/	CHEMBL\d+
+rhea	http://rdf.glycoinfo.org/dbid/rhea/	\d{5}
+protein ontology	http://purl.obolibrary.org/obo/PR_	\d{9}
+entrez gene/locuslink	http://rdf.glycoinfo.org/dbid/ncbigene/	\d+
+uniprotkb	http://rdf.glycoinfo.org/dbid/uniprot/	[A-Z0-9]+
+ensembl	http://rdf.glycoinfo.org/dbid/ensembl/	((ENS[FPTG]\\d{11}(\\.\\d+)?)|(FB\\w{2}\\d{7})|(Y[A-Z]{2}\\d{3}[a-zA-Z](\\-[A-Z])?)|([A-Z_a-z0-9]+(\\.)?(t)?(\\d+)?([a-z])?))
+refseq	http://rdf.glycoinfo.org/dbid/refseq/	(((AC|AP|NC|NG|NM|NP|NR|NT|NW|XM|XP|XR|YP|ZP)_\d+)|(NZ\_[A-Z]{2,4}\d+))(\.\d+)?
+ddbj/embl/genbank	http://rdf.glycoinfo.org/dbid/insdc/	([A-Z]\d{5}|[A-Z]{2}\d{6}|[A-Z]{4}\d{8}|[A-J][A-Z]{2}\d{5})(\.\d+)?
+rogid	http://rdf.glycoinfo.org/dbid/rogid/	.+
+complex	http://rdf.glycoinfo.org/dbid/complex/	.+
+rnacentral	http://rdf.glycoinfo.org/dbid/rnacentral/	URS[0-9A-F]{10}(\_\d+)?
+complex portal	http://rdf.glycoinfo.org/dbid/complexportal/	CPX-[0-9]+
+efo	http://rdf.glycoinfo.org/dbid/efo/	\d{7}
+brenda	http://rdf.glycoinfo.org/dbid/brenda/	((\d+\.-\.-\.-)|(\d+\.\d+\.-\.-)|(\d+\.\d+\.\d+\.-)|(\d+\.\d+\.\d+\.\d+))
+bto	http://rdf.glycoinfo.org/dbid/BTO/	\d{7}
+pmc	http://rdf.glycoinfo.org/dbid/pmc/	((PMC)|(PPR))\d+
+ensemblgenomes	http://rdf.glycoinfo.org/dbid/ensemblgenomes/	.+
+ntnu	http://rdf.glycoinfo.org/dbid/ntnu/	.*
+in_vitro	http://www.bioassayontology.org/bao#BAO_0020008	()
+chemical_synthesis	http://semanticscience.org/resource/SIO_000559	()
+molecular_interaction	http://biomodels.net/SBO/SBO_0000344	()
+publication_identifier	http://purl.obolibrary.org/obo/NCIT_C93638	()
+interaction_id	http://rdf.glycoinfo.org/PSICQUIC/Ontology#InteractionId	()
+functional_entiry	http://biomodels.net/SBO/SBO_0000241	()
+host_organism	http://purl.obolibrary.org/obo/EUPATH_0000591	()
+in_vitro	http://www.bioassayontology.org/bao#BAO_0020008	()
+chemical_synthesis	http://semanticscience.org/resource/SIO_000559	()
+unideitified	http://purl.bioontology.org/ontology/SNOMEDCT/69910005	()

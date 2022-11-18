@@ -1,4 +1,5 @@
 data/*
+expdata/*
 owl/**/data/
 turtle/*
 resources/csv_

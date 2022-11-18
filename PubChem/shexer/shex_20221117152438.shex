@@ -29,21 +29,6 @@ weso-s:CHEBI_24431
 }
 
 
-weso-s:ctdchemicalgene_s
-{
-   rdf:type  [<http://togodb.org/ctdchemicalgene_s>]  ;          # 100.0 %
-   <http://togodb.org/ontology/ctdchemicalgene_s#cid>  xsd:string  ;          # 100.0 %
-   <http://togodb.org/ontology/ctdchemicalgene_s#chemicalname>  xsd:string  ;          # 100.0 %
-   <http://togodb.org/ontology/ctdchemicalgene_s#pmids>  xsd:string  ;          # 100.0 %
-   <http://togodb.org/ontology/ctdchemicalgene_s#chemicalid>  xsd:string  ;          # 100.0 %
-   <http://togodb.org/ontology/ctdchemicalgene_s#id>  xsd:string  ;          # 100.0 %
-   <http://togodb.org/ontology/ctdchemicalgene_s#geneid>  xsd:string  ;          # 100.0 %
-   rdfs:label  xsd:string  ;                                   # 100.0 %
-   <http://togodb.org/ontology/ctdchemicalgene_s#taxid>  xsd:string  ?
-            # 98.12309094743429 % obj: xsd:string. Cardinality: {1}
-}
-
-
 weso-s:pathwayreaction_s
 {
    rdf:type  [<http://togodb.org/pathwayreaction_s>]  ;          # 100.0 %
