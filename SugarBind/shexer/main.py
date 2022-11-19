@@ -11,10 +11,10 @@ target_classes = [
     "<http://rdf.glycoinfo.org/SugarBind/ontology#ReferencedInteraction>",
     "<http://rdf.glycoinfo.org/SugarBind/ontology#Agent>",
     "<http://rdf.glycoinfo.org/SugarBind/ontology#Area>",
-    "<http://rdf.glycoinfo.org/SugarBind/ontology#obo:DOID_4>",
     "<http://rdf.glycoinfo.org/SugarBind/ontology#PubMed>",
     "<http://rdf.glycoinfo.org/SugarBind/ontology#Ligand>",
     "<http://rdf.glycoinfo.org/SugarBind/ontology#Lectin>",
+    "<http://purl.obolibrary.org/obo/DOID_4>",
     "<http://purl.jp/bio/12/glyco/glycan#Saccharide>",
 ]
 
@@ -22,7 +22,7 @@ namespaces_dict = {
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#": "rdf",
     "http://www.w3.org/2000/01/rdf-schema#": "rdfs",
     "http://www.w3.org/2001/XMLSchema#": "xsd",
-    "http://rdf.glycoinfo.org/SugarBind/ontology#": "",
+    # "http://rdf.glycoinfo.org/SugarBind/ontology#": "",
     "http://purl.jp/bio/12/glyco/glycan#": "glycan",
     "http://rdf.glycoinfo.org/SugarBind/Id/": "id",
     "http://rdf.glycoinfo.org/ontology/interaction#": "interaction",

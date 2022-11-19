@@ -1,0 +1,148 @@
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX glycan: <http://purl.jp/bio/12/glyco/glycan#>
+PREFIX id: <http://rdf.glycoinfo.org/SugarBind/Id/>
+PREFIX interaction: <http://rdf.glycoinfo.org/ontology/interaction#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX glycoinfo: <http://rdf.glycoinfo.org/glycan/>
+PREFIX obo: <http://purl.obolibrary.org/obo/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX pubmed: <http://www.ncbi.nlm.nih.gov/pubmed/>
+PREFIX : <http://weso.es/shapes/>
+
+:ReferencedInteraction
+{
+   rdf:type  [<http://rdf.glycoinfo.org/SugarBind/ontology#ReferencedInteraction>]  ;          # 100.0 %
+   rdf:type  [owl:NamedIndividual]  ;                          # 100.0 %
+   <http://rdf.glycoinfo.org/SugarBind/ontology#has_lectin>  @:Lectin  ;          # 100.0 %
+   rdfs:label  xsd:string  ;                                   # 100.0 %
+   <http://rdf.glycoinfo.org/SugarBind/ontology#has_ligand>  @:Ligand  +;          # 100.0 %
+            # 82.13802435723952 % obj: @:Ligand. Cardinality: {1}
+   <http://rdf.glycoinfo.org/SugarBind/ontology#has_agent>  @:Agent  ;          # 100.0 %
+   <http://rdf.glycoinfo.org/SugarBind/ontology#has_citation>  @:PubMed  *;
+            # 97.02300405953991 % obj: @:PubMed. Cardinality: +
+            # 95.53450608930987 % obj: @:PubMed. Cardinality: {1}
+   <http://rdf.glycoinfo.org/SugarBind/ontology#has_area>  @:Area  *
+            # 67.11772665764548 % obj: @:Area. Cardinality: +
+            # 61.8403247631935 % obj: @:Area. Cardinality: {1}
+}
+
+
+:Agent
+{
+   rdf:type  [<http://rdf.glycoinfo.org/SugarBind/ontology#Agent>]  ;          # 100.0 %
+   rdf:type  [owl:NamedIndividual]  ;                          # 100.0 %
+   <http://rdf.glycoinfo.org/SugarBind/ontology#taxonomyLevel>  xsd:string  ;          # 100.0 %
+   dcterms:references  IRI  ;                                  # 100.0 %
+   foaf:homepage  IRI  ;                                       # 100.0 %
+   skos:prefLabel  xsd:string  ;                               # 100.0 %
+   rdfs:label  xsd:string  ;                                   # 100.0 %
+   <http://rdf.glycoinfo.org/SugarBind/ontology#lineage_up>  IRI  ;          # 100.0 %
+            # 24.078624078624077 % obj: @:Agent. Cardinality: {1}
+   obo:NCIT_P331  IRI  *;
+            # 98.77149877149877 % obj: IRI. Cardinality: +
+            # 66.09336609336609 % obj: IRI. Cardinality: {2}
+            # 27.027027027027028 % obj: IRI. Cardinality: {1}
+            # 72.72727272727273 % obj: @:DOID_4. Cardinality: +
+   <http://rdf.glycoinfo.org/SugarBind/ontology#causes>  @:DOID_4  *;
+            # 72.72727272727273 % obj: @:DOID_4. Cardinality: +
+            # 67.07616707616708 % obj: @:DOID_4. Cardinality: {1}
+   <http://rdf.glycoinfo.org/SugarBind/ontology#found_in>  @:Area  *;
+            # 68.3046683046683 % obj: @:Area. Cardinality: +
+            # 66.83046683046683 % obj: @:Area. Cardinality: {1}
+   <http://rdf.glycoinfo.org/SugarBind/ontology#hamap>  xsd:string  ?;
+            # 20.638820638820636 % obj: xsd:string. Cardinality: {1}
+   rdfs:seeAlso  IRI  *
+            # 11.056511056511056 % obj: IRI. Cardinality: +
+}
+
+
+:Area
+{
+   rdf:type  [<http://rdf.glycoinfo.org/SugarBind/ontology#Area>]  ;          # 100.0 %
+   rdf:type  [owl:NamedIndividual]  ;                          # 100.0 %
+   rdf:type  [obo:NCIT_C12801]  ;                              # 100.0 %
+   rdfs:label  xsd:string  ;                                   # 100.0 %
+   foaf:homepage  IRI  ;                                       # 100.0 %
+   rdf:type  [<http://rdf.glycoinfo.org/SugarBind/ontology#Organ>]  ?;
+            # 41.02564102564102 % obj: <http://rdf.glycoinfo.org/SugarBind/ontology#Organ>. Cardinality: {1}
+   rdf:type  [<http://rdf.glycoinfo.org/SugarBind/ontology#System>]  ?;
+            # 28.205128205128204 % obj: <http://rdf.glycoinfo.org/SugarBind/ontology#System>. Cardinality: {1}
+   rdf:type  [<http://rdf.glycoinfo.org/SugarBind/ontology#Tissue>]  ?
+            # 23.076923076923077 % obj: <http://rdf.glycoinfo.org/SugarBind/ontology#Tissue>. Cardinality: {1}
+}
+
+
+:PubMed
+{
+   rdf:type  [<http://rdf.glycoinfo.org/SugarBind/ontology#PubMed>]  ;          # 100.0 %
+   rdf:type  [owl:NamedIndividual]  ;                          # 100.0 %
+   rdf:type  [obo:NCIT_C42881]  ;                              # 100.0 %
+   rdfs:label  xsd:string  ;                                   # 100.0 %
+   dcterms:references  @:PubMed  ;                             # 100.0 %
+   <http://rdf.glycoinfo.org/SugarBind/ontology#pubmedId>  xsd:string            # 100.0 %
+}
+
+
+:Ligand
+{
+   rdf:type  [<http://rdf.glycoinfo.org/SugarBind/ontology#Ligand>]  ;          # 100.0 %
+   rdf:type  [owl:NamedIndividual]  ;                          # 100.0 %
+   rdf:type  [obo:NCIT_C95009]  ;                              # 100.0 %
+   rdfs:label  xsd:string  +;                                  # 100.0 %
+            # 53.431372549019606 % obj: xsd:string. Cardinality: {1}
+            # 26.47058823529412 % obj: xsd:string. Cardinality: {2}
+            # 14.705882352941178 % obj: xsd:string. Cardinality: {3}
+   dcterms:references  IRI  ;                                  # 100.0 %
+   foaf:homepage  IRI  ;                                       # 100.0 %
+   <http://rdf.glycoinfo.org/SugarBind/ontology#has_structure>  @:Saccharide  ?
+            # 97.54901960784314 % obj: @:Saccharide. Cardinality: {1}
+}
+
+
+:Lectin
+{
+   rdf:type  [<http://rdf.glycoinfo.org/SugarBind/ontology#Lectin>]  ;          # 100.0 %
+   rdf:type  [owl:NamedIndividual]  ;                          # 100.0 %
+   rdf:type  [obo:NCIT_C16785]  ;                              # 100.0 %
+   foaf:homepage  IRI  ;                                       # 100.0 %
+   rdfs:label  xsd:string  ;                                   # 100.0 %
+   dcterms:references  IRI  ?;
+            # 14.208389715832206 % obj: IRI. Cardinality: {1}
+   <http://rdf.glycoinfo.org/SugarBind/ontology#uniprotId>  IRI  ?
+            # 14.208389715832206 % obj: IRI. Cardinality: {1}
+}
+
+
+:DOID_4
+{
+   rdf:type  [obo:DOID_4]  ;                                   # 100.0 %
+   rdf:type  [obo:NCIT_C2991]  ;                               # 100.0 %
+   rdf:type  [owl:NamedIndividual]  ;                          # 100.0 %
+   <http://rdf.glycoinfo.org/SugarBind/ontology#caused_by>  @:Agent  +;          # 100.0 %
+            # 28.26086956521739 % obj: @:Agent. Cardinality: {1}
+            # 23.91304347826087 % obj: @:Agent. Cardinality: {2}
+            # 10.869565217391305 % obj: @:Agent. Cardinality: {3}
+   <http://rdf.glycoinfo.org/SugarBind/ontology#caused_at>  @:Area  +;          # 100.0 %
+            # 78.26086956521739 % obj: @:Area. Cardinality: {1}
+            # 10.869565217391305 % obj: @:Area. Cardinality: {2}
+   foaf:homepage  IRI  ;                                       # 100.0 %
+   rdfs:label  xsd:string  ;                                   # 100.0 %
+   rdfs:seeAlso  IRI                                           # 100.0 %
+}
+
+
+:Saccharide
+{
+   rdf:type  [glycan:Saccharide]  ;                            # 100.0 %
+   rdf:type  [owl:NamedIndividual]  ;                          # 100.0 %
+   rdfs:label  xsd:string  +;                                  # 100.0 %
+            # 94.79768786127167 % obj: xsd:string. Cardinality: {1}
+   glycan:has_resource_entry  IRI  +                           # 100.0 %
+            # 94.79768786127167 % obj: IRI. Cardinality: {1}
+}
+
+
