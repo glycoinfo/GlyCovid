@@ -427,17 +427,18 @@ def filter_MeSH_in_gene_disease(path, d_today):
 
 if __name__ == "__main__":
     d_today = str(datetime.date.today())
-    d_today = '2022-07-22'
-    path = '/Users/Kouiti/local_file/glycovid/glycovid_PubChem/'
+    path = './'
+    # d_today = '2022-07-22'
+    # path = '/Users/Kouiti/local_file/glycovid/glycovid_PubChem/'
 
-    # get_new_gene_file(d_today, path)
-    # gene_list = get_new_gene_list(d_today, path)
+    get_new_gene_file(d_today, path)
+    gene_list = get_new_gene_list(d_today, path)
 
-    # scrape(d_today, path, gene_list)
-    # mkdir(d_today)
-    # delete_patywayreaction_in_pathwaygene_deirectory(d_today)
-    # curate_file_conmma_inquote(d_today)
-    # make_csv_for_togo(d_today)
+    scrape(d_today, path, gene_list)
+    mkdir(d_today)
+    delete_patywayreaction_in_pathwaygene_deirectory(d_today)
+    curate_file_conmma_inquote(d_today)
+    make_csv_for_togo(d_today)
     filter_MeSH_in_gene_disease(path, d_today)
 
-    # curate_csv_file(d_today)
+    curate_csv_file(d_today)
