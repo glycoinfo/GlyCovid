@@ -1,4 +1,4 @@
-from rdflib import Graph, Literal, Namespace, URIRef, BNode
+from rdflib import URIRef
 
 
 def uri_ref():
@@ -39,3 +39,44 @@ def uri_ref():
             "http://purl.bioontology.org/ontology/SNOMEDCT/69910005"
         ),
     }
+
+
+from copy import copy
+import re
+
+def has_bar_in_row(row):
+    for column in row:
+        if "|" in column:
+            return True
+    return False
+
+
+def has_bar_in_row_list(row_list: list):
+    for row in row_list:
+        if has_bar_in_row(row):
+            return True
+    return False
+
+
+def expansion_tsv_row(row_list: list):
+    result_list = []
+    for row in row_list:
+        if has_bar_in_row(row):
+            for i in range(len(row)):
+                if "|" in row[i]:
+                    row_a = copy(row)
+                    row_a[i] = re.split("|", row[i])[0]
+                    row_b = copy(row)
+                    row_b[i] = re.split("[|\t$]", row[i])[1]
+                    result_list.append(row_a)
+                    result_list.append(row_b)
+                    break
+        else:
+            result_list.append(row)
+
+    if has_bar_in_row_list(result_list):
+        result_list = expansion_tsv_row(result_list)
+    return result_list
+
+
+

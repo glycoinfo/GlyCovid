@@ -390,25 +390,6 @@ def curate_csv_file():
         print('Done: ', file_list[i])
 
 
-# goidからmeshidにつながるデータを取得
-def filter_MeSH_in_gene_disease(path, d_today):
-    file_path = "data/"+d_today+"/dir/gene_disease_s.csv"
-    f = open(file_path)
-    contents = f.read()
-    rows = contents.split("\n")
-    new_contents = ""
-    for row in rows:
-        if row == "":
-            continue
-        cols = row.split(",")
-        if cols[2] == "MeSH":
-            # covid-19のIDを新しいものに変換
-            new_contents += cols[0] + "," + cols[3].replace("C000657245", "D000086382")
-            new_contents += "\n"
-    f = open("data/"+d_today+"/dir/gene_disease_s_mesh.csv", "w")
-    f.write(new_contents)
-
-
 if __name__ == "__main__":
     get_new_gene_file()
     gene_list = get_new_gene_list()
@@ -417,6 +398,5 @@ if __name__ == "__main__":
     delete_patywayreaction_in_pathwaygene_deirectory()
     curate_file_conmma_inquote()
     make_csv_for_togo()
-    filter_MeSH_in_gene_disease()
 
     curate_csv_file()
