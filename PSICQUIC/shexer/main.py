@@ -49,7 +49,7 @@ namespaces_dict = {
     "http://rdf.glycoinfo.org/PSICQUIC/Ontology#": "",
 }
 
-graph_list_of_files_input = glob.glob("RDF/psicquic/*")
+graph_list_of_files_input = glob.glob("PSICQUIC/turtle/*")
 
 shaper = Shaper(
     target_classes=target_classes,

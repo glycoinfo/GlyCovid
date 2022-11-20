@@ -45,7 +45,7 @@ namespaces_dict = {
     "http://purl.org/spar/cito/": "cito",
 }
 
-graph_list_of_files_input = glob.glob("RDF/pubchem/*")
+graph_list_of_files_input = glob.glob("PubChem/turtle/*")
 
 shaper = Shaper(
     target_classes=target_classes,

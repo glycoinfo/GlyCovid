@@ -17,12 +17,13 @@ import pathlib
 import datetime
 
 
-def get_new_gene_file(d_today, path):
+def get_new_gene_file():
+    d_today = str(datetime.date.today())
     current_download_url = 'https://pubchem.ncbi.nlm.nih.gov/#query=covid-19&tab=gene'
     options = webdriver.ChromeOptions()
     # デフォルトダウンロードフォルダを変更する
     options.add_experimental_option(
-        "prefs", {"download.default_directory": path + 'datalist_csv'})
+        "prefs", {"download.default_directory": 'datalist_csv'})
     # 自動テストソフトウェアによって制御されていますというメッセージを非表示にする
     options.add_experimental_option("excludeSwitches", ["enable-automation"])
     # 拡張機能の自動更新をさせない（アプリ側の自動アップデートとドライバーの互換性によるエラーを回避）
@@ -55,36 +56,23 @@ def get_new_gene_file(d_today, path):
         driver.quit()
 
 
-def get_new_gene_list(d_totay, path):
-    gene_files = glob.glob("./datalist_csv/*.csv", recursive=True)
-    current_genelist = {'date': '2000-01-01', 'file_dir': ''}
-    for gene_file in gene_files:
-        date = re.search(
-            '20[0-9][0-9]\-[01][0-9]\-[0-9][0-9]', gene_file).group()
-        if date != d_today and date > current_genelist['date']:
-            current_genelist['date'] = date
-            current_genelist['file_dir'] = gene_file
-    now_genelist = {'date': d_today,
-                    'file_dir': './datalist_csv/PubChem_gene_text_covid-19_summary_' + d_today + '.csv'}
-
-    print(now_genelist)
-    print(current_genelist)
-
+def get_new_gene_list():
+    d_today = str(datetime.date.today())
+    now_genelist = {
+            'date': d_today,
+            'file_dir': './datalist_csv/PubChem_gene_text_covid-19_summary_' + d_today + '.csv',
+            'csv': ""
+            }
     now_genelist['csv'] = pd.read_csv(now_genelist['file_dir'])
     current_genelist['csv'] = pd.read_csv(current_genelist['file_dir'])
     gene_list = list(
         set(now_genelist['csv']['geneid']) - set(current_genelist['csv']['geneid']))
-
     return gene_list
 
 
-def scrape(d_today, path, gene_list):
+def scrape(gene_list):
     # 任意のディレクトリを指定
-    try:
-        os.mkdir('./data/' + d_today)
-    except:
-        pass
-    download_directory = path + 'data/' + d_today + '/gene/'
+    download_directory = 'data//gene/'
     download_url = 'https://pubchem.ncbi.nlm.nih.gov/gene/'
     # gene_csv = pd.read_csv("./datalist_/Pubchem_gene_text_covid-19.csv")
     for i in range(len(gene_list)):
@@ -130,9 +118,9 @@ def scrape(d_today, path, gene_list):
             driver.quit()
 
 
-def mkdir(d_today):
-    mkdir_dir = 'data/' + d_today + '/dir/'
-    directry = 'data/' + d_today + '/gene'
+def mkdir():
+    mkdir_dir = 'data/dir/'
+    directry = 'data/gene'
     mkdir_tuple = (
         'pdb',
         'bioactivity_gene',
@@ -251,20 +239,20 @@ def curate_file_conmma_inquote(d_today):
                 f.write(fileText)
 
 
-def make_csv_for_togo(d_today):
+def make_csv_for_togo():
     # csv内の文字列を分割する必要のあるcolumnsのdict
     columns_dict = {
-        # 'data/' + d_today + '/dir/bioactivity_gene': [],
-        # "data/" + d_today + "/dir/bioassay": ["pmids"],
-        # "data/" + d_today + "/dir/chembldrug": ["pmids", "dois"],
-        # "data/" + d_today + "/dir/ctdchemicalgene": ["pmids"],
-        # "data/" + d_today + "/dir/dgidb": ["pmids", "dois"],
-        # "data/" + d_today + "/dir/drugbank": ["pmids", "dois"],
-        "data/" + d_today + "/dir/gene_disease": ["pmids", "dois"],
-        # "data/" + d_today + "/dir/gtopdb": ["pmids", "dois"],
-        # "data/" + d_today + "/dir/pathwaygene": ["pmids"],
-        # "data/" + d_today + "/dir/pathwayreaction": ["pmids"],
-        # "data/" + d_today + "/dir/pdb": ["pmids", "dois"]
+        'data/dir/bioactivity_gene': [],
+        "data/dir/bioassay": ["pmids"],
+        "data/dir/chembldrug": ["pmids", "dois"],
+        "data/dir/ctdchemicalgene": ["pmids"],
+        "data/dir/dgidb": ["pmids", "dois"],
+        "data/dir/drugbank": ["pmids", "dois"],
+        "data/dir/gene_disease": ["pmids", "dois"],
+        "data/dir/gtopdb": ["pmids", "dois"],
+        "data/dir/pathwaygene": ["pmids"],
+        "data/dir/pathwayreaction": ["pmids"],
+        "data/dir/pdb": ["pmids", "dois"]
     }
     # RDF作成上必要のないcolumnsのdict
     droplist = [
@@ -381,8 +369,8 @@ def sepalateBar(fileText):
     return fileText
 
 
-def curate_csv_file(d_today):
-    file_list = glob.glob("./data/" + d_today + "/dir/*_s.csv", recursive=True)
+def curate_csv_file():
+    file_list = glob.glob("./data/dir/*_s.csv", recursive=True)
     for i in range(len(file_list)):
         with open(file_list[i], 'r') as f:
             fileText = f.read()
@@ -421,24 +409,14 @@ def filter_MeSH_in_gene_disease(path, d_today):
     f.write(new_contents)
 
 
-
-
-
-
 if __name__ == "__main__":
-    d_today = str(datetime.date.today())
-    path = './'
-    # d_today = '2022-07-22'
-    # path = '/Users/Kouiti/local_file/glycovid/glycovid_PubChem/'
+    get_new_gene_file()
+    gene_list = get_new_gene_list()
 
-    get_new_gene_file(d_today, path)
-    gene_list = get_new_gene_list(d_today, path)
+    scrape(gene_list)
+    delete_patywayreaction_in_pathwaygene_deirectory()
+    curate_file_conmma_inquote()
+    make_csv_for_togo()
+    filter_MeSH_in_gene_disease()
 
-    scrape(d_today, path, gene_list)
-    mkdir(d_today)
-    delete_patywayreaction_in_pathwaygene_deirectory(d_today)
-    curate_file_conmma_inquote(d_today)
-    make_csv_for_togo(d_today)
-    filter_MeSH_in_gene_disease(path, d_today)
-
-    curate_csv_file(d_today)
+    curate_csv_file()

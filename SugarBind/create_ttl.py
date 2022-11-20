@@ -30,7 +30,7 @@ def ttl_ReferenceInteraction():
     df_ligand_structure = pd.read_csv('data/structure_ligand.csv')                                                         # open file as pandas data frame
     df_ligand_names = pd.read_csv('data/ligand_names.csv')                                                                 # open file as pandas data frame
     
-    file = open('output/referenced_interaction.ttl', 'w', encoding='UTF-8')                                                # open file named "referenced_interaction.ttl" in "output" folder
+    file = open('turtle/referenced_interaction.ttl', 'w', encoding='UTF-8')                                                # open file named "referenced_interaction.ttl" in "turtle" folder
     file.write(PREFIX)
     file.write('#######################################################\n')                                                 
     file.write('### Individuals (lectin including N/S) \n')                                                                 # inserting ttl header title
@@ -158,7 +158,7 @@ def ttl_ReferenceInteraction():
 
 def ttl_pubmed():
     df_pubmed = pd.read_csv('data/lectin_pubmed.csv').sort_values(by = 'Pubmed ID', ascending = True)                      # open file as pandas data frame
-    file = open('output/pubmed.ttl', 'w', encoding='UTF-8')                                                                # open file named "pubmed.ttl" in "output" folder
+    file = open('turtle/pubmed.ttl', 'w', encoding='UTF-8')                                                                # open file named "pubmed.ttl" in "turtle" folder
     file.write(PREFIX)
     file.write('#######################################################\n')
     file.write('### Individuals (Pubmed) \n')                                                                               # inserting ttl header title
@@ -170,7 +170,7 @@ def ttl_pubmed():
 
 def ttl_structure():
     df_structure = pd.read_csv('data/structure_ligand.csv').sort_values(by = 'Structure ID', ascending = True)             # open file as pandas data frame
-    file = open('output/structure.ttl', 'w', encoding= 'UTF-8')                                                            # open file named "structure.ttl" in "output" folder
+    file = open('turtle/structure.ttl', 'w', encoding= 'UTF-8')                                                            # open file named "structure.ttl" in "turtle" folder
     file.write(PREFIX)
     file.write('#######################################################\n')
     file.write('### Individuals (Structure) \n')                                                                            # inserting ttl header
@@ -188,7 +188,7 @@ def ttl_ligand():
     df_ligand = pd.read_csv('data/lectin_ligand.csv').sort_values(by = 'Ligand ID', ascending = True)                      # open file as pandas data frame
     df_ligand_names = pd.read_csv('data/ligand_names.csv').sort_values(by = 'Ligand ID', ascending = True)                 
     df_structure_ligand = pd.read_csv('data/structure_ligand.csv').sort_values(by = 'Ligand ID', ascending = True)         
-    file = open('output/ligand.ttl', 'w', encoding='UTF-8')                                                                # open file named "ligand.ttl" in "output" folder
+    file = open('turtle/ligand.ttl', 'w', encoding='UTF-8')                                                                # open file named "ligand.ttl" in "turtle" folder
     file.write(PREFIX)
     file.write('#######################################################\n')
     file.write('### Individuals (Ligand) \n')                                                                               # inserting ttl header
@@ -221,7 +221,7 @@ def ttl_ligand():
 def ttl_lectin():
     df_lectin = pd.read_csv('data/lectin_list.csv').sort_values(by = 'Lectin ID', ascending = True)                        # open file as pandas data frame
     df_lectin_ns = df_lectin[df_lectin['N/S'] == 1]                                                                         # filtering loaded data frame with N/S
-    file = open('output/lectin.ttl', 'w', encoding='UTF-8')                                                                # open file named "lectin.ttl" in "output" folder
+    file = open('turtle/lectin.ttl', 'w', encoding='UTF-8')                                                                # open file named "lectin.ttl" in "turtle" folder
     file.write(PREFIX)
     file.write('#######################################################\n')
     file.write('### Individuals (Lectin including N/S) \n')                                                                 # inserting ttl header
@@ -247,7 +247,7 @@ def ttl_disease():
     df_disease_agent = pd.read_csv('data/agent_disease.csv').sort_values(by = 'Disease ID', ascending = True)              # open file as pandas data frame
     df_disease_area = pd.read_csv('data/area_disease.csv').sort_values(by = 'Disease ID', ascending = True)
     df_disease_list = pd.read_csv('data/disease_list.csv').sort_values(by = 'Disease ID', ascending = True)
-    file = open('output/disease.ttl', 'w', encoding = 'UTF-8')                                                             # open file named "disease.ttl" in "output" folder
+    file = open('turtle/disease.ttl', 'w', encoding = 'UTF-8')                                                             # open file named "disease.ttl" in "turtle" folder
     file.write(PREFIX)
     file.write('#######################################################\n')
     file.write('### Individuals (Disease)\n')                                                                               # inserting ttl header
@@ -296,7 +296,7 @@ def ttl_disease():
 def ttl_area():
     df_area_list = pd.read_csv('data/area_list.csv').sort_values(by = 'Affected Area ID', ascending = True)
 
-    file = open('output/area.ttl', 'w', encoding = 'UTF-8')
+    file = open('turtle/area.ttl', 'w', encoding = 'UTF-8')
     file.write(PREFIX)
     file.write('#######################################################\n')
     file.write('### Individuals (Area)\n')
@@ -337,7 +337,7 @@ def ttl_agent():
                 if not (child in lineage_dictionary):
                     lineage_dictionary[f'{child}'] = parent
     # print(lineage_dictionary)
-    file = open('output/agent.ttl', 'w', encoding = 'UTF-8')
+    file = open('turtle/agent.ttl', 'w', encoding = 'UTF-8')
     file.write(PREFIX)
     file.write('#######################################################\n')
     file.write('### Individuals (Agent)\n')
@@ -461,6 +461,6 @@ if __name__ == "__main__":
     #     # requires agent_disease.csv, area_disease.csv, disease_list.csv
 
     # merge_ttl(['agent', 'area', 'disease', 'lectin', 'ligand', 'pubmed', 'referenced_interaction', 'structure'])
-    # passing string arguments which corresponds to the file name stored in the output folder
+    # passing string arguments which corresponds to the file name stored in the turtle folder
 
 

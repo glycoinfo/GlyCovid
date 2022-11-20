@@ -36,7 +36,7 @@ namespaces_dict = {
     "http://www.ncbi.nlm.nih.gov/pubmed/": "pubmed",
 }
 
-graph_list_of_files_input = glob.glob("RDF/sugarbind/*")
+graph_list_of_files_input = glob.glob("SugarBind/turtle/*")
 
 shaper = Shaper(
     target_classes=target_classes,

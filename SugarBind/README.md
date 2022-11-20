@@ -20,7 +20,7 @@ create folders to store output files.
   * example_data    *[example data folder, storing csv files]*
   * example_output  *[example output folder, storing ttl files]*
   * data            ***[create this folder for storing csv files]***
-  * output          ***[create this folder for storing ttl files]***
+  * turtle          ***[create this folder for storing ttl files]***
     
 ### Step 1
 clone this project and then execute commands below
