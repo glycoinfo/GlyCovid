@@ -1,0 +1,14 @@
+,sid,gid,cid,pmid,disease,pathway,drugbank,chembl,glycan,protein,uniprot,pdb,source
+sid,,,cheminf:CHEMINF_000477,cito:isDiscussedBy,,,,skos:exactMatch,,,,,
+gid,,,,cito:isDiscussedBy,rdfs:seeAlso,obo:RO_0000056,,,,,,pdbo:link_to_pdb,
+cid,,,,,,obo:RO_0000056,skos:exactMatch,skos:exactMatch,,,,,
+pmid,,,,,,,,,,,,,
+disease,,,,,,,,,,,,,
+pathway,,,,,,,,,,,,,dcterms:source
+drugbank,,,,,,,,,,,,,
+chembl,,,,,,,,,,,,,
+glycan,,,,,,,,,,,,,
+protein,,up:encodedBy,,,,obo:RO_0000056,,,,,skos: closeMatch,,
+uniprot,,,,,,,,,,,,,
+pdb,,,,,,,,,,,,,
+source,,,,,,,,,,,,,

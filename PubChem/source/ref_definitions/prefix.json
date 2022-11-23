@@ -1,0 +1,13 @@
+{
+  "bp": "http://www.biopax.org/release/biopax-level3.owl#",
+  "cheminf": "http://semanticscience.org/resource/",
+  "obo": "http://purl.obolibrary.org/obo/",
+  "dcterms": "http://purl.org/dc/terms/",
+  "PDBo": "http://rdf.wwpdb.org/schema/pdbx-v40.owl#",
+  "meshv": "http://id.nlm.nih.gov/mesh/vocab#",
+  "up": "https://www.uniprot.org/core/",
+  "skos": "http://www.w3.org/2004/02/skos/core#",
+  "fabio": "http://purl.org/spar/fabio/",
+  "cito": "http://purl.org/spar/cito/",
+  "rdfs": "http://www.w3.org/2000/01/rdf-schema#"
+}

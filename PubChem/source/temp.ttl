@@ -1,0 +1,57 @@
+<https://id.nlm.nih.gov/mesh/191900>
+    a <http://id.nlm.nih.gov/mesh/vocab#Concept> ;
+    rdfs:label "191900" .
+
+<http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID10000015>
+    a obo:CHEBI_24431 ;
+    rdfs:label "10000015" .
+
+<http://rdf.ncbi.nlm.nih.gov/pubchem/source/ID23465>
+    a dcterms:Dataset ;
+    rdfs:label "ID23465" .
+
+<https://identifiers.org/pubmed:10200307>
+    a <http://purl.org/spar/fabio/JournalArticle> ;
+    rdfs:label "10200307" .
+
+<https://identifiers.org/drugbank:DB00006>
+    a cheminf:CHEMINF_000406 ;
+    rdfs:label "DB00006" .
+
+<http://rdf.ebi.ac.uk/resource/chembl/molecule/CHEMBL10>
+    a cheminf:CHEMINF_000412 ;
+    rdfs:label "CHEMBL10" .
+
+<https://rdf.wwpdb.org/pdb/1A0N>
+    a <https://rdf.wwpdb.org/schema/pdbx-v50.owl#datablock> ;
+    rdfs:label "1A0N" .
+
+<http://rdf.ncbi.nlm.nih.gov/pubchem/protein/ACC1FO2_A>
+    <http://rdf.ncbi.nlm.nih.gov/pubchem/vocabulary#hasSimilarProtein> <http://rdf.ncbi.nlm.nih.gov/pubchem/protein/ACCQ9UKM7> ;
+    a bp:Protein ;
+    rdfs:label "1FO2_A" .
+
+<http://rdf.ncbi.nlm.nih.gov/pubchem/pathway/PWID1>
+    a bp:Pathway ;
+    rdfs:label "1" .
+
+<http://rdf.glycoinfo.org/glycan/G00027MO>
+    a glycan:Saccharide ;
+    rdfs:label "G00027MO" .
+
+<http://purl.uniprot.org/uniprot/1BIL_A>
+    a up:Protein ;
+    rdfs:label "1BIL_A" .
+
+<http://rdf.ncbi.nlm.nih.gov/pubchem/gene/GID55230940>
+    cito:isDiscussedBy <https://doi.org/10.1021/acs.chemrestox.6b00337>, <https://identifiers.org/pubmed:27989131> ;
+    a bp:Gene ;
+    rdfs:label "55230940" ;
+    rdfs:seeAlso <https://id.nlm.nih.gov/mesh/D002779> .
+
+<http://rdf.ncbi.nlm.nih.gov/pubchem/substance/SID103163765>
+    cito:isDiscussedBy <https://doi.org/10.1097/00024382-200207000-00008>, <https://doi.org/10.1124/dmd.112.048470>, <https://identifiers.org/pubmed:12095132>, <https://identifiers.org/pubmed:23073734> ;
+    a obo:CHEBI_24431 ;
+    rdfs:label "103163765" ;
+    skos:exactMatch <http://rdf.ebi.ac.uk/resource/chembl/molecule/CHEMBL2> .
+

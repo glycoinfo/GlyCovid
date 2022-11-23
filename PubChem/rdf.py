@@ -71,6 +71,9 @@ def get_new_gene_list():
 
 
 def scrape(gene_list):
+    """
+    Scrate every gene resource in PubChem web page and save data/gene/ directory
+    """
     # 任意のディレクトリを指定
     download_directory = 'data//gene/'
     download_url = 'https://pubchem.ncbi.nlm.nih.gov/gene/'
@@ -119,6 +122,9 @@ def scrape(gene_list):
 
 
 def mkdir():
+    """
+    data/gene/のファイルを分類してdata/dir/に入れていく
+    """
     mkdir_dir = 'data/dir/'
     directry = 'data/gene'
     mkdir_tuple = (
@@ -204,199 +210,10 @@ def mkdir():
         new_path_rhea = shutil.copy(l_rhea[i], mkdir_dir+"rhea")
 
 
-def delete_patywayreaction_in_pathwaygene_deirectory(d_today):
-    l_pathwayreaction = glob.glob(
-        ".//data/" + d_today + "/dir/pathwaygene/*_pathwayreaction*.csv", recursive=True)
-    for i in range(len(l_pathwayreaction)):
-        os.remove(l_pathwayreaction[i])
-        print('removed -> ', l_pathwayreaction[i])
-
-
-def curate_file_conmma_inquote(d_today):
-    l_pathwayreaction = glob.glob(
-        "./data/" + d_today + "/dir/pathwaygene/*_pathway*.csv", recursive=True)
-    for i in range(len(l_pathwayreaction)):
-        with open(l_pathwayreaction[i], 'r') as f:
-            fileText = f.read()
-            pre = fileText
-            fileText = fileText.replace('\t', '')
-            fileText = fileText.replace('   ', '')
-        if(pre != fileText):
-            print('replace: ', l_pathwayreaction[i])
-            with open(l_pathwayreaction[i], "w") as f:
-                f.write(fileText)
-    l_pathwayreaction = glob.glob(
-        "./data/" + d_today + "/dir/pathwayreaction/*_pathwayreaction.csv", recursive=True)
-    for i in range(len(l_pathwayreaction)):
-        with open(l_pathwayreaction[i], 'r') as f:
-            fileText = f.read()
-            pre = fileText
-            fileText = fileText.replace('\t', '')
-            fileText = fileText.replace('   ', '')
-        if(pre != fileText):
-            print('replace: ', l_pathwayreaction[i])
-            with open(l_pathwayreaction[i], "w") as f:
-                f.write(fileText)
-
-
-def make_csv_for_togo():
-    # csv内の文字列を分割する必要のあるcolumnsのdict
-    columns_dict = {
-        'data/dir/bioactivity_gene': [],
-        "data/dir/bioassay": ["pmids"],
-        "data/dir/chembldrug": ["pmids", "dois"],
-        "data/dir/ctdchemicalgene": ["pmids"],
-        "data/dir/dgidb": ["pmids", "dois"],
-        "data/dir/drugbank": ["pmids", "dois"],
-        "data/dir/gene_disease": ["pmids", "dois"],
-        "data/dir/gtopdb": ["pmids", "dois"],
-        "data/dir/pathwaygene": ["pmids"],
-        "data/dir/pathwayreaction": ["pmids"],
-        "data/dir/pdb": ["pmids", "dois"]
-    }
-    # RDF作成上必要のないcolumnsのdict
-    droplist = [
-        ["aidtype", "aidmdate", "hasdrc", "rnai", "acname",
-            "acvalue", "aidsrcname", "cmpdname", "ecs", "repacxn"],
-        ["aiddesc", "aidsrcid", "aidsrcname", "aidmdate", "cids", "sids", "geneids",
-            "aidcategories", "protacxns", "depcatg", "rnai", "ecs", "repacxns", "annotation"],
-        ["moa", "action"],
-        ["genesymbol", "taxname", "interaction"],
-        ["geneclaimname", "interactionclaimsource", "interactiontypes",
-            "drugclaimname", "drugclaimprimaryname"],
-        ["genesymbol", "drugtype", "druggroup", "drugaction", "targettype", "targetid",
-            "targetcomponent", "targetcomponentname", "generalfunc", "specificfunc"],
-        ["genesymbol", "directevidence"],
-        ["ligand", "primarytarget", "type", "action", "units",
-            "affinity", "targetname", "targetspecies", "genesymbol"],
-        ["pwtype", "category", "srcid", "extid", "core", "cids",
-            "geneids", "protacxns", "ecs", "annotation"],
-        ["cids", "geneids", "protacxns", "ecs"],
-        ["resolution", "expmethod", "lignme", "cids", "protacxns", "geneids"]
-    ]
-
-    i = 0
-    for directory, columns in columns_dict.items():
-        # csvファイルは任意のディレクトリに保存
-        file_list = glob.glob(f'{directory}/*.csv')
-        print(f'Number of files: {len(file_list)}')
-
-        for file_name in file_list:
-            print(file_name)
-            df = pd.read_csv(file_name)
-            # df = df.drop(droplist[i], axis=1)
-            new_df = pd.DataFrame(columns=df.columns)
-
-            for index in tqdm(df.index, desc=file_name):
-                data = df.iloc[index].to_dict()
-                # 一つのセルに|,で区切られた複数のidを分割し、それぞれ新しい行にする
-                for data_set in itr.product(*[filter(lambda a: a != '', re.split('[|,]', str(data[column]))) for column in columns]):
-                    for column, value in zip(columns, data_set):
-                        data[column] = value
-                    new_df = new_df.append(data, ignore_index=True)
-
-            new_df.to_csv(f'{directory}_s.csv', index=False,
-                          mode='a', header=file_name == file_list[0])
-        i += 1
-
-
-def getColumnNum(bar_column_list, column_num=-1):
-    # 初期化
-    if column_num == -1:
-        column_num = [copy.deepcopy(bar_column_list)]
-        for i in range(len(column_num[0])):
-            column_num[0][i]['count'] = 0
-    # 終了判定
-    done = True
-    for i in range(len(bar_column_list)):
-        if bar_column_list[i]['count'] != column_num[-1][i]['count']:
-            done = False
-    if done:
-        return column_num
-    # カラムのカウント
-    column_num.append(copy.deepcopy(column_num[-1]))
-    column_num[-1][-1]['count'] += 1
-    for i in range(len(column_num[-1])):
-        if(column_num[-1][-1 * i]['count'] > bar_column_list[-1 * i]['count']):
-            column_num[-1][-1 * i]['count'] = 0
-            column_num[-1][-1 * i - 1]['count'] += 1
-    getColumnNum(bar_column_list, column_num)
-    return column_num
-
-
-def sepalateBar(fileText):
-    if '|' not in fileText:
-        return fileText
-
-    fileText_list = fileText.split('\n')
-    bar_row_list = []
-    for l in range(len(fileText_list)-1, 0, -1):
-        if '|' in fileText_list[l]:
-            bar_row_list.append(fileText_list[l])
-            fileText_list.pop(l)
-    for bar_row in bar_row_list:
-        bar_column_list = []
-        column_list = bar_row.split(',')
-        for l in range(len(column_list)):
-            bar_count = column_list[l].count('|')
-            if bar_count > 0:
-                bar_column_list.append({'num': l, 'count': bar_count})
-
-    result = getColumnNum(bar_column_list)
-
-    for l in range(len(result)):
-        print(l, ':\t', result[l])
-    print(bar_column_list)
-
-    fileText = '\n'.join(fileText) + ','
-    row_list = fileText.split('\n')
-    row_count = 0
-    for row in row_list:
-        for pattern in result:
-            fileText = fileText[0:-1] + '\n'
-            columns = row.split(',')
-            for i in range(len(columns)):
-                no_bar = True
-                for r in pattern:
-                    if i == r['num']:
-                        no_bar = False
-                        fileText += columns[r['num']
-                                            ].split('|')[r['count']] + ','
-                    if no_bar:
-                        fileText += columns[i] + ','
-        print('->', row_count, '/', len(row_list))
-        row_count += 1
-    return fileText
-
-
-def curate_csv_file():
-    file_list = glob.glob("./data/dir/*_s.csv", recursive=True)
-    for i in range(len(file_list)):
-        with open(file_list[i], 'r') as f:
-            fileText = f.read()
-            # 行の最後が,で終わっている場合エラーになるのでnanにする
-            fileText = re.sub('\,\\n', ',nan\n', fileText)
-            fileText = re.sub(' ', '', fileText)
-            fileText = re.sub('　', '', fileText)
-            # |で区切られている列を複製して分割
-            # if '|' in fileText:
-            #     print(file_list[i], 'has |')
-            # fileText = sepalateBar(fileText)
-
-        # with open(file_list[i], "w") as f:
-        with open('./data/test/' + file_list[i].split('/')[-1], "w") as f:
-            f.write(fileText)
-
-        print('Done: ', file_list[i])
-
 
 if __name__ == "__main__":
     get_new_gene_file()
     gene_list = get_new_gene_list()
 
     scrape(gene_list)
-    delete_patywayreaction_in_pathwaygene_deirectory()
-    curate_file_conmma_inquote()
-    make_csv_for_togo()
-
-    curate_csv_file()
+    mkdir()

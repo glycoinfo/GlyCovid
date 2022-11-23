@@ -1,5 +1,8 @@
 from rdflib import URIRef
 
+from copy import copy
+import re
+
 
 def uri_ref():
     return {
@@ -41,9 +44,6 @@ def uri_ref():
     }
 
 
-from copy import copy
-import re
-
 def has_bar_in_row(row):
     for column in row:
         if "|" in column:
@@ -77,6 +77,3 @@ def expansion_tsv_row(row_list: list):
     if has_bar_in_row_list(result_list):
         result_list = expansion_tsv_row(result_list)
     return result_list
-
-
-
