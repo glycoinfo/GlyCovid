@@ -1,6 +1,17 @@
 from rdflib.namespace import RDF
 
 def create_ttl(g, u, row):
+    """
+    geneid: 10018
+    genesymbol: BCL2L11
+    diseasesrcdb: MeSH
+    diseaseextid: D015209
+    diseasename: Cholangitis, Sclerosing
+    directevidence: marker/mechanism
+    pmids: 21151127
+    dois: 10.1038/ng.728
+    """
+
     Interactor_ab = create_subject_uri(row[0], row[1])
     g.add((Interactor_ab, RDF.type, molecular_interaction))
 

@@ -1,47 +1,93 @@
 from rdflib import URIRef
+import traceback
 
 from copy import copy
 import re
 
 
+def g_add_with_valid(g, s, p, o):
+    if s and o:
+        try:
+            print(s, " ", p, " ", o)
+            g.add((s, p, o))
+        except:
+            traceback.print_exc()
+            print("Triple:")
+            print("s: ", s)
+            print("p: ", p)
+            print("o: ", o)
+    return g
+
+
 def uri_ref():
-    return {
-        #############################
-        # predicate
-        #############################
-        "detected_by": URIRef("http://www.bioassayontology.org/bao#BAO_0002875"),
-        "pub_id": URIRef("http://purl.obolibrary.org/obo/IAO_0000119"),
-        "has_interaction_type_obo": URIRef(
-            "http://purl.obolibrary.org/obo/INO_0000154"
-        ),
-        "has_interaction_type_bp": URIRef(
-            "http://www.biopax.org/release/biopax-level3.owl#interactionType"
-        ),
-        "souce_db": URIRef("http://purl.org/dc/elements/1.1/source"),
-        "has_interaction_id": URIRef("http://purl.org/dc/elements/1.1/identifier"),
-        "organizm": URIRef("http://semanticscience.org/resource/SIO_000253"),
-        "has_interactorA": URIRef(
-            "http://rdf.glycoinfo.org/PSICQUIC/Ontology#has_interactor_A"
-        ),
-        "has_interactorB": URIRef(
-            "http://rdf.glycoinfo.org/PSICQUIC/Ontology#has_interactor_B"
-        ),
-        #############################
-        # classes
-        #############################
-        "molecular_interaction": URIRef("http://biomodels.net/SBO/SBO_0000344"),
-        "publication_identifier": URIRef("http://purl.obolibrary.org/obo/NCIT_C93638"),
-        "interaction_id": URIRef(
-            "http://rdf.glycoinfo.org/PSICQUIC/Ontology#InteractionId"
-        ),
-        "functional_entiry": URIRef("http://biomodels.net/SBO/SBO_0000241"),
-        "host_organism": URIRef("http://purl.obolibrary.org/obo/EUPATH_0000591"),
-        "in_vitro": URIRef("http://www.bioassayontology.org/bao#BAO_0020008"),
-        "chemical_synthesis": URIRef("http://semanticscience.org/resource/SIO_000559"),
-        "unidentified": URIRef(
-            "http://purl.bioontology.org/ontology/SNOMEDCT/69910005"
-        ),
+    u = type(
+        "URIRef",
+        (object,),
+        {
+            #############################
+            # predicate
+            #############################
+            "sid2cid": URIRef("http://semanticscience.org/resource/CHEMINF_000477"),
+            "sid2chembl": URIRef("http://www.w3.org/2004/02/skos/core#exactMatch"),
+            "sid2pmid": URIRef("http://purl.org/spar/cito/isDiscussedBy"),
+            "gid2pmid": URIRef("http://purl.org/spar/cito/isDiscussedBy"),
+            "gid2pdb": URIRef("http://rdf.wwpdb.org/schema/pdbx-v40.owl#link_to_pdb"),
+            "gid2disease": URIRef("http://www.w3.org/2000/01/rdf-schema#seeAlso"),
+            "gid2pathway": URIRef("http://purl.obolibrary.org/obo/RO_0000056"),
+            "protein2gid": URIRef("https://www.uniprot.org/core/encodedBy"),
+            "protein2uniprot": URIRef("http://www.w3.org/2004/02/skos/closeMatch"),
+            "protein2pathway": URIRef("http://purl.obolibrary.org/obo/RO_0000056"),
+            "pathway2soure": URIRef("http://purl.org/dc/terms/source"),
+            "cid2pathway": URIRef("http://purl.obolibrary.org/obo/RO_0000056"),
+            "cid2drugbank": URIRef("http://www.w3.org/2004/02/skos/exactMatch"),
+            "cid2chembl": URIRef("http://www.w3.org/2004/02/skos/exactMatch"),
+            #############################
+            # classes
+            #############################
+            "protein": URIRef(
+                "http://www.biopax.org/release/biopax-level3.owl#Protein"
+            ),
+            "uniprot": URIRef("up:Protein"),
+            "gid": URIRef("http://www.biopax.org/release/biopax-level3.owl#Gene"),
+            "cid": URIRef("http://purl.obolibrary.org/obo/CHEBI_24431"),
+            "sid": URIRef("http://purl.obolibrary.org/obo/CHEBI_24431"),
+            "pmid": URIRef("http://purl.org/spar/fabio/JournalArticle"),
+            "disease": URIRef("http://id.nlm.nih.gov/mesh/vocab#Concept"),
+            "chembl": URIRef("http://semanticscience.org/resource/CHEMINF_000412"),
+            "drugbank": URIRef("http://semanticscience.org/resource/CHEMINF_000406"),
+            "source": URIRef("http://purl.org/dc/terms/Dataset"),
+            "pathway": URIRef(
+                "http://www.biopax.org/release/biopax-level3.owl#Pathway"
+            ),
+            "pdb": URIRef("https://rdf.wwpdb.org/schema/pdbx-v50.owl#datablock"),
+            "glycan": URIRef("glycan:Saccharide"),
+        },
+    )
+    return u
+
+
+
+def id2uri(id: str, source: str):
+    uri_set = {
+        "sid": "http://rdf.ncbi.nlm.nih.gov/pubchem/substance/",
+        "gid": "http://rdf.ncbi.nlm.nih.gov/pubchem/gene/",
+        "cid": "http://rdf.ncbi.nlm.nih.gov/pubchem/compound/",
+        "pmid": "https://identifiers.org/pubmed:",
+        "disease": "https://id.nlm.nih.gov/mesh/",
+        "pathway": "http://rdf.ncbi.nlm.nih.gov/pubchem/pathway/",
+        "drugbank": "https://identifiers.org/drugbank:",
+        "chembl": "http://rdf.ebi.ac.uk/resource/chembl/molecule/",
+        "glycan": "http://rdf.glycoinfo.org/glycan/",
+        "protein": "http://rdf.ncbi.nlm.nih.gov/pubchem/protein/",
+        "uniprot": "http://purl.uniprot.org/uniprot/",
+        "pdb": "https://rdf.wwpdb.org/pdb/",
+        "source": "http://rdf.ncbi.nlm.nih.gov/pubchem/source/",
     }
+    if id == "NULL" or id == "" or id == "=":
+        return False
+    uri_header = uri_set[source]
+    uri = uri_header + id
+    return URIRef(uri)
 
 
 def has_bar_in_row(row):

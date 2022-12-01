@@ -1,6 +1,22 @@
 from rdflib.namespace import RDF
 
 def create_ttl(g, u, row):
+    """
+    geneid: 10018
+    genename: BCL2L11
+    geneclaimname: BCL2L11
+    interactionclaimsource: PharmGKB
+    interactiontypes: NULL
+    sid: 103245522
+    cid: 5291
+    drugname: IMATINIB
+    drugclaimname: imatinib
+    drugclaimprimaryname: imatinib
+    drugchemblid: CHEMBL941
+    pmids: 24223824
+    cmpdname: Imatinib
+    dois: 10.1371/journal.pone.0078582
+    """
     Interactor_ab = create_subject_uri(row[0], row[1])
     g.add((Interactor_ab, RDF.type, molecular_interaction))
 

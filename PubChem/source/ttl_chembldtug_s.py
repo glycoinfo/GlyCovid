@@ -1,6 +1,22 @@
 from rdflib.namespace import RDF
 
 def create_ttl(g, u, row):
+    """
+    mecid: 4919
+    cid: 51049968
+    chemblid: CHEMBL2178422
+    drugname: RIMEGEPANT
+    moa: Calcitonin gene-related peptide type 1 receptor antagonist
+    action: ANTAGONIST
+    targetchemblid: CHEMBL3798
+    targetname: Calcitonin gene-related peptide type 1 receptor
+    protacxns: Q16602
+    geneids: 10203
+    pmids: 23153230
+    cmpdname: Rimegepant
+    dois: 10.1021/jm3013147
+    """
+
     Interactor_ab = create_subject_uri(row[0], row[1])
     g.add((Interactor_ab, RDF.type, molecular_interaction))
 

@@ -1,6 +1,18 @@
 from rdflib.namespace import RDF
 
 def create_ttl(g, u, row):
+    """
+    cid: 370
+    chemicalid: D005707
+    chemicalname: Gallic Acid
+    genesymbol: BCL2L11
+    geneid: 10018
+    taxname: Mus musculus
+    taxid: 10090
+    interaction: Gallic Acid results in decreased expression of BCL2L11 mRNA
+    pmids: 29205955
+    """
+
     Interactor_ab = create_subject_uri(row[0], row[1])
     g.add((Interactor_ab, RDF.type, molecular_interaction))
 
