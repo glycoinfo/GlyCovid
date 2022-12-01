@@ -1,4 +1,7 @@
-from rdflib import URIRef
+from rdflib.namespace import RDF
+from rdflib import Graph, Literal, Namespace, URIRef, BNode
+import csv
+import json
 import traceback
 
 from copy import copy
@@ -66,6 +69,14 @@ def uri_ref():
     return u
 
 
+def is_uniprot_id(id: str) -> bool:
+    if re.match(r"^(?:(?<id1>[A-NR-Z][0-9](?:[A-Z][A-Z0-9][A-Z0-9][0-9]){1,2}(?:-\d+)?)|(?<id2>[OPQ][0-9][A-Z0-9][A-Z0-9][A-Z0-9][0-9](?:-\d+)?)(?:\.\d+)?)$", id):
+        return True
+    return False
+def is_correct_id(id: str) -> bool:
+    if id == "NULL" or id == "" or id == "=":
+        return False
+    return True
 
 def id2uri(id: str, source: str):
     uri_set = {
@@ -83,8 +94,12 @@ def id2uri(id: str, source: str):
         "pdb": "https://rdf.wwpdb.org/pdb/",
         "source": "http://rdf.ncbi.nlm.nih.gov/pubchem/source/",
     }
-    if id == "NULL" or id == "" or id == "=":
+    # validate uniprot id
+    if source == "protein" and not is_uniprot_id(source):
         return False
+    if is_correct_id(id):
+        return False
+    id = re.sub(r"\s", "", id)
     uri_header = uri_set[source]
     uri = uri_header + id
     return URIRef(uri)

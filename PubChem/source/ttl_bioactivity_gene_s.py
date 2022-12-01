@@ -4,7 +4,7 @@ import csv
 import json
 
 
-def create_ttl(g, u, row):
+def create_ttl(g, u, row: dict):
     """
     baid: 99415175
     activity: Active
@@ -33,11 +33,11 @@ def create_ttl(g, u, row):
     targettaxid
     """
 
-    sid = id2uri(row[3], "sid")
-    cid = id2uri(row[4], "cid")
-    gid = id2uri(row[5], "gid")
-    pmid = id2uri(row[6], "pmid")
-    protein = id2uri(row[11], "protein")
+    sid = id2uri(row["sid"], "sid")
+    cid = id2uri(row["cid"], "cid")
+    gid = id2uri(row["geneid"], "gid")
+    pmid = id2uri(row["pmid"], "pmid")
+    protein = id2uri(row["protacxn"], "protein")
 
     g_add_with_valid(g, sid, RDF.type, u.sid)
     g_add_with_valid(g, sid, u.sid2cid, cid)

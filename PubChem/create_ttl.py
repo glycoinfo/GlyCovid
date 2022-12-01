@@ -1,5 +1,6 @@
 from source.utils import uri_ref, expansion_tsv_row
 from rdflib import Graph, Literal, Namespace, URIRef, BNode
+from copy import copy
 from source import (
     ttl_bioactivity_gene_s,
     ttl_bioassay_s,
@@ -51,16 +52,17 @@ def create_ttl():
             f"PubChem/data/dir/{data_name}/*.csv", recursive=True
         )
         for csv_file_path in list_csv_file_path:
-            with open(csv_file_path) as f1:
+            with open(csv_file_path, encoding='utf-8-sig') as f1:
                 reader = csv.reader(f1, delimiter=",")
-                next(reader)
+                headers = next(reader)
                 for row_in_bar in reader:
                     # Expansion by | which is separate data in same colmn
                     rows = expansion_tsv_row([row_in_bar])
                     for row in rows:
+                        row_dict = {header: row[i] for i, header in enumerate(headers)}
                         if len(row) <= 1:
                             continue
-                        g = ttl(g, u, row)
+                        g = ttl(g, u, row_dict)
         serialize(g, data_name)
 
 
