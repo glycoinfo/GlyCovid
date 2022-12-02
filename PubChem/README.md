@@ -41,7 +41,7 @@ PubChem
 ![img](img/sample_sparql.png)
 
 ## ShEx file by sheXer
-[[shexer/shex_20221202112539.shex]]
+- [shexer/shex_20221202112539.shex](shexer/shex_20221202112539.shex)
 
 ## Sample triples
 ``` ttl
