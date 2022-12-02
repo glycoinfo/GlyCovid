@@ -1,6 +1,6 @@
 # glycovid_PubChem
 ## RDF schema
-![RDF schema](img/schema.png)
+![RDF schema](img/schema.jpg)
 
 ## System overview
 - Scrape PubChem web resources in `https://pubchem.ncbi.nlm.nih.gov/#query=covid-19`
@@ -37,23 +37,37 @@ PubChem
 └── create_ttl.py              # Create rdf files from scraped data in data/ directroy.
 ```
 
-%% ## Sup
-%% # Scrape PubChem data resorces
-%% python rdf.py
-%%
-%% ### Purpose
-%% PubChemサイトのcovid19ページからプロジェクトで必要なデータである遺伝子、タンパク質、パスウェイの情報をcsvファイルとしてダウンロードする。次にそのファイルからRDFを作るために不必要なデータを削除し整形する。最後に、ファイルを種類別に統合させて一つのファイルにする。それぞれの過程を実行するプログラムをPythonの言語によって実装した。
-%%
-%% ### Steps
-%%
-%% #### Step1 スクレイピング
-%% ＊まず上記のPubchemページへアクセスし、タブ"gene"をクリックする。https://pubchem.ncbi.nlm.nih.gov/#query=covid-19&tab=gene
-%% そして、右側のSummaryというボタンを押し、csvファイルをダウンロードする。このcsvファイルにはcovid19に関連するすべての遺伝子情報が含まれており、PubChem独自のIDで管理されている。
-%%
-%% ＊次に、rdf.pyのscrape()関数を実行する。ただし、chromedriverを使ったブラウザクローリングを行うスクレイピングのため、GooggleChromeとchromedriverのバージョンを同期しておく必要がある。また、chromedriverは実行する環境下のディレクトリで管理する必要がある。scrape()関数内で、絶対パスを通す必要がある。
-%%
-%% #### Step2 ディレクトリ作成
-%% ＊スクレイピング後、ファイルを一つにするプログラムを実行するためにそれぞれのファイルを種類別のディレクトリに移動する。rdf.pyのmkdir()関数で実行される。ただし、実行する環境内で、事前に空のディレクトリを準備しておく必要がある。ディレクトリ名は、pdb, bioactive_gene, drugbank, chembldrug, gtopdb, bioassay, gene-disease, dgidb, ctdchemicalgene, pathwayreaction, pathwaygeneである。
-%%
-%% #### Step3 csvファイルの結合
-%% 種類別にcsvファイルを管理できたあと、不必要なカラムは落とし、ファイルを一つに結合する。rdf.pyのmk_csv_for_togo()関数で実行される。
+## Data overview
+![img](img/sample_sparql.png)
+
+## ShEx file by sheXer
+[[shexer/shex_20221202112539.shex]]
+
+## Sample triples
+``` ttl
+# gid
+<http://rdf.ncbi.nlm.nih.gov/pubchem/gene/GID10238> a <http://www.biopax.org/release/biopax-level3.owl#Gene> ;
+    ns1:isDiscussedBy <https://identifiers.org/pubmed:16759393>,
+        <https://identifiers.org/pubmed:24056718> ;
+    rdfs:seeAlso <https://id.nlm.nih.gov/mesh/C566025>,
+        <https://id.nlm.nih.gov/mesh/D019465> .
+# sid
+<http://rdf.ncbi.nlm.nih.gov/pubchem/substance/SID103163815> a <http://purl.obolibrary.org/obo/CHEBI_24431> ;
+    ns1:isDiscussedBy <https://identifiers.org/pubmed:31563012> ;
+    ns2:CHEMINF_000477 <http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID5281855> .
+# cid
+<http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID10029385> a <http://purl.obolibrary.org/obo/CHEBI_24431> ;
+    ns2:exactMatch <http://rdf.ebi.ac.uk/resource/chembl/molecule/CHEMBL362558> .
+# protein
+<http://purl.uniprot.org/uniprot/O15111> a ns3:Protein ;
+    ns3:encodedBy <http://rdf.ncbi.nlm.nih.gov/pubchem/gene/GID1147>,
+        <http://rdf.ncbi.nlm.nih.gov/pubchem/gene/GID3551> .
+# pmid
+<https://identifiers.org/pubmed:31411465> a <http://purl.org/spar/fabio/JournalArticle> .
+# chembl
+<http://rdf.ebi.ac.uk/resource/chembl/molecule/CHEMBL1014> a <http://semanticscience.org/resource/CHEMINF_000412> .
+# drugbank
+<https://identifiers.org/drugbank:DB00104> a <http://semanticscience.org/resource/CHEMINF_000406> .
+# disease
+<https://id.nlm.nih.gov/mesh/D006973> a <http://id.nlm.nih.gov/mesh/vocab#Concept> .
+```

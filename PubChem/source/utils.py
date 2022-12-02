@@ -52,7 +52,6 @@ def uri_ref():
             "disease": URIRef("http://id.nlm.nih.gov/mesh/vocab#Concept"),
             "chembl": URIRef("http://semanticscience.org/resource/CHEMINF_000412"),
             "drugbank": URIRef("http://semanticscience.org/resource/CHEMINF_000406"),
-            "source": URIRef("http://purl.org/dc/terms/Dataset"),
         },
     )
     return u
