@@ -53,11 +53,6 @@ def uri_ref():
             "chembl": URIRef("http://semanticscience.org/resource/CHEMINF_000412"),
             "drugbank": URIRef("http://semanticscience.org/resource/CHEMINF_000406"),
             "source": URIRef("http://purl.org/dc/terms/Dataset"),
-            # "pathway": URIRef(
-            #     "http://www.biopax.org/release/biopax-level3.owl#Pathway"
-            # ),
-            # "pdb": URIRef("https://rdf.wwpdb.org/schema/pdbx-v50.owl#datablock"),
-            # "glycan": URIRef("glycan:Saccharide"),
         },
     )
     return u
@@ -81,19 +76,14 @@ def is_correct_id(id: str) -> bool:
 
 def id2uri(id: str, source: str):
     uri_set = {
-        "sid": "http://rdf.ncbi.nlm.nih.gov/pubchem/substance/",
-        "gid": "http://rdf.ncbi.nlm.nih.gov/pubchem/gene/",
-        "cid": "http://rdf.ncbi.nlm.nih.gov/pubchem/compound/",
+        "sid": "http://rdf.ncbi.nlm.nih.gov/pubchem/substance/SID",
+        "gid": "http://rdf.ncbi.nlm.nih.gov/pubchem/gene/GID",
+        "cid": "http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID",
         "pmid": "https://identifiers.org/pubmed:",
         "disease": "https://id.nlm.nih.gov/mesh/",
-        "pathway": "http://rdf.ncbi.nlm.nih.gov/pubchem/pathway/",
         "drugbank": "https://identifiers.org/drugbank:",
         "chembl": "http://rdf.ebi.ac.uk/resource/chembl/molecule/",
-        "glycan": "http://rdf.glycoinfo.org/glycan/",
-        "protein": "http://rdf.ncbi.nlm.nih.gov/pubchem/protein/",
-        "uniprot": "http://purl.uniprot.org/uniprot/",
-        "pdb": "https://rdf.wwpdb.org/pdb/",
-        "source": "http://rdf.ncbi.nlm.nih.gov/pubchem/source/",
+        "protein": "http://purl.uniprot.org/uniprot/",
     }
     # validate uniprot id
     id = re.sub(r"\s", "", id)
