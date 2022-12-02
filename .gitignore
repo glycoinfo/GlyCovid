@@ -5,5 +5,5 @@ __pycache__/
 RDF/sugarbind/*
 RDF/pubchem/*
 RDF/psicquic/*
-./.python-version
-./.vim-bookmarks
+.python-version
+.vim-bookmarks
