@@ -1,0 +1,67 @@
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX glycan: <http://purl.jp/bio/12/glyco/glycan#>
+PREFIX interaction: <http://rdf.glycoinfo.org/ontology/interaction#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX glycoinfo: <http://rdf.glycoinfo.org/glycan/>
+PREFIX obo: <http://purl.obolibrary.org/obo/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX pubmed: <http://www.ncbi.nlm.nih.gov/pubmed/>
+PREFIX bp: <http://www.biopax.org/release/biopax-level3.owl#>
+PREFIX cheminf: <http://semanticscience.org/resource/>
+PREFIX PDBo: <http://rdf.wwpdb.org/schema/pdbx-v40.owl#>
+PREFIX meshv: <http://id.nlm.nih.gov/mesh/vocab#>
+PREFIX up: <https://www.uniprot.org/core/>
+PREFIX fabio: <http://purl.org/spar/fabio/>
+PREFIX cito: <http://purl.org/spar/cito/>
+PREFIX : <http://weso.es/shapes/>
+
+:Gene
+{
+   rdf:type  [bp:Gene]  ;                                      # 100.0 %
+   cito:isDiscussedBy  @:JournalArticle  *;
+            # 96.89963215974777 % obj: @:JournalArticle. Cardinality: +
+            # 18.260641093011035 % obj: @:JournalArticle. Cardinality: {1}
+   rdfs:seeAlso  @:Concept  *
+            # 35.233841303205466 % obj: @:Concept. Cardinality: +
+}
+
+
+:CHEBI_24431
+{
+   rdf:type  [obo:CHEBI_24431]  ;                              # 100.0 %
+   cheminf:CHEMINF_000477  @:CHEBI_24431  *;
+            # 50.24050061487212 % obj: @:CHEBI_24431. Cardinality: +
+            # 47.468487055355254 % obj: @:CHEBI_24431. Cardinality: {1}
+   cito:isDiscussedBy  @:JournalArticle  *
+            # 10.48755108467753 % obj: @:JournalArticle. Cardinality: +
+}
+
+
+:JournalArticle
+{
+   rdf:type  [fabio:JournalArticle]                            # 100.0 %
+}
+
+
+:Concept
+{
+   rdf:type  [meshv:Concept]                                   # 100.0 %
+}
+
+
+:CHEMINF_000412
+{
+   rdf:type  [cheminf:CHEMINF_000412]                          # 100.0 %
+}
+
+
+:CHEMINF_000406
+{
+   rdf:type  [cheminf:CHEMINF_000406]                          # 100.0 %
+}
+
+

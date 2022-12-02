@@ -27,12 +27,15 @@ def create_ttl(g, u, row):
     pmid = id2uri(row["pmids"], "pmid")
 
     g_add_with_valid(g, cid, RDF.type, u.cid)
+    g_add_with_valid(g, cid, u.cid2chembl, chembl)
 
     g_add_with_valid(g, chembl, RDF.type, u.chembl)
 
     g_add_with_valid(g, protein, RDF.type, u.protein)
+    g_add_with_valid(g, protein, u.protein2gid, gid)
 
     g_add_with_valid(g, gid, RDF.type, u.gid)
+    g_add_with_valid(g, gid, u.gid2pmid, pmid)
 
     g_add_with_valid(g, pmid, RDF.type, u.pmid)
     return g

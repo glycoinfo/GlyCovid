@@ -18,18 +18,20 @@ def create_ttl(g, u, row):
     dois: 10.1046/j.1432-1327.2000.01701.x
     """
 
-    cid = id2uri(row["cids"], "")
-    protein = id2uri(row["protacxns"], "")
-    pmid = id2uri(row["pmids"], "")
-    gid = id2uri(row["geneids"], "")
+    cid = id2uri(row["cids"], "cid")
+    protein = id2uri(row["protacxns"], "protein")
+    pmid = id2uri(row["pmids"], "pmid")
+    gid = id2uri(row["geneids"], "gid")
 
     g_add_with_valid(g, cid, RDF.type, u.cid)
 
     g_add_with_valid(g, protein, RDF.type, u.protein)
+    g_add_with_valid(g, protein, u.protein2gid, gid)
 
     g_add_with_valid(g, pmid, RDF.type, u.pmid)
 
     g_add_with_valid(g, gid, RDF.type, u.gid)
+    g_add_with_valid(g, gid, u.gid2pmid, pmid)
     
     return g
 

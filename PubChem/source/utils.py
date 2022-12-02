@@ -11,14 +11,11 @@ import re
 def g_add_with_valid(g, s, p, o):
     if s and o:
         try:
-            print(s, " ", p, " ", o)
             g.add((s, p, o))
         except:
             traceback.print_exc()
-            print("Triple:")
-            print("s: ", s)
-            print("p: ", p)
-            print("o: ", o)
+            print("Triple:", s, p, o)
+            print("---------------------------------")
     return g
 
 
@@ -47,10 +44,7 @@ def uri_ref():
             #############################
             # classes
             #############################
-            "protein": URIRef(
-                "http://www.biopax.org/release/biopax-level3.owl#Protein"
-            ),
-            "uniprot": URIRef("up:Protein"),
+            "protein": URIRef("https://www.uniprot.org/core/Protein"),
             "gid": URIRef("http://www.biopax.org/release/biopax-level3.owl#Gene"),
             "cid": URIRef("http://purl.obolibrary.org/obo/CHEBI_24431"),
             "sid": URIRef("http://purl.obolibrary.org/obo/CHEBI_24431"),
@@ -59,24 +53,31 @@ def uri_ref():
             "chembl": URIRef("http://semanticscience.org/resource/CHEMINF_000412"),
             "drugbank": URIRef("http://semanticscience.org/resource/CHEMINF_000406"),
             "source": URIRef("http://purl.org/dc/terms/Dataset"),
-            "pathway": URIRef(
-                "http://www.biopax.org/release/biopax-level3.owl#Pathway"
-            ),
-            "pdb": URIRef("https://rdf.wwpdb.org/schema/pdbx-v50.owl#datablock"),
-            "glycan": URIRef("glycan:Saccharide"),
+            # "pathway": URIRef(
+            #     "http://www.biopax.org/release/biopax-level3.owl#Pathway"
+            # ),
+            # "pdb": URIRef("https://rdf.wwpdb.org/schema/pdbx-v50.owl#datablock"),
+            # "glycan": URIRef("glycan:Saccharide"),
         },
     )
     return u
 
 
 def is_uniprot_id(id: str) -> bool:
-    if re.match(r"^(?:(?<id1>[A-NR-Z][0-9](?:[A-Z][A-Z0-9][A-Z0-9][0-9]){1,2}(?:-\d+)?)|(?<id2>[OPQ][0-9][A-Z0-9][A-Z0-9][A-Z0-9][0-9](?:-\d+)?)(?:\.\d+)?)$", id):
+    if re.match(
+        r"^([A-NR-Z][0-9](?:[A-Z][A-Z0-9][A-Z0-9][0-9]){1,2}(?:-\d+)?)|([OPQ][0-9][A-Z0-9][A-Z0-9][A-Z0-9][0-9](?:-\d+)?)(?:\.\d+)?$",
+        id,
+    ):
         return True
+    # print("Not match with Uniprot ID: ", id)
     return False
+
+
 def is_correct_id(id: str) -> bool:
     if id == "NULL" or id == "" or id == "=":
         return False
     return True
+
 
 def id2uri(id: str, source: str):
     uri_set = {
@@ -95,11 +96,11 @@ def id2uri(id: str, source: str):
         "source": "http://rdf.ncbi.nlm.nih.gov/pubchem/source/",
     }
     # validate uniprot id
-    if source == "protein" and not is_uniprot_id(source):
-        return False
-    if is_correct_id(id):
-        return False
     id = re.sub(r"\s", "", id)
+    if not is_correct_id(id):
+        return False
+    if source == "protein" and not is_uniprot_id(id):
+        return False
     uri_header = uri_set[source]
     uri = uri_header + id
     return URIRef(uri)

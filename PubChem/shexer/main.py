@@ -8,18 +8,17 @@ JST = datetime.timezone(t_delta, "JST")
 now = datetime.datetime.now(JST)
 
 target_classes = [
-    "http://purl.obolibrary.org/obo/CHEBI_24431",
-    "http://togodb.org/ctdchemicalgene_s",
-    "http://togodb.org/pathwayreaction_s",
-    # "http://togodb.org/dgidb_s__drugchemblid",
-    "http://purl.org/spar/fabio/journalArticle",
-    # "http://togodb.org/chembldrug_s__drugchemblid",
-    "http://id.nlm.nih.gov/mesh/vocab#Concept",
-    "http://www.biopax.org/release/biopax-level3.owl#Protein",
+    "https://www.uniprot.org/core/Protein",
     "http://www.biopax.org/release/biopax-level3.owl#Gene",
+    "http://purl.obolibrary.org/obo/CHEBI_24431",
+    "http://purl.obolibrary.org/obo/CHEBI_24431",
+    "http://purl.org/spar/fabio/JournalArticle",
+    "http://id.nlm.nih.gov/mesh/vocab#Concept",
     "http://semanticscience.org/resource/CHEMINF_000412",
-    "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
-    "http://www.w3.org/2000/01/rdf-schema#Class",
+    "http://semanticscience.org/resource/CHEMINF_000406",
+    "http://purl.org/dc/terms/Dataset",
+    "http://www.biopax.org/release/biopax-level3.owl#Pathway",
+    "https://rdf.wwpdb.org/schema/pdbx-v50.owl#datablock",
 ]
 
 namespaces_dict = {

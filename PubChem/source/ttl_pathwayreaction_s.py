@@ -27,30 +27,11 @@ def create_ttl(g, u, row):
     g_add_with_valid(g, cid, RDF.type, u.cid)
 
     g_add_with_valid(g, protein, RDF.type, u.protein)
+    g_add_with_valid(g, protein, u.protein2gid, gid)
 
     g_add_with_valid(g, gid, RDF.type, u.gid)
+    g_add_with_valid(g, gid, u.gid2pmid, pmid)
 
     g_add_with_valid(g, pmid, RDF.type, u.pmid)
     return g
 
-def check_csv_data():
-    csv_file_path = "PubChem/data/dir/pathwayreaction_s.csv"
-    source_list = []
-    with open(csv_file_path) as f1:
-        reader = csv.reader(f1, delimiter=",")
-        for row in reader:
-            if row[1] not in source_list:
-                source_list.append(row[1])
-    for source in source_list:
-        print(source)
-    """Reactome                                                                                                                                     │
-    PathBank                                                                                                                                     │
-    BioCyc                                                                                                                                       │
-    WikiPathways                                                                                                                                 │
-    PharmGKB                                                                                                                                     │
-    INOH                                                                                                                                         │
-    COVID-19 Disease Map
-    """
-
-if __name__ == "__main__":
-    check_csv_data()

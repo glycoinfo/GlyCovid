@@ -16,10 +16,12 @@ def create_ttl(g, u, row):
     """
 
     gid = id2uri(row["geneid"], "gid")
-    disease = id2uri(row["diseaseextid"], "disease") if row["diseasesrcdb"] else False
+    disease = id2uri(row["diseaseextid"], "disease") if row["diseasesrcdb"] == "MeSH" else False
     pmid = id2uri(row["pmids"], "pmid")
 
     g_add_with_valid(g, gid, RDF.type, u.gid)
+    g_add_with_valid(g, gid, u.gid2disease, disease)
+    g_add_with_valid(g, gid, u.gid2pmid, pmid)
 
     g_add_with_valid(g, disease, RDF.type, u.disease)
 

@@ -26,8 +26,10 @@ def create_ttl(g, u, row):
     pmid = id2uri(row["pmids"], "pmid")
 
     g_add_with_valid(g, gid, RDF.type, u.gid)
+    g_add_with_valid(g, gid, u.gid2pmid, pmid)
 
     g_add_with_valid(g, sid, RDF.type, u.sid)
+    g_add_with_valid(g, sid, u.sid2cid, cid)
 
     g_add_with_valid(g, cid, RDF.type, u.cid)
 

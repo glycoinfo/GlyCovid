@@ -26,8 +26,10 @@ def create_ttl(g, u, row):
     g_add_with_valid(g, cid, RDF.type, u.cid)
 
     g_add_with_valid(g, protein, RDF.type, u.protein)
+    g_add_with_valid(g, protein, u.protein2gid, gid)
 
     g_add_with_valid(g, gid, RDF.type, u.gid)
+    g_add_with_valid(g, gid, u.gid2pmid, pmid)
 
     g_add_with_valid(g, pmid, RDF.type, u.pmid)
 
