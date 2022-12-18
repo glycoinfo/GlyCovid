@@ -1,0 +1,22 @@
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX glycan: <http://purl.jp/bio/12/glyco/glycan#>
+PREFIX sbo: <http://rdf.glycoinfo.org/SugarBind/ontology#>
+PREFIX : <http://rdf.glycoinfo.org/PSICQUIC/Ontology#>
+
+SELECT distinct ?s ?glytoucan_uri ?interaction_type
+WHERE {
+  ?s :has_interactor_A ?ia ;
+     :has_interactor_B ?ib .
+  FILTER (
+    (strstarts(str(?ia),"http://rdf.glycoinfo.org/dbid/CHEBI/") && strstarts(str(?ib),"http://rdf.glycoinfo.org/dbid/uniprot/"))
+  )
+  BIND(URI(CONCAT("http://rdf.glycoinfo.org/chebi/",STRAFTER(str(?ia),"http://rdf.glycoinfo.org/dbid/CHEBI/"))) AS ?chebi)        
+  ?s <http://purl.obolibrary.org/obo/INO_0000154> ?interaction_type.
+  SERVICE <https://ts.glycosmos.org/sparql> {
+    ?glytoucan_uri glycan:has_resource_entry ?chebi .
+    FILTER CONTAINS (str(?glytoucan_uri), "glycan")
+  }
+}
