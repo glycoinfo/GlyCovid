@@ -1,5 +1,5 @@
 # GlyCovid
-This repository is related to GlyCovid project.
+This repository is related to GlyCovid project, which aims to integrate glycan-binding information related to pathogens, including SARS-CoV-2.
 
 # Scripts to RDFization from databases.
 - [PubChem](./PubChem/)
